@@ -1,3 +1,5 @@
+> GitHub 精简归档说明：以下命令用于原始本地工作区，依赖原项目模块、历史输入和既有 Python 环境。完整结构、QC 明细和输入指纹保留在本地；仅克隆本仓库不足以独立重跑实验。
+
 # 执行与复现命令
 
 工作目录为项目根目录 `/home/zhouwanyao/drive_download/releases/casf_paired_eval`。Python 使用现有 `../.venv-cutoff-train/bin/python`，依赖使用项目已有目录；无需安装或网络检索。

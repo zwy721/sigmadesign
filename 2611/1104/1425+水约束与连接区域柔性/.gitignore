@@ -1,0 +1,23 @@
+# Generated experimental data stay in the full local workspace.
+/structures/
+/quality_A/
+/quality_B/
+/replications/
+/*_details.csv
+/atom_displacements.csv
+/stereo_centers.csv
+/water_contacts.csv
+/water_pair_details.csv
+/per_candidate_results.json
+/summary.json
+/input_*.json
+/input_audit.csv
+/quality_manifest_*.json
+/processing_*.json
+/raw_geometry_stereo.json
+/delivery_fingerprints.json
+/analysis.log
+/report_build.log
+/verification.log
+__pycache__/
+.pytest_cache/
