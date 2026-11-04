@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 540,
+  "function_evaluations": 582,
+  "initial_H_relaxed_MMFF_energy": 1427.6093432123982,
+  "initial_objective": 1428.7052211309715,
+  "final_objective": -42.73061608659874,
+  "heavy_RMSD_no_alignment_A": 0.5355045266823466,
+  "max_atom_displacement_A": 1.1846893719092046,
+  "centroid_displacement_A": 0.133298686739536,
+  "max_fragment_pair_distance_change_A": 5.773159728050814e-15,
+  "fragment_translation_A": [
+    [
+      -0.3184740682561746,
+      -0.0035283091880948855,
+      -0.26929481880931344
+    ],
+    [
+      0.165012433286201,
+      -0.23198153551473422,
+      -0.1281090691651874
+    ],
+    [
+      0.341763527972403,
+      -0.23219145961581683,
+      0.3475079481212025
+    ],
+    [
+      -0.26855820314220075,
+      -0.10386073381256207,
+      0.4218266103546113
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      0.05667069226633361,
+      0.06832889181821465,
+      0.008358736095753598
+    ],
+    [
+      -0.11369528980154385,
+      0.11241324203863684,
+      0.11629436567289592
+    ],
+    [
+      -0.029589986668996197,
+      -0.24101684835946055,
+      -0.013672424971624636
+    ],
+    [
+      -0.04137617077382902,
+      0.016169469869072462,
+      -0.05521179895597841
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.3967672500293702
+}

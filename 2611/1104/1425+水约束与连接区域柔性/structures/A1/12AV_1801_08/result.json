@@ -1,0 +1,15 @@
+{
+  "variant": "A1",
+  "receptor_id": "12AV",
+  "seed": "1801",
+  "rank": 8,
+  "status": "ok",
+  "repair_cpu_seconds": 0.3547524409999987,
+  "repair_wall_seconds": 0.35297966306097806,
+  "postprocess_cpu_seconds": 0.36107223699999835,
+  "postprocess_wall_seconds": 0.36110161303076893,
+  "raw_sha256": "d8423c0fc67678656684464ef2f0bd71a934fbe681562582926a7a3b7b9fdd6c",
+  "spec_sha256": "417ec6996cc9e8d2d36bcea3219abc093052c4dc26706be34016bbc6a139b28a",
+  "derived_sdf": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/A1/12AV_1801_08/derived.sdf",
+  "derived_spec": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/A1/12AV_1801_08/derived_spec.json"
+}

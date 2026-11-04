@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 432,
+  "function_evaluations": 483,
+  "initial_H_relaxed_MMFF_energy": 246.52620048034697,
+  "initial_objective": 268.2567614857425,
+  "final_objective": -93.77351076644723,
+  "heavy_RMSD_no_alignment_A": 0.3913035159246363,
+  "max_atom_displacement_A": 0.7098344388390987,
+  "centroid_displacement_A": 0.07413465004534744,
+  "max_fragment_pair_distance_change_A": 5.329070518200751e-15,
+  "fragment_translation_A": [
+    [
+      0.12350989558464333,
+      0.13511227688450275,
+      0.03898916641748798
+    ],
+    [
+      -0.3063661281265343,
+      0.09476129880888484,
+      0.13915304941460094
+    ],
+    [
+      -0.07902304538758613,
+      -0.20211497535897593,
+      -0.051267250966216656
+    ],
+    [
+      -0.2932150178678444,
+      -0.24529348106983992,
+      -0.08947776554738111
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      0.02940074704343166,
+      -0.08315194615157431,
+      0.01742688589075948
+    ],
+    [
+      -0.17679834178010984,
+      0.1244105097075557,
+      -0.13545353680549777
+    ],
+    [
+      -0.27138311705244406,
+      0.13398243998502987,
+      -0.18855005634120625
+    ],
+    [
+      0.24949863983698575,
+      0.054807087118838485,
+      0.054698134140481545
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.3357291870051995
+}

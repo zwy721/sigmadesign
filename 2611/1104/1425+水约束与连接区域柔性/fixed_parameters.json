@@ -1,0 +1,96 @@
+{
+  "frozen_at_UTC": "2026-11-04T12:42:02.011495+00:00",
+  "purpose": "Single-setting descriptive paired numerical repair on previously inspected test structures",
+  "additional_neural_NFE": 0,
+  "training": false,
+  "reference_conformers_used": false,
+  "new_candidates": 0,
+  "development_decision": "Only one existing development receptor and previously inspected labels; insufficient independent development support. No sweep, no selection, no subsequent retuning.",
+  "baseline_parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "stereo_parameters": {
+    "min_normalized_tetra_volume": 0.1,
+    "perturbation_sigma_A": 0.01,
+    "perturbations": 16,
+    "max_double_planarity_deviation_deg": 15.0,
+    "seed": 20261103
+  },
+  "quality_config_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+  "water": {
+    "weight_kcal_mol_A2": 200.0,
+    "radius_ratio": 0.8,
+    "epsilon_A": 1e-06,
+    "radius_definition": "RDKit van der Waals radii, exactly the original PB water catalog; water O radius 1.55 A",
+    "potential": "E=k*sum(max(ratio*(r_i+r_w)-sqrt(||x_i-w||^2+epsilon^2),0)^2)",
+    "gradient": "dE/dx_i=-2*k*sum(overlap*(x_i-w)/sqrt(||x_i-w||^2+epsilon^2))",
+    "smoothness": "C1 squared hinge with regularized distance; all catalog waters retained without outcome filtering",
+    "rationale": "Same k and ratio as existing non-water repulsion; one prior setting, 0.05 ratio margin above unchanged PB 0.75 gate"
+  },
+  "local": {
+    "max_norm_A": 0.1,
+    "component_bound_A": 0.05773502691896258,
+    "position_k_kcal_mol_A2": 200.0,
+    "atom_selection": "Cross-fragment connection endpoints and their first graph neighbors",
+    "coordinates": "delta in original fragment local Cartesian frame; x=(local0+delta) R.T + center + translation",
+    "bound": "Each delta component in [-0.10/sqrt(3),+0.10/sqrt(3)] A, guaranteeing norm<=0.10 A; this is a cube, not a spherical constraint",
+    "penalty": "200*sum(||delta||^2); gradient=400*delta",
+    "nonlocal_atoms": "Exactly original fragment SE(3), no independent displacement",
+    "rationale": "One predefined 0.10 A diagnostic; not selected from test outcomes"
+  },
+  "optimizer": {
+    "method": "L-BFGS-B",
+    "maxiter": 800,
+    "ftol": 1e-10,
+    "gtol": 0.0001,
+    "maxls": 40,
+    "hydrogen_iterations": 200,
+    "raw_initial_coordinates": "identical for A0, A1 and B1",
+    "initial_rigid_parameters": "zero",
+    "initial_local_parameters": "zero",
+    "stopping": "Original numerical convergence or budget; no outcome-dependent stopping"
+  },
+  "variants": {
+    "A0_B0": "Unmodified original repair function, no water/local flexibility; one shared control",
+    "A1": "Only add fixed-water energy and analytic gradient",
+    "B1": "Only add local port/neighbor coordinates and their position regularizer; no water energy"
+  },
+  "excluded_optional_B2": "Not run; no extra all-atom comparison requested as mandatory",
+  "groups": {
+    "9RT3": 24,
+    "9T4A": 24,
+    "7ILZ": 24,
+    "9T51": 24,
+    "9SYL": 24,
+    "12AV": 24
+  },
+  "versions": {
+    "python": "3.12.14",
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+    "rdkit": "2026.3.3",
+    "posebusters": "0.6.5",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.0",
+    "vina": "1.2.7",
+    "meeko": "0.8.0"
+  },
+  "reporting": "Strict HQ and auxiliary HQ ignoring exactly two water checks always separate. All are postprocessed saved candidates, not raw network output."
+}

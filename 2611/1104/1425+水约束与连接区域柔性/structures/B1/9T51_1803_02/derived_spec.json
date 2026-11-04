@@ -1,0 +1,1059 @@
+{
+  "schema": "sigmadock-oracle-chemistry-v1",
+  "reference_source": "Unbound ETKDG placements with supplied fixed fragment shapes; no target coordinates",
+  "fragments": [
+    {
+      "slot": 0,
+      "identity": "oracle:ceb55ff62533e6ca5523fac7",
+      "atom_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "atoms": [
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        }
+      ],
+      "bonds": [
+        {
+          "order": 0,
+          "begin": 0,
+          "end": 1,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 1,
+          "begin": 1,
+          "end": 2,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 2,
+          "begin": 1,
+          "end": 3,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        }
+      ],
+      "coordinates": [
+        [
+          -3.1234057797296595,
+          2.7279449840970265,
+          0.5788398655309366
+        ],
+        [
+          -4.210926415172657,
+          2.256782860112862,
+          1.54230990733901
+        ],
+        [
+          -5.423515130536399,
+          1.7361032139720791,
+          0.7681767649281082
+        ],
+        [
+          -3.6632965964426054,
+          1.1777629504815421,
+          2.4774265036103555
+        ]
+      ],
+      "ports": [
+        1
+      ],
+      "vocab3684": 274
+    },
+    {
+      "slot": 1,
+      "identity": "oracle:5802df8c7c9f2aa362d21e94",
+      "atom_ids": [
+        4,
+        5,
+        6
+      ],
+      "atoms": [
+        {
+          "z": 8,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 8,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        }
+      ],
+      "bonds": [
+        {
+          "order": 3,
+          "begin": 4,
+          "end": 5,
+          "bond_type": 2,
+          "aromatic": false,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 4,
+          "begin": 5,
+          "end": 6,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        }
+      ],
+      "coordinates": [
+        [
+          -6.99865160543766,
+          -2.828696632484959,
+          0.37420369220236827
+        ],
+        [
+          -5.901072377268312,
+          -2.5865257733820943,
+          -0.058598604317927724
+        ],
+        [
+          -4.9969229142694305,
+          -3.5357926211986292,
+          -0.3185504696255596
+        ]
+      ],
+      "ports": [
+        5
+      ],
+      "vocab3684": 2823
+    },
+    {
+      "slot": 2,
+      "identity": "oracle:524c52b75b000971c20feb2b",
+      "atom_ids": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "atoms": [
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 2,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 7,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 1,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        }
+      ],
+      "bonds": [
+        {
+          "order": 5,
+          "begin": 7,
+          "end": 8,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 6,
+          "begin": 8,
+          "end": 9,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 7,
+          "begin": 9,
+          "end": 10,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 8,
+          "begin": 10,
+          "end": 11,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 9,
+          "begin": 11,
+          "end": 12,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 10,
+          "begin": 12,
+          "end": 7,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        }
+      ],
+      "coordinates": [
+        [
+          -4.710029602341814,
+          -1.3335667550366206,
+          -1.7325476183307273
+        ],
+        [
+          -5.4091515791157905,
+          -1.172689831242948,
+          -0.37292242616489246
+        ],
+        [
+          -4.371304892280136,
+          -0.7094450336545444,
+          0.6678862493772829
+        ],
+        [
+          -3.618080089256865,
+          0.4349953978285504,
+          0.24405618845532584
+        ],
+        [
+          -2.933664219451801,
+          0.29172850753730156,
+          -1.0151634589234997
+        ],
+        [
+          -3.9032850073821663,
+          -0.09625122791799973,
+          -2.1317868640610893
+        ]
+      ],
+      "ports": [
+        8,
+        10,
+        11
+      ],
+      "vocab3684": 140
+    },
+    {
+      "slot": 3,
+      "identity": "oracle:bf002c9104b7bf0da9767a95",
+      "atom_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "atoms": [
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 2,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 2,
+          "explicit_hs": 1,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 8,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 2,
+          "explicit_hs": 1,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": false,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 7,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        },
+        {
+          "z": 6,
+          "charge": 0,
+          "isotope": 0,
+          "chiral_tag": 0,
+          "explicit_hs": 0,
+          "no_implicit": false,
+          "aromatic": true,
+          "radicals": 0,
+          "atom_map": 0
+        }
+      ],
+      "bonds": [
+        {
+          "order": 11,
+          "begin": 14,
+          "end": 13,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 12,
+          "begin": 14,
+          "end": 15,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 13,
+          "begin": 15,
+          "end": 16,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 14,
+          "begin": 16,
+          "end": 17,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 15,
+          "begin": 17,
+          "end": 18,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 16,
+          "begin": 17,
+          "end": 19,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 17,
+          "begin": 20,
+          "end": 19,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 18,
+          "begin": 20,
+          "end": 21,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 19,
+          "begin": 21,
+          "end": 22,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 20,
+          "begin": 22,
+          "end": 23,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 21,
+          "begin": 23,
+          "end": 24,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 22,
+          "begin": 24,
+          "end": 25,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 23,
+          "begin": 25,
+          "end": 26,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 24,
+          "begin": 26,
+          "end": 27,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 25,
+          "begin": 27,
+          "end": 28,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 26,
+          "begin": 28,
+          "end": 29,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 27,
+          "begin": 29,
+          "end": 30,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 28,
+          "begin": 30,
+          "end": 31,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 29,
+          "begin": 31,
+          "end": 32,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 30,
+          "begin": 20,
+          "end": 14,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 31,
+          "begin": 32,
+          "end": 23,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 32,
+          "begin": 32,
+          "end": 14,
+          "bond_type": 1,
+          "aromatic": false,
+          "conjugated": false,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        },
+        {
+          "order": 33,
+          "begin": 30,
+          "end": 25,
+          "bond_type": 12,
+          "aromatic": true,
+          "conjugated": true,
+          "direction": 0,
+          "stereo": 0,
+          "stereo_atoms": []
+        }
+      ],
+      "coordinates": [
+        [
+          3.900755306517067,
+          0.17793797211381304,
+          1.902010684371736
+        ],
+        [
+          3.8770278090864707,
+          -0.568539670209723,
+          0.5404186978151585
+        ],
+        [
+          3.4400855338250023,
+          -2.0452686140047427,
+          0.7587312803517557
+        ],
+        [
+          4.495957089389163,
+          -2.865986025541625,
+          1.5223704338140576
+        ],
+        [
+          5.869519932077832,
+          -2.817349221817976,
+          0.8357347011089792
+        ],
+        [
+          6.804269706603947,
+          -3.4909606538671123,
+          1.6368869231331353
+        ],
+        [
+          6.3289712107047755,
+          -1.3661057660255183,
+          0.6020714731703551
+        ],
+        [
+          5.259535011939373,
+          -0.5819547973916388,
+          -0.18191890524201312
+        ],
+        [
+          5.7187264110615015,
+          0.8401595826055459,
+          -0.5300260238647199
+        ],
+        [
+          4.731022485716979,
+          1.5001781704970754,
+          -1.5033804080779567
+        ],
+        [
+          3.274747367108845,
+          1.1977099814371117,
+          -1.2153061086534576
+        ],
+        [
+          2.293954220437049,
+          1.9070189572549938,
+          -1.9234109110707815
+        ],
+        [
+          0.9388191150820817,
+          1.6152328653919106,
+          -1.7390545417094518
+        ],
+        [
+          -0.058739485992911344,
+          2.3192724457817246,
+          -2.4305918445713885
+        ],
+        [
+          -1.4061732015173263,
+          2.0071094697447576,
+          -2.221066364621829
+        ],
+        [
+          -1.762413932572537,
+          0.9946376666768384,
+          -1.324450907723103
+        ],
+        [
+          -0.7730612368228478,
+          0.28905446535963863,
+          -0.6320650065870252
+        ],
+        [
+          0.577151420175714,
+          0.5940855516590193,
+          -0.8376997874121281
+        ],
+        [
+          1.5397978979397045,
+          -0.08663594649974174,
+          -0.16449937478924545
+        ],
+        [
+          2.8696886081262525,
+          0.16025999505231112,
+          -0.3373538344564913
+        ]
+      ],
+      "ports": [
+        28
+      ],
+      "vocab3684": -1
+    }
+  ],
+  "connections": [
+    {
+      "order": 34,
+      "begin": 1,
+      "end": 10,
+      "bond_type": 1,
+      "aromatic": false,
+      "conjugated": false,
+      "direction": 0,
+      "stereo": 0,
+      "stereo_atoms": [],
+      "slots": [
+        0,
+        2
+      ]
+    },
+    {
+      "order": 35,
+      "begin": 5,
+      "end": 8,
+      "bond_type": 1,
+      "aromatic": false,
+      "conjugated": false,
+      "direction": 0,
+      "stereo": 0,
+      "stereo_atoms": [],
+      "slots": [
+        1,
+        2
+      ]
+    },
+    {
+      "order": 36,
+      "begin": 11,
+      "end": 28,
+      "bond_type": 1,
+      "aromatic": false,
+      "conjugated": false,
+      "direction": 0,
+      "stereo": 0,
+      "stereo_atoms": [],
+      "slots": [
+        2,
+        3
+      ]
+    }
+  ],
+  "cut_order": [
+    34,
+    35,
+    36
+  ]
+}

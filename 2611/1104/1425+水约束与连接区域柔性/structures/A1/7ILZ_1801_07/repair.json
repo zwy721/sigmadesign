@@ -1,0 +1,180 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 509,
+  "function_evaluations": 554,
+  "initial_H_relaxed_MMFF_energy": -13.267933700964932,
+  "initial_objective": 1201.1606947000146,
+  "final_objective": 49.750489182397075,
+  "heavy_RMSD_no_alignment_A": 0.9161254880283817,
+  "max_atom_displacement_A": 2.116681666935637,
+  "centroid_displacement_A": 0.4911442812587406,
+  "max_fragment_pair_distance_change_A": 1.3322676295501878e-15,
+  "fragment_translation_A": [
+    [
+      0.1295664451148039,
+      0.3334461405560585,
+      0.1329157293008808
+    ],
+    [
+      -0.14250264707491403,
+      0.12249022793033722,
+      -0.21325616006916895
+    ],
+    [
+      0.1368280885348186,
+      0.07359237075663436,
+      0.0221473824334606
+    ],
+    [
+      0.03376508984098617,
+      -0.05437648138784024,
+      1.0867010406822954
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      0.16266619701305246,
+      -0.5265485945504561,
+      0.09181381675909564
+    ],
+    [
+      -0.021082408819869308,
+      -0.018794318310199766,
+      0.37505092047878913
+    ],
+    [
+      0.08416777043958205,
+      0.14552906362635554,
+      0.1496119546253111
+    ],
+    [
+      -0.43542536142520666,
+      -0.0573743988872255,
+      -0.09406577501740547
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.24604187498334795,
+  "cpu_seconds": 0.24611153700000088,
+  "water_enabled": true,
+  "local_enabled": false,
+  "flexible_atom_indices": [],
+  "local_displacements_A": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "max_local_displacement_A": 0.0,
+  "fixed_region_pair_distance_error_A": 1.3322676295501878e-15,
+  "water_parameters": {
+    "weight_kcal_mol_A2": 200.0,
+    "radius_ratio": 0.8,
+    "epsilon_A": 1e-06,
+    "radius_definition": "RDKit van der Waals radii, exactly the original PB water catalog; water O radius 1.55 A",
+    "potential": "E=k*sum(max(ratio*(r_i+r_w)-sqrt(||x_i-w||^2+epsilon^2),0)^2)",
+    "gradient": "dE/dx_i=-2*k*sum(overlap*(x_i-w)/sqrt(||x_i-w||^2+epsilon^2))",
+    "smoothness": "C1 squared hinge with regularized distance; all catalog waters retained without outcome filtering",
+    "rationale": "Same k and ratio as existing non-water repulsion; one prior setting, 0.05 ratio margin above unchanged PB 0.75 gate"
+  },
+  "water_ids": [
+    "7ILZ:A:9:O",
+    "7ILZ:A:10:O",
+    "7ILZ:A:11:O",
+    "7ILZ:A:12:O"
+  ],
+  "initial_water_energy": 460.55583826744646,
+  "final_water_energy": 3.2076038886933986
+}

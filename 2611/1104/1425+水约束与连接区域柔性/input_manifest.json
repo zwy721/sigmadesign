@@ -1,0 +1,4514 @@
+[
+  {
+    "molecule_id": "raw__9RT3__1801__1",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__2",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__3",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__4",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__5",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__6",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__7",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1801__8",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__1",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__2",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__3",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__4",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__5",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__6",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__7",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1802__8",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__1",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__2",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__3",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__4",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__5",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__6",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__7",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9RT3__1803__8",
+    "group": "raw",
+    "receptor_id": "9RT3",
+    "pocket_id": "9RT3",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9RT3_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9RT3/9RT3_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 5,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        2.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 1
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__1",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__2",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__3",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__4",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__5",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__6",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__7",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1801__8",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__1",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__2",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__3",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__4",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__5",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__6",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__7",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1802__8",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__1",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__2",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__3",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__4",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__5",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__6",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__7",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T4A__1803__8",
+    "group": "raw",
+    "receptor_id": "9T4A",
+    "pocket_id": "9T4A",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T4A_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T4A/9T4A_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 9,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__1",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__2",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__3",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__4",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__5",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__6",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__7",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1801__8",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__1",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__2",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__3",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__4",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__5",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__6",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__7",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1802__8",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__1",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__2",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__3",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__4",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__5",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__6",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__7",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__7ILZ__1803__8",
+    "group": "raw",
+    "receptor_id": "7ILZ",
+    "pocket_id": "7ILZ",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/7ILZ_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/7ILZ/7ILZ_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__1",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__2",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__3",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__4",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__5",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__6",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__7",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1801__8",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__1",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__2",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__3",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__4",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__5",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__6",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__7",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1802__8",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__1",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__2",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__3",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__4",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__5",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__6",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__7",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9T51__1803__8",
+    "group": "raw",
+    "receptor_id": "9T51",
+    "pocket_id": "9T51",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9T51_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9T51/9T51_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__1",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__2",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__3",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__4",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__5",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__6",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__7",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1801__8",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__1",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__2",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__3",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__4",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__5",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__6",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__7",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1802__8",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__1",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__2",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__3",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__4",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__5",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__6",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__7",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__9SYL__1803__8",
+    "group": "raw",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/9SYL_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__1",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__2",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__3",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__4",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__5",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__6",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__7",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1801__8",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1801,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1801/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__1",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__2",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__3",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__4",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__5",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__6",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__7",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1802__8",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1802,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1802/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__1",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_01/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_01/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__2",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 2,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_02/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_02/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__3",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 3,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_03/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_03/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__4",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 4,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_04/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_04/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__5",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 5,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_05/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_05/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__6",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 6,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_06/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_06/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__7",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 7,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_07/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_07/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  {
+    "molecule_id": "raw__12AV__1803__8",
+    "group": "raw",
+    "receptor_id": "12AV",
+    "pocket_id": "12AV",
+    "seed": 1803,
+    "candidate_rank": 8,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_08/final.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/cases/12AV_1803/candidate_08/spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/12AV/12AV_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 4,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  }
+]

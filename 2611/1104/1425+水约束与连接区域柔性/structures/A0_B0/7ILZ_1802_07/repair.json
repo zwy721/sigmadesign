@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 346,
+  "function_evaluations": 370,
+  "initial_H_relaxed_MMFF_energy": -8.929137072009013,
+  "initial_objective": 8.189727228635181,
+  "final_objective": -20.093537205047102,
+  "heavy_RMSD_no_alignment_A": 0.20388608315310713,
+  "max_atom_displacement_A": 0.5028094850631276,
+  "centroid_displacement_A": 0.05265260946142728,
+  "max_fragment_pair_distance_change_A": 1.5543122344752192e-15,
+  "fragment_translation_A": [
+    [
+      0.008848067969276726,
+      -0.01167697222671671,
+      -0.05002276337687195
+    ],
+    [
+      0.027961529335185118,
+      -0.012586906799915054,
+      -0.032260426836333525
+    ],
+    [
+      -0.06397233481550252,
+      0.043575209259456,
+      0.07303028941176108
+    ],
+    [
+      -0.07715264152014967,
+      0.002563315844028359,
+      0.06362571613357615
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.005121512107384325,
+      -0.03402334496027751,
+      0.02610690039947086
+    ],
+    [
+      0.1073610103093679,
+      0.11621576516168257,
+      -0.8901978843275382
+    ],
+    [
+      -0.03886388201571011,
+      0.017895974809208553,
+      -0.002543480842815867
+    ],
+    [
+      -0.03343336983943671,
+      0.02522848614085339,
+      -0.07243532550728043
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.15445328899659216
+}

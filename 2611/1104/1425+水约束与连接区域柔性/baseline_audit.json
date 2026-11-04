@@ -1,0 +1,12 @@
+{
+  "n": 144,
+  "receptors": 6,
+  "seeds_per_receptor": 3,
+  "candidates_per_seed": 8,
+  "fixed_water_atoms": 79,
+  "strict_HQ": 7,
+  "auxiliary_no_water_HQ": 103,
+  "water_only": 96,
+  "water_distance_fail": 133,
+  "water_volume_fail": 0
+}

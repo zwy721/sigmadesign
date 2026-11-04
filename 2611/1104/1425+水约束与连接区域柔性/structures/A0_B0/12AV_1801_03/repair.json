@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 554,
+  "function_evaluations": 599,
+  "initial_H_relaxed_MMFF_energy": 328.50903628030613,
+  "initial_objective": 332.58644253825526,
+  "final_objective": -54.93424348018595,
+  "heavy_RMSD_no_alignment_A": 0.6142442428980699,
+  "max_atom_displacement_A": 1.175920672693282,
+  "centroid_displacement_A": 0.174396314582568,
+  "max_fragment_pair_distance_change_A": 6.661338147750939e-15,
+  "fragment_translation_A": [
+    [
+      0.009761925605760304,
+      0.11918092757949217,
+      0.21502845819627098
+    ],
+    [
+      -0.6271156908452499,
+      -0.03939268709340028,
+      -0.019367520757905696
+    ],
+    [
+      -0.12235136005904151,
+      -0.19029227939815252,
+      -0.06392910067550117
+    ],
+    [
+      -0.13032912865472257,
+      -0.019556666610746336,
+      -0.21810643668382493
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.24051572287298317,
+      0.4324114046476414,
+      0.18823659487602598
+    ],
+    [
+      0.3269986384936005,
+      0.3189170061826241,
+      0.08492164139051005
+    ],
+    [
+      -0.13457848403573971,
+      0.07830598628235914,
+      -0.02108368937914665
+    ],
+    [
+      -0.04537692696086238,
+      0.10234916893873441,
+      -0.1971217765639055
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.4202834980096668
+}

@@ -1,0 +1,35 @@
+variant,receptor_id,seed,rank,regressed_checks,RMSD_from_control_A,max_from_control_A
+A1,12AV,1801,2,"[""auxiliary_HQ_no_water"", ""QC_bond_geometry_valid"", ""QC_angle_geometry_valid"", ""QC_no_severe_protein_clash""]",1.5121017703336486,2.924713526142345
+A1,12AV,1801,5,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",1.1835470090758151,1.8734185143741897
+A1,12AV,1802,3,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",1.2036797676612014,2.161861186570498
+A1,12AV,1803,2,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",1.0411791808034108,2.251062091547009
+A1,12AV,1803,3,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.9686026596637509,1.6288203584189396
+A1,12AV,1803,4,"[""auxiliary_HQ_no_water""]",1.0219935858973794,2.108968226408353
+A1,12AV,1803,7,"[""QC_no_severe_internal_clash""]",1.1409322525899595,2.132669955712791
+A1,7ILZ,1801,2,"[""auxiliary_HQ_no_water""]",0.4936275613591012,0.888677320516283
+A1,7ILZ,1801,7,"[""auxiliary_HQ_no_water""]",0.9503273937613992,2.3155670191121653
+A1,7ILZ,1803,2,"[""auxiliary_HQ_no_water""]",1.28670662390461,3.1853478193126725
+A1,9SYL,1801,5,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.7467152544859725,1.884010692644816
+A1,9SYL,1802,8,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.7073332729162111,1.5664192318788732
+A1,9SYL,1803,1,"[""QC_stereo_definition_complete"", ""stereo_reliability_lost""]",0.2721124131395247,0.7305357828333947
+A1,9SYL,1803,5,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.7785454405986353,2.0846802200817267
+A1,9SYL,1803,6,"[""QC_stereo_definition_complete"", ""stereo_reliability_lost""]",0.587735786182001,2.008424006528502
+A1,9SYL,1803,7,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.5344994703890303,2.2770624014286485
+A1,9T4A,1801,2,"[""QC_no_severe_protein_clash""]",0.6832189692916906,2.6005922037105327
+A1,9T4A,1801,3,"[""QC_no_severe_protein_clash""]",0.8503393038022581,1.96875874855199
+A1,9T4A,1801,7,"[""QC_no_severe_protein_clash""]",1.0526318023713876,2.427755113268221
+A1,9T4A,1802,2,"[""QC_no_severe_protein_clash""]",1.2460956204189435,2.9441303011245954
+A1,9T4A,1802,7,"[""QC_no_severe_protein_clash""]",0.7768253063533067,1.705577500437901
+A1,9T4A,1802,8,"[""QC_no_severe_internal_clash""]",0.9611440544523442,2.064604632853467
+A1,9T4A,1803,4,"[""auxiliary_HQ_no_water""]",0.7557465551901763,2.270436772958014
+A1,9T4A,1803,5,"[""auxiliary_HQ_no_water""]",0.7165511535695257,1.824497084130309
+A1,9T4A,1803,7,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.9265821568587916,1.910747971345253
+A1,9T51,1801,7,"[""auxiliary_HQ_no_water"", ""QC_bond_geometry_valid"", ""QC_angle_geometry_valid"", ""QC_no_severe_internal_clash"", ""QC_no_severe_protein_clash""]",0.585853085317264,1.7272847970152454
+A1,9T51,1802,2,"[""QC_stereo_definition_complete"", ""stereo_reliability_lost""]",1.1223848545923016,2.4618478710107183
+A1,9T51,1802,4,"[""QC_bond_geometry_valid""]",0.7841868013387752,2.155006881659546
+A1,9T51,1803,4,"[""QC_angle_geometry_valid"", ""QC_no_severe_protein_clash""]",0.5807597810914022,1.3951716668568075
+A1,9T51,1803,6,"[""QC_no_severe_protein_clash"", ""reliable_stereo_code_changed""]",0.8719062995250783,1.4691761943347712
+A1,9T51,1803,7,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.9755363628033114,2.340394840619844
+A1,9T51,1803,8,"[""auxiliary_HQ_no_water"", ""QC_no_severe_protein_clash""]",0.4927388170402063,1.295489814703304
+B1,12AV,1802,1,"[""auxiliary_HQ_no_water""]",0.048336345617891754,0.08659364872783666
+B1,9T51,1803,6,"[""reliable_stereo_code_changed""]",0.4679757922384579,1.1784501389537028

@@ -1,0 +1,300 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": false,
+  "termination": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "iterations": 800,
+  "function_evaluations": 865,
+  "initial_H_relaxed_MMFF_energy": 584.8388681764952,
+  "initial_objective": 6546.419018516192,
+  "final_objective": 94.63931826876725,
+  "heavy_RMSD_no_alignment_A": 0.5103043873102381,
+  "max_atom_displacement_A": 1.8896630323667323,
+  "centroid_displacement_A": 0.039517653832920885,
+  "max_fragment_pair_distance_change_A": 0.08006686646651495,
+  "fragment_translation_A": [
+    [
+      0.4245378318269083,
+      -0.4059189656222273,
+      -0.005640603376429647
+    ],
+    [
+      0.3238243551964978,
+      -0.83421665281516,
+      0.3304284473877814
+    ],
+    [
+      -0.1594953251069837,
+      0.31588592524629405,
+      0.02004295558617984
+    ],
+    [
+      -0.09631508150795846,
+      0.06992085879107089,
+      -0.10049803307711809
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      0.13552065901116822,
+      -0.2532201347903639,
+      -0.038251474586989555
+    ],
+    [
+      0.5641614176189805,
+      0.2052824838710624,
+      -0.6930523226068446
+    ],
+    [
+      -0.002576559537748462,
+      0.051102100676292034,
+      0.07337245542217848
+    ],
+    [
+      0.021163045173989828,
+      0.018707591118861666,
+      0.07716904497550607
+    ]
+  ],
+  "amide_constraints": [
+    {
+      "atoms": [
+        4,
+        5,
+        10,
+        9
+      ],
+      "initial_deg": 120.43236474126243,
+      "target_deg": 180.0
+    },
+    {
+      "atoms": [
+        4,
+        5,
+        10,
+        11
+      ],
+      "initial_deg": 3.3968240535501826,
+      "target_deg": 0.0
+    }
+  ],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.9709825459867716,
+  "cpu_seconds": 0.9710387579999997,
+  "water_enabled": false,
+  "local_enabled": true,
+  "flexible_atom_indices": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    17,
+    23,
+    24,
+    25
+  ],
+  "local_displacements_A": [
+    [
+      0.005656455349356913,
+      -0.022810264379798568,
+      0.02588674702090882
+    ],
+    [
+      -0.014036894689041892,
+      0.012713670617121168,
+      -0.0023506682715327843
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.01991307572235089,
+      -0.008263231445477758,
+      -0.009813755858690565
+    ],
+    [
+      -0.029691415117099655,
+      -0.00922173962676503,
+      0.008045803364043222
+    ],
+    [
+      0.00974403794431715,
+      0.01728517089039811,
+      0.0017915050556394478
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.017566754113307652,
+      -0.05773502691896258,
+      -0.016013210962615928
+    ],
+    [
+      0.031175949203162082,
+      0.05773502691896258,
+      -0.05773502691896258
+    ],
+    [
+      0.04563149811397895,
+      -0.05773502691896258,
+      0.05773502691896258
+    ],
+    [
+      -0.03483212344445397,
+      0.04867137749419923,
+      -0.011171723602735635
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.010868753366502218,
+      0.003982541229406025,
+      -0.0024403932820929192
+    ],
+    [
+      0.018143252310876216,
+      -0.012179006570482641,
+      0.004291659755190912
+    ],
+    [
+      -0.004090465746674695,
+      -0.012478472898971117,
+      0.00043668928901424123
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0009698682145130507,
+      0.0049610831880830515,
+      -0.0034348271994799917
+    ],
+    [
+      -0.05047544060147419,
+      0.022277657661041075,
+      -0.018388360878693246
+    ],
+    [
+      -0.016056694952218984,
+      0.004580754287759258,
+      -0.007235713432197862
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "max_local_displacement_A": 0.09353555627029078,
+  "fixed_region_pair_distance_error_A": 2.6645352591003757e-15,
+  "local_parameters": {
+    "max_norm_A": 0.1,
+    "component_bound_A": 0.05773502691896258,
+    "position_k_kcal_mol_A2": 200.0,
+    "atom_selection": "Cross-fragment connection endpoints and their first graph neighbors",
+    "coordinates": "delta in original fragment local Cartesian frame; x=(local0+delta) R.T + center + translation",
+    "bound": "Each delta component in [-0.10/sqrt(3),+0.10/sqrt(3)] A, guaranteeing norm<=0.10 A; this is a cube, not a spherical constraint",
+    "penalty": "200*sum(||delta||^2); gradient=400*delta",
+    "nonlocal_atoms": "Exactly original fragment SE(3), no independent displacement",
+    "rationale": "One predefined 0.10 A diagnostic; not selected from test outcomes"
+  }
+}

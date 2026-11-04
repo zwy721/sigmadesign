@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "posebusters": {
+    "enabled": true,
+    "mode": "dock",
+    "energy_num_threads": 1
+  },
+  "geometry": {
+    "bond_bound_tolerance": 0.25,
+    "angle_bound_tolerance": 0.25,
+    "local_severe_lower_bound_ratio": 0.7,
+    "local_moderate_lower_bound_ratio": 0.8,
+    "local_mild_lower_bound_ratio": 0.9,
+    "nonlocal_severe_vdw_ratio": 0.6,
+    "nonlocal_moderate_vdw_ratio": 0.75,
+    "nonlocal_mild_vdw_ratio": 0.85,
+    "planarity_max_distance_A": 0.25,
+    "amide_max_planarity_deviation_deg": 30.0,
+    "max_pair_details": 100
+  },
+  "protein": {
+    "severe_vdw_ratio": 0.75,
+    "moderate_vdw_ratio": 0.85,
+    "contact_distance_A": 4.5,
+    "polar_contact_distance_A": 3.5,
+    "hydrophobic_contact_distance_A": 4.0,
+    "pocket_nearest_distance_A": 5.0,
+    "minimum_pocket_atom_fraction": 0.8,
+    "max_pair_details": 100,
+    "include_waters_in_custom_clashes": false
+  },
+  "forcefield": {
+    "enabled": true,
+    "variant": "MMFF94s",
+    "hydrogen_max_iterations": 200,
+    "max_iterations": 500,
+    "high_strain_kcal_per_heavy_atom": 2.0,
+    "significant_cross_bond_change_A": 0.2
+  },
+  "vina": {
+    "enabled": false,
+    "box_size_A": [
+      24.0,
+      24.0,
+      24.0
+    ],
+    "cpu": 1,
+    "seed": 20261103,
+    "prepared_receptor_match_tolerance_A": 0.05,
+    "minimum_receptor_heavy_match_fraction": 0.99
+  },
+  "diversity": {
+    "morgan_radius": 2,
+    "morgan_bits": 2048,
+    "max_pairs": 100000,
+    "seed": 20261103,
+    "conformer_distinct_rmsd_A": 1.0,
+    "max_symmetry_matches": 4096
+  },
+  "quality": {
+    "required_checks": [
+      "chemical_valid",
+      "fully_connected",
+      "no_severe_internal_clash",
+      "bond_geometry_valid",
+      "angle_geometry_valid",
+      "ring_geometry_valid",
+      "torsion_geometry_valid",
+      "no_severe_protein_clash",
+      "in_target_pocket",
+      "posebusters_all_pass",
+      "stereo_definition_complete",
+      "stereo_geometry_consistent"
+    ],
+    "definition": "All required checks must be explicitly true. A false check gives fail; otherwise a missing check gives unavailable. No reference identity, RMSD, QED, strain-delta threshold or docking score is a required check."
+  },
+  "training_smiles_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/de_novo_quality_20261103/training_index.json",
+  "examples_per_group": 0
+}

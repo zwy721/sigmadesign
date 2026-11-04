@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 376,
+  "function_evaluations": 411,
+  "initial_H_relaxed_MMFF_energy": 167.62542745413802,
+  "initial_objective": 171.19061533858078,
+  "final_objective": -108.5631030874021,
+  "heavy_RMSD_no_alignment_A": 0.4205620045112408,
+  "max_atom_displacement_A": 0.977291789125478,
+  "centroid_displacement_A": 0.015634151444762934,
+  "max_fragment_pair_distance_change_A": 4.218847493575595e-15,
+  "fragment_translation_A": [
+    [
+      0.10865066815034037,
+      0.16915634931570425,
+      0.20609800280789312
+    ],
+    [
+      -0.35643371712976707,
+      0.251754803401692,
+      -0.17404608214325507
+    ],
+    [
+      0.07607964181186254,
+      -0.2709650517079917,
+      -0.04686977700261406
+    ],
+    [
+      -0.0691408509507484,
+      -0.2131112589949813,
+      -0.19165101906994841
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.10761668696482225,
+      0.03086850078492241,
+      -0.07684848556174698
+    ],
+    [
+      0.31390083792827195,
+      0.13119716925265337,
+      -0.03911941131192119
+    ],
+    [
+      -0.12369853122318364,
+      0.02482963148400613,
+      0.083209548794564
+    ],
+    [
+      0.034151400281540054,
+      -0.1153602792659968,
+      -0.15410321887912456
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.29072507098317146
+}

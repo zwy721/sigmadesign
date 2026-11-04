@@ -1,0 +1,357 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 525,
+  "function_evaluations": 557,
+  "initial_H_relaxed_MMFF_energy": 485.398830206453,
+  "initial_objective": 1980.3441450396285,
+  "final_objective": 465.1241944268765,
+  "heavy_RMSD_no_alignment_A": 0.798855499940116,
+  "max_atom_displacement_A": 1.9753963321776589,
+  "centroid_displacement_A": 0.42143579998597147,
+  "max_fragment_pair_distance_change_A": 4.884981308350689e-15,
+  "fragment_translation_A": [
+    [
+      -0.1058161842875699,
+      -0.002528450550078636,
+      -0.16653367593197163
+    ],
+    [
+      0.14626329661659895,
+      -0.004298434344968043,
+      -0.20952024598188335
+    ],
+    [
+      0.6930050519628608,
+      -0.7079527962594625,
+      0.270355863084539
+    ],
+    [
+      0.47912714294024206,
+      -0.2138688688185103,
+      -0.02060247960685551
+    ],
+    [
+      0.4135855010271475,
+      -0.23201525192540234,
+      0.06398589719605163
+    ],
+    [
+      0.24043516966304546,
+      -0.6095777653400846,
+      0.11308891844690895
+    ],
+    [
+      1.0952231946107762,
+      -0.20937463763724418,
+      -0.11981146959709842
+    ],
+    [
+      0.6361670602305584,
+      -0.0772446457471761,
+      0.14084692044517974
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.07511654018000666,
+      -0.022034519976978056,
+      -0.027415992527731022
+    ],
+    [
+      -0.08498106548671328,
+      -0.34412863703821417,
+      0.013658563467906554
+    ],
+    [
+      -0.5760342516425608,
+      0.004858826144228463,
+      -0.39967270600335625
+    ],
+    [
+      0.14870840671382746,
+      -0.09052017777635772,
+      -0.05053494514159637
+    ],
+    [
+      0.022326935737636625,
+      -0.04167934163604876,
+      0.022370438816431262
+    ],
+    [
+      -0.48285707027241254,
+      0.1787837842859353,
+      -0.5262892953025129
+    ],
+    [
+      0.2561707154043324,
+      0.4638728349388637,
+      0.8313223994157073
+    ],
+    [
+      -0.2604349577625228,
+      0.19464412028073336,
+      0.10954979307914244
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.7080400009872392,
+  "cpu_seconds": 0.7081671580000002,
+  "water_enabled": true,
+  "local_enabled": false,
+  "flexible_atom_indices": [],
+  "local_displacements_A": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "max_local_displacement_A": 0.0,
+  "fixed_region_pair_distance_error_A": 4.884981308350689e-15,
+  "water_parameters": {
+    "weight_kcal_mol_A2": 200.0,
+    "radius_ratio": 0.8,
+    "epsilon_A": 1e-06,
+    "radius_definition": "RDKit van der Waals radii, exactly the original PB water catalog; water O radius 1.55 A",
+    "potential": "E=k*sum(max(ratio*(r_i+r_w)-sqrt(||x_i-w||^2+epsilon^2),0)^2)",
+    "gradient": "dE/dx_i=-2*k*sum(overlap*(x_i-w)/sqrt(||x_i-w||^2+epsilon^2))",
+    "smoothness": "C1 squared hinge with regularized distance; all catalog waters retained without outcome filtering",
+    "rationale": "Same k and ratio as existing non-water repulsion; one prior setting, 0.05 ratio margin above unchanged PB 0.75 gate"
+  },
+  "water_ids": [
+    "9SYL:A:29:O",
+    "9SYL:A:30:O",
+    "9SYL:A:31:O",
+    "9SYL:A:32:O",
+    "9SYL:A:33:O",
+    "9SYL:A:34:O",
+    "9SYL:A:35:O",
+    "9SYL:A:36:O",
+    "9SYL:A:37:O",
+    "9SYL:A:38:O",
+    "9SYL:A:39:O",
+    "9SYL:A:40:O",
+    "9SYL:A:41:O",
+    "9SYL:A:42:O",
+    "9SYL:A:43:O",
+    "9SYL:A:44:O",
+    "9SYL:A:45:O",
+    "9SYL:A:46:O",
+    "9SYL:A:47:O",
+    "9SYL:A:48:O",
+    "9SYL:A:49:O"
+  ],
+  "initial_water_energy": 1389.9971606342804,
+  "final_water_energy": 12.216864752490135
+}

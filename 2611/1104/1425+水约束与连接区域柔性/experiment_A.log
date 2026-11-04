@@ -1,0 +1,25 @@
+repair ['A0_B0', 'A1'] 24 / 288 ok
+repair ['A0_B0', 'A1'] 48 / 288 ok
+repair ['A0_B0', 'A1'] 72 / 288 ok
+repair ['A0_B0', 'A1'] 96 / 288 ok
+repair ['A0_B0', 'A1'] 120 / 288 ok
+repair ['A0_B0', 'A1'] 144 / 288 ok
+repair ['A0_B0', 'A1'] 168 / 288 ok
+repair ['A0_B0', 'A1'] 192 / 288 ok
+repair ['A0_B0', 'A1'] 216 / 288 ok
+repair ['A0_B0', 'A1'] 240 / 288 ok
+repair ['A0_B0', 'A1'] 264 / 288 ok
+repair ['A0_B0', 'A1'] 288 / 288 ok
+QC A 24 / 288
+QC A 48 / 288
+QC A 72 / 288
+QC A 96 / 288
+QC A 120 / 288
+QC A 144 / 288
+QC A 168 / 288
+QC A 192 / 288
+QC A 216 / 288
+QC A 240 / 288
+QC A 264 / 288
+QC A 288 / 288
+A complete; strict counts {'A0_B0': 7, 'A1': 65}

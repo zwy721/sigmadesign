@@ -1,0 +1,1029 @@
+[
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:29:O",
+    "source_water_id": "B:HOH:611:O:S",
+    "prepared_atom_index": 196,
+    "prepared_serial": 197,
+    "xyz": [
+      39.232,
+      -13.239,
+      10.218
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:30:O",
+    "source_water_id": "B:HOH:613:O:S",
+    "prepared_atom_index": 197,
+    "prepared_serial": 198,
+    "xyz": [
+      35.221,
+      -5.347,
+      4.831
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:31:O",
+    "source_water_id": "B:HOH:620:O:S",
+    "prepared_atom_index": 198,
+    "prepared_serial": 199,
+    "xyz": [
+      34.012,
+      -13.474,
+      12.736
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:32:O",
+    "source_water_id": "B:HOH:631:O:S",
+    "prepared_atom_index": 199,
+    "prepared_serial": 200,
+    "xyz": [
+      26.842,
+      -13.197,
+      1.267
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:33:O",
+    "source_water_id": "B:HOH:663:O:S",
+    "prepared_atom_index": 200,
+    "prepared_serial": 201,
+    "xyz": [
+      34.721,
+      -2.587,
+      4.12
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:34:O",
+    "source_water_id": "B:HOH:711:O:S",
+    "prepared_atom_index": 201,
+    "prepared_serial": 202,
+    "xyz": [
+      32.02,
+      -14.783,
+      -1.377
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:35:O",
+    "source_water_id": "B:HOH:712:O:S",
+    "prepared_atom_index": 202,
+    "prepared_serial": 203,
+    "xyz": [
+      32.479,
+      -10.162,
+      9.429
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:36:O",
+    "source_water_id": "B:HOH:720:O:S",
+    "prepared_atom_index": 203,
+    "prepared_serial": 204,
+    "xyz": [
+      34.144,
+      -4.849,
+      2.762
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:37:O",
+    "source_water_id": "B:HOH:729:O:S",
+    "prepared_atom_index": 204,
+    "prepared_serial": 205,
+    "xyz": [
+      36.954,
+      -15.669,
+      10.531
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:38:O",
+    "source_water_id": "B:HOH:754:O:S",
+    "prepared_atom_index": 205,
+    "prepared_serial": 206,
+    "xyz": [
+      34.869,
+      -4.847,
+      8.526
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:39:O",
+    "source_water_id": "B:HOH:802:O:S",
+    "prepared_atom_index": 206,
+    "prepared_serial": 207,
+    "xyz": [
+      32.22,
+      -15.275,
+      2.334
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:40:O",
+    "source_water_id": "B:HOH:829:O:S",
+    "prepared_atom_index": 207,
+    "prepared_serial": 208,
+    "xyz": [
+      31.842,
+      -12.204,
+      -2.418
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:41:O",
+    "source_water_id": "B:HOH:861:O:S",
+    "prepared_atom_index": 208,
+    "prepared_serial": 209,
+    "xyz": [
+      36.092,
+      -17.788,
+      9.179
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:42:O",
+    "source_water_id": "B:HOH:902:O:S",
+    "prepared_atom_index": 209,
+    "prepared_serial": 210,
+    "xyz": [
+      30.457,
+      -8.396,
+      10.2
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:43:O",
+    "source_water_id": "B:HOH:943:O:S",
+    "prepared_atom_index": 210,
+    "prepared_serial": 211,
+    "xyz": [
+      34.455,
+      -16.472,
+      10.751
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:A:44:O",
+    "source_water_id": "B:HOH:984:O:S",
+    "prepared_atom_index": 211,
+    "prepared_serial": 212,
+    "xyz": [
+      39.578,
+      -15.865,
+      11.263
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:B:20:O",
+    "source_water_id": "I:HOH:622:O:AA",
+    "prepared_atom_index": 212,
+    "prepared_serial": 213,
+    "xyz": [
+      32.46,
+      -5.528,
+      10.025
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:B:21:O",
+    "source_water_id": "I:HOH:823:O:AA",
+    "prepared_atom_index": 213,
+    "prepared_serial": 214,
+    "xyz": [
+      39.168,
+      -10.277,
+      10.205
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:B:22:O",
+    "source_water_id": "I:HOH:894:O:AA",
+    "prepared_atom_index": 214,
+    "prepared_serial": 215,
+    "xyz": [
+      35.274,
+      -15.033,
+      14.752
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:B:23:O",
+    "source_water_id": "I:HOH:925:O:AA",
+    "prepared_atom_index": 215,
+    "prepared_serial": 216,
+    "xyz": [
+      30.192,
+      -6.436,
+      12.182
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "12AV",
+    "water_id": "12AV:B:19:O",
+    "source_water_id": "I:HOH:1038:O:AA",
+    "prepared_atom_index": 216,
+    "prepared_serial": 217,
+    "xyz": [
+      37.087,
+      -16.685,
+      13.233
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "7ILZ",
+    "water_id": "7ILZ:A:9:O",
+    "source_water_id": "A:HOH:525:O:E",
+    "prepared_atom_index": 63,
+    "prepared_serial": 64,
+    "xyz": [
+      -1.161,
+      -6.13,
+      -7.654
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "7ILZ",
+    "water_id": "7ILZ:A:10:O",
+    "source_water_id": "A:HOH:543:O:E",
+    "prepared_atom_index": 64,
+    "prepared_serial": 65,
+    "xyz": [
+      -5.286,
+      -12.919,
+      -7.195
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "7ILZ",
+    "water_id": "7ILZ:A:11:O",
+    "source_water_id": "A:HOH:593:O:E",
+    "prepared_atom_index": 65,
+    "prepared_serial": 66,
+    "xyz": [
+      -5.17,
+      -15.382,
+      -7.867
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "7ILZ",
+    "water_id": "7ILZ:A:12:O",
+    "source_water_id": "A:HOH:599:O:E",
+    "prepared_atom_index": 66,
+    "prepared_serial": 67,
+    "xyz": [
+      -3.276,
+      -15.44,
+      -3.0
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:31:O",
+    "source_water_id": "A:HOH:852:O:G",
+    "prepared_atom_index": 186,
+    "prepared_serial": 187,
+    "xyz": [
+      14.008,
+      -5.984,
+      69.911
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:32:O",
+    "source_water_id": "A:HOH:858:O:G",
+    "prepared_atom_index": 187,
+    "prepared_serial": 188,
+    "xyz": [
+      16.151,
+      -2.36,
+      67.582
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:33:O",
+    "source_water_id": "A:HOH:878:O:G",
+    "prepared_atom_index": 188,
+    "prepared_serial": 189,
+    "xyz": [
+      11.34,
+      -6.332,
+      64.634
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:34:O",
+    "source_water_id": "A:HOH:897:O:G",
+    "prepared_atom_index": 189,
+    "prepared_serial": 190,
+    "xyz": [
+      4.677,
+      6.065,
+      64.524
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:35:O",
+    "source_water_id": "A:HOH:913:O:G",
+    "prepared_atom_index": 190,
+    "prepared_serial": 191,
+    "xyz": [
+      8.797,
+      -7.32,
+      64.881
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:36:O",
+    "source_water_id": "A:HOH:950:O:G",
+    "prepared_atom_index": 191,
+    "prepared_serial": 192,
+    "xyz": [
+      13.024,
+      -1.2,
+      69.081
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:37:O",
+    "source_water_id": "A:HOH:957:O:G",
+    "prepared_atom_index": 192,
+    "prepared_serial": 193,
+    "xyz": [
+      14.835,
+      -0.076,
+      70.37
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:38:O",
+    "source_water_id": "A:HOH:981:O:G",
+    "prepared_atom_index": 193,
+    "prepared_serial": 194,
+    "xyz": [
+      4.437,
+      8.205,
+      65.453
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:27:O",
+    "source_water_id": "A:HOH:1012:O:G",
+    "prepared_atom_index": 194,
+    "prepared_serial": 195,
+    "xyz": [
+      4.317,
+      4.37,
+      71.344
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:28:O",
+    "source_water_id": "A:HOH:1023:O:G",
+    "prepared_atom_index": 195,
+    "prepared_serial": 196,
+    "xyz": [
+      10.755,
+      -5.826,
+      61.933
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:29:O",
+    "source_water_id": "A:HOH:1119:O:G",
+    "prepared_atom_index": 196,
+    "prepared_serial": 197,
+    "xyz": [
+      4.896,
+      3.28,
+      68.427
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9RT3",
+    "water_id": "9RT3:A:30:O",
+    "source_water_id": "A:HOH:1142:O:G",
+    "prepared_atom_index": 197,
+    "prepared_serial": 198,
+    "xyz": [
+      3.612,
+      3.878,
+      65.986
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:29:O",
+    "source_water_id": "A:HOH:503:O:J",
+    "prepared_atom_index": 205,
+    "prepared_serial": 206,
+    "xyz": [
+      24.43,
+      -5.494,
+      -20.775
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:30:O",
+    "source_water_id": "A:HOH:507:O:J",
+    "prepared_atom_index": 206,
+    "prepared_serial": 207,
+    "xyz": [
+      27.604,
+      -4.851,
+      -7.476
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:31:O",
+    "source_water_id": "A:HOH:522:O:J",
+    "prepared_atom_index": 207,
+    "prepared_serial": 208,
+    "xyz": [
+      17.814,
+      -8.967,
+      -19.466
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:32:O",
+    "source_water_id": "A:HOH:539:O:J",
+    "prepared_atom_index": 208,
+    "prepared_serial": 209,
+    "xyz": [
+      14.396,
+      -2.795,
+      -12.451
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:33:O",
+    "source_water_id": "A:HOH:557:O:J",
+    "prepared_atom_index": 209,
+    "prepared_serial": 210,
+    "xyz": [
+      16.653,
+      -4.79,
+      -11.685
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:34:O",
+    "source_water_id": "A:HOH:589:O:J",
+    "prepared_atom_index": 210,
+    "prepared_serial": 211,
+    "xyz": [
+      19.281,
+      -0.318,
+      -17.649
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:35:O",
+    "source_water_id": "A:HOH:593:O:J",
+    "prepared_atom_index": 211,
+    "prepared_serial": 212,
+    "xyz": [
+      17.851,
+      -6.397,
+      -16.422
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:36:O",
+    "source_water_id": "A:HOH:595:O:J",
+    "prepared_atom_index": 212,
+    "prepared_serial": 213,
+    "xyz": [
+      21.579,
+      0.183,
+      -16.316
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:37:O",
+    "source_water_id": "A:HOH:596:O:J",
+    "prepared_atom_index": 213,
+    "prepared_serial": 214,
+    "xyz": [
+      30.183,
+      -0.356,
+      -5.904
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:38:O",
+    "source_water_id": "A:HOH:607:O:J",
+    "prepared_atom_index": 214,
+    "prepared_serial": 215,
+    "xyz": [
+      20.811,
+      -7.799,
+      -20.285
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:39:O",
+    "source_water_id": "A:HOH:613:O:J",
+    "prepared_atom_index": 215,
+    "prepared_serial": 216,
+    "xyz": [
+      25.492,
+      -11.392,
+      -14.319
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:40:O",
+    "source_water_id": "A:HOH:621:O:J",
+    "prepared_atom_index": 216,
+    "prepared_serial": 217,
+    "xyz": [
+      26.892,
+      1.105,
+      -12.075
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:41:O",
+    "source_water_id": "A:HOH:646:O:J",
+    "prepared_atom_index": 217,
+    "prepared_serial": 218,
+    "xyz": [
+      27.582,
+      3.426,
+      -12.627
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:42:O",
+    "source_water_id": "A:HOH:675:O:J",
+    "prepared_atom_index": 218,
+    "prepared_serial": 219,
+    "xyz": [
+      27.336,
+      -3.34,
+      -18.968
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:43:O",
+    "source_water_id": "A:HOH:689:O:J",
+    "prepared_atom_index": 219,
+    "prepared_serial": 220,
+    "xyz": [
+      29.491,
+      -4.902,
+      -5.628
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:44:O",
+    "source_water_id": "A:HOH:704:O:J",
+    "prepared_atom_index": 220,
+    "prepared_serial": 221,
+    "xyz": [
+      23.878,
+      1.657,
+      -16.502
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:45:O",
+    "source_water_id": "A:HOH:729:O:J",
+    "prepared_atom_index": 221,
+    "prepared_serial": 222,
+    "xyz": [
+      29.866,
+      -2.712,
+      -6.728
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:46:O",
+    "source_water_id": "A:HOH:756:O:J",
+    "prepared_atom_index": 222,
+    "prepared_serial": 223,
+    "xyz": [
+      25.838,
+      0.35,
+      -15.668
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:47:O",
+    "source_water_id": "A:HOH:773:O:J",
+    "prepared_atom_index": 223,
+    "prepared_serial": 224,
+    "xyz": [
+      26.2,
+      -9.976,
+      -16.222
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:48:O",
+    "source_water_id": "A:HOH:774:O:J",
+    "prepared_atom_index": 224,
+    "prepared_serial": 225,
+    "xyz": [
+      26.84,
+      -2.359,
+      -13.413
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9SYL",
+    "water_id": "9SYL:A:49:O",
+    "source_water_id": "A:HOH:785:O:J",
+    "prepared_atom_index": 225,
+    "prepared_serial": 226,
+    "xyz": [
+      28.415,
+      -2.459,
+      -16.66
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:27:O",
+    "source_water_id": "A:HOH:306:O:K",
+    "prepared_atom_index": 191,
+    "prepared_serial": 192,
+    "xyz": [
+      -22.74,
+      2.119,
+      -8.907
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:28:O",
+    "source_water_id": "A:HOH:311:O:K",
+    "prepared_atom_index": 192,
+    "prepared_serial": 193,
+    "xyz": [
+      -21.887,
+      -6.715,
+      -10.172
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:29:O",
+    "source_water_id": "A:HOH:317:O:K",
+    "prepared_atom_index": 193,
+    "prepared_serial": 194,
+    "xyz": [
+      -21.422,
+      -0.107,
+      -0.814
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:30:O",
+    "source_water_id": "A:HOH:325:O:K",
+    "prepared_atom_index": 194,
+    "prepared_serial": 195,
+    "xyz": [
+      -20.33,
+      2.374,
+      -10.301
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:31:O",
+    "source_water_id": "A:HOH:333:O:K",
+    "prepared_atom_index": 195,
+    "prepared_serial": 196,
+    "xyz": [
+      -18.394,
+      -1.68,
+      -6.94
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:32:O",
+    "source_water_id": "A:HOH:335:O:K",
+    "prepared_atom_index": 196,
+    "prepared_serial": 197,
+    "xyz": [
+      -19.338,
+      -5.263,
+      -6.23
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:33:O",
+    "source_water_id": "A:HOH:340:O:K",
+    "prepared_atom_index": 197,
+    "prepared_serial": 198,
+    "xyz": [
+      -18.504,
+      1.085,
+      -6.606
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:34:O",
+    "source_water_id": "A:HOH:345:O:K",
+    "prepared_atom_index": 198,
+    "prepared_serial": 199,
+    "xyz": [
+      -18.489,
+      -4.829,
+      -8.923
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:35:O",
+    "source_water_id": "A:HOH:351:O:K",
+    "prepared_atom_index": 199,
+    "prepared_serial": 200,
+    "xyz": [
+      -19.815,
+      -2.713,
+      -17.496
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:36:O",
+    "source_water_id": "A:HOH:359:O:K",
+    "prepared_atom_index": 200,
+    "prepared_serial": 201,
+    "xyz": [
+      -17.725,
+      2.288,
+      -8.878
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:37:O",
+    "source_water_id": "A:HOH:391:O:K",
+    "prepared_atom_index": 201,
+    "prepared_serial": 202,
+    "xyz": [
+      -22.202,
+      2.483,
+      -15.946
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:38:O",
+    "source_water_id": "A:HOH:401:O:K",
+    "prepared_atom_index": 202,
+    "prepared_serial": 203,
+    "xyz": [
+      -16.972,
+      -2.377,
+      -4.646
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:39:O",
+    "source_water_id": "A:HOH:405:O:K",
+    "prepared_atom_index": 203,
+    "prepared_serial": 204,
+    "xyz": [
+      -21.143,
+      2.544,
+      -1.266
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:40:O",
+    "source_water_id": "A:HOH:410:O:K",
+    "prepared_atom_index": 204,
+    "prepared_serial": 205,
+    "xyz": [
+      -20.571,
+      -5.195,
+      -15.358
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T4A",
+    "water_id": "9T4A:A:41:O",
+    "source_water_id": "A:HOH:423:O:K",
+    "prepared_atom_index": 205,
+    "prepared_serial": 206,
+    "xyz": [
+      -18.693,
+      -3.556,
+      -5.228
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:34:O",
+    "source_water_id": "A:HOH:406:O:J",
+    "prepared_atom_index": 269,
+    "prepared_serial": 270,
+    "xyz": [
+      -6.957,
+      -4.929,
+      -22.236
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:35:O",
+    "source_water_id": "A:HOH:442:O:J",
+    "prepared_atom_index": 270,
+    "prepared_serial": 271,
+    "xyz": [
+      -4.863,
+      1.421,
+      -27.57
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:36:O",
+    "source_water_id": "A:HOH:485:O:J",
+    "prepared_atom_index": 271,
+    "prepared_serial": 272,
+    "xyz": [
+      8.002,
+      10.858,
+      -15.188
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:37:O",
+    "source_water_id": "A:HOH:493:O:J",
+    "prepared_atom_index": 272,
+    "prepared_serial": 273,
+    "xyz": [
+      -5.701,
+      -0.751,
+      -29.038
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:38:O",
+    "source_water_id": "A:HOH:565:O:J",
+    "prepared_atom_index": 273,
+    "prepared_serial": 274,
+    "xyz": [
+      0.594,
+      4.018,
+      -20.562
+    ],
+    "radius_A": 1.55
+  },
+  {
+    "receptor_id": "9T51",
+    "water_id": "9T51:A:39:O",
+    "source_water_id": "A:HOH:575:O:J",
+    "prepared_atom_index": 274,
+    "prepared_serial": 275,
+    "xyz": [
+      5.145,
+      4.914,
+      -18.501
+    ],
+    "radius_A": 1.55
+  }
+]

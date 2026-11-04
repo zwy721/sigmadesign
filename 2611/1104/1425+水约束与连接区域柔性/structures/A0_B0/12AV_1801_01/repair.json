@@ -1,0 +1,79 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 654,
+  "function_evaluations": 702,
+  "initial_H_relaxed_MMFF_energy": 544.9927084058231,
+  "initial_objective": 557.202540354646,
+  "final_objective": -48.96566348120468,
+  "heavy_RMSD_no_alignment_A": 0.6256986684260528,
+  "max_atom_displacement_A": 1.2074401560279313,
+  "centroid_displacement_A": 0.2306771733948585,
+  "max_fragment_pair_distance_change_A": 7.993605777301127e-15,
+  "fragment_translation_A": [
+    [
+      -0.059214980340671707,
+      0.14439225973087289,
+      0.27445358436191547
+    ],
+    [
+      -0.64850717349531,
+      0.2664698208064437,
+      -0.180349657300558
+    ],
+    [
+      -0.19897837110478178,
+      -0.21914611547192409,
+      0.004435289282918336
+    ],
+    [
+      -0.09139523961025277,
+      0.004886377890724428,
+      -0.11008260700909775
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.3030068440966694,
+      0.3769099349452915,
+      0.1027084129122434
+    ],
+    [
+      0.19183503229338045,
+      0.23312989644840162,
+      -0.0957270667987431
+    ],
+    [
+      0.03203681358517678,
+      0.059649461676671275,
+      0.29144321924857836
+    ],
+    [
+      -0.152913390683942,
+      0.16715140482565932,
+      0.21735820128696687
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.49033554701600224
+}

@@ -1,0 +1,64 @@
+{
+  "parameters": {
+    "min_normalized_tetra_volume": 0.1,
+    "perturbation_sigma_A": 0.01,
+    "perturbations": 16,
+    "max_double_planarity_deviation_deg": 15.0,
+    "seed": 20261103
+  },
+  "decisions": [
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 8,
+      "specified": "Unspecified",
+      "descriptor": "NoValue",
+      "normalized_volume": 0.6387186763261549,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    },
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 11,
+      "specified": "Unspecified",
+      "descriptor": "NoValue",
+      "normalized_volume": 0.5856098422669215,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    },
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 14,
+      "specified": "Specified",
+      "descriptor": "Tet_CCW",
+      "normalized_volume": 0.7285564822235827,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    },
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 17,
+      "specified": "Specified",
+      "descriptor": "Tet_CCW",
+      "normalized_volume": 0.7516908086850476,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    },
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 20,
+      "specified": "Specified",
+      "descriptor": "Tet_CCW",
+      "normalized_volume": 0.6868463721697506,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    }
+  ],
+  "reliable": 5,
+  "unavailable": 0,
+  "policy": "Independent geometry-derived graph; original explicit graph retained; no target tags; not network stereo accuracy"
+}

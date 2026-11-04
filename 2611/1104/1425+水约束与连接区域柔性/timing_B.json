@@ -1,0 +1,10 @@
+{
+  "wall_seconds": 113.38247547694482,
+  "quality_wall_seconds": 102.04238867992535,
+  "repair_cpu_seconds": 86.554758361,
+  "postprocess_cpu_seconds": 87.75285829900001,
+  "quality_cpu_seconds": 768.6337346390001,
+  "workers": 8,
+  "additional_neural_NFE": 0,
+  "note": "Per-process CPU sums; wall time separately measured. Cache CPU is measured on cache retrieval if a run is resumed."
+}

@@ -1,0 +1,185 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": true,
+  "termination": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "iterations": 298,
+  "function_evaluations": 323,
+  "initial_H_relaxed_MMFF_energy": -9.485157079020258,
+  "initial_objective": -9.485157079020258,
+  "final_objective": -20.975884414102936,
+  "heavy_RMSD_no_alignment_A": 0.1644689468415421,
+  "max_atom_displacement_A": 0.29657870121511565,
+  "centroid_displacement_A": 7.090552679304053e-06,
+  "max_fragment_pair_distance_change_A": 0.03906800078565276,
+  "fragment_translation_A": [
+    [
+      0.08605675444311685,
+      -0.006268154217826846,
+      -0.013238501389974094
+    ],
+    [
+      0.023413228892034448,
+      0.08459421739654219,
+      0.05680846725100157
+    ],
+    [
+      -0.013243429951433851,
+      0.011347687421925157,
+      -0.003188262581028299
+    ],
+    [
+      -0.028595450411868017,
+      -0.041042525797337054,
+      -0.020678541779472474
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      0.02323667430798285,
+      -0.06520106424035216,
+      -0.03847917111809957
+    ],
+    [
+      0.01810496143384561,
+      -0.14061292443499682,
+      0.014456536923766517
+    ],
+    [
+      -0.038217401488100676,
+      -0.011060965328074974,
+      -0.0014207945525950966
+    ],
+    [
+      -0.06044688234338854,
+      0.14321382265151808,
+      0.1263484596799
+    ]
+  ],
+  "amide_constraints": [],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.1573384819785133,
+  "cpu_seconds": 0.1573480079999996,
+  "water_enabled": false,
+  "local_enabled": true,
+  "flexible_atom_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    11,
+    12,
+    13
+  ],
+  "local_displacements_A": [
+    [
+      -0.0015726238615552384,
+      0.0023358538879275498,
+      -0.004953310889194614
+    ],
+    [
+      0.0015712657056362338,
+      -0.002334832266133687,
+      0.004953869432926426
+    ],
+    [
+      -0.004011515299389607,
+      0.0020410671857154297,
+      -0.006331197491724369
+    ],
+    [
+      0.004206695344936064,
+      -0.008271576203028607,
+      0.002514683367610324
+    ],
+    [
+      -0.00019597190971480763,
+      0.006229563701419288,
+      0.0038157948195630116
+    ],
+    [
+      -0.013010567533109703,
+      0.005943375798089594,
+      -0.014554999703244182
+    ],
+    [
+      -0.00557331844847845,
+      -4.0624215504465675e-05,
+      0.00941575933521766
+    ],
+    [
+      0.01858292232918242,
+      -0.0059029482286541285,
+      0.0051388454613140525
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.012875847299303089,
+      0.008555710882815634,
+      6.49194504312754e-05
+    ],
+    [
+      0.009333390095564066,
+      0.002717306181246193,
+      0.002250758725528162
+    ],
+    [
+      0.0011453152257730182,
+      0.00020826344917531918,
+      0.008533562594792259
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "max_local_displacement_A": 0.020407023295237442,
+  "fixed_region_pair_distance_error_A": 1.7763568394002505e-15,
+  "local_parameters": {
+    "max_norm_A": 0.1,
+    "component_bound_A": 0.05773502691896258,
+    "position_k_kcal_mol_A2": 200.0,
+    "atom_selection": "Cross-fragment connection endpoints and their first graph neighbors",
+    "coordinates": "delta in original fragment local Cartesian frame; x=(local0+delta) R.T + center + translation",
+    "bound": "Each delta component in [-0.10/sqrt(3),+0.10/sqrt(3)] A, guaranteeing norm<=0.10 A; this is a cube, not a spherical constraint",
+    "penalty": "200*sum(||delta||^2); gradient=400*delta",
+    "nonlocal_atoms": "Exactly original fragment SE(3), no independent displacement",
+    "rationale": "One predefined 0.10 A diagnostic; not selected from test outcomes"
+  }
+}

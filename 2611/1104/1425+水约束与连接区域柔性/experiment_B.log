@@ -1,0 +1,13 @@
+repair ['B1'] 24 / 144 ok
+repair ['B1'] 48 / 144 ok
+repair ['B1'] 72 / 144 ok
+repair ['B1'] 96 / 144 ok
+repair ['B1'] 120 / 144 ok
+repair ['B1'] 144 / 144 ok
+QC B 24 / 144
+QC B 48 / 144
+QC B 72 / 144
+QC B 96 / 144
+QC B 120 / 144
+QC B 144 / 144
+B complete; strict counts {'B1': 7}

@@ -1,0 +1,115 @@
+{
+  "config": {
+    "schema_version": 1,
+    "posebusters": {
+      "enabled": true,
+      "mode": "dock",
+      "energy_num_threads": 1
+    },
+    "geometry": {
+      "bond_bound_tolerance": 0.25,
+      "angle_bound_tolerance": 0.25,
+      "local_severe_lower_bound_ratio": 0.7,
+      "local_moderate_lower_bound_ratio": 0.8,
+      "local_mild_lower_bound_ratio": 0.9,
+      "nonlocal_severe_vdw_ratio": 0.6,
+      "nonlocal_moderate_vdw_ratio": 0.75,
+      "nonlocal_mild_vdw_ratio": 0.85,
+      "planarity_max_distance_A": 0.25,
+      "amide_max_planarity_deviation_deg": 30.0,
+      "max_pair_details": 100
+    },
+    "protein": {
+      "severe_vdw_ratio": 0.75,
+      "moderate_vdw_ratio": 0.85,
+      "contact_distance_A": 4.5,
+      "polar_contact_distance_A": 3.5,
+      "hydrophobic_contact_distance_A": 4.0,
+      "pocket_nearest_distance_A": 5.0,
+      "minimum_pocket_atom_fraction": 0.8,
+      "max_pair_details": 100,
+      "include_waters_in_custom_clashes": false
+    },
+    "forcefield": {
+      "enabled": true,
+      "variant": "MMFF94s",
+      "hydrogen_max_iterations": 200,
+      "max_iterations": 500,
+      "high_strain_kcal_per_heavy_atom": 2.0,
+      "significant_cross_bond_change_A": 0.2
+    },
+    "vina": {
+      "enabled": false,
+      "box_size_A": [
+        24.0,
+        24.0,
+        24.0
+      ],
+      "cpu": 1,
+      "seed": 20261103,
+      "prepared_receptor_match_tolerance_A": 0.05,
+      "minimum_receptor_heavy_match_fraction": 0.99
+    },
+    "diversity": {
+      "morgan_radius": 2,
+      "morgan_bits": 2048,
+      "max_pairs": 100000,
+      "seed": 20261103,
+      "conformer_distinct_rmsd_A": 1.0,
+      "max_symmetry_matches": 4096
+    },
+    "quality": {
+      "required_checks": [
+        "chemical_valid",
+        "fully_connected",
+        "no_severe_internal_clash",
+        "bond_geometry_valid",
+        "angle_geometry_valid",
+        "ring_geometry_valid",
+        "torsion_geometry_valid",
+        "no_severe_protein_clash",
+        "in_target_pocket",
+        "posebusters_all_pass",
+        "stereo_definition_complete",
+        "stereo_geometry_consistent"
+      ],
+      "definition": "All required checks must be explicitly true. A false check gives fail; otherwise a missing check gives unavailable. No reference identity, RMSD, QED, strain-delta threshold or docking score is a required check."
+    },
+    "training_smiles_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/de_novo_quality_20261103/training_index.json",
+    "examples_per_group": 0
+  },
+  "config_file_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+  "source_sha256": {
+    "manifest.py": "85049d42988297d36cce066b4d6279785454ee974dc04901575d0af4f02bcbe4",
+    "diversity.py": "35caa29ba7e4b62d2ded6d07966ab9e13291885db39f0d929778d80dbd18f015",
+    "docking.py": "14d7d38355f7eb5584c0c09a87a69371907c67e40688406dc3890ff8e20ac5d8",
+    "pipeline.py": "95658c258a6953bfdabb9623ca40ada8dd84ae184e497a1a8b1a652b945e30e0",
+    "io.py": "65a35e3b26f4c67dd88f26b36e030f3fe984abe359c6dfbef591f59bac2b279f",
+    "common.py": "cc78a3e14f9328c472e35a9c20c89c326a6c635070a1d9c25e064026cb7e494c",
+    "geometry.py": "4a17c10e601aca35d2052ac2a71b749320081eef3a94ac8140cc457ccdf887bb",
+    "report.py": "fbcc6ab394488d338e9ca1ab4dd2dbc32603a0efea3533a0df5b03f69f6d01b5",
+    "forcefield.py": "7f592166454f20b7a7c1fe92f196b7122958e5bdb06d87d2b6c95e7d40152df5",
+    "posebusters_adapter.py": "0c1353951718367aac3fe5fed71616ce9c9840bce982a269df813fd066c601c4",
+    "__init__.py": "a34d0e8f446474e9f98234487d816ef8343e111014e3ec253eedd114241601f6",
+    "protein.py": "2e826a2c54c2ae1c14deabc0037291904b580e5eaf451e0a404995349a0ea5b1",
+    "chemistry.py": "37792bd33cfc8ecf3c73be8f6f8a20d3cd3bc3a71c3aa0b730a91cb2d254c617"
+  },
+  "computation_sha256": "c85491a3359aa7641a39f82b0e0547f036b02f9f0e8c21320403fb891a2ec5e7",
+  "versions": {
+    "python": "3.12.14",
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+    "rdkit": "2026.3.3",
+    "posebusters": "0.6.5",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.0",
+    "vina": "1.2.7",
+    "meeko": "0.8.0"
+  },
+  "manifest_sha256": "4df15258693b49432893891a89a28d49ecd599b013d95807a4ee9ab95e604d8e",
+  "input_count": 144,
+  "reference_conformer_supplied": false,
+  "PB_energy_ensemble_conformers": 50,
+  "additional_neural_NFE": 0
+}

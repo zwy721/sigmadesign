@@ -1,0 +1,110 @@
+{
+  "parameters": {
+    "protocol": "a_priori_v1",
+    "forcefield": "MMFF94s",
+    "pose_k": 5.0,
+    "orientation_k": 2.0,
+    "protein_k": 200.0,
+    "protein_radius_ratio": 0.8,
+    "amide_force_constant": 2.0,
+    "amide_window_deg": 5.0,
+    "max_iterations": 800,
+    "hydrogen_iterations": 200,
+    "translation_bound_A": 2.0,
+    "rotation_bound_rad": 1.5707963267948966,
+    "soft_atom_displacement_A": 2.0,
+    "displacement_k": 200.0,
+    "waters_in_optimizer": false,
+    "training": false,
+    "hyperparameter_selection": "Single a-priori setting; no CASF hyperparameter search"
+  },
+  "success": false,
+  "termination": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+  "iterations": 800,
+  "function_evaluations": 881,
+  "initial_H_relaxed_MMFF_energy": 1677.018512992976,
+  "initial_objective": 3493.8585026493934,
+  "final_objective": 202.67964899510383,
+  "heavy_RMSD_no_alignment_A": 0.5598605913343756,
+  "max_atom_displacement_A": 1.5449787397396284,
+  "centroid_displacement_A": 0.13505128050047463,
+  "max_fragment_pair_distance_change_A": 8.881784197001252e-15,
+  "fragment_translation_A": [
+    [
+      -0.5054093295955234,
+      0.041729705053425686,
+      -0.43310758557352014
+    ],
+    [
+      -0.24769900984243606,
+      0.159369941311633,
+      -0.04321439560091196
+    ],
+    [
+      0.38145496357725966,
+      -0.4981232253188541,
+      0.3377424110203171
+    ],
+    [
+      0.10247200521040159,
+      0.10953249087925823,
+      -0.06357664195881421
+    ],
+    [
+      0.0017306947487012955,
+      0.07411853062300437,
+      -0.1962087500037645
+    ]
+  ],
+  "fragment_Euler_rotation_rad": [
+    [
+      -0.4343721805321134,
+      -0.6387821084192632,
+      -0.03590758994223935
+    ],
+    [
+      -0.07385573204883776,
+      0.3285137506748687,
+      -1.5018291770788188
+    ],
+    [
+      -0.1323102624254338,
+      -0.1710747431544476,
+      -0.21989148727008842
+    ],
+    [
+      -0.04821809859161338,
+      0.11376026783129638,
+      0.11568786527461207
+    ],
+    [
+      0.07191470766635945,
+      -0.11501452825700142,
+      -0.09861661388474023
+    ]
+  ],
+  "amide_constraints": [
+    {
+      "atoms": [
+        2,
+        1,
+        5,
+        4
+      ],
+      "initial_deg": 144.98833333473223,
+      "target_deg": 180.0
+    },
+    {
+      "atoms": [
+        2,
+        1,
+        5,
+        17
+      ],
+      "initial_deg": -7.574919873198689,
+      "target_deg": 0.0
+    }
+  ],
+  "hydrogen_optimization_status": 0,
+  "seconds": 0.6792981280013919
+}

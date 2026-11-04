@@ -1,0 +1,24 @@
+{
+  "parameters": {
+    "min_normalized_tetra_volume": 0.1,
+    "perturbation_sigma_A": 0.01,
+    "perturbations": 16,
+    "max_double_planarity_deviation_deg": 15.0,
+    "seed": 20261103
+  },
+  "decisions": [
+    {
+      "type": "Atom_Tetrahedral",
+      "center": 4,
+      "specified": "Unspecified",
+      "descriptor": "NoValue",
+      "normalized_volume": 0.5271589804728238,
+      "geometry_CIP": "S",
+      "reliable": true,
+      "reasons": []
+    }
+  ],
+  "reliable": 1,
+  "unavailable": 0,
+  "policy": "Independent geometry-derived graph; original explicit graph retained; no target tags; not network stereo accuracy"
+}

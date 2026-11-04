@@ -1,0 +1,17 @@
+{
+  "variant": "A0_B0",
+  "receptor_id": "9T51",
+  "seed": "1803",
+  "rank": 6,
+  "status": "ok",
+  "baseline_serialized_coordinate_max_difference_A": 0.0,
+  "baseline_stereo_spec_equal": true,
+  "repair_cpu_seconds": 0.8959099980000005,
+  "repair_wall_seconds": 0.894017523038201,
+  "postprocess_cpu_seconds": 0.9056634700000004,
+  "postprocess_wall_seconds": 0.9057763679884374,
+  "raw_sha256": "8169ca3e1e650e39c3dd3fae92a289c608a65fe31083ee31d5fb8af8c2267eea",
+  "spec_sha256": "1cde65e17b93f29d8397333e69f443bbafc772378420dccc2945f0a1f33372f9",
+  "derived_sdf": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/A0_B0/9T51_1803_06/derived.sdf",
+  "derived_spec": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/A0_B0/9T51_1803_06/derived_spec.json"
+}

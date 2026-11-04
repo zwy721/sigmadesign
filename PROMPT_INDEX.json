@@ -2,11 +2,11 @@
   "supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "timezone": "Asia/Shanghai",
   "coverage": {
-    "task_groups": 11,
-    "task_groups_with_preserved_prompt": 9,
+    "task_groups": 12,
+    "task_groups_with_preserved_prompt": 10,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 10,
-    "distinct_prompt_contents": 8
+    "prompt_files_including_legacy_copy": 11,
+    "distinct_prompt_contents": 9
   },
   "entries": [
     {
@@ -175,7 +175,22 @@
       "sha256": "91a2cc8bd984efeae893e920910a8346d6799515d0ecedcceec6672c12a7dbe0",
       "source_modified_Asia_Shanghai": "2026-11-04T10:33:19.663051+08:00",
       "duplicate_of_task_archive": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核"
+    },
+    {
+      "task_key": "water_port_geometry_repair",
+      "task_title": "水约束与连接区域柔性",
+      "repository_directory": "2611/1104/1425+水约束与连接区域柔性",
+      "status_path": "2611/1104/1425+水约束与连接区域柔性/PROMPT_STATUS.md",
+      "status": "preserved_original",
+      "source": "2611/1104/1425+水约束与连接区域柔性/prompt.md",
+      "identical_current_workspace_copies": [],
+      "prompt_path": "2611/1104/1425+水约束与连接区域柔性/prompt.md",
+      "relevant_scope": "完整任务：输入审计、实验A、实验B、回归与决策",
+      "bytes": 5156,
+      "sha256": "f49bdefa38da66a3dcd04271445054ec1b2fb2a5207484d0e97556145ce2978d",
+      "source_modified_Asia_Shanghai": "2026-11-04T20:29:55.714665+08:00"
     }
   ],
-  "note": "Preserved prompts are byte-for-byte copies. Missing originals are not reconstructed."
+  "note": "Preserved prompts are byte-for-byte copies. Missing originals are not reconstructed.",
+  "last_appended_at_Asia_Shanghai": "2026-11-04T21:07:23.161508+08:00"
 }

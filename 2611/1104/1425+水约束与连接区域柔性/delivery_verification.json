@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "candidates": 144,
+  "QC_records": 432,
+  "original_SDF": 144,
+  "experimental_and_control_repaired_SDF": 432,
+  "stereo_derived_SDF": 432,
+  "receptor_group_rows": 18,
+  "seed_group_rows": 54,
+  "hashed_artifacts": 2935,
+  "reports": 3,
+  "unit_tests_passed": 11,
+  "full_cohort_regression_checks": 30,
+  "additional_neural_NFE": 0,
+  "replication_entry_smoke_test_passed": true
+}

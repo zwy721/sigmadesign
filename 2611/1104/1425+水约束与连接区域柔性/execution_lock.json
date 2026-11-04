@@ -1,0 +1,9 @@
+{
+  "fixed_parameters_sha256": "d917d8fe70b42fd8bd6ee1c678e826fd5da1c425773d4bc1b61aef01fefe2c0a",
+  "numerical_sources": {
+    "2611/1104/1425+水约束与连接区域柔性/source/optimizer.py": "c1f1d6b579cf98ca632f4f23fdef956a7a730b66a405b9e72a75c1880fbcd15b",
+    "2611/1104/1425+水约束与连接区域柔性/source/run_experiments.py": "9ac5d5c1b75ca9bd700afc7553c8e2c51b9b0f6b7633df2364d51a3588872099",
+    "2611/1104/1425+水约束与连接区域柔性/source/audit.py": "1d477b3427efd8437a370d9e784b9fc04c23519fa2273f7ba01fbd3eed0f86ca",
+    "2611/1104/1425+水约束与连接区域柔性/tests/test_repair.py": "96fcad62b02a933ab770afed1b4b51cd46001ec272cdf8d346b1118ba65a341f"
+  }
+}

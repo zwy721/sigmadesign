@@ -1,0 +1,2281 @@
+{
+  "molecule_id": "B1__9SYL_1801_01",
+  "metadata": {
+    "molecule_id": "B1__9SYL_1801_01",
+    "group": "B1",
+    "receptor_id": "9SYL",
+    "pocket_id": "9SYL",
+    "seed": 1801,
+    "candidate_rank": 1,
+    "sdf_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/B1/9SYL_1801_01/derived.sdf",
+    "chemistry_spec_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/structures/B1/9SYL_1801_01/derived_spec.json",
+    "protein_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent_inputs/9SYL/9SYL_LIG_pocket.pdb",
+    "role": "test",
+    "record_index": 0,
+    "strata": {
+      "fragment_count": 8,
+      "cross_connection_orders": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "cross_connection_stereo": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cross_ring_connections": false,
+      "source_EZ_bonds": 0
+    }
+  },
+  "input_sha256": {
+    "sdf_path": "4595b21c642b0e72c4abd87e60d728a541185ba8df61d2f16b4946c11c5f81f1",
+    "chemistry_spec_path": "4688ef480724958306a944a478f942f1905bd4f8dad71d78ef685111f97a8ce3",
+    "protein_path": "1a12945810ab4b3debbe9137976900508543d999573357089b56d53857869086"
+  },
+  "cache_key": "55fb61184418dca904c90034a0628643bc7658adec8747c36b64ba1693a32078",
+  "cache_hit": false,
+  "checks": {
+    "chemical_valid": true,
+    "fully_connected": true,
+    "no_severe_internal_clash": true,
+    "bond_geometry_valid": true,
+    "angle_geometry_valid": true,
+    "ring_geometry_valid": true,
+    "torsion_geometry_valid": true,
+    "no_severe_protein_clash": true,
+    "in_target_pocket": true,
+    "posebusters_all_pass": false,
+    "stereo_definition_complete": true,
+    "stereo_geometry_consistent": true,
+    "sdf_parse_success": true,
+    "posebusters_mol_all_pass": true,
+    "geometric_quality_without_stereo": true,
+    "high_quality": false,
+    "chemically_valid_connected": true
+  },
+  "errors": {},
+  "modules": {
+    "chemistry": {
+      "parse_success": true,
+      "sanitize_success": true,
+      "parse_error": null,
+      "sanitize_error": null,
+      "stereo_source": "original explicit chemistry spec; SDF geometry retained",
+      "fragment_mapping_available": true,
+      "heavy_components": 1,
+      "component_sizes": [
+        39
+      ],
+      "isolated_heavy_atoms": [],
+      "total_formal_charge": 0,
+      "radical_electrons": 0,
+      "dummy_atoms": 0,
+      "aromatic_atoms": 21,
+      "aromatic_bonds": 22,
+      "chemistry_warnings": [],
+      "structural_alerts": [
+        "het-C-het_not_in_ring"
+      ],
+      "stereo_elements": [
+        {
+          "type": "Atom_Tetrahedral",
+          "center": 11,
+          "specified": "Specified",
+          "descriptor": "Tet_CCW"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "center": 12,
+          "specified": "Specified",
+          "descriptor": "Tet_CW"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "center": 14,
+          "specified": "Specified",
+          "descriptor": "Tet_CW"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "center": 15,
+          "specified": "Specified",
+          "descriptor": "Tet_CCW"
+        },
+        {
+          "type": "Atom_Tetrahedral",
+          "center": 22,
+          "specified": "Specified",
+          "descriptor": "Tet_CCW"
+        }
+      ],
+      "undefined_tetra_centres": 0,
+      "undefined_double_bonds": 0,
+      "canonical_smiles": "CN(C)[C@@](NC(C)(c1ccccc1)c1ccccc1)(C(=O)O)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+      "constitution_smiles": "CN(C)C(NC(C)(c1ccccc1)c1ccccc1)(C(=O)O)C1OC(n2cnc3c(N)ncnc32)C(O)C1O",
+      "assigned_stereo_elements_compared": 5,
+      "declared_vs_3D_mismatches": [],
+      "declared_stereo_not_resolvable_from_3D": []
+    },
+    "properties": {
+      "MW": 533.5890000000003,
+      "LogP": 0.9235000000000015,
+      "QED": 0.2039762820523822,
+      "TPSA": 171.88,
+      "HBD": 5,
+      "HBA": 10,
+      "rotatable_bonds": 8,
+      "rings": 5,
+      "aromatic_rings": 4,
+      "heavy_atoms": 39,
+      "formal_charge": 0
+    },
+    "geometry": {
+      "status": "ok",
+      "coordinate_unit": "angstrom",
+      "heavy_atoms": 39,
+      "fragment_mapping_available": true,
+      "bonds": [
+        {
+          "atom_i": 0,
+          "atom_j": 1,
+          "elements": "N-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3430785568982915,
+          "lower_bound_A": 1.4121961402010499,
+          "upper_bound_A": 1.43219614020105,
+          "nominal_A": 1.42219614020105,
+          "deviation_A": -0.07911758330275842,
+          "relative_deviation": 0.055630570964405726,
+          "abnormal": false
+        },
+        {
+          "atom_i": 1,
+          "atom_j": 2,
+          "elements": "C-N",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3362145261895644,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": -0.008858257984274864,
+          "relative_deviation": 0.006585709032627345,
+          "abnormal": false
+        },
+        {
+          "atom_i": 2,
+          "atom_j": 3,
+          "elements": "N-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3228996560586148,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": -0.022173128115224428,
+          "relative_deviation": 0.01648470504801972,
+          "abnormal": false
+        },
+        {
+          "atom_i": 3,
+          "atom_j": 4,
+          "elements": "C-N",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3198679555167623,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": -0.02520482865707696,
+          "relative_deviation": 0.018738635524885805,
+          "abnormal": false
+        },
+        {
+          "atom_i": 4,
+          "atom_j": 5,
+          "elements": "N-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3370706787601043,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": -0.008002105413734917,
+          "relative_deviation": 0.005949198815029115,
+          "abnormal": false
+        },
+        {
+          "atom_i": 5,
+          "atom_j": 6,
+          "elements": "C-N",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3704008537650574,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": 0.02532806959121814,
+          "relative_deviation": 0.018830259514004636,
+          "abnormal": false
+        },
+        {
+          "atom_i": 6,
+          "atom_j": 7,
+          "elements": "N-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3821569411611674,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": 0.03708415698732814,
+          "relative_deviation": 0.0275703719706928,
+          "abnormal": false
+        },
+        {
+          "atom_i": 7,
+          "atom_j": 8,
+          "elements": "C-N",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3065616939126907,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": -0.03851109026114852,
+          "relative_deviation": 0.02863123149488339,
+          "abnormal": false
+        },
+        {
+          "atom_i": 8,
+          "atom_j": 9,
+          "elements": "N-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3730379346543924,
+          "lower_bound_A": 1.3350727841738392,
+          "upper_bound_A": 1.3550727841738393,
+          "nominal_A": 1.3450727841738392,
+          "deviation_A": 0.027965150480553147,
+          "relative_deviation": 0.02079080835594313,
+          "abnormal": false
+        },
+        {
+          "atom_i": 9,
+          "atom_j": 1,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4069809877891035,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.027724582388314545,
+          "relative_deviation": 0.0201011083071666,
+          "abnormal": false
+        },
+        {
+          "atom_i": 9,
+          "atom_j": 5,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4004412804541273,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.021184875053338326,
+          "relative_deviation": 0.015359635068856072,
+          "abnormal": false
+        },
+        {
+          "atom_i": 11,
+          "atom_j": 10,
+          "elements": "C-O",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4016941927538997,
+          "lower_bound_A": 1.3838448452526835,
+          "upper_bound_A": 1.4038448452526835,
+          "nominal_A": 1.3938448452526835,
+          "deviation_A": 0.007849347501216242,
+          "relative_deviation": 0.005631435613476241,
+          "abnormal": false
+        },
+        {
+          "atom_i": 11,
+          "atom_j": 12,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.534023031117851,
+          "lower_bound_A": 1.504,
+          "upper_bound_A": 1.524,
+          "nominal_A": 1.514,
+          "deviation_A": 0.020023031117851087,
+          "relative_deviation": 0.01322525172909583,
+          "abnormal": false
+        },
+        {
+          "atom_i": 12,
+          "atom_j": 13,
+          "elements": "C-O",
+          "bond_type": "SINGLE",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.45886036686175,
+          "lower_bound_A": 1.3838448452526835,
+          "upper_bound_A": 1.4038448452526835,
+          "nominal_A": 1.3938448452526835,
+          "deviation_A": 0.06501552160906643,
+          "relative_deviation": 0.04664473368790202,
+          "abnormal": false
+        },
+        {
+          "atom_i": 13,
+          "atom_j": 14,
+          "elements": "O-C",
+          "bond_type": "SINGLE",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4249028247568334,
+          "lower_bound_A": 1.3838448452526835,
+          "upper_bound_A": 1.4038448452526835,
+          "nominal_A": 1.3938448452526835,
+          "deviation_A": 0.031057979504149902,
+          "relative_deviation": 0.022282235795419218,
+          "abnormal": false
+        },
+        {
+          "atom_i": 14,
+          "atom_j": 15,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.5266879248883838,
+          "lower_bound_A": 1.504,
+          "upper_bound_A": 1.524,
+          "nominal_A": 1.514,
+          "deviation_A": 0.012687924888383773,
+          "relative_deviation": 0.008380399529976072,
+          "abnormal": false
+        },
+        {
+          "atom_i": 15,
+          "atom_j": 16,
+          "elements": "C-O",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.38918307648776,
+          "lower_bound_A": 1.3838448452526835,
+          "upper_bound_A": 1.4038448452526835,
+          "nominal_A": 1.3938448452526835,
+          "deviation_A": -0.004661768764923524,
+          "relative_deviation": 0.003344539229600131,
+          "abnormal": false
+        },
+        {
+          "atom_i": 15,
+          "atom_j": 11,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.5311536598264708,
+          "lower_bound_A": 1.504,
+          "upper_bound_A": 1.524,
+          "nominal_A": 1.514,
+          "deviation_A": 0.01715365982647077,
+          "relative_deviation": 0.011330026305462858,
+          "abnormal": false
+        },
+        {
+          "atom_i": 17,
+          "atom_j": 18,
+          "elements": "C-N",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4577973624616025,
+          "lower_bound_A": 1.441071040722294,
+          "upper_bound_A": 1.461071040722294,
+          "nominal_A": 1.451071040722294,
+          "deviation_A": 0.006726321739308538,
+          "relative_deviation": 0.004635418632543589,
+          "abnormal": false
+        },
+        {
+          "atom_i": 18,
+          "atom_j": 19,
+          "elements": "N-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4432324968625125,
+          "lower_bound_A": 1.441071040722294,
+          "upper_bound_A": 1.461071040722294,
+          "nominal_A": 1.451071040722294,
+          "deviation_A": -0.007838543859781444,
+          "relative_deviation": 0.005401902208646989,
+          "abnormal": false
+        },
+        {
+          "atom_i": 20,
+          "atom_j": 21,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.548540890645126,
+          "lower_bound_A": 1.504,
+          "upper_bound_A": 1.524,
+          "nominal_A": 1.514,
+          "deviation_A": 0.03454089064512589,
+          "relative_deviation": 0.02281432671408579,
+          "abnormal": false
+        },
+        {
+          "atom_i": 22,
+          "atom_j": 23,
+          "elements": "C-N",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4861775735086311,
+          "lower_bound_A": 1.441071040722294,
+          "upper_bound_A": 1.461071040722294,
+          "nominal_A": 1.451071040722294,
+          "deviation_A": 0.03510653278633713,
+          "relative_deviation": 0.024193531399305086,
+          "abnormal": false
+        },
+        {
+          "atom_i": 24,
+          "atom_j": 25,
+          "elements": "O-C",
+          "bond_type": "DOUBLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.2273597394407225,
+          "lower_bound_A": 1.2479485177162906,
+          "upper_bound_A": 1.3980375487871646,
+          "nominal_A": 1.3229930332517275,
+          "deviation_A": -0.09563329381100494,
+          "relative_deviation": 0.07228556115367592,
+          "abnormal": false
+        },
+        {
+          "atom_i": 25,
+          "atom_j": 26,
+          "elements": "C-O",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.347444314248274,
+          "lower_bound_A": 1.2479485177162906,
+          "upper_bound_A": 1.3980375487871646,
+          "nominal_A": 1.3229930332517275,
+          "deviation_A": 0.024451280996546476,
+          "relative_deviation": 0.01848179119768207,
+          "abnormal": false
+        },
+        {
+          "atom_i": 27,
+          "atom_j": 28,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.388303713169421,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.00904730776863194,
+          "relative_deviation": 0.0065595546507561395,
+          "abnormal": false
+        },
+        {
+          "atom_i": 28,
+          "atom_j": 29,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4045682397092718,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.025311834308482828,
+          "relative_deviation": 0.01835179754059408,
+          "abnormal": false
+        },
+        {
+          "atom_i": 29,
+          "atom_j": 30,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.406822330644492,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.02756592524370305,
+          "relative_deviation": 0.019986077378914075,
+          "abnormal": false
+        },
+        {
+          "atom_i": 30,
+          "atom_j": 31,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3868503127590937,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.0075939073583046746,
+          "relative_deviation": 0.00550579814497799,
+          "abnormal": false
+        },
+        {
+          "atom_i": 31,
+          "atom_j": 32,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3850557642203452,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.005799358819556177,
+          "relative_deviation": 0.0042046995735147445,
+          "abnormal": false
+        },
+        {
+          "atom_i": 32,
+          "atom_j": 27,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3854057347939628,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.006149329393173808,
+          "relative_deviation": 0.004458438162110195,
+          "abnormal": false
+        },
+        {
+          "atom_i": 33,
+          "atom_j": 34,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3886350312447115,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.009378625843922572,
+          "relative_deviation": 0.0067997696492098575,
+          "abnormal": false
+        },
+        {
+          "atom_i": 34,
+          "atom_j": 35,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4045277426950304,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.02527133729424147,
+          "relative_deviation": 0.01832243605705644,
+          "abnormal": false
+        },
+        {
+          "atom_i": 35,
+          "atom_j": 36,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.4104214334729892,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.03116502807220023,
+          "relative_deviation": 0.02259552897500896,
+          "abnormal": false
+        },
+        {
+          "atom_i": 36,
+          "atom_j": 37,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3856490212171337,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.00639261581634476,
+          "relative_deviation": 0.004634827716813954,
+          "abnormal": false
+        },
+        {
+          "atom_i": 37,
+          "atom_j": 38,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3850185197317777,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.005762114330988721,
+          "relative_deviation": 0.00417769626330961,
+          "abnormal": false
+        },
+        {
+          "atom_i": 38,
+          "atom_j": 33,
+          "elements": "C-C",
+          "bond_type": "AROMATIC",
+          "in_ring": true,
+          "fragment_relation": "within_fragment",
+          "distance_A": 1.3853897863056444,
+          "lower_bound_A": 1.369256405400789,
+          "upper_bound_A": 1.389256405400789,
+          "nominal_A": 1.379256405400789,
+          "deviation_A": 0.006133380904855379,
+          "relative_deviation": 0.004446875055891526,
+          "abnormal": false
+        },
+        {
+          "atom_i": 6,
+          "atom_j": 14,
+          "elements": "N-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.4636354327495626,
+          "lower_bound_A": 1.4400749042339407,
+          "upper_bound_A": 1.4600749042339407,
+          "nominal_A": 1.4500749042339407,
+          "deviation_A": 0.01356052851562195,
+          "relative_deviation": 0.009351605545360317,
+          "abnormal": false
+        },
+        {
+          "atom_i": 12,
+          "atom_j": 22,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.6185396257120188,
+          "lower_bound_A": 1.504,
+          "upper_bound_A": 1.524,
+          "nominal_A": 1.514,
+          "deviation_A": 0.1045396257120188,
+          "relative_deviation": 0.0690486299286782,
+          "abnormal": false
+        },
+        {
+          "atom_i": 18,
+          "atom_j": 22,
+          "elements": "N-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.4761172683767347,
+          "lower_bound_A": 1.441071040722294,
+          "upper_bound_A": 1.461071040722294,
+          "nominal_A": 1.451071040722294,
+          "deviation_A": 0.025046227654440756,
+          "relative_deviation": 0.017260510996052678,
+          "abnormal": false
+        },
+        {
+          "atom_i": 20,
+          "atom_j": 23,
+          "elements": "C-N",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.5056384991092642,
+          "lower_bound_A": 1.441071040722294,
+          "upper_bound_A": 1.461071040722294,
+          "nominal_A": 1.451071040722294,
+          "deviation_A": 0.05456745838697019,
+          "relative_deviation": 0.0376049530695674,
+          "abnormal": false
+        },
+        {
+          "atom_i": 20,
+          "atom_j": 29,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.582683559654296,
+          "lower_bound_A": 1.476,
+          "upper_bound_A": 1.496,
+          "nominal_A": 1.486,
+          "deviation_A": 0.09668355965429609,
+          "relative_deviation": 0.06506296073640383,
+          "abnormal": false
+        },
+        {
+          "atom_i": 20,
+          "atom_j": 35,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.6034161063180072,
+          "lower_bound_A": 1.476,
+          "upper_bound_A": 1.496,
+          "nominal_A": 1.486,
+          "deviation_A": 0.11741610631800725,
+          "relative_deviation": 0.07901487639166033,
+          "abnormal": false
+        },
+        {
+          "atom_i": 22,
+          "atom_j": 25,
+          "elements": "C-C",
+          "bond_type": "SINGLE",
+          "in_ring": false,
+          "fragment_relation": "cross_fragment",
+          "distance_A": 1.6707047435139444,
+          "lower_bound_A": 1.476,
+          "upper_bound_A": 1.496,
+          "nominal_A": 1.486,
+          "deviation_A": 0.1847047435139444,
+          "relative_deviation": 0.12429659725029905,
+          "abnormal": false
+        }
+      ],
+      "bond_count": 43,
+      "abnormal_bond_count": 0,
+      "abnormal_bond_fraction": 0.0,
+      "max_bond_deviation_A": 0.1847047435139444,
+      "max_bond_length_A": 1.6707047435139444,
+      "cross_fragment_bond_count": 7,
+      "cross_fragment_abnormal_bond_count": 0,
+      "cross_fragment_max_bond_deviation_A": 0.1847047435139444,
+      "within_fragment_bond_count": 36,
+      "within_fragment_abnormal_bond_count": 0,
+      "within_fragment_max_bond_deviation_A": 0.09563329381100494,
+      "angles": [
+        {
+          "atoms": [
+            0,
+            1,
+            2
+          ],
+          "angle_deg": 118.76755743765692,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3057965846969237,
+          "lower_bound_A": 2.356835409006935,
+          "upper_bound_A": 2.436835409006935,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            0,
+            1,
+            9
+          ],
+          "angle_deg": 122.94608171746984,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4163744142826884,
+          "lower_bound_A": 2.386224068207725,
+          "upper_bound_A": 2.466224068207725,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            2,
+            1,
+            9
+          ],
+          "angle_deg": 118.28579632811008,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3551735859592173,
+          "lower_bound_A": 2.3194001949364824,
+          "upper_bound_A": 2.3994001949364825,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            1,
+            2,
+            3
+          ],
+          "angle_deg": 119.32414027990446,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.2949885664203227,
+          "lower_bound_A": 2.2897344020672166,
+          "upper_bound_A": 2.3697344020672166,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            2,
+            3,
+            4
+          ],
+          "angle_deg": 128.4553192138174,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3798886444537692,
+          "lower_bound_A": 2.2897344020672166,
+          "upper_bound_A": 2.3697344020672166,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            3,
+            4,
+            5
+          ],
+          "angle_deg": 112.34365473171825,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.207168489264017,
+          "lower_bound_A": 2.2897344020672166,
+          "upper_bound_A": 2.3697344020672166,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            4,
+            5,
+            6
+          ],
+          "angle_deg": 128.07841623584093,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4343146427690905,
+          "lower_bound_A": 2.417570264361394,
+          "upper_bound_A": 2.497570264361394,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            4,
+            5,
+            9
+          ],
+          "angle_deg": 125.44640022226253,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.433281820915942,
+          "lower_bound_A": 2.3194001949364824,
+          "upper_bound_A": 2.3994001949364825,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            6,
+            5,
+            9
+          ],
+          "angle_deg": 106.47514849479862,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.219861040696015,
+          "lower_bound_A": 2.164120196142294,
+          "upper_bound_A": 2.244120196142294,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            5,
+            6,
+            7
+          ],
+          "angle_deg": 105.22433325916727,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.1870387673747325,
+          "lower_bound_A": 2.136373482135723,
+          "upper_bound_A": 2.2163734821357233,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            5,
+            6,
+            14
+          ],
+          "angle_deg": 132.1013384952755,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.5903158533275428,
+          "lower_bound_A": 2.450951004353655,
+          "upper_bound_A": 2.530951004353655,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            7,
+            6,
+            14
+          ],
+          "angle_deg": 122.39120618520353,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.49399065154623,
+          "lower_bound_A": 2.450951004353655,
+          "upper_bound_A": 2.530951004353655,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            6,
+            7,
+            8
+          ],
+          "angle_deg": 113.45377993637479,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.248325930553663,
+          "lower_bound_A": 2.136373482135723,
+          "upper_bound_A": 2.2163734821357233,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            7,
+            8,
+            9
+          ],
+          "angle_deg": 105.3053462221335,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.130590127171342,
+          "lower_bound_A": 2.136373482135723,
+          "upper_bound_A": 2.2163734821357233,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            8,
+            9,
+            1
+          ],
+          "angle_deg": 134.31980791617758,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.5620763513213256,
+          "lower_bound_A": 2.4488373927162197,
+          "upper_bound_A": 2.5288373927162198,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            8,
+            9,
+            5
+          ],
+          "angle_deg": 109.53579710829618,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.2654934672163574,
+          "lower_bound_A": 2.164120196142294,
+          "upper_bound_A": 2.244120196142294,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            1,
+            9,
+            5
+          ],
+          "angle_deg": 116.14438087891529,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3827041822265733,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            10,
+            11,
+            12
+          ],
+          "angle_deg": 114.43533740673192,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.46919590352811,
+          "lower_bound_A": 2.3356792843222545,
+          "upper_bound_A": 2.4156792843222545,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            10,
+            11,
+            15
+          ],
+          "angle_deg": 110.3982246171547,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.409412903592907,
+          "lower_bound_A": 2.3356792843222545,
+          "upper_bound_A": 2.4156792843222545,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            12,
+            11,
+            15
+          ],
+          "angle_deg": 103.33789401091292,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.404448932707867,
+          "lower_bound_A": 2.3460965619211542,
+          "upper_bound_A": 2.4260965619211543,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            11,
+            12,
+            13
+          ],
+          "angle_deg": 105.99516279442656,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.3905749664045253,
+          "lower_bound_A": 2.2526067823513327,
+          "upper_bound_A": 2.332606782351333,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            11,
+            12,
+            22
+          ],
+          "angle_deg": 122.62509930874305,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.7658873404388697,
+          "lower_bound_A": 2.432790629029564,
+          "upper_bound_A": 2.512790629029564,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            13,
+            12,
+            22
+          ],
+          "angle_deg": 118.39755403957771,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.644593861068274,
+          "lower_bound_A": 2.3356792843222545,
+          "upper_bound_A": 2.4156792843222545,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            12,
+            13,
+            14
+          ],
+          "angle_deg": 109.23537654568365,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.3512333550713347,
+          "lower_bound_A": 2.1567294538368236,
+          "upper_bound_A": 2.2367294538368236,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            13,
+            14,
+            15
+          ],
+          "angle_deg": 109.01536288851189,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.403892098244012,
+          "lower_bound_A": 2.2526067823513327,
+          "upper_bound_A": 2.332606782351333,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            13,
+            14,
+            6
+          ],
+          "angle_deg": 118.50454510998887,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.482565854111428,
+          "lower_bound_A": 2.2826897760593425,
+          "upper_bound_A": 2.3626897760593426,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            15,
+            14,
+            6
+          ],
+          "angle_deg": 131.53078162210738,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.7269159759699235,
+          "lower_bound_A": 2.380867888750109,
+          "upper_bound_A": 2.460867888750109,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            14,
+            15,
+            16
+          ],
+          "angle_deg": 115.7412177372299,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.4703857229185893,
+          "lower_bound_A": 2.3356792843222545,
+          "upper_bound_A": 2.4156792843222545,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            14,
+            15,
+            11
+          ],
+          "angle_deg": 103.66587576769747,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.4041141591030994,
+          "lower_bound_A": 2.3460965619211542,
+          "upper_bound_A": 2.4260965619211543,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            16,
+            15,
+            11
+          ],
+          "angle_deg": 112.9164998789051,
+          "hybridization": "SP3",
+          "ring_center": true,
+          "end_distance_A": 2.435315985657712,
+          "lower_bound_A": 2.3356792843222545,
+          "upper_bound_A": 2.4156792843222545,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            17,
+            18,
+            19
+          ],
+          "angle_deg": 112.88012391598414,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.4174647277675025,
+          "lower_bound_A": 2.33000982269106,
+          "upper_bound_A": 2.4100098226910602,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            17,
+            18,
+            22
+          ],
+          "angle_deg": 114.50431637294379,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.4676163478142223,
+          "lower_bound_A": 2.33000982269106,
+          "upper_bound_A": 2.4100098226910602,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            19,
+            18,
+            22
+          ],
+          "angle_deg": 121.61132121840267,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.54855603626838,
+          "lower_bound_A": 2.33000982269106,
+          "upper_bound_A": 2.4100098226910602,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            21,
+            20,
+            23
+          ],
+          "angle_deg": 116.17767059232783,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.592696472786584,
+          "lower_bound_A": 2.3816725902099662,
+          "upper_bound_A": 2.4616725902099663,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            21,
+            20,
+            29
+          ],
+          "angle_deg": 109.4694596377561,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.556682272008,
+          "lower_bound_A": 2.4099779619954034,
+          "upper_bound_A": 2.4899779619954034,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            21,
+            20,
+            35
+          ],
+          "angle_deg": 104.03732308103763,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.4846374302903826,
+          "lower_bound_A": 2.4099779619954034,
+          "upper_bound_A": 2.4899779619954034,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            23,
+            20,
+            29
+          ],
+          "angle_deg": 109.06417468205323,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.515652130164262,
+          "lower_bound_A": 2.3586189768370978,
+          "upper_bound_A": 2.438618976837098,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            23,
+            20,
+            35
+          ],
+          "angle_deg": 108.08619436453752,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.517306687712087,
+          "lower_bound_A": 2.3586189768370978,
+          "upper_bound_A": 2.438618976837098,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            29,
+            20,
+            35
+          ],
+          "angle_deg": 109.80045172325389,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.6067410228098984,
+          "lower_bound_A": 2.38705870194051,
+          "upper_bound_A": 2.46705870194051,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            23,
+            22,
+            12
+          ],
+          "angle_deg": 113.0721027278437,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.5910855138339217,
+          "lower_bound_A": 2.3816725902099662,
+          "upper_bound_A": 2.4616725902099663,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            23,
+            22,
+            18
+          ],
+          "angle_deg": 107.59005584055528,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.390309923419973,
+          "lower_bound_A": 2.33000982269106,
+          "upper_bound_A": 2.4100098226910602,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            23,
+            22,
+            25
+          ],
+          "angle_deg": 102.56166323799388,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.465769409332511,
+          "lower_bound_A": 2.3586189768370978,
+          "upper_bound_A": 2.438618976837098,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            12,
+            22,
+            18
+          ],
+          "angle_deg": 123.25581053125362,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.723768013249291,
+          "lower_bound_A": 2.3816725902099662,
+          "upper_bound_A": 2.4616725902099663,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            12,
+            22,
+            25
+          ],
+          "angle_deg": 107.7504834625885,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.6570164734152466,
+          "lower_bound_A": 2.4099779619954034,
+          "upper_bound_A": 2.4899779619954034,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            18,
+            22,
+            25
+          ],
+          "angle_deg": 99.86271241805747,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.411435723796094,
+          "lower_bound_A": 2.3586189768370978,
+          "upper_bound_A": 2.438618976837098,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            22,
+            23,
+            20
+          ],
+          "angle_deg": 126.58796403680034,
+          "hybridization": "SP3",
+          "ring_center": false,
+          "end_distance_A": 2.6726759792387864,
+          "lower_bound_A": 2.33000982269106,
+          "upper_bound_A": 2.4100098226910602,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            24,
+            25,
+            26
+          ],
+          "angle_deg": 120.48749681194494,
+          "hybridization": "SP2",
+          "ring_center": false,
+          "end_distance_A": 2.2360968069383738,
+          "lower_bound_A": 2.252414117715004,
+          "upper_bound_A": 2.332414117715004,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            24,
+            25,
+            22
+          ],
+          "angle_deg": 125.66453639636583,
+          "hybridization": "SP2",
+          "ring_center": false,
+          "end_distance_A": 2.5862660284665204,
+          "lower_bound_A": 2.3390632548444397,
+          "upper_bound_A": 2.4190632548444397,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            26,
+            25,
+            22
+          ],
+          "angle_deg": 113.83844212645168,
+          "hybridization": "SP2",
+          "ring_center": false,
+          "end_distance_A": 2.535060460817455,
+          "lower_bound_A": 2.4494714367392945,
+          "upper_bound_A": 2.5294714367392945,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            28,
+            27,
+            32
+          ],
+          "angle_deg": 120.28191020644626,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.405507848667305,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            27,
+            28,
+            29
+          ],
+          "angle_deg": 121.32482157713818,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.434693643972483,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            28,
+            29,
+            30
+          ],
+          "angle_deg": 117.01563535261323,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3973052141936373,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            28,
+            29,
+            20
+          ],
+          "angle_deg": 121.72243880158312,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.6106347484855084,
+          "lower_bound_A": 2.4419587527323405,
+          "upper_bound_A": 2.5219587527323406,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            30,
+            29,
+            20
+          ],
+          "angle_deg": 121.25128164507052,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.6065830928631453,
+          "lower_bound_A": 2.4419587527323405,
+          "upper_bound_A": 2.5219587527323406,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            29,
+            30,
+            31
+          ],
+          "angle_deg": 121.60217239666149,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4387038278561004,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            30,
+            31,
+            32
+          ],
+          "angle_deg": 120.02371376980274,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4008280071675285,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            31,
+            32,
+            27
+          ],
+          "angle_deg": 119.73719821457395,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.396106879920009,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            34,
+            33,
+            38
+          ],
+          "angle_deg": 120.38924226156497,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4070740100794583,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            33,
+            34,
+            35
+          ],
+          "angle_deg": 121.16237186074166,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.433004128644256,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            34,
+            35,
+            36
+          ],
+          "angle_deg": 117.14466403788045,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.401995574517156,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            34,
+            35,
+            20
+          ],
+          "angle_deg": 120.47057548369028,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.612976059974525,
+          "lower_bound_A": 2.4419587527323405,
+          "upper_bound_A": 2.5219587527323406,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            36,
+            35,
+            20
+          ],
+          "angle_deg": 122.3832447561325,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.642470709393011,
+          "lower_bound_A": 2.4419587527323405,
+          "upper_bound_A": 2.5219587527323406,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            35,
+            36,
+            37
+          ],
+          "angle_deg": 121.44021116843288,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.438877235532777,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            36,
+            37,
+            38
+          ],
+          "angle_deg": 120.11818544427004,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.4008960014961103,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            37,
+            38,
+            33
+          ],
+          "angle_deg": 119.73643721304387,
+          "hybridization": "SP2",
+          "ring_center": true,
+          "end_distance_A": 2.3960516396772413,
+          "lower_bound_A": 2.3489421708189835,
+          "upper_bound_A": 2.4289421708189836,
+          "abnormal": false
+        }
+      ],
+      "angle_count": 65,
+      "abnormal_angle_count": 0,
+      "clash_pairs": [
+        {
+          "atom_i": 17,
+          "atom_j": 24,
+          "topology": "1-5_or_more",
+          "distance_A": 2.735742986831913,
+          "vdw_sum_A": 3.25,
+          "vdw_overlap_A": 0.5142570131680868,
+          "vdw_distance_ratio": 0.8417670728713579,
+          "DG_lower_A": 2.275,
+          "effective_lower_bound_ratio": 0.8417670728713579,
+          "severity": "mild",
+          "fragment_relation": "cross_fragment"
+        }
+      ],
+      "clash_pair_details_truncated": false,
+      "clash_severity_counts": {
+        "severe": 0,
+        "moderate": 0,
+        "mild": 1
+      },
+      "clash_topology_counts": {
+        "1-5_or_more/mild": 1
+      },
+      "nonbonded_pair_counts": {
+        "1-3": 65,
+        "1-4": 76,
+        "1-5_or_more": 557
+      },
+      "worst_nonbonded_pair": {
+        "atom_i": 17,
+        "atom_j": 24,
+        "topology": "1-5_or_more",
+        "distance_A": 2.735742986831913,
+        "vdw_sum_A": 3.25,
+        "vdw_overlap_A": 0.5142570131680868,
+        "vdw_distance_ratio": 0.8417670728713579,
+        "DG_lower_A": 2.275,
+        "effective_lower_bound_ratio": 0.8417670728713579,
+        "severity": "mild",
+        "fragment_relation": "cross_fragment"
+      },
+      "severe_internal_clash_pairs": 0,
+      "rings": [
+        {
+          "atoms": [
+            1,
+            9,
+            5,
+            4,
+            3,
+            2
+          ],
+          "size": 6,
+          "aromatic": true,
+          "max_plane_distance_A": 0.001037451616622252,
+          "abnormal_bonds": 0,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            7,
+            6,
+            5,
+            9,
+            8
+          ],
+          "size": 5,
+          "aromatic": true,
+          "max_plane_distance_A": 0.003966295021259014,
+          "abnormal_bonds": 0,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "size": 5,
+          "aromatic": false,
+          "max_plane_distance_A": 0.18161086673372268,
+          "abnormal_bonds": 0,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            27,
+            32,
+            31,
+            30,
+            29,
+            28
+          ],
+          "size": 6,
+          "aromatic": true,
+          "max_plane_distance_A": 0.007195498846394539,
+          "abnormal_bonds": 0,
+          "abnormal": false
+        },
+        {
+          "atoms": [
+            33,
+            38,
+            37,
+            36,
+            35,
+            34
+          ],
+          "size": 6,
+          "aromatic": true,
+          "max_plane_distance_A": 0.005652445898972662,
+          "abnormal_bonds": 0,
+          "abnormal": false
+        }
+      ],
+      "abnormal_ring_count": 0,
+      "amide_torsions": [],
+      "experimental_torsions": [
+        {
+          "atoms": [
+            12,
+            22,
+            23,
+            20
+          ],
+          "bond_index": 21,
+          "torsion_index": 162,
+          "smarts": "[C:1][CX4:2]!@;-[NX3:3][C:4]",
+          "angle_deg": 42.68464759599881
+        },
+        {
+          "atoms": [
+            12,
+            22,
+            18,
+            17
+          ],
+          "bond_index": 38,
+          "torsion_index": 162,
+          "smarts": "[C:1][CX4:2]!@;-[NX3:3][C:4]",
+          "angle_deg": 62.32308992104237
+        },
+        {
+          "atoms": [
+            21,
+            20,
+            23,
+            22
+          ],
+          "bond_index": 39,
+          "torsion_index": 162,
+          "smarts": "[C:1][CX4:2]!@;-[NX3:3][C:4]",
+          "angle_deg": 36.86498634829927
+        },
+        {
+          "atoms": [
+            13,
+            12,
+            22,
+            23
+          ],
+          "bond_index": 37,
+          "torsion_index": 225,
+          "smarts": "[OX2:1][CX4:2]!@;-[CX4:3][N:4]",
+          "angle_deg": -80.0840330789696
+        },
+        {
+          "atoms": [
+            23,
+            22,
+            25,
+            24
+          ],
+          "bond_index": 42,
+          "torsion_index": 233,
+          "smarts": "[NH1:1][CX4:2]!@;-[CX3:3]=[O:4]",
+          "angle_deg": 94.72263564956052
+        },
+        {
+          "atoms": [
+            28,
+            29,
+            20,
+            35
+          ],
+          "bond_index": 40,
+          "torsion_index": 293,
+          "smarts": "[a:1][c:2]!@;-[CX4H0:3][a:4]",
+          "angle_deg": 46.14252032317705
+        },
+        {
+          "atoms": [
+            34,
+            35,
+            20,
+            29
+          ],
+          "bond_index": 41,
+          "torsion_index": 293,
+          "smarts": "[a:1][c:2]!@;-[CX4H0:3][a:4]",
+          "angle_deg": -76.08815042597281
+        }
+      ],
+      "abnormal_amide_torsion_count": 0,
+      "torsion_scope": "Heavy-atom amide planarity; ETKDG matched torsion angles are diagnostic. General rotor preference violations are not assigned a universal cutoff."
+    },
+    "protein": {
+      "status": "ok",
+      "receptor_heavy_atoms": 205,
+      "input_hydrogen_records_ignored": 0,
+      "invalid_receptor_atom_records": 0,
+      "receptor_atom_kinds": {
+        "protein": 205
+      },
+      "altloc_policy": "First model; highest occupancy per residue/atom name, ties blank then A",
+      "preparation_scope": "Original pocket PDB. No new protonation or missing-sidechain repair.",
+      "severe_clash_pairs": 0,
+      "severe_clashing_ligand_atoms": 0,
+      "moderate_clash_pairs": 9,
+      "minimum_distance_A": 2.3943494022385283,
+      "minimum_vdw_ratio": 0.7723707749156543,
+      "maximum_vdw_overlap_A": 0.7117195013159012,
+      "clash_pair_details": [],
+      "raw_all_nonwater_vdw_severe_pairs": 0,
+      "organic_cofactor_vdw_severe_pairs": 0,
+      "inorganic_cofactor_raw_vdw_severe_pairs": 0,
+      "inorganic_cofactor_covalent_radius_severe_pairs": 0,
+      "receptor_type_policy": "Protein clash rate uses protein atoms only. Organic cofactors use vdW and inorganic cofactors covalent radii, with identical 0.75 ratio. Raw inorganic vdW overlaps retained for audit; metal coordination is not automatically a protein collision. Full cofactor tests remain in standard PoseBusters gate.",
+      "pocket_atom_fraction": 1.0,
+      "centroid_nearest_protein_A": 3.950867320421755,
+      "contact_pairs": 241,
+      "contacting_ligand_atom_fraction": 1.0,
+      "distance_histogram_bins_A": [
+        "0-1",
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-4.5",
+        "4.5-5",
+        "5-6",
+        "6-8",
+        "8+"
+      ],
+      "distance_histogram_counts": [
+        0,
+        0,
+        15,
+        98,
+        128,
+        175,
+        470,
+        1417,
+        5692
+      ],
+      "potential_polar_contact_pairs": 9,
+      "potential_hydrophobic_contact_pairs": 41,
+      "hydrogen_bonds": null,
+      "buried_unsatisfied_polar_groups": null,
+      "interaction_limitations": "Heavy-atom distance contacts only. Donor direction, hydrogen placement/protonation and solvent exposure are not validated; buried unsatisfied polarity and directional hydrogen bonds are unavailable."
+    },
+    "forcefield": {
+      "status": "ok",
+      "forcefield": "MMFF94s",
+      "initial_added_H_energy_kcal_mol": 394.1472378877087,
+      "raw_pose_H_relaxed_energy_kcal_mol": 267.83639481426655,
+      "local_optimized_energy_kcal_mol": 184.89772177743862,
+      "energy_drop_kcal_mol": 82.93867303682794,
+      "energy_drop_per_heavy_atom": 2.1266326419699473,
+      "high_strain_diagnostic": true,
+      "hydrogen_optimization_status": 0,
+      "local_optimization_status": 0,
+      "local_optimization_converged": true,
+      "iterations_limit": 500,
+      "heavy_atom_RMSD_no_alignment_A": 1.29934547099572,
+      "heavy_atom_RMSD_aligned_A": 1.214416237044442,
+      "cross_fragment_bond_changes": [
+        {
+          "atoms": [
+            6,
+            14
+          ],
+          "before_A": 1.4636354327495626,
+          "after_A": 1.4489152983695777,
+          "absolute_change_A": 0.014720134379984984
+        },
+        {
+          "atoms": [
+            12,
+            22
+          ],
+          "before_A": 1.6185396257120188,
+          "after_A": 1.5808233219459962,
+          "absolute_change_A": 0.03771630376602264
+        },
+        {
+          "atoms": [
+            18,
+            22
+          ],
+          "before_A": 1.4761172683767347,
+          "after_A": 1.4905195609358688,
+          "absolute_change_A": 0.014402292559134056
+        },
+        {
+          "atoms": [
+            20,
+            23
+          ],
+          "before_A": 1.5056384991092642,
+          "after_A": 1.4811863590873746,
+          "absolute_change_A": 0.024452140021889557
+        },
+        {
+          "atoms": [
+            20,
+            29
+          ],
+          "before_A": 1.582683559654296,
+          "after_A": 1.5415658931040799,
+          "absolute_change_A": 0.0411176665502162
+        },
+        {
+          "atoms": [
+            20,
+            35
+          ],
+          "before_A": 1.6034161063180072,
+          "after_A": 1.5771229500059578,
+          "absolute_change_A": 0.026293156312049426
+        },
+        {
+          "atoms": [
+            22,
+            25
+          ],
+          "before_A": 1.6707047435139446,
+          "after_A": 1.603485622160837,
+          "absolute_change_A": 0.0672191213531077
+        }
+      ],
+      "significant_cross_bond_change": false,
+      "max_cross_fragment_bond_change_A": 0.0672191213531077,
+      "diagnostic_optimized_sdf": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/quality_B/details/B1__9SYL_1801_01_55fb61184418dca9/optimized_diagnostic.sdf",
+      "interpretation": "Original heavy atoms fixed during added-H relaxation. Full local minimization is diagnostic only, with unchanged graph, no receptor and no replacement of model output. Absolute energies are not comparable across molecules."
+    },
+    "vina": {
+      "status": "disabled"
+    },
+    "posebusters": {
+      "status": "ok",
+      "mode": "dock",
+      "reference_molecule_supplied": false,
+      "tests": {
+        "mol_pred_loaded": true,
+        "mol_cond_loaded": true,
+        "sanitization": true,
+        "inchi_convertible": true,
+        "all_atoms_connected": true,
+        "no_radicals": true,
+        "bond_lengths": true,
+        "bond_angles": true,
+        "internal_steric_clash": true,
+        "aromatic_ring_flatness": true,
+        "non-aromatic_ring_non-flatness": true,
+        "double_bond_flatness": true,
+        "internal_energy": true,
+        "protein-ligand_maximum_distance": true,
+        "minimum_distance_to_protein": true,
+        "minimum_distance_to_organic_cofactors": true,
+        "minimum_distance_to_inorganic_cofactors": true,
+        "minimum_distance_to_waters": false,
+        "volume_overlap_with_protein": true,
+        "volume_overlap_with_organic_cofactors": true,
+        "volume_overlap_with_inorganic_cofactors": true,
+        "volume_overlap_with_waters": true
+      },
+      "mol_tests": {
+        "mol_pred_loaded": true,
+        "sanitization": true,
+        "inchi_convertible": true,
+        "all_atoms_connected": true,
+        "no_radicals": true,
+        "bond_lengths": true,
+        "bond_angles": true,
+        "internal_steric_clash": true,
+        "aromatic_ring_flatness": true,
+        "non-aromatic_ring_non-flatness": true,
+        "double_bond_flatness": true,
+        "internal_energy": true
+      },
+      "all_pass": false,
+      "mol_all_pass": true,
+      "all_tests_evaluable": true,
+      "details": {
+        "mol_pred_loaded": true,
+        "mol_cond_loaded": true,
+        "sanitization": true,
+        "inchi_convertible": true,
+        "all_atoms_connected": true,
+        "no_radicals": true,
+        "bond_lengths": true,
+        "bond_angles": true,
+        "internal_steric_clash": true,
+        "aromatic_ring_flatness": true,
+        "non-aromatic_ring_non-flatness": true,
+        "double_bond_flatness": true,
+        "internal_energy": true,
+        "protein-ligand_maximum_distance": true,
+        "minimum_distance_to_protein": true,
+        "minimum_distance_to_organic_cofactors": true,
+        "minimum_distance_to_inorganic_cofactors": true,
+        "minimum_distance_to_waters": false,
+        "volume_overlap_with_protein": true,
+        "volume_overlap_with_organic_cofactors": true,
+        "volume_overlap_with_inorganic_cofactors": true,
+        "volume_overlap_with_waters": true,
+        "mol_true_loaded": false,
+        "passes_valence_checks": true,
+        "passes_kekulization": true,
+        "no_radicals_before_sanitization": true,
+        "number_bonds": 43,
+        "shortest_bond_relative_length": 0.9510566688753884,
+        "longest_bond_relative_length": 1.1167812456644013,
+        "number_short_outlier_bonds": 0,
+        "number_long_outlier_bonds": 0,
+        "number_angles": 65,
+        "most_extreme_relative_angle": 1.1089896622306827,
+        "number_outlier_angles": 0,
+        "number_noncov_pairs": 633,
+        "shortest_noncovalent_relative_distance": 0.9564450886349748,
+        "number_clashes": 0,
+        "number_valid_bonds": 43,
+        "number_valid_angles": 65,
+        "number_valid_noncov_pairs": 633,
+        "number_aromatic_rings_checked": 3,
+        "number_aromatic_rings_pass": 3,
+        "aromatic_ring_maximum_distance_from_plane": 0.005153314301980091,
+        "number_non-aromatic_rings_checked": 0,
+        "number_non-aromatic_rings_pass": 0,
+        "non-aromatic_ring_maximum_distance_from_plane": null,
+        "number_double_bonds_checked": 0,
+        "number_double_bonds_pass": 0,
+        "double_bond_maximum_distance_from_plane": null,
+        "num_h_added": 31,
+        "mol_pred_energy": 323.9876298258371,
+        "ensemble_avg_energy": 172.1732013048612,
+        "energy_ratio": 1.8817541137088067,
+        "smallest_distance_protein": 2.3943494022385283,
+        "num_pairwise_clashes_protein": 0,
+        "most_extreme_ligand_atom_id_protein": 10,
+        "most_extreme_protein_atom_id_protein": 60,
+        "most_extreme_ligand_element_protein": "O",
+        "most_extreme_protein_element_protein": "O",
+        "most_extreme_ligand_vdw_protein": 1.55,
+        "most_extreme_protein_vdw_protein": 1.55,
+        "most_extreme_sum_radii_protein": 3.1,
+        "most_extreme_distance_protein": 2.3943494022385283,
+        "most_extreme_sum_radii_scaled_protein": 3.1,
+        "most_extreme_relative_distance_protein": 0.7723707749156543,
+        "most_extreme_clash_protein": false,
+        "smallest_distance_organic_cofactors": null,
+        "not_too_far_away_organic_cofactors": false,
+        "num_pairwise_clashes_organic_cofactors": 0,
+        "most_extreme_ligand_atom_id_organic_cofactors": null,
+        "most_extreme_protein_atom_id_organic_cofactors": null,
+        "most_extreme_ligand_element_organic_cofactors": null,
+        "most_extreme_protein_element_organic_cofactors": null,
+        "most_extreme_ligand_vdw_organic_cofactors": null,
+        "most_extreme_protein_vdw_organic_cofactors": null,
+        "most_extreme_sum_radii_organic_cofactors": null,
+        "most_extreme_distance_organic_cofactors": null,
+        "most_extreme_sum_radii_scaled_organic_cofactors": null,
+        "most_extreme_relative_distance_organic_cofactors": null,
+        "most_extreme_clash_organic_cofactors": null,
+        "smallest_distance_inorganic_cofactors": null,
+        "not_too_far_away_inorganic_cofactors": false,
+        "num_pairwise_clashes_inorganic_cofactors": 0,
+        "most_extreme_ligand_atom_id_inorganic_cofactors": null,
+        "most_extreme_protein_atom_id_inorganic_cofactors": null,
+        "most_extreme_ligand_element_inorganic_cofactors": null,
+        "most_extreme_protein_element_inorganic_cofactors": null,
+        "most_extreme_ligand_vdw_inorganic_cofactors": null,
+        "most_extreme_protein_vdw_inorganic_cofactors": null,
+        "most_extreme_sum_radii_inorganic_cofactors": null,
+        "most_extreme_distance_inorganic_cofactors": null,
+        "most_extreme_sum_radii_scaled_inorganic_cofactors": null,
+        "most_extreme_relative_distance_inorganic_cofactors": null,
+        "most_extreme_clash_inorganic_cofactors": null,
+        "smallest_distance_waters": 1.5504372383298861,
+        "not_too_far_away_waters": true,
+        "num_pairwise_clashes_waters": 4,
+        "most_extreme_ligand_atom_id_waters": 26,
+        "most_extreme_protein_atom_id_waters": 212,
+        "most_extreme_ligand_element_waters": "O",
+        "most_extreme_protein_element_waters": "O",
+        "most_extreme_ligand_vdw_waters": 1.55,
+        "most_extreme_protein_vdw_waters": 1.55,
+        "most_extreme_sum_radii_waters": 3.1,
+        "most_extreme_distance_waters": 1.5504372383298861,
+        "most_extreme_sum_radii_scaled_waters": 3.1,
+        "most_extreme_relative_distance_waters": 0.5001410446225439,
+        "most_extreme_clash_waters": true,
+        "volume_overlap_protein": 0.03502800043922258,
+        "volume_overlap_organic_cofactors": null,
+        "volume_overlap_inorganic_cofactors": null,
+        "volume_overlap_waters": 0.00543221539914974
+      },
+      "errors": [],
+      "energy_note": "Standard package thresholds and 50-conformer UFF reference ensemble, ETKDG randomSeed=42. Only num_threads is fixed to 1; no fast mode or energy skipping."
+    }
+  },
+  "original_heavy_atom_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "failed_checks": [
+    "posebusters_all_pass",
+    "high_quality"
+  ],
+  "unavailable_checks": [],
+  "seconds": 9.29669556999579,
+  "detail_directory": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1104/1425+水约束与连接区域柔性/quality_B/details/B1__9SYL_1801_01_55fb61184418dca9",
+  "input_unchanged": true
+}
