@@ -94,5 +94,20 @@
       "bytes": 480,
       "source_modified_Asia_Shanghai": "2026-11-02T22:28:18.493143+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "controlled",
+    "task_title": "真实片段身份受控连接与几何细化",
+    "repository_directory": "2611/1102/2229+真实片段身份受控连接与几何细化",
+    "status_path": "2611/1102/2229+真实片段身份受控连接与几何细化/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "controlled_20261102/prompt_used.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1102/2229+真实片段身份受控连接与几何细化/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 1187,
+    "sha256": "c441cc64e5cae8d9ff5c175face6edd83b50c7383f45e0199a431ca26ffe3753",
+    "source_modified_Asia_Shanghai": "2026-11-02T22:26:04.298000+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

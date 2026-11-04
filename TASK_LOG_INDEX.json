@@ -11,7 +11,17 @@
       "inferred_time": false,
       "files": 27,
       "logs": 24,
-      "bytes": 198089
+      "bytes": 198089,
+      "prompt": {
+        "task_key": "casf_paired",
+        "task_title": "CASF三阶段逐分子配对评估",
+        "repository_directory": "2610/1029/0432+CASF三阶段逐分子配对评估",
+        "status_path": "2610/1029/0432+CASF三阶段逐分子配对评估/PROMPT_STATUS.md",
+        "status": "not_found",
+        "source": null,
+        "prompt_path": null,
+        "reason": "CASF 三阶段逐分子配对评估的原始提示词未在现存文件及任务副本中找到。"
+      }
     },
     {
       "key": "controlled",
@@ -21,7 +31,21 @@
       "inferred_time": true,
       "files": 12,
       "logs": 9,
-      "bytes": 153954
+      "bytes": 153954,
+      "prompt": {
+        "task_key": "controlled",
+        "task_title": "真实片段身份受控连接与几何细化",
+        "repository_directory": "2611/1102/2229+真实片段身份受控连接与几何细化",
+        "status_path": "2611/1102/2229+真实片段身份受控连接与几何细化/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "controlled_20261102/prompt_used.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1102/2229+真实片段身份受控连接与几何细化/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 1187,
+        "sha256": "c441cc64e5cae8d9ff5c175face6edd83b50c7383f45e0199a431ca26ffe3753",
+        "source_modified_Asia_Shanghai": "2026-11-02T22:26:04.298000+08:00"
+      }
     },
     {
       "key": "strict",
@@ -31,7 +55,21 @@
       "inferred_time": true,
       "files": 16,
       "logs": 12,
-      "bytes": 73545
+      "bytes": 73545,
+      "prompt": {
+        "task_key": "strict",
+        "task_title": "严格同输入官方对照与几何细化",
+        "repository_directory": "2611/1102/2311+严格同输入官方对照与几何细化",
+        "status_path": "2611/1102/2311+严格同输入官方对照与几何细化/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "strict_controls_20261102/prompt_used.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1102/2311+严格同输入官方对照与几何细化/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 1265,
+        "sha256": "62cf9381fd013bceb64ad4f61831e74587792c1de6a1ab626df32730066fa823",
+        "source_modified_Asia_Shanghai": "2026-11-02T22:54:59.929041+08:00"
+      }
     },
     {
       "key": "switch",
@@ -41,7 +79,21 @@
       "inferred_time": true,
       "files": 18,
       "logs": 11,
-      "bytes": 342779
+      "bytes": 342779,
+      "prompt": {
+        "task_key": "switch",
+        "task_title": "无连接前缀与官方续采样切换",
+        "repository_directory": "2611/1103/0010+无连接前缀与官方续采样切换",
+        "status_path": "2611/1103/0010+无连接前缀与官方续采样切换/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "switch_controls_20261102/prompt_used.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1103/0010+无连接前缀与官方续采样切换/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 3121,
+        "sha256": "f7454c3ee6f10c6b90106d8c5fcddcb98c4093c5860c392ad26f570829c3c294",
+        "source_modified_Asia_Shanghai": "2026-11-02T23:39:35.557863+08:00"
+      }
     },
     {
       "key": "multicandidate",
@@ -51,7 +103,21 @@
       "inferred_time": true,
       "files": 13,
       "logs": 6,
-      "bytes": 246594
+      "bytes": 246594,
+      "prompt": {
+        "task_key": "multicandidate",
+        "task_title": "多连接候选与短程筛选",
+        "repository_directory": "2611/1103/1428+多连接候选与短程筛选",
+        "status_path": "2611/1103/1428+多连接候选与短程筛选/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "multi_candidates_20261103/prompt_used.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1103/1428+多连接候选与短程筛选/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 1030,
+        "sha256": "7ae2322c7d63eec0289133f48d2d25be6ef9928fc55cb86ed9159555b4b15648",
+        "source_modified_Asia_Shanghai": "2026-11-03T13:47:54.156707+08:00"
+      }
     },
     {
       "key": "denovo_quality",
@@ -61,7 +127,23 @@
       "inferred_time": true,
       "files": 11,
       "logs": 3,
-      "bytes": 498614
+      "bytes": 498614,
+      "prompt": {
+        "task_key": "denovo_quality",
+        "task_title": "自主生成质量评价与指标审计",
+        "repository_directory": "2611/1103/2030+自主生成质量评价与指标审计",
+        "status_path": "2611/1103/2030+自主生成质量评价与指标审计/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "de_novo_quality_20261103/test_prompt_used.md",
+        "identical_current_workspace_copies": [
+          "test_prompt.md"
+        ],
+        "prompt_path": "2611/1103/2030+自主生成质量评价与指标审计/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 11254,
+        "sha256": "c1e73c38fa71c7d53f56d3c5b097db6890599add46b7af2c06255da38c1caf64",
+        "source_modified_Asia_Shanghai": "2026-11-03T14:56:12.598355+08:00"
+      }
     },
     {
       "key": "geometry",
@@ -71,7 +153,21 @@
       "inferred_time": true,
       "files": 37,
       "logs": 19,
-      "bytes": 1851536
+      "bytes": 1851536,
+      "prompt": {
+        "task_key": "geometry",
+        "task_title": "刚性片段几何修复与多候选质量",
+        "repository_directory": "2611/1103/2047+刚性片段几何修复与多候选质量",
+        "status_path": "2611/1103/2047+刚性片段几何修复与多候选质量/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "geometry_constraints_20261103/prompt_used.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1103/2047+刚性片段几何修复与多候选质量/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 7462,
+        "sha256": "96b7cc81bc92cd512a37d4068885c818b4a8cf5133d7e0aaf93c4c321023722b",
+        "source_modified_Asia_Shanghai": "2026-11-03T20:17:37.138207+08:00"
+      }
     },
     {
       "key": "late_guidance",
@@ -81,7 +177,23 @@
       "inferred_time": true,
       "files": 10,
       "logs": 5,
-      "bytes": 75560
+      "bytes": 75560,
+      "prompt": {
+        "task_key": "late_guidance",
+        "task_title": "晚期三次几何投影与末端修复比较",
+        "repository_directory": "2611/1103/2327+晚期三次几何投影与末端修复比较",
+        "status_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "fbdd_efficiency_generalization_20261103/prompt_used.md",
+        "identical_current_workspace_copies": [
+          "prompt.md"
+        ],
+        "prompt_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/prompt.md",
+        "relevant_scope": "任务四",
+        "bytes": 5151,
+        "sha256": "0048a9c310e7cf69a53b7ad6616968f74510c7a168d4bc0d03cef29bb026f31d",
+        "source_modified_Asia_Shanghai": "2026-11-03T21:25:54.374125+08:00"
+      }
     },
     {
       "key": "tasks123",
@@ -91,7 +203,23 @@
       "inferred_time": false,
       "files": 26,
       "logs": 17,
-      "bytes": 377209
+      "bytes": 377209,
+      "prompt": {
+        "task_key": "tasks123",
+        "task_title": "统一管线低成本筛选与独立泛化",
+        "repository_directory": "2611/1104/0950+统一管线低成本筛选与独立泛化",
+        "status_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "fbdd_efficiency_generalization_20261103/prompt_used.md",
+        "identical_current_workspace_copies": [
+          "prompt.md"
+        ],
+        "prompt_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/prompt.md",
+        "relevant_scope": "任务一至任务三",
+        "bytes": 5151,
+        "sha256": "0048a9c310e7cf69a53b7ad6616968f74510c7a168d4bc0d03cef29bb026f31d",
+        "source_modified_Asia_Shanghai": "2026-11-03T21:25:54.374125+08:00"
+      }
     },
     {
       "key": "training_rmsd",
@@ -101,7 +229,17 @@
       "inferred_time": true,
       "files": 4,
       "logs": 1,
-      "bytes": 153199
+      "bytes": 153199,
+      "prompt": {
+        "task_key": "training_rmsd",
+        "task_title": "训练RMSD曲线与检查点审计",
+        "repository_directory": "2611/1104/1013+训练RMSD曲线与检查点审计",
+        "status_path": "2611/1104/1013+训练RMSD曲线与检查点审计/PROMPT_STATUS.md",
+        "status": "not_found",
+        "source": null,
+        "prompt_path": null,
+        "reason": "训练 RMSD 曲线与检查点审计的原始提示词未在现存文件及任务副本中找到。"
+      }
     },
     {
       "key": "independent_diagnostics",
@@ -111,7 +249,21 @@
       "inferred_time": false,
       "files": 10,
       "logs": 2,
-      "bytes": 193596
+      "bytes": 193596,
+      "prompt": {
+        "task_key": "independent_diagnostics",
+        "task_title": "逐分子逐水失败归因与晚期约束复核",
+        "repository_directory": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核",
+        "status_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "prompt_11041031.md",
+        "identical_current_workspace_copies": [],
+        "prompt_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/prompt.md",
+        "relevant_scope": "完整任务",
+        "bytes": 4367,
+        "sha256": "91a2cc8bd984efeae893e920910a8346d6799515d0ecedcceec6672c12a7dbe0",
+        "source_modified_Asia_Shanghai": "2026-11-04T10:33:19.663051+08:00"
+      }
     }
   ],
   "files": [
@@ -1405,5 +1557,13 @@
     }
   ],
   "include_agent": false,
-  "reports_only": false
+  "reports_only": false,
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
+  "prompt_coverage": {
+    "task_groups": 11,
+    "task_groups_with_preserved_prompt": 9,
+    "task_groups_without_original_prompt": 2,
+    "prompt_files_including_legacy_copy": 10,
+    "distinct_prompt_contents": 8
+  }
 }

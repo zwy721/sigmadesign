@@ -80,5 +80,20 @@
       "bytes": 5393,
       "source_modified_Asia_Shanghai": "2026-11-04T10:51:38.282037+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "independent_diagnostics",
+    "task_title": "逐分子逐水失败归因与晚期约束复核",
+    "repository_directory": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核",
+    "status_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "prompt_11041031.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 4367,
+    "sha256": "91a2cc8bd984efeae893e920910a8346d6799515d0ecedcceec6672c12a7dbe0",
+    "source_modified_Asia_Shanghai": "2026-11-04T10:33:19.663051+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

@@ -199,5 +199,16 @@
       "bytes": 0,
       "source_modified_Asia_Shanghai": "2026-10-28T20:58:25.875292+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "casf_paired",
+    "task_title": "CASF三阶段逐分子配对评估",
+    "repository_directory": "2610/1029/0432+CASF三阶段逐分子配对评估",
+    "status_path": "2610/1029/0432+CASF三阶段逐分子配对评估/PROMPT_STATUS.md",
+    "status": "not_found",
+    "source": null,
+    "prompt_path": null,
+    "reason": "CASF 三阶段逐分子配对评估的原始提示词未在现存文件及任务副本中找到。"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

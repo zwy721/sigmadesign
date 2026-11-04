@@ -122,5 +122,20 @@
       "bytes": 1600,
       "source_modified_Asia_Shanghai": "2026-11-02T23:07:42.473800+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "strict",
+    "task_title": "严格同输入官方对照与几何细化",
+    "repository_directory": "2611/1102/2311+严格同输入官方对照与几何细化",
+    "status_path": "2611/1102/2311+严格同输入官方对照与几何细化/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "strict_controls_20261102/prompt_used.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1102/2311+严格同输入官方对照与几何细化/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 1265,
+    "sha256": "62cf9381fd013bceb64ad4f61831e74587792c1de6a1ab626df32730066fa823",
+    "source_modified_Asia_Shanghai": "2026-11-02T22:54:59.929041+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

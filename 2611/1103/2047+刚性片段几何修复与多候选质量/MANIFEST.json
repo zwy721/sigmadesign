@@ -269,5 +269,20 @@
       "bytes": 2656,
       "source_modified_Asia_Shanghai": "2026-11-03T20:47:18.826787+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "geometry",
+    "task_title": "刚性片段几何修复与多候选质量",
+    "repository_directory": "2611/1103/2047+刚性片段几何修复与多候选质量",
+    "status_path": "2611/1103/2047+刚性片段几何修复与多候选质量/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "geometry_constraints_20261103/prompt_used.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1103/2047+刚性片段几何修复与多候选质量/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 7462,
+    "sha256": "96b7cc81bc92cd512a37d4068885c818b4a8cf5133d7e0aaf93c4c321023722b",
+    "source_modified_Asia_Shanghai": "2026-11-03T20:17:37.138207+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

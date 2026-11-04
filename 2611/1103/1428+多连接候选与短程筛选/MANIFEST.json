@@ -101,5 +101,20 @@
       "bytes": 3855,
       "source_modified_Asia_Shanghai": "2026-11-03T14:11:51.957778+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "multicandidate",
+    "task_title": "多连接候选与短程筛选",
+    "repository_directory": "2611/1103/1428+多连接候选与短程筛选",
+    "status_path": "2611/1103/1428+多连接候选与短程筛选/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "multi_candidates_20261103/prompt_used.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1103/1428+多连接候选与短程筛选/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 1030,
+    "sha256": "7ae2322c7d63eec0289133f48d2d25be6ef9928fc55cb86ed9159555b4b15648",
+    "source_modified_Asia_Shanghai": "2026-11-03T13:47:54.156707+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

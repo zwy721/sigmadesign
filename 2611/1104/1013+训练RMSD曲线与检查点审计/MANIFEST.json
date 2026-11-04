@@ -38,5 +38,16 @@
       "bytes": 6082,
       "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.173646+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "training_rmsd",
+    "task_title": "训练RMSD曲线与检查点审计",
+    "repository_directory": "2611/1104/1013+训练RMSD曲线与检查点审计",
+    "status_path": "2611/1104/1013+训练RMSD曲线与检查点审计/PROMPT_STATUS.md",
+    "status": "not_found",
+    "source": null,
+    "prompt_path": null,
+    "reason": "训练 RMSD 曲线与检查点审计的原始提示词未在现存文件及任务副本中找到。"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

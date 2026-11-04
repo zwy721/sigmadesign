@@ -136,5 +136,20 @@
       "bytes": 1018,
       "source_modified_Asia_Shanghai": "2026-11-03T00:07:51.143439+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "switch",
+    "task_title": "无连接前缀与官方续采样切换",
+    "repository_directory": "2611/1103/0010+无连接前缀与官方续采样切换",
+    "status_path": "2611/1103/0010+无连接前缀与官方续采样切换/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "switch_controls_20261102/prompt_used.md",
+    "identical_current_workspace_copies": [],
+    "prompt_path": "2611/1103/0010+无连接前缀与官方续采样切换/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 3121,
+    "sha256": "f7454c3ee6f10c6b90106d8c5fcddcb98c4093c5860c392ad26f570829c3c294",
+    "source_modified_Asia_Shanghai": "2026-11-02T23:39:35.557863+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

@@ -192,5 +192,22 @@
       "bytes": 7531,
       "source_modified_Asia_Shanghai": "2026-11-04T09:50:51.184914+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "tasks123",
+    "task_title": "统一管线低成本筛选与独立泛化",
+    "repository_directory": "2611/1104/0950+统一管线低成本筛选与独立泛化",
+    "status_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "fbdd_efficiency_generalization_20261103/prompt_used.md",
+    "identical_current_workspace_copies": [
+      "prompt.md"
+    ],
+    "prompt_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/prompt.md",
+    "relevant_scope": "任务一至任务三",
+    "bytes": 5151,
+    "sha256": "0048a9c310e7cf69a53b7ad6616968f74510c7a168d4bc0d03cef29bb026f31d",
+    "source_modified_Asia_Shanghai": "2026-11-03T21:25:54.374125+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

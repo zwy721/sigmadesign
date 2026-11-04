@@ -80,5 +80,22 @@
       "bytes": 2770,
       "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.949076+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "late_guidance",
+    "task_title": "晚期三次几何投影与末端修复比较",
+    "repository_directory": "2611/1103/2327+晚期三次几何投影与末端修复比较",
+    "status_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "fbdd_efficiency_generalization_20261103/prompt_used.md",
+    "identical_current_workspace_copies": [
+      "prompt.md"
+    ],
+    "prompt_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/prompt.md",
+    "relevant_scope": "任务四",
+    "bytes": 5151,
+    "sha256": "0048a9c310e7cf69a53b7ad6616968f74510c7a168d4bc0d03cef29bb026f31d",
+    "source_modified_Asia_Shanghai": "2026-11-03T21:25:54.374125+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }

@@ -87,5 +87,22 @@
       "bytes": 1400,
       "source_modified_Asia_Shanghai": "2026-11-03T15:16:06.482534+08:00"
     }
-  ]
+  ],
+  "prompt_supplement": {
+    "task_key": "denovo_quality",
+    "task_title": "自主生成质量评价与指标审计",
+    "repository_directory": "2611/1103/2030+自主生成质量评价与指标审计",
+    "status_path": "2611/1103/2030+自主生成质量评价与指标审计/PROMPT_STATUS.md",
+    "status": "preserved_original",
+    "source": "de_novo_quality_20261103/test_prompt_used.md",
+    "identical_current_workspace_copies": [
+      "test_prompt.md"
+    ],
+    "prompt_path": "2611/1103/2030+自主生成质量评价与指标审计/prompt.md",
+    "relevant_scope": "完整任务",
+    "bytes": 11254,
+    "sha256": "c1e73c38fa71c7d53f56d3c5b097db6890599add46b7af2c06255da38c1caf64",
+    "source_modified_Asia_Shanghai": "2026-11-03T14:56:12.598355+08:00"
+  },
+  "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00"
 }
