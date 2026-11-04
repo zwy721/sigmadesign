@@ -1,0 +1,84 @@
+{
+  "task_key": "independent_diagnostics",
+  "task_title": "逐分子逐水失败归因与晚期约束复核",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-04T10:51:38.272936+08:00",
+  "time_evidence": {
+    "kind": "explicit_record_field",
+    "source": "independent_diagnostics_20261104/verification.json",
+    "field": "checked_at_UTC",
+    "inferred": false
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "independent_diagnostics_20261104/GENERALIZATION_EXPANSION_PLAN.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/GENERALIZATION_EXPANSION_PLAN.md",
+      "sha256": "20e6ebf255ebd7dc9b01fe016b06dfc6cb5b985fc5f287c6b95dd1568144fd95",
+      "bytes": 9917,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498817+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/INDEPENDENT_FAILURE_ANALYSIS.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/INDEPENDENT_FAILURE_ANALYSIS.md",
+      "sha256": "f6652bcc867d2a2323f98557fb4d73ec02dfe4e26bef6c6c04a53907d577cd80",
+      "bytes": 8513,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.497765+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/LATE_GUIDANCE_REVIEW.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/LATE_GUIDANCE_REVIEW.md",
+      "sha256": "c951369b861e4b8319e6c802abea0705e76849b09b8e790bda0ce27e879930d0",
+      "bytes": 5609,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498396+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/README.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/README.md",
+      "sha256": "f17b6657a49f4abd35139471848ba2b7587f6c1797aa5b90104a4424f9e9c42e",
+      "bytes": 2787,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498888+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/WATER_FAILURE_AUDIT.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/WATER_FAILURE_AUDIT.md",
+      "sha256": "dd6833d96d1285d93bb07b1219f2c55653aa235c4ebf357635ce663099142f70",
+      "bytes": 7847,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.497151+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/analysis.log",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/analysis.log",
+      "sha256": "3dae46aaf0a78ca92e7653de7b322bc819ba103bfac76b09af92af28b4d42e54",
+      "bytes": 377,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:44:06.959094+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/diagnostic_overview.png",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/diagnostic_overview.png",
+      "sha256": "a413c89b76f050942cf01fdc875a011dcdbabe0a8392a4a786d2d6c1b36071f2",
+      "bytes": 136218,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:36.750535+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/reproduce.log",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/reproduce.log",
+      "sha256": "b48ba4a84e466aafb55fa8a0ac740bc652d47d5b88397a05175dbb49ab665601",
+      "bytes": 1276,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:38.298556+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/summary.json",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/summary.json",
+      "sha256": "a60dc6534cfada0fd4fbee9138c57b292da055b61d84bfc3ba9929a5c31777be",
+      "bytes": 15659,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.309719+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/verification.json",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/verification.json",
+      "sha256": "410b74f7615c9a88f25228ce7219ce201f4f60d9f9ed4ee47821cdf80c17776d",
+      "bytes": 5393,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:38.282037+08:00"
+    }
+  ]
+}

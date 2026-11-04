@@ -1,0 +1,203 @@
+{
+  "task_key": "casf_paired",
+  "task_title": "CASF三阶段逐分子配对评估",
+  "completion_or_final_update_Asia_Shanghai": "2026-10-29T04:32:23.041343+08:00",
+  "time_evidence": {
+    "kind": "explicit_record_field",
+    "source": "status.json",
+    "field": "updated_unix",
+    "inferred": false
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "README.md",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/README.md",
+      "sha256": "d8d07eafa3d760a06253912880acd150bb10541f49dc6660406f724480916af0",
+      "bytes": 2989,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:57:51.171204+08:00"
+    },
+    {
+      "source": "cpu0.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu0.log",
+      "sha256": "05e9289f5c282e087f0fa8dd536026965201dd9fc2a023cf6b21202e0a2a77e9",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:49:27.812676+08:00"
+    },
+    {
+      "source": "cpu1.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu1.log",
+      "sha256": "e8d97b83c60a9fbda3c0987fb1098f9b90aa71526e78bb8e4ee4b5a8a444a623",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:10:11.505577+08:00"
+    },
+    {
+      "source": "cpu10.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu10.log",
+      "sha256": "5b4666e3ada80d25475accdbf6e6031aa7afa94dd76d920d871809dd884122dd",
+      "bytes": 8629,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:02:52.868652+08:00"
+    },
+    {
+      "source": "cpu11.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu11.log",
+      "sha256": "9fab3b54ea75b021aadeac486b73e1f596b1fd571ad7d2ea622f624912d5b300",
+      "bytes": 8629,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:06:14.401713+08:00"
+    },
+    {
+      "source": "cpu2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu2.log",
+      "sha256": "9d79e6fc165560ac67b34a5770a2d054cc39b394ce3efb246fd14600323b7a0b",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:08:20.012011+08:00"
+    },
+    {
+      "source": "cpu3.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu3.log",
+      "sha256": "1271f5283b769130f1f6c2d0af35cd7a252b2e319daa42ee1fd35e24442dd783",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T00:09:08.462938+08:00"
+    },
+    {
+      "source": "cpu4.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu4.log",
+      "sha256": "ec9eabf070a8ef1abe43f7bcde89da24ab8a322fc8a46c6ffdc60205e4fc9f90",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:13.625102+08:00"
+    },
+    {
+      "source": "cpu5.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu5.log",
+      "sha256": "38332e8c09b9b7f7e1605780b94deedaebab1eb39ea5b1dbb1a0d45240764074",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:24:13.260056+08:00"
+    },
+    {
+      "source": "cpu6.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu6.log",
+      "sha256": "33300a3bbbdcd7bc8824573e6adfa8693694745a65e7dee5b6ce829090018343",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T02:43:34.117214+08:00"
+    },
+    {
+      "source": "cpu7.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu7.log",
+      "sha256": "d85aef00707d0cba649f27d548f0725c2d7718db3cae081a3a21101abc943b4e",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T00:06:27.465599+08:00"
+    },
+    {
+      "source": "cpu8.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu8.log",
+      "sha256": "fbc22f2b06394f2c21284f720ff21e298397207ccefc23816a62d172e9726eb2",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:56:14.843707+08:00"
+    },
+    {
+      "source": "cpu9.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu9.log",
+      "sha256": "9d62ae4581e899807128126756bd91ead1c89403b06bca1f36a5cfdd4188b9cf",
+      "bytes": 8490,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:35:37.546416+08:00"
+    },
+    {
+      "source": "final_summary.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/final_summary.log",
+      "sha256": "751ffafddad7656e5862d9ee533348ed9440a32d956a6b3ccc6183d23f5bfa94",
+      "bytes": 25920,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:23.019525+08:00"
+    },
+    {
+      "source": "gpu0.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu0.log",
+      "sha256": "fead8c5e2fa7e5306af19bec7fa270cee300604ada9e01e7f0392fd5b320ec32",
+      "bytes": 6978,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:30:25.175724+08:00"
+    },
+    {
+      "source": "gpu1.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu1.log",
+      "sha256": "49160e70eef95487543c5cd54d8eaee7d4ad94f80146100fb76b8d0d75055e2a",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:22:16.623087+08:00"
+    },
+    {
+      "source": "gpu2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu2.log",
+      "sha256": "fc5c1476fbdea404bf03102e9e743baef93b0ca54822a64f0c43657223cdc58d",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:24:00.793735+08:00"
+    },
+    {
+      "source": "gpu3.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu3.log",
+      "sha256": "b210f126bfea839ecd5b37d45943171916d78b00043fdf68dd61378ea7997df6",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:23:46.035632+08:00"
+    },
+    {
+      "source": "pilot.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot.log",
+      "sha256": "d2621202af0bdf7ce03a5072de451dde365e068daa791877278ac48d143a46f8",
+      "bytes": 2265,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:53:48.474197+08:00"
+    },
+    {
+      "source": "pilot2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot2.log",
+      "sha256": "afc5601c98c0e79a2aaa0289a5fd7a7f05ee8f48a93bfa6f0c56e2fa6d5fcdcc",
+      "bytes": 2267,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:56:57.846150+08:00"
+    },
+    {
+      "source": "pilot2_score.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot2_score.log",
+      "sha256": "6824e4ac374b7fa635bb5e9679c98a250ce300f51ed5b3c565754cd8ee5f401d",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:57:02.579421+08:00"
+    },
+    {
+      "source": "pilot_score.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot_score.log",
+      "sha256": "74e8f8226d1a89a403fa7d71649b91e45be7c05c65fbd9c8fb8fb89a0165f737",
+      "bytes": 96,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:56:24.673892+08:00"
+    },
+    {
+      "source": "prepare.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/prepare.log",
+      "sha256": "be78bc48b80d024941fecbda26a1c7b987a466f271f3575f76a5e06158b2e197",
+      "bytes": 2529,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:52:49.307563+08:00"
+    },
+    {
+      "source": "receptor_fallback.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/receptor_fallback.log",
+      "sha256": "7ae08c03d8f157905f22897f0f9feabbb43b36ad7be4da4abc9e9ec846597c07",
+      "bytes": 1044,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:55:53.532751+08:00"
+    },
+    {
+      "source": "status.json",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/status.json",
+      "sha256": "a6440308a995e4a270d0b731f4918b4c47d2919a0a550c26437c0ff86b1bef61",
+      "bytes": 1786,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:23.048658+08:00"
+    },
+    {
+      "source": "summary.json",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/summary.json",
+      "sha256": "751ffafddad7656e5862d9ee533348ed9440a32d956a6b3ccc6183d23f5bfa94",
+      "bytes": 25920,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:22.874513+08:00"
+    },
+    {
+      "source": "supervisor.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/supervisor.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:58:25.875292+08:00"
+    }
+  ]
+}

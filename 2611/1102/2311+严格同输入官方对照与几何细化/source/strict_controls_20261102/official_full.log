@@ -1,0 +1,43 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official_cache/full_all/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+FULL 2w4x 1801 0.98 RMSD 1.026 chemical 1.026 s 12.1
+FULL 2w4x 1802 0.98 RMSD 0.968 chemical 0.968 s 10.7
+FULL 2w4x 1803 0.98 RMSD 0.947 chemical 0.947 s 10.8
+FULL 4ivd 1801 0.98 RMSD 0.493 chemical 0.493 s 10.7
+FULL 4ivd 1802 0.98 RMSD 1.412 chemical 1.412 s 10.7
+FULL 4ivd 1803 0.98 RMSD 1.114 chemical 1.114 s 10.6
+FULL 2xnb 1801 0.98 RMSD 1.366 chemical 0.759 s 10.7
+FULL 2xnb 1802 0.98 RMSD 1.157 chemical 0.685 s 10.7
+FULL 2xnb 1803 0.98 RMSD 1.345 chemical 0.981 s 10.9
+FULL 1nvq 1801 0.98 RMSD 0.638 chemical 0.638 s 11.1
+FULL 1nvq 1802 0.98 RMSD 0.578 chemical 0.578 s 10.9
+FULL 1nvq 1803 0.98 RMSD 0.542 chemical 0.542 s 11.3
+FULL 2c3i 1801 0.98 RMSD 5.355 chemical 5.339 s 22.2
+FULL 2c3i 1802 0.98 RMSD 4.834 chemical 4.834 s 22.5
+FULL 2c3i 1803 0.98 RMSD 5.344 chemical 5.344 s 22.6
+FULL 3ehy 1801 0.98 RMSD 1.503 chemical 0.492 s 22.4
+FULL 3ehy 1802 0.98 RMSD 0.947 chemical 0.458 s 22.5
+FULL 3ehy 1803 0.98 RMSD 1.528 chemical 0.551 s 22.5
+FULL 2zcq 1801 0.98 RMSD 1.606 chemical 1.606 s 23.1
+FULL 2zcq 1802 0.98 RMSD 1.602 chemical 1.435 s 22.9
+FULL 2zcq 1803 0.98 RMSD 1.822 chemical 1.618 s 22.7
+FULL 5c2h 1801 0.98 RMSD 0.771 chemical 0.771 s 22.7
+FULL 5c2h 1802 0.98 RMSD 0.999 chemical 0.999 s 22.6
+FULL 5c2h 1803 0.98 RMSD 0.824 chemical 0.824 s 22.9
+FULL 1qf1 1801 0.98 RMSD 0.516 chemical 0.516 s 23.7
+FULL 1qf1 1802 0.98 RMSD 6.772 chemical 6.771 s 23.9
+FULL 1qf1 1803 0.98 RMSD 5.882 chemical 5.874 s 23.9
+FULL 4cig 1801 0.98 RMSD 6.223 chemical 6.222 s 23.7
+FULL 4cig 1802 0.98 RMSD 6.264 chemical 6.23 s 24.2
+FULL 4cig 1803 0.98 RMSD 6.028 chemical 5.992 s 23.9
+FULL 3zso 1801 0.98 RMSD 4.842 chemical 4.188 s 24.5
+FULL 3zso 1802 0.98 RMSD 3.016 chemical 3.016 s 25.9
+FULL 3zso 1803 0.98 RMSD 7.798 chemical 7.065 s 24.8
+FULL 3pww 1801 0.98 RMSD 1.163 chemical 1.061 s 25.5
+FULL 3pww 1802 0.98 RMSD 1.394 chemical 1.107 s 25.7
+FULL 3pww 1803 0.98 RMSD 1.344 chemical 1.047 s 25.4

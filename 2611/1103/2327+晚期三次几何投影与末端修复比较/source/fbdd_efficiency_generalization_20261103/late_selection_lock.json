@@ -1,0 +1,36 @@
+{
+  "selected": "triple30",
+  "scores": [
+    {
+      "protocol": "single100",
+      "n": 3,
+      "high_quality": 0,
+      "all_geometry": 0,
+      "geometry_check_total": 17,
+      "seconds": 69.03979201300535
+    },
+    {
+      "protocol": "triple30",
+      "n": 3,
+      "high_quality": 2,
+      "all_geometry": 2,
+      "geometry_check_total": 20,
+      "seconds": 10.240095198852941
+    }
+  ],
+  "selection_key": [
+    "high_quality",
+    "all_geometry",
+    "geometry_check_total",
+    "lower_seconds",
+    "protocol_name"
+  ],
+  "independent_development_only": true,
+  "development_receptors": [
+    "9YSP"
+  ],
+  "test_results_read": false,
+  "candidate_protocol_sha256": "cae53adad505bba0ad355eb5c57e45b97817461b6f5ceb55e253c7d9b4dc1978",
+  "development_case_sha256": "4e80cfdcf12f9cc447445775cab0e9d480c3099eaf039385526be44226f3693e",
+  "source_sha256": "a32b344cd216117378ab156977a1abe1cd59bc4d787fa0e3a26feef30b726fc6"
+}

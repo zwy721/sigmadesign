@@ -1,0 +1,22 @@
+{
+  "summary": [
+    {
+      "stage": "before_inverse_transform",
+      "events": 54,
+      "bad_cross_bonds": 38,
+      "bad_angles": 72,
+      "severe_internal_clash_pairs": 84,
+      "bad_amide_torsions": 6
+    },
+    {
+      "stage": "after_native_projection",
+      "events": 54,
+      "bad_cross_bonds": 5,
+      "bad_angles": 26,
+      "severe_internal_clash_pairs": 6,
+      "bad_amide_torsions": 2
+    }
+  ],
+  "before_policy": "Invert stored rigid transform on saved after-intervention coordinates. Exact in double precision apart from recorded native FP32 update error; no reference ligand.",
+  "new_neural_NFE": 0
+}

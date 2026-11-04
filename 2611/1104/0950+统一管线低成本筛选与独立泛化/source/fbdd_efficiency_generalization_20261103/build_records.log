@@ -1,0 +1,21 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/chem/processing.py:777: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:252.)
+  x = torch.tensor([get_atom_features(atom) for atom in atoms])  # (N, d_atom)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+9YSP record_ready 
+9RT3 record_ready 
+9T4A record_ready 
+7ILZ record_ready 
+9T51 record_ready 
+9SYL record_ready 
+12AV record_ready 

@@ -1,0 +1,617 @@
+{
+  "summary": [
+    {
+      "K": 1,
+      "stage": "raw",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 10,
+      "bond": 12,
+      "angle": 10,
+      "amide_torsion": 16,
+      "PB_mol": 8,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 1,
+      "stage": "raw_stereo",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 10,
+      "bond": 12,
+      "angle": 10,
+      "amide_torsion": 16,
+      "PB_mol": 8,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 1,
+      "stage": "repaired",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 17,
+      "bond": 18,
+      "angle": 15,
+      "amide_torsion": 18,
+      "PB_mol": 15,
+      "PB_dock": 1,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 1,
+      "stage": "stereo",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 17,
+      "bond": 18,
+      "angle": 15,
+      "amide_torsion": 18,
+      "PB_mol": 15,
+      "PB_dock": 1,
+      "high_quality": 1,
+      "high_quality_rate": 0.05555555555555555,
+      "unique_high_quality": 1,
+      "mean_unique_per_receptor": 0.16666666666666666,
+      "any_high_quality_attempts": 1,
+      "attempts": 18,
+      "pose_NFE": 1800,
+      "connection_head_NFE": 18,
+      "prefix_seconds": 108.33654610719532,
+      "search_seconds": 519.0566282322397,
+      "build_seconds": 9.914670614758506,
+      "short_seconds": 52.36535823112354,
+      "long_seconds": 182.64406800700817,
+      "postprocess_cpu_seconds": 11.167793932021596,
+      "stereo_quality_cpu_seconds": 99.79963126580697,
+      "measured_serial_component_seconds": 983.2846963901538,
+      "component_seconds_are_not_deployment_wall": true,
+      "actual_K8_research_wall_seconds": null,
+      "NFE_per_unique_high_quality": 1800.0,
+      "component_seconds_per_unique_high_quality": 983.2846963901538
+    },
+    {
+      "K": 4,
+      "stage": "raw",
+      "expected": 72,
+      "evaluated": 72,
+      "valid_connected": 72,
+      "no_internal_clash": 42,
+      "bond": 39,
+      "angle": 41,
+      "amide_torsion": 67,
+      "PB_mol": 28,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 4,
+      "stage": "raw_stereo",
+      "expected": 72,
+      "evaluated": 72,
+      "valid_connected": 72,
+      "no_internal_clash": 42,
+      "bond": 39,
+      "angle": 41,
+      "amide_torsion": 67,
+      "PB_mol": 28,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 4,
+      "stage": "repaired",
+      "expected": 72,
+      "evaluated": 72,
+      "valid_connected": 72,
+      "no_internal_clash": 66,
+      "bond": 66,
+      "angle": 59,
+      "amide_torsion": 72,
+      "PB_mol": 56,
+      "PB_dock": 2,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 4,
+      "stage": "stereo",
+      "expected": 72,
+      "evaluated": 72,
+      "valid_connected": 72,
+      "no_internal_clash": 66,
+      "bond": 66,
+      "angle": 59,
+      "amide_torsion": 72,
+      "PB_mol": 56,
+      "PB_dock": 2,
+      "high_quality": 2,
+      "high_quality_rate": 0.027777777777777776,
+      "unique_high_quality": 2,
+      "mean_unique_per_receptor": 0.3333333333333333,
+      "any_high_quality_attempts": 2,
+      "attempts": 18,
+      "pose_NFE": 6120,
+      "connection_head_NFE": 18,
+      "prefix_seconds": 108.33654610719532,
+      "search_seconds": 519.0566282322397,
+      "build_seconds": 40.836560288094915,
+      "short_seconds": 223.43104568729177,
+      "long_seconds": 789.8246634795796,
+      "postprocess_cpu_seconds": 40.33146400889382,
+      "stereo_quality_cpu_seconds": 330.45802061259747,
+      "measured_serial_component_seconds": 2052.2749284158926,
+      "component_seconds_are_not_deployment_wall": true,
+      "actual_K8_research_wall_seconds": null,
+      "NFE_per_unique_high_quality": 3060.0,
+      "component_seconds_per_unique_high_quality": 1026.1374642079463
+    },
+    {
+      "K": 8,
+      "stage": "raw",
+      "expected": 144,
+      "evaluated": 144,
+      "valid_connected": 144,
+      "no_internal_clash": 81,
+      "bond": 74,
+      "angle": 82,
+      "amide_torsion": 129,
+      "PB_mol": 56,
+      "PB_dock": 2,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 8,
+      "stage": "raw_stereo",
+      "expected": 144,
+      "evaluated": 144,
+      "valid_connected": 144,
+      "no_internal_clash": 81,
+      "bond": 74,
+      "angle": 82,
+      "amide_torsion": 129,
+      "PB_mol": 56,
+      "PB_dock": 2,
+      "high_quality": 2,
+      "high_quality_rate": 0.013888888888888888,
+      "unique_high_quality": 1,
+      "mean_unique_per_receptor": 0.16666666666666666,
+      "any_high_quality_attempts": 2,
+      "attempts": 18
+    },
+    {
+      "K": 8,
+      "stage": "repaired",
+      "expected": 144,
+      "evaluated": 144,
+      "valid_connected": 144,
+      "no_internal_clash": 130,
+      "bond": 132,
+      "angle": 118,
+      "amide_torsion": 144,
+      "PB_mol": 110,
+      "PB_dock": 7,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "K": 8,
+      "stage": "stereo",
+      "expected": 144,
+      "evaluated": 144,
+      "valid_connected": 144,
+      "no_internal_clash": 130,
+      "bond": 132,
+      "angle": 118,
+      "amide_torsion": 144,
+      "PB_mol": 110,
+      "PB_dock": 7,
+      "high_quality": 7,
+      "high_quality_rate": 0.04861111111111111,
+      "unique_high_quality": 6,
+      "mean_unique_per_receptor": 1.0,
+      "any_high_quality_attempts": 4,
+      "attempts": 18,
+      "pose_NFE": 11880,
+      "connection_head_NFE": 18,
+      "prefix_seconds": 108.33654610719532,
+      "search_seconds": 519.0566282322397,
+      "build_seconds": 84.74124737700913,
+      "short_seconds": 396.34532820270397,
+      "long_seconds": 1382.4319115286926,
+      "postprocess_cpu_seconds": 77.39606675738469,
+      "stereo_quality_cpu_seconds": 688.3470959111582,
+      "measured_serial_component_seconds": 3256.6548241163837,
+      "component_seconds_are_not_deployment_wall": true,
+      "actual_K8_research_wall_seconds": 2030.324229835067,
+      "NFE_per_unique_high_quality": 1980.0,
+      "component_seconds_per_unique_high_quality": 542.7758040193972
+    }
+  ],
+  "bootstrap": [
+    {
+      "K": 1,
+      "receptors": 6,
+      "paired_high_quality_rate_difference": 0.05555555555555555,
+      "cluster_95CI": [
+        0.0,
+        0.16666666666666666
+      ],
+      "unit": "entire RCSB30 receptor cluster with all seeds and candidates"
+    },
+    {
+      "K": 4,
+      "receptors": 6,
+      "paired_high_quality_rate_difference": 0.027777777777777776,
+      "cluster_95CI": [
+        0.0,
+        0.05555555555555555
+      ],
+      "unit": "entire RCSB30 receptor cluster with all seeds and candidates"
+    },
+    {
+      "K": 8,
+      "receptors": 6,
+      "paired_high_quality_rate_difference": 0.03472222222222222,
+      "cluster_95CI": [
+        0.006944444444444444,
+        0.0625
+      ],
+      "unit": "entire RCSB30 receptor cluster with all seeds and candidates"
+    }
+  ],
+  "input_audit": [
+    {
+      "pdb_id": "9YSP",
+      "role": "development",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        11038
+      ],
+      "protein_names": [
+        "dCTP pyrophosphatase 1"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 5,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 0,
+      "max_template_fit_to_bound_A": 0.4263141179190426
+    },
+    {
+      "pdb_id": "9QJF",
+      "role": "development",
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C13,C14,C15,C17,C19,C20,C9,N1,N18,N2,O1,O16,O2,O3')",
+      "cluster30_ids": [
+        1249
+      ],
+      "protein_names": [
+        "Dihydrolipoyl dehydrogenase"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": null,
+      "oov_slots": null,
+      "max_template_fit_to_bound_A": null
+    },
+    {
+      "pdb_id": "9SOD",
+      "role": "development",
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C15,C16,C17,C18,C21,C22,C24,O23,O25')",
+      "cluster30_ids": [
+        20417
+      ],
+      "protein_names": [
+        "rhodopsin, N~6~-[(2Z,4E,6E,8E)-3,7-DIMETHYL-9-(2,6,6-TRIMETHYLCYCLOHEX-1-EN-1-YL)NONA-2,4,6,8-TETRAENYL]LYSINE, rhodopsin"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": null,
+      "oov_slots": null,
+      "max_template_fit_to_bound_A": null
+    },
+    {
+      "pdb_id": "9RT3",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        3916
+      ],
+      "protein_names": [
+        "Choline O-acetyltransferase"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 5,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          2.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 1
+      },
+      "oov_slots": 0,
+      "max_template_fit_to_bound_A": 0.058562947128838486
+    },
+    {
+      "pdb_id": "9T4A",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        3510
+      ],
+      "protein_names": [
+        "Diphosphoinositol polyphosphate phosphohydrolase 1"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 9,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 2,
+      "max_template_fit_to_bound_A": 1.6270033079930772
+    },
+    {
+      "pdb_id": "7ILZ",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        1277
+      ],
+      "protein_names": [
+        "Nucleoprotein"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 4,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 0,
+      "max_template_fit_to_bound_A": 0.00966889048821836
+    },
+    {
+      "pdb_id": "9TAR",
+      "role": "test",
+      "status": "failed",
+      "reason": "ValueError('Covalent ligand-receptor system outside frozen noncovalent pipeline: [{\"conn_type_id\": \"covale\", \"ptnr1_label_asym_id\": \"A\", \"ptnr2_label_asym_id\": \"D\", \"ptnr1_label_comp_id\": \"CYS\", \"ptnr2_label_comp_id\": \"A1JUW\"}]')",
+      "cluster30_ids": [
+        3891
+      ],
+      "protein_names": [
+        "De novo photoenzyme variant ABLE"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": null,
+      "oov_slots": null,
+      "max_template_fit_to_bound_A": null
+    },
+    {
+      "pdb_id": "9T51",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        9710
+      ],
+      "protein_names": [
+        "StAR-related lipid transfer protein 4"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 4,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 1,
+      "max_template_fit_to_bound_A": 0.4574514753713908
+    },
+    {
+      "pdb_id": "9SYL",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        7921
+      ],
+      "protein_names": [
+        "tRNA (cytosine(38)-C(5))-methyltransferase"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 8,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 0,
+      "max_template_fit_to_bound_A": 0.1631930640290695
+    },
+    {
+      "pdb_id": "12AV",
+      "role": "test",
+      "status": "fixture_ready",
+      "reason": null,
+      "cluster30_ids": [
+        1408
+      ],
+      "protein_names": [
+        "Ornithine aminotransferase, mitochondrial"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": {
+        "fragment_count": 4,
+        "cross_connection_orders": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "cross_connection_stereo": [
+          0,
+          0,
+          0
+        ],
+        "cross_ring_connections": false,
+        "source_EZ_bonds": 0
+      },
+      "oov_slots": 2,
+      "max_template_fit_to_bound_A": 0.10344286252880405
+    },
+    {
+      "pdb_id": "34JY",
+      "role": "test",
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C8,C9,CL1,O1')",
+      "cluster30_ids": [
+        4880
+      ],
+      "protein_names": [
+        "E3 ubiquitin-protein ligase MYLIP"
+      ],
+      "entry_overlap": false,
+      "sequence_hits": 0,
+      "strata": null,
+      "oov_slots": null,
+      "max_template_fit_to_bound_A": null
+    }
+  ],
+  "generated_cross_double_candidates": 0,
+  "generated_cross_EZ_candidates": 0
+}

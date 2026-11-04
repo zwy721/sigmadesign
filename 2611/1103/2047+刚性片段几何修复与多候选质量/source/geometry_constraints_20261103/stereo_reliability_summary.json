@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "raw",
+    "centers": 649,
+    "reliable": 624,
+    "unavailable": 25
+  },
+  {
+    "stage": "post",
+    "centers": 649,
+    "reliable": 642,
+    "unavailable": 7
+  },
+  {
+    "stage": "mid",
+    "centers": 79,
+    "reliable": 77,
+    "unavailable": 2
+  }
+]

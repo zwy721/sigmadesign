@@ -1,0 +1,91 @@
+{
+  "task_key": "denovo_quality",
+  "task_title": "自主生成质量评价与指标审计",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-03T20:30:54.149083+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "DE_NOVO_QUALITY_RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "DE_NOVO_QUALITY_RESULTS.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/DE_NOVO_QUALITY_RESULTS.md",
+      "sha256": "e7dfe5eccdf23f8203dd9179376da00647333eb76146933ee2393f932b0b39b9",
+      "bytes": 19438,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.149083+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/README.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/README.md",
+      "sha256": "24ea88c8b1da96c5d358c4c8da4bf1067d6a121b5c74007725b2fac13d9f38b5",
+      "bytes": 1776,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:11:48.223134+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/cache_resume.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/cache_resume.log",
+      "sha256": "9e5518614eeea9aa6ea409aee15593dac7296732de120bd49798848e253b9ab5",
+      "bytes": 16304,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:05.000670+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/evaluation.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/evaluation.log",
+      "sha256": "a7b8bfcbd848d3d7e701938e79050c1395628c4d3043aa4a1c99c33e988ab3e9",
+      "bytes": 16388,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:10:09.671645+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/DE_NOVO_QUALITY_RESULTS.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/DE_NOVO_QUALITY_RESULTS.md",
+      "sha256": "036f0b56447ac5fac52a30b42c7a99521f98bb9ace25a1265956511ea1fa7ace",
+      "bytes": 18877,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.381412+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/cache_resume_verification.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/cache_resume_verification.json",
+      "sha256": "0ee26761b6e1495665c15ab0221ba4dc45593f20a1021619bfa3416228805cdd",
+      "bytes": 157,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:17:59.990179+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/failure_distribution.png",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/failure_distribution.png",
+      "sha256": "62513a5ef472fc466bafba01d9933f72c9a5f1b54ca656b1fda4a53a40cd63cb",
+      "bytes": 237466,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.378792+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/quality_comparison.png",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/quality_comparison.png",
+      "sha256": "039018c8147c03a8f3d9d330d9a831aa63dec89fa2c6e305313975c06a24b174",
+      "bytes": 110524,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:44.820784+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/summary.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/summary.json",
+      "sha256": "98f57c8c1467cf31a92887e19c8a1a21dfd7fddb15f9b25673281766b1fb9dd2",
+      "bytes": 75220,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:43.767095+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/verification.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/verification.json",
+      "sha256": "302b563dc0a6a81b93ea9bae7827c9f954120c9165c08d83c6ad160dbcc00bbc",
+      "bytes": 1064,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:06.481547+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/verification.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/verification.log",
+      "sha256": "a47b528fbb9c71597706c58f68bf6b73519ba4c01148f0d1b8aa4f6275607e81",
+      "bytes": 1400,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:06.482534+08:00"
+    }
+  ]
+}

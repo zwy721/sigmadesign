@@ -1,0 +1,26 @@
+[15:16:05] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[15:16:05] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[15:16:05] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+{
+  "passed": true,
+  "molecules": 84,
+  "groups": {
+    "A_predicted_t0.6": 36,
+    "B_official_true_graph": 36,
+    "C_crystal": 12
+  },
+  "all_inputs_unchanged": true,
+  "all_model_weights_unchanged": {
+    "/data/zhouwanyao/cutoff_geom_pdbbind_joint_200ep_20261026_cuda156/best_loss.pt": true,
+    "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt": true,
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt": true
+  },
+  "all_standard_PoseBusters_outputs_evaluable": true,
+  "reference_identity_excluded_from_primary_checks": true,
+  "numerical_configuration_unchanged": true,
+  "original_stereo_sidecars_retained": true,
+  "official_reference_structural_fingerprint_identity_verified": true,
+  "all_reports_and_examples_valid": true,
+  "cache_hits": 84,
+  "receptor_type_policy": "Protein, organic cofactor, inorganic cofactor and water are separate; raw metal vdW overlaps are retained, not mislabeled as protein collisions."
+}

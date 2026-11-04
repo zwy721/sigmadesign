@@ -1,0 +1,18 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official_cache/smoke_full/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official.py", line 130, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official.py", line 106, in main
+    m=metrics(rt,Tnew,Rnew,final,fixture);m['full_ligand_rmsd_A']=chemical_rmsd(mol,groups,final,fixture['target_mol'])
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official.py", line 39, in chemical_rmsd
+    matches=mol.GetSubstructMatches(target,useChirality=True,uniquify=False,maxMatches=4096);assert matches
+                                                                                                    ^^^^^^^
+AssertionError

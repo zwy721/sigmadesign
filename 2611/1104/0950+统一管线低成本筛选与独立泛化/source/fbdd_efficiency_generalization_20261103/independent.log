@@ -1,0 +1,622 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+PREFIX 9RT3 1801 3.46
+PREFIX 9RT3 1802 7.13
+PREFIX 9RT3 1803 16.21
+PREFIX 9T4A 1801 18.55
+PREFIX 9T4A 1802 18.57
+PREFIX 9T4A 1803 17.1
+PREFIX 7ILZ 1801 1.9
+PREFIX 7ILZ 1802 1.9
+PREFIX 7ILZ 1803 1.91
+PREFIX 9T51 1801 2.44
+PREFIX 9T51 1802 2.41
+PREFIX 9T51 1803 2.41
+PREFIX 9SYL 1801 2.53
+PREFIX 9SYL 1802 2.54
+PREFIX 9SYL 1803 2.54
+PREFIX 12AV 1801 2.25
+PREFIX 12AV 1802 2.24
+PREFIX 12AV 1803 2.25
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/native/official_cache/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+NATIVE 9RT3 1801 1 NFE 80
+NATIVE 9RT3 1801 2 NFE 80
+NATIVE 9RT3 1801 3 NFE 80
+NATIVE 9RT3 1801 4 NFE 80
+NATIVE 9RT3 1801 5 NFE 80
+NATIVE 9RT3 1801 6 NFE 80
+NATIVE 9RT3 1801 7 NFE 80
+NATIVE 9RT3 1801 8 NFE 80
+NATIVE 9RT3 1802 1 NFE 80
+NATIVE 9RT3 1802 2 NFE 80
+NATIVE 9RT3 1802 3 NFE 80
+NATIVE 9RT3 1802 4 NFE 80
+NATIVE 9RT3 1802 5 NFE 80
+NATIVE 9RT3 1802 6 NFE 80
+NATIVE 9RT3 1802 7 NFE 80
+NATIVE 9RT3 1802 8 NFE 80
+NATIVE 9RT3 1803 1 NFE 80
+NATIVE 9RT3 1803 2 NFE 80
+NATIVE 9RT3 1803 3 NFE 80
+NATIVE 9RT3 1803 4 NFE 80
+NATIVE 9RT3 1803 5 NFE 80
+NATIVE 9RT3 1803 6 NFE 80
+NATIVE 9RT3 1803 7 NFE 80
+NATIVE 9RT3 1803 8 NFE 80
+NATIVE 9T4A 1801 1 NFE 80
+NATIVE 9T4A 1801 2 NFE 80
+NATIVE 9T4A 1801 3 NFE 80
+NATIVE 9T4A 1801 4 NFE 80
+NATIVE 9T4A 1801 5 NFE 80
+NATIVE 9T4A 1801 6 NFE 80
+NATIVE 9T4A 1801 7 NFE 80
+NATIVE 9T4A 1801 8 NFE 80
+NATIVE 9T4A 1802 1 NFE 80
+NATIVE 9T4A 1802 2 NFE 80
+[WARN] No valid fragmentation reductions found for O=P(O)(O)OC(OP(=O)(O)OP(=O)(O)O)(OP(=O)(OC1CCCCC1)OC(OP(=O)(O)OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O!
+NATIVE 9T4A 1802 3 NFE 80
+NATIVE 9T4A 1802 4 NFE 80
+NATIVE 9T4A 1802 5 NFE 80
+NATIVE 9T4A 1802 6 NFE 80
+NATIVE 9T4A 1802 7 NFE 80
+[WARN] No valid fragmentation reductions found for O=P(O)(O)OC(OP(=O)(O)OP(=O)(O)O)(OP(=O)(OC(OP(=O)(O)OC1CCCCC1)P(=O)(O)O)OP(=O)(O)O)P(=O)(O)O!
+NATIVE 9T4A 1802 8 NFE 80
+NATIVE 9T4A 1803 1 NFE 80
+NATIVE 9T4A 1803 2 NFE 80
+NATIVE 9T4A 1803 3 NFE 80
+NATIVE 9T4A 1803 4 NFE 80
+[WARN] No valid fragmentation reductions found for O=P(O)(O)OC(OP(=O)(OC1CCCCC1)OC(OP(=O)(O)O)(OP(=O)(OP(=O)(O)O)OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O!
+NATIVE 9T4A 1803 5 NFE 80
+[WARN] No valid fragmentation reductions found for O=[PH](O)OOP(=O)(OC(OP(=O)(O)OC(OP(=O)(O)O)(OP(=O)(O)OC1CCCCC1)P(=O)(O)O)P(=O)(O)O)OP(=O)(O)O!
+NATIVE 9T4A 1803 6 NFE 80
+[WARN] No valid fragmentation reductions found for O=[PH](O)OOP(=O)(OC(OP(=O)(O)O)(OP(=O)(O)OC(OP(=O)(O)OC1CCCCC1)P(=O)(O)O)P(=O)(O)O)OP(=O)(O)O!
+NATIVE 9T4A 1803 7 NFE 80
+[WARN] No valid fragmentation reductions found for O=[PH](O)OOP(=O)(OC(OP(=O)(O)OC1CCCCC1)(OP(=O)(O)OC(OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O)OP(=O)(O)O!
+NATIVE 9T4A 1803 8 NFE 80
+NATIVE 7ILZ 1801 1 NFE 80
+NATIVE 7ILZ 1801 2 NFE 80
+NATIVE 7ILZ 1801 3 NFE 80
+NATIVE 7ILZ 1801 4 NFE 80
+NATIVE 7ILZ 1801 5 NFE 80
+NATIVE 7ILZ 1801 6 NFE 80
+NATIVE 7ILZ 1801 7 NFE 80
+NATIVE 7ILZ 1801 8 NFE 80
+NATIVE 7ILZ 1802 1 NFE 80
+NATIVE 7ILZ 1802 2 NFE 80
+NATIVE 7ILZ 1802 3 NFE 80
+NATIVE 7ILZ 1802 4 NFE 80
+NATIVE 7ILZ 1802 5 NFE 80
+NATIVE 7ILZ 1802 6 NFE 80
+NATIVE 7ILZ 1802 7 NFE 80
+NATIVE 7ILZ 1802 8 NFE 80
+NATIVE 7ILZ 1803 1 NFE 80
+NATIVE 7ILZ 1803 2 NFE 80
+NATIVE 7ILZ 1803 3 NFE 80
+NATIVE 7ILZ 1803 4 NFE 80
+NATIVE 7ILZ 1803 5 NFE 80
+NATIVE 7ILZ 1803 6 NFE 80
+NATIVE 7ILZ 1803 7 NFE 80
+NATIVE 7ILZ 1803 8 NFE 80
+NATIVE 9T51 1801 1 NFE 80
+NATIVE 9T51 1801 2 NFE 80
+NATIVE 9T51 1801 3 NFE 80
+NATIVE 9T51 1801 4 NFE 80
+NATIVE 9T51 1801 5 NFE 80
+NATIVE 9T51 1801 6 NFE 80
+NATIVE 9T51 1801 7 NFE 80
+NATIVE 9T51 1801 8 NFE 80
+NATIVE 9T51 1802 1 NFE 80
+NATIVE 9T51 1802 2 NFE 80
+NATIVE 9T51 1802 3 NFE 80
+NATIVE 9T51 1802 4 NFE 80
+NATIVE 9T51 1802 5 NFE 80
+NATIVE 9T51 1802 6 NFE 80
+NATIVE 9T51 1802 7 NFE 80
+NATIVE 9T51 1802 8 NFE 80
+NATIVE 9T51 1803 1 NFE 80
+NATIVE 9T51 1803 2 NFE 80
+NATIVE 9T51 1803 3 NFE 80
+NATIVE 9T51 1803 4 NFE 80
+NATIVE 9T51 1803 5 NFE 80
+NATIVE 9T51 1803 6 NFE 80
+NATIVE 9T51 1803 7 NFE 80
+NATIVE 9T51 1803 8 NFE 80
+NATIVE 9SYL 1801 1 NFE 80
+NATIVE 9SYL 1801 2 NFE 80
+NATIVE 9SYL 1801 3 NFE 80
+NATIVE 9SYL 1801 4 NFE 80
+NATIVE 9SYL 1801 5 NFE 80
+NATIVE 9SYL 1801 6 NFE 80
+NATIVE 9SYL 1801 7 NFE 80
+NATIVE 9SYL 1801 8 NFE 80
+NATIVE 9SYL 1802 1 NFE 80
+NATIVE 9SYL 1802 2 NFE 80
+NATIVE 9SYL 1802 3 NFE 80
+NATIVE 9SYL 1802 4 NFE 80
+NATIVE 9SYL 1802 5 NFE 80
+NATIVE 9SYL 1802 6 NFE 80
+NATIVE 9SYL 1802 7 NFE 80
+NATIVE 9SYL 1802 8 NFE 80
+NATIVE 9SYL 1803 1 NFE 80
+NATIVE 9SYL 1803 2 NFE 80
+NATIVE 9SYL 1803 3 NFE 80
+NATIVE 9SYL 1803 4 NFE 80
+NATIVE 9SYL 1803 5 NFE 80
+NATIVE 9SYL 1803 6 NFE 80
+NATIVE 9SYL 1803 7 NFE 80
+NATIVE 9SYL 1803 8 NFE 80
+NATIVE 12AV 1801 1 NFE 80
+NATIVE 12AV 1801 2 NFE 80
+NATIVE 12AV 1801 3 NFE 80
+NATIVE 12AV 1801 4 NFE 80
+NATIVE 12AV 1801 5 NFE 80
+NATIVE 12AV 1801 6 NFE 80
+NATIVE 12AV 1801 7 NFE 80
+NATIVE 12AV 1801 8 NFE 80
+NATIVE 12AV 1802 1 NFE 80
+NATIVE 12AV 1802 2 NFE 80
+NATIVE 12AV 1802 3 NFE 80
+NATIVE 12AV 1802 4 NFE 80
+NATIVE 12AV 1802 5 NFE 80
+NATIVE 12AV 1802 6 NFE 80
+NATIVE 12AV 1802 7 NFE 80
+NATIVE 12AV 1802 8 NFE 80
+NATIVE 12AV 1803 1 NFE 80
+NATIVE 12AV 1803 2 NFE 80
+NATIVE 12AV 1803 3 NFE 80
+NATIVE 12AV 1803 4 NFE 80
+NATIVE 12AV 1803 5 NFE 80
+NATIVE 12AV 1803 6 NFE 80
+NATIVE 12AV 1803 7 NFE 80
+NATIVE 12AV 1803 8 NFE 80
+1/432 stereo__9RT3__1801__2 high_quality=False cached=False
+2/432 repaired__9RT3__1801__2 high_quality=False cached=False
+3/432 raw__9RT3__1801__1 high_quality=False cached=False
+4/432 repaired__9RT3__1801__1 high_quality=False cached=False
+5/432 raw__9RT3__1801__2 high_quality=False cached=False
+6/432 stereo__9RT3__1801__1 high_quality=False cached=False
+7/432 raw__9RT3__1801__3 high_quality=False cached=False
+8/432 repaired__9RT3__1801__3 high_quality=False cached=False
+9/432 stereo__9RT3__1801__3 high_quality=False cached=False
+10/432 raw__9RT3__1801__4 high_quality=False cached=False
+11/432 repaired__9RT3__1801__4 high_quality=False cached=False
+12/432 stereo__9RT3__1801__4 high_quality=False cached=False
+13/432 raw__9RT3__1801__5 high_quality=False cached=False
+14/432 repaired__9RT3__1801__5 high_quality=False cached=False
+15/432 stereo__9RT3__1801__5 high_quality=False cached=False
+16/432 raw__9RT3__1801__6 high_quality=False cached=False
+17/432 repaired__9RT3__1801__6 high_quality=False cached=False
+18/432 stereo__9RT3__1801__6 high_quality=False cached=False
+19/432 raw__9RT3__1801__7 high_quality=False cached=False
+20/432 repaired__9RT3__1801__7 high_quality=False cached=False
+21/432 stereo__9RT3__1801__7 high_quality=False cached=False
+22/432 repaired__9RT3__1801__8 high_quality=False cached=False
+23/432 raw__9RT3__1801__8 high_quality=False cached=False
+24/432 stereo__9RT3__1801__8 high_quality=False cached=False
+25/432 raw__9RT3__1802__1 high_quality=False cached=False
+26/432 stereo__9RT3__1802__1 high_quality=False cached=False
+27/432 raw__9RT3__1802__2 high_quality=False cached=False
+28/432 repaired__9RT3__1802__2 high_quality=False cached=False
+29/432 stereo__9RT3__1802__3 high_quality=False cached=False
+30/432 repaired__9RT3__1802__1 high_quality=False cached=False
+31/432 stereo__9RT3__1802__4 high_quality=False cached=False
+32/432 stereo__9RT3__1802__2 high_quality=False cached=False
+33/432 repaired__9RT3__1802__3 high_quality=False cached=False
+34/432 raw__9RT3__1802__3 high_quality=False cached=False
+35/432 raw__9RT3__1802__4 high_quality=False cached=False
+36/432 repaired__9RT3__1802__4 high_quality=False cached=False
+37/432 repaired__9RT3__1802__6 high_quality=False cached=False
+38/432 repaired__9RT3__1802__5 high_quality=False cached=False
+39/432 stereo__9RT3__1802__6 high_quality=False cached=False
+40/432 raw__9RT3__1802__5 high_quality=False cached=False
+41/432 stereo__9RT3__1802__5 high_quality=True cached=False
+42/432 repaired__9RT3__1802__7 high_quality=False cached=False
+43/432 stereo__9RT3__1802__7 high_quality=True cached=False
+44/432 raw__9RT3__1802__6 high_quality=False cached=False
+45/432 raw__9RT3__1802__7 high_quality=False cached=False
+46/432 raw__9RT3__1802__8 high_quality=False cached=False
+47/432 repaired__9RT3__1802__8 high_quality=False cached=False
+48/432 stereo__9RT3__1802__8 high_quality=True cached=False
+49/432 stereo__9RT3__1803__2 high_quality=False cached=False
+50/432 raw__9RT3__1803__1 high_quality=False cached=False
+51/432 repaired__9RT3__1803__1 high_quality=False cached=False
+52/432 raw__9RT3__1803__2 high_quality=False cached=False
+53/432 stereo__9RT3__1803__1 high_quality=False cached=False
+54/432 repaired__9RT3__1803__2 high_quality=False cached=False
+55/432 repaired__9RT3__1803__3 high_quality=False cached=False
+56/432 raw__9RT3__1803__3 high_quality=False cached=False
+57/432 repaired__9RT3__1803__5 high_quality=False cached=False
+58/432 stereo__9RT3__1803__5 high_quality=False cached=False
+59/432 stereo__9RT3__1803__3 high_quality=False cached=False
+60/432 raw__9RT3__1803__4 high_quality=False cached=False
+61/432 repaired__9RT3__1803__4 high_quality=False cached=False
+62/432 stereo__9RT3__1803__4 high_quality=False cached=False
+63/432 repaired__9RT3__1803__7 high_quality=False cached=False
+64/432 stereo__9RT3__1803__7 high_quality=False cached=False
+65/432 raw__9RT3__1803__6 high_quality=False cached=False
+66/432 repaired__9RT3__1803__6 high_quality=False cached=False
+67/432 raw__9RT3__1803__5 high_quality=False cached=False
+68/432 stereo__9RT3__1803__6 high_quality=False cached=False
+69/432 raw__9RT3__1803__7 high_quality=False cached=False
+70/432 raw__9RT3__1803__8 high_quality=False cached=False
+71/432 stereo__9RT3__1803__8 high_quality=True cached=False
+72/432 repaired__9RT3__1803__8 high_quality=False cached=False
+73/432 raw__9T4A__1801__1 high_quality=False cached=False
+74/432 repaired__9T4A__1801__1 high_quality=False cached=False
+75/432 stereo__9T4A__1801__1 high_quality=False cached=False
+76/432 repaired__9T4A__1801__2 high_quality=False cached=False
+77/432 stereo__9T4A__1801__2 high_quality=False cached=False
+78/432 raw__9T4A__1801__2 high_quality=False cached=False
+79/432 raw__9T4A__1801__3 high_quality=False cached=False
+80/432 repaired__9T4A__1801__3 high_quality=False cached=False
+81/432 stereo__9T4A__1801__3 high_quality=False cached=False
+82/432 repaired__9T4A__1801__4 high_quality=False cached=False
+83/432 raw__9T4A__1801__4 high_quality=False cached=False
+84/432 stereo__9T4A__1801__4 high_quality=False cached=False
+85/432 raw__9T4A__1801__5 high_quality=False cached=False
+86/432 repaired__9T4A__1801__5 high_quality=False cached=False
+87/432 stereo__9T4A__1801__5 high_quality=False cached=False
+88/432 raw__9T4A__1801__6 high_quality=False cached=False
+89/432 repaired__9T4A__1801__6 high_quality=False cached=False
+90/432 stereo__9T4A__1801__6 high_quality=False cached=False
+91/432 repaired__9T4A__1801__7 high_quality=False cached=False
+92/432 raw__9T4A__1801__7 high_quality=False cached=False
+93/432 stereo__9T4A__1801__7 high_quality=False cached=False
+94/432 repaired__9T4A__1801__8 high_quality=False cached=False
+95/432 raw__9T4A__1801__8 high_quality=False cached=False
+96/432 stereo__9T4A__1801__8 high_quality=False cached=False
+97/432 repaired__9T4A__1802__1 high_quality=False cached=False
+98/432 raw__9T4A__1802__1 high_quality=False cached=False
+99/432 stereo__9T4A__1802__1 high_quality=False cached=False
+100/432 raw__9T4A__1802__2 high_quality=False cached=False
+101/432 repaired__9T4A__1802__2 high_quality=False cached=False
+102/432 stereo__9T4A__1802__2 high_quality=False cached=False
+103/432 raw__9T4A__1802__3 high_quality=False cached=False
+104/432 repaired__9T4A__1802__3 high_quality=False cached=False
+105/432 stereo__9T4A__1802__3 high_quality=False cached=False
+106/432 raw__9T4A__1802__4 high_quality=False cached=False
+107/432 repaired__9T4A__1802__4 high_quality=False cached=False
+108/432 stereo__9T4A__1802__4 high_quality=False cached=False
+109/432 raw__9T4A__1802__5 high_quality=False cached=False
+110/432 repaired__9T4A__1802__5 high_quality=False cached=False
+111/432 stereo__9T4A__1802__5 high_quality=False cached=False
+112/432 raw__9T4A__1802__6 high_quality=False cached=False
+113/432 repaired__9T4A__1802__6 high_quality=False cached=False
+114/432 stereo__9T4A__1802__6 high_quality=False cached=False
+115/432 raw__9T4A__1802__7 high_quality=False cached=False
+116/432 repaired__9T4A__1802__7 high_quality=False cached=False
+117/432 stereo__9T4A__1802__7 high_quality=False cached=False
+118/432 raw__9T4A__1802__8 high_quality=False cached=False
+119/432 repaired__9T4A__1802__8 high_quality=False cached=False
+120/432 stereo__9T4A__1802__8 high_quality=False cached=False
+121/432 raw__9T4A__1803__1 high_quality=False cached=False
+122/432 repaired__9T4A__1803__1 high_quality=False cached=False
+123/432 stereo__9T4A__1803__1 high_quality=False cached=False
+124/432 raw__9T4A__1803__2 high_quality=False cached=False
+125/432 repaired__9T4A__1803__2 high_quality=False cached=False
+126/432 stereo__9T4A__1803__2 high_quality=False cached=False
+127/432 raw__9T4A__1803__3 high_quality=False cached=False
+128/432 repaired__9T4A__1803__3 high_quality=False cached=False
+129/432 stereo__9T4A__1803__3 high_quality=False cached=False
+130/432 raw__9T4A__1803__4 high_quality=False cached=False
+131/432 repaired__9T4A__1803__4 high_quality=False cached=False
+132/432 stereo__9T4A__1803__4 high_quality=False cached=False
+133/432 raw__9T4A__1803__5 high_quality=False cached=False
+134/432 repaired__9T4A__1803__5 high_quality=False cached=False
+135/432 stereo__9T4A__1803__5 high_quality=False cached=False
+136/432 raw__9T4A__1803__6 high_quality=False cached=False
+137/432 repaired__9T4A__1803__6 high_quality=False cached=False
+138/432 stereo__9T4A__1803__6 high_quality=False cached=False
+139/432 raw__9T4A__1803__7 high_quality=False cached=False
+140/432 repaired__9T4A__1803__7 high_quality=False cached=False
+141/432 stereo__9T4A__1803__7 high_quality=False cached=False
+142/432 raw__7ILZ__1801__1 high_quality=False cached=False
+143/432 repaired__7ILZ__1801__1 high_quality=False cached=False
+144/432 raw__7ILZ__1801__2 high_quality=False cached=False
+145/432 stereo__7ILZ__1801__2 high_quality=False cached=False
+146/432 stereo__7ILZ__1801__1 high_quality=False cached=False
+147/432 repaired__7ILZ__1801__2 high_quality=False cached=False
+148/432 raw__7ILZ__1801__3 high_quality=False cached=False
+149/432 repaired__7ILZ__1801__3 high_quality=False cached=False
+150/432 stereo__7ILZ__1801__3 high_quality=False cached=False
+151/432 raw__7ILZ__1801__4 high_quality=False cached=False
+152/432 repaired__7ILZ__1801__4 high_quality=False cached=False
+153/432 stereo__7ILZ__1801__4 high_quality=False cached=False
+154/432 raw__9T4A__1803__8 high_quality=False cached=False
+155/432 repaired__9T4A__1803__8 high_quality=False cached=False
+156/432 raw__7ILZ__1801__5 high_quality=False cached=False
+157/432 repaired__7ILZ__1801__5 high_quality=False cached=False
+158/432 raw__7ILZ__1801__6 high_quality=False cached=False
+159/432 stereo__7ILZ__1801__5 high_quality=False cached=False
+160/432 stereo__9T4A__1803__8 high_quality=False cached=False
+161/432 repaired__7ILZ__1801__6 high_quality=False cached=False
+162/432 stereo__7ILZ__1801__6 high_quality=False cached=False
+163/432 raw__7ILZ__1801__7 high_quality=False cached=False
+164/432 raw__7ILZ__1802__1 high_quality=False cached=False
+165/432 repaired__7ILZ__1802__1 high_quality=False cached=False
+166/432 stereo__7ILZ__1802__1 high_quality=False cached=False
+167/432 repaired__7ILZ__1801__7 high_quality=False cached=False
+168/432 raw__7ILZ__1801__8 high_quality=False cached=False
+169/432 stereo__7ILZ__1801__7 high_quality=False cached=False
+170/432 raw__7ILZ__1802__3 high_quality=False cached=False
+171/432 stereo__7ILZ__1801__8 high_quality=False cached=False
+172/432 repaired__7ILZ__1801__8 high_quality=False cached=False
+173/432 repaired__7ILZ__1802__3 high_quality=False cached=False
+174/432 stereo__7ILZ__1802__3 high_quality=False cached=False
+175/432 repaired__7ILZ__1802__4 high_quality=False cached=False
+176/432 stereo__7ILZ__1802__4 high_quality=False cached=False
+177/432 raw__7ILZ__1802__5 high_quality=False cached=False
+178/432 stereo__7ILZ__1802__5 high_quality=False cached=False
+179/432 repaired__7ILZ__1802__5 high_quality=False cached=False
+180/432 raw__7ILZ__1802__2 high_quality=False cached=False
+181/432 repaired__7ILZ__1802__2 high_quality=False cached=False
+182/432 stereo__7ILZ__1802__2 high_quality=False cached=False
+183/432 raw__7ILZ__1802__7 high_quality=False cached=False
+184/432 stereo__7ILZ__1802__7 high_quality=False cached=False
+185/432 raw__7ILZ__1802__8 high_quality=False cached=False
+186/432 repaired__7ILZ__1802__8 high_quality=False cached=False
+187/432 raw__7ILZ__1802__4 high_quality=False cached=False
+188/432 raw__7ILZ__1802__6 high_quality=False cached=False
+189/432 stereo__7ILZ__1802__8 high_quality=False cached=False
+190/432 repaired__7ILZ__1802__6 high_quality=False cached=False
+191/432 repaired__7ILZ__1803__1 high_quality=False cached=False
+192/432 raw__7ILZ__1803__2 high_quality=False cached=False
+193/432 repaired__7ILZ__1803__2 high_quality=False cached=False
+194/432 stereo__7ILZ__1803__2 high_quality=False cached=False
+195/432 raw__7ILZ__1803__3 high_quality=False cached=False
+196/432 repaired__7ILZ__1803__3 high_quality=False cached=False
+197/432 stereo__7ILZ__1803__3 high_quality=False cached=False
+198/432 stereo__7ILZ__1802__6 high_quality=False cached=False
+199/432 raw__7ILZ__1803__4 high_quality=False cached=False
+200/432 repaired__7ILZ__1803__4 high_quality=False cached=False
+201/432 stereo__7ILZ__1803__4 high_quality=False cached=False
+202/432 raw__7ILZ__1803__5 high_quality=False cached=False
+203/432 repaired__7ILZ__1802__7 high_quality=False cached=False
+204/432 stereo__7ILZ__1803__5 high_quality=False cached=False
+205/432 raw__7ILZ__1803__6 high_quality=False cached=False
+206/432 repaired__7ILZ__1803__5 high_quality=False cached=False
+207/432 raw__7ILZ__1803__1 high_quality=False cached=False
+208/432 stereo__7ILZ__1803__1 high_quality=False cached=False
+209/432 repaired__7ILZ__1803__6 high_quality=False cached=False
+210/432 stereo__7ILZ__1803__6 high_quality=False cached=False
+211/432 repaired__7ILZ__1803__7 high_quality=False cached=False
+212/432 raw__7ILZ__1803__7 high_quality=False cached=False
+213/432 raw__7ILZ__1803__8 high_quality=False cached=False
+214/432 stereo__7ILZ__1803__7 high_quality=False cached=False
+215/432 repaired__7ILZ__1803__8 high_quality=False cached=False
+216/432 stereo__7ILZ__1803__8 high_quality=False cached=False
+217/432 repaired__9T51__1801__1 high_quality=False cached=False
+218/432 raw__9T51__1801__1 high_quality=False cached=False
+219/432 stereo__9T51__1801__1 high_quality=False cached=False
+220/432 raw__9T51__1801__2 high_quality=False cached=False
+221/432 repaired__9T51__1801__2 high_quality=False cached=False
+222/432 stereo__9T51__1801__2 high_quality=False cached=False
+223/432 repaired__9T51__1801__3 high_quality=False cached=False
+224/432 raw__9T51__1801__3 high_quality=False cached=False
+225/432 raw__9T51__1801__4 high_quality=False cached=False
+226/432 repaired__9T51__1801__4 high_quality=False cached=False
+227/432 stereo__9T51__1801__3 high_quality=False cached=False
+228/432 stereo__9T51__1801__4 high_quality=False cached=False
+229/432 repaired__9T51__1801__5 high_quality=False cached=False
+230/432 raw__9T51__1801__5 high_quality=False cached=False
+231/432 stereo__9T51__1801__5 high_quality=False cached=False
+232/432 raw__9T51__1801__6 high_quality=False cached=False
+233/432 repaired__9T51__1801__6 high_quality=False cached=False
+234/432 stereo__9T51__1801__6 high_quality=False cached=False
+235/432 raw__9T51__1801__8 high_quality=False cached=False
+236/432 raw__9T51__1801__7 high_quality=False cached=False
+237/432 repaired__9T51__1801__7 high_quality=False cached=False
+238/432 repaired__9T51__1801__8 high_quality=False cached=False
+239/432 stereo__9T51__1801__7 high_quality=False cached=False
+240/432 stereo__9T51__1801__8 high_quality=False cached=False
+241/432 repaired__9T51__1802__2 high_quality=False cached=False
+242/432 stereo__9T51__1802__2 high_quality=False cached=False
+243/432 raw__9T51__1802__1 high_quality=False cached=False
+244/432 repaired__9T51__1802__1 high_quality=False cached=False
+245/432 stereo__9T51__1802__1 high_quality=True cached=False
+246/432 raw__9T51__1802__2 high_quality=False cached=False
+247/432 repaired__9T51__1802__4 high_quality=False cached=False
+248/432 repaired__9T51__1802__3 high_quality=False cached=False
+249/432 raw__9T51__1802__3 high_quality=False cached=False
+250/432 raw__9T51__1802__5 high_quality=False cached=False
+251/432 stereo__9T51__1802__3 high_quality=False cached=False
+252/432 raw__9T51__1802__4 high_quality=False cached=False
+253/432 stereo__9T51__1802__4 high_quality=False cached=False
+254/432 stereo__9T51__1802__6 high_quality=False cached=False
+255/432 raw__9T51__1802__7 high_quality=False cached=False
+256/432 stereo__9T51__1802__7 high_quality=False cached=False
+257/432 repaired__9T51__1802__5 high_quality=False cached=False
+258/432 stereo__9T51__1802__5 high_quality=True cached=False
+259/432 raw__9T51__1802__6 high_quality=False cached=False
+260/432 repaired__9T51__1802__6 high_quality=False cached=False
+261/432 repaired__9T51__1802__7 high_quality=False cached=False
+262/432 raw__9T51__1802__8 high_quality=False cached=False
+263/432 repaired__9T51__1802__8 high_quality=False cached=False
+264/432 stereo__9T51__1802__8 high_quality=False cached=False
+265/432 raw__9T51__1803__1 high_quality=False cached=False
+266/432 repaired__9T51__1803__1 high_quality=False cached=False
+267/432 stereo__9T51__1803__1 high_quality=False cached=False
+268/432 raw__9T51__1803__2 high_quality=False cached=False
+269/432 repaired__9T51__1803__2 high_quality=False cached=False
+270/432 stereo__9T51__1803__2 high_quality=False cached=False
+271/432 raw__9T51__1803__3 high_quality=False cached=False
+272/432 repaired__9T51__1803__3 high_quality=False cached=False
+273/432 stereo__9T51__1803__3 high_quality=False cached=False
+274/432 raw__9T51__1803__4 high_quality=False cached=False
+275/432 stereo__9T51__1803__4 high_quality=False cached=False
+276/432 repaired__9T51__1803__4 high_quality=False cached=False
+277/432 raw__9T51__1803__5 high_quality=False cached=False
+278/432 repaired__9T51__1803__5 high_quality=False cached=False
+279/432 stereo__9T51__1803__5 high_quality=False cached=False
+280/432 raw__9T51__1803__6 high_quality=False cached=False
+281/432 repaired__9T51__1803__6 high_quality=False cached=False
+282/432 stereo__9T51__1803__6 high_quality=False cached=False
+283/432 raw__9T51__1803__7 high_quality=False cached=False
+284/432 repaired__9T51__1803__7 high_quality=False cached=False
+285/432 stereo__9T51__1803__7 high_quality=False cached=False
+286/432 raw__9T51__1803__8 high_quality=False cached=False
+287/432 repaired__9T51__1803__8 high_quality=False cached=False
+288/432 stereo__9T51__1803__8 high_quality=False cached=False
+289/432 raw__9SYL__1801__1 high_quality=False cached=False
+290/432 repaired__9SYL__1801__1 high_quality=False cached=False
+291/432 raw__9SYL__1801__2 high_quality=False cached=False
+292/432 stereo__9SYL__1801__1 high_quality=False cached=False
+293/432 repaired__9SYL__1801__2 high_quality=False cached=False
+294/432 stereo__9SYL__1801__2 high_quality=False cached=False
+295/432 raw__9SYL__1801__3 high_quality=False cached=False
+296/432 repaired__9SYL__1801__3 high_quality=False cached=False
+297/432 stereo__9SYL__1801__3 high_quality=False cached=False
+298/432 raw__9SYL__1801__4 high_quality=False cached=False
+299/432 repaired__9SYL__1801__4 high_quality=False cached=False
+300/432 stereo__9SYL__1801__4 high_quality=False cached=False
+301/432 raw__9SYL__1801__5 high_quality=False cached=False
+302/432 repaired__9SYL__1801__5 high_quality=False cached=False
+303/432 stereo__9SYL__1801__5 high_quality=False cached=False
+304/432 raw__9SYL__1801__6 high_quality=False cached=False
+305/432 repaired__9SYL__1801__6 high_quality=False cached=False
+306/432 stereo__9SYL__1801__6 high_quality=False cached=False
+307/432 raw__9SYL__1801__7 high_quality=False cached=False
+308/432 repaired__9SYL__1801__7 high_quality=False cached=False
+309/432 stereo__9SYL__1801__7 high_quality=False cached=False
+310/432 raw__9SYL__1801__8 high_quality=False cached=False
+311/432 repaired__9SYL__1801__8 high_quality=False cached=False
+312/432 stereo__9SYL__1801__8 high_quality=False cached=False
+313/432 raw__9SYL__1802__1 high_quality=False cached=False
+314/432 repaired__9SYL__1802__1 high_quality=False cached=False
+315/432 raw__9SYL__1802__2 high_quality=False cached=False
+316/432 stereo__9SYL__1802__1 high_quality=False cached=False
+317/432 stereo__9SYL__1802__3 high_quality=True cached=False
+318/432 raw__9SYL__1802__4 high_quality=False cached=False
+319/432 stereo__9SYL__1802__4 high_quality=False cached=False
+320/432 repaired__9SYL__1802__2 high_quality=False cached=False
+321/432 stereo__9SYL__1802__2 high_quality=False cached=False
+322/432 raw__9SYL__1802__3 high_quality=False cached=False
+323/432 repaired__9SYL__1802__3 high_quality=False cached=False
+324/432 repaired__9SYL__1802__4 high_quality=False cached=False
+325/432 raw__9SYL__1802__5 high_quality=False cached=False
+326/432 repaired__9SYL__1802__5 high_quality=False cached=False
+327/432 stereo__9SYL__1802__5 high_quality=False cached=False
+328/432 raw__9SYL__1802__6 high_quality=False cached=False
+329/432 repaired__9SYL__1802__6 high_quality=False cached=False
+330/432 stereo__9SYL__1802__6 high_quality=False cached=False
+331/432 raw__9SYL__1802__7 high_quality=False cached=False
+332/432 repaired__9SYL__1802__7 high_quality=False cached=False
+333/432 stereo__9SYL__1802__7 high_quality=False cached=False
+334/432 raw__9SYL__1802__8 high_quality=False cached=False
+335/432 raw__9SYL__1803__2 high_quality=False cached=False
+336/432 repaired__9SYL__1803__2 high_quality=False cached=False
+337/432 stereo__9SYL__1803__2 high_quality=False cached=False
+338/432 raw__9SYL__1803__3 high_quality=False cached=False
+339/432 repaired__9SYL__1802__8 high_quality=False cached=False
+340/432 repaired__9SYL__1803__3 high_quality=False cached=False
+341/432 stereo__9SYL__1803__3 high_quality=False cached=False
+342/432 stereo__9SYL__1802__8 high_quality=False cached=False
+343/432 raw__9SYL__1803__1 high_quality=False cached=False
+344/432 repaired__9SYL__1803__1 high_quality=False cached=False
+345/432 repaired__9SYL__1803__5 high_quality=False cached=False
+346/432 stereo__9SYL__1803__5 high_quality=False cached=False
+347/432 stereo__9SYL__1803__1 high_quality=False cached=False
+348/432 raw__9SYL__1803__4 high_quality=False cached=False
+349/432 repaired__9SYL__1803__4 high_quality=False cached=False
+350/432 stereo__9SYL__1803__4 high_quality=False cached=False
+351/432 raw__9SYL__1803__5 high_quality=False cached=False
+352/432 raw__9SYL__1803__6 high_quality=False cached=False
+353/432 raw__9SYL__1803__8 high_quality=False cached=False
+354/432 repaired__9SYL__1803__8 high_quality=False cached=False
+355/432 stereo__9SYL__1803__8 high_quality=False cached=False
+356/432 raw__12AV__1801__1 high_quality=False cached=False
+357/432 repaired__12AV__1801__1 high_quality=False cached=False
+358/432 stereo__12AV__1801__1 high_quality=False cached=False
+359/432 repaired__9SYL__1803__6 high_quality=False cached=False
+360/432 raw__9SYL__1803__7 high_quality=False cached=False
+361/432 raw__12AV__1801__2 high_quality=False cached=False
+362/432 repaired__12AV__1801__2 high_quality=False cached=False
+363/432 repaired__9SYL__1803__7 high_quality=False cached=False
+364/432 stereo__9SYL__1803__6 high_quality=False cached=False
+365/432 stereo__9SYL__1803__7 high_quality=False cached=False
+366/432 stereo__12AV__1801__2 high_quality=False cached=False
+367/432 raw__12AV__1801__3 high_quality=False cached=False
+368/432 repaired__12AV__1801__3 high_quality=False cached=False
+369/432 stereo__12AV__1801__3 high_quality=False cached=False
+370/432 raw__12AV__1801__4 high_quality=False cached=False
+371/432 repaired__12AV__1801__4 high_quality=False cached=False
+372/432 stereo__12AV__1801__4 high_quality=False cached=False
+373/432 raw__12AV__1801__5 high_quality=False cached=False
+374/432 stereo__12AV__1801__5 high_quality=False cached=False
+375/432 repaired__12AV__1801__5 high_quality=False cached=False
+376/432 raw__12AV__1801__6 high_quality=False cached=False
+377/432 repaired__12AV__1801__6 high_quality=False cached=False
+378/432 stereo__12AV__1801__6 high_quality=False cached=False
+379/432 raw__12AV__1801__7 high_quality=False cached=False
+380/432 repaired__12AV__1801__7 high_quality=False cached=False
+381/432 stereo__12AV__1801__7 high_quality=False cached=False
+382/432 raw__12AV__1802__1 high_quality=False cached=False
+383/432 raw__12AV__1801__8 high_quality=False cached=False
+384/432 raw__12AV__1802__2 high_quality=False cached=False
+385/432 stereo__12AV__1802__2 high_quality=False cached=False
+386/432 raw__12AV__1802__3 high_quality=False cached=False
+387/432 repaired__12AV__1802__3 high_quality=False cached=False
+388/432 stereo__12AV__1802__3 high_quality=False cached=False
+389/432 repaired__12AV__1801__8 high_quality=False cached=False
+390/432 repaired__12AV__1802__4 high_quality=False cached=False
+391/432 stereo__12AV__1801__8 high_quality=False cached=False
+392/432 stereo__12AV__1802__4 high_quality=False cached=False
+393/432 repaired__12AV__1802__1 high_quality=False cached=False
+394/432 stereo__12AV__1802__1 high_quality=False cached=False
+395/432 stereo__12AV__1802__5 high_quality=False cached=False
+396/432 repaired__12AV__1802__2 high_quality=False cached=False
+397/432 stereo__12AV__1802__6 high_quality=False cached=False
+398/432 raw__12AV__1802__4 high_quality=False cached=False
+399/432 raw__12AV__1802__5 high_quality=False cached=False
+400/432 repaired__12AV__1802__5 high_quality=False cached=False
+401/432 raw__12AV__1802__6 high_quality=False cached=False
+402/432 repaired__12AV__1802__6 high_quality=False cached=False
+403/432 raw__12AV__1802__7 high_quality=False cached=False
+404/432 repaired__12AV__1802__7 high_quality=False cached=False
+405/432 repaired__12AV__1803__1 high_quality=False cached=False
+406/432 stereo__12AV__1803__1 high_quality=False cached=False
+407/432 raw__12AV__1802__8 high_quality=False cached=False
+408/432 raw__12AV__1803__2 high_quality=False cached=False
+409/432 repaired__12AV__1802__8 high_quality=False cached=False
+410/432 stereo__12AV__1803__2 high_quality=False cached=False
+411/432 stereo__12AV__1802__7 high_quality=False cached=False
+412/432 stereo__12AV__1802__8 high_quality=False cached=False
+413/432 raw__12AV__1803__3 high_quality=False cached=False
+414/432 repaired__12AV__1803__3 high_quality=False cached=False
+415/432 stereo__12AV__1803__3 high_quality=False cached=False
+416/432 stereo__12AV__1803__4 high_quality=False cached=False
+417/432 raw__12AV__1803__5 high_quality=False cached=False
+418/432 repaired__12AV__1803__5 high_quality=False cached=False
+419/432 stereo__12AV__1803__5 high_quality=False cached=False
+420/432 raw__12AV__1803__1 high_quality=False cached=False
+421/432 repaired__12AV__1803__2 high_quality=False cached=False
+422/432 repaired__12AV__1803__4 high_quality=False cached=False
+423/432 raw__12AV__1803__4 high_quality=False cached=False
+424/432 raw__12AV__1803__6 high_quality=False cached=False
+425/432 repaired__12AV__1803__6 high_quality=False cached=False
+426/432 stereo__12AV__1803__6 high_quality=False cached=False
+427/432 raw__12AV__1803__7 high_quality=False cached=False
+428/432 stereo__12AV__1803__7 high_quality=False cached=False
+429/432 repaired__12AV__1803__7 high_quality=False cached=False
+430/432 repaired__12AV__1803__8 high_quality=False cached=False
+431/432 raw__12AV__1803__8 high_quality=False cached=False
+432/432 stereo__12AV__1803__8 high_quality=False cached=False
+Complete: 432 molecules; report: /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/independent/quality/DE_NOVO_QUALITY_RESULTS.md

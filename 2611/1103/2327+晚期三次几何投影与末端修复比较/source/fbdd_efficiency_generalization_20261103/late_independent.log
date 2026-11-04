@@ -1,0 +1,25 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/late_independent/native/official_cache/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+LATE triple30 9RT3 1801 NFE 26 drift 0.165081
+LATE triple30 9RT3 1802 NFE 26 drift 0.267508
+LATE triple30 9RT3 1803 NFE 26 drift 0.383576
+LATE triple30 9T4A 1801 NFE 26 drift 0.773703
+LATE triple30 9T4A 1802 NFE 26 drift 0.740932
+LATE triple30 9T4A 1803 NFE 26 drift 0.628125
+LATE triple30 7ILZ 1801 NFE 26 drift 0.624888
+LATE triple30 7ILZ 1802 NFE 26 drift 0.299902
+LATE triple30 7ILZ 1803 NFE 26 drift 0.237516
+LATE triple30 9T51 1801 NFE 26 drift 0.330791
+LATE triple30 9T51 1802 NFE 26 drift 0.33394
+LATE triple30 9T51 1803 NFE 26 drift 0.175446
+LATE triple30 9SYL 1801 NFE 26 drift 0.379402
+LATE triple30 9SYL 1802 NFE 26 drift 0.408874
+LATE triple30 9SYL 1803 NFE 26 drift 0.522182
+LATE triple30 12AV 1801 NFE 26 drift 0.633614
+LATE triple30 12AV 1802 NFE 26 drift 0.426291
+LATE triple30 12AV 1803 NFE 26 drift 0.441258

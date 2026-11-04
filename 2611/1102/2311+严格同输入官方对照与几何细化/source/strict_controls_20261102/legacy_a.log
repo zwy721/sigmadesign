@@ -1,0 +1,84 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+LEGACY_FULL 2w4x 1802 s 11.8
+LEGACY_NOISE 2w4x 1802
+LEGACY_FULL 2w4x 1803 s 10.5
+LEGACY_NOISE 2w4x 1803
+LEGACY_FULL 4ivd 1801 s 11.5
+LEGACY_NOISE 4ivd 1801
+LEGACY_FULL 4ivd 1802 s 11.3
+LEGACY_NOISE 4ivd 1802
+LEGACY_FULL 4ivd 1803 s 11.2
+LEGACY_NOISE 4ivd 1803
+LEGACY_FULL 2xnb 1801 s 11.6
+LEGACY_NOISE 2xnb 1801
+LEGACY_FULL 2xnb 1802 s 11.3
+LEGACY_NOISE 2xnb 1802
+LEGACY_FULL 2xnb 1803 s 11.4
+LEGACY_NOISE 2xnb 1803
+LEGACY_FULL 1nvq 1801 s 11.7
+LEGACY_NOISE 1nvq 1801
+LEGACY_FULL 1nvq 1802 s 11.7
+LEGACY_NOISE 1nvq 1802
+LEGACY_FULL 1nvq 1803 s 11.6
+LEGACY_NOISE 1nvq 1803
+LEGACY_FULL 2c3i 1801 s 10.8
+LEGACY_NOISE 2c3i 1801
+LEGACY_FULL 2c3i 1802 s 10.7
+LEGACY_NOISE 2c3i 1802
+LEGACY_FULL 2c3i 1803 s 10.6
+LEGACY_NOISE 2c3i 1803
+LEGACY_FULL 3ehy 1801 s 10.1
+LEGACY_NOISE 3ehy 1801
+LEGACY_FULL 3ehy 1802 s 10.3
+LEGACY_NOISE 3ehy 1802
+LEGACY_FULL 3ehy 1803 s 18.8
+LEGACY_NOISE 3ehy 1803
+CONTINUE 2w4x 1801 0.05
+CONTINUE 2w4x 1801 0.1
+CONTINUE 2w4x 1801 0.2
+CONTINUE 2w4x 1801 0.4
+CONTINUE 2w4x 1801 0.6
+CONTINUE 2w4x 1801 0.9
+CONTINUE 4ivd 1801 0.05
+CONTINUE 4ivd 1801 0.1
+CONTINUE 4ivd 1801 0.2
+CONTINUE 4ivd 1801 0.4
+CONTINUE 4ivd 1801 0.6
+CONTINUE 4ivd 1801 0.9
+CONTINUE 2xnb 1801 0.05
+CONTINUE 2xnb 1801 0.1
+CONTINUE 2xnb 1801 0.2
+CONTINUE 2xnb 1801 0.4
+CONTINUE 2xnb 1801 0.6
+CONTINUE 2xnb 1801 0.9
+CONTINUE 1nvq 1801 0.05
+CONTINUE 1nvq 1801 0.1
+CONTINUE 1nvq 1801 0.2
+CONTINUE 1nvq 1801 0.4
+CONTINUE 1nvq 1801 0.6
+CONTINUE 1nvq 1801 0.9
+CONTINUE 2c3i 1801 0.05
+CONTINUE 2c3i 1801 0.1
+CONTINUE 2c3i 1801 0.2
+CONTINUE 2c3i 1801 0.4
+CONTINUE 2c3i 1801 0.6
+CONTINUE 2c3i 1801 0.9
+CONTINUE 3ehy 1801 0.05
+CONTINUE 3ehy 1801 0.1
+CONTINUE 3ehy 1801 0.2
+CONTINUE 3ehy 1801 0.4
+CONTINUE 3ehy 1801 0.6
+CONTINUE 3ehy 1801 0.9

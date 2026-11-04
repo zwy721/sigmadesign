@@ -1,0 +1,97 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 2xnb_1801 3 28.95
+COMPLETE 2xnb_1801 4 76.1
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 31, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 26, in main
+    info=continue_branch(den,rt,graph,groups,spec,c,source,seed,out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/multi_worker.py", line 85, in continue_branch
+    state.step(t,t-tensor_tt[k+1])
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py", line 123, in step
+    self.batch=den._update_batch(self.batch,self.pos0,self.pos)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/validation.py", line 155, in update
+    graph = self.original_update(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 723, in _update_batch
+    interaction_edges = self._compute_interaction_edges(batch, pos_t)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 756, in _compute_interaction_edges
+    local_dynamic_edges = self.get_local_graph(
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 504, in get_local_graph
+    dynamic_interaction_edges = get_local_interactions_batched(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/chem/processing.py", line 406, in get_local_interactions_batched
+    sub = _get_local_interactions(
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/chem/processing.py", line 469, in _get_local_interactions
+    ei1, ea1, ee1 = get_protein_ligand_edges(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/chem/processing.py", line 288, in get_protein_ligand_edges
+    tree = cKDTree(lig_pos.cpu().numpy())
+                   ^^^^^^^^^^^^^
+KeyboardInterrupt
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 2xnb_1801 3 28.95
+COMPLETE 2xnb_1801 4 76.1
+COMPLETE 2xnb_1801 6 73.7
+COMPLETE 2xnb_1801 7 58.59
+COMPLETE 2xnb_1801 8 40.88
+COMPLETE 2xnb_1802 2 6.92
+COMPLETE 2xnb_1802 3 6.94
+COMPLETE 2xnb_1802 4 6.89
+COMPLETE 2xnb_1802 5 6.83
+COMPLETE 2xnb_1802 6 6.92
+COMPLETE 2xnb_1802 7 6.92
+COMPLETE 2xnb_1802 8 6.92
+COMPLETE 2xnb_1803 2 6.91
+COMPLETE 2xnb_1803 3 6.93
+COMPLETE 2xnb_1803 5 6.98
+COMPLETE 2xnb_1803 7 6.93
+COMPLETE 2xnb_1803 8 6.96
+COMPLETE 2zcq_1801 4 7.03
+COMPLETE 2zcq_1801 5 7.02
+COMPLETE 2zcq_1801 7 7.08
+COMPLETE 2zcq_1802 3 7.06
+COMPLETE 2zcq_1802 4 7.0
+COMPLETE 2zcq_1802 5 7.0
+COMPLETE 2zcq_1802 7 6.99
+COMPLETE 2zcq_1802 8 7.03
+COMPLETE 2zcq_1803 3 6.94
+COMPLETE 2zcq_1803 5 6.98
+COMPLETE 2zcq_1803 7 6.99
+COMPLETE 2zcq_1803 8 7.04
+COMPLETE 3zso_1801 2 7.5
+COMPLETE 3zso_1801 5 7.51
+COMPLETE 3zso_1801 6 7.46
+COMPLETE 3zso_1801 7 7.47
+COMPLETE 3zso_1802 3 7.63
+COMPLETE 3zso_1802 4 7.55
+COMPLETE 3zso_1802 7 7.57
+COMPLETE 3zso_1802 8 7.64
+COMPLETE 3zso_1803 2 7.53
+COMPLETE 3zso_1803 3 7.6
+COMPLETE 3zso_1803 4 7.52
+COMPLETE 3zso_1803 5 7.48
+COMPLETE 3zso_1803 6 7.5
+COMPLETE 3zso_1803 7 7.54
+COMPLETE 3zso_1803 8 7.53

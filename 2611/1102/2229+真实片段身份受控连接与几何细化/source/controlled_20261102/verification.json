@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "legacy_steps": 24,
+      "complete_pairs": 36,
+      "branches": 216
+    },
+    {
+      "legacy_steps": 96,
+      "complete_pairs": 12,
+      "branches": 72
+    }
+  ],
+  "refinement_branches": 288,
+  "official_force_evaluations": 6912,
+  "max_handoff_coordinate_difference_A": 1.52587890625e-05,
+  "every_handoff_from_saved_stage1": true,
+  "every_dynamic_graph_recalculation_matches": true,
+  "every_static_graph_unchanged": true
+}

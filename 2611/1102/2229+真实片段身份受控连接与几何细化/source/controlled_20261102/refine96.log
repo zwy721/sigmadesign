@@ -1,0 +1,79 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/controlled_20261102/official/sensitivity96/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+REFINE 2w4x 1801 predicted 0.05 RMSD 4.397 elapsed 4.6
+REFINE 2w4x 1801 predicted 0.1 RMSD 4.511 elapsed 7.6
+REFINE 2w4x 1801 predicted 0.2 RMSD 4.575 elapsed 10.6
+REFINE 2w4x 1801 diagnostic_true_connections 0.05 RMSD 3.901 elapsed 13.8
+REFINE 2w4x 1801 diagnostic_true_connections 0.1 RMSD 3.492 elapsed 17.2
+REFINE 2w4x 1801 diagnostic_true_connections 0.2 RMSD 0.787 elapsed 20.2
+REFINE 4ivd 1801 predicted 0.05 RMSD 5.443 elapsed 5.6
+REFINE 4ivd 1801 predicted 0.1 RMSD 5.488 elapsed 9.8
+REFINE 4ivd 1801 predicted 0.2 RMSD 5.617 elapsed 13.7
+REFINE 4ivd 1801 diagnostic_true_connections 0.05 RMSD 4.185 elapsed 18.0
+REFINE 4ivd 1801 diagnostic_true_connections 0.1 RMSD 3.177 elapsed 22.0
+REFINE 4ivd 1801 diagnostic_true_connections 0.2 RMSD 1.029 elapsed 26.0
+REFINE 2xnb 1801 predicted 0.05 RMSD 4.086 elapsed 5.1
+REFINE 2xnb 1801 predicted 0.1 RMSD 4.186 elapsed 9.0
+REFINE 2xnb 1801 predicted 0.2 RMSD 4.213 elapsed 12.6
+REFINE 2xnb 1801 diagnostic_true_connections 0.05 RMSD 3.693 elapsed 16.8
+REFINE 2xnb 1801 diagnostic_true_connections 0.1 RMSD 3.523 elapsed 20.8
+REFINE 2xnb 1801 diagnostic_true_connections 0.2 RMSD 3.377 elapsed 24.9
+REFINE 1nvq 1801 predicted 0.05 RMSD 5.534 elapsed 3.4
+REFINE 1nvq 1801 predicted 0.1 RMSD 5.606 elapsed 6.3
+REFINE 1nvq 1801 predicted 0.2 RMSD 4.54 elapsed 9.2
+REFINE 1nvq 1801 diagnostic_true_connections 0.05 RMSD 3.422 elapsed 12.3
+REFINE 1nvq 1801 diagnostic_true_connections 0.1 RMSD 1.646 elapsed 15.2
+REFINE 1nvq 1801 diagnostic_true_connections 0.2 RMSD 0.737 elapsed 18.1
+REFINE 2c3i 1801 predicted 0.05 RMSD 6.314 elapsed 6.7
+REFINE 2c3i 1801 predicted 0.1 RMSD 6.278 elapsed 11.1
+REFINE 2c3i 1801 predicted 0.2 RMSD 6.231 elapsed 15.8
+REFINE 2c3i 1801 diagnostic_true_connections 0.05 RMSD 6.054 elapsed 20.1
+REFINE 2c3i 1801 diagnostic_true_connections 0.1 RMSD 6.204 elapsed 24.0
+REFINE 2c3i 1801 diagnostic_true_connections 0.2 RMSD 6.671 elapsed 28.4
+REFINE 3ehy 1801 predicted 0.05 RMSD 4.368 elapsed 4.9
+REFINE 3ehy 1801 predicted 0.1 RMSD 4.316 elapsed 8.5
+REFINE 3ehy 1801 predicted 0.2 RMSD 4.338 elapsed 12.2
+REFINE 3ehy 1801 diagnostic_true_connections 0.05 RMSD 4.296 elapsed 16.1
+REFINE 3ehy 1801 diagnostic_true_connections 0.1 RMSD 4.318 elapsed 19.9
+REFINE 3ehy 1801 diagnostic_true_connections 0.2 RMSD 4.423 elapsed 23.7
+REFINE 2zcq 1801 predicted 0.05 RMSD 5.698 elapsed 6.9
+REFINE 2zcq 1801 predicted 0.1 RMSD 5.723 elapsed 11.7
+REFINE 2zcq 1801 predicted 0.2 RMSD 5.834 elapsed 16.2
+REFINE 2zcq 1801 diagnostic_true_connections 0.05 RMSD 4.276 elapsed 20.9
+REFINE 2zcq 1801 diagnostic_true_connections 0.1 RMSD 2.812 elapsed 25.3
+REFINE 2zcq 1801 diagnostic_true_connections 0.2 RMSD 2.002 elapsed 29.6
+REFINE 5c2h 1801 predicted 0.05 RMSD 7.619 elapsed 6.5
+REFINE 5c2h 1801 predicted 0.1 RMSD 7.609 elapsed 11.1
+REFINE 5c2h 1801 predicted 0.2 RMSD 7.604 elapsed 15.7
+REFINE 5c2h 1801 diagnostic_true_connections 0.05 RMSD 6.793 elapsed 20.5
+REFINE 5c2h 1801 diagnostic_true_connections 0.1 RMSD 6.778 elapsed 25.2
+REFINE 5c2h 1801 diagnostic_true_connections 0.2 RMSD 2.594 elapsed 29.7
+REFINE 1qf1 1801 predicted 0.05 RMSD 3.962 elapsed 8.0
+REFINE 1qf1 1801 predicted 0.1 RMSD 4.005 elapsed 13.2
+REFINE 1qf1 1801 predicted 0.2 RMSD 4.011 elapsed 18.4
+REFINE 1qf1 1801 diagnostic_true_connections 0.05 RMSD 3.444 elapsed 24.3
+REFINE 1qf1 1801 diagnostic_true_connections 0.1 RMSD 3.372 elapsed 29.7
+REFINE 1qf1 1801 diagnostic_true_connections 0.2 RMSD 3.332 elapsed 34.8
+REFINE 4cig 1801 predicted 0.05 RMSD 6.08 elapsed 9.9
+REFINE 4cig 1801 predicted 0.1 RMSD 6.082 elapsed 15.8
+REFINE 4cig 1801 predicted 0.2 RMSD 5.892 elapsed 21.7
+REFINE 4cig 1801 diagnostic_true_connections 0.05 RMSD 5.268 elapsed 28.2
+REFINE 4cig 1801 diagnostic_true_connections 0.1 RMSD 5.314 elapsed 34.2
+REFINE 4cig 1801 diagnostic_true_connections 0.2 RMSD 6.782 elapsed 39.8
+REFINE 3zso 1801 predicted 0.05 RMSD 7.066 elapsed 12.4
+REFINE 3zso 1801 predicted 0.1 RMSD 7.153 elapsed 19.6
+REFINE 3zso 1801 predicted 0.2 RMSD 7.219 elapsed 27.2
+REFINE 3zso 1801 diagnostic_true_connections 0.05 RMSD 6.399 elapsed 34.6
+REFINE 3zso 1801 diagnostic_true_connections 0.1 RMSD 6.86 elapsed 42.2
+REFINE 3zso 1801 diagnostic_true_connections 0.2 RMSD 7.05 elapsed 49.3
+REFINE 3pww 1801 predicted 0.05 RMSD 8.248 elapsed 17.8
+REFINE 3pww 1801 predicted 0.1 RMSD 8.242 elapsed 27.3
+REFINE 3pww 1801 predicted 0.2 RMSD 8.376 elapsed 37.0
+REFINE 3pww 1801 diagnostic_true_connections 0.05 RMSD 7.749 elapsed 47.1
+REFINE 3pww 1801 diagnostic_true_connections 0.1 RMSD 7.401 elapsed 54.7
+REFINE 3pww 1801 diagnostic_true_connections 0.2 RMSD 6.957 elapsed 63.2

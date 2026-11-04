@@ -1,0 +1,86 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+LEGACY_FULL 2zcq 1801 s 12.5
+LEGACY_NOISE 2zcq 1801
+LEGACY_FULL 2zcq 1802 s 11.4
+LEGACY_NOISE 2zcq 1802
+LEGACY_FULL 2zcq 1803 s 11.4
+LEGACY_NOISE 2zcq 1803
+LEGACY_FULL 5c2h 1801 s 12.0
+LEGACY_NOISE 5c2h 1801
+LEGACY_FULL 5c2h 1802 s 12.1
+LEGACY_NOISE 5c2h 1802
+LEGACY_FULL 5c2h 1803 s 12.0
+LEGACY_NOISE 5c2h 1803
+LEGACY_FULL 1qf1 1801 s 11.8
+LEGACY_NOISE 1qf1 1801
+LEGACY_FULL 1qf1 1802 s 12.0
+LEGACY_NOISE 1qf1 1802
+LEGACY_FULL 1qf1 1803 s 12.0
+LEGACY_NOISE 1qf1 1803
+LEGACY_FULL 4cig 1801 s 12.0
+LEGACY_NOISE 4cig 1801
+LEGACY_FULL 4cig 1802 s 11.8
+LEGACY_NOISE 4cig 1802
+LEGACY_FULL 4cig 1803 s 11.8
+LEGACY_NOISE 4cig 1803
+LEGACY_FULL 3zso 1801 s 13.4
+LEGACY_NOISE 3zso 1801
+LEGACY_FULL 3zso 1802 s 13.2
+LEGACY_NOISE 3zso 1802
+LEGACY_FULL 3zso 1803 s 13.2
+LEGACY_NOISE 3zso 1803
+LEGACY_FULL 3pww 1801 s 14.3
+LEGACY_NOISE 3pww 1801
+LEGACY_FULL 3pww 1802 s 14.5
+LEGACY_NOISE 3pww 1802
+LEGACY_FULL 3pww 1803 s 14.4
+LEGACY_NOISE 3pww 1803
+CONTINUE 2zcq 1801 0.05
+CONTINUE 2zcq 1801 0.1
+CONTINUE 2zcq 1801 0.2
+CONTINUE 2zcq 1801 0.4
+CONTINUE 2zcq 1801 0.6
+CONTINUE 2zcq 1801 0.9
+CONTINUE 5c2h 1801 0.05
+CONTINUE 5c2h 1801 0.1
+CONTINUE 5c2h 1801 0.2
+CONTINUE 5c2h 1801 0.4
+CONTINUE 5c2h 1801 0.6
+CONTINUE 5c2h 1801 0.9
+CONTINUE 1qf1 1801 0.05
+CONTINUE 1qf1 1801 0.1
+CONTINUE 1qf1 1801 0.2
+CONTINUE 1qf1 1801 0.4
+CONTINUE 1qf1 1801 0.6
+CONTINUE 1qf1 1801 0.9
+CONTINUE 4cig 1801 0.05
+CONTINUE 4cig 1801 0.1
+CONTINUE 4cig 1801 0.2
+CONTINUE 4cig 1801 0.4
+CONTINUE 4cig 1801 0.6
+CONTINUE 4cig 1801 0.9
+CONTINUE 3zso 1801 0.05
+CONTINUE 3zso 1801 0.1
+CONTINUE 3zso 1801 0.2
+CONTINUE 3zso 1801 0.4
+CONTINUE 3zso 1801 0.6
+CONTINUE 3zso 1801 0.9
+CONTINUE 3pww 1801 0.05
+CONTINUE 3pww 1801 0.1
+CONTINUE 3pww 1801 0.2
+CONTINUE 3pww 1801 0.4
+CONTINUE 3pww 1801 0.6
+CONTINUE 3pww 1801 0.9

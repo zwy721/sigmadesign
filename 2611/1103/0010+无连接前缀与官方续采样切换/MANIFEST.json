@@ -1,0 +1,140 @@
+{
+  "task_key": "switch",
+  "task_title": "无连接前缀与官方续采样切换",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-03T00:10:44.071520+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "SWITCH_RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "SWITCH_RESULTS.md",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/SWITCH_RESULTS.md",
+      "sha256": "c1286ffe25b693330da5b4eb812904100b580b5b288afe55c6cacf901955179a",
+      "bytes": 11627,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.071520+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/SWITCH_RESULTS.md",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/SWITCH_RESULTS.md",
+      "sha256": "30c1546b418919d3752687b9919e7fe6dcba9733d7463998637cbb00f5c18109",
+      "bytes": 11402,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.071620+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/failure_comparison.png",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/failure_comparison.png",
+      "sha256": "6f807ca0b8692de4832f905d9603768b559c298402d80a9bc065a1cbb6aa2a3a",
+      "bytes": 55742,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.754021+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_a.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_a.log",
+      "sha256": "4c353652fe9902adeb43cf971aadee56803c606b0fe23e58cfda7316ce825f6b",
+      "bytes": 3788,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:53:12.615782+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_b.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_b.log",
+      "sha256": "a7435a5e43bc2087c0eb071f163cbb833711bf8055acf985194e7d7e3b7e4775",
+      "bytes": 3794,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:53:58.931227+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_smoke.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_smoke.log",
+      "sha256": "af66382df9c8e81e6817a8829e17d368da7e8c10232ab00942dbc9e6f597c17f",
+      "bytes": 4021,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:41:28.743256+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/official_smoke.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/official_smoke.log",
+      "sha256": "ca25c8ccb006c2a623bda4407d3eaad4c0636b7aac2121a86900b8f72e95687d",
+      "bytes": 2094,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:45:38.277843+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/plan.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/plan.json",
+      "sha256": "2fc263a5ef625ac58f3133484e7fd55abc79b72b9f6a83fd7c1c4dd39c3e16f9",
+      "bytes": 13391,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:39:35.557755+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/provenance_replay.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/provenance_replay.log",
+      "sha256": "22196b3a754d2005a3534d9f8e63ae751e1cc208886fc275c12f9a2fdd4ca5bd",
+      "bytes": 863,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:58:20.054312+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/summary.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/summary.json",
+      "sha256": "9151f74617dec7bca84b71d82c68d16e510693dea87bf3f69a8e6a9d182dac84",
+      "bytes": 43276,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.060992+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_a.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_a.log",
+      "sha256": "3cf3520fbbf1b3ef48e727fbaeaee1457f3126cc00a4fd944cdad70868db6405",
+      "bytes": 2690,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:57:05.400201+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_b.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_b.log",
+      "sha256": "8ceb9748b2700a5e6ba413b9ab7f06ab2e1f9b6924483301ab756b80c531bea1",
+      "bytes": 2739,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:58:48.643727+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_c.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_c.log",
+      "sha256": "e2743c93f231fd023c2a6c680ad99b6f5b98351ca6ebe927c5789b264140d8da",
+      "bytes": 2284,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:03:28.511412+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_comparison.png",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_comparison.png",
+      "sha256": "f0f96126fa78e575bd1b22afa58a7cdbc0486e36669358aa48de8154a13f599b",
+      "bytes": 179554,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.619019+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_d.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_d.log",
+      "sha256": "596ef8ab1590106376a3af99b4b3d15d5d00115a18ec8fb18e2cd1080ba7d464",
+      "bytes": 2297,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:06:00.775512+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_e.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_e.log",
+      "sha256": "f2ab5694f86c9fc062aef3df4cba7b727e413b38266c7b1ad420e0d2d32e63cc",
+      "bytes": 1100,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:03:39.038999+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_f.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_f.log",
+      "sha256": "06b1af79361e954b765a0649f373902367be3141348c24e121d01a3fd6ee9756",
+      "bytes": 1099,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:04:51.990956+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/verification.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/verification.json",
+      "sha256": "7c91b2583635010bb68990de0065e268a3b2286d9fa38d7b7b5d8643b511cd65",
+      "bytes": 1018,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:07:51.143439+08:00"
+    }
+  ]
+}

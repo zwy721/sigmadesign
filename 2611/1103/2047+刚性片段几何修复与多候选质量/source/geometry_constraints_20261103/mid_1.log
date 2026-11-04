@@ -1,0 +1,40 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/mid1/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+MID 4ivd_1801 81.65
+MID 4ivd_1802 56.86
+MID 4ivd_1803 80.23
+MID 2c3i_1801 81.51
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/mid_continue.py", line 39, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/mid_continue.py", line 31, in main
+    state.step(t,t-tensor_tt[k+1]);f,x=tracked_frame(state,rt,groups,Q_start,R_start,tt[k+1]);positions.append(x);frames.append(f)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py", line 124, in step
+    forces,index=den._compute_forces(copy.deepcopy(self.batch),torch.as_tensor([t],device=self.pos.device))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/validation.py", line 186, in forces
+    out = self.original_forces(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/mid1/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+MID 2c3i_1802 57.57
+MID 2c3i_1803 73.54
+MID 5c2h_1801 11.04
+MID 5c2h_1802 7.28
+MID 5c2h_1803 7.27
+MID 3zso_1801 7.72
+MID 3zso_1802 7.84
+MID 3zso_1803 7.84

@@ -1,0 +1,25 @@
+Water/reference audit complete: 9RT3 12 waters
+Water/reference audit complete: 9T4A 15 waters
+Water/reference audit complete: 7ILZ 4 waters
+Water/reference audit complete: 9T51 6 waters
+Water/reference audit complete: 9SYL 21 waters
+Water/reference audit complete: 12AV 21 waters
+{
+  "standard_HQ": 7,
+  "water_only_blocks_HQ": 96,
+  "other_only": 4,
+  "water_and_other": 37
+}
+Four diagnostic reports, README and standalone PNG/PDF written.
+{
+  "passed": true,
+  "checks": [
+    "Original model weights, QC thresholds, candidate inputs, historical metrics and raw mmCIF unchanged",
+    "All 144 candidate-by-water inventories complete (1,896 generated-water rows); exact frozen 0.75 distance flags reconciled",
+    "Standard HQ=7, PB without water=106 and auxiliary HQ=103 kept distinct; four mutually exclusive attribution groups exhaust 144",
+    "Six crystal controls evaluated under identical frozen PB config; all 22 tests pass; same-receptor official redocking unavailable",
+    "Existing late branches and 54 events reviewed without resampling; single-shot test and continuous constraints correctly marked absent",
+    "Cohort funnel reconciled; query truncation, 15-case cap, date-description mismatch and all eight input losses retained"
+  ],
+  "new_neural_NFE": 0
+}

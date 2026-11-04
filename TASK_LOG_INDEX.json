@@ -1,0 +1,1409 @@
+{
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "timezone": "Asia/Shanghai",
+  "directory_format": "YYMM/MMDD/HHmm+task",
+  "tasks": [
+    {
+      "key": "casf_paired",
+      "title": "CASF三阶段逐分子配对评估",
+      "repository_directory": "2610/1029/0432+CASF三阶段逐分子配对评估",
+      "completion_or_final_update_Asia_Shanghai": "2026-10-29T04:32:23.041343+08:00",
+      "inferred_time": false,
+      "files": 27,
+      "logs": 24,
+      "bytes": 198089
+    },
+    {
+      "key": "controlled",
+      "title": "真实片段身份受控连接与几何细化",
+      "repository_directory": "2611/1102/2229+真实片段身份受控连接与几何细化",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-02T22:29:22.431451+08:00",
+      "inferred_time": true,
+      "files": 12,
+      "logs": 9,
+      "bytes": 153954
+    },
+    {
+      "key": "strict",
+      "title": "严格同输入官方对照与几何细化",
+      "repository_directory": "2611/1102/2311+严格同输入官方对照与几何细化",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-02T23:11:15.836559+08:00",
+      "inferred_time": true,
+      "files": 16,
+      "logs": 12,
+      "bytes": 73545
+    },
+    {
+      "key": "switch",
+      "title": "无连接前缀与官方续采样切换",
+      "repository_directory": "2611/1103/0010+无连接前缀与官方续采样切换",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-03T00:10:44.071520+08:00",
+      "inferred_time": true,
+      "files": 18,
+      "logs": 11,
+      "bytes": 342779
+    },
+    {
+      "key": "multicandidate",
+      "title": "多连接候选与短程筛选",
+      "repository_directory": "2611/1103/1428+多连接候选与短程筛选",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-03T14:28:32.537644+08:00",
+      "inferred_time": true,
+      "files": 13,
+      "logs": 6,
+      "bytes": 246594
+    },
+    {
+      "key": "denovo_quality",
+      "title": "自主生成质量评价与指标审计",
+      "repository_directory": "2611/1103/2030+自主生成质量评价与指标审计",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-03T20:30:54.149083+08:00",
+      "inferred_time": true,
+      "files": 11,
+      "logs": 3,
+      "bytes": 498614
+    },
+    {
+      "key": "geometry",
+      "title": "刚性片段几何修复与多候选质量",
+      "repository_directory": "2611/1103/2047+刚性片段几何修复与多候选质量",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-03T20:47:18.774504+08:00",
+      "inferred_time": true,
+      "files": 37,
+      "logs": 19,
+      "bytes": 1851536
+    },
+    {
+      "key": "late_guidance",
+      "title": "晚期三次几何投影与末端修复比较",
+      "repository_directory": "2611/1103/2327+晚期三次几何投影与末端修复比较",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-03T23:27:07.949399+08:00",
+      "inferred_time": true,
+      "files": 10,
+      "logs": 5,
+      "bytes": 75560
+    },
+    {
+      "key": "tasks123",
+      "title": "统一管线低成本筛选与独立泛化",
+      "repository_directory": "2611/1104/0950+统一管线低成本筛选与独立泛化",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-04T09:50:51.176241+08:00",
+      "inferred_time": false,
+      "files": 26,
+      "logs": 17,
+      "bytes": 377209
+    },
+    {
+      "key": "training_rmsd",
+      "title": "训练RMSD曲线与检查点审计",
+      "repository_directory": "2611/1104/1013+训练RMSD曲线与检查点审计",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00",
+      "inferred_time": true,
+      "files": 4,
+      "logs": 1,
+      "bytes": 153199
+    },
+    {
+      "key": "independent_diagnostics",
+      "title": "逐分子逐水失败归因与晚期约束复核",
+      "repository_directory": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-04T10:51:38.272936+08:00",
+      "inferred_time": false,
+      "files": 10,
+      "logs": 2,
+      "bytes": 193596
+    }
+  ],
+  "files": [
+    {
+      "source": "README.md",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/README.md",
+      "sha256": "d8d07eafa3d760a06253912880acd150bb10541f49dc6660406f724480916af0",
+      "bytes": 2989,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:57:51.171204+08:00"
+    },
+    {
+      "source": "cpu0.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu0.log",
+      "sha256": "05e9289f5c282e087f0fa8dd536026965201dd9fc2a023cf6b21202e0a2a77e9",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:49:27.812676+08:00"
+    },
+    {
+      "source": "cpu1.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu1.log",
+      "sha256": "e8d97b83c60a9fbda3c0987fb1098f9b90aa71526e78bb8e4ee4b5a8a444a623",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:10:11.505577+08:00"
+    },
+    {
+      "source": "cpu10.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu10.log",
+      "sha256": "5b4666e3ada80d25475accdbf6e6031aa7afa94dd76d920d871809dd884122dd",
+      "bytes": 8629,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:02:52.868652+08:00"
+    },
+    {
+      "source": "cpu11.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu11.log",
+      "sha256": "9fab3b54ea75b021aadeac486b73e1f596b1fd571ad7d2ea622f624912d5b300",
+      "bytes": 8629,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:06:14.401713+08:00"
+    },
+    {
+      "source": "cpu2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu2.log",
+      "sha256": "9d79e6fc165560ac67b34a5770a2d054cc39b394ce3efb246fd14600323b7a0b",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:08:20.012011+08:00"
+    },
+    {
+      "source": "cpu3.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu3.log",
+      "sha256": "1271f5283b769130f1f6c2d0af35cd7a252b2e319daa42ee1fd35e24442dd783",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T00:09:08.462938+08:00"
+    },
+    {
+      "source": "cpu4.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu4.log",
+      "sha256": "ec9eabf070a8ef1abe43f7bcde89da24ab8a322fc8a46c6ffdc60205e4fc9f90",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:13.625102+08:00"
+    },
+    {
+      "source": "cpu5.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu5.log",
+      "sha256": "38332e8c09b9b7f7e1605780b94deedaebab1eb39ea5b1dbb1a0d45240764074",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T01:24:13.260056+08:00"
+    },
+    {
+      "source": "cpu6.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu6.log",
+      "sha256": "33300a3bbbdcd7bc8824573e6adfa8693694745a65e7dee5b6ce829090018343",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T02:43:34.117214+08:00"
+    },
+    {
+      "source": "cpu7.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu7.log",
+      "sha256": "d85aef00707d0cba649f27d548f0725c2d7718db3cae081a3a21101abc943b4e",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T00:06:27.465599+08:00"
+    },
+    {
+      "source": "cpu8.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu8.log",
+      "sha256": "fbc22f2b06394f2c21284f720ff21e298397207ccefc23816a62d172e9726eb2",
+      "bytes": 8857,
+      "source_modified_Asia_Shanghai": "2026-10-29T03:56:14.843707+08:00"
+    },
+    {
+      "source": "cpu9.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/cpu9.log",
+      "sha256": "9d62ae4581e899807128126756bd91ead1c89403b06bca1f36a5cfdd4188b9cf",
+      "bytes": 8490,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:35:37.546416+08:00"
+    },
+    {
+      "source": "final_summary.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/final_summary.log",
+      "sha256": "751ffafddad7656e5862d9ee533348ed9440a32d956a6b3ccc6183d23f5bfa94",
+      "bytes": 25920,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:23.019525+08:00"
+    },
+    {
+      "source": "gpu0.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu0.log",
+      "sha256": "fead8c5e2fa7e5306af19bec7fa270cee300604ada9e01e7f0392fd5b320ec32",
+      "bytes": 6978,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:30:25.175724+08:00"
+    },
+    {
+      "source": "gpu1.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu1.log",
+      "sha256": "49160e70eef95487543c5cd54d8eaee7d4ad94f80146100fb76b8d0d75055e2a",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:22:16.623087+08:00"
+    },
+    {
+      "source": "gpu2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu2.log",
+      "sha256": "fc5c1476fbdea404bf03102e9e743baef93b0ca54822a64f0c43657223cdc58d",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:24:00.793735+08:00"
+    },
+    {
+      "source": "gpu3.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/gpu3.log",
+      "sha256": "b210f126bfea839ecd5b37d45943171916d78b00043fdf68dd61378ea7997df6",
+      "bytes": 6912,
+      "source_modified_Asia_Shanghai": "2026-10-28T23:23:46.035632+08:00"
+    },
+    {
+      "source": "pilot.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot.log",
+      "sha256": "d2621202af0bdf7ce03a5072de451dde365e068daa791877278ac48d143a46f8",
+      "bytes": 2265,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:53:48.474197+08:00"
+    },
+    {
+      "source": "pilot2.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot2.log",
+      "sha256": "afc5601c98c0e79a2aaa0289a5fd7a7f05ee8f48a93bfa6f0c56e2fa6d5fcdcc",
+      "bytes": 2267,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:56:57.846150+08:00"
+    },
+    {
+      "source": "pilot2_score.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot2_score.log",
+      "sha256": "6824e4ac374b7fa635bb5e9679c98a250ce300f51ed5b3c565754cd8ee5f401d",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:57:02.579421+08:00"
+    },
+    {
+      "source": "pilot_score.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/pilot_score.log",
+      "sha256": "74e8f8226d1a89a403fa7d71649b91e45be7c05c65fbd9c8fb8fb89a0165f737",
+      "bytes": 96,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:56:24.673892+08:00"
+    },
+    {
+      "source": "prepare.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/prepare.log",
+      "sha256": "be78bc48b80d024941fecbda26a1c7b987a466f271f3575f76a5e06158b2e197",
+      "bytes": 2529,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:52:49.307563+08:00"
+    },
+    {
+      "source": "receptor_fallback.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/receptor_fallback.log",
+      "sha256": "7ae08c03d8f157905f22897f0f9feabbb43b36ad7be4da4abc9e9ec846597c07",
+      "bytes": 1044,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:55:53.532751+08:00"
+    },
+    {
+      "source": "status.json",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/status.json",
+      "sha256": "a6440308a995e4a270d0b731f4918b4c47d2919a0a550c26437c0ff86b1bef61",
+      "bytes": 1786,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:23.048658+08:00"
+    },
+    {
+      "source": "summary.json",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/summary.json",
+      "sha256": "751ffafddad7656e5862d9ee533348ed9440a32d956a6b3ccc6183d23f5bfa94",
+      "bytes": 25920,
+      "source_modified_Asia_Shanghai": "2026-10-29T04:32:22.874513+08:00"
+    },
+    {
+      "source": "supervisor.log",
+      "repository_path": "2610/1029/0432+CASF三阶段逐分子配对评估/source/supervisor.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-10-28T20:58:25.875292+08:00"
+    },
+    {
+      "source": "controlled_20261102/RESULTS.md",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/RESULTS.md",
+      "sha256": "0cd8b572588a3d6f2a222a3dbc78f805aee160931a03f4ac3dadde3fed5dacf7",
+      "bytes": 6712,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:29:22.431451+08:00"
+    },
+    {
+      "source": "controlled_20261102/controls.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/controls.log",
+      "sha256": "a64a85c1d9901b0b01f0b0161f5ce126bb2cd99206ccba7ee1debe98d0aecd18",
+      "bytes": 1138,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:20:17.510258+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy.log",
+      "sha256": "e9928af11196235f649b4baf27682cefc14a11f9ab41e7a5cbfb5d0b5c9106e7",
+      "bytes": 3100,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:18:26.559970+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy96.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy96.log",
+      "sha256": "d6a9653b698db14062175c7eea5a41404bc27cc3c9a3731020e7c0c150a9c2d9",
+      "bytes": 2540,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:19:20.045491+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy_smoke.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy_smoke.log",
+      "sha256": "73e7814d9393f4481322556e3882aba48a09481c977f377cad40b8b0d59fbff1",
+      "bytes": 2466,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:14:45.609786+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine96.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine96.log",
+      "sha256": "05ce66ad7c45a6db628c0a8fabcd00510908ea428407215fe64ad1595a6df9fa",
+      "bytes": 5260,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:26:57.963160+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_a.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_a.log",
+      "sha256": "8f2f9f5fa2376464e243ccaf29d8d84f3c8f5b4116baa59e21c7fb96e1600ef8",
+      "bytes": 4855,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:22:24.538133+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_b.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_b.log",
+      "sha256": "326d655d0ee4806caa00a00b4fda381da384b27caa13f035537dbb26ea9666ab",
+      "bytes": 5247,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:23:37.224682+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_c.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_c.log",
+      "sha256": "3f98f6dcd349490a8d83c38c38b9046696a1e84a1d6cd5c285bc3c31c67da7a3",
+      "bytes": 5268,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:28:08.225650+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_smoke.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_smoke.log",
+      "sha256": "c30d32bb0a38e96243f50d10cd47a258252bfb716629c9c9b73738effe73222e",
+      "bytes": 1018,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:17:28.783043+08:00"
+    },
+    {
+      "source": "controlled_20261102/summary.json",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/summary.json",
+      "sha256": "de49c6fc8e152e8a29e33c2dde76edb0275852c883ed6326d6fcc79835231e7b",
+      "bytes": 115870,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:29:22.427209+08:00"
+    },
+    {
+      "source": "controlled_20261102/verification.json",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/verification.json",
+      "sha256": "16b440c7c5e54c9c6df5ffdc8c9764f0944629442d3851753a6609a3f95b87f7",
+      "bytes": 480,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:28:18.493143+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/RESULTS.md",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/RESULTS.md",
+      "sha256": "bca61179ab2b9010fecb076e17b83cb3e2a9a593c47acdd32a8e838cc9bb24b8",
+      "bytes": 10214,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:11:15.836559+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/evaluate_legacy.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/evaluate_legacy.log",
+      "sha256": "078bd9f21017127f5b113530607b12e0a549d7508f9400e9bf337db95bc3cf13",
+      "bytes": 1188,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:06:25.537040+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/input_verification.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/input_verification.json",
+      "sha256": "1e6950f9c61283c21d8dc31a67787e945cd54bc8946a8ab42ea8c603382c4f50",
+      "bytes": 8150,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:42.473800+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/legacy_a.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/legacy_a.log",
+      "sha256": "ca20bd9e5b70b3329681348c375935c3928678861f4091cbc4a46126893efb15",
+      "bytes": 3963,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:04:04.061665+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/legacy_b.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/legacy_b.log",
+      "sha256": "16cf2fa90aafc146af25b8357eb8f09cc271df765424b52e7dc1d4e756bdae34",
+      "bytes": 4015,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:03:28.915931+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/native_input_control.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/native_input_control.log",
+      "sha256": "5b7b942857b70a4898604e1b262bc26abe4e724b4adb3fde2c97aab2dbd0136b",
+      "bytes": 2776,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:59:33.005430+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/official_full.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/official_full.log",
+      "sha256": "f5e43a9efafff532a072c4c377e1b6bfe391b82e6a4938eba22386e870c67300",
+      "bytes": 2561,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:04:35.385767+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/prepare.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/prepare.log",
+      "sha256": "649db719e4b4de49ffbd657b95affd73bf81bffb3349ff9ea594397e046c0b86",
+      "bytes": 1023,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:46:06.079394+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_a.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_a.log",
+      "sha256": "0c70800952c98005bb35cc18e20aa03671552fef8ef3da425b30438cae9bf40b",
+      "bytes": 3574,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:01:18.387758+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_b.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_b.log",
+      "sha256": "bf19c19daca8d970624d8de12b94756cdcaa7ddf1bd2d49829d732023168c61f",
+      "bytes": 3102,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:49.232785+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_tail.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_tail.log",
+      "sha256": "e39227b84824de31cfe7ae500d4bb3a381cb719f37a36ecfc0fc5a27397d24ec",
+      "bytes": 1143,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:05:41.353820+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/smoke_legacy.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/smoke_legacy.log",
+      "sha256": "6b83bcdd43e613aad86a4d7b034664dd8585ad7349ee6d7ea44288d82d0bc180",
+      "bytes": 2297,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:51:18.179968+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/smoke_official.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/smoke_official.log",
+      "sha256": "35c52528373128416d6a5918b01196799fd16956fff88de1ad69dbe869cd02b4",
+      "bytes": 1613,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:48:47.218590+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/summary.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/summary.json",
+      "sha256": "58389faa794f6d0616ac2ae120d9afa1048afd35b27aea2ece2d81acc37c7c07",
+      "bytes": 25606,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:11:15.830257+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/verification.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/verification.json",
+      "sha256": "b61cf630577fb0d073afc84c6f93bcdeee4466c56098523176ff493addfea218",
+      "bytes": 720,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:08:59.379606+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/verify_inputs.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/verify_inputs.log",
+      "sha256": "7d09388b96282e94576f7ec2c86b41f62b7098c93ca0263286ce7bff7d03dd61",
+      "bytes": 1600,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:42.473800+08:00"
+    },
+    {
+      "source": "SWITCH_RESULTS.md",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/SWITCH_RESULTS.md",
+      "sha256": "c1286ffe25b693330da5b4eb812904100b580b5b288afe55c6cacf901955179a",
+      "bytes": 11627,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.071520+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/SWITCH_RESULTS.md",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/SWITCH_RESULTS.md",
+      "sha256": "30c1546b418919d3752687b9919e7fe6dcba9733d7463998637cbb00f5c18109",
+      "bytes": 11402,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.071620+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/failure_comparison.png",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/failure_comparison.png",
+      "sha256": "6f807ca0b8692de4832f905d9603768b559c298402d80a9bc065a1cbb6aa2a3a",
+      "bytes": 55742,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.754021+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_a.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_a.log",
+      "sha256": "4c353652fe9902adeb43cf971aadee56803c606b0fe23e58cfda7316ce825f6b",
+      "bytes": 3788,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:53:12.615782+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_b.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_b.log",
+      "sha256": "a7435a5e43bc2087c0eb071f163cbb833711bf8055acf985194e7d7e3b7e4775",
+      "bytes": 3794,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:53:58.931227+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/legacy_smoke.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/legacy_smoke.log",
+      "sha256": "af66382df9c8e81e6817a8829e17d368da7e8c10232ab00942dbc9e6f597c17f",
+      "bytes": 4021,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:41:28.743256+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/official_smoke.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/official_smoke.log",
+      "sha256": "ca25c8ccb006c2a623bda4407d3eaad4c0636b7aac2121a86900b8f72e95687d",
+      "bytes": 2094,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:45:38.277843+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/plan.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/plan.json",
+      "sha256": "2fc263a5ef625ac58f3133484e7fd55abc79b72b9f6a83fd7c1c4dd39c3e16f9",
+      "bytes": 13391,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:39:35.557755+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/provenance_replay.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/provenance_replay.log",
+      "sha256": "22196b3a754d2005a3534d9f8e63ae751e1cc208886fc275c12f9a2fdd4ca5bd",
+      "bytes": 863,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:58:20.054312+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/summary.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/summary.json",
+      "sha256": "9151f74617dec7bca84b71d82c68d16e510693dea87bf3f69a8e6a9d182dac84",
+      "bytes": 43276,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.060992+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_a.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_a.log",
+      "sha256": "3cf3520fbbf1b3ef48e727fbaeaee1457f3126cc00a4fd944cdad70868db6405",
+      "bytes": 2690,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:57:05.400201+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_b.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_b.log",
+      "sha256": "8ceb9748b2700a5e6ba413b9ab7f06ab2e1f9b6924483301ab756b80c531bea1",
+      "bytes": 2739,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:58:48.643727+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_c.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_c.log",
+      "sha256": "e2743c93f231fd023c2a6c680ad99b6f5b98351ca6ebe927c5789b264140d8da",
+      "bytes": 2284,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:03:28.511412+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_comparison.png",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_comparison.png",
+      "sha256": "f0f96126fa78e575bd1b22afa58a7cdbc0486e36669358aa48de8154a13f599b",
+      "bytes": 179554,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:10:44.619019+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_d.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_d.log",
+      "sha256": "596ef8ab1590106376a3af99b4b3d15d5d00115a18ec8fb18e2cd1080ba7d464",
+      "bytes": 2297,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:06:00.775512+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_e.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_e.log",
+      "sha256": "f2ab5694f86c9fc062aef3df4cba7b727e413b38266c7b1ad420e0d2d32e63cc",
+      "bytes": 1100,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:03:39.038999+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/switch_f.log",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/switch_f.log",
+      "sha256": "06b1af79361e954b765a0649f373902367be3141348c24e121d01a3fd6ee9756",
+      "bytes": 1099,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:04:51.990956+08:00"
+    },
+    {
+      "source": "switch_controls_20261102/verification.json",
+      "repository_path": "2611/1103/0010+无连接前缀与官方续采样切换/source/switch_controls_20261102/verification.json",
+      "sha256": "7c91b2583635010bb68990de0065e268a3b2286d9fa38d7b7b5d8643b511cd65",
+      "bytes": 1018,
+      "source_modified_Asia_Shanghai": "2026-11-03T00:07:51.143439+08:00"
+    },
+    {
+      "source": "MULTICANDIDATE_RESULTS.md",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/MULTICANDIDATE_RESULTS.md",
+      "sha256": "79cae96f078142a80b6d921638c091d519d8a4f15d458390e1424969ee63f7d3",
+      "bytes": 11044,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.537644+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/MULTICANDIDATE_RESULTS.md",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/MULTICANDIDATE_RESULTS.md",
+      "sha256": "11ecb77a13c7d838b8500aa01b77d80bb7410805b3fb5cb58b309ac9ea2802be",
+      "bytes": 10758,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.537770+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/comparison.png",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/comparison.png",
+      "sha256": "f23e4ac62a70f0c3f3a46bf8276a23e8696642ddb8ed2bb45736ebee65279a08",
+      "bytes": 110703,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:33.138328+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/plan.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/plan.json",
+      "sha256": "9d5d03eb4da28ac167302072fc31217d6f97c13ef1640c158214ac5210bc8a71",
+      "bytes": 8958,
+      "source_modified_Asia_Shanghai": "2026-11-03T13:59:35.390023+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/rank_changes.png",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/rank_changes.png",
+      "sha256": "37186a86294b6bbc43cc4a8dc27c79b8d747b459847414b2893f94568e1546ea",
+      "bytes": 74574,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:33.252333+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/smoke.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/smoke.log",
+      "sha256": "9df26b2926ff96e21732eef09718b3f0ed713543cc880ed9c4147e7f74d61a46",
+      "bytes": 1517,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:00:08.734738+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/stereo_audit.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/stereo_audit.log",
+      "sha256": "bc3a80e239fbfb52fe1e55cae1689c525892220581a2f09b0552cd25e6dc644e",
+      "bytes": 239,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:16:03.632239+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/summary.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/summary.json",
+      "sha256": "a5f97945639cf5bfa35712136f06b21ad1b0159730936008cef9f7c72e331aec",
+      "bytes": 12616,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.531665+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/verification.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/verification.json",
+      "sha256": "1a346b43615105c202244586ff758454252099d9ebc73f287f900f0c883e3da9",
+      "bytes": 813,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:21:25.253527+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_a.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_a.log",
+      "sha256": "a7fd1a96f1a2c8441aac140b03cdedd512da9239cfabfc0adc75d90196b3f011",
+      "bytes": 3856,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:08:52.098325+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_b.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_b.log",
+      "sha256": "a42465a82f1373b7fae9ee982a21c82d3d932aada41f6cb356e9663080da1471",
+      "bytes": 3822,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:09:07.390943+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_c.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_c.log",
+      "sha256": "24203607b1398d8e6de75814d8b830787f6c28a60f2eb9ffae4f8d0e48195b08",
+      "bytes": 3839,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:10:27.336574+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_d.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_d.log",
+      "sha256": "a28d80f73adcc18172b67283ccb9bc10000c8edfc9ac7c81dcf3cf1df085fc2e",
+      "bytes": 3855,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:11:51.957778+08:00"
+    },
+    {
+      "source": "DE_NOVO_QUALITY_RESULTS.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/DE_NOVO_QUALITY_RESULTS.md",
+      "sha256": "e7dfe5eccdf23f8203dd9179376da00647333eb76146933ee2393f932b0b39b9",
+      "bytes": 19438,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.149083+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/README.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/README.md",
+      "sha256": "24ea88c8b1da96c5d358c4c8da4bf1067d6a121b5c74007725b2fac13d9f38b5",
+      "bytes": 1776,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:11:48.223134+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/cache_resume.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/cache_resume.log",
+      "sha256": "9e5518614eeea9aa6ea409aee15593dac7296732de120bd49798848e253b9ab5",
+      "bytes": 16304,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:05.000670+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/evaluation.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/evaluation.log",
+      "sha256": "a7b8bfcbd848d3d7e701938e79050c1395628c4d3043aa4a1c99c33e988ab3e9",
+      "bytes": 16388,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:10:09.671645+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/DE_NOVO_QUALITY_RESULTS.md",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/DE_NOVO_QUALITY_RESULTS.md",
+      "sha256": "036f0b56447ac5fac52a30b42c7a99521f98bb9ace25a1265956511ea1fa7ace",
+      "bytes": 18877,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.381412+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/cache_resume_verification.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/cache_resume_verification.json",
+      "sha256": "0ee26761b6e1495665c15ab0221ba4dc45593f20a1021619bfa3416228805cdd",
+      "bytes": 157,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:17:59.990179+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/failure_distribution.png",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/failure_distribution.png",
+      "sha256": "62513a5ef472fc466bafba01d9933f72c9a5f1b54ca656b1fda4a53a40cd63cb",
+      "bytes": 237466,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.378792+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/quality_comparison.png",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/quality_comparison.png",
+      "sha256": "039018c8147c03a8f3d9d330d9a831aa63dec89fa2c6e305313975c06a24b174",
+      "bytes": 110524,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:44.820784+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/summary.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/summary.json",
+      "sha256": "98f57c8c1467cf31a92887e19c8a1a21dfd7fddb15f9b25673281766b1fb9dd2",
+      "bytes": 75220,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:43.767095+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/results/verification.json",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/results/verification.json",
+      "sha256": "302b563dc0a6a81b93ea9bae7827c9f954120c9165c08d83c6ad160dbcc00bbc",
+      "bytes": 1064,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:06.481547+08:00"
+    },
+    {
+      "source": "de_novo_quality_20261103/verification.log",
+      "repository_path": "2611/1103/2030+自主生成质量评价与指标审计/source/de_novo_quality_20261103/verification.log",
+      "sha256": "a47b528fbb9c71597706c58f68bf6b73519ba4c01148f0d1b8aa4f6275607e81",
+      "bytes": 1400,
+      "source_modified_Asia_Shanghai": "2026-11-03T15:16:06.482534+08:00"
+    },
+    {
+      "source": "GEOMETRY_ERROR_ANALYSIS.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/GEOMETRY_ERROR_ANALYSIS.md",
+      "sha256": "525076e6436e6116fe554cb2160f4d44603b104deb6be75436c4990500eeece6",
+      "bytes": 3173,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.078049+08:00"
+    },
+    {
+      "source": "GEOMETRY_REPAIR_RESULTS.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/GEOMETRY_REPAIR_RESULTS.md",
+      "sha256": "447a41b1bdb81e0f7cb12f7e74049241fce090c97279b4ca830293f42561bf33",
+      "bytes": 4927,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.899339+08:00"
+    },
+    {
+      "source": "METRIC_AUDIT.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/METRIC_AUDIT.md",
+      "sha256": "64459b70f5839a8ba5a2a20390fc7a6e1a650cf0f57d2450c336d34c67b0d0be",
+      "bytes": 3363,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.062238+08:00"
+    },
+    {
+      "source": "MULTICANDIDATE_DENOVO_QUALITY.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/MULTICANDIDATE_DENOVO_QUALITY.md",
+      "sha256": "cd8c5cad840dd77791ba617a58d9c9e6277ac011e2f19fecf1560b8e92dd3494",
+      "bytes": 7859,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.899456+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/README.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/README.md",
+      "sha256": "83482e1d222a88bf044a1510be4f85672f1eb98104ef4b0e99d16410837ca131",
+      "bytes": 2999,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:38:15.836796+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/all_tests.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/all_tests.log",
+      "sha256": "77add11e41bf551ab35ee5297ff38f21976bad826ac5d1996fa32d44410c47ef",
+      "bytes": 99,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:15.538154+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/audit.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/audit.log",
+      "sha256": "6150e87bd7d4102e4e750df5ffcf1be2395d8f3f540ccd88853f56087c74557c",
+      "bytes": 1988,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.641571+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/audit_refresh.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/audit_refresh.log",
+      "sha256": "f18ab0f1823c6bd6a83fd970bbb24089a0bc718a23c5a22e050f5827b512d498",
+      "bytes": 16304,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.381412+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/derive.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/derive.log",
+      "sha256": "762237718a5c5e95c8e0c47e1053393c02641b7f8daa654d8c6aceab16071f2d",
+      "bytes": 1238,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:31.974438+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/final_quality.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/final_quality.log",
+      "sha256": "54b3aaf88d83021b948dc32a1bf4c987b10d7a6d148a60f79a943598297f9984",
+      "bytes": 74352,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:43:26.540952+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/final_report.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/final_report.log",
+      "sha256": "f7b295c8639f89b75afae494e9674ab6748cc2d485637e32b46eee456b0ff471",
+      "bytes": 129523,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:43:48.746532+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/geometry_stage_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/geometry_stage_summary.json",
+      "sha256": "7bfb9373e53b9dbb28992eb94f08522db7677f1dbcfcb96345d6687439ac831b",
+      "bytes": 1468,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.638112+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/metric_audit_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/metric_audit_summary.json",
+      "sha256": "9111d47e5afcae24c09226ee4af427d433d5f103a56337d2cfb5d40e9411ffb2",
+      "bytes": 520,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.638290+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_0.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_0.log",
+      "sha256": "6f2b8cdd32129b53707e9a5ff68bc575fe201ba8778afb14bf631adc2448f879",
+      "bytes": 3871,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:16.918129+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_1.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_1.log",
+      "sha256": "ddc29728cc6c2c050e6a3ebcef466433c963d709642e5176946fba1fcab9dad0",
+      "bytes": 2631,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:45.803153+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_2.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_2.log",
+      "sha256": "b57c9ae50cf378d13a17c56e8b914cd84e8653c0d305f5c878c3be98cdf1b42c",
+      "bytes": 3912,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:30.524038+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_0.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_0.json",
+      "sha256": "1f401fa85c0f6060a940fa510a516b11851f769c3451a8118eee61cafbfb7413",
+      "bytes": 442641,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:16.925283+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_1.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_1.json",
+      "sha256": "3ba55135e763791070bf9aaa15a265272ba7c5f2bcc9778b65b8632cf4ed54ae",
+      "bytes": 442638,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:45.810464+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_2.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_2.json",
+      "sha256": "2072d024ec8355856953b6227537a5e202506d727c55f9ecf89f8037f85dbcff",
+      "bytes": 442521,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:30.531280+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_0.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_0.log",
+      "sha256": "0f839a125857a014225818a2ea54ac0091a1519dfc6369a72b3f60eaca8abab9",
+      "bytes": 7194,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:14.969060+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_1.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_1.log",
+      "sha256": "ee27e40cbb8790af263139bd1006134863c8bbb161519b47645595fe7df825e1",
+      "bytes": 4381,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:02.121147+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_2.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_2.log",
+      "sha256": "e06db62f5e0342c854789f106b2a269852afca1bc7be59ba2545bafd186114dc",
+      "bytes": 5442,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:57.441083+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_3.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_3.log",
+      "sha256": "29f75dddd167de759edfd842942536b5beae16fcce8b38bcdb3267cf4b2f9d3d",
+      "bytes": 3879,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:20.117213+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion.log",
+      "sha256": "a4c797bdcc1d514b2afc6f68bb7fa88a956ddde57a737950ce2409ae224191e3",
+      "bytes": 5197,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:18:38.547881+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_0.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_0.json",
+      "sha256": "86f489b6891793fb2d07e587e8db014ec94ba81674eaffb28e0e9e80bcd61aeb",
+      "bytes": 18325,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:15.202295+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_1.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_1.json",
+      "sha256": "54fb66675042f67e867b14009e0091ee3291e33355c2c4bdcc701830c48d74fb",
+      "bytes": 18466,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:02.354073+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_2.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_2.json",
+      "sha256": "e09366d81b9ca8ae0423d7eb1e9935e36c4773425fa8f4d745c9dfb09f2a857e",
+      "bytes": 18121,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:57.673495+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_3.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_3.json",
+      "sha256": "33414ec9986a5332e8c29ffe1944b0a357734f27238a5e1f0c9a647de11bd8d1",
+      "bytes": 18123,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:20.340963+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/repair.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/repair.log",
+      "sha256": "b3a4348456d91a99f2d965741ee3818066a3891e091c04f86e7f4b2e84fdf640",
+      "bytes": 47304,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:22.691255+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/repair_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/repair_summary.json",
+      "sha256": "a4de7d6f0f249f23a187df8bb1a9cf7a521e502ee56a14f05de15b68eb48a89b",
+      "bytes": 5856,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.530563+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/short_quality.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/short_quality.log",
+      "sha256": "8c8d10bce10ffcce235d2865cf0d71d284316ffd5e34d9ddb5537698982ead1a",
+      "bytes": 48342,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:05.390432+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/stereo_reliability_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/stereo_reliability_summary.json",
+      "sha256": "399f27cf7c810d72422b0c333cff25f4c0a868a3c447ba63ff1a36a0de6306df",
+      "bytes": 276,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.259887+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/study_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/study_summary.json",
+      "sha256": "f987832b033bf6069d834626e8c0dce1291b247240aa47cffda4e64ea9208f84",
+      "bytes": 59193,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.898928+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/summary.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/summary.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:27.894418+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/tests.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/tests.log",
+      "sha256": "faad2a048f066402d263a731e67182173f50486382c58da46a5fbfff30212c04",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:23:50.093756+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/verification.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/verification.json",
+      "sha256": "4681845c0d1630f9cdba74bdd8ab1b3f17ffc4ddf068d318ecd615bba429ebc3",
+      "bytes": 2656,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:47:18.774504+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/verification.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/verification.log",
+      "sha256": "4681845c0d1630f9cdba74bdd8ab1b3f17ffc4ddf068d318ecd615bba429ebc3",
+      "bytes": 2656,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:47:18.826787+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/LATE_GEOMETRY_GUIDANCE_RESULTS.md",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/LATE_GEOMETRY_GUIDANCE_RESULTS.md",
+      "sha256": "b0f9f0072b5508a9928765d3be47431f2c3b72f98fcf6534d0f432b8853a4425",
+      "bytes": 3901,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.949399+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_development.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_development.log",
+      "sha256": "de4ce1bf685ce38778d985245181fcbe0d023133b6b7a530a302d0ba3053ed62",
+      "bytes": 59599,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:08:51.338832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_immediate_geometry_summary.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_immediate_geometry_summary.json",
+      "sha256": "c7e82f9be0c2b0eea7650825f6d0067739a35123ba5656c705f6456c168e9c2b",
+      "bytes": 628,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.905571+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent.log",
+      "sha256": "efb098a8eef24a43192beedd5d212cd1d2710d268793423d5ca24d1873ba3c22",
+      "bytes": 1511,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:25:31.176822+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent_postprocess.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent_postprocess.log",
+      "sha256": "51d42bb2a0a11c91818448d787f890f4e4fe6560c449048763281a4dbca4bdf3",
+      "bytes": 3406,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:26:28.071813+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent_raw_stereo.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent_raw_stereo.log",
+      "sha256": "37d083252b75d197f52a424e699e9a8389ba68bdaf37e342c663bc0156be4a44",
+      "bytes": 1444,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:26:50.312727+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_receptor_bootstrap.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_receptor_bootstrap.json",
+      "sha256": "a9d4f1e0edf5bed4075a3055083726ae675391a2224f6cdbec9f4f47bacab150",
+      "bytes": 336,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.948867+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_selection_lock.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_selection_lock.json",
+      "sha256": "bbf9b760cb74a52f6e2d76fc80b6ace1f7cb12cb529644d89105699fdc472dd3",
+      "bytes": 934,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:08:51.338832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_state_recovery.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_state_recovery.log",
+      "sha256": "79f7e71a2ceeeaf7016fc6f623108cd0dd640b6e159d00bfe03d4b480409526b",
+      "bytes": 1031,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:19:40.203743+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_summary.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_summary.json",
+      "sha256": "bfe53fbd18ba100a0d3ff66a96436818fb5024d3e64e1cee06d2372a77c9a89e",
+      "bytes": 2770,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.949076+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/EARLY_CANDIDATE_SELECTION_RESULTS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/EARLY_CANDIDATE_SELECTION_RESULTS.md",
+      "sha256": "868630ad5eab291e6f48034ab98fdf01e97c2b66129f426f29ed05070c426f9d",
+      "bytes": 10287,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.331840+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/INDEPENDENT_GENERALIZATION_RESULTS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/INDEPENDENT_GENERALIZATION_RESULTS.md",
+      "sha256": "5af8e6f2181701ff0c19a0ea3bd553461539a1e2aeede0ee4caf2a48804318cb",
+      "bytes": 11945,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.721832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/PIPELINE_BASELINE.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/PIPELINE_BASELINE.md",
+      "sha256": "48a08adaa36d9337018d1770e3136011990b66814a8468913ddfdcbbb37c9961",
+      "bytes": 7702,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.328743+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/STATUS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/STATUS.md",
+      "sha256": "1776e1ece7fa59c80d92450c2cbbedec490009ab33287192df4a1e5889e2ca8f",
+      "bytes": 1022,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.722348+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/TASKS_1_TO_3_FINAL_SUMMARY.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/TASKS_1_TO_3_FINAL_SUMMARY.md",
+      "sha256": "928f159cdf76aa26181fbbbcd4b2b4f50cf8d783b9e0542a5dd123d96f4ab462",
+      "bytes": 2800,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.722289+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/baseline_replay.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/baseline_replay.log",
+      "sha256": "c32a3548f1522f23972c2a7499451d3c50a48782da2c1c9853e054a8405baeca",
+      "bytes": 344,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:26:23.620584+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/build_records.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/build_records.log",
+      "sha256": "6d478d611980adbd10a13a7d0701fcd6844d3443dde102ad9cdae683a31c1cf4",
+      "bytes": 2670,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:48:15.715029+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/development.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/development.log",
+      "sha256": "d4015ea045eb8adc7219ad92e08f2dc6b1200de5e2e0d5a7e8be7598f6792e2a",
+      "bytes": 8105,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:58:16.181543+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/discover.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/discover.log",
+      "sha256": "28bc4014961f3d61abb618da0d3d3203393d76a7a7195109ebc992fe8fa8bbf3",
+      "bytes": 71,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:34:09.249379+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/discover_expanded.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/discover_expanded.log",
+      "sha256": "2d384fc0831802c1a5839e12db0df46ad526a8df84c48cddbce42e358ba945e1",
+      "bytes": 72,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:30:01.063272+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/early_selection.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/early_selection.log",
+      "sha256": "d094181df9ef86ee3ca85e481db3f6985b9b64f09610daf50162b866f7799cc4",
+      "bytes": 9705,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:28:29.433371+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/finish_experiments.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/finish_experiments.log",
+      "sha256": "ae88347f65ab8322584d879c2294387a74ce62943cfb7356672222429f4ee72e",
+      "bytes": 1555,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:08.351948+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent.log",
+      "sha256": "59e0013b526ddf43fcb3b75502ccfe0e6fee01b0526463657e0d250702611936",
+      "bytes": 34686,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:01.741361+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_parallel.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_parallel.log",
+      "sha256": "d6f3980eca6f79e8de9ab8a37249b001e50262a85d13e7ed1b2dd9d30a355d29",
+      "bytes": 2558,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:19:25.768148+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_raw_stereo.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_raw_stereo.log",
+      "sha256": "7d1e381a0ca97cc2fd2a25f407d62de332d81c77226ae06f80425cd53cb60600",
+      "bytes": 10303,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:25:29.336559+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_summary.json",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_summary.json",
+      "sha256": "74eefb923f362edbcd99aa1ef9da1849c9e10f23f7ee46c122e3b043d5b32ccf",
+      "bytes": 15651,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:06.876268+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/offline_tests.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/offline_tests.log",
+      "sha256": "d1978c1eb0cd573d5cf5e8ee23d605b25cb10239a5f893264096c00592fc2bbf",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:36:02.762468+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/parallel_guard.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/parallel_guard.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:05:09.601138+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/prepare_fixtures.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/prepare_fixtures.log",
+      "sha256": "79341588d29d136c496a32a1ed59357951da0c138d5e173c94c87acc5bdcbc8b",
+      "bytes": 1491,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:49:29.450876+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/prepare_sources.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/prepare_sources.log",
+      "sha256": "3a172450b729beaabd50f9db2cf1c8b0b293ccffc2dc436e0d710deabf8204b9",
+      "bytes": 806,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:48:08.784902+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/select_cohort.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/select_cohort.log",
+      "sha256": "9337b24aff5cefa5838734d4eff42a147a958672002c54d7624517a600c1b457",
+      "bytes": 153,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:40:54.188852+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/select_cohort_expanded.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/select_cohort_expanded.log",
+      "sha256": "65ef8e57fe0a7a63431f70dbfd1ec3f4ca84e957ac9a57faa276630c7a73caf3",
+      "bytes": 413,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:30:43.414131+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/study_summary.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/study_summary.log",
+      "sha256": "402774de2a5e92e1d706d28978ae6a918765804c4aa44cd21445ac44605d5d69",
+      "bytes": 4510,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:08.279949+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_overview.pdf",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_overview.pdf",
+      "sha256": "d06a9459a594f0c362cfb725259b183f4bfe9aabd9acbd4890d573ce3cf543dc",
+      "bytes": 68033,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:46.842780+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_overview.png",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_overview.png",
+      "sha256": "b2fb16db7cf981676b76c50195e244bf0cb31ce9112dc1efed93a442dc757170",
+      "bytes": 174698,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:46.400762+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_verification.json",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_verification.json",
+      "sha256": "f4f101b81845e1df267c7afa0570806d426fea6ee7a4cac5f114d7d1fbcfe262",
+      "bytes": 7531,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:51.184914+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/TRAINING_RMSD_ANALYSIS.md",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/TRAINING_RMSD_ANALYSIS.md",
+      "sha256": "c8a8f5c4f1cf147352a2b1cfbb5e7a0dc80bdafe049ae66901e852236b5c0103",
+      "bytes": 1901,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/analysis.log",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/analysis.log",
+      "sha256": "df50c651c0199d77dadd9da3b826cc0f9bbaff2a68d9ab13264468236ff9114e",
+      "bytes": 4706,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/rmsd_training_curves.png",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/rmsd_training_curves.png",
+      "sha256": "e3d50a0d9fae25ed6bc8cb170adc003d10fe9a286f471a173d7ecd05cf996d57",
+      "bytes": 140510,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.528292+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/summary.json",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/summary.json",
+      "sha256": "af1e0fb7998a7f1a41eaabcb0f07d51ad8f0484a1a2d900b4f5d04acf6a506dd",
+      "bytes": 6082,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.173646+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/GENERALIZATION_EXPANSION_PLAN.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/GENERALIZATION_EXPANSION_PLAN.md",
+      "sha256": "20e6ebf255ebd7dc9b01fe016b06dfc6cb5b985fc5f287c6b95dd1568144fd95",
+      "bytes": 9917,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498817+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/INDEPENDENT_FAILURE_ANALYSIS.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/INDEPENDENT_FAILURE_ANALYSIS.md",
+      "sha256": "f6652bcc867d2a2323f98557fb4d73ec02dfe4e26bef6c6c04a53907d577cd80",
+      "bytes": 8513,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.497765+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/LATE_GUIDANCE_REVIEW.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/LATE_GUIDANCE_REVIEW.md",
+      "sha256": "c951369b861e4b8319e6c802abea0705e76849b09b8e790bda0ce27e879930d0",
+      "bytes": 5609,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498396+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/README.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/README.md",
+      "sha256": "f17b6657a49f4abd35139471848ba2b7587f6c1797aa5b90104a4424f9e9c42e",
+      "bytes": 2787,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.498888+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/WATER_FAILURE_AUDIT.md",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/WATER_FAILURE_AUDIT.md",
+      "sha256": "dd6833d96d1285d93bb07b1219f2c55653aa235c4ebf357635ce663099142f70",
+      "bytes": 7847,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.497151+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/analysis.log",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/analysis.log",
+      "sha256": "3dae46aaf0a78ca92e7653de7b322bc819ba103bfac76b09af92af28b4d42e54",
+      "bytes": 377,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:44:06.959094+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/diagnostic_overview.png",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/diagnostic_overview.png",
+      "sha256": "a413c89b76f050942cf01fdc875a011dcdbabe0a8392a4a786d2d6c1b36071f2",
+      "bytes": 136218,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:36.750535+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/reproduce.log",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/reproduce.log",
+      "sha256": "b48ba4a84e466aafb55fa8a0ac740bc652d47d5b88397a05175dbb49ab665601",
+      "bytes": 1276,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:38.298556+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/summary.json",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/summary.json",
+      "sha256": "a60dc6534cfada0fd4fbee9138c57b292da055b61d84bfc3ba9929a5c31777be",
+      "bytes": 15659,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:35.309719+08:00"
+    },
+    {
+      "source": "independent_diagnostics_20261104/verification.json",
+      "repository_path": "2611/1104/1051+逐分子逐水失败归因与晚期约束复核/source/independent_diagnostics_20261104/verification.json",
+      "sha256": "410b74f7615c9a88f25228ce7219ce201f4f60d9f9ed4ee47821cdf80c17776d",
+      "bytes": 5393,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:51:38.282037+08:00"
+    }
+  ],
+  "include_agent": false,
+  "reports_only": false
+}

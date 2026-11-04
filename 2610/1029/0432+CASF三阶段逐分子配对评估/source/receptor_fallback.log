@@ -1,0 +1,21 @@
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is /home/zhouwanyao/drive_download/releases/casf_paired_eval/receptors/1pxn.pdb)
+
+1pxn fallback success 425
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is /home/zhouwanyao/drive_download/releases/casf_paired_eval/receptors/2xnb.pdb)
+
+2xnb fallback success 437
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is /home/zhouwanyao/drive_download/releases/casf_paired_eval/receptors/3ge7.pdb)
+
+3ge7 fallback success 429
+==============================
+*** Open Babel Warning  in PerceiveBondOrders
+  Failed to kekulize aromatic bonds in OBMol::PerceiveBondOrders (title is /home/zhouwanyao/drive_download/releases/casf_paired_eval/receptors/4wiv.pdb)
+
+4wiv fallback success 305
+ready 285 / 285

@@ -1,0 +1,105 @@
+{
+  "task_key": "multicandidate",
+  "task_title": "多连接候选与短程筛选",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-03T14:28:32.537644+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "MULTICANDIDATE_RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "MULTICANDIDATE_RESULTS.md",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/MULTICANDIDATE_RESULTS.md",
+      "sha256": "79cae96f078142a80b6d921638c091d519d8a4f15d458390e1424969ee63f7d3",
+      "bytes": 11044,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.537644+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/MULTICANDIDATE_RESULTS.md",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/MULTICANDIDATE_RESULTS.md",
+      "sha256": "11ecb77a13c7d838b8500aa01b77d80bb7410805b3fb5cb58b309ac9ea2802be",
+      "bytes": 10758,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.537770+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/comparison.png",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/comparison.png",
+      "sha256": "f23e4ac62a70f0c3f3a46bf8276a23e8696642ddb8ed2bb45736ebee65279a08",
+      "bytes": 110703,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:33.138328+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/plan.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/plan.json",
+      "sha256": "9d5d03eb4da28ac167302072fc31217d6f97c13ef1640c158214ac5210bc8a71",
+      "bytes": 8958,
+      "source_modified_Asia_Shanghai": "2026-11-03T13:59:35.390023+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/rank_changes.png",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/rank_changes.png",
+      "sha256": "37186a86294b6bbc43cc4a8dc27c79b8d747b459847414b2893f94568e1546ea",
+      "bytes": 74574,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:33.252333+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/smoke.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/smoke.log",
+      "sha256": "9df26b2926ff96e21732eef09718b3f0ed713543cc880ed9c4147e7f74d61a46",
+      "bytes": 1517,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:00:08.734738+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/stereo_audit.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/stereo_audit.log",
+      "sha256": "bc3a80e239fbfb52fe1e55cae1689c525892220581a2f09b0552cd25e6dc644e",
+      "bytes": 239,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:16:03.632239+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/summary.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/summary.json",
+      "sha256": "a5f97945639cf5bfa35712136f06b21ad1b0159730936008cef9f7c72e331aec",
+      "bytes": 12616,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:28:32.531665+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/verification.json",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/verification.json",
+      "sha256": "1a346b43615105c202244586ff758454252099d9ebc73f287f900f0c883e3da9",
+      "bytes": 813,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:21:25.253527+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_a.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_a.log",
+      "sha256": "a7fd1a96f1a2c8441aac140b03cdedd512da9239cfabfc0adc75d90196b3f011",
+      "bytes": 3856,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:08:52.098325+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_b.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_b.log",
+      "sha256": "a42465a82f1373b7fae9ee982a21c82d3d932aada41f6cb356e9663080da1471",
+      "bytes": 3822,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:09:07.390943+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_c.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_c.log",
+      "sha256": "24203607b1398d8e6de75814d8b830787f6c28a60f2eb9ffae4f8d0e48195b08",
+      "bytes": 3839,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:10:27.336574+08:00"
+    },
+    {
+      "source": "multi_candidates_20261103/worker_d.log",
+      "repository_path": "2611/1103/1428+多连接候选与短程筛选/source/multi_candidates_20261103/worker_d.log",
+      "sha256": "a28d80f73adcc18172b67283ccb9bc10000c8edfc9ac7c81dcf3cf1df085fc2e",
+      "bytes": 3855,
+      "source_modified_Asia_Shanghai": "2026-11-03T14:11:51.957778+08:00"
+    }
+  ]
+}

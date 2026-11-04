@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "pairs": 36,
+  "candidate_short_trajectories": 288,
+  "selected_continuations": 104,
+  "policies": 288,
+  "actual_official_pose_nfe": 11264,
+  "actual_old_pose_nfe": 0,
+  "matched_total_pose_nfe": 212,
+  "natural_two_stage_pose_nfe": {
+    "4": 148,
+    "8": 212
+  },
+  "max_initial_difference_A": 1.52587890625e-05,
+  "max_resume_difference_A": 0.0,
+  "max_observed_frame_fit_residual_A": 5.763287840985313e-05,
+  "max_one_candidate_regression_difference_A": 0.0,
+  "all_selector_indices_within_K": true,
+  "all_scores_match_frozen_formula": true,
+  "all_oracle_choices_use_only_actual_candidates": true,
+  "all_state_and_absolute_times_match": true,
+  "no_stereo_or_chemical_truth_repair": true,
+  "frozen_protocols": [
+    "worker_a",
+    "worker_b",
+    "worker_c",
+    "worker_d"
+  ]
+}

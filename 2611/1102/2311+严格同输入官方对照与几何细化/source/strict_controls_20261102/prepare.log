@@ -1,0 +1,21 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+INFO:matplotlib.font_manager:Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Non-scalable fonts are not supported
+INFO:matplotlib.font_manager:generated new fontManager
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/prepare_cache/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+PREPARED 2w4x
+PREPARED 4ivd
+PREPARED 2xnb
+PREPARED 1nvq
+PREPARED 2c3i
+PREPARED 3ehy
+PREPARED 2zcq
+PREPARED 5c2h
+PREPARED 1qf1
+PREPARED 4cig
+PREPARED 3zso
+PREPARED 3pww

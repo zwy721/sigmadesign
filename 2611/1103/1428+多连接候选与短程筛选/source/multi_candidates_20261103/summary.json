@@ -1,0 +1,529 @@
+{
+  "groups": 36,
+  "expected": 36,
+  "policies": {
+    "K4/default_initial_order": {
+      "n": 36,
+      "selected_constitution_correct": 1,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 1,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 1,
+        "mean": 0.4373250902057462,
+        "median": 0.4373250902057462
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.376742369598812,
+        "median": 4.566395282745361
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 148.0,
+        "median": 148.0
+      }
+    },
+    "K4/initial_heuristic": {
+      "n": 36,
+      "selected_constitution_correct": 0,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 0,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.249422543578678,
+        "median": 4.180315017700195
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 148.0,
+        "median": 148.0
+      }
+    },
+    "K4/updated_heuristic": {
+      "n": 36,
+      "selected_constitution_correct": 1,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 1,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 1,
+        "mean": 0.4373250902057462,
+        "median": 0.4373250902057462
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.3977353307935925,
+        "median": 4.478585481643677
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 148.0,
+        "median": 148.0
+      }
+    },
+    "K4/pool_oracle": {
+      "n": 36,
+      "selected_constitution_correct": 2,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 2,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 2,
+        "mean": 0.5180083609011658,
+        "median": 0.5180083609011658
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.3536636845933065,
+        "median": 4.566395282745361
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 148.0,
+        "median": 148.0
+      }
+    },
+    "K8/default_initial_order": {
+      "n": 36,
+      "selected_constitution_correct": 1,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 1,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 1,
+        "mean": 0.4373250902057462,
+        "median": 0.4373250902057462
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.376742369598812,
+        "median": 4.566395282745361
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      }
+    },
+    "K8/initial_heuristic": {
+      "n": 36,
+      "selected_constitution_correct": 0,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 0,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.2425231205092535,
+        "median": 4.24800443649292
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      }
+    },
+    "K8/updated_heuristic": {
+      "n": 36,
+      "selected_constitution_correct": 0,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 0,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.398052609629101,
+        "median": 4.422898292541504
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      }
+    },
+    "K8/pool_oracle": {
+      "n": 36,
+      "selected_constitution_correct": 4,
+      "stereo_chemical_exact": 0,
+      "strict_success": 0,
+      "constitution_under2": 4,
+      "success_receptors": 0,
+      "full_ligand_rmsd_A": {
+        "n": 0,
+        "mean": null,
+        "median": null
+      },
+      "constitution_rmsd_A": {
+        "n": 4,
+        "mean": 0.6196664221425583,
+        "median": 0.5654024901554642
+      },
+      "diagnostic_rmsd_A": {
+        "n": 36,
+        "mean": 4.211089534891976,
+        "median": 4.445205450057983
+      },
+      "matched_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      },
+      "natural_two_stage_nfe": {
+        "n": 36,
+        "mean": 212.0,
+        "median": 212.0
+      }
+    }
+  },
+  "rank_changes": {
+    "4": {
+      "covered_pairs": 2,
+      "generation_rank": {
+        "n": 2,
+        "mean": 2.0,
+        "median": 2.0
+      },
+      "initial_score_rank": {
+        "n": 2,
+        "mean": 3.5,
+        "median": 3.5
+      },
+      "after_short_rank": {
+        "n": 2,
+        "mean": 2.5,
+        "median": 2.5
+      },
+      "improved": 1,
+      "worsened": 0,
+      "same": 1,
+      "initial_top1": 0,
+      "after_short_top1": 1
+    },
+    "8": {
+      "covered_pairs": 4,
+      "generation_rank": {
+        "n": 4,
+        "mean": 4.5,
+        "median": 5.0
+      },
+      "initial_score_rank": {
+        "n": 4,
+        "mean": 6.0,
+        "median": 6.5
+      },
+      "after_short_rank": {
+        "n": 4,
+        "mean": 5.25,
+        "median": 6.0
+      },
+      "improved": 3,
+      "worsened": 0,
+      "same": 1,
+      "initial_top1": 0,
+      "after_short_top1": 0
+    }
+  },
+  "paired": {
+    "K4/updated_vs_default_initial_order": {
+      "strict_success_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "constitution_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    },
+    "K4/updated_vs_initial_heuristic": {
+      "strict_success_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "constitution_difference": {
+        "n": 36,
+        "mean": 0.027777777777777776,
+        "low": 0.0,
+        "high": 0.08333333333333333
+      }
+    },
+    "K8/updated_vs_default_initial_order": {
+      "strict_success_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "constitution_difference": {
+        "n": 36,
+        "mean": -0.027777777777777776,
+        "low": -0.08333333333333333,
+        "high": 0.0
+      }
+    },
+    "K8/updated_vs_initial_heuristic": {
+      "strict_success_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      },
+      "constitution_difference": {
+        "n": 36,
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0
+      }
+    }
+  },
+  "coverage": {
+    "4": {
+      "n": 36,
+      "correct_constitution": 2,
+      "strict_stereo_candidate_count": 0
+    },
+    "8": {
+      "n": 36,
+      "correct_constitution": 4,
+      "strict_stereo_candidate_count": 0
+    },
+    "internal_default_pool": {
+      "n": 36,
+      "correct_constitution": 8
+    }
+  },
+  "plan_sha256": "9d5d03eb4da28ac167302072fc31217d6f97c13ef1640c158214ac5210bc8a71",
+  "actual_official_pose_nfe": 11264,
+  "actual_old_pose_nfe": 0,
+  "shared_old_prefix_nfe_reused": 720,
+  "actual_group_seconds": {
+    "n": 36,
+    "mean": 42.02221740894796,
+    "median": 38.912110976933036
+  },
+  "candidate_failures": [],
+  "regression": {
+    "n": 36,
+    "maximum_difference_A": 0.0
+  },
+  "stereo": {
+    "audited_candidates": 4,
+    "unique_ligands": 2,
+    "case_categories": {
+      "missing_tetrahedral_prediction": 4
+    },
+    "reference_tetra_centres": 16,
+    "reference_ez_bonds": 0,
+    "missing_tetra_centres": 7,
+    "missing_ez_bonds": 0,
+    "wrong_assigned_tetra_centres": 0,
+    "wrong_assigned_ez_bonds": 0,
+    "missing_tetra_likely_origins": {
+      "attachment_created_or_Hcap_degeneracy": 7
+    },
+    "geometry_stereo_exact_candidates": 4,
+    "nondegenerate_wrong_3D_tetra_centres": 0,
+    "prior_single_cases": [
+      {
+        "id": "3ehy",
+        "seed": 1802,
+        "audit": {
+          "declared": {
+            "missing_tetra": [
+              {
+                "target_atom": 4,
+                "candidate_atom": 12,
+                "reference": "R",
+                "candidate": null,
+                "slot": 3,
+                "local_atom": 1,
+                "template_chiral_tag": "CHI_UNSPECIFIED",
+                "template_CIP": null,
+                "likely_origin": "attachment_created_or_Hcap_degeneracy"
+              }
+            ],
+            "wrong_tetra": [],
+            "correct_tetra": [],
+            "missing_ez": [],
+            "wrong_ez": [],
+            "correct_ez": [],
+            "target_to_candidate": [
+              8,
+              9,
+              10,
+              13,
+              12,
+              11,
+              15,
+              14,
+              16,
+              7,
+              2,
+              3,
+              4,
+              5,
+              6,
+              1,
+              0
+            ],
+            "constitution_exact": true,
+            "stereo_chemical_exact": false,
+            "category": [
+              "missing_tetrahedral_prediction"
+            ],
+            "isomorphisms_considered": 4
+          },
+          "from_generated_3D": {
+            "missing_tetra": [],
+            "wrong_tetra": [],
+            "correct_tetra": [
+              {
+                "target_atom": 4,
+                "candidate_atom": 12,
+                "reference": "R",
+                "candidate": "R",
+                "normalized_volume_quality": 0.7468667682103636
+              }
+            ],
+            "missing_ez": [],
+            "wrong_ez": [],
+            "correct_ez": [],
+            "target_to_candidate": [
+              8,
+              9,
+              10,
+              13,
+              12,
+              11,
+              15,
+              14,
+              16,
+              7,
+              2,
+              3,
+              4,
+              5,
+              6,
+              1,
+              0
+            ],
+            "constitution_exact": true,
+            "stereo_chemical_exact": true,
+            "category": [
+              "stereo_chemistry_exact"
+            ],
+            "isomorphisms_considered": 4,
+            "nondegenerate_wrong_tetra_count": 0,
+            "evaluation_only_derived_smiles": "COc1ccc(S(=O)(=O)N[C@H](C)C(=O)O)cc1",
+            "labels_used_as_prediction": false
+          }
+        }
+      }
+    ]
+  },
+  "complete": true,
+  "source_sha256": {
+    "multi_worker.py": "e8a7656da3276aecd7ccb6692fc8b73f6a86e16f40375e821df7d439053acc6e",
+    "summarize_multi.py": "0cac23aee054207e2025d416c84dada49506892da8ed0426fde127d828ef49ff",
+    "multi_protocol.py": "56f2fa4fee295c5367326291f91e9ecc0a9de9da111b94c67d14684527199961",
+    "stereo_audit.py": "4e8f72176f1176156dd7b8b4d4a5222b4e2679e7514b340afbfbae485f50cbc3",
+    "verify_multi.py": "785cddee70a30328ccaf350f0108c1e268a8e8de5ec6162d2bd0fb7058017af7"
+  }
+}

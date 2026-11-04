@@ -1,0 +1,533 @@
+{
+  "records": [
+    {
+      "case": "2w4x_1801",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1801/candidate_01"
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 2,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1801/candidate_02",
+      "nfe": 64,
+      "seconds": 8.418325823033229
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 3,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1801/candidate_03"
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1801/candidate_04",
+      "nfe": 64,
+      "seconds": 7.106217972934246
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1801/candidate_05",
+      "nfe": 64,
+      "seconds": 6.9247397620929405
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1801/candidate_06",
+      "nfe": 64,
+      "seconds": 6.94417817692738
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 7,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1801/candidate_07"
+    },
+    {
+      "case": "2w4x_1801",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1801/candidate_08",
+      "nfe": 64,
+      "seconds": 6.974366985959932
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1802/candidate_01"
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 2,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1802/candidate_02"
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 3,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1802/candidate_03",
+      "nfe": 64,
+      "seconds": 6.989553307997994
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1802/candidate_04",
+      "nfe": 64,
+      "seconds": 6.955410839058459
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1802/candidate_05",
+      "nfe": 64,
+      "seconds": 29.237797023029998
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1802/candidate_06",
+      "nfe": 64,
+      "seconds": 78.7025969659444
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1802/candidate_07",
+      "nfe": 64,
+      "seconds": 60.580978241050616
+    },
+    {
+      "case": "2w4x_1802",
+      "rank": 8,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1802/candidate_08"
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1803/candidate_01"
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 2,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2w4x_1803/candidate_02"
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 3,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_03",
+      "nfe": 64,
+      "seconds": 72.11560019396711
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_04",
+      "nfe": 64,
+      "seconds": 22.201769734965637
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_05",
+      "nfe": 64,
+      "seconds": 7.098917088937014
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_06",
+      "nfe": 64,
+      "seconds": 7.07730609504506
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_07",
+      "nfe": 64,
+      "seconds": 7.182336869998835
+    },
+    {
+      "case": "2w4x_1803",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2w4x_1803/candidate_08",
+      "nfe": 64,
+      "seconds": 7.129527298966423
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1801/candidate_01"
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 2,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1801/candidate_02"
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 3,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1801/candidate_03"
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1801/candidate_04",
+      "nfe": 64,
+      "seconds": 7.154887664015405
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 5,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1801/candidate_05"
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1801/candidate_06",
+      "nfe": 64,
+      "seconds": 7.129893530043773
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1801/candidate_07",
+      "nfe": 64,
+      "seconds": 7.165309139993042
+    },
+    {
+      "case": "2c3i_1801",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1801/candidate_08",
+      "nfe": 64,
+      "seconds": 7.170516479993239
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1802/candidate_01"
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 2,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1802/candidate_02"
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 3,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_03",
+      "nfe": 64,
+      "seconds": 7.1338115389226004
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_04",
+      "nfe": 64,
+      "seconds": 7.117770781973377
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_05",
+      "nfe": 64,
+      "seconds": 7.119982942007482
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_06",
+      "nfe": 64,
+      "seconds": 7.186666059074923
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_07",
+      "nfe": 64,
+      "seconds": 7.114300185930915
+    },
+    {
+      "case": "2c3i_1802",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1802/candidate_08",
+      "nfe": 64,
+      "seconds": 7.153789449017495
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1803/candidate_01"
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 2,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1803/candidate_02",
+      "nfe": 64,
+      "seconds": 7.077532251016237
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 3,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1803/candidate_03"
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1803/candidate_04",
+      "nfe": 64,
+      "seconds": 7.08966413710732
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1803/candidate_05",
+      "nfe": 64,
+      "seconds": 7.162969619035721
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 6,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/2c3i_1803/candidate_06"
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1803/candidate_07",
+      "nfe": 64,
+      "seconds": 7.215544659993611
+    },
+    {
+      "case": "2c3i_1803",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/2c3i_1803/candidate_08",
+      "nfe": 64,
+      "seconds": 7.14172192197293
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1801/candidate_01"
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 2,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1801/candidate_02"
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 3,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1801/candidate_03",
+      "nfe": 64,
+      "seconds": 7.604834518977441
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1801/candidate_04",
+      "nfe": 64,
+      "seconds": 7.561418915982358
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 5,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1801/candidate_05"
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1801/candidate_06",
+      "nfe": 64,
+      "seconds": 7.600379202980548
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1801/candidate_07",
+      "nfe": 64,
+      "seconds": 7.609952458995394
+    },
+    {
+      "case": "1qf1_1801",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1801/candidate_08",
+      "nfe": 64,
+      "seconds": 7.61188751203008
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1802/candidate_01"
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 2,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1802/candidate_02",
+      "nfe": 64,
+      "seconds": 7.607720192987472
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 3,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1802/candidate_03"
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 4,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1802/candidate_04"
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1802/candidate_05",
+      "nfe": 64,
+      "seconds": 7.608038138016127
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1802/candidate_06",
+      "nfe": 64,
+      "seconds": 7.628326429054141
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1802/candidate_07",
+      "nfe": 64,
+      "seconds": 7.6404744879109785
+    },
+    {
+      "case": "1qf1_1802",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1802/candidate_08",
+      "nfe": 64,
+      "seconds": 7.559103533974849
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 1,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1803/candidate_01"
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 2,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_02",
+      "nfe": 64,
+      "seconds": 7.589079007972032
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 3,
+      "reused": true,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/cases/1qf1_1803/candidate_03"
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 4,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_04",
+      "nfe": 64,
+      "seconds": 7.689904936007224
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 5,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_05",
+      "nfe": 64,
+      "seconds": 7.5999556119786575
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 6,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_06",
+      "nfe": 64,
+      "seconds": 7.61567495809868
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 7,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_07",
+      "nfe": 64,
+      "seconds": 7.585594172938727
+    },
+    {
+      "case": "1qf1_1803",
+      "rank": 8,
+      "reused": false,
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/pool_completion/1qf1_1803/candidate_08",
+      "nfe": 64,
+      "seconds": 7.551163921016268
+    }
+  ],
+  "new_nfe": 3008,
+  "checkpoint_sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382",
+  "training": false
+}

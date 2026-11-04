@@ -1,0 +1,196 @@
+{
+  "task_key": "tasks123",
+  "task_title": "统一管线低成本筛选与独立泛化",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-04T09:50:51.176241+08:00",
+  "time_evidence": {
+    "kind": "explicit_record_field",
+    "source": "fbdd_efficiency_generalization_20261103/tasks123_verification.json",
+    "field": "checked_at_UTC",
+    "inferred": false
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "fbdd_efficiency_generalization_20261103/EARLY_CANDIDATE_SELECTION_RESULTS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/EARLY_CANDIDATE_SELECTION_RESULTS.md",
+      "sha256": "868630ad5eab291e6f48034ab98fdf01e97c2b66129f426f29ed05070c426f9d",
+      "bytes": 10287,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.331840+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/INDEPENDENT_GENERALIZATION_RESULTS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/INDEPENDENT_GENERALIZATION_RESULTS.md",
+      "sha256": "5af8e6f2181701ff0c19a0ea3bd553461539a1e2aeede0ee4caf2a48804318cb",
+      "bytes": 11945,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.721832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/PIPELINE_BASELINE.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/PIPELINE_BASELINE.md",
+      "sha256": "48a08adaa36d9337018d1770e3136011990b66814a8468913ddfdcbbb37c9961",
+      "bytes": 7702,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.328743+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/STATUS.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/STATUS.md",
+      "sha256": "1776e1ece7fa59c80d92450c2cbbedec490009ab33287192df4a1e5889e2ca8f",
+      "bytes": 1022,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.722348+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/TASKS_1_TO_3_FINAL_SUMMARY.md",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/TASKS_1_TO_3_FINAL_SUMMARY.md",
+      "sha256": "928f159cdf76aa26181fbbbcd4b2b4f50cf8d783b9e0542a5dd123d96f4ab462",
+      "bytes": 2800,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:45.722289+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/baseline_replay.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/baseline_replay.log",
+      "sha256": "c32a3548f1522f23972c2a7499451d3c50a48782da2c1c9853e054a8405baeca",
+      "bytes": 344,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:26:23.620584+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/build_records.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/build_records.log",
+      "sha256": "6d478d611980adbd10a13a7d0701fcd6844d3443dde102ad9cdae683a31c1cf4",
+      "bytes": 2670,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:48:15.715029+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/development.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/development.log",
+      "sha256": "d4015ea045eb8adc7219ad92e08f2dc6b1200de5e2e0d5a7e8be7598f6792e2a",
+      "bytes": 8105,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:58:16.181543+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/discover.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/discover.log",
+      "sha256": "28bc4014961f3d61abb618da0d3d3203393d76a7a7195109ebc992fe8fa8bbf3",
+      "bytes": 71,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:34:09.249379+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/discover_expanded.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/discover_expanded.log",
+      "sha256": "2d384fc0831802c1a5839e12db0df46ad526a8df84c48cddbce42e358ba945e1",
+      "bytes": 72,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:30:01.063272+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/early_selection.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/early_selection.log",
+      "sha256": "d094181df9ef86ee3ca85e481db3f6985b9b64f09610daf50162b866f7799cc4",
+      "bytes": 9705,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:28:29.433371+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/finish_experiments.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/finish_experiments.log",
+      "sha256": "ae88347f65ab8322584d879c2294387a74ce62943cfb7356672222429f4ee72e",
+      "bytes": 1555,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:08.351948+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent.log",
+      "sha256": "59e0013b526ddf43fcb3b75502ccfe0e6fee01b0526463657e0d250702611936",
+      "bytes": 34686,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:01.741361+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_parallel.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_parallel.log",
+      "sha256": "d6f3980eca6f79e8de9ab8a37249b001e50262a85d13e7ed1b2dd9d30a355d29",
+      "bytes": 2558,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:19:25.768148+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_raw_stereo.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_raw_stereo.log",
+      "sha256": "7d1e381a0ca97cc2fd2a25f407d62de332d81c77226ae06f80425cd53cb60600",
+      "bytes": 10303,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:25:29.336559+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/independent_summary.json",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/independent_summary.json",
+      "sha256": "74eefb923f362edbcd99aa1ef9da1849c9e10f23f7ee46c122e3b043d5b32ccf",
+      "bytes": 15651,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:06.876268+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/offline_tests.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/offline_tests.log",
+      "sha256": "d1978c1eb0cd573d5cf5e8ee23d605b25cb10239a5f893264096c00592fc2bbf",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:36:02.762468+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/parallel_guard.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/parallel_guard.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:05:09.601138+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/prepare_fixtures.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/prepare_fixtures.log",
+      "sha256": "79341588d29d136c496a32a1ed59357951da0c138d5e173c94c87acc5bdcbc8b",
+      "bytes": 1491,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:49:29.450876+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/prepare_sources.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/prepare_sources.log",
+      "sha256": "3a172450b729beaabd50f9db2cf1c8b0b293ccffc2dc436e0d710deabf8204b9",
+      "bytes": 806,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:48:08.784902+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/select_cohort.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/select_cohort.log",
+      "sha256": "9337b24aff5cefa5838734d4eff42a147a958672002c54d7624517a600c1b457",
+      "bytes": 153,
+      "source_modified_Asia_Shanghai": "2026-11-03T21:40:54.188852+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/select_cohort_expanded.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/select_cohort_expanded.log",
+      "sha256": "65ef8e57fe0a7a63431f70dbfd1ec3f4ca84e957ac9a57faa276630c7a73caf3",
+      "bytes": 413,
+      "source_modified_Asia_Shanghai": "2026-11-03T22:30:43.414131+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/study_summary.log",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/study_summary.log",
+      "sha256": "402774de2a5e92e1d706d28978ae6a918765804c4aa44cd21445ac44605d5d69",
+      "bytes": 4510,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:08.279949+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_overview.pdf",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_overview.pdf",
+      "sha256": "d06a9459a594f0c362cfb725259b183f4bfe9aabd9acbd4890d573ce3cf543dc",
+      "bytes": 68033,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:46.842780+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_overview.png",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_overview.png",
+      "sha256": "b2fb16db7cf981676b76c50195e244bf0cb31ce9112dc1efed93a442dc757170",
+      "bytes": 174698,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:46.400762+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/tasks123_verification.json",
+      "repository_path": "2611/1104/0950+统一管线低成本筛选与独立泛化/source/fbdd_efficiency_generalization_20261103/tasks123_verification.json",
+      "sha256": "f4f101b81845e1df267c7afa0570806d426fea6ee7a4cac5f114d7d1fbcfe262",
+      "bytes": 7531,
+      "source_modified_Asia_Shanghai": "2026-11-04T09:50:51.184914+08:00"
+    }
+  ]
+}

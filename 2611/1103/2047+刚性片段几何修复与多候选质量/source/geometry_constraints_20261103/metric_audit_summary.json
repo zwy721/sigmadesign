@@ -1,0 +1,26 @@
+{
+  "A_predicted_t0.6": {
+    "n": 36,
+    "constitution_exact": 1,
+    "stereo_exact": 0,
+    "constitution_lt2": 1,
+    "strict_lt2": 0,
+    "strict_unavailable": 36
+  },
+  "B_official_true_graph": {
+    "n": 36,
+    "constitution_exact": 36,
+    "stereo_exact": 36,
+    "constitution_lt2": 25,
+    "strict_lt2": 25,
+    "strict_unavailable": 0
+  },
+  "C_crystal": {
+    "n": 12,
+    "constitution_exact": 12,
+    "stereo_exact": 12,
+    "constitution_lt2": 12,
+    "strict_lt2": 12,
+    "strict_unavailable": 0
+  }
+}

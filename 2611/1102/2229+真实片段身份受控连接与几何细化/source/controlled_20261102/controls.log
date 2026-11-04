@@ -1,0 +1,14 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+CONTROL 2w4x same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 4ivd same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 2xnb same_canonical_partition True clean_port1 1.0 clean_exact True
+CONTROL 1nvq same_canonical_partition True clean_port1 1.0 clean_exact True
+CONTROL 2c3i same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 3ehy same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 2zcq same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 5c2h same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 1qf1 same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 4cig same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 3zso same_canonical_partition False clean_port1 1.0 clean_exact True
+CONTROL 3pww same_canonical_partition False clean_port1 1.0 clean_exact True

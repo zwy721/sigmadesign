@@ -1,0 +1,69 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 2w4x_1801 2 8.42
+COMPLETE 2w4x_1801 4 7.11
+COMPLETE 2w4x_1801 5 6.92
+COMPLETE 2w4x_1801 6 6.94
+COMPLETE 2w4x_1801 8 6.97
+COMPLETE 2w4x_1802 3 6.99
+COMPLETE 2w4x_1802 4 6.96
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 28, in <module>
+    print('COMPLETE',name,i+1,round(info['seconds'],2),flush=True)
+            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 23, in main
+    for f in ['short.npz','checkpoint_t0.4.pt']:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/multi_worker.py", line 85, in continue_branch
+    state.step(t,t-tensor_tt[k+1])
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py", line 124, in step
+    forces,index=den._compute_forces(copy.deepcopy(self.batch),torch.as_tensor([t],device=self.pos.device))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/validation.py", line 186, in forces
+    out = self.original_forces(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 814, in _compute_forces
+    epsilon_theta = self.model(batch, t, **model_kwargs)  # [B x F x A, 3, 3]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/model.py", line 704, in forward
+    x = self.blocks[i](
+        ^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/transformer_block.py", line 601, in forward
+    output_embedding = self.ga(output_embedding, edge_features, edge_index, edge_entity)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/transformer_block.py", line 256, in forward
+    x_message, x_0_extra = self.so2_conv_1(x_message, x_edge, edge_entity)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1783, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1794, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/so2_ops.py", line 166, in forward
+    _x_edge[edge_entity == i] = self.rad_func[i](x_edge[edge_entity == i])
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

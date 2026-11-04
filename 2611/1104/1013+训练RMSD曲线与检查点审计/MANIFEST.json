@@ -1,0 +1,42 @@
+{
+  "task_key": "training_rmsd",
+  "task_title": "训练RMSD曲线与检查点审计",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "training_rmsd_audit_20261104/TRAINING_RMSD_ANALYSIS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "training_rmsd_audit_20261104/TRAINING_RMSD_ANALYSIS.md",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/TRAINING_RMSD_ANALYSIS.md",
+      "sha256": "c8a8f5c4f1cf147352a2b1cfbb5e7a0dc80bdafe049ae66901e852236b5c0103",
+      "bytes": 1901,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/analysis.log",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/analysis.log",
+      "sha256": "df50c651c0199d77dadd9da3b826cc0f9bbaff2a68d9ab13264468236ff9114e",
+      "bytes": 4706,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.529352+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/rmsd_training_curves.png",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/rmsd_training_curves.png",
+      "sha256": "e3d50a0d9fae25ed6bc8cb170adc003d10fe9a286f471a173d7ecd05cf996d57",
+      "bytes": 140510,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.528292+08:00"
+    },
+    {
+      "source": "training_rmsd_audit_20261104/summary.json",
+      "repository_path": "2611/1104/1013+训练RMSD曲线与检查点审计/source/training_rmsd_audit_20261104/summary.json",
+      "sha256": "af1e0fb7998a7f1a41eaabcb0f07d51ad8f0484a1a2d900b4f5d04acf6a506dd",
+      "bytes": 6082,
+      "source_modified_Asia_Shanghai": "2026-11-04T10:13:34.173646+08:00"
+    }
+  ]
+}

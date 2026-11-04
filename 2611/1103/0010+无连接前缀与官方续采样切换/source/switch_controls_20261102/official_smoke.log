@@ -1,0 +1,24 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/official_cache/smoke_official/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+OFFICIAL_FULL 2w4x 1801
+REGRESSION 2w4x 1801 0.0
+SWITCH 2w4x 1801 0.6 oracle 1.027 predicted 4.687
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/switch_worker.py", line 198, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/switch_worker.py", line 170, in main
+    full_path=BASE/'legacy'/f'{pid}_{seed}'/'full.npz';wait_path(full_path);old=np.load(full_path);oldinfo=json.loads(full_path.with_name('result.json').read_text())
+                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/legacy/2w4x_1801/result.json'

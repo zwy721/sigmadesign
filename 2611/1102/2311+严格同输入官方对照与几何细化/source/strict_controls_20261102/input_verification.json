@@ -1,0 +1,330 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "id": "2w4x",
+      "protein_nodes": 167,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 4.76837158203125e-07,
+      "shared_esm_shape": [
+        167,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "4ivd",
+      "protein_nodes": 167,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.9073486328125e-06,
+      "shared_esm_shape": [
+        167,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "2xnb",
+      "protein_nodes": 174,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 9.5367431640625e-07,
+      "shared_esm_shape": [
+        174,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "1nvq",
+      "protein_nodes": 157,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 9.5367431640625e-07,
+      "shared_esm_shape": [
+        157,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "2c3i",
+      "protein_nodes": 150,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.7881393432617188e-06,
+      "shared_esm_shape": [
+        150,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "3ehy",
+      "protein_nodes": 133,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 4.76837158203125e-07,
+      "shared_esm_shape": [
+        133,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "2zcq",
+      "protein_nodes": 196,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.9073486328125e-06,
+      "shared_esm_shape": [
+        196,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "5c2h",
+      "protein_nodes": 175,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.7881393432617188e-06,
+      "shared_esm_shape": [
+        175,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "1qf1",
+      "protein_nodes": 199,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.9073486328125e-06,
+      "shared_esm_shape": [
+        199,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "4cig",
+      "protein_nodes": 116,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.9073486328125e-06,
+      "shared_esm_shape": [
+        116,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "3zso",
+      "protein_nodes": 144,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 1.9073486328125e-06,
+      "shared_esm_shape": [
+        144,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    },
+    {
+      "id": "3pww",
+      "protein_nodes": 231,
+      "actual_protein_node_fields_equal": {
+        "frag_atom_idx": true,
+        "frag_counter": true,
+        "frag_idx_map": true,
+        "mask": true,
+        "node_entity": true,
+        "residue_types": true,
+        "x": true
+      },
+      "protein_features_equal": {
+        "x": true,
+        "node_entity": true,
+        "residue_types": true,
+        "mask": true
+      },
+      "protein_edges_equal": true,
+      "reference_heavy_coordinate_max_abs_A": 9.5367431640625e-07,
+      "shared_esm_shape": [
+        231,
+        0
+      ],
+      "official_esm_shape": null,
+      "esm_enabled": false
+    }
+  ],
+  "max_reference_difference_A": 1.9073486328125e-06
+}

@@ -1,0 +1,121 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+PREFIX 9YSP 1801 17.74
+PREFIX 9YSP 1802 9.86
+PREFIX 9YSP 1803 15.36
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/development/native/official_cache/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+NATIVE 9YSP 1801 1 NFE 80
+NATIVE 9YSP 1801 2 NFE 80
+NATIVE 9YSP 1801 3 NFE 80
+NATIVE 9YSP 1801 4 NFE 80
+NATIVE 9YSP 1801 5 NFE 80
+NATIVE 9YSP 1801 6 NFE 80
+NATIVE 9YSP 1801 7 NFE 80
+NATIVE 9YSP 1801 8 NFE 80
+NATIVE 9YSP 1802 1 NFE 80
+NATIVE 9YSP 1802 2 NFE 80
+NATIVE 9YSP 1802 3 NFE 80
+NATIVE 9YSP 1802 4 NFE 80
+NATIVE 9YSP 1802 5 NFE 80
+NATIVE 9YSP 1802 6 NFE 80
+NATIVE 9YSP 1802 7 NFE 80
+NATIVE 9YSP 1802 8 NFE 80
+NATIVE 9YSP 1803 1 NFE 80
+NATIVE 9YSP 1803 2 NFE 80
+NATIVE 9YSP 1803 3 NFE 80
+NATIVE 9YSP 1803 4 NFE 80
+NATIVE 9YSP 1803 5 NFE 80
+NATIVE 9YSP 1803 6 NFE 80
+NATIVE 9YSP 1803 7 NFE 80
+NATIVE 9YSP 1803 8 NFE 80
+1/72 repaired__9YSP__1801__1 high_quality=True cached=False
+2/72 stereo__9YSP__1801__1 high_quality=True cached=False
+3/72 raw__9YSP__1801__1 high_quality=False cached=False
+4/72 raw__9YSP__1801__2 high_quality=False cached=False
+5/72 stereo__9YSP__1801__2 high_quality=False cached=False
+6/72 repaired__9YSP__1801__2 high_quality=False cached=False
+7/72 raw__9YSP__1801__3 high_quality=False cached=False
+8/72 repaired__9YSP__1801__3 high_quality=False cached=False
+9/72 stereo__9YSP__1801__3 high_quality=False cached=False
+10/72 raw__9YSP__1801__4 high_quality=False cached=False
+11/72 repaired__9YSP__1801__4 high_quality=True cached=False
+12/72 stereo__9YSP__1801__4 high_quality=True cached=False
+13/72 raw__9YSP__1801__5 high_quality=False cached=False
+14/72 repaired__9YSP__1801__5 high_quality=False cached=False
+15/72 stereo__9YSP__1801__5 high_quality=False cached=False
+16/72 raw__9YSP__1801__6 high_quality=False cached=False
+17/72 repaired__9YSP__1801__6 high_quality=False cached=False
+18/72 stereo__9YSP__1801__6 high_quality=True cached=False
+19/72 raw__9YSP__1801__7 high_quality=False cached=False
+20/72 repaired__9YSP__1801__7 high_quality=False cached=False
+21/72 raw__9YSP__1801__8 high_quality=False cached=False
+22/72 stereo__9YSP__1801__7 high_quality=True cached=False
+23/72 raw__9YSP__1802__1 high_quality=False cached=False
+24/72 repaired__9YSP__1802__1 high_quality=True cached=False
+25/72 stereo__9YSP__1802__1 high_quality=True cached=False
+26/72 raw__9YSP__1802__2 high_quality=True cached=False
+27/72 repaired__9YSP__1801__8 high_quality=False cached=False
+28/72 repaired__9YSP__1802__2 high_quality=True cached=False
+29/72 stereo__9YSP__1802__2 high_quality=True cached=False
+30/72 stereo__9YSP__1801__8 high_quality=False cached=False
+31/72 raw__9YSP__1802__3 high_quality=False cached=False
+32/72 stereo__9YSP__1802__3 high_quality=False cached=False
+33/72 repaired__9YSP__1802__3 high_quality=False cached=False
+34/72 raw__9YSP__1802__4 high_quality=False cached=False
+35/72 repaired__9YSP__1802__4 high_quality=False cached=False
+36/72 raw__9YSP__1802__5 high_quality=False cached=False
+37/72 repaired__9YSP__1802__5 high_quality=False cached=False
+38/72 stereo__9YSP__1802__5 high_quality=False cached=False
+39/72 stereo__9YSP__1802__4 high_quality=True cached=False
+40/72 raw__9YSP__1802__6 high_quality=False cached=False
+41/72 repaired__9YSP__1802__6 high_quality=False cached=False
+42/72 stereo__9YSP__1802__6 high_quality=False cached=False
+43/72 raw__9YSP__1802__7 high_quality=False cached=False
+44/72 raw__9YSP__1802__8 high_quality=False cached=False
+45/72 stereo__9YSP__1802__8 high_quality=False cached=False
+46/72 repaired__9YSP__1802__7 high_quality=False cached=False
+47/72 stereo__9YSP__1802__7 high_quality=True cached=False
+48/72 raw__9YSP__1803__1 high_quality=False cached=False
+49/72 repaired__9YSP__1803__1 high_quality=False cached=False
+50/72 repaired__9YSP__1802__8 high_quality=False cached=False
+51/72 repaired__9YSP__1803__2 high_quality=False cached=False
+52/72 stereo__9YSP__1803__2 high_quality=False cached=False
+53/72 raw__9YSP__1803__3 high_quality=False cached=False
+54/72 repaired__9YSP__1803__3 high_quality=False cached=False
+55/72 stereo__9YSP__1803__3 high_quality=False cached=False
+56/72 raw__9YSP__1803__4 high_quality=False cached=False
+57/72 repaired__9YSP__1803__4 high_quality=False cached=False
+58/72 stereo__9YSP__1803__4 high_quality=False cached=False
+59/72 stereo__9YSP__1803__1 high_quality=False cached=False
+60/72 raw__9YSP__1803__2 high_quality=False cached=False
+61/72 raw__9YSP__1803__5 high_quality=True cached=False
+62/72 repaired__9YSP__1803__5 high_quality=True cached=False
+63/72 stereo__9YSP__1803__5 high_quality=True cached=False
+64/72 raw__9YSP__1803__6 high_quality=False cached=False
+65/72 repaired__9YSP__1803__6 high_quality=True cached=False
+66/72 stereo__9YSP__1803__6 high_quality=True cached=False
+67/72 raw__9YSP__1803__7 high_quality=False cached=False
+68/72 repaired__9YSP__1803__7 high_quality=False cached=False
+69/72 raw__9YSP__1803__8 high_quality=False cached=False
+70/72 stereo__9YSP__1803__7 high_quality=False cached=False
+71/72 repaired__9YSP__1803__8 high_quality=True cached=False
+72/72 stereo__9YSP__1803__8 high_quality=True cached=False
+Complete: 72 molecules; report: /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/development/quality/DE_NOVO_QUALITY_RESULTS.md

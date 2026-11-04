@@ -1,0 +1,89 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 4ivd_1801 2 25.91
+COMPLETE 4ivd_1801 4 64.13
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 31, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 26, in main
+    info=continue_branch(den,rt,graph,groups,spec,c,source,seed,out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/multi_worker.py", line 85, in continue_branch
+    state.step(t,t-tensor_tt[k+1])
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py", line 123, in step
+    self.batch=den._update_batch(self.batch,self.pos0,self.pos)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/validation.py", line 155, in update
+    graph = self.original_update(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 711, in _update_batch
+    self._prune_local_edges(batch)
+  File "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/diff/denoiser.py", line 791, in _prune_local_edges
+    batch.edge_attr = batch.edge_attr[mask]
+    ^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch_geometric/data/data.py", line 564, in __setattr__
+    def __setattr__(self, key: str, value: Any):
+
+KeyboardInterrupt
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 4ivd_1801 2 25.91
+COMPLETE 4ivd_1801 4 64.13
+COMPLETE 4ivd_1801 5 8.36
+COMPLETE 4ivd_1801 6 7.04
+COMPLETE 4ivd_1801 7 7.01
+COMPLETE 4ivd_1802 2 73.06
+COMPLETE 4ivd_1802 3 7.96
+COMPLETE 4ivd_1802 4 6.86
+COMPLETE 4ivd_1802 5 6.85
+COMPLETE 4ivd_1802 6 6.85
+COMPLETE 4ivd_1802 7 6.86
+COMPLETE 4ivd_1802 8 6.89
+COMPLETE 4ivd_1803 3 6.82
+COMPLETE 4ivd_1803 4 6.85
+COMPLETE 4ivd_1803 6 6.91
+COMPLETE 4ivd_1803 7 6.85
+COMPLETE 4ivd_1803 8 6.94
+COMPLETE 3ehy_1801 4 7.01
+COMPLETE 3ehy_1801 5 6.92
+COMPLETE 3ehy_1801 6 6.89
+COMPLETE 3ehy_1801 7 6.86
+COMPLETE 3ehy_1801 8 6.84
+COMPLETE 3ehy_1802 2 6.96
+COMPLETE 3ehy_1802 4 6.9
+COMPLETE 3ehy_1802 5 6.91
+COMPLETE 3ehy_1802 6 6.85
+COMPLETE 3ehy_1802 7 6.92
+COMPLETE 3ehy_1803 2 6.86
+COMPLETE 3ehy_1803 4 6.9
+COMPLETE 3ehy_1803 5 6.87
+COMPLETE 3ehy_1803 6 6.88
+COMPLETE 3ehy_1803 7 6.93
+COMPLETE 3ehy_1803 8 6.96
+COMPLETE 4cig_1801 2 7.44
+COMPLETE 4cig_1801 4 7.32
+COMPLETE 4cig_1801 6 7.42
+COMPLETE 4cig_1801 7 7.48
+COMPLETE 4cig_1801 8 7.43
+COMPLETE 4cig_1802 2 7.39
+COMPLETE 4cig_1802 3 7.4
+COMPLETE 4cig_1802 5 7.4
+COMPLETE 4cig_1802 6 7.34
+COMPLETE 4cig_1802 7 7.38
+COMPLETE 4cig_1802 8 7.38
+COMPLETE 4cig_1803 2 7.4
+COMPLETE 4cig_1803 3 7.45
+COMPLETE 4cig_1803 6 7.5
+COMPLETE 4cig_1803 7 7.44
+COMPLETE 4cig_1803 8 7.37

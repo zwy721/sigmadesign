@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "selected_protocol": "triple30",
+    "test_cases": 18,
+    "completed": 18,
+    "additional_experiment_pose_NFE": 468,
+    "deployment_additional_pose_NFE": 0,
+    "drift_median_A": 0.3962246924638748,
+    "drift_max_A": 0.7737034559249878,
+    "projection_median_seconds": 0.1453581124660559,
+    "projection_total_seconds": 2.358939653611742,
+    "event_optimizer_converged": 0,
+    "event_count": 54,
+    "reliable_stereo_flips": 1,
+    "stereo_lost_reliability": 3
+  },
+  "quality": [
+    {
+      "mode": "原始+立体赋值",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 10,
+      "bond": 12,
+      "angle": 10,
+      "amide_torsion": 16,
+      "PB_mol": 8,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "mode": "原始+最终修复+赋值",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 17,
+      "bond": 18,
+      "angle": 15,
+      "amide_torsion": 18,
+      "PB_mol": 15,
+      "PB_dock": 1,
+      "high_quality": 1,
+      "high_quality_rate": 0.05555555555555555,
+      "unique_high_quality": 1,
+      "mean_unique_per_receptor": 0.16666666666666666,
+      "any_high_quality_attempts": 1,
+      "attempts": 18
+    },
+    {
+      "mode": "晚期约束+赋值",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 18,
+      "bond": 18,
+      "angle": 15,
+      "amide_torsion": 17,
+      "PB_mol": 14,
+      "PB_dock": 0,
+      "high_quality": 0,
+      "high_quality_rate": 0.0,
+      "unique_high_quality": 0,
+      "mean_unique_per_receptor": 0.0,
+      "any_high_quality_attempts": 0,
+      "attempts": 18
+    },
+    {
+      "mode": "晚期约束+最终修复+赋值",
+      "expected": 18,
+      "evaluated": 18,
+      "valid_connected": 18,
+      "no_internal_clash": 16,
+      "bond": 17,
+      "angle": 14,
+      "amide_torsion": 18,
+      "PB_mol": 14,
+      "PB_dock": 1,
+      "high_quality": 1,
+      "high_quality_rate": 0.05555555555555555,
+      "unique_high_quality": 1,
+      "mean_unique_per_receptor": 0.16666666666666666,
+      "any_high_quality_attempts": 1,
+      "attempts": 18
+    }
+  ],
+  "bootstrap": [
+    {
+      "comparison": "late_vs_raw",
+      "paired_quality_difference": 0.0,
+      "receptor_bootstrap_95CI": [
+        0.0,
+        0.0
+      ],
+      "receptors": 6
+    },
+    {
+      "comparison": "late_plus_final_vs_final",
+      "paired_quality_difference": 0.0,
+      "receptor_bootstrap_95CI": [
+        0.0,
+        0.0
+      ],
+      "receptors": 6
+    }
+  ]
+}

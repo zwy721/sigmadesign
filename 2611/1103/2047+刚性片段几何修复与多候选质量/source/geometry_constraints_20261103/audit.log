@@ -1,0 +1,92 @@
+{
+  "A_predicted_t0.6": {
+    "n": 36,
+    "constitution_exact": 1,
+    "stereo_exact": 0,
+    "constitution_lt2": 1,
+    "strict_lt2": 0,
+    "strict_unavailable": 36
+  },
+  "B_official_true_graph": {
+    "n": 36,
+    "constitution_exact": 36,
+    "stereo_exact": 36,
+    "constitution_lt2": 25,
+    "strict_lt2": 25,
+    "strict_unavailable": 0
+  },
+  "C_crystal": {
+    "n": 12,
+    "constitution_exact": 12,
+    "stereo_exact": 12,
+    "constitution_lt2": 12,
+    "strict_lt2": 12,
+    "strict_unavailable": 0
+  }
+}
+{
+  "A_predicted_t0.6": {
+    "handoff": {
+      "bad_cross": 133,
+      "bad_within": 0,
+      "bad_angles": 480,
+      "severe_pairs": 6744,
+      "bad_amides": 28,
+      "molecules": 36,
+      "bond_fail_molecules": 36,
+      "clash_fail_molecules": 36
+    },
+    "short": {
+      "bad_cross": 117,
+      "bad_within": 0,
+      "bad_angles": 456,
+      "severe_pairs": 4178,
+      "bad_amides": 26,
+      "molecules": 36,
+      "bond_fail_molecules": 35,
+      "clash_fail_molecules": 36
+    },
+    "final": {
+      "bad_cross": 21,
+      "bad_within": 0,
+      "bad_angles": 43,
+      "severe_pairs": 65,
+      "bad_amides": 25,
+      "molecules": 36,
+      "bond_fail_molecules": 13,
+      "clash_fail_molecules": 17
+    }
+  },
+  "B_official_true_graph": {
+    "handoff": {
+      "bad_cross": 118,
+      "bad_within": 0,
+      "bad_angles": 396,
+      "severe_pairs": 5699,
+      "bad_amides": 18,
+      "molecules": 36,
+      "bond_fail_molecules": 34,
+      "clash_fail_molecules": 36
+    },
+    "short": {
+      "bad_cross": 109,
+      "bad_within": 0,
+      "bad_angles": 391,
+      "severe_pairs": 2466,
+      "bad_amides": 20,
+      "molecules": 36,
+      "bond_fail_molecules": 35,
+      "clash_fail_molecules": 36
+    },
+    "final": {
+      "bad_cross": 16,
+      "bad_within": 0,
+      "bad_angles": 13,
+      "severe_pairs": 14,
+      "bad_amides": 5,
+      "molecules": 36,
+      "bond_fail_molecules": 13,
+      "clash_fail_molecules": 5
+    }
+  }
+}

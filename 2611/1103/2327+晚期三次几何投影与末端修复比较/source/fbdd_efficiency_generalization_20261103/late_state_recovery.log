@@ -1,0 +1,25 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/late_state_recovery_cache/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+RECOVERED 9RT3 1801
+RECOVERED 9RT3 1802
+RECOVERED 9RT3 1803
+RECOVERED 9T4A 1801
+RECOVERED 9T4A 1802
+RECOVERED 9T4A 1803
+RECOVERED 7ILZ 1801
+RECOVERED 7ILZ 1802
+RECOVERED 9T51 1801
+RECOVERED 9T51 1802
+RECOVERED 9T51 1803
+RECOVERED 9SYL 1801
+RECOVERED 9SYL 1802
+RECOVERED 9SYL 1803
+RECOVERED 12AV 1801
+RECOVERED 12AV 1802
+RECOVERED 12AV 1803
+RECOVERED 7ILZ 1803

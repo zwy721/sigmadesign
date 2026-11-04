@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "counts": {
+    "old_full": 36,
+    "native": 36,
+    "official_full": 36,
+    "oracle": 144,
+    "predicted": 144,
+    "post_full": 108,
+    "regression": 12
+  },
+  "valid_official_pose_nfe": 23040,
+  "valid_old_pose_nfe": 7200,
+  "max_initial_coordinate_difference_A": 9.174521579780048e-06,
+  "max_switch_or_refinement_difference_A": 3.528594970703125e-05,
+  "all_absolute_time_suffixes_match": true,
+  "all_saved_switch_T_R_and_atoms_match_the_single_old_trajectory": true,
+  "all_predicted_graphs_match_the_selected_one_candidate": true,
+  "no_chemical_RMSD_reported_for_nonmatching_constitutions": true,
+  "frozen_protocols": [
+    "legacy_a",
+    "legacy_b",
+    "switch_a",
+    "switch_b",
+    "switch_c",
+    "switch_d",
+    "switch_e",
+    "switch_f",
+    "provenance_replay"
+  ],
+  "failures": [],
+  "note": "Valid committed experiment trajectories plus 12 official numerical regressions; excludes archived development/self-check attempts and read-only connection-head evaluations."
+}

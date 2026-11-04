@@ -1,0 +1,23 @@
+# 多连接候选与短程筛选
+
+时间：2026-11-03 14:28（北京时间，目录精确到分钟）。历史记录没有独立完成时间字段；目录时间取最终报告或核验记录的最后更新时间，属于完成/更新时刻的推定。
+
+时间依据：`MULTICANDIDATE_RESULTS.md` 的文件修改时间。原时间精度与证据保存在 `MANIFEST.json`。
+
+## 研究记录
+
+- [MULTICANDIDATE_RESULTS.md](source/MULTICANDIDATE_RESULTS.md)
+- [MULTICANDIDATE_RESULTS.md](source/multi_candidates_20261103/MULTICANDIDATE_RESULTS.md)
+
+## 运行日志
+
+- [multi_candidates_20261103/smoke.log](source/multi_candidates_20261103/smoke.log)
+- [multi_candidates_20261103/stereo_audit.log](source/multi_candidates_20261103/stereo_audit.log)
+- [multi_candidates_20261103/worker_a.log](source/multi_candidates_20261103/worker_a.log)
+- [multi_candidates_20261103/worker_b.log](source/multi_candidates_20261103/worker_b.log)
+- [multi_candidates_20261103/worker_c.log](source/multi_candidates_20261103/worker_c.log)
+- [multi_candidates_20261103/worker_d.log](source/multi_candidates_20261103/worker_d.log)
+
+本阶段共归档 13 个原文件。`source/` 保留它们在原工作区中的相对路径；同名的根目录报告和实验目录报告分别保存，以保留版本差异。文件内容原样复制，不将早期进度或失败日志改写成最终成功记录。
+
+本归档用于任务报告、运行日志和汇总核验记录；未包含模型权重、原始结构或逐候选轨迹。原报告提及的数据文件和完整复现程序仍位于原实验工作区。此处哈希核验确认归档与本地快照一致，不代表重新运行历史实验或重新执行科学评测。

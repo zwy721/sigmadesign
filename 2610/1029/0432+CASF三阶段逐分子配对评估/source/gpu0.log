@@ -1,0 +1,89 @@
+
+=== started worker ===
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/pdbbind_pose_ddp_200ep/assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/pdbbind_pose_ddp_200ep/assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/pdbbind_pose_ddp_200ep/assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+{"shard": 0, "pocket": "1a30", "processed": 25, "seconds": 153.2}
+{"shard": 0, "pocket": "1e66", "processed": 25, "seconds": 113.4}
+{"shard": 0, "pocket": "1gpn", "processed": 25, "seconds": 114.8}
+{"shard": 0, "pocket": "1lpg", "processed": 25, "seconds": 115.0}
+{"shard": 0, "pocket": "1nvq", "processed": 25, "seconds": 121.3}
+{"shard": 0, "pocket": "1owh", "processed": 25, "seconds": 113.1}
+{"shard": 0, "pocket": "1ps3", "processed": 25, "seconds": 115.6}
+{"shard": 0, "pocket": "1qf1", "processed": 25, "seconds": 151.8}
+{"shard": 0, "pocket": "1sqa", "processed": 25, "seconds": 116.4}
+{"shard": 0, "pocket": "1vso", "processed": 25, "seconds": 123.5}
+{"shard": 0, "pocket": "1ydr", "processed": 25, "seconds": 117.7}
+{"shard": 0, "pocket": "1z9g", "processed": 25, "seconds": 120.3}
+{"shard": 0, "pocket": "2c3i", "processed": 25, "seconds": 123.3}
+{"shard": 0, "pocket": "2fxs", "processed": 25, "seconds": 132.2}
+{"shard": 0, "pocket": "2j7h", "processed": 25, "seconds": 117.0}
+{"shard": 0, "pocket": "2qbp", "processed": 25, "seconds": 131.6}
+{"shard": 0, "pocket": "2qnq", "processed": 25, "seconds": 151.3}
+{"shard": 0, "pocket": "2vkm", "processed": 25, "seconds": 193.0}
+{"shard": 0, "pocket": "2w66", "processed": 25, "seconds": 121.1}
+{"shard": 0, "pocket": "2wer", "processed": 25, "seconds": 114.3}
+{"shard": 0, "pocket": "2wvt", "processed": 25, "seconds": 115.1}
+{"shard": 0, "pocket": "2xdl", "processed": 25, "seconds": 122.4}
+{"shard": 0, "pocket": "2xys", "processed": 25, "seconds": 116.6}
+{"shard": 0, "pocket": "2yki", "processed": 25, "seconds": 118.3}
+{"shard": 0, "pocket": "2zcr", "processed": 25, "seconds": 145.1}
+{"shard": 0, "pocket": "3ag9", "processed": 25, "seconds": 115.9}
+{"shard": 0, "pocket": "3aru", "processed": 25, "seconds": 110.9}
+{"shard": 0, "pocket": "3b27", "processed": 25, "seconds": 115.0}
+{"shard": 0, "pocket": "3bgz", "processed": 25, "seconds": 116.1}
+{"shard": 0, "pocket": "3coz", "processed": 25, "seconds": 129.7}
+{"shard": 0, "pocket": "3dx1", "processed": 25, "seconds": 115.8}
+{"shard": 0, "pocket": "3e92", "processed": 25, "seconds": 123.8}
+{"shard": 0, "pocket": "3ejr", "processed": 25, "seconds": 117.0}
+{"shard": 0, "pocket": "3f3e", "processed": 25, "seconds": 118.7}
+{"shard": 0, "pocket": "3fv2", "processed": 25, "seconds": 117.9}
+{"shard": 0, "pocket": "3g31", "processed": 25, "seconds": 104.6}
+{"shard": 0, "pocket": "3gnw", "processed": 25, "seconds": 125.7}
+{"shard": 0, "pocket": "3ivg", "processed": 25, "seconds": 126.4}
+{"shard": 0, "pocket": "3k5v", "processed": 25, "seconds": 127.4}
+{"shard": 0, "pocket": "3l7b", "processed": 25, "seconds": 114.2}
+{"shard": 0, "pocket": "3n76", "processed": 25, "seconds": 120.5}
+{"shard": 0, "pocket": "3nw9", "processed": 25, "seconds": 129.2}
+{"shard": 0, "pocket": "3oe5", "processed": 25, "seconds": 129.5}
+{"shard": 0, "pocket": "3prs", "processed": 25, "seconds": 187.4}
+{"shard": 0, "pocket": "3qgy", "processed": 25, "seconds": 127.1}
+{"shard": 0, "pocket": "3rr4", "processed": 25, "seconds": 111.2}
+{"shard": 0, "pocket": "3tsk", "processed": 25, "seconds": 178.1}
+{"shard": 0, "pocket": "3u8n", "processed": 25, "seconds": 120.5}
+{"shard": 0, "pocket": "3uev", "processed": 25, "seconds": 133.1}
+{"shard": 0, "pocket": "3uo4", "processed": 25, "seconds": 118.8}
+{"shard": 0, "pocket": "3uuo", "processed": 25, "seconds": 107.5}
+{"shard": 0, "pocket": "3zso", "processed": 25, "seconds": 153.3}
+{"shard": 0, "pocket": "4agn", "processed": 25, "seconds": 111.0}
+{"shard": 0, "pocket": "4cig", "processed": 25, "seconds": 136.7}
+{"shard": 0, "pocket": "4crc", "processed": 25, "seconds": 146.3}
+{"shard": 0, "pocket": "4de2", "processed": 25, "seconds": 120.5}
+{"shard": 0, "pocket": "4dli", "processed": 25, "seconds": 112.5}
+{"shard": 0, "pocket": "4eky", "processed": 25, "seconds": 127.2}
+{"shard": 0, "pocket": "4f2w", "processed": 25, "seconds": 117.4}
+{"shard": 0, "pocket": "4gid", "processed": 25, "seconds": 190.5}
+{"shard": 0, "pocket": "4ih5", "processed": 25, "seconds": 110.6}
+{"shard": 0, "pocket": "4ivd", "processed": 25, "seconds": 113.4}
+{"shard": 0, "pocket": "4jfs", "processed": 25, "seconds": 113.7}
+{"shard": 0, "pocket": "4k18", "processed": 25, "seconds": 124.1}
+{"shard": 0, "pocket": "4kzu", "processed": 25, "seconds": 116.7}
+{"shard": 0, "pocket": "4m0z", "processed": 25, "seconds": 121.5}
+{"shard": 0, "pocket": "4owm", "processed": 25, "seconds": 106.2}
+{"shard": 0, "pocket": "4rfm", "processed": 25, "seconds": 123.2}
+{"shard": 0, "pocket": "4u4s", "processed": 25, "seconds": 115.7}
+{"shard": 0, "pocket": "4w9l", "processed": 25, "seconds": 165.9}
+{"shard": 0, "pocket": "5aba", "processed": 25, "seconds": 105.9}
+{"shard": 0, "pocket": "5tmn", "processed": 25, "seconds": 159.6}
+{"shard": 0, "status": "complete"}

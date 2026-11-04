@@ -1,0 +1,20 @@
+[
+  {
+    "comparison": "late_vs_raw",
+    "paired_quality_difference": 0.0,
+    "receptor_bootstrap_95CI": [
+      0.0,
+      0.0
+    ],
+    "receptors": 6
+  },
+  {
+    "comparison": "late_plus_final_vs_final",
+    "paired_quality_difference": 0.0,
+    "receptor_bootstrap_95CI": [
+      0.0,
+      0.0
+    ],
+    "receptors": 6
+  }
+]

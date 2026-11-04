@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/prepare_repair.py", line 83, in <module>
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/prepare_repair.py", line 76, in main
+    # True graph reference stays a distinct control; no geometry stereo repair.
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/denovo_quality/common.py", line 19, in write_json
+    tmp.write_text(json.dumps(clean(value),ensure_ascii=False,indent=2,allow_nan=False)+'\n');tmp.replace(p)
+                                                                                              ^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/pathlib.py", line 1376, in replace
+    os.replace(self, target)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/final_manifest_progress.json.tmp' -> '/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/final_manifest_progress.json'
+final manifest 1260

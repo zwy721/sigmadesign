@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/finish_experiments.py", line 22, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/finish_experiments.py", line 10, in main
+    if not (OUT/'late_selection_lock.json').exists():run([OUT/'late_development.py'],OUT/'late_development.log')
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/finish_experiments.py", line 7, in run
+    with Path(log).open('a') as f:subprocess.run([str(PYTHON),'-B',*map(str,args)],stdout=f,stderr=subprocess.STDOUT,check=True)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/zhouwanyao/drive_download/releases/.venv-cutoff-train/bin/python', '-B', '/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/late_development.py']' returned non-zero exit status 1.
+Development choice locked.
+Development choice locked.
+All experiment tables and reports written.

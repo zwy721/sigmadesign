@@ -1,0 +1,50 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:72: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:169: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:249: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/training/reference/fixedN_vocab_experiments_20261016/vendor/native/sigmadock/net/layer_norm.py:339: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @torch.cuda.amp.autocast(enabled=False)
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+[INFO] No HPARAMS provided, using default HPARAMS from oracle.py
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/legacy_assets/diffusion_cache/eps_256_omega_1024_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+LEGACY 2w4x 1801 RMSD 4.832 NFE 100 s 11.4
+LEGACY 2w4x 1802 RMSD 4.297 NFE 100 s 10.2
+LEGACY 2w4x 1803 RMSD 6.498 NFE 100 s 10.0
+LEGACY 4ivd 1801 RMSD 3.435 NFE 100 s 11.1
+LEGACY 4ivd 1802 RMSD 3.548 NFE 100 s 11.0
+LEGACY 4ivd 1803 RMSD 4.0 NFE 100 s 11.1
+LEGACY 2xnb 1801 RMSD 2.841 NFE 100 s 11.2
+LEGACY 2xnb 1802 RMSD 3.84 NFE 100 s 11.1
+LEGACY 2xnb 1803 RMSD 6.67 NFE 100 s 11.2
+LEGACY 1nvq 1801 RMSD 7.298 NFE 100 s 11.4
+LEGACY 1nvq 1802 RMSD 7.415 NFE 100 s 11.5
+LEGACY 1nvq 1803 RMSD 5.644 NFE 100 s 11.4
+LEGACY 2c3i 1801 RMSD 4.387 NFE 100 s 10.5
+LEGACY 2c3i 1802 RMSD 6.323 NFE 100 s 10.4
+LEGACY 2c3i 1803 RMSD 5.709 NFE 100 s 10.4
+LEGACY 3ehy 1801 RMSD 6.949 NFE 100 s 10.0
+LEGACY 3ehy 1802 RMSD 7.003 NFE 100 s 10.0
+LEGACY 3ehy 1803 RMSD 6.903 NFE 100 s 10.0
+NATIVE 2w4x 1801 RMSD 4.113 NFE 100 s 10.7
+NATIVE 2w4x 1802 RMSD 3.896 NFE 100 s 10.7
+NATIVE 2w4x 1803 RMSD 4.157 NFE 100 s 10.6
+NATIVE 4ivd 1801 RMSD 3.796 NFE 100 s 11.6
+NATIVE 4ivd 1802 RMSD 3.367 NFE 100 s 11.6
+NATIVE 4ivd 1803 RMSD 4.028 NFE 100 s 11.6
+NATIVE 2xnb 1801 RMSD 2.252 NFE 100 s 11.9
+NATIVE 2xnb 1802 RMSD 1.489 NFE 100 s 11.9
+NATIVE 2xnb 1803 RMSD 4.97 NFE 100 s 11.9
+NATIVE 1nvq 1801 RMSD 6.237 NFE 100 s 12.6
+NATIVE 1nvq 1802 RMSD 6.916 NFE 100 s 12.6
+NATIVE 1nvq 1803 RMSD 4.825 NFE 100 s 12.7
+NATIVE 2c3i 1801 RMSD 4.848 NFE 100 s 11.3
+NATIVE 2c3i 1802 RMSD 6.375 NFE 100 s 11.2
+NATIVE 2c3i 1803 RMSD 5.956 NFE 100 s 11.2
+NATIVE 3ehy 1801 RMSD 3.707 NFE 100 s 10.7
+NATIVE 3ehy 1802 RMSD 3.635 NFE 100 s 10.7
+NATIVE 3ehy 1803 RMSD 3.763 NFE 100 s 10.8

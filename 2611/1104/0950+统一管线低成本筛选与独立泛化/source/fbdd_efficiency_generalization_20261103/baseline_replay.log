@@ -1,0 +1,11 @@
+{
+  "K": 8,
+  "n": 288,
+  "high_quality": 70,
+  "unique_high_quality_pocket_constitution": 41,
+  "postprocess_regression_exact": true,
+  "new_neural_NFE": 0,
+  "reused_logical_pose_NFE": 23760,
+  "measured_replay_wall_seconds": 28.405008294037543,
+  "quality_source_sha256": "14fa7f5418e90ac4975866b58bdf55e8ef2f9726bfacb0b95a68e7c0aa0062d1"
+}

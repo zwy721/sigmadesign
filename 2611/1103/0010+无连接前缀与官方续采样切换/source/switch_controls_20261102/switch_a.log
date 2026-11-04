@@ -1,0 +1,53 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/switch_controls_20261102/official_cache/switch_a/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+SWITCH 2w4x 1801 0.6 oracle 1.027 predicted 4.687
+SWITCH 2w4x 1801 0.4 oracle 1.112 predicted 4.796
+SWITCH 2w4x 1801 0.2 oracle 3.196 predicted 4.752
+SWITCH 2w4x 1801 0.1 oracle 4.746 predicted 4.156
+OFFICIAL_FULL 2w4x 1802
+SWITCH 2w4x 1802 0.6 oracle 0.946 predicted 4.692
+SWITCH 2w4x 1802 0.4 oracle 0.845 predicted 1.101
+SWITCH 2w4x 1802 0.2 oracle 0.949 predicted 5.127
+SWITCH 2w4x 1802 0.1 oracle 3.336 predicted 4.411
+OFFICIAL_FULL 2w4x 1803
+SWITCH 2w4x 1803 0.6 oracle 0.95 predicted 2.497
+SWITCH 2w4x 1803 0.4 oracle 0.952 predicted 2.543
+SWITCH 2w4x 1803 0.2 oracle 1.2 predicted 2.758
+SWITCH 2w4x 1803 0.1 oracle 5.738 predicted 5.739
+OFFICIAL_FULL 4ivd 1801
+REGRESSION 4ivd 1801 0.0
+SWITCH 4ivd 1801 0.6 oracle 0.515 predicted 3.424
+SWITCH 4ivd 1801 0.4 oracle 0.577 predicted 4.568
+SWITCH 4ivd 1801 0.2 oracle 1.212 predicted 4.529
+SWITCH 4ivd 1801 0.1 oracle 2.372 predicted 3.491
+OFFICIAL_FULL 4ivd 1802
+SWITCH 4ivd 1802 0.6 oracle 1.432 predicted 3.213
+SWITCH 4ivd 1802 0.4 oracle 1.448 predicted 3.201
+SWITCH 4ivd 1802 0.2 oracle 1.507 predicted 3.133
+SWITCH 4ivd 1802 0.1 oracle 1.579 predicted 3.395
+OFFICIAL_FULL 4ivd 1803
+SWITCH 4ivd 1803 0.6 oracle 1.087 predicted 2.903
+SWITCH 4ivd 1803 0.4 oracle 0.949 predicted 3.079
+SWITCH 4ivd 1803 0.2 oracle 1.195 predicted 3.242
+SWITCH 4ivd 1803 0.1 oracle 1.756 predicted 4.077
+OFFICIAL_FULL 2xnb 1801
+REGRESSION 2xnb 1801 0.0
+SWITCH 2xnb 1801 0.6 oracle 1.394 predicted 7.435
+SWITCH 2xnb 1801 0.4 oracle 1.391 predicted 3.992
+SWITCH 2xnb 1801 0.2 oracle 1.356 predicted 3.741
+SWITCH 2xnb 1801 0.1 oracle 2.567 predicted 1.992
+OFFICIAL_FULL 2xnb 1802
+SWITCH 2xnb 1802 0.6 oracle 1.119 predicted 7.176
+SWITCH 2xnb 1802 0.4 oracle 1.101 predicted 4.159
+SWITCH 2xnb 1802 0.2 oracle 1.109 predicted 1.955
+SWITCH 2xnb 1802 0.1 oracle 1.608 predicted 2.348
+OFFICIAL_FULL 2xnb 1803
+SWITCH 2xnb 1803 0.6 oracle 1.366 predicted 3.122
+SWITCH 2xnb 1803 0.4 oracle 1.389 predicted 3.085
+SWITCH 2xnb 1803 0.2 oracle 1.616 predicted 5.51
+SWITCH 2xnb 1803 0.1 oracle 5.004 predicted 5.8

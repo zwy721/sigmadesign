@@ -1,0 +1,84 @@
+{
+  "task_key": "late_guidance",
+  "task_title": "晚期三次几何投影与末端修复比较",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-03T23:27:07.949399+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "fbdd_efficiency_generalization_20261103/LATE_GEOMETRY_GUIDANCE_RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "fbdd_efficiency_generalization_20261103/LATE_GEOMETRY_GUIDANCE_RESULTS.md",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/LATE_GEOMETRY_GUIDANCE_RESULTS.md",
+      "sha256": "b0f9f0072b5508a9928765d3be47431f2c3b72f98fcf6534d0f432b8853a4425",
+      "bytes": 3901,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.949399+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_development.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_development.log",
+      "sha256": "de4ce1bf685ce38778d985245181fcbe0d023133b6b7a530a302d0ba3053ed62",
+      "bytes": 59599,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:08:51.338832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_immediate_geometry_summary.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_immediate_geometry_summary.json",
+      "sha256": "c7e82f9be0c2b0eea7650825f6d0067739a35123ba5656c705f6456c168e9c2b",
+      "bytes": 628,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.905571+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent.log",
+      "sha256": "efb098a8eef24a43192beedd5d212cd1d2710d268793423d5ca24d1873ba3c22",
+      "bytes": 1511,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:25:31.176822+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent_postprocess.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent_postprocess.log",
+      "sha256": "51d42bb2a0a11c91818448d787f890f4e4fe6560c449048763281a4dbca4bdf3",
+      "bytes": 3406,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:26:28.071813+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_independent_raw_stereo.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_independent_raw_stereo.log",
+      "sha256": "37d083252b75d197f52a424e699e9a8389ba68bdaf37e342c663bc0156be4a44",
+      "bytes": 1444,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:26:50.312727+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_receptor_bootstrap.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_receptor_bootstrap.json",
+      "sha256": "a9d4f1e0edf5bed4075a3055083726ae675391a2224f6cdbec9f4f47bacab150",
+      "bytes": 336,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.948867+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_selection_lock.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_selection_lock.json",
+      "sha256": "bbf9b760cb74a52f6e2d76fc80b6ace1f7cb12cb529644d89105699fdc472dd3",
+      "bytes": 934,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:08:51.338832+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_state_recovery.log",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_state_recovery.log",
+      "sha256": "79f7e71a2ceeeaf7016fc6f623108cd0dd640b6e159d00bfe03d4b480409526b",
+      "bytes": 1031,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:19:40.203743+08:00"
+    },
+    {
+      "source": "fbdd_efficiency_generalization_20261103/late_summary.json",
+      "repository_path": "2611/1103/2327+晚期三次几何投影与末端修复比较/source/fbdd_efficiency_generalization_20261103/late_summary.json",
+      "sha256": "bfe53fbd18ba100a0d3ff66a96436818fb5024d3e64e1cee06d2372a77c9a89e",
+      "bytes": 2770,
+      "source_modified_Asia_Shanghai": "2026-11-03T23:27:07.949076+08:00"
+    }
+  ]
+}

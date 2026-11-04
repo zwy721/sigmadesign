@@ -1,0 +1,61 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official_cache/refine_a/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+REFINE 2w4x 1801 0.05 RMSD 4.724 chemical 4.724 s 11.5
+REFINE 2w4x 1801 0.1 RMSD 4.989 chemical 4.989 s 10.3
+REFINE 2w4x 1801 0.2 RMSD 5.134 chemical 5.134 s 10.6
+REFINE 2w4x 1802 0.05 RMSD 4.271 chemical 4.271 s 10.2
+REFINE 2w4x 1802 0.1 RMSD 4.055 chemical 4.055 s 10.1
+REFINE 2w4x 1802 0.2 RMSD 1.184 chemical 1.184 s 10.0
+REFINE 2w4x 1803 0.05 RMSD 6.021 chemical 6.021 s 10.2
+REFINE 2w4x 1803 0.1 RMSD 6.042 chemical 6.042 s 10.1
+REFINE 2w4x 1803 0.2 RMSD 1.433 chemical 1.433 s 10.2
+REFINE 4ivd 1801 0.05 RMSD 2.851 chemical 2.851 s 10.3
+REFINE 4ivd 1801 0.1 RMSD 2.367 chemical 2.367 s 10.3
+REFINE 4ivd 1801 0.2 RMSD 0.803 chemical 0.803 s 10.3
+REFINE 4ivd 1802 0.05 RMSD 2.563 chemical 2.563 s 10.5
+REFINE 4ivd 1802 0.1 RMSD 1.652 chemical 1.652 s 10.3
+REFINE 4ivd 1802 0.2 RMSD 1.531 chemical 1.531 s 10.3
+REFINE 4ivd 1803 0.05 RMSD 3.16 chemical 3.16 s 10.3
+REFINE 4ivd 1803 0.1 RMSD 1.856 chemical 1.856 s 10.4
+REFINE 4ivd 1803 0.2 RMSD 1.25 chemical 1.25 s 10.4
+REFINE 2xnb 1801 0.05 RMSD 2.621 chemical 2.317 s 10.3
+REFINE 2xnb 1801 0.1 RMSD 2.469 chemical 2.129 s 10.3
+REFINE 2xnb 1801 0.2 RMSD 1.427 chemical 0.659 s 10.6
+REFINE 2xnb 1802 0.05 RMSD 3.106 chemical 3.005 s 10.2
+REFINE 2xnb 1802 0.1 RMSD 1.78 chemical 1.614 s 10.2
+REFINE 2xnb 1802 0.2 RMSD 1.237 chemical 0.945 s 10.3
+REFINE 2xnb 1803 0.05 RMSD 6.236 chemical 6.196 s 10.6
+REFINE 2xnb 1803 0.1 RMSD 5.306 chemical 5.268 s 10.7
+REFINE 2xnb 1803 0.2 RMSD 2.155 chemical 2.155 s 10.5
+REFINE 1nvq 1801 0.05 RMSD 6.472 chemical 6.472 s 10.3
+REFINE 1nvq 1801 0.1 RMSD 4.546 chemical 4.546 s 10.2
+REFINE 1nvq 1801 0.2 RMSD 1.915 chemical 1.915 s 10.3
+REFINE 1nvq 1802 0.05 RMSD 7.101 chemical 7.101 s 10.3
+REFINE 1nvq 1802 0.1 RMSD 5.563 chemical 5.563 s 10.4
+REFINE 1nvq 1802 0.2 RMSD 2.654 chemical 2.654 s 10.3
+REFINE 1nvq 1803 0.05 RMSD 5.519 chemical 5.519 s 10.4
+REFINE 1nvq 1803 0.1 RMSD 5.325 chemical 5.325 s 10.3
+REFINE 1nvq 1803 0.2 RMSD 5.384 chemical 5.384 s 10.3
+REFINE 2c3i 1801 0.05 RMSD 3.943 chemical 3.926 s 10.3
+REFINE 2c3i 1801 0.1 RMSD 3.476 chemical 3.452 s 10.3
+REFINE 2c3i 1801 0.2 RMSD 2.469 chemical 2.433 s 10.6
+REFINE 2c3i 1802 0.05 RMSD 5.817 chemical 5.809 s 10.2
+REFINE 2c3i 1802 0.1 RMSD 5.139 chemical 5.129 s 10.2
+REFINE 2c3i 1802 0.2 RMSD 4.833 chemical 4.816 s 10.3
+REFINE 2c3i 1803 0.05 RMSD 5.329 chemical 5.323 s 10.2
+REFINE 2c3i 1803 0.1 RMSD 5.013 chemical 4.999 s 10.1
+REFINE 2c3i 1803 0.2 RMSD 5.314 chemical 5.299 s 10.2
+REFINE 3ehy 1801 0.05 RMSD 6.544 chemical 6.544 s 10.1
+REFINE 3ehy 1801 0.1 RMSD 6.33 chemical 6.33 s 10.2
+REFINE 3ehy 1801 0.2 RMSD 6.0 chemical 6.0 s 10.2
+REFINE 3ehy 1802 0.05 RMSD 6.73 chemical 6.73 s 10.2
+REFINE 3ehy 1802 0.1 RMSD 6.498 chemical 6.498 s 10.2
+REFINE 3ehy 1802 0.2 RMSD 5.992 chemical 5.992 s 10.2
+REFINE 3ehy 1803 0.05 RMSD 7.16 chemical 7.085 s 10.3
+REFINE 3ehy 1803 0.1 RMSD 7.401 chemical 7.328 s 10.5
+REFINE 3ehy 1803 0.2 RMSD 6.819 chemical 6.775 s 10.6

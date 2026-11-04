@@ -1,0 +1,99 @@
+{
+  "state": "complete",
+  "reason": null,
+  "supervisor_pid": 2663649,
+  "updated_unix": 1793219543.0413435,
+  "gpu_devices": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "total_pockets": 285,
+  "samples_per_pocket": 25,
+  "target_samples": 7125,
+  "generated_pockets": 285,
+  "scored_pockets": 285,
+  "workers": {
+    "gpu:0": {
+      "pid": 2663650,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "gpu:1": {
+      "pid": 2663651,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "gpu:2": {
+      "pid": 2663652,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "gpu:3": {
+      "pid": 2663653,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:0": {
+      "pid": 2663654,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:1": {
+      "pid": 2663655,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:2": {
+      "pid": 2663656,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:3": {
+      "pid": 2663657,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:4": {
+      "pid": 2663658,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:5": {
+      "pid": 2663659,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:6": {
+      "pid": 2663660,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:7": {
+      "pid": 2663661,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:8": {
+      "pid": 2663662,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:9": {
+      "pid": 2663663,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:10": {
+      "pid": 2663664,
+      "restart_count": 0,
+      "returncode": 0
+    },
+    "cpu:11": {
+      "pid": 2663665,
+      "restart_count": 0,
+      "returncode": 0
+    }
+  }
+}

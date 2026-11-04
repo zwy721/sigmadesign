@@ -1,0 +1,18 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+INFO:matplotlib.font_manager:Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Non-scalable fonts are not supported
+INFO:matplotlib.font_manager:generated new fontManager
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+9YSP fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+9RT3 fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+9T4A fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+7ILZ fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+9T51 fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+9SYL fixture_ready 
+[INFO] Sample conformer is set to True. The bound ligand pose will NOT be used for fragmentation but rather a sampled conformation.
+12AV fixture_ready 

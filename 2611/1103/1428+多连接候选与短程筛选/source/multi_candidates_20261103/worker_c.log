@@ -1,0 +1,88 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/official_cache/worker_c/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+SHORT 2zcq 1801 1 scores -1.936 -0.059
+SHORT 2zcq 1801 2 scores -1.928 0.146
+SHORT 2zcq 1801 3 scores -1.883 -0.023
+SHORT 2zcq 1801 4 scores -1.935 -0.976
+SHORT 2zcq 1801 5 scores -1.927 -0.71
+SHORT 2zcq 1801 6 scores -1.882 0.032
+SHORT 2zcq 1801 7 scores -2.133 -0.617
+SHORT 2zcq 1801 8 scores -2.052 0.701
+DONE 2zcq 1801 pool 8 covered8 False NFE 448
+SHORT 2zcq 1802 1 scores -2.248 0.272
+SHORT 2zcq 1802 2 scores -2.339 0.354
+SHORT 2zcq 1802 3 scores -2.344 -1.228
+SHORT 2zcq 1802 4 scores -2.436 -0.512
+SHORT 2zcq 1802 5 scores -2.358 -0.112
+SHORT 2zcq 1802 6 scores -2.45 0.571
+SHORT 2zcq 1802 7 scores -2.508 0.13
+SHORT 2zcq 1802 8 scores -2.401 -0.279
+DONE 2zcq 1802 pool 8 covered8 False NFE 320
+SHORT 2zcq 1803 1 scores -2.794 -1.27
+SHORT 2zcq 1803 2 scores -2.788 -1.313
+SHORT 2zcq 1803 3 scores -2.818 -1.787
+SHORT 2zcq 1803 4 scores -2.913 -0.754
+SHORT 2zcq 1803 5 scores -2.74 -1.633
+SHORT 2zcq 1803 6 scores -2.734 -1.103
+SHORT 2zcq 1803 7 scores -2.984 -1.775
+SHORT 2zcq 1803 8 scores -3.002 -1.7
+DONE 2zcq 1803 pool 8 covered8 False NFE 384
+SHORT 5c2h 1801 1 scores -3.137 -1.529
+SHORT 5c2h 1801 2 scores -3.214 -1.597
+SHORT 5c2h 1801 3 scores -3.36 -1.974
+SHORT 5c2h 1801 4 scores -3.421 -1.121
+SHORT 5c2h 1801 5 scores -3.223 -1.426
+SHORT 5c2h 1801 6 scores -3.498 -1.46
+SHORT 5c2h 1801 7 scores -3.349 -2.495
+SHORT 5c2h 1801 8 scores -3.826 -1.481
+DONE 5c2h 1801 pool 8 covered8 False NFE 256
+SHORT 5c2h 1802 1 scores -2.496 -1.525
+SHORT 5c2h 1802 2 scores -2.307 -1.655
+SHORT 5c2h 1802 3 scores -2.805 -1.429
+SHORT 5c2h 1802 4 scores -2.4 -1.644
+SHORT 5c2h 1802 5 scores -2.611 -0.884
+SHORT 5c2h 1802 6 scores -2.674 -1.806
+SHORT 5c2h 1802 7 scores -2.985 -1.951
+SHORT 5c2h 1802 8 scores -2.485 -1.079
+DONE 5c2h 1802 pool 8 covered8 False NFE 384
+SHORT 5c2h 1803 1 scores -3.353 -2.708
+SHORT 5c2h 1803 2 scores -3.6 -2.241
+SHORT 5c2h 1803 3 scores -3.593 -1.993
+SHORT 5c2h 1803 4 scores -3.128 -2.255
+SHORT 5c2h 1803 5 scores -3.84 -2.123
+SHORT 5c2h 1803 6 scores -3.375 -2.201
+SHORT 5c2h 1803 7 scores -3.272 -2.061
+SHORT 5c2h 1803 8 scores -3.519 -1.836
+DONE 5c2h 1803 pool 8 covered8 False NFE 384
+SHORT 1qf1 1801 1 scores -6.228 -2.921
+SHORT 1qf1 1801 2 scores -6.259 -2.363
+SHORT 1qf1 1801 3 scores -6.335 -2.859
+SHORT 1qf1 1801 4 scores -6.328 -3.121
+SHORT 1qf1 1801 5 scores -6.44 -2.017
+SHORT 1qf1 1801 6 scores -6.339 -3.479
+SHORT 1qf1 1801 7 scores -6.369 -2.766
+SHORT 1qf1 1801 8 scores -6.322 -2.286
+DONE 1qf1 1801 pool 8 covered8 False NFE 320
+SHORT 1qf1 1802 1 scores -6.963 -2.192
+SHORT 1qf1 1802 2 scores -7.039 -2.646
+SHORT 1qf1 1802 3 scores -6.992 -1.78
+SHORT 1qf1 1802 4 scores -6.84 -2.19
+SHORT 1qf1 1802 5 scores -7.18 -3.151
+SHORT 1qf1 1802 6 scores -7.181 -3.31
+SHORT 1qf1 1802 7 scores -7.081 -2.887
+SHORT 1qf1 1802 8 scores -7.103 -2.122
+DONE 1qf1 1802 pool 8 covered8 False NFE 320
+SHORT 1qf1 1803 1 scores -5.335 -2.994
+SHORT 1qf1 1803 2 scores -5.481 -1.797
+SHORT 1qf1 1803 3 scores -5.65 -1.062
+SHORT 1qf1 1803 4 scores -5.729 -2.142
+SHORT 1qf1 1803 5 scores -5.678 -1.483
+SHORT 1qf1 1803 6 scores -5.628 -3.875
+SHORT 1qf1 1803 7 scores -5.773 -1.61
+SHORT 1qf1 1803 8 scores -5.731 -1.726
+DONE 1qf1 1803 pool 8 covered8 False NFE 256

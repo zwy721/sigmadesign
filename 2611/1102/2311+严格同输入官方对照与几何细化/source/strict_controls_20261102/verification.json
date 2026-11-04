@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "counts": {
+    "official": 36,
+    "legacy": 36,
+    "refinement": 108,
+    "noise_pairs": 288,
+    "continuation": 72,
+    "native_input_control": 12
+  },
+  "max_initial_coordinate_difference_A": 9.174521579780048e-06,
+  "max_refinement_handoff_difference_A": 2.86102294921875e-05,
+  "official_pose_force_evaluations": 13824,
+  "legacy_trajectory_force_evaluations": 11520,
+  "frozen_protocols": [
+    "full_all",
+    "legacy_a",
+    "legacy_b",
+    "refine_a",
+    "refine_b",
+    "refine_tail"
+  ],
+  "shared_reference_max_difference_A": 1.9073486328125e-06,
+  "note": "NFE counts exclude one-step noise diagnostics, message ablations, connection-only evaluation and reference gauge checks."
+}

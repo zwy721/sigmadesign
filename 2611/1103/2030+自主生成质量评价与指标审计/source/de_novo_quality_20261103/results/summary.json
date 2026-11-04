@@ -1,0 +1,2579 @@
+{
+  "total_molecules": 84,
+  "groups": {
+    "A_predicted_t0.6": {
+      "n": 36,
+      "receptors": 12,
+      "checks": {
+        "angle_geometry_valid": {
+          "total": 36,
+          "passed": 18,
+          "failed": 18,
+          "unavailable": 0,
+          "pass_rate_all": 0.5,
+          "pass_rate_evaluable": 0.5
+        },
+        "bond_geometry_valid": {
+          "total": 36,
+          "passed": 23,
+          "failed": 13,
+          "unavailable": 0,
+          "pass_rate_all": 0.6388888888888888,
+          "pass_rate_evaluable": 0.6388888888888888
+        },
+        "chemical_valid": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "chemically_valid_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "fully_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "geometric_quality_without_stereo": {
+          "total": 36,
+          "passed": 8,
+          "failed": 28,
+          "unavailable": 0,
+          "pass_rate_all": 0.2222222222222222,
+          "pass_rate_evaluable": 0.2222222222222222
+        },
+        "high_quality": {
+          "total": 36,
+          "passed": 0,
+          "failed": 36,
+          "unavailable": 0,
+          "pass_rate_all": 0.0,
+          "pass_rate_evaluable": 0.0
+        },
+        "in_target_pocket": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_severe_internal_clash": {
+          "total": 36,
+          "passed": 19,
+          "failed": 17,
+          "unavailable": 0,
+          "pass_rate_all": 0.5277777777777778,
+          "pass_rate_evaluable": 0.5277777777777778
+        },
+        "no_severe_protein_clash": {
+          "total": 36,
+          "passed": 28,
+          "failed": 8,
+          "unavailable": 0,
+          "pass_rate_all": 0.7777777777777778,
+          "pass_rate_evaluable": 0.7777777777777778
+        },
+        "posebusters_all_pass": {
+          "total": 36,
+          "passed": 5,
+          "failed": 31,
+          "unavailable": 0,
+          "pass_rate_all": 0.1388888888888889,
+          "pass_rate_evaluable": 0.1388888888888889
+        },
+        "posebusters_mol_all_pass": {
+          "total": 36,
+          "passed": 12,
+          "failed": 24,
+          "unavailable": 0,
+          "pass_rate_all": 0.3333333333333333,
+          "pass_rate_evaluable": 0.3333333333333333
+        },
+        "posebusters_without_water_pass": {
+          "total": 36,
+          "passed": 9,
+          "failed": 27,
+          "unavailable": 0,
+          "pass_rate_all": 0.25,
+          "pass_rate_evaluable": 0.25
+        },
+        "ring_geometry_valid": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sdf_parse_success": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "stereo_definition_complete": {
+          "total": 36,
+          "passed": 8,
+          "failed": 28,
+          "unavailable": 0,
+          "pass_rate_all": 0.2222222222222222,
+          "pass_rate_evaluable": 0.2222222222222222
+        },
+        "stereo_geometry_consistent": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "torsion_geometry_valid": {
+          "total": 36,
+          "passed": 20,
+          "failed": 16,
+          "unavailable": 0,
+          "pass_rate_all": 0.5555555555555556,
+          "pass_rate_evaluable": 0.5555555555555556
+        }
+      },
+      "posebusters_tests": {
+        "all_atoms_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "aromatic_ring_flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "bond_angles": {
+          "total": 36,
+          "passed": 18,
+          "failed": 18,
+          "unavailable": 0,
+          "pass_rate_all": 0.5,
+          "pass_rate_evaluable": 0.5
+        },
+        "bond_lengths": {
+          "total": 36,
+          "passed": 23,
+          "failed": 13,
+          "unavailable": 0,
+          "pass_rate_all": 0.6388888888888888,
+          "pass_rate_evaluable": 0.6388888888888888
+        },
+        "double_bond_flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "inchi_convertible": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "internal_energy": {
+          "total": 36,
+          "passed": 25,
+          "failed": 11,
+          "unavailable": 0,
+          "pass_rate_all": 0.6944444444444444,
+          "pass_rate_evaluable": 0.6944444444444444
+        },
+        "internal_steric_clash": {
+          "total": 36,
+          "passed": 22,
+          "failed": 14,
+          "unavailable": 0,
+          "pass_rate_all": 0.6111111111111112,
+          "pass_rate_evaluable": 0.6111111111111112
+        },
+        "minimum_distance_to_inorganic_cofactors": {
+          "total": 36,
+          "passed": 34,
+          "failed": 2,
+          "unavailable": 0,
+          "pass_rate_all": 0.9444444444444444,
+          "pass_rate_evaluable": 0.9444444444444444
+        },
+        "minimum_distance_to_organic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_protein": {
+          "total": 36,
+          "passed": 28,
+          "failed": 8,
+          "unavailable": 0,
+          "pass_rate_all": 0.7777777777777778,
+          "pass_rate_evaluable": 0.7777777777777778
+        },
+        "minimum_distance_to_waters": {
+          "total": 36,
+          "passed": 11,
+          "failed": 25,
+          "unavailable": 0,
+          "pass_rate_all": 0.3055555555555556,
+          "pass_rate_evaluable": 0.3055555555555556
+        },
+        "mol_cond_loaded": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "mol_pred_loaded": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_radicals": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "non-aromatic_ring_non-flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "protein-ligand_maximum_distance": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sanitization": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_inorganic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_organic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_protein": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_waters": {
+          "total": 36,
+          "passed": 35,
+          "failed": 1,
+          "unavailable": 0,
+          "pass_rate_all": 0.9722222222222222,
+          "pass_rate_evaluable": 0.9722222222222222
+        }
+      },
+      "failure_counts": {
+        "disconnected": 0,
+        "cross_bond_geometry": 13,
+        "other_bond_geometry": 0,
+        "internal_clash": 17,
+        "protein_clash": 8,
+        "angle_geometry": 18,
+        "ring_geometry": 0,
+        "torsion_geometry": 16,
+        "stereo_undefined": 28,
+        "stereo_conflict": 0,
+        "high_strain_diagnostic": 30,
+        "PB_internal_energy": 11,
+        "PB_other": 31
+      },
+      "numeric": {
+        "geometry.severe_internal_clash_pairs": {
+          "n": 36,
+          "mean": 1.8055555555555556,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 16.0,
+          "p05": 0.0,
+          "p95": 6.5
+        },
+        "geometry.abnormal_bond_count": {
+          "n": 36,
+          "mean": 0.5833333333333334,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 4.0,
+          "p05": 0.0,
+          "p95": 2.25
+        },
+        "geometry.cross_fragment_abnormal_bond_count": {
+          "n": 36,
+          "mean": 0.5833333333333334,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 4.0,
+          "p05": 0.0,
+          "p95": 2.25
+        },
+        "geometry.cross_fragment_max_bond_deviation_A": {
+          "n": 36,
+          "mean": 0.38616365695330745,
+          "median": 0.25857260425218864,
+          "min": 0.05658811394336061,
+          "max": 1.214565839005972,
+          "p05": 0.1061146825136785,
+          "p95": 0.9180441628236558
+        },
+        "geometry.max_bond_deviation_A": {
+          "n": 36,
+          "mean": 0.38674917925829067,
+          "median": 0.25857260425218864,
+          "min": 0.06044228476943436,
+          "max": 1.214565839005972,
+          "p05": 0.10838148814161869,
+          "p95": 0.9180441628236558
+        },
+        "geometry.max_bond_length_A": {
+          "n": 36,
+          "mean": 1.9009400746308,
+          "median": 1.758048871413169,
+          "min": 1.5235208006456624,
+          "max": 3.0275115623230917,
+          "p05": 1.5622474018140362,
+          "p95": 2.5488409591521672
+        },
+        "geometry.abnormal_angle_count": {
+          "n": 36,
+          "mean": 1.1944444444444444,
+          "median": 0.5,
+          "min": 0.0,
+          "max": 10.0,
+          "p05": 0.0,
+          "p95": 4.5
+        },
+        "protein.severe_clash_pairs": {
+          "n": 36,
+          "mean": 0.6944444444444444,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 12.0,
+          "p05": 0.0,
+          "p95": 2.75
+        },
+        "protein.minimum_distance_A": {
+          "n": 36,
+          "mean": 2.5474546172495987,
+          "median": 2.6103236340068374,
+          "min": 1.0159218916826236,
+          "max": 3.1891613474391662,
+          "p05": 1.9465285995144415,
+          "p95": 2.9670836039567803
+        },
+        "protein.minimum_vdw_ratio": {
+          "n": 36,
+          "mean": 0.7904534711395645,
+          "median": 0.8087929882871908,
+          "min": 0.29880055637724223,
+          "max": 0.9489364252152755,
+          "p05": 0.6201063098386659,
+          "p95": 0.9008537798533665
+        },
+        "protein.pocket_atom_fraction": {
+          "n": 36,
+          "mean": 0.9825361492028158,
+          "median": 1.0,
+          "min": 0.8461538461538461,
+          "max": 1.0,
+          "p05": 0.8636363636363636,
+          "p95": 1.0
+        },
+        "protein.contact_pairs": {
+          "n": 36,
+          "mean": 154.75,
+          "median": 151.0,
+          "min": 88.0,
+          "max": 250.0,
+          "p05": 107.75,
+          "p95": 224.75
+        },
+        "forcefield.energy_drop_kcal_mol": {
+          "n": 36,
+          "mean": 12596.492001559385,
+          "median": 389.22923584109714,
+          "min": 18.52339442396091,
+          "max": 378883.1617537366,
+          "p05": 26.955074990263448,
+          "p95": 19065.209977564173
+        },
+        "forcefield.energy_drop_per_heavy_atom": {
+          "n": 36,
+          "mean": 446.43070734950965,
+          "median": 12.781902230248614,
+          "min": 1.089611436703583,
+          "max": 14032.709694582838,
+          "p05": 1.1656641245907364,
+          "p95": 515.2759453395722
+        },
+        "forcefield.heavy_atom_RMSD_no_alignment_A": {
+          "n": 36,
+          "mean": 1.55740861540121,
+          "median": 1.4171592631480663,
+          "min": 0.03750128882374608,
+          "max": 4.3125827941130295,
+          "p05": 0.4427302980275672,
+          "p95": 3.2530257680537353
+        },
+        "forcefield.max_cross_fragment_bond_change_A": {
+          "n": 36,
+          "mean": 0.36387663800970815,
+          "median": 0.28283043072879677,
+          "min": 0.0621414118716348,
+          "max": 1.245300376260119,
+          "p05": 0.07529194859100169,
+          "p95": 0.865782868929986
+        },
+        "vina.total_kcal_mol": {
+          "n": 33,
+          "mean": -4.644727272727273,
+          "median": -5.511,
+          "min": -9.36,
+          "max": 22.608,
+          "p05": -9.068,
+          "p95": 0.9535999999999974
+        },
+        "properties.MW": {
+          "n": 36,
+          "mean": 418.61191666666673,
+          "median": 384.93150000000014,
+          "min": 259.28299999999996,
+          "max": 671.863,
+          "p05": 259.28299999999996,
+          "p95": 671.863
+        },
+        "properties.LogP": {
+          "n": 36,
+          "mean": 2.4820627777777795,
+          "median": 2.5569000000000006,
+          "min": -2.5789999999999984,
+          "max": 5.857140000000006,
+          "p05": -2.3170999999999986,
+          "p95": 5.857140000000006
+        },
+        "properties.QED": {
+          "n": 36,
+          "mean": 0.4480079236158318,
+          "median": 0.36934669651398,
+          "min": 0.13362315236872682,
+          "max": 0.8060047411303741,
+          "p05": 0.13693164257294105,
+          "p95": 0.7800656473380091
+        },
+        "properties.TPSA": {
+          "n": 36,
+          "mean": 104.57333333333332,
+          "median": 94.28,
+          "min": 50.50000000000001,
+          "max": 199.31,
+          "p05": 57.09250000000001,
+          "p95": 183.6175
+        },
+        "properties.HBD": {
+          "n": 36,
+          "mean": 2.6944444444444446,
+          "median": 2.0,
+          "min": 0.0,
+          "max": 6.0,
+          "p05": 0.0,
+          "p95": 5.25
+        },
+        "properties.HBA": {
+          "n": 36,
+          "mean": 5.111111111111111,
+          "median": 4.0,
+          "min": 3.0,
+          "max": 8.0,
+          "p05": 3.0,
+          "p95": 8.0
+        },
+        "properties.rotatable_bonds": {
+          "n": 36,
+          "mean": 6.916666666666667,
+          "median": 6.0,
+          "min": 3.0,
+          "max": 13.0,
+          "p05": 3.0,
+          "p95": 13.0
+        },
+        "properties.rings": {
+          "n": 36,
+          "mean": 3.5833333333333335,
+          "median": 4.0,
+          "min": 1.0,
+          "max": 8.0,
+          "p05": 1.0,
+          "p95": 8.0
+        },
+        "properties.aromatic_rings": {
+          "n": 36,
+          "mean": 2.75,
+          "median": 3.0,
+          "min": 0.0,
+          "max": 5.0,
+          "p05": 0.0,
+          "p95": 5.0
+        },
+        "properties.heavy_atoms": {
+          "n": 36,
+          "mean": 29.833333333333332,
+          "median": 26.5,
+          "min": 17.0,
+          "max": 49.0,
+          "p05": 17.0,
+          "p95": 49.0
+        },
+        "properties.formal_charge": {
+          "n": 36,
+          "mean": 0.4166666666666667,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 1.0,
+          "p05": 0.0,
+          "p95": 1.0
+        }
+      },
+      "fragment_bond_totals": {
+        "bond_count": 1167,
+        "abnormal_bond_count": 21,
+        "cross_fragment_bond_count": 192,
+        "cross_fragment_abnormal_bond_count": 21,
+        "within_fragment_bond_count": 975,
+        "within_fragment_abnormal_bond_count": 0
+      },
+      "fragment_mapping_available_count": 36,
+      "vina_status_counts": {
+        "ok": 33,
+        "unavailable": 3
+      },
+      "forcefield_status_counts": {
+        "ok": 36
+      },
+      "local_forcefield_converged": 34,
+      "input_unchanged_count": 36,
+      "internal_clash_pair_severities": {
+        "severe": 65,
+        "moderate": 75,
+        "mild": 165
+      },
+      "metal_raw_vdw_overlap_molecules": 5
+    },
+    "B_official_true_graph": {
+      "n": 36,
+      "receptors": 12,
+      "checks": {
+        "angle_geometry_valid": {
+          "total": 36,
+          "passed": 25,
+          "failed": 11,
+          "unavailable": 0,
+          "pass_rate_all": 0.6944444444444444,
+          "pass_rate_evaluable": 0.6944444444444444
+        },
+        "bond_geometry_valid": {
+          "total": 36,
+          "passed": 23,
+          "failed": 13,
+          "unavailable": 0,
+          "pass_rate_all": 0.6388888888888888,
+          "pass_rate_evaluable": 0.6388888888888888
+        },
+        "chemical_valid": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "chemically_valid_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "fully_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "geometric_quality_without_stereo": {
+          "total": 36,
+          "passed": 13,
+          "failed": 23,
+          "unavailable": 0,
+          "pass_rate_all": 0.3611111111111111,
+          "pass_rate_evaluable": 0.3611111111111111
+        },
+        "high_quality": {
+          "total": 36,
+          "passed": 8,
+          "failed": 28,
+          "unavailable": 0,
+          "pass_rate_all": 0.2222222222222222,
+          "pass_rate_evaluable": 0.2222222222222222
+        },
+        "in_target_pocket": {
+          "total": 36,
+          "passed": 35,
+          "failed": 1,
+          "unavailable": 0,
+          "pass_rate_all": 0.9722222222222222,
+          "pass_rate_evaluable": 0.9722222222222222
+        },
+        "no_severe_internal_clash": {
+          "total": 36,
+          "passed": 31,
+          "failed": 5,
+          "unavailable": 0,
+          "pass_rate_all": 0.8611111111111112,
+          "pass_rate_evaluable": 0.8611111111111112
+        },
+        "no_severe_protein_clash": {
+          "total": 36,
+          "passed": 32,
+          "failed": 4,
+          "unavailable": 0,
+          "pass_rate_all": 0.8888888888888888,
+          "pass_rate_evaluable": 0.8888888888888888
+        },
+        "posebusters_all_pass": {
+          "total": 36,
+          "passed": 10,
+          "failed": 26,
+          "unavailable": 0,
+          "pass_rate_all": 0.2777777777777778,
+          "pass_rate_evaluable": 0.2777777777777778
+        },
+        "posebusters_mol_all_pass": {
+          "total": 36,
+          "passed": 20,
+          "failed": 16,
+          "unavailable": 0,
+          "pass_rate_all": 0.5555555555555556,
+          "pass_rate_evaluable": 0.5555555555555556
+        },
+        "posebusters_without_water_pass": {
+          "total": 36,
+          "passed": 16,
+          "failed": 20,
+          "unavailable": 0,
+          "pass_rate_all": 0.4444444444444444,
+          "pass_rate_evaluable": 0.4444444444444444
+        },
+        "ring_geometry_valid": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sdf_parse_success": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "stereo_definition_complete": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "stereo_geometry_consistent": {
+          "total": 36,
+          "passed": 30,
+          "failed": 6,
+          "unavailable": 0,
+          "pass_rate_all": 0.8333333333333334,
+          "pass_rate_evaluable": 0.8333333333333334
+        },
+        "torsion_geometry_valid": {
+          "total": 36,
+          "passed": 31,
+          "failed": 5,
+          "unavailable": 0,
+          "pass_rate_all": 0.8611111111111112,
+          "pass_rate_evaluable": 0.8611111111111112
+        }
+      },
+      "posebusters_tests": {
+        "all_atoms_connected": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "aromatic_ring_flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "bond_angles": {
+          "total": 36,
+          "passed": 25,
+          "failed": 11,
+          "unavailable": 0,
+          "pass_rate_all": 0.6944444444444444,
+          "pass_rate_evaluable": 0.6944444444444444
+        },
+        "bond_lengths": {
+          "total": 36,
+          "passed": 23,
+          "failed": 13,
+          "unavailable": 0,
+          "pass_rate_all": 0.6388888888888888,
+          "pass_rate_evaluable": 0.6388888888888888
+        },
+        "double_bond_flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "inchi_convertible": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "internal_energy": {
+          "total": 36,
+          "passed": 31,
+          "failed": 5,
+          "unavailable": 0,
+          "pass_rate_all": 0.8611111111111112,
+          "pass_rate_evaluable": 0.8611111111111112
+        },
+        "internal_steric_clash": {
+          "total": 36,
+          "passed": 31,
+          "failed": 5,
+          "unavailable": 0,
+          "pass_rate_all": 0.8611111111111112,
+          "pass_rate_evaluable": 0.8611111111111112
+        },
+        "minimum_distance_to_inorganic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_organic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_protein": {
+          "total": 36,
+          "passed": 32,
+          "failed": 4,
+          "unavailable": 0,
+          "pass_rate_all": 0.8888888888888888,
+          "pass_rate_evaluable": 0.8888888888888888
+        },
+        "minimum_distance_to_waters": {
+          "total": 36,
+          "passed": 20,
+          "failed": 16,
+          "unavailable": 0,
+          "pass_rate_all": 0.5555555555555556,
+          "pass_rate_evaluable": 0.5555555555555556
+        },
+        "mol_cond_loaded": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "mol_pred_loaded": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_radicals": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "non-aromatic_ring_non-flatness": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "protein-ligand_maximum_distance": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sanitization": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_inorganic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_organic_cofactors": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_protein": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_waters": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        }
+      },
+      "failure_counts": {
+        "disconnected": 0,
+        "cross_bond_geometry": 13,
+        "other_bond_geometry": 0,
+        "internal_clash": 5,
+        "protein_clash": 4,
+        "angle_geometry": 11,
+        "ring_geometry": 0,
+        "torsion_geometry": 5,
+        "stereo_undefined": 0,
+        "stereo_conflict": 6,
+        "high_strain_diagnostic": 32,
+        "PB_internal_energy": 5,
+        "PB_other": 26
+      },
+      "numeric": {
+        "geometry.severe_internal_clash_pairs": {
+          "n": 36,
+          "mean": 0.3888888888888889,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 7.0,
+          "p05": 0.0,
+          "p95": 2.0
+        },
+        "geometry.abnormal_bond_count": {
+          "n": 36,
+          "mean": 0.4444444444444444,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 2.0,
+          "p05": 0.0,
+          "p95": 2.0
+        },
+        "geometry.cross_fragment_abnormal_bond_count": {
+          "n": 36,
+          "mean": 0.4444444444444444,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 2.0,
+          "p05": 0.0,
+          "p95": 2.0
+        },
+        "geometry.cross_fragment_max_bond_deviation_A": {
+          "n": 36,
+          "mean": 0.3590401076305112,
+          "median": 0.28884702947294005,
+          "min": 0.06946386209297906,
+          "max": 0.7774371016722641,
+          "p05": 0.09217865555283161,
+          "p95": 0.7763044489831092
+        },
+        "geometry.max_bond_deviation_A": {
+          "n": 36,
+          "mean": 0.36102694601677154,
+          "median": 0.28884702947294005,
+          "min": 0.06946386209297906,
+          "max": 0.7774371016722641,
+          "p05": 0.11824384464369797,
+          "p95": 0.7763044489831092
+        },
+        "geometry.max_bond_length_A": {
+          "n": 36,
+          "mean": 1.8612686788547714,
+          "median": 1.788067646732951,
+          "min": 1.5237066712461425,
+          "max": 2.590382824989384,
+          "p05": 1.5265406621198887,
+          "p95": 2.5569748571687327
+        },
+        "geometry.abnormal_angle_count": {
+          "n": 36,
+          "mean": 0.3611111111111111,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 3.0,
+          "p05": 0.0,
+          "p95": 1.0
+        },
+        "protein.severe_clash_pairs": {
+          "n": 36,
+          "mean": 0.1388888888888889,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 2.0,
+          "p05": 0.0,
+          "p95": 1.0
+        },
+        "protein.minimum_distance_A": {
+          "n": 36,
+          "mean": 2.631694482112594,
+          "median": 2.6198320888731175,
+          "min": 2.149504059079679,
+          "max": 3.138433462732639,
+          "p05": 2.3204775951569685,
+          "p95": 2.930337473480088
+        },
+        "protein.minimum_vdw_ratio": {
+          "n": 36,
+          "mean": 0.8279287614964135,
+          "median": 0.8353452154578398,
+          "min": 0.6823822409776757,
+          "max": 0.9391789878826491,
+          "p05": 0.7280323757541519,
+          "p95": 0.9203408378212238
+        },
+        "protein.pocket_atom_fraction": {
+          "n": 36,
+          "mean": 0.9849470295898867,
+          "median": 1.0,
+          "min": 0.7954545454545454,
+          "max": 1.0,
+          "p05": 0.9253685503685504,
+          "p95": 1.0
+        },
+        "protein.contact_pairs": {
+          "n": 36,
+          "mean": 167.11111111111111,
+          "median": 160.0,
+          "min": 124.0,
+          "max": 223.0,
+          "p05": 126.5,
+          "p95": 220.25
+        },
+        "forcefield.energy_drop_kcal_mol": {
+          "n": 36,
+          "mean": 467.57186883048587,
+          "median": 189.06842672043786,
+          "min": 17.372138188446375,
+          "max": 3108.648279828865,
+          "p05": 21.296618421495644,
+          "p95": 2863.379138373105
+        },
+        "forcefield.energy_drop_per_heavy_atom": {
+          "n": 36,
+          "mean": 19.043749341275237,
+          "median": 5.851312768633432,
+          "min": 1.021890481673316,
+          "max": 172.7026822127147,
+          "p05": 1.2527422600879792,
+          "p95": 122.46447730789546
+        },
+        "forcefield.heavy_atom_RMSD_no_alignment_A": {
+          "n": 36,
+          "mean": 1.3537571724507398,
+          "median": 1.0067211641583431,
+          "min": 0.3912725537886542,
+          "max": 3.757281923547206,
+          "p05": 0.5086040638407063,
+          "p95": 3.2835499702704385
+        },
+        "forcefield.max_cross_fragment_bond_change_A": {
+          "n": 36,
+          "mean": 0.3541784997413895,
+          "median": 0.2731261801035758,
+          "min": 0.03461110711389659,
+          "max": 0.8347185348357786,
+          "p05": 0.0574682658157285,
+          "p95": 0.8022880506360447
+        },
+        "vina.total_kcal_mol": {
+          "n": 33,
+          "mean": -6.9128181818181815,
+          "median": -6.593,
+          "min": -11.833,
+          "max": 1.435,
+          "p05": -10.5,
+          "p95": -2.6596000000000077
+        },
+        "properties.MW": {
+          "n": 36,
+          "mean": 418.61191666666673,
+          "median": 384.93150000000014,
+          "min": 259.28299999999996,
+          "max": 671.863,
+          "p05": 259.28299999999996,
+          "p95": 671.863
+        },
+        "properties.LogP": {
+          "n": 36,
+          "mean": 2.499230000000002,
+          "median": 3.0059500000000017,
+          "min": -2.890899999999999,
+          "max": 5.683660000000005,
+          "p05": -2.890899999999999,
+          "p95": 5.683660000000005
+        },
+        "properties.QED": {
+          "n": 36,
+          "mean": 0.4499158935072897,
+          "median": 0.35475395970180645,
+          "min": 0.171368953051957,
+          "max": 0.8003459638043194,
+          "p05": 0.171368953051957,
+          "p95": 0.8003459638043194
+        },
+        "properties.TPSA": {
+          "n": 36,
+          "mean": 101.90083333333331,
+          "median": 93.48,
+          "min": 59.290000000000006,
+          "max": 167.95,
+          "p05": 59.290000000000006,
+          "p95": 167.95
+        },
+        "properties.HBD": {
+          "n": 36,
+          "mean": 2.9166666666666665,
+          "median": 3.0,
+          "min": 1.0,
+          "max": 6.0,
+          "p05": 1.0,
+          "p95": 6.0
+        },
+        "properties.HBA": {
+          "n": 36,
+          "mean": 5.083333333333333,
+          "median": 4.0,
+          "min": 4.0,
+          "max": 8.0,
+          "p05": 4.0,
+          "p95": 8.0
+        },
+        "properties.rotatable_bonds": {
+          "n": 36,
+          "mean": 7.083333333333333,
+          "median": 6.5,
+          "min": 2.0,
+          "max": 13.0,
+          "p05": 2.0,
+          "p95": 13.0
+        },
+        "properties.rings": {
+          "n": 36,
+          "mean": 3.5833333333333335,
+          "median": 4.0,
+          "min": 1.0,
+          "max": 8.0,
+          "p05": 1.0,
+          "p95": 8.0
+        },
+        "properties.aromatic_rings": {
+          "n": 36,
+          "mean": 2.75,
+          "median": 3.0,
+          "min": 0.0,
+          "max": 5.0,
+          "p05": 0.0,
+          "p95": 5.0
+        },
+        "properties.heavy_atoms": {
+          "n": 36,
+          "mean": 29.833333333333332,
+          "median": 26.5,
+          "min": 17.0,
+          "max": 49.0,
+          "p05": 17.0,
+          "p95": 49.0
+        },
+        "properties.formal_charge": {
+          "n": 36,
+          "mean": 0.4166666666666667,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 1.0,
+          "p05": 0.0,
+          "p95": 1.0
+        }
+      },
+      "fragment_bond_totals": {
+        "bond_count": 1167,
+        "abnormal_bond_count": 16,
+        "cross_fragment_bond_count": 192,
+        "cross_fragment_abnormal_bond_count": 16,
+        "within_fragment_bond_count": 975,
+        "within_fragment_abnormal_bond_count": 0
+      },
+      "fragment_mapping_available_count": 36,
+      "vina_status_counts": {
+        "ok": 33,
+        "unavailable": 3
+      },
+      "forcefield_status_counts": {
+        "ok": 36
+      },
+      "local_forcefield_converged": 33,
+      "input_unchanged_count": 36,
+      "internal_clash_pair_severities": {
+        "severe": 14,
+        "moderate": 17,
+        "mild": 84
+      },
+      "metal_raw_vdw_overlap_molecules": 9
+    },
+    "C_crystal": {
+      "n": 12,
+      "receptors": 12,
+      "checks": {
+        "angle_geometry_valid": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "bond_geometry_valid": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "chemical_valid": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "chemically_valid_connected": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "fully_connected": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "geometric_quality_without_stereo": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "high_quality": {
+          "total": 12,
+          "passed": 9,
+          "failed": 3,
+          "unavailable": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_evaluable": 0.75
+        },
+        "in_target_pocket": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_severe_internal_clash": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_severe_protein_clash": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "posebusters_all_pass": {
+          "total": 12,
+          "passed": 9,
+          "failed": 3,
+          "unavailable": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_evaluable": 0.75
+        },
+        "posebusters_mol_all_pass": {
+          "total": 12,
+          "passed": 11,
+          "failed": 1,
+          "unavailable": 0,
+          "pass_rate_all": 0.9166666666666666,
+          "pass_rate_evaluable": 0.9166666666666666
+        },
+        "posebusters_without_water_pass": {
+          "total": 12,
+          "passed": 11,
+          "failed": 1,
+          "unavailable": 0,
+          "pass_rate_all": 0.9166666666666666,
+          "pass_rate_evaluable": 0.9166666666666666
+        },
+        "ring_geometry_valid": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sdf_parse_success": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "stereo_definition_complete": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "stereo_geometry_consistent": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "torsion_geometry_valid": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        }
+      },
+      "posebusters_tests": {
+        "all_atoms_connected": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "aromatic_ring_flatness": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "bond_angles": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "bond_lengths": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "double_bond_flatness": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "inchi_convertible": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "internal_energy": {
+          "total": 12,
+          "passed": 11,
+          "failed": 1,
+          "unavailable": 0,
+          "pass_rate_all": 0.9166666666666666,
+          "pass_rate_evaluable": 0.9166666666666666
+        },
+        "internal_steric_clash": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_inorganic_cofactors": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_organic_cofactors": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_protein": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "minimum_distance_to_waters": {
+          "total": 12,
+          "passed": 10,
+          "failed": 2,
+          "unavailable": 0,
+          "pass_rate_all": 0.8333333333333334,
+          "pass_rate_evaluable": 0.8333333333333334
+        },
+        "mol_cond_loaded": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "mol_pred_loaded": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "no_radicals": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "non-aromatic_ring_non-flatness": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "protein-ligand_maximum_distance": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "sanitization": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_inorganic_cofactors": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_organic_cofactors": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_protein": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "volume_overlap_with_waters": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        }
+      },
+      "failure_counts": {
+        "disconnected": 0,
+        "cross_bond_geometry": 0,
+        "other_bond_geometry": 0,
+        "internal_clash": 0,
+        "protein_clash": 0,
+        "angle_geometry": 0,
+        "ring_geometry": 0,
+        "torsion_geometry": 0,
+        "stereo_undefined": 0,
+        "stereo_conflict": 0,
+        "high_strain_diagnostic": 2,
+        "PB_internal_energy": 1,
+        "PB_other": 2
+      },
+      "numeric": {
+        "geometry.severe_internal_clash_pairs": {
+          "n": 12,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "p05": 0.0,
+          "p95": 0.0
+        },
+        "geometry.abnormal_bond_count": {
+          "n": 12,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "p05": 0.0,
+          "p95": 0.0
+        },
+        "geometry.cross_fragment_abnormal_bond_count": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "p05": null,
+          "p95": null
+        },
+        "geometry.cross_fragment_max_bond_deviation_A": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "p05": null,
+          "p95": null
+        },
+        "geometry.max_bond_deviation_A": {
+          "n": 12,
+          "mean": 0.10150149280893117,
+          "median": 0.09914786617286031,
+          "min": 0.048491184561613165,
+          "max": 0.17606751901161233,
+          "p05": 0.053912011223240706,
+          "p95": 0.15102156153728993
+        },
+        "geometry.max_bond_length_A": {
+          "n": 12,
+          "mean": 1.6320840531742837,
+          "median": 1.5830388876092867,
+          "min": 1.50583000368567,
+          "max": 1.859938977493619,
+          "p05": 1.517049098421005,
+          "p95": 1.8480858742713953
+        },
+        "geometry.abnormal_angle_count": {
+          "n": 12,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "p05": 0.0,
+          "p95": 0.0
+        },
+        "protein.severe_clash_pairs": {
+          "n": 12,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "p05": 0.0,
+          "p95": 0.0
+        },
+        "protein.minimum_distance_A": {
+          "n": 12,
+          "mean": 2.690368484513334,
+          "median": 2.6759175061964875,
+          "min": 2.3796709856616736,
+          "max": 3.0218692890328644,
+          "p05": 2.508927994214059,
+          "p95": 2.92452873593657
+        },
+        "protein.minimum_vdw_ratio": {
+          "n": 12,
+          "mean": 0.8583236172177835,
+          "median": 0.856607053355402,
+          "min": 0.7676358018263463,
+          "max": 0.9298059350870352,
+          "p05": 0.8019681903984608,
+          "p95": 0.9151388790024295
+        },
+        "protein.pocket_atom_fraction": {
+          "n": 12,
+          "mean": 0.9939598689598691,
+          "median": 1.0,
+          "min": 0.9545454545454546,
+          "max": 1.0,
+          "p05": 0.9646805896805897,
+          "p95": 1.0
+        },
+        "protein.contact_pairs": {
+          "n": 12,
+          "mean": 174.58333333333334,
+          "median": 172.5,
+          "min": 132.0,
+          "max": 222.0,
+          "p05": 133.1,
+          "p95": 221.45
+        },
+        "forcefield.energy_drop_kcal_mol": {
+          "n": 12,
+          "mean": 38.07054449513418,
+          "median": 31.8705621100915,
+          "min": 14.882825565790174,
+          "max": 115.88054857264879,
+          "p05": 15.243008482535199,
+          "p95": 81.42804409834082
+        },
+        "forcefield.energy_drop_per_heavy_atom": {
+          "n": 12,
+          "mean": 1.2487526111895793,
+          "median": 1.2268826804047737,
+          "min": 0.5859212590145447,
+          "max": 2.3649091545438528,
+          "p05": 0.6054940456737299,
+          "p95": 2.3373307387033817
+        },
+        "forcefield.heavy_atom_RMSD_no_alignment_A": {
+          "n": 12,
+          "mean": 0.8767672948100175,
+          "median": 0.8352970717819809,
+          "min": 0.1460682488275007,
+          "max": 2.143534436976336,
+          "p05": 0.15687407544967458,
+          "p95": 1.9155354018618471
+        },
+        "forcefield.max_cross_fragment_bond_change_A": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "p05": null,
+          "p95": null
+        },
+        "vina.total_kcal_mol": {
+          "n": 11,
+          "mean": -8.415545454545454,
+          "median": -8.025,
+          "min": -13.195,
+          "max": -5.603,
+          "p05": -12.0535,
+          "p95": -5.6495
+        },
+        "properties.MW": {
+          "n": 12,
+          "mean": 418.61191666666673,
+          "median": 384.9314999999997,
+          "min": 259.28299999999996,
+          "max": 671.863000000002,
+          "p05": 262.5494499999999,
+          "p95": 629.9579500000018
+        },
+        "properties.LogP": {
+          "n": 12,
+          "mean": 2.499230000000002,
+          "median": 3.0059500000000017,
+          "min": -2.8908999999999994,
+          "max": 5.683660000000006,
+          "p05": -1.0552749999999995,
+          "p95": 4.989307000000005
+        },
+        "properties.QED": {
+          "n": 12,
+          "mean": 0.4499158935072898,
+          "median": 0.35475395970180634,
+          "min": 0.171368953051957,
+          "max": 0.8003459638043195,
+          "p05": 0.18521683806751546,
+          "p95": 0.7740717398481316
+        },
+        "properties.TPSA": {
+          "n": 12,
+          "mean": 101.90083333333332,
+          "median": 93.48,
+          "min": 59.29,
+          "max": 167.95,
+          "p05": 66.73150000000001,
+          "p95": 159.13349999999997
+        },
+        "properties.HBD": {
+          "n": 12,
+          "mean": 2.9166666666666665,
+          "median": 3.0,
+          "min": 1.0,
+          "max": 6.0,
+          "p05": 1.0,
+          "p95": 5.449999999999999
+        },
+        "properties.HBA": {
+          "n": 12,
+          "mean": 5.666666666666667,
+          "median": 5.5,
+          "min": 4.0,
+          "max": 8.0,
+          "p05": 4.0,
+          "p95": 7.449999999999999
+        },
+        "properties.rotatable_bonds": {
+          "n": 12,
+          "mean": 8.0,
+          "median": 7.5,
+          "min": 3.0,
+          "max": 13.0,
+          "p05": 3.55,
+          "p95": 13.0
+        },
+        "properties.rings": {
+          "n": 12,
+          "mean": 3.5833333333333335,
+          "median": 4.0,
+          "min": 1.0,
+          "max": 8.0,
+          "p05": 1.0,
+          "p95": 6.349999999999998
+        },
+        "properties.aromatic_rings": {
+          "n": 12,
+          "mean": 2.75,
+          "median": 3.0,
+          "min": 0.0,
+          "max": 5.0,
+          "p05": 0.55,
+          "p95": 4.449999999999999
+        },
+        "properties.heavy_atoms": {
+          "n": 12,
+          "mean": 29.833333333333332,
+          "median": 26.5,
+          "min": 17.0,
+          "max": 49.0,
+          "p05": 17.55,
+          "p95": 46.25
+        },
+        "properties.formal_charge": {
+          "n": 12,
+          "mean": 0.4166666666666667,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 1.0,
+          "p05": 0.0,
+          "p95": 1.0
+        }
+      },
+      "fragment_bond_totals": {
+        "bond_count": 389,
+        "abnormal_bond_count": 0,
+        "cross_fragment_bond_count": 0,
+        "cross_fragment_abnormal_bond_count": 0,
+        "within_fragment_bond_count": 0,
+        "within_fragment_abnormal_bond_count": 0
+      },
+      "fragment_mapping_available_count": 0,
+      "vina_status_counts": {
+        "ok": 11,
+        "unavailable": 1
+      },
+      "forcefield_status_counts": {
+        "ok": 12
+      },
+      "local_forcefield_converged": 12,
+      "input_unchanged_count": 12,
+      "internal_clash_pair_severities": {
+        "severe": 0,
+        "moderate": 0,
+        "mild": 3
+      },
+      "metal_raw_vdw_overlap_molecules": 3
+    }
+  },
+  "quality_definition": {
+    "required_checks": [
+      "chemical_valid",
+      "fully_connected",
+      "no_severe_internal_clash",
+      "bond_geometry_valid",
+      "angle_geometry_valid",
+      "ring_geometry_valid",
+      "torsion_geometry_valid",
+      "no_severe_protein_clash",
+      "in_target_pocket",
+      "posebusters_all_pass",
+      "stereo_definition_complete",
+      "stereo_geometry_consistent"
+    ],
+    "definition": "All required checks must be explicitly true. A false check gives fail; otherwise a missing check gives unavailable. No reference identity, RMSD, QED, strain-delta threshold or docking score is a required check."
+  },
+  "top_k": [
+    {
+      "group": "A_predicted_t0.6",
+      "K": 1,
+      "attempts": 36,
+      "any_high_quality": {
+        "total": 36,
+        "passed": 0,
+        "failed": 36,
+        "unavailable": 0,
+        "pass_rate_all": 0.0,
+        "pass_rate_evaluable": 0.0
+      }
+    },
+    {
+      "group": "B_official_true_graph",
+      "K": 1,
+      "attempts": 36,
+      "any_high_quality": {
+        "total": 36,
+        "passed": 8,
+        "failed": 28,
+        "unavailable": 0,
+        "pass_rate_all": 0.2222222222222222,
+        "pass_rate_evaluable": 0.2222222222222222
+      }
+    },
+    {
+      "group": "C_crystal",
+      "K": 1,
+      "attempts": 12,
+      "any_high_quality": {
+        "total": 12,
+        "passed": 9,
+        "failed": 3,
+        "unavailable": 0,
+        "pass_rate_all": 0.75,
+        "pass_rate_evaluable": 0.75
+      }
+    }
+  ],
+  "diversity": {
+    "groups": {
+      "A_predicted_t0.6": {
+        "n": 36,
+        "chemically_valid_connected": 36,
+        "unique_isomeric": 29,
+        "unique_constitution": 29,
+        "unique_fraction_all": 0.8055555555555556,
+        "unique_fraction_valid": 0.8055555555555556,
+        "all_output_pair_tanimoto": {
+          "n": 630,
+          "mean": 0.14276606498444808,
+          "median": 0.1111111111111111,
+          "min": 0.031914893617021274,
+          "max": 1.0,
+          "p05": 0.058976744186046516,
+          "p95": 0.36183350100603434
+        },
+        "pair_sampling": false,
+        "unique_constitution_pair_tanimoto": {
+          "n": 406,
+          "mean": 0.14443939922323953,
+          "median": 0.125,
+          "min": 0.031914893617021274,
+          "max": 0.9024390243902439,
+          "p05": 0.06329113924050633,
+          "p95": 0.3337735579668761
+        },
+        "unique_pair_sampling": false,
+        "internal_diversity_1_minus_tanimoto": 0.8572339350155519,
+        "pocket_count": 12,
+        "mean_valid_unique_per_pocket": 2.4166666666666665,
+        "mean_high_quality_unique_per_pocket": 0.0,
+        "reference_tanimoto": {
+          "n": 36,
+          "mean": 0.34755945036065833,
+          "median": 0.28378378378378377,
+          "min": 0.18666666666666668,
+          "max": 1.0,
+          "p05": 0.1989130434782609,
+          "p95": 0.6125
+        },
+        "novel_constitution_count_vs_supplied_training": 36,
+        "novel_constitution_vs_supplied_training": {
+          "total": 36,
+          "passed": 36,
+          "failed": 0,
+          "unavailable": 0,
+          "pass_rate_all": 1.0,
+          "pass_rate_evaluable": 1.0
+        },
+        "novel_unique_constitution_vs_supplied_training": 29
+      },
+      "B_official_true_graph": {
+        "n": 36,
+        "chemically_valid_connected": 36,
+        "unique_isomeric": 12,
+        "unique_constitution": 12,
+        "unique_fraction_all": 0.3333333333333333,
+        "unique_fraction_valid": 0.3333333333333333,
+        "all_output_pair_tanimoto": {
+          "n": 630,
+          "mean": 0.16859649955558972,
+          "median": 0.11232476635514019,
+          "min": 0.034482758620689655,
+          "max": 1.0,
+          "p05": 0.056338028169014086,
+          "p95": 1.0
+        },
+        "pair_sampling": false,
+        "unique_constitution_pair_tanimoto": {
+          "n": 66,
+          "mean": 0.11820840861956486,
+          "median": 0.10947712418300654,
+          "min": 0.034482758620689655,
+          "max": 0.3258426966292135,
+          "p05": 0.05695940347970174,
+          "p95": 0.21596153846153845
+        },
+        "unique_pair_sampling": false,
+        "internal_diversity_1_minus_tanimoto": 0.8314035004444102,
+        "pocket_count": 12,
+        "mean_valid_unique_per_pocket": 1.0,
+        "mean_high_quality_unique_per_pocket": 0.3333333333333333,
+        "reference_tanimoto": {
+          "n": 36,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "p05": 1.0,
+          "p95": 1.0
+        },
+        "novel_constitution_count_vs_supplied_training": 27,
+        "novel_constitution_vs_supplied_training": {
+          "total": 36,
+          "passed": 27,
+          "failed": 9,
+          "unavailable": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_evaluable": 0.75
+        },
+        "novel_unique_constitution_vs_supplied_training": 9
+      },
+      "C_crystal": {
+        "n": 12,
+        "chemically_valid_connected": 12,
+        "unique_isomeric": 12,
+        "unique_constitution": 12,
+        "unique_fraction_all": 1.0,
+        "unique_fraction_valid": 1.0,
+        "all_output_pair_tanimoto": {
+          "n": 66,
+          "mean": 0.11820840861956486,
+          "median": 0.10947712418300654,
+          "min": 0.034482758620689655,
+          "max": 0.3258426966292135,
+          "p05": 0.05695940347970174,
+          "p95": 0.21596153846153845
+        },
+        "pair_sampling": false,
+        "unique_constitution_pair_tanimoto": {
+          "n": 66,
+          "mean": 0.11820840861956486,
+          "median": 0.10947712418300654,
+          "min": 0.034482758620689655,
+          "max": 0.3258426966292135,
+          "p05": 0.05695940347970174,
+          "p95": 0.21596153846153845
+        },
+        "unique_pair_sampling": false,
+        "internal_diversity_1_minus_tanimoto": 0.8817915913804352,
+        "pocket_count": 12,
+        "mean_valid_unique_per_pocket": 1.0,
+        "mean_high_quality_unique_per_pocket": 0.75,
+        "reference_tanimoto": {
+          "n": 12,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1.0,
+          "max": 1.0,
+          "p05": 1.0,
+          "p95": 1.0
+        },
+        "novel_constitution_count_vs_supplied_training": 9,
+        "novel_constitution_vs_supplied_training": {
+          "total": 12,
+          "passed": 9,
+          "failed": 3,
+          "unavailable": 0,
+          "pass_rate_all": 0.75,
+          "pass_rate_evaluable": 0.75
+        },
+        "novel_unique_constitution_vs_supplied_training": 9
+      }
+    },
+    "training_reference": {
+      "status": "ok",
+      "scope": "Actual 17420-member PDBBind-stage training set of the legacy checkpoint; GEOM pretraining, connection-head and official SigmaDock training are not included.",
+      "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/de_novo_quality_20261103/training_index.json",
+      "sha256": "984dbd4deeb1d8e2d3ee77c4cf669b0134630f7a9408933c743b1677af00ce08",
+      "unique_isomeric": 14103,
+      "unique_constitution": 13683,
+      "invalid_or_missing_records": 0,
+      "full_training_universe_covered": false
+    },
+    "standardization": "RDKit Cleanup + canonical SMILES, atom maps removed, retain components/charge/stereo; no tautomer collapse or neutralization. Morgan radius=2/2048 bits, chirality off for structural similarity.",
+    "conformer_diversity": [
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "2w4x",
+        "canonical_smiles": "CNC(=O)NO[C@@H]1C(CO)O[C@@H](O)C(N=O)[C@H]1O",
+        "outputs": 2,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 1,
+          "mean": 1.0443389863558463,
+          "median": 1.0443389863558463,
+          "min": 1.0443389863558463,
+          "max": 1.0443389863558463,
+          "p05": 1.0443389863558463,
+          "p95": 1.0443389863558463
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 1,
+          "mean": 1.4874607815558252,
+          "median": 1.4874607815558252,
+          "min": 1.4874607815558252,
+          "max": 1.4874607815558252,
+          "p05": 1.4874607815558252,
+          "p95": 1.4874607815558252
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "4ivd",
+        "canonical_smiles": "CCOC1(C(CC#N)n2cnc3cnc4[nH]ccc4c32)CCCCC1",
+        "outputs": 2,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 1,
+          "mean": 1.350415947417455,
+          "median": 1.350415947417455,
+          "min": 1.350415947417455,
+          "max": 1.350415947417455,
+          "p05": 1.350415947417455,
+          "p95": 1.350415947417455
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 1,
+          "mean": 1.4604646919388364,
+          "median": 1.4604646919388364,
+          "min": 1.4604646919388364,
+          "max": 1.4604646919388364,
+          "p05": 1.4604646919388364,
+          "p95": 1.4604646919388364
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "2xnb",
+        "canonical_smiles": "Cn1c(Cc2ccc(Nc3nccc(N4CC[NH2+]CC4)n3)cc2)csc1=O",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 1.9213520428123136,
+          "median": 2.0853399159868085,
+          "min": 1.3864730627072108,
+          "max": 2.2922431497429216,
+          "p05": 1.4563597480351707,
+          "p95": 2.2715528263673104
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 5.433532006477271,
+          "median": 7.273665538141051,
+          "min": 1.4859364954527896,
+          "max": 7.540993985837971,
+          "p05": 2.064709399721616,
+          "p95": 7.514261141068278
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "1nvq",
+        "canonical_smiles": "C[C@@]12CC([NH2+]CCO)C[C@@H](O1)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)[C@@H](O)NC4=O",
+        "outputs": 2,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 1,
+          "mean": 0.2898995839367249,
+          "median": 0.2898995839367249,
+          "min": 0.2898995839367249,
+          "max": 0.2898995839367249,
+          "p05": 0.2898995839367249,
+          "p95": 0.2898995839367249
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 1,
+          "mean": 0.3011543435036446,
+          "median": 0.3011543435036446,
+          "min": 0.3011543435036446,
+          "max": 0.3011543435036446,
+          "p05": 0.3011543435036446,
+          "p95": 0.3011543435036446
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "3ehy",
+        "canonical_smiles": "COc1ccc(S(=O)(=O)NCCC(=O)O)cc1",
+        "outputs": 2,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 1,
+          "mean": 0.29949005546464286,
+          "median": 0.29949005546464286,
+          "min": 0.29949005546464286,
+          "max": 0.29949005546464286,
+          "p05": 0.29949005546464286,
+          "p95": 0.29949005546464286
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 1,
+          "mean": 0.3418670020034451,
+          "median": 0.3418670020034451,
+          "min": 0.3418670020034451,
+          "max": 0.3418670020034451,
+          "p05": 0.3418670020034451,
+          "p95": 0.3418670020034451
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "A_predicted_t0.6",
+        "receptor_id": "5c2h",
+        "canonical_smiles": "Cc1nc(C)c(C(Nc2ccc3cccnc3c2Cc2cnc(O)nc2Cl)C(C)C)s1",
+        "outputs": 2,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 1,
+          "mean": 1.5053772091109563,
+          "median": 1.5053772091109563,
+          "min": 1.5053772091109563,
+          "max": 1.5053772091109563,
+          "p05": 1.5053772091109563,
+          "p95": 1.5053772091109563
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 1,
+          "mean": 1.51950998669881,
+          "median": 1.51950998669881,
+          "min": 1.51950998669881,
+          "max": 1.51950998669881,
+          "p05": 1.51950998669881,
+          "p95": 1.51950998669881
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "2w4x",
+        "canonical_smiles": "CN(N=O)C(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1O",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.18642479630744935,
+          "median": 0.22986813934172975,
+          "min": 0.0876578160957534,
+          "max": 0.2417484334848649,
+          "p05": 0.10187884842035104,
+          "p95": 0.2405604040705514
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 0.286431926951965,
+          "median": 0.2876033524375776,
+          "min": 0.20122951379512447,
+          "max": 0.370462914623193,
+          "p05": 0.20986689765936978,
+          "p95": 0.36217695840463143
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "4ivd",
+        "canonical_smiles": "C[C@@H](O)c1nc2cnc3[nH]ccc3c2n1[C@H]1CC[C@H](CCC#N)CC1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.7728794597504286,
+          "median": 0.7617618476599443,
+          "min": 0.6265731393643089,
+          "max": 0.9303033922270328,
+          "p05": 0.6400920101938724,
+          "p95": 0.9134492377703239
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 1.0672971981143855,
+          "median": 1.0790641252492832,
+          "min": 0.779938097030784,
+          "max": 1.34288937206309,
+          "p05": 0.8098506998526339,
+          "p95": 1.3165068473817092
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "2xnb",
+        "canonical_smiles": "Cc1c(-c2ccnc(Nc3ccc(N4CC[NH2+]CC4)cc3)n2)sc(=O)n1C",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.6884117318543339,
+          "median": 0.6538213502214221,
+          "min": 0.6180601181685245,
+          "max": 0.7933537271730553,
+          "p05": 0.6216362413738142,
+          "p95": 0.779400489477892
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 0.7618573574458206,
+          "median": 0.7970711820529328,
+          "min": 0.6452378949744898,
+          "max": 0.8432629953100396,
+          "p05": 0.6604212236823341,
+          "p95": 0.8386438139843289
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "1nvq",
+        "canonical_smiles": "C[NH2+][C@@H]1C[C@H]2O[C@@](C)([C@@H]1OC)n1c3ccccc3c3c4c(c5c6ccccc6n2c5c31)C(=O)N[C@@H]4O",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.24915196234287063,
+          "median": 0.28045803972135963,
+          "min": 0.10596765250502924,
+          "max": 0.361030194802223,
+          "p05": 0.12341669122666228,
+          "p95": 0.3529729792941366
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 0.2980051849272902,
+          "median": 0.31231804391606244,
+          "min": 0.19151150821237284,
+          "max": 0.3901860026534354,
+          "p05": 0.2035921617827418,
+          "p95": 0.3823992067796981
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "2c3i",
+        "canonical_smiles": "CC(=O)c1cccc(-c2cnc3ccc(NCC4CC4)nn23)c1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 1.5604731792795583,
+          "median": 1.5806516811883802,
+          "min": 1.3337986141396008,
+          "max": 1.7669692425106938,
+          "p05": 1.3584839208444788,
+          "p95": 1.7483374863784624
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 4.395226287596068,
+          "median": 5.092719289509204,
+          "min": 2.290162844789028,
+          "max": 5.802796728489972,
+          "p05": 2.5704184892610455,
+          "p95": 5.731788984591895
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "3ehy",
+        "canonical_smiles": "COc1ccc(S(=O)(=O)N[C@H](C)C(=O)O)cc1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.16220730638030434,
+          "median": 0.17084992547099107,
+          "min": 0.13336421717487654,
+          "max": 0.18240777649504536,
+          "p05": 0.13711278800448798,
+          "p95": 0.18125199139263992
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 0.1826979265280405,
+          "median": 0.19730195282418073,
+          "min": 0.14517459670827995,
+          "max": 0.20561723005166085,
+          "p05": 0.15038733231987003,
+          "p95": 0.20478570232891283
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "2zcq",
+        "canonical_smiles": "O=P(O)(O)[C@@H](CCCc1cccc(Oc2ccccc2)c1)S(=O)(=O)O",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.6037289729477954,
+          "median": 0.7755426968814594,
+          "min": 0.2115149127756684,
+          "max": 0.8241293091862583,
+          "p05": 0.2679176911862475,
+          "p95": 0.8192706479557784
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 1.0469025359994744,
+          "median": 1.0779664516115512,
+          "min": 0.7512760879996121,
+          "max": 1.3114650683872597,
+          "p05": 0.783945124360806,
+          "p95": 1.2881152067096888
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "5c2h",
+        "canonical_smiles": "Cc1nc(C)c(CNc2nc(OCCCc3ccc4ccccc4n3)nc(Cl)c2C)s1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.5227246236584197,
+          "median": 0.4835957472367011,
+          "min": 0.43039936748267293,
+          "max": 0.6541787562558847,
+          "p05": 0.43571900545807574,
+          "p95": 0.6371204553539663
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 0.567424999100229,
+          "median": 0.5643806636910832,
+          "min": 0.4589659436378207,
+          "max": 0.678928389971783,
+          "p05": 0.4695074156431469,
+          "p95": 0.667473617343713
+        },
+        "distinct_conformer_pair_fraction": 0.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "1qf1",
+        "canonical_smiles": "CCCCC[C@H](S)C(=O)N[C@@H](Cc1ccccc1)C(=O)N[C@@H](C)C(=O)O",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 2.821818879708262,
+          "median": 3.0057897195836425,
+          "min": 2.162840408673155,
+          "max": 3.2968265108679886,
+          "p05": 2.2471353397642035,
+          "p95": 3.267722831739554
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 5.313436376853053,
+          "median": 5.831152039757601,
+          "min": 3.325842964919975,
+          "max": 6.783314125881583,
+          "p05": 3.576373872403738,
+          "p95": 6.688097917269185
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "4cig",
+        "canonical_smiles": "COc1ccc(CNC(=O)c2cc3ccccc3cc2C[N@@H+](C)Cc2cccc(OC)c2C(=O)O)cc1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 2.3342901383975727,
+          "median": 2.8431252176933395,
+          "min": 1.2068092016906993,
+          "max": 2.952935995808679,
+          "p05": 1.3704408032909634,
+          "p95": 2.9419549179971454
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 5.336805525138527,
+          "median": 7.3413847497630895,
+          "min": 1.2931900555331102,
+          "max": 7.375841770119384,
+          "p05": 1.898009524956108,
+          "p95": 7.372396068083754
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "3zso",
+        "canonical_smiles": "C=CC[N@H+](Cc1ccccc1C(=O)NC(c1ccc(OC)cc1)c1ccc(OC)cc1)Cc1ccc2c(c1C(=O)O)OCO2",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 2.84198364766602,
+          "median": 2.5603483884242415,
+          "min": 2.5352200564948104,
+          "max": 3.4303824980790076,
+          "p05": 2.5377328896877533,
+          "p95": 3.343379087113531
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 6.103626610545384,
+          "median": 6.186763651024368,
+          "min": 4.5042104944858385,
+          "max": 7.619905686125946,
+          "p05": 4.672465810139691,
+          "p95": 7.476591482615788
+        },
+        "distinct_conformer_pair_fraction": 1.0
+      },
+      {
+        "group": "B_official_true_graph",
+        "receptor_id": "3pww",
+        "canonical_smiles": "CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2C[N@@H+]1C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)[C@H](CC(N)=O)NC(=O)c1ccc2ccccc2n1",
+        "outputs": 3,
+        "pair_sampling": false,
+        "aligned_RMSD_A": {
+          "n": 3,
+          "mean": 0.9460608611287377,
+          "median": 1.0910216090387874,
+          "min": 0.6467340991041738,
+          "max": 1.1004268752432516,
+          "p05": 0.6911628500976351,
+          "p95": 1.099486348622805
+        },
+        "receptor_frame_RMSD_A": {
+          "n": 3,
+          "mean": 1.1048903377599173,
+          "median": 1.2838748252609267,
+          "min": 0.6698721960042764,
+          "max": 1.360923992014549,
+          "p05": 0.7312724589299414,
+          "p95": 1.3532190753391868
+        },
+        "distinct_conformer_pair_fraction": 0.6666666666666666
+      }
+    ]
+  },
+  "protocol_sha256": "7e4320306f02420b3918174667da7c3d4f6800c9ff8d57736957ece706c36588",
+  "versions": {
+    "python": "3.12.14",
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+    "rdkit": "2026.3.3",
+    "posebusters": "0.6.5",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.0",
+    "vina": "1.2.7",
+    "meeko": "0.8.0"
+  },
+  "cache_hits": 84,
+  "source_input_unchanged": true
+}

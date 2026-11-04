@@ -1,0 +1,176 @@
+1/84 B_official_true_graph__2w4x__1801__1 high_quality=False cached=True
+2/84 A_predicted_t0.6__2w4x__1801__1 high_quality=False cached=True
+3/84 A_predicted_t0.6__2w4x__1802__1 high_quality=False cached=True
+4/84 A_predicted_t0.6__2w4x__1803__1 high_quality=False cached=True
+5/84 B_official_true_graph__2w4x__1803__1 high_quality=False cached=True
+6/84 C_crystal__2w4x__experimental__1 high_quality=True cached=True
+7/84 B_official_true_graph__2w4x__1802__1 high_quality=False cached=True
+8/84 B_official_true_graph__4ivd__1801__1 high_quality=False cached=True
+9/84 A_predicted_t0.6__4ivd__1801__1 high_quality=False cached=True
+10/84 A_predicted_t0.6__4ivd__1802__1 high_quality=False cached=True
+11/84 B_official_true_graph__4ivd__1803__1 high_quality=True cached=True
+12/84 B_official_true_graph__4ivd__1802__1 high_quality=False cached=True
+13/84 A_predicted_t0.6__4ivd__1803__1 high_quality=False cached=True
+14/84 C_crystal__4ivd__experimental__1 high_quality=True cached=True
+15/84 A_predicted_t0.6__2xnb__1801__1 high_quality=False cached=True
+16/84 B_official_true_graph__2xnb__1802__1 high_quality=False cached=True
+17/84 A_predicted_t0.6__2xnb__1802__1 high_quality=False cached=True
+18/84 A_predicted_t0.6__2xnb__1803__1 high_quality=False cached=True
+19/84 B_official_true_graph__2xnb__1801__1 high_quality=False cached=True
+20/84 B_official_true_graph__2xnb__1803__1 high_quality=False cached=True
+21/84 C_crystal__2xnb__experimental__1 high_quality=True cached=True
+22/84 A_predicted_t0.6__1nvq__1801__1 high_quality=False cached=True
+23/84 A_predicted_t0.6__1nvq__1802__1 high_quality=False cached=True
+24/84 A_predicted_t0.6__1nvq__1803__1 high_quality=False cached=True
+25/84 B_official_true_graph__1nvq__1802__1 high_quality=False cached=True
+26/84 B_official_true_graph__1nvq__1801__1 high_quality=False cached=True
+27/84 B_official_true_graph__1nvq__1803__1 high_quality=False cached=True
+28/84 C_crystal__1nvq__experimental__1 high_quality=True cached=True
+29/84 A_predicted_t0.6__2c3i__1801__1 high_quality=False cached=True
+30/84 B_official_true_graph__2c3i__1802__1 high_quality=True cached=True
+31/84 A_predicted_t0.6__2c3i__1802__1 high_quality=False cached=True
+32/84 B_official_true_graph__2c3i__1801__1 high_quality=True cached=True
+33/84 A_predicted_t0.6__2c3i__1803__1 high_quality=False cached=True
+34/84 C_crystal__2c3i__experimental__1 high_quality=True cached=True
+35/84 B_official_true_graph__2c3i__1803__1 high_quality=True cached=True
+36/84 A_predicted_t0.6__3ehy__1802__1 high_quality=False cached=True
+37/84 B_official_true_graph__3ehy__1802__1 high_quality=True cached=True
+38/84 B_official_true_graph__3ehy__1801__1 high_quality=True cached=True
+39/84 A_predicted_t0.6__3ehy__1803__1 high_quality=False cached=True
+40/84 A_predicted_t0.6__3ehy__1801__1 high_quality=False cached=True
+41/84 B_official_true_graph__3ehy__1803__1 high_quality=True cached=True
+42/84 C_crystal__3ehy__experimental__1 high_quality=True cached=True
+43/84 A_predicted_t0.6__2zcq__1801__1 high_quality=False cached=True
+44/84 B_official_true_graph__2zcq__1801__1 high_quality=False cached=True
+45/84 A_predicted_t0.6__2zcq__1803__1 high_quality=False cached=True
+46/84 A_predicted_t0.6__2zcq__1802__1 high_quality=False cached=True
+47/84 B_official_true_graph__2zcq__1802__1 high_quality=False cached=True
+48/84 C_crystal__2zcq__experimental__1 high_quality=False cached=True
+49/84 A_predicted_t0.6__5c2h__1801__1 high_quality=False cached=True
+50/84 B_official_true_graph__2zcq__1803__1 high_quality=False cached=True
+51/84 A_predicted_t0.6__5c2h__1802__1 high_quality=False cached=True
+52/84 B_official_true_graph__5c2h__1801__1 high_quality=False cached=True
+53/84 B_official_true_graph__5c2h__1802__1 high_quality=False cached=True
+54/84 B_official_true_graph__5c2h__1803__1 high_quality=False cached=True
+55/84 C_crystal__5c2h__experimental__1 high_quality=True cached=True
+56/84 A_predicted_t0.6__5c2h__1803__1 high_quality=False cached=True
+57/84 A_predicted_t0.6__1qf1__1801__1 high_quality=False cached=True
+58/84 B_official_true_graph__1qf1__1801__1 high_quality=True cached=True
+59/84 A_predicted_t0.6__1qf1__1802__1 high_quality=False cached=True
+60/84 B_official_true_graph__1qf1__1803__1 high_quality=False cached=True
+61/84 B_official_true_graph__1qf1__1802__1 high_quality=False cached=True
+62/84 C_crystal__1qf1__experimental__1 high_quality=True cached=True
+63/84 A_predicted_t0.6__1qf1__1803__1 high_quality=False cached=True
+64/84 A_predicted_t0.6__4cig__1801__1 high_quality=False cached=True
+65/84 B_official_true_graph__4cig__1801__1 high_quality=False cached=True
+66/84 A_predicted_t0.6__4cig__1802__1 high_quality=False cached=True
+67/84 B_official_true_graph__4cig__1803__1 high_quality=False cached=True
+68/84 B_official_true_graph__4cig__1802__1 high_quality=False cached=True
+69/84 C_crystal__4cig__experimental__1 high_quality=False cached=True
+70/84 A_predicted_t0.6__4cig__1803__1 high_quality=False cached=True
+71/84 A_predicted_t0.6__3zso__1801__1 high_quality=False cached=True
+72/84 B_official_true_graph__3zso__1802__1 high_quality=False cached=True
+73/84 A_predicted_t0.6__3zso__1802__1 high_quality=False cached=True
+74/84 B_official_true_graph__3zso__1801__1 high_quality=False cached=True
+75/84 A_predicted_t0.6__3zso__1803__1 high_quality=False cached=True
+76/84 C_crystal__3zso__experimental__1 high_quality=False cached=True
+77/84 B_official_true_graph__3zso__1803__1 high_quality=False cached=True
+78/84 B_official_true_graph__3pww__1802__1 high_quality=False cached=True
+79/84 B_official_true_graph__3pww__1801__1 high_quality=False cached=True
+80/84 A_predicted_t0.6__3pww__1802__1 high_quality=False cached=True
+81/84 A_predicted_t0.6__3pww__1801__1 high_quality=False cached=True
+82/84 B_official_true_graph__3pww__1803__1 high_quality=False cached=True
+83/84 A_predicted_t0.6__3pww__1803__1 high_quality=False cached=True
+84/84 C_crystal__3pww__experimental__1 high_quality=True cached=True
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:42] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:43] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:44] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:44] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+[20:28:44] Warning: molecule is tagged as 2D, but at least one Z coordinate is not zero. Marking the mol as 3D.
+Complete: 84 molecules; report: /home/zhouwanyao/drive_download/releases/casf_paired_eval/de_novo_quality_20261103/results/DE_NOVO_QUALITY_RESULTS.md

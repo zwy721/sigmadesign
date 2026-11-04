@@ -1,0 +1,98 @@
+{
+  "task_key": "controlled",
+  "task_title": "真实片段身份受控连接与几何细化",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-02T22:29:22.431451+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "controlled_20261102/RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "controlled_20261102/RESULTS.md",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/RESULTS.md",
+      "sha256": "0cd8b572588a3d6f2a222a3dbc78f805aee160931a03f4ac3dadde3fed5dacf7",
+      "bytes": 6712,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:29:22.431451+08:00"
+    },
+    {
+      "source": "controlled_20261102/controls.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/controls.log",
+      "sha256": "a64a85c1d9901b0b01f0b0161f5ce126bb2cd99206ccba7ee1debe98d0aecd18",
+      "bytes": 1138,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:20:17.510258+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy.log",
+      "sha256": "e9928af11196235f649b4baf27682cefc14a11f9ab41e7a5cbfb5d0b5c9106e7",
+      "bytes": 3100,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:18:26.559970+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy96.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy96.log",
+      "sha256": "d6a9653b698db14062175c7eea5a41404bc27cc3c9a3731020e7c0c150a9c2d9",
+      "bytes": 2540,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:19:20.045491+08:00"
+    },
+    {
+      "source": "controlled_20261102/legacy_smoke.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/legacy_smoke.log",
+      "sha256": "73e7814d9393f4481322556e3882aba48a09481c977f377cad40b8b0d59fbff1",
+      "bytes": 2466,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:14:45.609786+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine96.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine96.log",
+      "sha256": "05ce66ad7c45a6db628c0a8fabcd00510908ea428407215fe64ad1595a6df9fa",
+      "bytes": 5260,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:26:57.963160+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_a.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_a.log",
+      "sha256": "8f2f9f5fa2376464e243ccaf29d8d84f3c8f5b4116baa59e21c7fb96e1600ef8",
+      "bytes": 4855,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:22:24.538133+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_b.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_b.log",
+      "sha256": "326d655d0ee4806caa00a00b4fda381da384b27caa13f035537dbb26ea9666ab",
+      "bytes": 5247,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:23:37.224682+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_c.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_c.log",
+      "sha256": "3f98f6dcd349490a8d83c38c38b9046696a1e84a1d6cd5c285bc3c31c67da7a3",
+      "bytes": 5268,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:28:08.225650+08:00"
+    },
+    {
+      "source": "controlled_20261102/refine_smoke.log",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/refine_smoke.log",
+      "sha256": "c30d32bb0a38e96243f50d10cd47a258252bfb716629c9c9b73738effe73222e",
+      "bytes": 1018,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:17:28.783043+08:00"
+    },
+    {
+      "source": "controlled_20261102/summary.json",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/summary.json",
+      "sha256": "de49c6fc8e152e8a29e33c2dde76edb0275852c883ed6326d6fcc79835231e7b",
+      "bytes": 115870,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:29:22.427209+08:00"
+    },
+    {
+      "source": "controlled_20261102/verification.json",
+      "repository_path": "2611/1102/2229+真实片段身份受控连接与几何细化/source/controlled_20261102/verification.json",
+      "sha256": "16b440c7c5e54c9c6df5ffdc8c9764f0944629442d3851753a6609a3f95b87f7",
+      "bytes": 480,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:28:18.493143+08:00"
+    }
+  ]
+}

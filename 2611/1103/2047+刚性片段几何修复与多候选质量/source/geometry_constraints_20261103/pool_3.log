@@ -1,0 +1,79 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 1nvq_1801 4 29.05
+COMPLETE 1nvq_1801 5 76.08
+Traceback (most recent call last):
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 31, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/complete_pool.py", line 26, in main
+    info=continue_branch(den,rt,graph,groups,spec,c,source,seed,out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/casf_paired_eval/multi_candidates_20261103/multi_worker.py", line 85, in continue_branch
+    state.step(t,t-tensor_tt[k+1])
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py", line 123, in step
+    self.batch=den._update_batch(self.batch,self.pos0,self.pos)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/validation.py", line 165, in update
+    actual = dict(edge_index=graph.edge_index[:, keep], edge_attr=graph.edge_attr[keep],
+                                                                  ^^^^^^^^^^^^^^^
+  File "/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch_geometric/data/data.py", line 1035, in edge_attr
+    @property
+
+KeyboardInterrupt
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/geometry_constraints_20261103/official_cache/pool/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+COMPLETE 1nvq_1801 4 29.05
+COMPLETE 1nvq_1801 5 76.08
+COMPLETE 1nvq_1801 6 59.63
+COMPLETE 1nvq_1801 7 63.19
+COMPLETE 1nvq_1801 8 66.1
+COMPLETE 1nvq_1802 2 57.66
+COMPLETE 1nvq_1802 3 65.25
+COMPLETE 1nvq_1802 4 7.2
+COMPLETE 1nvq_1802 5 7.23
+COMPLETE 1nvq_1802 6 7.25
+COMPLETE 1nvq_1803 2 7.43
+COMPLETE 1nvq_1803 3 7.36
+COMPLETE 1nvq_1803 4 7.37
+COMPLETE 1nvq_1803 5 7.36
+COMPLETE 1nvq_1803 6 7.36
+COMPLETE 1nvq_1803 8 7.51
+COMPLETE 5c2h_1801 2 7.56
+COMPLETE 5c2h_1801 3 7.42
+COMPLETE 5c2h_1801 5 7.43
+COMPLETE 5c2h_1801 6 7.43
+COMPLETE 5c2h_1801 7 7.39
+COMPLETE 5c2h_1801 8 7.47
+COMPLETE 5c2h_1802 4 7.48
+COMPLETE 5c2h_1802 6 7.43
+COMPLETE 5c2h_1802 7 7.45
+COMPLETE 5c2h_1802 8 7.4
+COMPLETE 5c2h_1803 2 7.5
+COMPLETE 5c2h_1803 5 7.43
+COMPLETE 5c2h_1803 6 7.56
+COMPLETE 5c2h_1803 7 7.51
+COMPLETE 3pww_1801 2 8.13
+COMPLETE 3pww_1801 5 8.11
+COMPLETE 3pww_1801 6 8.16
+COMPLETE 3pww_1801 8 8.06
+COMPLETE 3pww_1802 2 8.09
+COMPLETE 3pww_1802 3 8.1
+COMPLETE 3pww_1802 4 8.07
+COMPLETE 3pww_1802 5 8.03
+COMPLETE 3pww_1802 7 8.12
+COMPLETE 3pww_1802 8 8.14
+COMPLETE 3pww_1803 2 8.22
+COMPLETE 3pww_1803 4 8.14
+COMPLETE 3pww_1803 7 8.13
+COMPLETE 3pww_1803 8 8.13

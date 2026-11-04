@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "final_records": 1260,
+  "short_records": 288,
+  "rigid_repairs": 360,
+  "new_complete_branches": 184,
+  "intermediate_branches": 36,
+  "all_primary_modules_available": true,
+  "all_standard_PB_tests_available": true,
+  "quality_thresholds_unchanged": true,
+  "original_84_primary_metrics_unchanged": true,
+  "all_original_84_inputs_unchanged": true,
+  "original_K1_reproduced": true,
+  "post_stereo_constitution_and_coordinates_preserved": true,
+  "weight_sha256": {
+    "/data/zhouwanyao/cutoff_geom_pdbbind_joint_200ep_20261026_cuda156/best_loss.pt": "4c45e8b310f5fa4cf3dceee737af635ac9723cf2e5795e6c31a09244a47a3ac7",
+    "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382",
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+    "rdkit": "2026.3.3",
+    "posebusters": "0.6.5",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.0",
+    "vina": "1.2.7",
+    "meeko": "0.8.0"
+  },
+  "source_sha256": {
+    "geometry_constraints_20261103/audit_analysis.py": "5923da0408b917aa5d6a2e758b2df1a1b9d3910792723ea9521681968dd82ab5",
+    "geometry_constraints_20261103/write_audit_reports.py": "8ee2987cf2dd5f0aabbd29b10c1bba89e4ddb84f5f0917b1453bdddc8fcb834b",
+    "geometry_constraints_20261103/summarize.py": "91aa3db4ad1f2e6c3be785dd67a3779213235b580124d8f97cbcd8d3d365cee9",
+    "geometry_constraints_20261103/verify.py": "1641f8673e18ac1d8505cae6f2e2d92e7978e2180a5ee4f0e2c3795f30aa89c6",
+    "geometry_constraints_20261103/mid_continue.py": "86d25125934a64a791c1fc09a618352ab56be6d60714b06791bb22d2997fabaf",
+    "geometry_constraints_20261103/complete_pool.py": "a79228e024cadcc51c17a9986218558e7f26d76a7ec9c34b9e6aecdc264c8996",
+    "geometry_constraints_20261103/stereo.py": "1a6e98f3ec545396ea5ff79f7e5556c1840c6766ab35e8359ce0c25490ad813b",
+    "geometry_constraints_20261103/prepare_repair.py": "9d66ff1fcca099f17cd4682701196ababd292605e01b5cd8ce2ee54a39c9303e",
+    "geometry_constraints_20261103/repair.py": "1eab98c4ae79e2b9a9782e98bfbdbb4f954b8b166342d954c282efe9a414bdb2",
+    "geometry_constraints_20261103/watch_quality.py": "c97130a24d1c3d60e9288b8484c4d8c9b83889ca68637650375d3bcbb73f4e94",
+    "denovo_quality/diversity.py": "35caa29ba7e4b62d2ded6d07966ab9e13291885db39f0d929778d80dbd18f015"
+  }
+}

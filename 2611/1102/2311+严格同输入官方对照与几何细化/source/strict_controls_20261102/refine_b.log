@@ -1,0 +1,52 @@
+/home/zhouwanyao/anaconda3/envs/sigmadock/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+[WARNING] Using provided HPARAMS that could be modified from oracle.py
+[INFO] DIST | Skipping inter_fragments edges as ligand_ligand_interactions is False
+Loaded model with 14979441 parameters.
+Using cached IGSO3 in /home/zhouwanyao/drive_download/releases/casf_paired_eval/strict_controls_20261102/official_cache/refine_b/diffusion_cache/eps_1000_omega_2000_min_sigma_0_1_max_sigma_1_5_schedule_logarithmic
+Set model to evaluation mode.
+REFINE 2zcq 1801 0.05 RMSD 6.067 chemical 6.039 s 23.6
+REFINE 2zcq 1801 0.1 RMSD 5.669 chemical 5.635 s 22.3
+REFINE 2zcq 1801 0.2 RMSD 1.818 chemical 1.818 s 22.3
+REFINE 2zcq 1802 0.05 RMSD 5.884 chemical 5.842 s 22.3
+REFINE 2zcq 1802 0.1 RMSD 3.924 chemical 3.86 s 22.2
+REFINE 2zcq 1802 0.2 RMSD 2.007 chemical 1.874 s 22.3
+REFINE 2zcq 1803 0.05 RMSD 6.1 chemical 6.065 s 22.0
+REFINE 2zcq 1803 0.1 RMSD 4.976 chemical 4.934 s 22.1
+REFINE 2zcq 1803 0.2 RMSD 3.007 chemical 2.958 s 22.3
+REFINE 5c2h 1801 0.05 RMSD 6.194 chemical 6.194 s 22.1
+REFINE 5c2h 1801 0.1 RMSD 5.411 chemical 5.411 s 22.0
+REFINE 5c2h 1801 0.2 RMSD 2.62 chemical 2.62 s 22.1
+REFINE 5c2h 1802 0.05 RMSD 6.462 chemical 6.462 s 21.7
+REFINE 5c2h 1802 0.1 RMSD 5.558 chemical 5.558 s 22.1
+REFINE 5c2h 1802 0.2 RMSD 2.758 chemical 2.758 s 22.1
+REFINE 5c2h 1803 0.05 RMSD 4.096 chemical 4.096 s 21.9
+REFINE 5c2h 1803 0.1 RMSD 3.538 chemical 3.538 s 22.1
+REFINE 5c2h 1803 0.2 RMSD 1.892 chemical 1.892 s 22.1
+REFINE 1qf1 1801 0.05 RMSD 6.672 chemical 6.672 s 23.0
+REFINE 1qf1 1801 0.1 RMSD 6.555 chemical 6.555 s 23.2
+REFINE 1qf1 1801 0.2 RMSD 6.343 chemical 6.343 s 23.5
+REFINE 1qf1 1802 0.05 RMSD 6.504 chemical 6.496 s 22.7
+REFINE 1qf1 1802 0.1 RMSD 7.004 chemical 7.004 s 23.3
+REFINE 1qf1 1802 0.2 RMSD 7.387 chemical 7.387 s 23.8
+REFINE 1qf1 1803 0.05 RMSD 5.198 chemical 5.198 s 23.9
+REFINE 1qf1 1803 0.1 RMSD 4.6 chemical 4.6 s 23.7
+REFINE 1qf1 1803 0.2 RMSD 4.262 chemical 4.24 s 23.5
+REFINE 4cig 1801 0.05 RMSD 9.943 chemical 9.94 s 18.9
+REFINE 4cig 1801 0.1 RMSD 10.012 chemical 10.012 s 10.9
+REFINE 4cig 1801 0.2 RMSD 9.213 chemical 9.213 s 10.8
+REFINE 4cig 1802 0.05 RMSD 9.659 chemical 9.631 s 10.6
+REFINE 4cig 1802 0.1 RMSD 9.754 chemical 9.729 s 10.6
+REFINE 4cig 1802 0.2 RMSD 9.566 chemical 9.548 s 10.7
+REFINE 4cig 1803 0.05 RMSD 7.274 chemical 7.274 s 10.6
+REFINE 4cig 1803 0.1 RMSD 6.539 chemical 6.539 s 10.6
+REFINE 4cig 1803 0.2 RMSD 5.189 chemical 5.159 s 10.7
+REFINE 3zso 1801 0.05 RMSD 10.594 chemical 10.392 s 11.2
+REFINE 3zso 1801 0.1 RMSD 10.352 chemical 10.043 s 11.2
+REFINE 3zso 1801 0.2 RMSD 9.367 chemical 9.045 s 11.2
+REFINE 3zso 1802 0.05 RMSD 14.828 chemical 14.825 s 11.1
+REFINE 3zso 1802 0.1 RMSD 15.409 chemical 15.409 s 11.1
+REFINE 3zso 1802 0.2 RMSD 16.429 chemical 16.429 s 11.5
+REFINE 3zso 1803 0.05 RMSD 10.954 chemical 10.933 s 12.0
+REFINE 3zso 1803 0.1 RMSD 10.896 chemical 10.875 s 11.2
+REFINE 3zso 1803 0.2 RMSD 9.922 chemical 9.9 s 11.3

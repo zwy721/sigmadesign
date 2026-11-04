@@ -1,0 +1,126 @@
+{
+  "task_key": "strict",
+  "task_title": "严格同输入官方对照与几何细化",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-02T23:11:15.836559+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "strict_controls_20261102/RESULTS.md",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "strict_controls_20261102/RESULTS.md",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/RESULTS.md",
+      "sha256": "bca61179ab2b9010fecb076e17b83cb3e2a9a593c47acdd32a8e838cc9bb24b8",
+      "bytes": 10214,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:11:15.836559+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/evaluate_legacy.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/evaluate_legacy.log",
+      "sha256": "078bd9f21017127f5b113530607b12e0a549d7508f9400e9bf337db95bc3cf13",
+      "bytes": 1188,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:06:25.537040+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/input_verification.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/input_verification.json",
+      "sha256": "1e6950f9c61283c21d8dc31a67787e945cd54bc8946a8ab42ea8c603382c4f50",
+      "bytes": 8150,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:42.473800+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/legacy_a.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/legacy_a.log",
+      "sha256": "ca20bd9e5b70b3329681348c375935c3928678861f4091cbc4a46126893efb15",
+      "bytes": 3963,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:04:04.061665+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/legacy_b.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/legacy_b.log",
+      "sha256": "16cf2fa90aafc146af25b8357eb8f09cc271df765424b52e7dc1d4e756bdae34",
+      "bytes": 4015,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:03:28.915931+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/native_input_control.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/native_input_control.log",
+      "sha256": "5b7b942857b70a4898604e1b262bc26abe4e724b4adb3fde2c97aab2dbd0136b",
+      "bytes": 2776,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:59:33.005430+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/official_full.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/official_full.log",
+      "sha256": "f5e43a9efafff532a072c4c377e1b6bfe391b82e6a4938eba22386e870c67300",
+      "bytes": 2561,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:04:35.385767+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/prepare.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/prepare.log",
+      "sha256": "649db719e4b4de49ffbd657b95affd73bf81bffb3349ff9ea594397e046c0b86",
+      "bytes": 1023,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:46:06.079394+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_a.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_a.log",
+      "sha256": "0c70800952c98005bb35cc18e20aa03671552fef8ef3da425b30438cae9bf40b",
+      "bytes": 3574,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:01:18.387758+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_b.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_b.log",
+      "sha256": "bf19c19daca8d970624d8de12b94756cdcaa7ddf1bd2d49829d732023168c61f",
+      "bytes": 3102,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:49.232785+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/refine_tail.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/refine_tail.log",
+      "sha256": "e39227b84824de31cfe7ae500d4bb3a381cb719f37a36ecfc0fc5a27397d24ec",
+      "bytes": 1143,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:05:41.353820+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/smoke_legacy.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/smoke_legacy.log",
+      "sha256": "6b83bcdd43e613aad86a4d7b034664dd8585ad7349ee6d7ea44288d82d0bc180",
+      "bytes": 2297,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:51:18.179968+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/smoke_official.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/smoke_official.log",
+      "sha256": "35c52528373128416d6a5918b01196799fd16956fff88de1ad69dbe869cd02b4",
+      "bytes": 1613,
+      "source_modified_Asia_Shanghai": "2026-11-02T22:48:47.218590+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/summary.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/summary.json",
+      "sha256": "58389faa794f6d0616ac2ae120d9afa1048afd35b27aea2ece2d81acc37c7c07",
+      "bytes": 25606,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:11:15.830257+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/verification.json",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/verification.json",
+      "sha256": "b61cf630577fb0d073afc84c6f93bcdeee4466c56098523176ff493addfea218",
+      "bytes": 720,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:08:59.379606+08:00"
+    },
+    {
+      "source": "strict_controls_20261102/verify_inputs.log",
+      "repository_path": "2611/1102/2311+严格同输入官方对照与几何细化/source/strict_controls_20261102/verify_inputs.log",
+      "sha256": "7d09388b96282e94576f7ec2c86b41f62b7098c93ca0263286ce7bff7d03dd61",
+      "bytes": 1600,
+      "source_modified_Asia_Shanghai": "2026-11-02T23:07:42.473800+08:00"
+    }
+  ]
+}

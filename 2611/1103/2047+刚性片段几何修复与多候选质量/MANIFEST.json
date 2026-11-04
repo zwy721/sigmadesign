@@ -1,0 +1,273 @@
+{
+  "task_key": "geometry",
+  "task_title": "刚性片段几何修复与多候选质量",
+  "completion_or_final_update_Asia_Shanghai": "2026-11-03T20:47:18.774504+08:00",
+  "time_evidence": {
+    "kind": "latest_final_report_or_verification_mtime",
+    "source": "geometry_constraints_20261103/verification.json",
+    "inferred": true,
+    "note": "Historical task has no explicit completion timestamp; this is final artifact completion/update time, not a newly measured experiment end."
+  },
+  "archived_at_Asia_Shanghai": "2026-11-04T11:42:41.922151+08:00",
+  "files": [
+    {
+      "source": "GEOMETRY_ERROR_ANALYSIS.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/GEOMETRY_ERROR_ANALYSIS.md",
+      "sha256": "525076e6436e6116fe554cb2160f4d44603b104deb6be75436c4990500eeece6",
+      "bytes": 3173,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.078049+08:00"
+    },
+    {
+      "source": "GEOMETRY_REPAIR_RESULTS.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/GEOMETRY_REPAIR_RESULTS.md",
+      "sha256": "447a41b1bdb81e0f7cb12f7e74049241fce090c97279b4ca830293f42561bf33",
+      "bytes": 4927,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.899339+08:00"
+    },
+    {
+      "source": "METRIC_AUDIT.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/METRIC_AUDIT.md",
+      "sha256": "64459b70f5839a8ba5a2a20390fc7a6e1a650cf0f57d2450c336d34c67b0d0be",
+      "bytes": 3363,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:30:54.062238+08:00"
+    },
+    {
+      "source": "MULTICANDIDATE_DENOVO_QUALITY.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/MULTICANDIDATE_DENOVO_QUALITY.md",
+      "sha256": "cd8c5cad840dd77791ba617a58d9c9e6277ac011e2f19fecf1560b8e92dd3494",
+      "bytes": 7859,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.899456+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/README.md",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/README.md",
+      "sha256": "83482e1d222a88bf044a1510be4f85672f1eb98104ef4b0e99d16410837ca131",
+      "bytes": 2999,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:38:15.836796+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/all_tests.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/all_tests.log",
+      "sha256": "77add11e41bf551ab35ee5297ff38f21976bad826ac5d1996fa32d44410c47ef",
+      "bytes": 99,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:15.538154+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/audit.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/audit.log",
+      "sha256": "6150e87bd7d4102e4e750df5ffcf1be2395d8f3f540ccd88853f56087c74557c",
+      "bytes": 1988,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.641571+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/audit_refresh.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/audit_refresh.log",
+      "sha256": "f18ab0f1823c6bd6a83fd970bbb24089a0bc718a23c5a22e050f5827b512d498",
+      "bytes": 16304,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:45.381412+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/derive.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/derive.log",
+      "sha256": "762237718a5c5e95c8e0c47e1053393c02641b7f8daa654d8c6aceab16071f2d",
+      "bytes": 1238,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:31.974438+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/final_quality.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/final_quality.log",
+      "sha256": "54b3aaf88d83021b948dc32a1bf4c987b10d7a6d148a60f79a943598297f9984",
+      "bytes": 74352,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:43:26.540952+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/final_report.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/final_report.log",
+      "sha256": "f7b295c8639f89b75afae494e9674ab6748cc2d485637e32b46eee456b0ff471",
+      "bytes": 129523,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:43:48.746532+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/geometry_stage_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/geometry_stage_summary.json",
+      "sha256": "7bfb9373e53b9dbb28992eb94f08522db7677f1dbcfcb96345d6687439ac831b",
+      "bytes": 1468,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.638112+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/metric_audit_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/metric_audit_summary.json",
+      "sha256": "9111d47e5afcae24c09226ee4af427d433d5f103a56337d2cfb5d40e9411ffb2",
+      "bytes": 520,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:22:03.638290+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_0.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_0.log",
+      "sha256": "6f2b8cdd32129b53707e9a5ff68bc575fe201ba8778afb14bf631adc2448f879",
+      "bytes": 3871,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:16.918129+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_1.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_1.log",
+      "sha256": "ddc29728cc6c2c050e6a3ebcef466433c963d709642e5176946fba1fcab9dad0",
+      "bytes": 2631,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:45.803153+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_2.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_2.log",
+      "sha256": "b57c9ae50cf378d13a17c56e8b914cd84e8653c0d305f5c878c3be98cdf1b42c",
+      "bytes": 3912,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:30.524038+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_0.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_0.json",
+      "sha256": "1f401fa85c0f6060a940fa510a516b11851f769c3451a8118eee61cafbfb7413",
+      "bytes": 442641,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:16.925283+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_1.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_1.json",
+      "sha256": "3ba55135e763791070bf9aaa15a265272ba7c5f2bcc9778b65b8632cf4ed54ae",
+      "bytes": 442638,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:34:45.810464+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/mid_summary_2.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/mid_summary_2.json",
+      "sha256": "2072d024ec8355856953b6227537a5e202506d727c55f9ecf89f8037f85dbcff",
+      "bytes": 442521,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:35:30.531280+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_0.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_0.log",
+      "sha256": "0f839a125857a014225818a2ea54ac0091a1519dfc6369a72b3f60eaca8abab9",
+      "bytes": 7194,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:14.969060+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_1.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_1.log",
+      "sha256": "ee27e40cbb8790af263139bd1006134863c8bbb161519b47645595fe7df825e1",
+      "bytes": 4381,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:02.121147+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_2.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_2.log",
+      "sha256": "e06db62f5e0342c854789f106b2a269852afca1bc7be59ba2545bafd186114dc",
+      "bytes": 5442,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:57.441083+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_3.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_3.log",
+      "sha256": "29f75dddd167de759edfd842942536b5beae16fcce8b38bcdb3267cf4b2f9d3d",
+      "bytes": 3879,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:20.117213+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion.log",
+      "sha256": "a4c797bdcc1d514b2afc6f68bb7fa88a956ddde57a737950ce2409ae224191e3",
+      "bytes": 5197,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:18:38.547881+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_0.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_0.json",
+      "sha256": "86f489b6891793fb2d07e587e8db014ec94ba81674eaffb28e0e9e80bcd61aeb",
+      "bytes": 18325,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:15.202295+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_1.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_1.json",
+      "sha256": "54fb66675042f67e867b14009e0091ee3291e33355c2c4bdcc701830c48d74fb",
+      "bytes": 18466,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:02.354073+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_2.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_2.json",
+      "sha256": "e09366d81b9ca8ae0423d7eb1e9935e36c4773425fa8f4d745c9dfb09f2a857e",
+      "bytes": 18121,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:57.673495+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/pool_completion_summary_3.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/pool_completion_summary_3.json",
+      "sha256": "33414ec9986a5332e8c29ffe1944b0a357734f27238a5e1f0c9a647de11bd8d1",
+      "bytes": 18123,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:20.340963+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/repair.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/repair.log",
+      "sha256": "b3a4348456d91a99f2d965741ee3818066a3891e091c04f86e7f4b2e84fdf640",
+      "bytes": 47304,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:31:22.691255+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/repair_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/repair_summary.json",
+      "sha256": "a4de7d6f0f249f23a187df8bb1a9cf7a521e502ee56a14f05de15b68eb48a89b",
+      "bytes": 5856,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.530563+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/short_quality.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/short_quality.log",
+      "sha256": "8c8d10bce10ffcce235d2865cf0d71d284316ffd5e34d9ddb5537698982ead1a",
+      "bytes": 48342,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:28:05.390432+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/stereo_reliability_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/stereo_reliability_summary.json",
+      "sha256": "399f27cf7c810d72422b0c333cff25f4c0a868a3c447ba63ff1a36a0de6306df",
+      "bytes": 276,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.259887+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/study_summary.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/study_summary.json",
+      "sha256": "f987832b033bf6069d834626e8c0dce1291b247240aa47cffda4e64ea9208f84",
+      "bytes": 59193,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:33.898928+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/summary.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/summary.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:46:27.894418+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/tests.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/tests.log",
+      "sha256": "faad2a048f066402d263a731e67182173f50486382c58da46a5fbfff30212c04",
+      "bytes": 98,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:23:50.093756+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/verification.json",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/verification.json",
+      "sha256": "4681845c0d1630f9cdba74bdd8ab1b3f17ffc4ddf068d318ecd615bba429ebc3",
+      "bytes": 2656,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:47:18.774504+08:00"
+    },
+    {
+      "source": "geometry_constraints_20261103/verification.log",
+      "repository_path": "2611/1103/2047+刚性片段几何修复与多候选质量/source/geometry_constraints_20261103/verification.log",
+      "sha256": "4681845c0d1630f9cdba74bdd8ab1b3f17ffc4ddf068d318ecd615bba429ebc3",
+      "bytes": 2656,
+      "source_modified_Asia_Shanghai": "2026-11-03T20:47:18.826787+08:00"
+    }
+  ]
+}
