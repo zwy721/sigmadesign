@@ -1,6 +1,12 @@
 # SigmaDock 研究任务日志
 
-## 最新评估：无结晶水协议与生成质量
+## 最新评估：自主生成多样性（全部完成）
+
+[完整报告](2611/1105/1345_diversity/DIVERSITY_EVALUATION_RESULTS.md) · [身份采样](2611/1105/1345_diversity/IDENTITY_SAMPLING_COMPARISON.md) · [联合接口审计](2611/1105/1345_diversity/JOINT_GENERATION_AUDIT.md) · [决策](2611/1105/1345_diversity/NEXT_STEP_DECISION.md) · [文件导航](2611/1105/1345_diversity/README.md)
+
+504次正式尝试、2016/2016条阶段QC、19/19项核验，待检0；单张A100、冻结全部权重。交替采样得到72/72种二维构造，但未修复HQ仅9/72，局部柔性修复后60/72；身份头不直接读取口袋。上传报告、代码、参数、全部生成结果CSV与拒绝记录，完整结构/概率/缓存保留本地。原有任务结果保持不变。
+
+## 前期评估：无结晶水协议与生成质量
 
 [完整报告](2611/1105/1039%2Bno_water_test/NO_WATER_EVALUATION_REPORT.md) · [冻结协议](2611/1105/1039%2Bno_water_test/NO_WATER_PROTOCOL.md) · [能力审计](2611/1105/1039%2Bno_water_test/CAPABILITY_AUDIT.md) · [精简文件导航](2611/1105/1039%2Bno_water_test/README.md)
 

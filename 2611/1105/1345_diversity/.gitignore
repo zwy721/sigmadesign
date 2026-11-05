@@ -1,0 +1,15 @@
+# Full generated structures, caches and weight assets stay local.
+/main/structures/
+/main/quality/cache/
+/main/quality/details/
+/main/quality/*.jsonl
+/main/quality_boost/
+/pilot/structures/
+/pilot/quality/cache/
+/pilot/quality/details/
+/pilot/quality/*.jsonl
+/official_cache*/
+/identity_assets/
+/matplotlib/
+*.log
+__pycache__/

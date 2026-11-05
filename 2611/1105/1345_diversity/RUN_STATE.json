@@ -1,0 +1,14 @@
+{
+  "generation_completed": 504,
+  "pilot_completed": 14,
+  "required_terminal_QC_completed": 1512,
+  "required_terminal_QC_expected": 1512,
+  "all_frozen_QC_planned": 2016,
+  "optional_initial_QC_pending": 0,
+  "verification": 19,
+  "verification_total": 19,
+  "GPU_work_finished": true,
+  "original_protocol_unchanged": true,
+  "timeout_policy_question": "No runtime cap introduced; original auxiliary checks completed.",
+  "all_frozen_QC_completed": 2016
+}

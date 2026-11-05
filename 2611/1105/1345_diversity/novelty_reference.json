@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "scope": "Actual 17420-member PDBBind-stage training set of the legacy checkpoint; GEOM pretraining, connection-head and official SigmaDock training are not included.",
+  "path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/de_novo_quality_20261103/training_index.json",
+  "sha256": "984dbd4deeb1d8e2d3ee77c4cf669b0134630f7a9408933c743b1677af00ce08",
+  "unique_isomeric": 14103,
+  "unique_constitution": 13683,
+  "invalid_or_missing_records": 0,
+  "full_training_universe_covered": false
+}

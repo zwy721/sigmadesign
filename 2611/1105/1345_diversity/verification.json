@@ -1,0 +1,136 @@
+{
+  "passed": 19,
+  "total": 19,
+  "failed": [],
+  "optional_initial_QC_pending": 0,
+  "checks": [
+    {
+      "name": "exact_frozen_attempt_grid_no_duplicates",
+      "passed": true,
+      "detail": 504
+    },
+    {
+      "name": "pilot_complete_separate_denominator",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "N_is_predefined_prior_only",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "equal_complete_attempt_neural_and_search_budgets",
+      "passed": true,
+      "detail": {
+        "complete": 504,
+        "early_failed": 0
+      }
+    },
+    {
+      "name": "required_terminal_QC_complete_optional_initial_pending_explicit",
+      "passed": true,
+      "detail": {
+        "required_terminal_QC": 1512,
+        "completed_QC": 2016,
+        "optional_initial_QC_pending": 0
+      }
+    },
+    {
+      "name": "all_QC_inputs_unchanged",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "HQ_conjunction_no_missing_as_pass",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "frozen_HQ_no_water_protocol_exact",
+      "passed": true,
+      "detail": [
+        "all_atoms_connected",
+        "aromatic_ring_flatness",
+        "bond_angles",
+        "bond_lengths",
+        "double_bond_flatness",
+        "inchi_convertible",
+        "internal_energy",
+        "internal_steric_clash",
+        "minimum_distance_to_inorganic_cofactors",
+        "minimum_distance_to_organic_cofactors",
+        "minimum_distance_to_protein",
+        "mol_cond_loaded",
+        "mol_pred_loaded",
+        "no_radicals",
+        "non-aromatic_ring_non-flatness",
+        "protein-ligand_maximum_distance",
+        "sanitization",
+        "volume_overlap_with_inorganic_cofactors",
+        "volume_overlap_with_organic_cofactors",
+        "volume_overlap_with_protein"
+      ]
+    },
+    {
+      "name": "weights_unchanged",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "all_historical_files_unchanged",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "generator_sources_templates_unchanged",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "all_probabilities_searches_failures_and_official_audits",
+      "passed": true,
+      "detail": {
+        "complete_official_audits": 518,
+        "probability_arrays": 2590,
+        "searches": 2590,
+        "rejected_updates_retained": 170
+      }
+    },
+    {
+      "name": "actual_model_pockets_water_free_and_centers_protein_only",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "target_free_boundary_and_current_head",
+      "passed": true,
+      "detail": "Static input contract plus runtime empty-protein assertions; no target dataset construction."
+    },
+    {
+      "name": "probability_sampling_boundary_tests",
+      "passed": true,
+      "detail": "argmax, normalized top-k, inclusive top-p threshold, temperature entropy tests passed"
+    },
+    {
+      "name": "independent_initial_draw_replay_and_common_distribution",
+      "passed": true,
+      "detail": "Initial draws reproduced from saved probabilities/seed; raw probabilities agree across all strategies and pockets within atol=1e-6, rtol=1e-5. GPU roundoff is reported."
+    },
+    {
+      "name": "CSV_preserves_every_attempt",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "per_pocket_rows_complete",
+      "passed": true,
+      "detail": true
+    },
+    {
+      "name": "each_initial_distribution_agrees_within_float_tolerance_across_pockets",
+      "passed": true,
+      "detail": true
+    }
+  ]
+}

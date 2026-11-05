@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "training": false,
+  "gpu_count": 1,
+  "visible_gpu": "0",
+  "cohort": [
+    "12AV",
+    "7ILZ",
+    "9RT3",
+    "9SYL",
+    "9T4A",
+    "9T51"
+  ],
+  "cohort_role": "Previously examined diagnostic pockets only; no generalization claim",
+  "pilot_pockets": [
+    "12AV"
+  ],
+  "pilot_seeds": [
+    40001,
+    40002
+  ],
+  "seeds": [
+    41001,
+    41002,
+    41003,
+    41004,
+    41005,
+    41006,
+    41007,
+    41008,
+    41009,
+    41010,
+    41011,
+    41012
+  ],
+  "strategies": {
+    "mask_top1": {
+      "initial": "mask",
+      "draw": "top1",
+      "temperature": 1.0,
+      "iterative": false
+    },
+    "mask_categorical": {
+      "initial": "mask",
+      "draw": "categorical",
+      "temperature": 1.0,
+      "iterative": false
+    },
+    "mask_temp15": {
+      "initial": "mask",
+      "draw": "categorical",
+      "temperature": 1.5,
+      "iterative": false
+    },
+    "mask_topk50": {
+      "initial": "mask",
+      "draw": "topk",
+      "top_k": 50,
+      "temperature": 1.0,
+      "iterative": false
+    },
+    "mask_topp095": {
+      "initial": "mask",
+      "draw": "topp",
+      "top_p": 0.95,
+      "temperature": 1.0,
+      "iterative": false
+    },
+    "joint_prior_iterative": {
+      "initial": "frequency_prior",
+      "draw": "top1",
+      "temperature": 1.0,
+      "iterative": true,
+      "threshold": 0.3
+    },
+    "alternating_categorical": {
+      "initial": "frequency_prior",
+      "draw": "categorical",
+      "temperature": 1.0,
+      "iterative": true,
+      "threshold": 0.0
+    }
+  },
+  "N_prior": {
+    "values": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "source": "Predefined uniform diagnostic prior; not fit to target or training size",
+    "seed_rule": "numpy.default_rng(seed+912711).choice(values)"
+  },
+  "initial_pose": {
+    "center": "Centroid of supplied model protein heavy atoms; no ligand COM read",
+    "sigma_A": 2.7,
+    "rotations": "scipy Rotation.random(seed)"
+  },
+  "pose_steps": 24,
+  "grid": "Official 25-point cubic t=1 to .005, noise_scale=0",
+  "revision_steps": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "search_config": {
+    "skeleton_width": 128,
+    "skeleton_count": 24,
+    "port_width": 64,
+    "pair_options": 64,
+    "per_skeleton": 16,
+    "equivalent_representatives": 2,
+    "skeleton_bonus": 1.0
+  },
+  "search_k": 1,
+  "connection_policy": "wide",
+  "connection_head": "full TimeConnectionPredictor; never legacy_staged",
+  "budget": "5 identity queries, 5 connection forward/search calls per full attempt; 24 pose steps; no retries",
+  "identity": "All-MASK current relative poses, no receptor, no connection-prior channel; source geom",
+  "joint_adaptation": "Reuse frequency initialization, .3 confidence updates, legal fallback and shape transfer from sample_joint. Replace early Port head with CURRENT TimeConnectionPredictor + identical hierarchical search in all arms. Fixed current random-frame initialization shared by all arms.",
+  "topology_policy": "Each arm proposes a graph at identical update steps. One-shot arms freeze identity but can update graph. Identity updates and connections accepted together only after legal graph+reference+shape validation.",
+  "repair": "Frozen rigid and local-flex B1 independently from native_final; no water",
+  "QC_config_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+  "PB_config_sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+  "weights": {
+    "identity": {
+      "path": "/home/zhouwanyao/drive_download/releases/core497_joint_experiments_20261019/training3684/runs/geom_ipa3684_100ep_20261029_cuda01234_bs372_fast/best_loss.pt",
+      "sha256": "eaf3ffd796180b6a43fe02e681e1817a37d00c6a11bd5133557ebbcf99a24926"
+    },
+    "connection": {
+      "path": "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt",
+      "sha256": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93"
+    },
+    "pose": {
+      "path": "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt",
+      "sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382"
+    }
+  },
+  "history_baseline_path": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1105/1039+no_water_test/free_probe",
+  "selection": "All settings a priori; no sweep, deduplication, quality filtering, test-selected parameters, or training",
+  "geometry_transfer_max_fit_A": 0.5
+}

@@ -318,6 +318,32 @@
         "sha256": "5d67deee5146e8267bf2dafe7a99e890504e4a0d32ed6269e0e7d4fbd795a070",
         "source_modified_Asia_Shanghai": "2026-11-05T10:42:38.533877+08:00"
       }
+    },
+    {
+      "key": "frozen_identity_joint_diversity_20261105",
+      "title": "自主生成多样性诊断与联合采样验证",
+      "repository_directory": "2611/1105/1345_diversity",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-05T15:13:52.481769+08:00",
+      "inferred_time": true,
+      "time_basis": "Final refreshed report mtime after auxiliary QC completion; task directory label retained",
+      "files": 52,
+      "logs": 0,
+      "bytes": 3922751,
+      "archive_scope": "compact_reports_code_frozen_configs_key_tables_all_rejections_and_validation",
+      "local_complete_results_preserved": true,
+      "prompt": {
+        "task_key": "frozen_identity_joint_diversity_20261105",
+        "task_title": "自主生成多样性诊断与联合采样验证",
+        "repository_directory": "2611/1105/1345_diversity",
+        "status_path": "2611/1105/1345_diversity/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "2611/1105/1345_diversity/prompt.md",
+        "prompt_path": "2611/1105/1345_diversity/prompt.md",
+        "relevant_scope": "冻结权重身份策略、当前连接兼容、目标无关N先验、端到端多样性与HQ_no_water",
+        "bytes": 5954,
+        "sha256": "cbc03d679016ff22927a7ea256a298d32e3e3ed04a69559bd748380e4954bec0",
+        "source_modified_Asia_Shanghai": "2026-11-05T13:49:35.050497+08:00"
+      }
     }
   ],
   "files": [
@@ -2156,18 +2182,416 @@
       "source": "2611/1105/1039+no_water_test/verification.json",
       "source_sha256": "6026f3b3925926c73b4c8be2e3cc268809993c44a1f3391d2e0a3b1db6ae3255",
       "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/.gitignore",
+      "bytes": 327,
+      "sha256": "00d6bf4c2f20c92d0ba5b3d5d48d5e6ee609baed5b7bfe45ae1ccff62d178efb",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/ALL_UPDATE_EVENTS.csv",
+      "bytes": 493737,
+      "sha256": "097da38b6a060df0e174a622760dd51c1b6233ffabb35f18716b217d4a8fbfec",
+      "source": "2611/1105/1345_diversity/ALL_UPDATE_EVENTS.csv",
+      "source_sha256": "097da38b6a060df0e174a622760dd51c1b6233ffabb35f18716b217d4a8fbfec",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/CONFORMER_DIVERSITY.csv",
+      "bytes": 8510,
+      "sha256": "8784e0032ca11b0a08355dc15abb1785d581563f4e511094cbdc87ba37102016",
+      "source": "2611/1105/1345_diversity/CONFORMER_DIVERSITY.csv",
+      "source_sha256": "8784e0032ca11b0a08355dc15abb1785d581563f4e511094cbdc87ba37102016",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/CONFORMER_DIVERSITY.json",
+      "bytes": 13185,
+      "sha256": "4f7b809edcc4ce051988182ee6de266f61d24013fda4f6180d9991f4a4f7de67",
+      "source": "2611/1105/1345_diversity/CONFORMER_DIVERSITY.json",
+      "source_sha256": "4f7b809edcc4ce051988182ee6de266f61d24013fda4f6180d9991f4a4f7de67",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/CROSS_POCKET_COMPARISON.csv",
+      "bytes": 9349,
+      "sha256": "9079b1b155d741ec17361d5f6e4a4fb61ce84f4c155e487f1680be32af1c85e4",
+      "source": "2611/1105/1345_diversity/CROSS_POCKET_COMPARISON.csv",
+      "source_sha256": "9079b1b155d741ec17361d5f6e4a4fb61ce84f4c155e487f1680be32af1c85e4",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/DIVERSITY_EVALUATION_RESULTS.md",
+      "bytes": 14630,
+      "sha256": "c02976b133f96114e010711e1b86e697a4aa085431d8b899c54c5c7f3ba71d5b",
+      "source": "2611/1105/1345_diversity/DIVERSITY_EVALUATION_RESULTS.md",
+      "source_sha256": "c02976b133f96114e010711e1b86e697a4aa085431d8b899c54c5c7f3ba71d5b",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/DIVERSITY_QUALITY.png",
+      "bytes": 179688,
+      "sha256": "b88e5d8c9237f9dd12cca0c3f316b3c7ccb3b70734dbb813fefa880ee6367632",
+      "source": "2611/1105/1345_diversity/DIVERSITY_QUALITY.png",
+      "source_sha256": "b88e5d8c9237f9dd12cca0c3f316b3c7ccb3b70734dbb813fefa880ee6367632",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/DIVERSITY_QUALITY.svg",
+      "bytes": 92414,
+      "sha256": "da0d97ab893bea846fba8eb3bd389161f5b77af23204c78427768897872f1748",
+      "source": "2611/1105/1345_diversity/DIVERSITY_QUALITY.svg",
+      "source_sha256": "da0d97ab893bea846fba8eb3bd389161f5b77af23204c78427768897872f1748",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/IDENTITY_QUERY_SUMMARY.csv",
+      "bytes": 1407116,
+      "sha256": "d0c2591c0d3d555317478211e222038885d0c1c4ef5c9b4f88769d19e75f4ff0",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/IDENTITY_SAMPLING_COMPARISON.md",
+      "bytes": 2682,
+      "sha256": "a3e7d46175031c6133de1bd121e0f23cab2b4a1ca9926a1c80fcc1ef692a11e6",
+      "source": "2611/1105/1345_diversity/IDENTITY_SAMPLING_COMPARISON.md",
+      "source_sha256": "a3e7d46175031c6133de1bd121e0f23cab2b4a1ca9926a1c80fcc1ef692a11e6",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/JOINT_GENERATION_AUDIT.md",
+      "bytes": 2864,
+      "sha256": "edc2c3bdb95774bef67b7a7017e210a9c8d1c01a3abeb99f3204d3db4dd92a00",
+      "source": "2611/1105/1345_diversity/JOINT_GENERATION_AUDIT.md",
+      "source_sha256": "edc2c3bdb95774bef67b7a7017e210a9c8d1c01a3abeb99f3204d3db4dd92a00",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/NEXT_STEP_DECISION.md",
+      "bytes": 7065,
+      "sha256": "3bf2cbbe660219cf1240c7ed53fa1d6328eeef9d7cc291fbe1f569206c351cbe",
+      "source": "2611/1105/1345_diversity/NEXT_STEP_DECISION.md",
+      "source_sha256": "3bf2cbbe660219cf1240c7ed53fa1d6328eeef9d7cc291fbe1f569206c351cbe",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/PENDING_QUALITY_RECORDS.csv",
+      "bytes": 106,
+      "sha256": "720ec6837b3f99f1631c0ff1610c41c7d3df713a1ed60f7f1754d9ee2d499153",
+      "source": "2611/1105/1345_diversity/PENDING_QUALITY_RECORDS.csv",
+      "source_sha256": "720ec6837b3f99f1631c0ff1610c41c7d3df713a1ed60f7f1754d9ee2d499153",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/PER_GENERATION_RESULTS.csv",
+      "bytes": 578444,
+      "sha256": "b908d2bd9aa568d2ceb16e74c9dcaa9de0b3e6b693c1bfb2c1c317f67f5ddb57",
+      "source": "2611/1105/1345_diversity/PER_GENERATION_RESULTS.csv",
+      "source_sha256": "b908d2bd9aa568d2ceb16e74c9dcaa9de0b3e6b693c1bfb2c1c317f67f5ddb57",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/PER_N_DIVERSITY.csv",
+      "bytes": 239105,
+      "sha256": "b94ed1a9f4c096d43e8f12c9bd09d7547d032c31af133e86e1ebc82be6ba3e56",
+      "source": "2611/1105/1345_diversity/PER_N_DIVERSITY.csv",
+      "source_sha256": "b94ed1a9f4c096d43e8f12c9bd09d7547d032c31af133e86e1ebc82be6ba3e56",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/PER_POCKET_DIVERSITY.csv",
+      "bytes": 77214,
+      "sha256": "3f14e87d7d758a089ecd2a127d813968a931627ae8f554a35109056894434bb5",
+      "source": "2611/1105/1345_diversity/PER_POCKET_DIVERSITY.csv",
+      "source_sha256": "3f14e87d7d758a089ecd2a127d813968a931627ae8f554a35109056894434bb5",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/PROMPT_STATUS.md",
+      "bytes": 205,
+      "sha256": "af170a14d9c73ab04602ff5b249995d6213270d517629458b125031f50fdb936",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/README.md",
+      "bytes": 3159,
+      "sha256": "61c32b036572554021ce2e7a8596a6a80e87abe061d816ea901c0a36e06cfd8a",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/REJECTED_UPDATE_EVENTS.csv",
+      "bytes": 62253,
+      "sha256": "80cd026fd4ecf3fe8f1cc5885c1f7dc1581ba93c6716c0547999fdb025079fdc",
+      "source": "2611/1105/1345_diversity/REJECTED_UPDATE_EVENTS.csv",
+      "source_sha256": "80cd026fd4ecf3fe8f1cc5885c1f7dc1581ba93c6716c0547999fdb025079fdc",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/REPRODUCE.md",
+      "bytes": 2695,
+      "sha256": "b7b7ac8d750823c13238f9d32f9882186c6e310ff6f356e5d630b7b1bcb18b09",
+      "source": "2611/1105/1345_diversity/REPRODUCE.md",
+      "source_sha256": "b7b7ac8d750823c13238f9d32f9882186c6e310ff6f356e5d630b7b1bcb18b09",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/RUN_STATE.json",
+      "bytes": 460,
+      "sha256": "05cc25cf26adb397ce8940ee50a745868bc43535ee304d719029c134d12dba1b",
+      "source": "2611/1105/1345_diversity/RUN_STATE.json",
+      "source_sha256": "05cc25cf26adb397ce8940ee50a745868bc43535ee304d719029c134d12dba1b",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/STRATEGY_SUMMARY.csv",
+      "bytes": 18737,
+      "sha256": "1bd1b00188042da18466265503056821c56b6cfe7a6f41c4587b52a3287f3606",
+      "source": "2611/1105/1345_diversity/STRATEGY_SUMMARY.csv",
+      "source_sha256": "1bd1b00188042da18466265503056821c56b6cfe7a6f41c4587b52a3287f3606",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/frequency_prior.npz",
+      "bytes": 7993,
+      "sha256": "2b521f854347175e21d9ea745184488c1f51f3be3f206d680904c5b9b76612e9",
+      "source": "2611/1105/1345_diversity/frequency_prior.npz",
+      "source_sha256": "2b521f854347175e21d9ea745184488c1f51f3be3f206d680904c5b9b76612e9",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/frozen_plan.json",
+      "bytes": 4588,
+      "sha256": "4e9383b5e3d46a4863faef869d821e21ea10a3ec8e5fd87b309492689386d6e7",
+      "source": "2611/1105/1345_diversity/frozen_plan.json",
+      "source_sha256": "4e9383b5e3d46a4863faef869d821e21ea10a3ec8e5fd87b309492689386d6e7",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/generator_provenance.json",
+      "bytes": 29260,
+      "sha256": "a0b53f22076097c3165aaf225281942671df9cc60ae29fa07f1d844f0ce94128",
+      "source": "2611/1105/1345_diversity/generator_provenance.json",
+      "source_sha256": "a0b53f22076097c3165aaf225281942671df9cc60ae29fa07f1d844f0ce94128",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/main/quality/protocol.json",
+      "bytes": 13004,
+      "sha256": "0f33b61829c681fcfa285ba8724ad3320cec9ac8cd0cd94c577e250f85253d65",
+      "source": "2611/1105/1345_diversity/main/quality/protocol.json",
+      "source_sha256": "0f33b61829c681fcfa285ba8724ad3320cec9ac8cd0cd94c577e250f85253d65",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/novelty_reference.json",
+      "bytes": 526,
+      "sha256": "2d7998295eb86572e5254593e59120c134f3f0370abf8c272c6987c9f6eb3435",
+      "source": "2611/1105/1345_diversity/novelty_reference.json",
+      "source_sha256": "2d7998295eb86572e5254593e59120c134f3f0370abf8c272c6987c9f6eb3435",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/pilot/attempt_summary.csv",
+      "bytes": 18088,
+      "sha256": "ee31525a22ee9079be91b37fd604401d3654c499e3c5231766e6892c7087caae",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/pilot/quality/protocol.json",
+      "bytes": 12734,
+      "sha256": "6266b7e2558443abaeff7c7881cf0cd97eefa465c5f1abdad67a9d116b9621c2",
+      "source": "2611/1105/1345_diversity/pilot/quality/protocol.json",
+      "source_sha256": "6266b7e2558443abaeff7c7881cf0cd97eefa465c5f1abdad67a9d116b9621c2",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/pilot/quality/timing.json",
+      "bytes": 74,
+      "sha256": "574e3dd534186c0e57631d7b971e1284e1027c7426653a33477616a5d5cd7330",
+      "source": "2611/1105/1345_diversity/pilot/quality/timing.json",
+      "source_sha256": "574e3dd534186c0e57631d7b971e1284e1027c7426653a33477616a5d5cd7330",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/pilot/summary.json",
+      "bytes": 2524,
+      "sha256": "50613e32324ff72c8a96f10fc9aa1ab59a319d20ad106440d80de276a0e2a720",
+      "source": "2611/1105/1345_diversity/pilot/summary.json",
+      "source_sha256": "50613e32324ff72c8a96f10fc9aa1ab59a319d20ad106440d80de276a0e2a720",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/posebusters_no_water.json",
+      "bytes": 9038,
+      "sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+      "source": "2611/1105/1345_diversity/posebusters_no_water.json",
+      "source_sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/prompt.md",
+      "bytes": 5954,
+      "sha256": "cbc03d679016ff22927a7ea256a298d32e3e3ed04a69559bd748380e4954bec0",
+      "source": "2611/1105/1345_diversity/prompt.md",
+      "source_sha256": "cbc03d679016ff22927a7ea256a298d32e3e3ed04a69559bd748380e4954bec0",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/quality_completion.json",
+      "bytes": 156,
+      "sha256": "34e156974e7543225dc3f3f3797015c5be82ba6bf6f0290c2ea94f15d3523b3c",
+      "source": "2611/1105/1345_diversity/quality_completion.json",
+      "source_sha256": "34e156974e7543225dc3f3f3797015c5be82ba6bf6f0290c2ea94f15d3523b3c",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/quality_config.json",
+      "bytes": 2364,
+      "sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+      "source": "2611/1105/1345_diversity/quality_config.json",
+      "source_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/analyze.py",
+      "bytes": 15208,
+      "sha256": "f0313152c90102976f2cc0b6cea095ea874a25c2b7d038e78a575e9c9b0eaa31",
+      "source": "2611/1105/1345_diversity/source/analyze.py",
+      "source_sha256": "f0313152c90102976f2cc0b6cea095ea874a25c2b7d038e78a575e9c9b0eaa31",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/boost_quality.py",
+      "bytes": 2724,
+      "sha256": "751e743b74727bbc80796f55e8198283e3ef65f8eef48e1d9bd659a8aa654683",
+      "source": "2611/1105/1345_diversity/source/boost_quality.py",
+      "source_sha256": "751e743b74727bbc80796f55e8198283e3ef65f8eef48e1d9bd659a8aa654683",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/common.py",
+      "bytes": 1857,
+      "sha256": "faaa276c1748293e49f9f831aee45a954896ced467a73ab7fe3294814dc0e827",
+      "source": "2611/1105/1345_diversity/source/common.py",
+      "source_sha256": "faaa276c1748293e49f9f831aee45a954896ced467a73ab7fe3294814dc0e827",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/evaluate.py",
+      "bytes": 1729,
+      "sha256": "691c4f73da3069b053feb8d506a1686b9f2f8ab28dc1f02df13fcf9511276dae",
+      "source": "2611/1105/1345_diversity/source/evaluate.py",
+      "source_sha256": "691c4f73da3069b053feb8d506a1686b9f2f8ab28dc1f02df13fcf9511276dae",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/extra_workers.py",
+      "bytes": 1657,
+      "sha256": "041e40477d30d5eaa97e66aa6b27d33f6f37c8536d4741896aeb8a43e797e2d7",
+      "source": "2611/1105/1345_diversity/source/extra_workers.py",
+      "source_sha256": "041e40477d30d5eaa97e66aa6b27d33f6f37c8536d4741896aeb8a43e797e2d7",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/finalize_quality.py",
+      "bytes": 2617,
+      "sha256": "7847487264e418724f858b4723cea9e9f753b5bf6f479bbab0488a7a984d99b7",
+      "source": "2611/1105/1345_diversity/source/finalize_quality.py",
+      "source_sha256": "7847487264e418724f858b4723cea9e9f753b5bf6f479bbab0488a7a984d99b7",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/fingerprint_delivery.py",
+      "bytes": 826,
+      "sha256": "009beb4448344c8e66017a76cc6f67ffb3fa74bd2dae6f03dd0149d9d4a50d4b",
+      "source": "2611/1105/1345_diversity/source/fingerprint_delivery.py",
+      "source_sha256": "009beb4448344c8e66017a76cc6f67ffb3fa74bd2dae6f03dd0149d9d4a50d4b",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/identity_server.py",
+      "bytes": 2905,
+      "sha256": "bab4cd725cc0ab14d5986319d94a4617540a6ad56f75ec10a5e393d2a419dadc",
+      "source": "2611/1105/1345_diversity/source/identity_server.py",
+      "source_sha256": "bab4cd725cc0ab14d5986319d94a4617540a6ad56f75ec10a5e393d2a419dadc",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/plot_results.py",
+      "bytes": 2137,
+      "sha256": "9849b72802c63cf8fa0852807e81df69e2d9baa2f0b849c415e31bf8b98a1d74",
+      "source": "2611/1105/1345_diversity/source/plot_results.py",
+      "source_sha256": "9849b72802c63cf8fa0852807e81df69e2d9baa2f0b849c415e31bf8b98a1d74",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/refresh_when_complete.py",
+      "bytes": 1329,
+      "sha256": "969b13bf3df6eb2ae5cdd7a04fe9d6b8f0cdcbc5e3eea047d89a2239cfe49b36",
+      "source": "2611/1105/1345_diversity/source/refresh_when_complete.py",
+      "source_sha256": "969b13bf3df6eb2ae5cdd7a04fe9d6b8f0cdcbc5e3eea047d89a2239cfe49b36",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/reports.py",
+      "bytes": 22975,
+      "sha256": "bdafb8971df4b8d666934102bc153503feff392bd5f08a6d4495fc839e3c6608",
+      "source": "2611/1105/1345_diversity/source/reports.py",
+      "source_sha256": "bdafb8971df4b8d666934102bc153503feff392bd5f08a6d4495fc839e3c6608",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/run.py",
+      "bytes": 16341,
+      "sha256": "28ca91365c91a1a18f6a9ed9db652c2f3dd769ccc71978db4fc8547de8e9c514",
+      "source": "2611/1105/1345_diversity/source/run.py",
+      "source_sha256": "28ca91365c91a1a18f6a9ed9db652c2f3dd769ccc71978db4fc8547de8e9c514",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/stream_quality.py",
+      "bytes": 1838,
+      "sha256": "e82a6fc9023f82408f6cd2ae1e2002646a1c4b82dee9e327b11723defb939aec",
+      "source": "2611/1105/1345_diversity/source/stream_quality.py",
+      "source_sha256": "e82a6fc9023f82408f6cd2ae1e2002646a1c4b82dee9e327b11723defb939aec",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/source/verify.py",
+      "bytes": 9209,
+      "sha256": "aa45989b710d6efed7a29ba02bb05c7eca01efdbbf03fcdf61736ecc33edfee1",
+      "source": "2611/1105/1345_diversity/source/verify.py",
+      "source_sha256": "aa45989b710d6efed7a29ba02bb05c7eca01efdbbf03fcdf61736ecc33edfee1",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/summary.json",
+      "bytes": 494786,
+      "sha256": "579f5cd9344f5842991a29b00d76f0c669a9cdf6eb23de4666ecb911a1152b37",
+      "source": "2611/1105/1345_diversity/summary.json",
+      "source_sha256": "579f5cd9344f5842991a29b00d76f0c669a9cdf6eb23de4666ecb911a1152b37",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1345_diversity/verification.json",
+      "bytes": 3611,
+      "sha256": "02daae60742a5d8e75a637678e1c1906da3b3e5ff95560874aa8b7fb444959b8",
+      "source": "2611/1105/1345_diversity/verification.json",
+      "source_sha256": "02daae60742a5d8e75a637678e1c1906da3b3e5ff95560874aa8b7fb444959b8",
+      "byte_exact_to_local": true
     }
   ],
   "include_agent": false,
   "reports_only": false,
   "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "prompt_coverage": {
-    "task_groups": 13,
-    "task_groups_with_preserved_prompt": 11,
+    "task_groups": 14,
+    "task_groups_with_preserved_prompt": 12,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 12,
-    "distinct_prompt_contents": 10
+    "prompt_files_including_legacy_copy": 13,
+    "distinct_prompt_contents": 11
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-05T11:19:35.777285+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-05T23:27:25.210995+08:00",
   "last_compacted_at_UTC": "2026-11-04T13:20:55.507747+00:00"
 }
