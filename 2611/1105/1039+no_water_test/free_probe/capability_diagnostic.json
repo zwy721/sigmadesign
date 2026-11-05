@@ -1,0 +1,18 @@
+{
+  "attempts": 18,
+  "failed": 0,
+  "identity_class_counts": {
+    "3577": 90
+  },
+  "unique_identity_classes": 1,
+  "identity_top1_confidence_min": 0.11225952208042145,
+  "identity_top1_confidence_max": 0.11574128270149231,
+  "all_slots": 90,
+  "site_identity_uses_receptor": false,
+  "identity_generation_mode": "one-shot all-MASK at maximum noise t=1, diagnostic only; does not benchmark all possible iterative samplers",
+  "maximum_native_start_projection_RMSD_A": 0.018209415177251102,
+  "maximum_native_start_projection_atom_displacement_A": 0.03667966379754616,
+  "additional_official_pose_NFE": 432,
+  "identity_forwards": 18,
+  "connection_forwards": 18
+}

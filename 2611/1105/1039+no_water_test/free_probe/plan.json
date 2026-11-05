@@ -1,0 +1,27 @@
+{
+  "cohort": [
+    "12AV",
+    "7ILZ",
+    "9RT3",
+    "9SYL",
+    "9T4A",
+    "9T51"
+  ],
+  "seeds": [
+    1801,
+    1802,
+    1803
+  ],
+  "attempts": 18,
+  "slots": 5,
+  "slot_policy": "Fixed five slots for every receptor, never read true count.",
+  "identity": "All MASK, GEOM matched existing checkpoint, top1 once at t=1; no target data or target lookup.",
+  "identity_checkpoint_sha256": "eaf3ffd796180b6a43fe02e681e1817a37d00c6a11bd5133557ebbcf99a24926",
+  "connection_checkpoint_sha256": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93",
+  "official_checkpoint_sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382",
+  "decoder": "Existing hierarchical_search SearchConfig(), k=1, wide/full; no retries or quality selection.",
+  "pose": "Sampled T normal sigma2.7 A around supplied pocket COM, seeded uniform R; official NativeState 25-point original cubic grid, 24 steps, noise0.",
+  "repair": "Original rigid and frozen B1 each independently from native final, no water.",
+  "limitations": "New minimal component adapter, not the original frozen native runner. GEOM identity does not read receptor. Pocket region and COM remain ligand-defined historical site. No variable fragment count, binding or prospective success claim.",
+  "training": false
+}

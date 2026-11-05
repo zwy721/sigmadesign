@@ -1,0 +1,188 @@
+{
+  "strict_source_candidates": 15,
+  "scope_exclusions": {
+    "39MR": "Free amino acid rather than drug-like bound ligand",
+    "9YEB": "Metal-dependent cofactor requires chemistry outside this noncovalent pipeline",
+    "9RMV": "Polyethylene glycol crystallization additive",
+    "28LK": "Membrane lipid rather than drug-like bound ligand"
+  },
+  "preparation_attempts": 11,
+  "preparation_ready": 7,
+  "development_receptors": 1,
+  "test_receptors": 6,
+  "preparation_failures": [
+    {
+      "pdb_id": "9QJF",
+      "entity_id": "3",
+      "comp_id": "A1I65",
+      "smiles": "C1CSS[C@@H]1CCCCC(=O)NCCCCC(C(=O)N)NC(=O)C(CC(=O)O)N",
+      "constitution": "NC(=O)C(CCCCNC(=O)CCCCC1CCSS1)NC(=O)C(N)CC(=O)O",
+      "heavy_atoms": 29,
+      "release_date": "2026-09-30T00:00:00.000+00:00",
+      "title": "Structure of Rhyzopertha dominica dihydrolipoyl dehydrogenase variant L79A in complex with oxidized aspartyl-R-lipoyllysine at 1.43 angstrom resolution",
+      "resolution": [
+        1.43
+      ],
+      "protein_entities": [
+        "1"
+      ],
+      "cluster30_ids": [
+        1249
+      ],
+      "PDBBind_entry_overlap": false,
+      "any_cluster30_training_overlap": false,
+      "cluster30_exclusion_overlap": false,
+      "sequence_audit": [
+        {
+          "pdb_id": "9QJF",
+          "entity_id": "1",
+          "sequence": "STTHEADIVVIGSGPGGYVAAIKATQLGFKTVCIEKNPTLGGTCANVGCIPSKALLNNSHYYHMAHSGELAERGVTVSNVELNLDKLMQTKSNAVKALTGGIAMLFKKNKVHLINGHGKITGNNQVTALKPDGSSEVVNTKNILIATGSEVTPFQGIPIDEETIVSSTGALSLKQVPKRLVVIGAGVIGLELGSVWSRLGADVTAVEFLNSIGGAGIDGEVAQTFQKVLTKQGLKFKLGTKVTSAQKTGGAIKVSVEDVKNPEKKEDLECDVLLVCVGRRPYTENLGLEEMGIERDQRGCIPVNSHFQTVIPNIYAIGDCIHGPMLAHKAEDEGIICVEGIKGGPVHIDYNCVPSVIYTHPEVGWVGKTEEDLKSEGVNYKVGKFPFLANSRAKTNNDTDGFVKVLSDKNTDRILGTHIIGPMAGELINEAVLAQEYGASSEDVARVCHAHPTCSEALREANLAAYFGKPINF",
+          "sequence_length": 473,
+          "protein_name": "Dihydrolipoyl dehydrogenase",
+          "uniprots": [
+            "K7PQ54"
+          ],
+          "identity_cutoff": 0.3,
+          "all_PDBBind_PB_AX_hits": [],
+          "hit_count": 0,
+          "search_sha256": "f83b2c16152f5f4b21237d2e7a72108e3aee4f2c341dfa842afdd5e44db9334f"
+        }
+      ],
+      "sequence_hit_count": 0,
+      "role": "development",
+      "controlled_identity_and_N": true,
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C13,C14,C15,C17,C19,C20,C9,N1,N18,N2,O1,O16,O2,O3')",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/prepare_sources.py\", line 36, in prepare\n    raise ValueError('Incomplete observed ligand; missing heavy atoms '+','.join(sorted(required-set(best))))\nValueError: Incomplete observed ligand; missing heavy atoms C13,C14,C15,C17,C19,C20,C9,N1,N18,N2,O1,O16,O2,O3\n"
+    },
+    {
+      "pdb_id": "9SOD",
+      "entity_id": "2",
+      "comp_id": "OLC",
+      "smiles": "CCCCCCCC\\C=C/CCCCCCCC(=O)OC[C@@H](CO)O",
+      "constitution": "CCCCCCCCC=CCCCCCCCC(=O)OCC(O)CO",
+      "heavy_atoms": 25,
+      "release_date": "2026-09-23T00:00:00.000+00:00",
+      "title": "Atomic resolution structure of viral channelrhodopsin OLPVR1 in a complex with calcium ion bound at the surface",
+      "resolution": [
+        1.45
+      ],
+      "protein_entities": [
+        "1"
+      ],
+      "cluster30_ids": [
+        20417
+      ],
+      "PDBBind_entry_overlap": false,
+      "any_cluster30_training_overlap": false,
+      "cluster30_exclusion_overlap": false,
+      "sequence_audit": [
+        {
+          "pdb_id": "9SOD",
+          "entity_id": "1",
+          "sequence": "MDNIIMTAYISIFVQIITAIISVYGLFIPLNFKDIILREILILELIVQIIEFIFYIWLIITLQSINEDITYVRYFDWVLTTPVMLLTTVYFFEYMNSDDGIRKKEINDRDYVYLFYICLSNFFMLLIGYLGETKQINKMLTLFGGSFFLFLTFYLLYVKYTKENWMNYIVFYFMFLVWFLYGFAFMFPFSIKNQMYNILDIVSKNIYSIFIFIVILNQSYKLLLEHHHHHH",
+          "sequence_length": 231,
+          "protein_name": "rhodopsin, N~6~-[(2Z,4E,6E,8E)-3,7-DIMETHYL-9-(2,6,6-TRIMETHYLCYCLOHEX-1-EN-1-YL)NONA-2,4,6,8-TETRAENYL]LYSINE, rhodopsin",
+          "uniprots": [],
+          "identity_cutoff": 0.3,
+          "all_PDBBind_PB_AX_hits": [],
+          "hit_count": 0,
+          "search_sha256": "d70104333fd4d519c5339be195925dcb7a5b21c97d06067ab904e6d0aca8eb93"
+        }
+      ],
+      "sequence_hit_count": 0,
+      "role": "development",
+      "controlled_identity_and_N": true,
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C15,C16,C17,C18,C21,C22,C24,O23,O25')",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/prepare_sources.py\", line 36, in prepare\n    raise ValueError('Incomplete observed ligand; missing heavy atoms '+','.join(sorted(required-set(best))))\nValueError: Incomplete observed ligand; missing heavy atoms C15,C16,C17,C18,C21,C22,C24,O23,O25\n"
+    },
+    {
+      "pdb_id": "9TAR",
+      "entity_id": "3",
+      "comp_id": "A1JUW",
+      "smiles": "c1ccc2c(c1)C(=O)c3cc(ccc3S2)N4C(=O)CCC4=O",
+      "constitution": "O=C1CCC(=O)N1c1ccc2sc3ccccc3c(=O)c2c1",
+      "heavy_atoms": 22,
+      "release_date": "2026-03-25T00:00:00.000+00:00",
+      "title": "De novo photoenzyme variant ABLE-E116C-TXT H49A-L42T (photoABLE1 precursor) in complex with product formed in crystallo after irradiation",
+      "resolution": [
+        1.5
+      ],
+      "protein_entities": [
+        "1"
+      ],
+      "cluster30_ids": [
+        3891
+      ],
+      "PDBBind_entry_overlap": false,
+      "any_cluster30_training_overlap": false,
+      "cluster30_exclusion_overlap": false,
+      "sequence_audit": [
+        {
+          "pdb_id": "9TAR",
+          "entity_id": "1",
+          "sequence": "SVKSEYAEAAAVGQEAVAVFNTMKAAFQNGDKEAVAQYLARTASLYTRAEELLNRILEKARREGNKEAVTLMNEFTATFQTGKSIFNAMVAAFKNGDDDSFESYLQALEKVTAKGCTLADQIAKAL",
+          "sequence_length": 126,
+          "protein_name": "De novo photoenzyme variant ABLE",
+          "uniprots": [],
+          "identity_cutoff": 0.3,
+          "all_PDBBind_PB_AX_hits": [],
+          "hit_count": 0,
+          "search_sha256": "2f12a0ddef2f29f2d0b34515a0a445664e00c311c35a180096178dec61869c6b"
+        }
+      ],
+      "sequence_hit_count": 0,
+      "role": "test",
+      "controlled_identity_and_N": true,
+      "status": "failed",
+      "reason": "ValueError('Covalent ligand-receptor system outside frozen noncovalent pipeline: [{\"conn_type_id\": \"covale\", \"ptnr1_label_asym_id\": \"A\", \"ptnr2_label_asym_id\": \"D\", \"ptnr1_label_comp_id\": \"CYS\", \"ptnr2_label_comp_id\": \"A1JUW\"}]')",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/prepare_sources.py\", line 32, in prepare\n    if covalent:raise ValueError('Covalent ligand-receptor system outside frozen noncovalent pipeline: '+json.dumps(covalent))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Covalent ligand-receptor system outside frozen noncovalent pipeline: [{\"conn_type_id\": \"covale\", \"ptnr1_label_asym_id\": \"A\", \"ptnr2_label_asym_id\": \"D\", \"ptnr1_label_comp_id\": \"CYS\", \"ptnr2_label_comp_id\": \"A1JUW\"}]\n"
+    },
+    {
+      "pdb_id": "34JY",
+      "entity_id": "3",
+      "comp_id": "A1KQ5",
+      "smiles": "Cc1cc(c2c(c1)sc(n2)NC(=O)CCl)C",
+      "constitution": "Cc1cc(C)c2nc(NC(=O)CCl)sc2c1",
+      "heavy_atoms": 16,
+      "release_date": "2026-10-07T00:00:00.000+00:00",
+      "title": "IDOL RING domain in complex with PCM-0102246-001",
+      "resolution": [
+        1.478
+      ],
+      "protein_entities": [
+        "1"
+      ],
+      "cluster30_ids": [
+        4880
+      ],
+      "PDBBind_entry_overlap": false,
+      "any_cluster30_training_overlap": false,
+      "cluster30_exclusion_overlap": false,
+      "sequence_audit": [
+        {
+          "pdb_id": "34JY",
+          "entity_id": "1",
+          "sequence": "SQQTRVLQEKLRKLKEAMLCMVCCEEEINSTFCPCGHTVCCESCAAQLQSCPVCRSRVEHVQHVYLPTHTSLLNLTVI",
+          "sequence_length": 78,
+          "protein_name": "E3 ubiquitin-protein ligase MYLIP",
+          "uniprots": [
+            "Q8WY64"
+          ],
+          "identity_cutoff": 0.3,
+          "all_PDBBind_PB_AX_hits": [],
+          "hit_count": 0,
+          "search_sha256": "ffd291f74e305522b0b018edb72867603b1bf6c76cafd9b58f194c0d616db222"
+        }
+      ],
+      "sequence_hit_count": 0,
+      "role": "test",
+      "controlled_identity_and_N": true,
+      "status": "failed",
+      "reason": "ValueError('Incomplete observed ligand; missing heavy atoms C8,C9,CL1,O1')",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/fbdd_efficiency_generalization_20261103/prepare_sources.py\", line 36, in prepare\n    raise ValueError('Incomplete observed ligand; missing heavy atoms '+','.join(sorted(required-set(best))))\nValueError: Incomplete observed ligand; missing heavy atoms C8,C9,CL1,O1\n"
+    }
+  ],
+  "scope": "Historical selection before the locked 144-candidate generation cohort; not included as fabricated molecular outputs."
+}

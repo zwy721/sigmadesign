@@ -1,0 +1,42 @@
+{
+  "name": "SigmaDock-FBDD no-crystal-water v1 20261105",
+  "historical_candidate_reuse": true,
+  "reason": "Actual serialized model pocket and shared protein graph are water free for all six receptors.",
+  "primary": "HQ_no_water",
+  "PB_removed_exactly": [
+    "minimum_distance_to_waters",
+    "volume_overlap_with_waters"
+  ],
+  "PB_remaining_config_unchanged": true,
+  "custom_thresholds_unchanged": true,
+  "water_repulsion": false,
+  "original_denominator": 144,
+  "independent_receptors": 6,
+  "seeds": [
+    1801,
+    1802,
+    1803
+  ],
+  "K": 8,
+  "unique_predecode_clouds": 18,
+  "stages": [
+    "raw_predecode_t0.6",
+    "decoded_initial_t0.6",
+    "native_final_t0.02",
+    "rigid",
+    "local_flex"
+  ],
+  "raw_graph_metrics": "Not evaluable before chemical graph; no fabricated HQ.",
+  "conditioning": "Historical pool: true fragment identities and true fragment count, ligand-defined pocket region. Not free de novo.",
+  "decoder": "One shared raw cloud per receptor/seed; eight graph candidates. Decoder changes chemical graph, not raw coordinates. Native continuation is a separate neural stage.",
+  "repair": "Both start native_final independently. Existing MMFF94s rigid protocol and B1 0.1A local bound; no water energy. Same geometry-derived stereo.",
+  "additional_neural_NFE": 0,
+  "weights": {
+    "/data/zhouwanyao/cutoff_geom_pdbbind_joint_200ep_20261026_cuda156/best_loss.pt": "4c45e8b310f5fa4cf3dceee737af635ac9723cf2e5795e6c31a09244a47a3ac7",
+    "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382",
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93"
+  },
+  "source_config_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+  "free_generation_audit": "Separate capability audit; any independent free-generation cohort reported separately.",
+  "historical_results_unchanged": true
+}

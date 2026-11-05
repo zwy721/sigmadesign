@@ -1,0 +1,11 @@
+before,after,metric,denominator,both_pass,gain,loss,both_fail,unavailable
+raw_predecode,decoded_initial,protein_pass,144,8,0,0,136,0
+raw_predecode,decoded_initial,HQ_no_water,144,0,0,0,0,144
+decoded_initial,native_final,protein_pass,144,8,69,0,67,0
+decoded_initial,native_final,HQ_no_water,144,0,24,0,120,0
+native_final,rigid,protein_pass,144,77,62,0,5,0
+native_final,rigid,HQ_no_water,144,24,79,0,41,0
+native_final,local_flex,protein_pass,144,77,62,0,5,0
+native_final,local_flex,HQ_no_water,144,24,82,0,38,0
+rigid,local_flex,protein_pass,144,139,0,0,5,0
+rigid,local_flex,HQ_no_water,144,102,4,1,37,0

@@ -292,6 +292,32 @@
       },
       "compacted_at_UTC": "2026-11-04T13:20:55.507747+00:00",
       "local_complete_results_preserved": true
+    },
+    {
+      "key": "no_water_generation_evaluation_20261105",
+      "title": "无结晶水协议与生成质量评估",
+      "repository_directory": "2611/1105/1039+no_water_test",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-05T11:13:28.400560+08:00",
+      "inferred_time": true,
+      "time_basis": "Final report mtime; original task directory timestamp retained",
+      "files": 42,
+      "logs": 0,
+      "bytes": 1058224,
+      "archive_scope": "compact_reports_code_frozen_configs_key_tables_and_validation",
+      "local_complete_results_preserved": true,
+      "prompt": {
+        "task_key": "no_water_generation_evaluation_20261105",
+        "task_title": "无结晶水协议与生成质量评估",
+        "repository_directory": "2611/1105/1039+no_water_test",
+        "status_path": "2611/1105/1039+no_water_test/PROMPT_STATUS.md",
+        "status": "preserved_original",
+        "source": "2611/1105/1039+no_water_test/prompt.md",
+        "prompt_path": "2611/1105/1039+no_water_test/prompt.md",
+        "relevant_scope": "无水端到端审计、阶段配对QC与无真实身份诊断",
+        "bytes": 3234,
+        "sha256": "5d67deee5146e8267bf2dafe7a99e890504e4a0d32ed6269e0e7d4fbd795a070",
+        "source_modified_Asia_Shanghai": "2026-11-05T10:42:38.533877+08:00"
+      }
     }
   ],
   "files": [
@@ -1810,18 +1836,338 @@
       "repository_path": "2611/1104/1425+水约束与连接区域柔性/verification.json",
       "bytes": 1769,
       "sha256": "61215c9ebb845841b90306435a608d7fa5be96ee2e3677764bf1bf245571d508"
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/.gitignore",
+      "bytes": 535,
+      "sha256": "1797b073d5f60cfe3559a57cf2089350d521acc899b58dca935571df85481058",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/CAPABILITY_AUDIT.md",
+      "bytes": 2130,
+      "sha256": "3f7733890243f7d9f019c6102b320e34ffe78f6ba811945baa6dc79c274f2d02",
+      "source": "2611/1105/1039+no_water_test/CAPABILITY_AUDIT.md",
+      "source_sha256": "1ad7290c253b6708ef0c22e7c3176ed0262a12960839d001d5c95c5b26ddb9ef",
+      "byte_exact_to_local": false
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/NO_WATER_EVALUATION_REPORT.md",
+      "bytes": 19921,
+      "sha256": "58fb04ca14bce9a651cf307840054abb91a58053e2c1612e0951fbae94735842",
+      "source": "2611/1105/1039+no_water_test/NO_WATER_EVALUATION_REPORT.md",
+      "source_sha256": "876afe1b2829ee4353689b9de34833bb71e39715315dba564ddb4cdd62c3ba48",
+      "byte_exact_to_local": false
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/NO_WATER_PROTOCOL.md",
+      "bytes": 2941,
+      "sha256": "bd91d0cd1887c4de463c8c0df08ba8d20d162cd696344ad1dec51c5e767aff45",
+      "source": "2611/1105/1039+no_water_test/NO_WATER_PROTOCOL.md",
+      "source_sha256": "3feff7e1ef81a8058351e66924f52589a42dbee9679bdae79c8d6aa02887a9cb",
+      "byte_exact_to_local": false
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/PB_unavailable_records.json",
+      "bytes": 350,
+      "sha256": "d8e9102225f9cd8a64f0b6ea6d9b13a70cdd8ac9825e21de034992068d5dab36",
+      "source": "2611/1105/1039+no_water_test/PB_unavailable_records.json",
+      "source_sha256": "d8e9102225f9cd8a64f0b6ea6d9b13a70cdd8ac9825e21de034992068d5dab36",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/PROMPT_STATUS.md",
+      "bytes": 190,
+      "sha256": "d50cb94be87007945e68add827a71fe93e957abed1e4af7e51ec857b25fda6e4",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/README.md",
+      "bytes": 2169,
+      "sha256": "d2d2d2eda5a28875c3f1883b4c881439722b1212da40194988c9777abcfd3f3f",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/REPRODUCE.md",
+      "bytes": 2760,
+      "sha256": "a46f5253981c7ab6e70958e709bc400a750409ce573e4de9d4a9a6872f39fb14",
+      "source": "2611/1105/1039+no_water_test/REPRODUCE.md",
+      "source_sha256": "d476e1dc7848f1c1a0ea686fb1d929f3507bf0d77fbba16c7b6627f43ec1c056",
+      "byte_exact_to_local": false
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/actual_native_graph_audit.json",
+      "bytes": 27795,
+      "sha256": "d8d0b6421eef799d67ace21c16387788ccb4076965b14a8b84f440c0b4d93733",
+      "source": "2611/1105/1039+no_water_test/actual_native_graph_audit.json",
+      "source_sha256": "d8d0b6421eef799d67ace21c16387788ccb4076965b14a8b84f440c0b4d93733",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/by_receptor.csv",
+      "bytes": 1017,
+      "sha256": "081a3ddd2e17565a170180c034776d2c4ad554ca5eafe6d57307af369d270f26",
+      "source": "2611/1105/1039+no_water_test/by_receptor.csv",
+      "source_sha256": "081a3ddd2e17565a170180c034776d2c4ad554ca5eafe6d57307af369d270f26",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/final_integrity.json",
+      "bytes": 264,
+      "sha256": "159ec5cd8d32e717b20323964ace41709e553f1ad5550b620932abd631aba6fb",
+      "source": "2611/1105/1039+no_water_test/final_integrity.json",
+      "source_sha256": "159ec5cd8d32e717b20323964ace41709e553f1ad5550b620932abd631aba6fb",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/attempt_summary.csv",
+      "bytes": 3334,
+      "sha256": "08144beffa3361dfa165759b8fd086f240cdf8c85eb86edda0fd88c822a63b53",
+      "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/by_receptor.csv",
+      "bytes": 907,
+      "sha256": "fef40e3d38122ff66c16fe416c2c4e09d53d3aeeb786fe1d68202a0aaaab0734",
+      "source": "2611/1105/1039+no_water_test/free_probe/by_receptor.csv",
+      "source_sha256": "fef40e3d38122ff66c16fe416c2c4e09d53d3aeeb786fe1d68202a0aaaab0734",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/capability_diagnostic.json",
+      "bytes": 666,
+      "sha256": "977845438a15f988941e1ad504f7fad7828f7a8d246f6ac7dfaba4f2cf577e53",
+      "source": "2611/1105/1039+no_water_test/free_probe/capability_diagnostic.json",
+      "source_sha256": "977845438a15f988941e1ad504f7fad7828f7a8d246f6ac7dfaba4f2cf577e53",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/native_handoff.csv",
+      "bytes": 3456,
+      "sha256": "8443d24a418259f4265ff77414a9e5e8042cfbbb5076e817d622a0b12de080d8",
+      "source": "2611/1105/1039+no_water_test/free_probe/native_handoff.csv",
+      "source_sha256": "8443d24a418259f4265ff77414a9e5e8042cfbbb5076e817d622a0b12de080d8",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/paired_transitions.csv",
+      "bytes": 588,
+      "sha256": "5afc2fe15bdeb71197ff38bda838af5d9f578be832d2e7dc57ecf90e5806262e",
+      "source": "2611/1105/1039+no_water_test/free_probe/paired_transitions.csv",
+      "source_sha256": "5afc2fe15bdeb71197ff38bda838af5d9f578be832d2e7dc57ecf90e5806262e",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/per_candidate_results.csv",
+      "bytes": 65371,
+      "sha256": "7c54bb6f20cea215b47c5b67394e29cfe50dcf4ece0672cb088e1b82fd7beaca",
+      "source": "2611/1105/1039+no_water_test/free_probe/per_candidate_results.csv",
+      "source_sha256": "7c54bb6f20cea215b47c5b67394e29cfe50dcf4ece0672cb088e1b82fd7beaca",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/plan.json",
+      "bytes": 1300,
+      "sha256": "ef01d56d482830682061bfc9781205f0c0685c7fd81d39d7b9c4eb736df62c75",
+      "source": "2611/1105/1039+no_water_test/free_probe/plan.json",
+      "source_sha256": "ef01d56d482830682061bfc9781205f0c0685c7fd81d39d7b9c4eb736df62c75",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/summary.json",
+      "bytes": 40910,
+      "sha256": "0d9848bcfcbcf62adcf6754c6a79a0320ce6d9b29d892c2cbd806fdfb001fd9e",
+      "source": "2611/1105/1039+no_water_test/free_probe/summary.json",
+      "source_sha256": "0d9848bcfcbcf62adcf6754c6a79a0320ce6d9b29d892c2cbd806fdfb001fd9e",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/free_probe/weight_integrity.json",
+      "bytes": 24,
+      "sha256": "1ae748d5796cc995906ddf0fba5e5626f9c1c6ac79cec8fb465106e92254a77b",
+      "source": "2611/1105/1039+no_water_test/free_probe/weight_integrity.json",
+      "source_sha256": "1ae748d5796cc995906ddf0fba5e5626f9c1c6ac79cec8fb465106e92254a77b",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/paired_transitions.csv",
+      "bytes": 612,
+      "sha256": "efc00c380a26f4aa7fdb809d135b148486807c9e5eb64fdafafb3cce18c51bb9",
+      "source": "2611/1105/1039+no_water_test/paired_transitions.csv",
+      "source_sha256": "efc00c380a26f4aa7fdb809d135b148486807c9e5eb64fdafafb3cce18c51bb9",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/per_candidate_results.csv",
+      "bytes": 537876,
+      "sha256": "450dc7b2fbfa79a7608c16357984849beef385afac71a046e25f7da409f0b0c6",
+      "source": "2611/1105/1039+no_water_test/per_candidate_results.csv",
+      "source_sha256": "450dc7b2fbfa79a7608c16357984849beef385afac71a046e25f7da409f0b0c6",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/pocket_audit.csv",
+      "bytes": 3700,
+      "sha256": "3cdaf840415cc6205501f9cc8f18faae40a8ad4c40c8f6412582b9965ba32117",
+      "source": "2611/1105/1039+no_water_test/pocket_audit.csv",
+      "source_sha256": "3cdaf840415cc6205501f9cc8f18faae40a8ad4c40c8f6412582b9965ba32117",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/posebusters_no_water.json",
+      "bytes": 9038,
+      "sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+      "source": "2611/1105/1039+no_water_test/posebusters_no_water.json",
+      "source_sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/posebusters_original.json",
+      "bytes": 10181,
+      "sha256": "ec342c370032e35787db24ddc3f1f279415b353a8bb23272a2e3a836fc7b4732",
+      "source": "2611/1105/1039+no_water_test/posebusters_original.json",
+      "source_sha256": "ec342c370032e35787db24ddc3f1f279415b353a8bb23272a2e3a836fc7b4732",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/prompt.md",
+      "bytes": 3234,
+      "sha256": "5d67deee5146e8267bf2dafe7a99e890504e4a0d32ed6269e0e7d4fbd795a070",
+      "source": "2611/1105/1039+no_water_test/prompt.md",
+      "source_sha256": "5d67deee5146e8267bf2dafe7a99e890504e4a0d32ed6269e0e7d4fbd795a070",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/protocol.json",
+      "bytes": 2106,
+      "sha256": "9260d2ed05355f8baf5ab2948870ec24c8578a447992f0c8044b0abc0f64460c",
+      "source": "2611/1105/1039+no_water_test/protocol.json",
+      "source_sha256": "9260d2ed05355f8baf5ab2948870ec24c8578a447992f0c8044b0abc0f64460c",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/quality_config.json",
+      "bytes": 2364,
+      "sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+      "source": "2611/1105/1039+no_water_test/quality_config.json",
+      "source_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/analyze.py",
+      "bytes": 12137,
+      "sha256": "6c5bc28122e97598e9690468a7400b8d95fdf47767a83978a4de1b4fe4cc50f5",
+      "source": "2611/1105/1039+no_water_test/source/analyze.py",
+      "source_sha256": "6c5bc28122e97598e9690468a7400b8d95fdf47767a83978a4de1b4fe4cc50f5",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/build_reports.py",
+      "bytes": 26198,
+      "sha256": "da5d632cbc46ff972634432dace8f216be4a4bc7bdb7db16e44e3dd5ceb00cc4",
+      "source": "2611/1105/1039+no_water_test/source/build_reports.py",
+      "source_sha256": "da5d632cbc46ff972634432dace8f216be4a4bc7bdb7db16e44e3dd5ceb00cc4",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/common.py",
+      "bytes": 1857,
+      "sha256": "faaa276c1748293e49f9f831aee45a954896ced467a73ab7fe3294814dc0e827",
+      "source": "2611/1105/1039+no_water_test/source/common.py",
+      "source_sha256": "faaa276c1748293e49f9f831aee45a954896ced467a73ab7fe3294814dc0e827",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/evaluate.py",
+      "bytes": 1719,
+      "sha256": "3334a0dcbe7211a40a207c57b506929732b177f8ca13ec0e99e0f09ed7a0f1be",
+      "source": "2611/1105/1039+no_water_test/source/evaluate.py",
+      "source_sha256": "3334a0dcbe7211a40a207c57b506929732b177f8ca13ec0e99e0f09ed7a0f1be",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/free_audit.py",
+      "bytes": 2481,
+      "sha256": "13f8cce946b87fea8ace3ea62667a05017bf4cdc2feba9f583568942a9cc5596",
+      "source": "2611/1105/1039+no_water_test/source/free_audit.py",
+      "source_sha256": "13f8cce946b87fea8ace3ea62667a05017bf4cdc2feba9f583568942a9cc5596",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/free_identity_server.py",
+      "bytes": 3209,
+      "sha256": "93e19c912c043d5e7b605000e71b24652080d750d1dcc59e1c68b7eae79fa194",
+      "source": "2611/1105/1039+no_water_test/source/free_identity_server.py",
+      "source_sha256": "93e19c912c043d5e7b605000e71b24652080d750d1dcc59e1c68b7eae79fa194",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/free_probe.py",
+      "bytes": 8346,
+      "sha256": "a0e19c6bb9ee8797fd3ca5d475c8210b131135a776d1cd3edf62a97a736bf7d5",
+      "source": "2611/1105/1039+no_water_test/source/free_probe.py",
+      "source_sha256": "a0e19c6bb9ee8797fd3ca5d475c8210b131135a776d1cd3edf62a97a736bf7d5",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/prepare.py",
+      "bytes": 8144,
+      "sha256": "a88a7d34fe67463e67808d0d14d9831e174af2c1372ff31e23cf4e71d45e9fcc",
+      "source": "2611/1105/1039+no_water_test/source/prepare.py",
+      "source_sha256": "a88a7d34fe67463e67808d0d14d9831e174af2c1372ff31e23cf4e71d45e9fcc",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/source/verify.py",
+      "bytes": 7073,
+      "sha256": "8e70579fa85fad3ed234c2d2060b52dc72c02ab11d7f87cf32738d016cceb030",
+      "source": "2611/1105/1039+no_water_test/source/verify.py",
+      "source_sha256": "8e70579fa85fad3ed234c2d2060b52dc72c02ab11d7f87cf32738d016cceb030",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/stage_quality.png",
+      "bytes": 103339,
+      "sha256": "4b4a9f0f45f572b7104bad83b55634a37c92c425c6cc5c2f64673daa2aabc40a",
+      "source": "2611/1105/1039+no_water_test/stage_quality.png",
+      "source_sha256": "4b4a9f0f45f572b7104bad83b55634a37c92c425c6cc5c2f64673daa2aabc40a",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/summary.json",
+      "bytes": 106297,
+      "sha256": "1866d27b5940ff410ff08b3f7bdd70adee14584da40b07df4721cd3f9e740221",
+      "source": "2611/1105/1039+no_water_test/summary.json",
+      "source_sha256": "1866d27b5940ff410ff08b3f7bdd70adee14584da40b07df4721cd3f9e740221",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/upstream_attrition.json",
+      "bytes": 9302,
+      "sha256": "c09b5df2380e5e8f36abb78209fdf5b30ce61ee8d6e9dea9a7f52817a5f9b90a",
+      "source": "2611/1105/1039+no_water_test/upstream_attrition.json",
+      "source_sha256": "c09b5df2380e5e8f36abb78209fdf5b30ce61ee8d6e9dea9a7f52817a5f9b90a",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1105/1039+no_water_test/verification.json",
+      "bytes": 3860,
+      "sha256": "6026f3b3925926c73b4c8be2e3cc268809993c44a1f3391d2e0a3b1db6ae3255",
+      "source": "2611/1105/1039+no_water_test/verification.json",
+      "source_sha256": "6026f3b3925926c73b4c8be2e3cc268809993c44a1f3391d2e0a3b1db6ae3255",
+      "byte_exact_to_local": true
     }
   ],
   "include_agent": false,
   "reports_only": false,
   "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "prompt_coverage": {
-    "task_groups": 12,
-    "task_groups_with_preserved_prompt": 10,
+    "task_groups": 13,
+    "task_groups_with_preserved_prompt": 11,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 11,
-    "distinct_prompt_contents": 9
+    "prompt_files_including_legacy_copy": 12,
+    "distinct_prompt_contents": 10
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-04T21:07:23.161508+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-05T11:19:35.777285+08:00",
   "last_compacted_at_UTC": "2026-11-04T13:20:55.507747+00:00"
 }

@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "frozen_inputs_unchanged",
+      "passed": true,
+      "count": 1785,
+      "changed": []
+    },
+    {
+      "name": "all_custom_QC_thresholds_identical",
+      "passed": true
+    },
+    {
+      "name": "PB_exactly_two_water_modules_removed",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_12AV",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_7ILZ",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_9RT3",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_9SYL",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_9T4A",
+      "passed": true
+    },
+    {
+      "name": "no_water_and_nonwater_preserved_9T51",
+      "passed": true
+    },
+    {
+      "name": "all_144_actual_native_graphs_share_audited_water_free_protein",
+      "passed": true,
+      "count": 144
+    },
+    {
+      "name": "all_576_records_present_once",
+      "passed": true
+    },
+    {
+      "name": "no_primary_worker_or_module_errors",
+      "passed": true
+    },
+    {
+      "name": "all_QC_inputs_unchanged",
+      "passed": true
+    },
+    {
+      "name": "PB_water_checks_absent_and_unavailable_checks_never_pass",
+      "passed": true,
+      "unavailable_records": [
+        {
+          "stage": "decoded_initial",
+          "id": "decoded_initial__7ILZ_1801_08",
+          "missing": [
+            "internal_energy"
+          ],
+          "errors": [
+            "Unavailable official outputs: internal_energy",
+            "Energy ensemble / UFF calculation did not return a finite pass value; see raw energy fields and per-molecule log"
+          ],
+          "HQ": false
+        }
+      ]
+    },
+    {
+      "name": "432_reused_stages_all_remaining_PB_and_custom_checks_identical",
+      "passed": true,
+      "count": 432,
+      "difference_count": 0,
+      "examples": []
+    },
+    {
+      "name": "decoding_preserves_raw_protein_clash_counts_all_144",
+      "passed": true
+    },
+    {
+      "name": "raw_HQ_remains_unavailable",
+      "passed": true
+    },
+    {
+      "name": "water_free_repair_replay_exact_on_two_cofactor_receptors_both_arms",
+      "passed": true,
+      "replays": [
+        {
+          "receptor_id": "7ILZ",
+          "seed": 1801,
+          "rank": 1,
+          "stage": "rigid",
+          "coordinate_max_difference_A": 0.0,
+          "passed": true,
+          "cofactor_preserved": true,
+          "water_free_input": true
+        },
+        {
+          "receptor_id": "7ILZ",
+          "seed": 1801,
+          "rank": 1,
+          "stage": "local_flex",
+          "coordinate_max_difference_A": 0.0,
+          "passed": true,
+          "cofactor_preserved": true,
+          "water_free_input": true
+        },
+        {
+          "receptor_id": "9T4A",
+          "seed": 1801,
+          "rank": 1,
+          "stage": "rigid",
+          "coordinate_max_difference_A": 0.0,
+          "passed": true,
+          "cofactor_preserved": true,
+          "water_free_input": true
+        },
+        {
+          "receptor_id": "9T4A",
+          "seed": 1801,
+          "rank": 1,
+          "stage": "local_flex",
+          "coordinate_max_difference_A": 0.0,
+          "passed": true,
+          "cofactor_preserved": true,
+          "water_free_input": true
+        }
+      ]
+    },
+    {
+      "name": "free_original_denominator_18_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_free_72_stage_records_present",
+      "passed": true
+    },
+    {
+      "name": "free_weights_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_free_PB_and_custom_modules_evaluable",
+      "passed": true
+    },
+    {
+      "name": "identity_adapter_contains_no_dataset_or_target_record_lookup",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "cfb9575f1e1bb04ef60659b006e2932e6a33f89681dabbdc98bf2f235f5cd6c6"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "1793da800b299f8f1d990a27eeb0dec545f2edef5110841d7f1eff4949d93ea2"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "c471740eac59b7ba678b53090bc03d287405a7c1e4ed71f36a2de9ae34be76bf"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "de999d443dbe473e13164036ccb70f69c898218200c03ef8969f3f0100308062"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "54a530cfb624a14964b641f08d2a79d538fb0dba3a36a096311a6bb6559ca59a"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "c9871d1c141b55c92167bffa5a1acc538076b7f9d0f3eb7338129263bf65206b"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "5c0e65be83055fe4d3be7d51a358ed45710b21f7d4f31df317c3850d3e35762a"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "30cc6a648bc6d9582fed3fde8eef10bbd0fd9c3ab0cc66334757a8eb59296e50"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "163344717d1e3b9471bbba2407db1ccb82812f4bff433e889f034612d9b9b251"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "3a121407d1fe9d49dd8c9779e8a1f3b59494efc4cd3f1a610e55c1bdd169bb4a"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "a092f0c8e5fd3a501c7b96cb4803622925da418ba847c4cfbb17c0a196588a35"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "1a1eb2d457c2cbb9510328ed1c911c332bf91a168f51da5099b9e1578057fa02"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "15c796f0673fbb5779ad43e739d3c20cdbaca17cc0c3ac65aabc4d8823b7ffb0"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "fa01e43e11d97d703754a6452602045733997e027d1a7463e827bd2d68685011"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "791b02bf492364ce32a9fdee7d19f444f6566313f7d666aa7f5ff34e91dba022"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "f3549056ffa1e096057fecd5548c97b633d48191c1cc96ab946d1aa73d32ad23"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "4f5051702ae56613ded1af6449a8c6d7ad2f898664049d3446d8a4e135cc7ae8"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "7df414f72229728d7e60eba4bb41ddbc5ca08dc3b1dda87ae6ddba3413e17fb4"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "c430c8a808898c9f78a08f772274a2947c0f31765765437145e848ef6f370b04"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "3e454b048d4dfb36fdfb9c843002ab304fbf95113f90c938db35919b8f0068b5"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "095a272ecac59b90d52ebbfbae17e2a7010354fad0fe767b5cd4db949d1895c2"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "b8b28ea545f65174e2d88390b3292a7b2f3a5722d7ebb6f527d4b332b10bd496"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "cbf84eb4563e4f62d1ad15fac38000d07ab845ef7c270f8642c4a4cbe4007202"
+  },
+  {
+    "receptor_id": "9RT3",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "b21c77155e5853a08f95cc90c526facb8df56576cebd3dc8e361ab0587b2ddca"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "6d89d864fedb2e608def44d66f6c05fd41682b06e7e731ca19da080154001d4b"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "42e44714f7227366bc95808aa9e269068dc983e6ce380917996dbd1bbe2d6cd8"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "d82b05eed7b4c73901714e72a68b1f5d957c8bca8090c4977d957be19334c591"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "6fb6aae63d26e8a6dfff126450e1c23f31bacfc8490225e53037e094ca2a49bb"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "4b4e7082ca40a512c23b32081bdfe7693bbc58dbbbdbb4e1b77502945f95ea25"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "592d267e297c8628a5ed18e1efe801cb47d6e188b773f8802e619718bbcf3af9"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "8e3e842a4bd105050dd6822c56f845f0b9a308face241cc9561804c4530a8501"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "f30763355c8821c240628db6eb66b9ae3e1f1ff6d3b6d8049c1480c64acae11b"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "6a3e69f3a4298de2a9df3d749b90ce6d7e789636945c02419e18abfb92c33ae2"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "619e446a1890dc7b82e6247daa7785946705111c926162fcbc3884fea480444d"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "38bb35327d04bf9d2928b7621e4f195e6860ab6858cac12e596ff8964d13e9e0"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "d1f6a136a7f35fc4bcc4ea3828d5fe2e14272411c849a6835a62889e8f3cc70e"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "5db11ae2aad012adf3bf3eaff8cbc88c5189bcfac30544c76ee24ef2ac12f0b4"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "42e98ab9beee434584474f3c03e0afd84fac87353fbe184e018e7e77286cff82"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "9986069da5f3c6099cea4d0711026d992b232b449dcf4a57188383c8744f6b3b"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "b81d3e23839019446b5e97695ef168766ffc9565d8ba0235eca5a489df1247be"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "a5a0f56b2e26c24ae116c8732de3efc7a51702ecccd5d9a80eb4014639b4dbba"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "89b63ce30b79b2b5bd789bab11fbf5a94f03d9e1bba7c1b756f71c46d5d66618"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "67ec2f0dcfa58895cf4b533836c483ccd507bde25ba0618a811b184be807eba8"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "f4ab6d046c436595bd6ed0401f6adf9f9ffcfd15d136eb2cf2cf536c1a5c3212"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "6628226e9ed7ef4f07676d0472a83c506bf572abf351c17336a2c5037a269049"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "83c3ba0d77810f49c1d12da99e14d3e2fdbbe83aa9de7059631b2b9cc70eea89"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "48949b784f92257b66557db8c2ba754165a21fb702e83efd950e851a08aadcb9"
+  },
+  {
+    "receptor_id": "9T4A",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "8f0512d229d8df618cf1a6fdd23805792b4752c660180a25511b5b3a3ab1f367"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "5724fe511fc0be15989e0dc6897c2bafce8f388052270f3a1540cddac762c400"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "93c852fc505e2d92df5f49f0fb31686d07694a7d978dd5c097f5772fb62900f6"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "5c1c495793c648ef07892f44ceb0a1d8bd2c3b7be118a30632449a5990a6a823"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "5a30bed39d4a31320eef1c16d94500ed29a92d50c54230745c60e4d7b6caa816"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "0b2fe72485ce7a5193c377fa696cea1e9af407e6493fbfa01a4bc9d3236a69ed"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "3e6942e0e309fe418ed9a2bed78d51297c60d6f4bf2de01d70bcfaff1c16d381"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "27a8e31bfdc0a54ed6133fa0d1777de611da8cc075ad7ad64c5480663cdff6cd"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "b96039bebb579d137cb2e536c161a9648ef914764ebc0232552dfbe2412e525f"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "b162225d8f3204753c05a207c6a2e4f6f19f3252086bd5e50f2969b586a3c28d"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "a160e74c641260a2036468bfab36dd9eb0ac259adf49101411a3dd53c4077482"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "561100e79c7af6428bfbbe145c6d445b3e189c241614ef3b7c5a7964636d3fd8"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "006a926211c2feb3ae5587c9b15f3c856e78049544975c85cde28bffe608e5b5"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "31c8d69da9b40c04e9c44c46c39dc82ee253b273d7ca91d385fd739b080af5b0"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "e796d8f1e3aeeb8208ba341d23c4c9369e9878a174339432d8877790ae8b0453"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "8e41729bebb250464542d6db7dad04a5e9ade5c703f6ee2c595db6372ba92583"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "22157d7cd11ae6350a22afc95ece010fc56173a3b707eb78a584ac36c2d02f4c"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "4e4312af7fa1072bf2afe15974d0061d93384c88f0a6448e7e4c1fdc3a54d127"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "3607cf691daa7993600b4a8d51b4fc14faffc0fb33701d8e1df746cbaa4ed660"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "e3c2d614d4828d83ebb75c972ac6c43638a1ae2e2f66954cf555e13eb378ebed"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "c922ce4296394dedc4e91517489f2d3e9ac636af2c005f955c40bfca16d25bfb"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "78dee8ff159a40c8eb89cb1cd40e2e07f46be915629a6b0493edbb914839ed25"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "8f13e329ad308eca7d75e562d631a1c3994a66deab8ee0535f3c41e926d4042f"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "339333cb5a35a357e6a3b08899d28b960915040d32efaed5d6ade4bde953fe10"
+  },
+  {
+    "receptor_id": "7ILZ",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "78ae130450fb9d437e182eafa75862d96def51faab6a2cf7c3025367c49e62af"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "9a5b9f4303ac332c03c24329ff3f381ae93329ea114905d33ce7802d7596ec25"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "576d798eb09c47eedd511e643c617988a94ca05b3ae1e1eb682bc5b53201a8c2"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "6849ecf51b58c93d3b245a1f14a61c9365f9047834183f7011ef0566627424bb"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "9c6bdf1ec48c3e33e02851ebc0e1b2686cc14d1e75a891e82a14e7aceb32d0f3"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "a3293dc42e66216a23a437f5cfe094a2b7b800d53f3e431cd56456211088dca5"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "3bea6cce373f5bc38a23043ec8a8c207036886bd12665ad75ce1d9b45abf5e57"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "8b6877b08e5983aa24ed4f8e00d384d2c3c31980f503c399db82e016376b41b6"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "ffe2a7b76c85af425b04921f8fae27d92c6dc0bcdb86ebbd7bc823bcf064c3df"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "6eb97f33c250cb89a1bc6b14d427d5a710d9500603db96a8fceef32f6bd3cda6"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "4f5e3b528ae64521f9905e7f5d94a57000747ed39f227191a594e23bf72be702"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "cad1e95d4f5d692213c50b99c5f2c17a01e1f48ea1c9d4120767179b44fdf64f"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "3ddc281003dc4fd2ad53049c1503879eb9410b5f15611508e6cda7c943689ee9"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "5cb5a47a68d15c32796df32224ff067768e704f644052becff08584399bc5827"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "191a1fc8a15748896c074370ba1c9a44d1ddbae3896337481603bcdfe2430ae1"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "b3df9aa914939e1d253916df474342634c902a7d8de5b240af09c56321096e3b"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "2332c5c0f256d1e9b21bc8b103eded739087e537efa93f924b86a57a944ce2b2"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "54a7d636cfa02c8682f8f2a7894953a94847bcc7781378ea07d4e47db73682f7"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "6c4a05d70ae827f253de46d4240b90310b6993a24f6bf5d551c922e75a74ada9"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "2cb8033e46466f87487a0932de4100d5ed4618b4ae62c05301f9faf1baf3710f"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "8400fc7763cbde18f1ed7985ad05b167daeac183dc84e5f69dfdf3f0569f4cc6"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "50d3f2a111b8002c10de0ae9eead4bc546b91eb68e6a7b9104300ad0df5bc823"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "3916e13f96b1359f72533a45ba4580f382098fdb8c17c316bed1bec67f817ee0"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "26ea7ca59e8f2206d5a34029edf0fd85ac459433625bf01faaa56c9a3b0efbb7"
+  },
+  {
+    "receptor_id": "9T51",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "55aec3343017f38a6c08cfc5d1f03204e66bb2cdffce41bb3d5a38aba6303e99"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "1b9ec3900c098ec3c706f49177477f201d65fa58e4bbc44a0fb10ec564800788"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "778dee2919543aa0578f27199ff6e73f01b785b4febef30eb9f245a605123e75"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "235d9a79d355f545f96ab6b6dd71a32610c8d82498dbc9dcc91dcc4ae427c28b"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "b170be473d7b79744087f9de068a49c1745bd732485159a21673fd7a8af0e8cc"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "ca676346eb3e0c24dbdc31b0f5172c63d5d2b2effdb55b53115b1e595fa8be03"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "83e033ecb4b0cdd9f75f639abe77ee3662012eda7aa7c7a6e047d488a3ff8af0"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "8039c548c274981b7736497be9077ae6725c4e609a41887ff41fb625454cdd9d"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "71be5735c01a83a0d4cd6b715e8da2c68ba205e630c161384075eefd82b202a5"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "52ca5cba19cd315dace665f9cfe9282659bbc4c1850c93c28316964eb03d1876"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "368e8a9698593859be73908d635183406d0951127614a36a4b0d3c70c2efc621"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "6585d5fb20ffac38a98854e7b97e598d73889f852045b83238a0f873fe87e408"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "121b33aa32136de1ff0ecb794b060c935af4f7e51a0122f1fd5dfed029eafe47"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "6dc746d8b00962168c72fe9493996d2f7a7fc7247e6d2ad69e8547dd1a761d4e"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "eee3e63b514ddb20cd1d18e35a69089879835f3b5e4dbba211680f28b2442386"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "e2c184ee399abf4d9a6a652ef94c83122c1bf44a6e634bc04434cbf27a5250a6"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "787d161c331b6c4255c99d46dc3cfc153375708aa64ee74f985fd056bd1d7d17"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "bb81531de061ab6c46bb157c5f3ee5ded0bb36b76b4a171cd9f59642cd84528c"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "85fe88f4beb7bf2681a55f845e1852082e01416eb0d2687b940d1a77aca0d486"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "1c4cbf294621480a9f3e97f1003bf07e8da2b27d86170f527d4711864d55297d"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "3baeadecbfa23c222472e45ce6e63bf80b00f01b36d9e432cae00833f58aabfe"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "5a86be54a79050815e0a5896068396c910ba246ba45cbb712325ce2677e31680"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "2add6db3d18c7717d0a299087956ea721058d9c99c57c7b6fc5249f4c7f7ca3c"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "fe60def81c29b9ad73f7e1a985494e7b4b1db789a93c4e7a761c04a58f3c01b7"
+  },
+  {
+    "receptor_id": "9SYL",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "fce9d1dac8d36109eee75d9d7cef8aca6c0ea1fd865d5a02a312d32ed0c4f1a6"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "dcf35d4d0ed4fe62afa8a2de8e80b2596d81eb33bbc27279223f609f7eae4b8b"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "afdcc0da6ea6c7c890a3f917602159b4040b20566b713daa4375736450983bcb"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "e310b7a84273479470220ef004e1047cd7a85670a5cf5de08e8184f1d1450505"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "08954f2502f0d9273a37a41b53d9257ea60329d3dfcbeaa8e40352e57dd89ecf"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "f43e31b3c1aadc27106f4b1e5c07a8d956a1aba03eac84b951d97affea0b4d0c"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "d35dedd6c7edba03279320e942ed67c6bdb35c383d397064ff7d4fb3b7f3aa94"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "acdfdb13d211c343e2a7395286809d30dccdee49d2d6cc910b483bce9781a228"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1801,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "05db2bdfa8b5c730663ebe6ab0ec39f8758447b86c91c881a8597adb4ee1e02c"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "5324785aaa11e47a786d9e9156a8085821c34c7935cfb3692384c3fa587ecee3"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "4a89acb78a814012e1fa02343a3cf637cdd9e49bcbbb21ac7569bdcba1ea7007"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "483a02f5216b7b635404e9317b4fe521886b3d8f74afc8465338c94eb5f12228"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "b552256472cea7b50e1e604914fb0fb6fb6b9d89b97fcd70a521e6aa92e2e027"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "20b88563205f6e23c6c54d1f0297f2123a2f28773d5a0fa742061ab417268bb1"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "99c8b9b8b91a2fc6c357d2e474ca0100f05a0e988caf81d0b3268b275ce2497f"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "635b61b662c9cbccede1be088b05cb298523ce14d7a78a620a57f20c1822d0ce"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1802,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "d59d6dc5125894a3e9274f8a518afb3bf69e2cc96ec1feecc6d86c664e2c2afc"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 1,
+    "protein_graph_identical": true,
+    "graph_sha256": "0a57b5f8fba29eb142bd8a88de681aa0599a1c07099dfe4145c1cb969753dd95"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 2,
+    "protein_graph_identical": true,
+    "graph_sha256": "1a02273b05d643f0a88a83d77b03b2e0beacf5b5bf38ed1a47044ac5394c440e"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 3,
+    "protein_graph_identical": true,
+    "graph_sha256": "07b2f84d8f19ab442ae6ff71aa23878e5b60e91f9e9bb5c1ace7d0de25b142ba"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 4,
+    "protein_graph_identical": true,
+    "graph_sha256": "c148a2256491274e7365412acaae2d685d54818690a54cf9914353ad52467d18"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 5,
+    "protein_graph_identical": true,
+    "graph_sha256": "7803067e19f9e881e329feadc862e67b47c6e730d424526b3c4375c27d6d5bb3"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 6,
+    "protein_graph_identical": true,
+    "graph_sha256": "9d5f3adced5318397953b6d9374758e07bbecfd8a4a26b1f72c9e84cde100ce9"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 7,
+    "protein_graph_identical": true,
+    "graph_sha256": "2ae51b1fc30894591893fab5ad104e39424989ff848f29b4ebe30f26e2055258"
+  },
+  {
+    "receptor_id": "12AV",
+    "seed": 1803,
+    "rank": 8,
+    "protein_graph_identical": true,
+    "graph_sha256": "299c8479210118bc6c454a5789742444e1383cb6dc527871339645eedff37c1d"
+  }
+]

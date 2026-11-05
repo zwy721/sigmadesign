@@ -1,0 +1,23 @@
+# Generated data remain in the full local workspace.
+/structures/
+/pockets/
+/quality/
+/verification_replay/
+/free_probe/structures/
+/free_probe/quality/
+/free_probe/official_cache/
+/free_probe/identity_assets/
+/*_details.csv
+/protein_clashes.csv
+/free_probe/*_details.csv
+/free_probe/protein_clashes.csv
+/per_candidate_results.json
+/free_probe/per_candidate_results.json
+/manifest.json
+/raw_cloud_manifest.json
+/free_probe/manifest.json
+/free_probe/attempts.json
+/input_fingerprints.json
+/delivery_fingerprints.json
+*.log
+__pycache__/

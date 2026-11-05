@@ -1,0 +1,14 @@
+[
+  {
+    "stage": "decoded_initial",
+    "id": "decoded_initial__7ILZ_1801_08",
+    "missing": [
+      "internal_energy"
+    ],
+    "errors": [
+      "Unavailable official outputs: internal_energy",
+      "Energy ensemble / UFF calculation did not return a finite pass value; see raw energy fields and per-molecule log"
+    ],
+    "HQ": false
+  }
+]

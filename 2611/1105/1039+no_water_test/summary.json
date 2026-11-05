@@ -1,0 +1,3388 @@
+{
+  "raw_predecode": {
+    "denominator": 144,
+    "records": 144,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 8,
+        "fail_count": 136,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "HQ_no_water": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "chemical_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "fully_connected": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_chemical_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_fully_connected": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 144,
+        "denominator": 144
+      }
+    },
+    "abnormal_bonds": null,
+    "abnormal_angles": null,
+    "protein_clash_pairs": 3432,
+    "internal_severe_pairs": null,
+    "stereo_reliable": null,
+    "stereo_unavailable": null,
+    "optimizer_converged": null,
+    "PB_failures": {},
+    "RMSD_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "max_atom_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "RMSD_from_rigid_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "centroid_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    }
+  },
+  "decoded_initial": {
+    "denominator": 144,
+    "records": 144,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 8,
+        "fail_count": 136,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "HQ_no_water": {
+        "pass_count": 0,
+        "fail_count": 144,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 0,
+        "fail_count": 144,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 144,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 144,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 107,
+        "fail_count": 37,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 8,
+        "fail_count": 136,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 0,
+        "fail_count": 144,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 108,
+        "fail_count": 36,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      }
+    },
+    "abnormal_bonds": 470,
+    "abnormal_angles": 1442,
+    "protein_clash_pairs": 3432,
+    "internal_severe_pairs": 24879,
+    "stereo_reliable": 385,
+    "stereo_unavailable": 37,
+    "optimizer_converged": 0,
+    "PB_failures": {
+      "bond_lengths": 144,
+      "bond_angles": 144,
+      "internal_steric_clash": 144,
+      "internal_energy": 143,
+      "minimum_distance_to_protein": 136,
+      "volume_overlap_with_protein": 128,
+      "minimum_distance_to_inorganic_cofactors": 24,
+      "volume_overlap_with_inorganic_cofactors": 24,
+      "double_bond_flatness": 4
+    },
+    "RMSD_from_native_final_A": {
+      "n": 144,
+      "mean": 5.4739723011507655,
+      "median": 4.745785215134921,
+      "min": 3.0779789241210427,
+      "max": 11.2550283187991,
+      "p05": 3.6017456368324314,
+      "p95": 10.042933725373878
+    },
+    "max_atom_from_native_final_A": {
+      "n": 144,
+      "mean": 9.206710150448778,
+      "median": 8.136217409200842,
+      "min": 4.371765878909802,
+      "max": 20.986396606135127,
+      "p05": 5.715581585511163,
+      "p95": 17.17838153652527
+    },
+    "RMSD_from_rigid_A": {
+      "n": 144,
+      "mean": 5.505717377327333,
+      "median": 4.789269380426973,
+      "min": 3.138531381394808,
+      "max": 11.204256445452083,
+      "p05": 3.663562452908096,
+      "p95": 10.081169032427075
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "centroid_from_native_final_A": {
+      "n": 144,
+      "mean": 3.1809054714212333,
+      "median": 2.3105964460140926,
+      "min": 0.6229223938005639,
+      "max": 9.514346902790013,
+      "p05": 1.0259971426919097,
+      "p95": 8.85038600771103
+    },
+    "diversity": {
+      "denominator": 144,
+      "valid": 144,
+      "unique_constitutions": 93,
+      "unique_isomeric": 122,
+      "unique_constitution_fraction_all": 0.6458333333333334,
+      "internal_diversity": 0.8370595462112624,
+      "pair_tanimoto": {
+        "n": 10296,
+        "mean": 0.16294045378873753,
+        "median": 0.10833333333333334,
+        "min": 0.020202020202020204,
+        "max": 1.0,
+        "p05": 0.03488372093023256,
+        "p95": 0.5679012345679012
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@H](CSc1cccc2ccccc12)Cc1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9337803830571684,
+            "median": 0.9337803830571684,
+            "min": 0.9337803830571684,
+            "max": 0.9337803830571684,
+            "p05": 0.9337803830571684,
+            "p95": 0.9337803830571684
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.9333430276834753,
+            "median": 1.9333430276834753,
+            "min": 1.9333430276834753,
+            "max": 1.9333430276834753,
+            "p05": 1.9333430276834753,
+            "p95": 1.9333430276834753
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@](C)(CSc1cc(C)cc[n+]1C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9337803830571684,
+            "median": 0.9337803830571684,
+            "min": 0.9337803830571684,
+            "max": 0.9337803830571684,
+            "p05": 0.9337803830571684,
+            "p95": 0.9337803830571684
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.9333430276834753,
+            "median": 1.9333430276834753,
+            "min": 1.9333430276834753,
+            "max": 1.9333430276834753,
+            "p05": 1.9333430276834753,
+            "p95": 1.9333430276834753
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSC[C@H](NC(=O)CC[n+]1ccc(C)cc1)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.7901707669101514,
+            "median": 1.7901707669101514,
+            "min": 1.7901707669101514,
+            "max": 1.7901707669101514,
+            "p05": 1.7901707669101514,
+            "p95": 1.7901707669101514
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.8649183040439663,
+            "median": 2.8649183040439663,
+            "min": 2.8649183040439663,
+            "max": 2.8649183040439663,
+            "p05": 2.8649183040439663,
+            "p95": 2.8649183040439663
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cc(C)cc[n+]1CCC(=O)N[C@@H](C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.7901707669101514,
+            "median": 1.7901707669101514,
+            "min": 1.7901707669101514,
+            "max": 1.7901707669101514,
+            "p05": 1.7901707669101514,
+            "p95": 1.7901707669101514
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.934990038575679,
+            "median": 2.934990038575679,
+            "min": 2.934990038575679,
+            "max": 2.934990038575679,
+            "p05": 2.934990038575679,
+            "p95": 2.934990038575679
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CNS(=O)(=O)c1cc(CCO)ccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.8120297202268608,
+            "median": 0.8925399589681775,
+            "min": 0.5079726195853835,
+            "max": 1.0355765821270215,
+            "p05": 0.546429353523663,
+            "p95": 1.0212729198111372
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.216729885467173,
+            "median": 2.154679373518637,
+            "min": 1.873178817055827,
+            "max": 2.6223314658270542,
+            "p05": 1.901328872702108,
+            "p95": 2.5755662565962125
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CN(c1ccc(N)cc1)S(=O)(=O)CCO",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.8925399589681775,
+            "median": 0.8925399589681775,
+            "min": 0.8925399589681775,
+            "max": 0.8925399589681775,
+            "p05": 0.8925399589681775,
+            "p95": 0.8925399589681775
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.873178817055827,
+            "median": 1.873178817055827,
+            "min": 1.873178817055827,
+            "max": 1.873178817055827,
+            "p05": 1.873178817055827,
+            "p95": 1.873178817055827
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CNS(=O)(=O)c1ccc(N)cc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5079726195853835,
+            "median": 0.5079726195853835,
+            "min": 0.5079726195853835,
+            "max": 0.5079726195853835,
+            "p05": 0.5079726195853835,
+            "p95": 0.5079726195853835
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.350900781828106,
+            "median": 2.350900781828106,
+            "min": 2.350900781828106,
+            "max": 2.350900781828106,
+            "p05": 2.350900781828106,
+            "p95": 2.350900781828106
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CN(c1ccc(N)cc1)[SH](=O)=O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5079726195853835,
+            "median": 0.5079726195853835,
+            "min": 0.5079726195853835,
+            "max": 0.5079726195853835,
+            "p05": 0.5079726195853835,
+            "p95": 0.5079726195853835
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.350900781828106,
+            "median": 2.350900781828106,
+            "min": 2.350900781828106,
+            "max": 2.350900781828106,
+            "p05": 2.350900781828106,
+            "p95": 2.350900781828106
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "Nc1ccc(C[C@@H](O)CN[SH](=O)=O)cc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5079726195853835,
+            "median": 0.5079726195853835,
+            "min": 0.5079726195853835,
+            "max": 0.5079726195853835,
+            "p05": 0.5079726195853835,
+            "p95": 0.5079726195853835
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.350900781828106,
+            "median": 2.350900781828106,
+            "min": 2.350900781828106,
+            "max": 2.350900781828106,
+            "p05": 2.350900781828106,
+            "p95": 2.350900781828106
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CNS(=O)(=O)c1ccccc1N",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5079726195853835,
+            "median": 0.5079726195853835,
+            "min": 0.5079726195853835,
+            "max": 0.5079726195853835,
+            "p05": 0.5079726195853835,
+            "p95": 0.5079726195853835
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.6223314658270542,
+            "median": 2.6223314658270542,
+            "min": 2.6223314658270542,
+            "max": 2.6223314658270542,
+            "p05": 2.6223314658270542,
+            "p95": 2.6223314658270542
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "NC[C@H](O)CS(=O)(=O)c1ccc(N)cc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5079726195853835,
+            "median": 0.5079726195853835,
+            "min": 0.5079726195853835,
+            "max": 0.5079726195853835,
+            "p05": 0.5079726195853835,
+            "p95": 0.5079726195853835
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.350900781828106,
+            "median": 2.350900781828106,
+            "min": 2.350900781828106,
+            "max": 2.350900781828106,
+            "p05": 2.350900781828106,
+            "p95": 2.350900781828106
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCC(c2c3c(nc4ccccc24)[C@@]2(C)CC[C@H](O)C[C@@H]2CC3)CC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.3150465735598158,
+            "median": 1.3150465735598158,
+            "min": 1.3150465735598158,
+            "max": 1.3150465735598158,
+            "p05": 1.3150465735598158,
+            "p95": 1.3150465735598158
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.0201219656286606,
+            "median": 3.0201219656286606,
+            "min": 3.0201219656286606,
+            "max": 3.0201219656286606,
+            "p05": 3.0201219656286606,
+            "p95": 3.0201219656286606
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C(C(=O)O)C(N)=C(C#N)C2)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.6504411538774268,
+            "median": 1.8288305219044865,
+            "min": 1.282365372445352,
+            "max": 1.8401275672824413,
+            "p05": 1.3370118873912655,
+            "p95": 1.8389978627446457
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.974323040126709,
+            "median": 3.2283399568389757,
+            "min": 2.428888667762402,
+            "max": 3.2657404957787493,
+            "p05": 2.5088337966700593,
+            "p95": 3.262000441884772
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(O)c(CC2=CC(N)=C(C#N)C2)nc(C(=O)O)c1COP(=O)(O)O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.6504411538774268,
+            "median": 1.8288305219044865,
+            "min": 1.282365372445352,
+            "max": 1.8401275672824413,
+            "p05": 1.3370118873912655,
+            "p95": 1.8389978627446457
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.974323040126709,
+            "median": 3.2283399568389757,
+            "min": 2.428888667762402,
+            "max": 3.2657404957787493,
+            "p05": 2.5088337966700593,
+            "p95": 3.262000441884772
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=CC(N)=C(C#N)C2C(=O)O)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.8288305219044865,
+            "median": 1.8288305219044865,
+            "min": 1.8288305219044865,
+            "max": 1.8288305219044865,
+            "p05": 1.8288305219044865,
+            "p95": 1.8288305219044865
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.2657404957787493,
+            "median": 3.2657404957787493,
+            "min": 3.2657404957787493,
+            "max": 3.2657404957787493,
+            "p05": 3.2657404957787493,
+            "p95": 3.2657404957787493
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(CO[P@@](=O)(O)O[C@@H]2C=C(C(=O)O)C(N)=C2C#N)c(C)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.6912359348954487,
+            "median": 1.850133691598891,
+            "min": 1.282365372445352,
+            "max": 1.9412087406421021,
+            "p05": 1.339142204360706,
+            "p95": 1.932101235737781
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.984219250215645,
+            "median": 3.2283399568389757,
+            "min": 2.458577298029211,
+            "max": 3.2657404957787493,
+            "p05": 2.5355535639101876,
+            "p95": 3.262000441884772
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CNC2=C(C#N)CC=C2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.6504411538774268,
+            "median": 1.8288305219044865,
+            "min": 1.282365372445352,
+            "max": 1.8401275672824413,
+            "p05": 1.3370118873912655,
+            "p95": 1.8389978627446457
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.974323040126709,
+            "median": 3.2283399568389757,
+            "min": 2.428888667762402,
+            "max": 3.2657404957787493,
+            "p05": 2.5088337966700593,
+            "p95": 3.262000441884772
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        }
+      ]
+    }
+  },
+  "native_final": {
+    "denominator": 144,
+    "records": 144,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 77,
+        "fail_count": 67,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "HQ_no_water": {
+        "pass_count": 24,
+        "fail_count": 120,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 81,
+        "fail_count": 63,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 74,
+        "fail_count": 70,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 82,
+        "fail_count": 62,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 129,
+        "fail_count": 15,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 77,
+        "fail_count": 67,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 28,
+        "fail_count": 116,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 129,
+        "fail_count": 15,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      }
+    },
+    "abnormal_bonds": 138,
+    "abnormal_angles": 175,
+    "protein_clash_pairs": 97,
+    "internal_severe_pairs": 196,
+    "stereo_reliable": 404,
+    "stereo_unavailable": 16,
+    "optimizer_converged": 0,
+    "PB_failures": {
+      "bond_lengths": 70,
+      "internal_steric_clash": 53,
+      "internal_energy": 30,
+      "bond_angles": 62,
+      "minimum_distance_to_protein": 67,
+      "minimum_distance_to_organic_cofactors": 31,
+      "minimum_distance_to_inorganic_cofactors": 21,
+      "volume_overlap_with_organic_cofactors": 3
+    },
+    "RMSD_from_native_final_A": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "max_atom_from_native_final_A": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "RMSD_from_rigid_A": {
+      "n": 144,
+      "mean": 0.4605058881383324,
+      "median": 0.4483949239722878,
+      "min": 0.051285280539351726,
+      "max": 1.0405516464182045,
+      "p05": 0.14920392226129428,
+      "p95": 0.7965019431645605
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 144,
+      "mean": 5.4739723011507655,
+      "median": 4.745785215134921,
+      "min": 3.0779789241210427,
+      "max": 11.2550283187991,
+      "p05": 3.6017456368324314,
+      "p95": 10.042933725373878
+    },
+    "centroid_from_native_final_A": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "diversity": {
+      "denominator": 144,
+      "valid": 144,
+      "unique_constitutions": 93,
+      "unique_isomeric": 103,
+      "unique_constitution_fraction_all": 0.6458333333333334,
+      "internal_diversity": 0.8370595462112624,
+      "pair_tanimoto": {
+        "n": 10296,
+        "mean": 0.16294045378873753,
+        "median": 0.10833333333333334,
+        "min": 0.020202020202020204,
+        "max": 1.0,
+        "p05": 0.03488372093023256,
+        "p95": 0.5679012345679012
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@H](CSc1cccc2ccccc12)Cc1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.5891289024078583,
+            "median": 2.5891289024078583,
+            "min": 2.5891289024078583,
+            "max": 2.5891289024078583,
+            "p05": 2.5891289024078583,
+            "p95": 2.5891289024078583
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 5.852687627130739,
+            "median": 5.852687627130739,
+            "min": 5.852687627130739,
+            "max": 5.852687627130739,
+            "p05": 5.852687627130739,
+            "p95": 5.852687627130739
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@](C)(CSc1cc(C)cc[n+]1C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.225842588940537,
+            "median": 1.225842588940537,
+            "min": 1.225842588940537,
+            "max": 1.225842588940537,
+            "p05": 1.225842588940537,
+            "p95": 1.225842588940537
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.6340547315708942,
+            "median": 1.6340547315708942,
+            "min": 1.6340547315708942,
+            "max": 1.6340547315708942,
+            "p05": 1.6340547315708942,
+            "p95": 1.6340547315708942
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cccc2c([C@@H](Cc3cc(C)cc[n+]3C)NC(C)=O)cccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5232629769045147,
+            "median": 0.5232629769045147,
+            "min": 0.5232629769045147,
+            "max": 0.5232629769045147,
+            "p05": 0.5232629769045147,
+            "p95": 0.5232629769045147
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.5603998919041242,
+            "median": 0.5603998919041242,
+            "min": 0.5603998919041242,
+            "max": 0.5603998919041242,
+            "p05": 0.5603998919041242,
+            "p95": 0.5603998919041242
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSC[C@H](NC(=O)CC[n+]1ccc(C)cc1)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.0632154972727825,
+            "median": 2.0632154972727825,
+            "min": 2.0632154972727825,
+            "max": 2.0632154972727825,
+            "p05": 2.0632154972727825,
+            "p95": 2.0632154972727825
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.0716077708277325,
+            "median": 2.0716077708277325,
+            "min": 2.0716077708277325,
+            "max": 2.0716077708277325,
+            "p05": 2.0716077708277325,
+            "p95": 2.0716077708277325
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cc(C)cc[n+]1CCC(=O)N[C@H](C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.467057404892171,
+            "median": 2.467057404892171,
+            "min": 2.467057404892171,
+            "max": 2.467057404892171,
+            "p05": 2.467057404892171,
+            "p95": 2.467057404892171
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 4.741760029899641,
+            "median": 4.741760029899641,
+            "min": 4.741760029899641,
+            "max": 4.741760029899641,
+            "p05": 4.741760029899641,
+            "p95": 4.741760029899641
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CS[C@@H](CN(C(C)=O)c1ccc2ccccc2c1)c1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.8644807604998563,
+            "median": 2.8644807604998563,
+            "min": 2.8644807604998563,
+            "max": 2.8644807604998563,
+            "p05": 2.8644807604998563,
+            "p95": 2.8644807604998563
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.9320874923261426,
+            "median": 3.9320874923261426,
+            "min": 3.9320874923261426,
+            "max": 3.9320874923261426,
+            "p05": 3.9320874923261426,
+            "p95": 3.9320874923261426
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "O=P(O)(O)O[C@@](O[P@@](=O)(O)OP(=O)(O)O)(O[P@@](=O)(OC1CCCCC1)O[C@@H](O[P@@](=O)(O)OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 3.763240589759915,
+            "median": 3.763240589759915,
+            "min": 3.763240589759915,
+            "max": 3.763240589759915,
+            "p05": 3.763240589759915,
+            "p95": 3.763240589759915
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 6.824028132135873,
+            "median": 6.824028132135873,
+            "min": 6.824028132135873,
+            "max": 6.824028132135873,
+            "p05": 6.824028132135873,
+            "p95": 6.824028132135873
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CNS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7824417271026718,
+            "median": 0.8650142473427223,
+            "min": 0.4046451054801866,
+            "max": 1.0776658284851064,
+            "p05": 0.45068201966644017,
+            "p95": 1.056400670370868
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.4698057745594637,
+            "median": 1.4989536032401627,
+            "min": 1.3171058790646508,
+            "max": 1.5933578413735776,
+            "p05": 1.335290651482202,
+            "p95": 1.5839174175602362
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CN(c1ccc(N)cc1)[SH](=O)=O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.9095040041787216,
+            "median": 0.9536923072891008,
+            "min": 0.6467871463019554,
+            "max": 1.1280325589451086,
+            "p05": 0.67747766240067,
+            "p95": 1.1105985337795077
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.6179427287002233,
+            "median": 1.671088206728378,
+            "min": 0.9490802944605549,
+            "max": 2.233659684911737,
+            "p05": 1.021281085687337,
+            "p95": 2.177402537093401
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "NC[C@@H](O)CS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6785916653912493,
+            "median": 0.7167075683768522,
+            "min": 0.3866347610063976,
+            "max": 0.9324326667904977,
+            "p05": 0.41964204174344305,
+            "p95": 0.9108601569491331
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.8503521662869482,
+            "median": 0.8672521290451429,
+            "min": 0.5710201280748927,
+            "max": 1.112784241740809,
+            "p05": 0.6006433281719177,
+            "p95": 1.0882310304712424
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "Nc1ccc(C[C@H](O)CN[SH](=O)=O)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.0277464818709316,
+            "median": 2.09693690392585,
+            "min": 1.4367524536750926,
+            "max": 2.5495500880118533,
+            "p05": 1.5027708987001684,
+            "p95": 2.504288769603253
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.89987196754134,
+            "median": 4.915304352258701,
+            "min": 3.3728726011121934,
+            "max": 6.411438949253123,
+            "p05": 3.5271157762268444,
+            "p95": 6.26182548955368
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CNS(=O)(=O)c1ccccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.0806236982699815,
+            "median": 0.9849518786349424,
+            "min": 0.9033725615273538,
+            "max": 1.3535466546476487,
+            "p05": 0.9115304932381126,
+            "p95": 1.316687177046378
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.4725048039220845,
+            "median": 1.5747706273189965,
+            "min": 1.087011945963183,
+            "max": 1.755731838484074,
+            "p05": 1.1357878140987645,
+            "p95": 1.7376357173675663
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CNS(=O)(=O)c1cc(CCO)ccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.408452955688321,
+            "median": 1.4577300594493028,
+            "min": 1.1244003813267456,
+            "max": 1.643228426288914,
+            "p05": 1.1577333491390014,
+            "p95": 1.624678589604953
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.096749567296247,
+            "median": 4.6985938185092495,
+            "min": 2.3746173277674307,
+            "max": 5.217037555612061,
+            "p05": 2.6070149768416124,
+            "p95": 5.165193181901779
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CN(c1ccc(N)cc1)S(=O)(=O)CCO",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.6410041221127911,
+            "median": 1.6410041221127911,
+            "min": 1.6410041221127911,
+            "max": 1.6410041221127911,
+            "p05": 1.6410041221127911,
+            "p95": 1.6410041221127911
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.854207960109473,
+            "median": 1.854207960109473,
+            "min": 1.854207960109473,
+            "max": 1.854207960109473,
+            "p05": 1.854207960109473,
+            "p95": 1.854207960109473
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C[C@@H]1C[C@H](O)C[C@@H]2CCc3cc4ccccc4nc3[C@]21C)OC(=O)N1CCCCC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9001492702371136,
+            "median": 0.9001492702371136,
+            "min": 0.9001492702371136,
+            "max": 0.9001492702371136,
+            "p05": 0.9001492702371136,
+            "p95": 0.9001492702371136
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.9343165435955649,
+            "median": 0.9343165435955649,
+            "min": 0.9343165435955649,
+            "max": 0.9343165435955649,
+            "p05": 0.9343165435955649,
+            "p95": 0.9343165435955649
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCC(c2c3c(nc4ccccc24)[C@@]2(C)CC[C@H](O)C[C@@H]2CC3)CC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5287121867428007,
+            "median": 0.5287121867428007,
+            "min": 0.5287121867428007,
+            "max": 0.5287121867428007,
+            "p05": 0.5287121867428007,
+            "p95": 0.5287121867428007
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.6260020991832362,
+            "median": 0.6260020991832362,
+            "min": 0.6260020991832362,
+            "max": 0.6260020991832362,
+            "p05": 0.6260020991832362,
+            "p95": 0.6260020991832362
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "C[C@@H](c1ccccc1)c1ccccc1CN(C)[C@@](N)(C(=O)O)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.0177082414114866,
+            "median": 2.0177082414114866,
+            "min": 2.0177082414114866,
+            "max": 2.0177082414114866,
+            "p05": 2.0177082414114866,
+            "p95": 2.0177082414114866
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.267270819108182,
+            "median": 2.267270819108182,
+            "min": 2.267270819108182,
+            "max": 2.267270819108182,
+            "p05": 2.267270819108182,
+            "p95": 2.267270819108182
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(Cc1ccccc1[C@H](CC(=O)O)c1ccccc1)[C@H](N)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.6784762085871497,
+            "median": 0.6784762085871497,
+            "min": 0.6784762085871497,
+            "max": 0.6784762085871497,
+            "p05": 0.6784762085871497,
+            "p95": 0.6784762085871497
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.844233399341736,
+            "median": 0.844233399341736,
+            "min": 0.844233399341736,
+            "max": 0.844233399341736,
+            "p05": 0.844233399341736,
+            "p95": 0.844233399341736
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)[C@](N)(c1ccc([C@@H](CC(=O)O)c2ccccc2)cc1)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.5813343710827324,
+            "median": 0.5225542226645308,
+            "min": 0.5078950189604939,
+            "max": 0.7135538716231726,
+            "p05": 0.5093609393308977,
+            "p95": 0.6944539067273084
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.7830751044441691,
+            "median": 0.7261968935523813,
+            "min": 0.6862848675930275,
+            "max": 0.9367435521870983,
+            "p05": 0.6902760701889629,
+            "p95": 0.9156888863236265
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CNCc1ccccc1[C@@](CC(=O)O)(c1ccccc1)[C@@H](N)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.8131927084560369,
+            "median": 2.357370612373834,
+            "min": 0.6166294983537379,
+            "max": 2.465578014640539,
+            "p05": 0.7907036097557475,
+            "p95": 2.4547572744138684
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.4964348213034175,
+            "median": 3.1398592035639314,
+            "min": 1.010842065703081,
+            "max": 3.3386031946432406,
+            "p05": 1.2237437794891661,
+            "p95": 3.3187287955353098
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)[C@](N)([C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O)C(CC(=O)O)(c1ccccc1)c1ccccc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9758985650508751,
+            "median": 0.9758985650508751,
+            "min": 0.9758985650508751,
+            "max": 0.9758985650508751,
+            "p05": 0.9758985650508751,
+            "p95": 0.9758985650508751
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.1782683792709296,
+            "median": 1.1782683792709296,
+            "min": 1.1782683792709296,
+            "max": 1.1782683792709296,
+            "p05": 1.1782683792709296,
+            "p95": 1.1782683792709296
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C(C(=O)O)C(N)=C(C#N)C2)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.2276815955131635,
+            "median": 1.6512813928279522,
+            "min": 0.3786656017109282,
+            "max": 1.6530977920006102,
+            "p05": 0.5059271808226307,
+            "p95": 1.6529161520833444
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.5409557281445014,
+            "median": 1.8050435097035966,
+            "min": 0.8664449889324501,
+            "max": 1.951378685797458,
+            "p05": 0.9603048410095648,
+            "p95": 1.9367451681880719
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(O)c(CC2=CC(N)=C(C#N)C2)nc(C(=O)O)c1COP(=O)(O)O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.2223955132047326,
+            "median": 2.434882046146722,
+            "min": 1.3971536717011275,
+            "max": 2.835150821766348,
+            "p05": 1.500926509145687,
+            "p95": 2.795123944204385
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.4518027095760755,
+            "median": 2.6330122586556195,
+            "min": 1.755874958751115,
+            "max": 2.9665209113214916,
+            "p05": 1.8435886887415656,
+            "p95": 2.9331700460549044
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=CC(N)=C(C#N)[C@@H]2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.2704672764961837,
+            "median": 2.403899489411735,
+            "min": 1.6883439063980934,
+            "max": 2.719158433678723,
+            "p05": 1.7598994646994575,
+            "p95": 2.687632539252024
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.045171527452065,
+            "median": 4.855092804587143,
+            "min": 1.8887829010523396,
+            "max": 5.391638876716714,
+            "p05": 2.18541389140582,
+            "p95": 5.337984269503757
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(CO[P@@](=O)(O)O[C@@H]2C=C(C(=O)O)C(N)=C2C#N)c(C)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.6646469959303893,
+            "median": 2.1587104767670375,
+            "min": 0.6066478068023065,
+            "max": 2.2285827042218247,
+            "p05": 0.7618540737987796,
+            "p95": 2.221595481476346
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.5396808437827616,
+            "median": 3.436120277513356,
+            "min": 0.7288066700488495,
+            "max": 3.4541155837860793,
+            "p05": 0.9995380307953001,
+            "p95": 3.452316053158807
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CNC2=C(C#N)CC=C2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.2485758953568091,
+            "median": 1.4988764129711942,
+            "min": 0.5338306610997813,
+            "max": 1.7130206119994522,
+            "p05": 0.6303352362869226,
+            "p95": 1.6916061920966263
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.1247067947028513,
+            "median": 4.313927676723383,
+            "min": 0.6629277962771836,
+            "max": 4.397264911107988,
+            "p05": 1.0280277843218035,
+            "p95": 4.388931187669527
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(COP(=O)(O)O)c(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9364649181523509,
+            "median": 0.9364649181523509,
+            "min": 0.9364649181523509,
+            "max": 0.9364649181523509,
+            "p05": 0.9364649181523509,
+            "p95": 0.9364649181523509
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.321099204625277,
+            "median": 1.321099204625277,
+            "min": 1.321099204625277,
+            "max": 1.321099204625277,
+            "p05": 1.321099204625277,
+            "p95": 1.321099204625277
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.3409066235413493,
+            "median": 0.3409066235413493,
+            "min": 0.3409066235413493,
+            "max": 0.3409066235413493,
+            "p05": 0.3409066235413493,
+            "p95": 0.3409066235413493
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.0989725581021295,
+            "median": 1.0989725581021295,
+            "min": 1.0989725581021295,
+            "max": 1.0989725581021295,
+            "p05": 1.0989725581021295,
+            "p95": 1.0989725581021295
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  },
+  "rigid": {
+    "denominator": 144,
+    "records": 144,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 139,
+        "fail_count": 5,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "HQ_no_water": {
+        "pass_count": 103,
+        "fail_count": 41,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 130,
+        "fail_count": 14,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 132,
+        "fail_count": 12,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 118,
+        "fail_count": 26,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 139,
+        "fail_count": 5,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 106,
+        "fail_count": 38,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 140,
+        "fail_count": 4,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      }
+    },
+    "abnormal_bonds": 12,
+    "abnormal_angles": 51,
+    "protein_clash_pairs": 8,
+    "internal_severe_pairs": 15,
+    "stereo_reliable": 416,
+    "stereo_unavailable": 6,
+    "optimizer_converged": 118,
+    "PB_failures": {
+      "minimum_distance_to_inorganic_cofactors": 2,
+      "bond_angles": 26,
+      "minimum_distance_to_organic_cofactors": 2,
+      "internal_steric_clash": 4,
+      "minimum_distance_to_protein": 5,
+      "bond_lengths": 12
+    },
+    "RMSD_from_native_final_A": {
+      "n": 144,
+      "mean": 0.4605058881383324,
+      "median": 0.4483949239722878,
+      "min": 0.051285280539351726,
+      "max": 1.0405516464182045,
+      "p05": 0.14920392226129428,
+      "p95": 0.7965019431645605
+    },
+    "max_atom_from_native_final_A": {
+      "n": 144,
+      "mean": 1.0527231360584888,
+      "median": 1.0133736009762084,
+      "min": 0.1004658150815491,
+      "max": 2.1104709332279357,
+      "p05": 0.2957726710086081,
+      "p95": 1.9083873408503984
+    },
+    "RMSD_from_rigid_A": {
+      "n": 144,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 144,
+      "mean": 5.505717377327333,
+      "median": 4.789269380426973,
+      "min": 3.138531381394808,
+      "max": 11.204256445452083,
+      "p05": 3.663562452908096,
+      "p95": 10.081169032427075
+    },
+    "centroid_from_native_final_A": {
+      "n": 144,
+      "mean": 0.09188274891300847,
+      "median": 0.06958102903087043,
+      "min": 6.666666666443888e-06,
+      "max": 0.4856348327704676,
+      "p05": 1.4236868912522951e-05,
+      "p95": 0.24879818180380517
+    },
+    "diversity": {
+      "denominator": 144,
+      "valid": 144,
+      "unique_constitutions": 93,
+      "unique_isomeric": 103,
+      "unique_constitution_fraction_all": 0.6458333333333334,
+      "internal_diversity": 0.8370595462112624,
+      "pair_tanimoto": {
+        "n": 10296,
+        "mean": 0.16294045378873753,
+        "median": 0.10833333333333334,
+        "min": 0.020202020202020204,
+        "max": 1.0,
+        "p05": 0.03488372093023256,
+        "p95": 0.5679012345679012
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@H](CSc1cccc2ccccc12)Cc1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.566631083969829,
+            "median": 2.566631083969829,
+            "min": 2.566631083969829,
+            "max": 2.566631083969829,
+            "p05": 2.566631083969829,
+            "p95": 2.566631083969829
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 5.938417175055993,
+            "median": 5.938417175055993,
+            "min": 5.938417175055993,
+            "max": 5.938417175055993,
+            "p05": 5.938417175055993,
+            "p95": 5.938417175055993
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@](C)(CSc1cc(C)cc[n+]1C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.2058406983073837,
+            "median": 1.2058406983073837,
+            "min": 1.2058406983073837,
+            "max": 1.2058406983073837,
+            "p05": 1.2058406983073837,
+            "p95": 1.2058406983073837
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.6133510948905747,
+            "median": 1.6133510948905747,
+            "min": 1.6133510948905747,
+            "max": 1.6133510948905747,
+            "p05": 1.6133510948905747,
+            "p95": 1.6133510948905747
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cccc2c([C@@H](Cc3cc(C)cc[n+]3C)NC(C)=O)cccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.617008021191797,
+            "median": 0.617008021191797,
+            "min": 0.617008021191797,
+            "max": 0.617008021191797,
+            "p05": 0.617008021191797,
+            "p95": 0.617008021191797
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.6343683799957729,
+            "median": 0.6343683799957729,
+            "min": 0.6343683799957729,
+            "max": 0.6343683799957729,
+            "p05": 0.6343683799957729,
+            "p95": 0.6343683799957729
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSC[C@H](NC(=O)CC[n+]1ccc(C)cc1)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.104818549299228,
+            "median": 2.104818549299228,
+            "min": 2.104818549299228,
+            "max": 2.104818549299228,
+            "p05": 2.104818549299228,
+            "p95": 2.104818549299228
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.115551444568386,
+            "median": 2.115551444568386,
+            "min": 2.115551444568386,
+            "max": 2.115551444568386,
+            "p05": 2.115551444568386,
+            "p95": 2.115551444568386
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cc(C)cc[n+]1CCC(=O)N[C@H](C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.5604503700854098,
+            "median": 2.5604503700854098,
+            "min": 2.5604503700854098,
+            "max": 2.5604503700854098,
+            "p05": 2.5604503700854098,
+            "p95": 2.5604503700854098
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 4.685977755249411,
+            "median": 4.685977755249411,
+            "min": 4.685977755249411,
+            "max": 4.685977755249411,
+            "p05": 4.685977755249411,
+            "p95": 4.685977755249411
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CS[C@@H](CN(C(C)=O)c1ccc2ccccc2c1)c1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.867646675687753,
+            "median": 2.867646675687753,
+            "min": 2.867646675687753,
+            "max": 2.867646675687753,
+            "p05": 2.867646675687753,
+            "p95": 2.867646675687753
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 4.076673414873757,
+            "median": 4.076673414873757,
+            "min": 4.076673414873757,
+            "max": 4.076673414873757,
+            "p05": 4.076673414873757,
+            "p95": 4.076673414873757
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "O=P(O)(O)O[C@@](O[P@@](=O)(O)OP(=O)(O)O)(O[P@@](=O)(OC1CCCCC1)O[C@@H](O[P@@](=O)(O)OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 3.50968763749164,
+            "median": 3.50968763749164,
+            "min": 3.50968763749164,
+            "max": 3.50968763749164,
+            "p05": 3.50968763749164,
+            "p95": 3.50968763749164
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 6.678579019828313,
+            "median": 6.678579019828313,
+            "min": 6.678579019828313,
+            "max": 6.678579019828313,
+            "p05": 6.678579019828313,
+            "p95": 6.678579019828313
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CNS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7781476504860784,
+            "median": 0.9359930868475359,
+            "min": 0.32889309937306693,
+            "max": 1.0695567652376319,
+            "p05": 0.38960309812051386,
+            "p95": 1.0562003973986223
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.58314035692673,
+            "median": 1.7305063442048783,
+            "min": 1.228731014773643,
+            "max": 1.7901837118016684,
+            "p05": 1.2789085477167665,
+            "p95": 1.7842159750419893
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CN(c1ccc(N)cc1)[SH](=O)=O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.0775929853065953,
+            "median": 1.07271116183389,
+            "min": 1.0397966076452676,
+            "max": 1.1202711864406276,
+            "p05": 1.04308806306413,
+            "p95": 1.1155151839799538
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.6961819220554053,
+            "median": 1.7198509400526547,
+            "min": 1.1059879924001583,
+            "max": 2.262706833713403,
+            "p05": 1.167374287165408,
+            "p95": 2.208421244347328
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "NC[C@@H](O)CS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7000550016822196,
+            "median": 0.8403022801193764,
+            "min": 0.34711335521077064,
+            "max": 0.9127493697165115,
+            "p05": 0.3964322477016312,
+            "p95": 0.905504660756798
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.9243398430662954,
+            "median": 1.0215737114863517,
+            "min": 0.6276842836968279,
+            "max": 1.1237615340157063,
+            "p05": 0.6670732264757803,
+            "p95": 1.113542751762771
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "Nc1ccc(C[C@H](O)CN[SH](=O)=O)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.868734313376702,
+            "median": 1.856963943002226,
+            "min": 1.430081472395422,
+            "max": 2.319157524732458,
+            "p05": 1.4727697194561025,
+            "p95": 2.2729381665594346
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.914009809782916,
+            "median": 5.097718055561723,
+            "min": 3.1617941058835566,
+            "max": 6.48251726790347,
+            "p05": 3.355386500851373,
+            "p95": 6.344037346669295
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CNS(=O)(=O)c1ccccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.0155906529477554,
+            "median": 0.898903210613749,
+            "min": 0.864914802167207,
+            "max": 1.28295394606231,
+            "p05": 0.8683136430118612,
+            "p95": 1.2445488725174538
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.44496368783864,
+            "median": 1.550117925406537,
+            "min": 1.0697379392480508,
+            "max": 1.715035198861333,
+            "p05": 1.1177759378638994,
+            "p95": 1.6985434715158534
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CNS(=O)(=O)c1cc(CCO)ccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.3959519799276376,
+            "median": 1.4710466298523865,
+            "min": 1.0642146635385556,
+            "max": 1.6525946463919707,
+            "p05": 1.1048978601699386,
+            "p95": 1.6344398447380124
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.101942106849628,
+            "median": 4.69950933275663,
+            "min": 2.4132985947315624,
+            "max": 5.193018393060693,
+            "p05": 2.641919668534069,
+            "p95": 5.143667487030286
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CN(c1ccc(N)cc1)S(=O)(=O)CCO",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.5822515499730996,
+            "median": 1.5822515499730996,
+            "min": 1.5822515499730996,
+            "max": 1.5822515499730996,
+            "p05": 1.5822515499730996,
+            "p95": 1.5822515499730996
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.7221798692354986,
+            "median": 1.7221798692354986,
+            "min": 1.7221798692354986,
+            "max": 1.7221798692354986,
+            "p05": 1.7221798692354986,
+            "p95": 1.7221798692354986
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C[C@@H]1C[C@H](O)C[C@@H]2CCc3cc4ccccc4nc3[C@]21C)OC(=O)N1CCCCC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5741251697365524,
+            "median": 0.5741251697365524,
+            "min": 0.5741251697365524,
+            "max": 0.5741251697365524,
+            "p05": 0.5741251697365524,
+            "p95": 0.5741251697365524
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.7022662939197336,
+            "median": 0.7022662939197336,
+            "min": 0.7022662939197336,
+            "max": 0.7022662939197336,
+            "p05": 0.7022662939197336,
+            "p95": 0.7022662939197336
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCCC[C@H]1c1c2c(nc3ccccc13)[C@@]1(C)CC[C@H](O)C[C@@H]1CC2",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.7420432363026919,
+            "median": 0.7420432363026919,
+            "min": 0.7420432363026919,
+            "max": 0.7420432363026919,
+            "p05": 0.7420432363026919,
+            "p95": 0.7420432363026919
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.038511071930202,
+            "median": 3.038511071930202,
+            "min": 3.038511071930202,
+            "max": 3.038511071930202,
+            "p05": 3.038511071930202,
+            "p95": 3.038511071930202
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCC(c2c3c(nc4ccccc24)[C@@]2(C)CC[C@H](O)C[C@@H]2CC3)CC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.44880166488861417,
+            "median": 0.44880166488861417,
+            "min": 0.44880166488861417,
+            "max": 0.44880166488861417,
+            "p05": 0.44880166488861417,
+            "p95": 0.44880166488861417
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.5187293998830509,
+            "median": 0.5187293998830509,
+            "min": 0.5187293998830509,
+            "max": 0.5187293998830509,
+            "p05": 0.5187293998830509,
+            "p95": 0.5187293998830509
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(Cc1ccccc1[C@H](CC(=O)O)c1ccccc1)[C@H](N)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.7041637454783389,
+            "median": 0.7041637454783389,
+            "min": 0.7041637454783389,
+            "max": 0.7041637454783389,
+            "p05": 0.7041637454783389,
+            "p95": 0.7041637454783389
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.8849437158692132,
+            "median": 0.8849437158692132,
+            "min": 0.8849437158692132,
+            "max": 0.8849437158692132,
+            "p05": 0.8849437158692132,
+            "p95": 0.8849437158692132
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)[C@](N)(c1ccc([C@@H](CC(=O)O)c2ccccc2)cc1)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6360087023798052,
+            "median": 0.6130104613033217,
+            "min": 0.5458161894150778,
+            "max": 0.7491994564210162,
+            "p05": 0.5525356166039022,
+            "p95": 0.7355805569092467
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.8066274839750118,
+            "median": 0.741834300559889,
+            "min": 0.7381839201716602,
+            "max": 0.9398642311934864,
+            "p05": 0.7385489582104832,
+            "p95": 0.9200612381301266
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CNCc1ccccc1[C@@](CC(=O)O)(c1ccccc1)[C@@H](N)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.7908681022212398,
+            "median": 2.408302489060008,
+            "min": 0.45891159602737797,
+            "max": 2.5053902215763326,
+            "p05": 0.653850685330641,
+            "p95": 2.4956814483247003
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.632654244758763,
+            "median": 3.368065434226415,
+            "min": 1.045473444830692,
+            "max": 3.484423855219183,
+            "p05": 1.2777326437702643,
+            "p95": 3.472788013119906
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)c1ccc([C@@](CC(=O)O)(c2ccccc2)[C@@H](N)[C@@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)cc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 3.1262031045048606,
+            "median": 3.1262031045048606,
+            "min": 3.1262031045048606,
+            "max": 3.1262031045048606,
+            "p05": 3.1262031045048606,
+            "p95": 3.1262031045048606
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.344838046978182,
+            "median": 3.344838046978182,
+            "min": 3.344838046978182,
+            "max": 3.344838046978182,
+            "p05": 3.344838046978182,
+            "p95": 3.344838046978182
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C(C(=O)O)C(N)=C(C#N)C2)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.187800718477668,
+            "median": 1.5839235332405923,
+            "min": 0.3457361659263749,
+            "max": 1.6337424562660365,
+            "p05": 0.46955490265779665,
+            "p95": 1.6287605639634921
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.5182283286528857,
+            "median": 1.7578047909471979,
+            "min": 0.8497175016982454,
+            "max": 1.9471626933132138,
+            "p05": 0.9405262306231407,
+            "p95": 1.9282269030766122
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(O)c(CC2=CC(N)=C(C#N)C2)nc(C(=O)O)c1COP(=O)(O)O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.30531406155026,
+            "median": 2.726835479747626,
+            "min": 1.2203966685120726,
+            "max": 2.9687100363910823,
+            "p05": 1.371040549635628,
+            "p95": 2.9445225807267366
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.642123227551989,
+            "median": 3.0469998374188947,
+            "min": 1.6941226516536965,
+            "max": 3.1852471935833755,
+            "p05": 1.8294103702302162,
+            "p95": 3.1714224579669272
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=CC(N)=C(C#N)[C@@H]2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.1457831781970618,
+            "median": 2.3290904323535933,
+            "min": 1.5691483169658234,
+            "max": 2.5391107852717685,
+            "p05": 1.6451425285046004,
+            "p95": 2.518108749979951
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.171113749632993,
+            "median": 5.040763740133647,
+            "min": 1.9139328962997795,
+            "max": 5.558644612465552,
+            "p05": 2.2266159806831665,
+            "p95": 5.506856525232362
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(CO[P@@](=O)(O)O[C@@H]2C=C(C(=O)O)C(N)=C2C#N)c(C)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.5664486442202687,
+            "median": 1.9139156978026033,
+            "min": 0.6859718463052905,
+            "max": 2.0994583885529123,
+            "p05": 0.8087662314550218,
+            "p95": 2.0809041194778812
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.5224745077683597,
+            "median": 3.3578548222500166,
+            "min": 0.7587449566427233,
+            "max": 3.4508237444123395,
+            "p05": 1.0186559432034528,
+            "p95": 3.441526852196107
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CNC2=C(C#N)CC=C2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.2122305488902942,
+            "median": 1.5071942846778799,
+            "min": 0.4396746981203041,
+            "max": 1.6898226638726985,
+            "p05": 0.5464266567760616,
+            "p95": 1.6715598259532167
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.0771446430535083,
+            "median": 4.291992102249168,
+            "min": 0.6426093298180713,
+            "max": 4.296832497093286,
+            "p05": 1.007547607061181,
+            "p95": 4.296348457608874
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(COP(=O)(O)O)c(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.8180216730686214,
+            "median": 0.8180216730686214,
+            "min": 0.8180216730686214,
+            "max": 0.8180216730686214,
+            "p05": 0.8180216730686214,
+            "p95": 0.8180216730686214
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.2148778936742821,
+            "median": 1.2148778936742821,
+            "min": 1.2148778936742821,
+            "max": 1.2148778936742821,
+            "p05": 1.2148778936742821,
+            "p95": 1.2148778936742821
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.3438054314897354,
+            "median": 0.3438054314897354,
+            "min": 0.3438054314897354,
+            "max": 0.3438054314897354,
+            "p05": 0.3438054314897354,
+            "p95": 0.3438054314897354
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.0605607332190616,
+            "median": 1.0605607332190616,
+            "min": 1.0605607332190616,
+            "max": 1.0605607332190616,
+            "p05": 1.0605607332190616,
+            "p95": 1.0605607332190616
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  },
+  "local_flex": {
+    "denominator": 144,
+    "records": 144,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 139,
+        "fail_count": 5,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "HQ_no_water": {
+        "pass_count": 106,
+        "fail_count": 38,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_chemical_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_fully_connected": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 143,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 132,
+        "fail_count": 12,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 119,
+        "fail_count": 25,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 139,
+        "fail_count": 5,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 106,
+        "fail_count": 38,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 144,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 144
+      }
+    },
+    "abnormal_bonds": 12,
+    "abnormal_angles": 34,
+    "protein_clash_pairs": 7,
+    "internal_severe_pairs": 1,
+    "stereo_reliable": 420,
+    "stereo_unavailable": 2,
+    "optimizer_converged": 110,
+    "PB_failures": {
+      "bond_angles": 25,
+      "minimum_distance_to_organic_cofactors": 2,
+      "minimum_distance_to_protein": 5,
+      "internal_steric_clash": 2,
+      "minimum_distance_to_inorganic_cofactors": 1,
+      "bond_lengths": 12,
+      "internal_energy": 1
+    },
+    "RMSD_from_native_final_A": {
+      "n": 144,
+      "mean": 0.44686684655838893,
+      "median": 0.4274266581387778,
+      "min": 0.05379115168873045,
+      "max": 1.016498641840527,
+      "p05": 0.1510977881672991,
+      "p95": 0.7449260010205822
+    },
+    "max_atom_from_native_final_A": {
+      "n": 144,
+      "mean": 1.0276928009149975,
+      "median": 0.9857044830243615,
+      "min": 0.10198004706804176,
+      "max": 2.1036879164933167,
+      "p05": 0.2991274341491869,
+      "p95": 1.8836306129879796
+    },
+    "RMSD_from_rigid_A": {
+      "n": 144,
+      "mean": 0.05644481128737847,
+      "median": 0.03952200995307023,
+      "min": 0.008835345682729744,
+      "max": 0.4679757922384579,
+      "p05": 0.011474917824150721,
+      "p95": 0.1788989385159525
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 144,
+      "mean": 5.510551901472296,
+      "median": 4.78387307402109,
+      "min": 3.1493035034220926,
+      "max": 11.217000607019632,
+      "p05": 3.676677917752281,
+      "p95": 10.08422280120153
+    },
+    "centroid_from_native_final_A": {
+      "n": 144,
+      "mean": 0.08873922310026665,
+      "median": 0.068158305425027,
+      "min": 5.439282932022448e-06,
+      "max": 0.4856991633602934,
+      "p05": 1.718679626713577e-05,
+      "p95": 0.23793538440537018
+    },
+    "diversity": {
+      "denominator": 144,
+      "valid": 144,
+      "unique_constitutions": 93,
+      "unique_isomeric": 100,
+      "unique_constitution_fraction_all": 0.6458333333333334,
+      "internal_diversity": 0.8370595462112624,
+      "pair_tanimoto": {
+        "n": 10296,
+        "mean": 0.16294045378873753,
+        "median": 0.10833333333333334,
+        "min": 0.020202020202020204,
+        "max": 1.0,
+        "p05": 0.03488372093023256,
+        "p95": 0.5679012345679012
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@H](CSc1cccc2ccccc12)Cc1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.5708062105040645,
+            "median": 2.5708062105040645,
+            "min": 2.5708062105040645,
+            "max": 2.5708062105040645,
+            "p05": 2.5708062105040645,
+            "p95": 2.5708062105040645
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 5.940727356173199,
+            "median": 5.940727356173199,
+            "min": 5.940727356173199,
+            "max": 5.940727356173199,
+            "p05": 5.940727356173199,
+            "p95": 5.940727356173199
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CC(=O)N[C@@](C)(CSc1cc(C)cc[n+]1C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.1806959868946598,
+            "median": 1.1806959868946598,
+            "min": 1.1806959868946598,
+            "max": 1.1806959868946598,
+            "p05": 1.1806959868946598,
+            "p95": 1.1806959868946598
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.598566415092454,
+            "median": 1.598566415092454,
+            "min": 1.598566415092454,
+            "max": 1.598566415092454,
+            "p05": 1.598566415092454,
+            "p95": 1.598566415092454
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cccc2c([C@@H](Cc3cc(C)cc[n+]3C)NC(C)=O)cccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.615909420281173,
+            "median": 0.615909420281173,
+            "min": 0.615909420281173,
+            "max": 0.615909420281173,
+            "p05": 0.615909420281173,
+            "p95": 0.615909420281173
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.6335080765680283,
+            "median": 0.6335080765680283,
+            "min": 0.6335080765680283,
+            "max": 0.6335080765680283,
+            "p05": 0.6335080765680283,
+            "p95": 0.6335080765680283
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSC[C@H](NC(=O)CC[n+]1ccc(C)cc1)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.1010879218111773,
+            "median": 2.1010879218111773,
+            "min": 2.1010879218111773,
+            "max": 2.1010879218111773,
+            "p05": 2.1010879218111773,
+            "p95": 2.1010879218111773
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.112033181648578,
+            "median": 2.112033181648578,
+            "min": 2.112033181648578,
+            "max": 2.112033181648578,
+            "p05": 2.112033181648578,
+            "p95": 2.112033181648578
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CSc1cc(C)cc[n+]1CCC(=O)N[C@H](C)c1cccc2ccccc12",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.546795014074565,
+            "median": 2.546795014074565,
+            "min": 2.546795014074565,
+            "max": 2.546795014074565,
+            "p05": 2.546795014074565,
+            "p95": 2.546795014074565
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 4.700365820992431,
+            "median": 4.700365820992431,
+            "min": 4.700365820992431,
+            "max": 4.700365820992431,
+            "p05": 4.700365820992431,
+            "p95": 4.700365820992431
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "CS[C@@H](CN(C(C)=O)c1ccc2ccccc2c1)c1cc(C)cc[n+]1C",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.8783741415106037,
+            "median": 2.8783741415106037,
+            "min": 2.8783741415106037,
+            "max": 2.8783741415106037,
+            "p05": 2.8783741415106037,
+            "p95": 2.8783741415106037
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 4.087694332148249,
+            "median": 4.087694332148249,
+            "min": 4.087694332148249,
+            "max": 4.087694332148249,
+            "p05": 4.087694332148249,
+            "p95": 4.087694332148249
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "O=P(O)(O)O[C@@](O[P@@](=O)(O)OP(=O)(O)O)(O[P@@](=O)(OC1CCCCC1)O[C@@H](O[P@@](=O)(O)OP(=O)(O)O)P(=O)(O)O)P(=O)(O)O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 3.5188046250539324,
+            "median": 3.5188046250539324,
+            "min": 3.5188046250539324,
+            "max": 3.5188046250539324,
+            "p05": 3.5188046250539324,
+            "p95": 3.5188046250539324
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 6.687331107009187,
+            "median": 6.687331107009187,
+            "min": 6.687331107009187,
+            "max": 6.687331107009187,
+            "p05": 6.687331107009187,
+            "p95": 6.687331107009187
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CNS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7793480240303684,
+            "median": 0.9401934767997849,
+            "min": 0.3290817525061099,
+            "max": 1.0687688427852102,
+            "p05": 0.3901929249354774,
+            "p95": 1.0559113061866676
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.583873174529616,
+            "median": 1.733130205726044,
+            "min": 1.236171831367576,
+            "max": 1.7823174864952278,
+            "p05": 1.2858676688034227,
+            "p95": 1.7773987584183095
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@H](O)CN(c1ccc(N)cc1)[SH](=O)=O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.0781590126697338,
+            "median": 1.0493836950305697,
+            "min": 1.0473711950206477,
+            "max": 1.1377221479579838,
+            "p05": 1.04757244502164,
+            "p95": 1.1288883026652423
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.6921356950295134,
+            "median": 1.7078448883510078,
+            "min": 1.1153511222928858,
+            "max": 2.2532110744446467,
+            "p05": 1.174600498898698,
+            "p95": 2.198674455835283
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "NC[C@@H](O)CS(=O)(=O)c1ccc(N)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7041799868515103,
+            "median": 0.8484349788809037,
+            "min": 0.3513007629020536,
+            "max": 0.9128042187715738,
+            "p05": 0.4010141844999386,
+            "p95": 0.9063672947825068
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.9279363361224765,
+            "median": 1.0210409378015493,
+            "min": 0.6311945257472797,
+            "max": 1.1315735448186006,
+            "p05": 0.6701791669527067,
+            "p95": 1.1205202841168955
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "Nc1ccc(C[C@H](O)CN[SH](=O)=O)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.8710081666040068,
+            "median": 1.8590058785056292,
+            "min": 1.435344619693539,
+            "max": 2.3186740016128518,
+            "p05": 1.477710745574748,
+            "p95": 2.2727071893021296
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.92539078551994,
+            "median": 5.1080557255509005,
+            "min": 3.1766471599261177,
+            "max": 6.491469471082799,
+            "p05": 3.369788016488596,
+            "p95": 6.353128096529609
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "C[C@@H](O)CNS(=O)(=O)c1ccccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.0167338202089093,
+            "median": 0.9030274000756228,
+            "min": 0.8630621037109087,
+            "max": 1.284111956840197,
+            "p05": 0.8670586333473802,
+            "p95": 1.2460035011637396
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.4465357764524864,
+            "median": 1.5537052079893836,
+            "min": 1.068323130268491,
+            "max": 1.7175789910995847,
+            "p05": 1.1168613380405803,
+            "p95": 1.7011916127885645
+          },
+          "distinct_aligned_1A_fraction": 0.3333333333333333
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CNS(=O)(=O)c1cc(CCO)ccc1N",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.399669865094064,
+            "median": 1.4766588920262038,
+            "min": 1.0691151752383559,
+            "max": 1.653235528017632,
+            "p05": 1.1098695469171407,
+            "p95": 1.6355778644184893
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.109072858726616,
+            "median": 4.703815556474694,
+            "min": 2.4230246816737133,
+            "max": 5.200378338031442,
+            "p05": 2.6511037691538113,
+            "p95": 5.150722059875767
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "CN(c1ccc(N)cc1)S(=O)(=O)CCO",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 1.6130823908522327,
+            "median": 1.6130823908522327,
+            "min": 1.6130823908522327,
+            "max": 1.6130823908522327,
+            "p05": 1.6130823908522327,
+            "p95": 1.6130823908522327
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.7470386151046196,
+            "median": 1.7470386151046196,
+            "min": 1.7470386151046196,
+            "max": 1.7470386151046196,
+            "p05": 1.7470386151046196,
+            "p95": 1.7470386151046196
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C[C@@H]1C[C@H](O)C[C@@H]2CCc3cc4ccccc4nc3[C@]21C)OC(=O)N1CCCCC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.5751231432266679,
+            "median": 0.5751231432266679,
+            "min": 0.5751231432266679,
+            "max": 0.5751231432266679,
+            "p05": 0.5751231432266679,
+            "p95": 0.5751231432266679
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.6868022550747468,
+            "median": 0.6868022550747468,
+            "min": 0.6868022550747468,
+            "max": 0.6868022550747468,
+            "p05": 0.6868022550747468,
+            "p95": 0.6868022550747468
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCCC[C@H]1c1c2c(nc3ccccc13)[C@@]1(C)CC[C@H](O)C[C@@H]1CC2",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.7892121969534787,
+            "median": 0.7892121969534787,
+            "min": 0.7892121969534787,
+            "max": 0.7892121969534787,
+            "p05": 0.7892121969534787,
+            "p95": 0.7892121969534787
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.0262004998267242,
+            "median": 3.0262004998267242,
+            "min": 3.0262004998267242,
+            "max": 3.0262004998267242,
+            "p05": 3.0262004998267242,
+            "p95": 3.0262004998267242
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)OC(=O)N1CCC(c2c3c(nc4ccccc24)[C@@]2(C)CC[C@H](O)C[C@@H]2CC3)CC1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.441387263451662,
+            "median": 0.441387263451662,
+            "min": 0.441387263451662,
+            "max": 0.441387263451662,
+            "p05": 0.441387263451662,
+            "p95": 0.441387263451662
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.5143846435452284,
+            "median": 0.5143846435452284,
+            "min": 0.5143846435452284,
+            "max": 0.5143846435452284,
+            "p05": 0.5143846435452284,
+            "p95": 0.5143846435452284
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "CC(C)(C)[C@H]1CC[C@@H](c2c3c(nc4ccccc24)[C@@]2(C)CC[C@H](O)C[C@@H]2CC3)N(C(=O)O)C1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.25564968810259997,
+            "median": 0.25564968810259997,
+            "min": 0.25564968810259997,
+            "max": 0.25564968810259997,
+            "p05": 0.25564968810259997,
+            "p95": 0.25564968810259997
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.32266612399779077,
+            "median": 0.32266612399779077,
+            "min": 0.32266612399779077,
+            "max": 0.32266612399779077,
+            "p05": 0.32266612399779077,
+            "p95": 0.32266612399779077
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "C[C@@H](c1ccccc1)c1ccccc1CN(C)[C@@](N)(C(=O)O)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 2.12280910302889,
+            "median": 2.12280910302889,
+            "min": 2.12280910302889,
+            "max": 2.12280910302889,
+            "p05": 2.12280910302889,
+            "p95": 2.12280910302889
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 2.342750762704784,
+            "median": 2.342750762704784,
+            "min": 2.342750762704784,
+            "max": 2.342750762704784,
+            "p05": 2.342750762704784,
+            "p95": 2.342750762704784
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(Cc1ccccc1[C@H](CC(=O)O)c1ccccc1)[C@H](N)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.7136374368407037,
+            "median": 0.7136374368407037,
+            "min": 0.7136374368407037,
+            "max": 0.7136374368407037,
+            "p05": 0.7136374368407037,
+            "p95": 0.7136374368407037
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 0.8934143660626793,
+            "median": 0.8934143660626793,
+            "min": 0.8934143660626793,
+            "max": 0.8934143660626793,
+            "p05": 0.8934143660626793,
+            "p95": 0.8934143660626793
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)[C@](N)(c1ccc([C@@H](CC(=O)O)c2ccccc2)cc1)[C@@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6345553423285253,
+            "median": 0.6094069982851656,
+            "min": 0.5456658158535356,
+            "max": 0.7485932128468746,
+            "p05": 0.5520399340966986,
+            "p95": 0.7346745913907037
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.8088401869647556,
+            "median": 0.7428501772884193,
+            "min": 0.7419838331917674,
+            "max": 0.9416865504140798,
+            "p05": 0.7420704676014326,
+            "p95": 0.9218029131015137
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CNCc1ccccc1[C@@](CC(=O)O)(c1ccccc1)[C@@H](N)[C@@H]1O[C@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.7861835543752125,
+            "median": 2.412418389754027,
+            "min": 0.47074652434654546,
+            "max": 2.4753857490250644,
+            "p05": 0.6649137108872936,
+            "p95": 2.469089013097961
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.643043702004523,
+            "median": 3.3716222741034865,
+            "min": 1.061918038147761,
+            "max": 3.4955907937623216,
+            "p05": 1.2928884617433336,
+            "p95": 3.483193941796438
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)[C@](N)([C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O)C(CC(=O)O)(c1ccccc1)c1ccccc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.9440367794268001,
+            "median": 0.9440367794268001,
+            "min": 0.9440367794268001,
+            "max": 0.9440367794268001,
+            "p05": 0.9440367794268001,
+            "p95": 0.9440367794268001
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.2421687352864252,
+            "median": 1.2421687352864252,
+            "min": 1.2421687352864252,
+            "max": 1.2421687352864252,
+            "p05": 1.2421687352864252,
+            "p95": 1.2421687352864252
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "CN(C)c1ccc([C@@](CC(=O)O)(c2ccccc2)[C@@H](N)[C@@H]2O[C@@H](n3cnc4c(N)ncnc43)[C@H](O)[C@@H]2O)cc1",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 3.131621797742206,
+            "median": 3.131621797742206,
+            "min": 3.131621797742206,
+            "max": 3.131621797742206,
+            "p05": 3.131621797742206,
+            "p95": 3.131621797742206
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 3.345807857794893,
+            "median": 3.345807857794893,
+            "min": 3.345807857794893,
+            "max": 3.345807857794893,
+            "p05": 3.345807857794893,
+            "p95": 3.345807857794893
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C(C(=O)O)C(N)=C(C#N)C2)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.1876548319774864,
+            "median": 1.5849405115254,
+            "min": 0.34528357539980387,
+            "max": 1.6327404090072555,
+            "p05": 0.4692492690123635,
+            "p95": 1.62796041925907
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.5218452876824875,
+            "median": 1.7595129234229305,
+            "min": 0.8536891507767016,
+            "max": 1.9523337888478303,
+            "p05": 0.9442715280413245,
+            "p95": 1.9330517023053402
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(O)c(CC2=CC(N)=C(C#N)C2)nc(C(=O)O)c1COP(=O)(O)O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.3016706168380874,
+            "median": 2.7180374627079997,
+            "min": 1.221903837204068,
+            "max": 2.9650705506021953,
+            "p05": 1.3715171997544613,
+            "p95": 2.9403672418127758
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.6418357241159076,
+            "median": 3.0459903773397174,
+            "min": 1.6934135717538115,
+            "max": 3.186103223254195,
+            "p05": 1.828671252312402,
+            "p95": 3.172091938662747
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=CC(N)=C(C#N)[C@@H]2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.153116731244958,
+            "median": 2.342141090698675,
+            "min": 1.5788877517449333,
+            "max": 2.5383213512912657,
+            "p05": 1.6552130856403076,
+            "p95": 2.5187033252320066
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.162559512912254,
+            "median": 5.032477200147061,
+            "min": 1.9042635992384607,
+            "max": 5.550937739351239,
+            "p05": 2.2170849593293207,
+            "p95": 5.499091685430821
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(CO[P@@](=O)(O)O[C@@H]2C=C(C(=O)O)C(N)=C2C#N)c(C)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.5673060981887021,
+            "median": 1.9144636327882572,
+            "min": 0.6926333634602571,
+            "max": 2.0948212983175925,
+            "p05": 0.8148163903930571,
+            "p95": 2.076785531764659
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 2.5260882819339874,
+            "median": 3.360059280955987,
+            "min": 0.7657734646948596,
+            "max": 3.452432100151116,
+            "p05": 1.0252020463209723,
+            "p95": 3.443194818231603
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CNC2=C(C#N)CC=C2C(=O)O)c1O",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 1.2059440679391482,
+            "median": 1.5009612645659993,
+            "min": 0.4380957255311485,
+            "max": 1.6787752137202967,
+            "p05": 0.5443822794346336,
+            "p95": 1.660993818804867
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.086591915988994,
+            "median": 4.306820388639397,
+            "min": 0.6435691302297026,
+            "max": 4.309386229097882,
+            "p05": 1.009894256070672,
+            "p95": 4.3091296450520336
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1ncc(COP(=O)(O)O)c(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.8265740971051506,
+            "median": 0.8265740971051506,
+            "min": 0.8265740971051506,
+            "max": 0.8265740971051506,
+            "p05": 0.8265740971051506,
+            "p95": 0.8265740971051506
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.222737239368484,
+            "median": 1.222737239368484,
+            "min": 1.222737239368484,
+            "max": 1.222737239368484,
+            "p05": 1.222737239368484,
+            "p95": 1.222737239368484
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "12AV",
+          "smiles": "Cc1c(COP(=O)(O)O)cnc(CC2=C[C@@H](C(=O)O)C(C#N)=C2N)c1O",
+          "n": 2,
+          "aligned_RMSD_A": {
+            "n": 1,
+            "mean": 0.3430993431916928,
+            "median": 0.3430993431916928,
+            "min": 0.3430993431916928,
+            "max": 0.3430993431916928,
+            "p05": 0.3430993431916928,
+            "p95": 0.3430993431916928
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 1,
+            "mean": 1.0635664434417744,
+            "median": 1.0635664434417744,
+            "min": 1.0635664434417744,
+            "max": 1.0635664434417744,
+            "p05": 1.0635664434417744,
+            "p95": 1.0635664434417744
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  }
+}

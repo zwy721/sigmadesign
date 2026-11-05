@@ -2,11 +2,11 @@
   "supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "timezone": "Asia/Shanghai",
   "coverage": {
-    "task_groups": 12,
-    "task_groups_with_preserved_prompt": 10,
+    "task_groups": 13,
+    "task_groups_with_preserved_prompt": 11,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 11,
-    "distinct_prompt_contents": 9
+    "prompt_files_including_legacy_copy": 12,
+    "distinct_prompt_contents": 10
   },
   "entries": [
     {
@@ -189,8 +189,21 @@
       "bytes": 5156,
       "sha256": "f49bdefa38da66a3dcd04271445054ec1b2fb2a5207484d0e97556145ce2978d",
       "source_modified_Asia_Shanghai": "2026-11-04T20:29:55.714665+08:00"
+    },
+    {
+      "task_key": "no_water_generation_evaluation_20261105",
+      "task_title": "无结晶水协议与生成质量评估",
+      "repository_directory": "2611/1105/1039+no_water_test",
+      "status_path": "2611/1105/1039+no_water_test/PROMPT_STATUS.md",
+      "status": "preserved_original",
+      "source": "2611/1105/1039+no_water_test/prompt.md",
+      "prompt_path": "2611/1105/1039+no_water_test/prompt.md",
+      "relevant_scope": "无水端到端审计、阶段配对QC与无真实身份诊断",
+      "bytes": 3234,
+      "sha256": "5d67deee5146e8267bf2dafe7a99e890504e4a0d32ed6269e0e7d4fbd795a070",
+      "source_modified_Asia_Shanghai": "2026-11-05T10:42:38.533877+08:00"
     }
   ],
   "note": "Preserved prompts are byte-for-byte copies. Missing originals are not reconstructed.",
-  "last_appended_at_Asia_Shanghai": "2026-11-04T21:07:23.161508+08:00"
+  "last_appended_at_Asia_Shanghai": "2026-11-05T11:19:35.777285+08:00"
 }

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "main_weight_files_unchanged": 3,
+  "frozen_input_files_unchanged": 1785,
+  "all_local_report_links_resolve": true,
+  "source_AST_valid": true,
+  "main_full_QC_records": 576,
+  "free_full_QC_records": 72,
+  "verification_checks_passed": 23
+}

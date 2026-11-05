@@ -1,0 +1,1456 @@
+{
+  "raw_predecode": {
+    "denominator": 18,
+    "records": 18,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "HQ_no_water": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "chemical_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "fully_connected": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_chemical_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_fully_connected": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 0,
+        "fail_count": 0,
+        "unavailable_count": 18,
+        "denominator": 18
+      }
+    },
+    "abnormal_bonds": null,
+    "abnormal_angles": null,
+    "protein_clash_pairs": 788,
+    "internal_severe_pairs": null,
+    "stereo_reliable": null,
+    "stereo_unavailable": null,
+    "optimizer_converged": null,
+    "PB_failures": {},
+    "RMSD_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "max_atom_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "RMSD_from_rigid_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    },
+    "centroid_from_native_final_A": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "min": null,
+      "max": null,
+      "p05": null,
+      "p95": null
+    }
+  },
+  "decoded_initial": {
+    "denominator": 18,
+    "records": 18,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "HQ_no_water": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 0,
+        "fail_count": 18,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      }
+    },
+    "abnormal_bonds": 72,
+    "abnormal_angles": 288,
+    "protein_clash_pairs": 788,
+    "internal_severe_pairs": 312,
+    "stereo_reliable": 0,
+    "stereo_unavailable": 0,
+    "optimizer_converged": 0,
+    "PB_failures": {
+      "bond_lengths": 18,
+      "bond_angles": 18,
+      "internal_steric_clash": 18,
+      "internal_energy": 18,
+      "minimum_distance_to_protein": 18,
+      "volume_overlap_with_protein": 17,
+      "minimum_distance_to_organic_cofactors": 2,
+      "minimum_distance_to_inorganic_cofactors": 1
+    },
+    "RMSD_from_native_final_A": {
+      "n": 18,
+      "mean": 7.692793225285651,
+      "median": 7.686208710438347,
+      "min": 6.420245660408955,
+      "max": 8.745963788152034,
+      "p05": 6.471567162121186,
+      "p95": 8.710232992071377
+    },
+    "max_atom_from_native_final_A": {
+      "n": 18,
+      "mean": 11.302361634971898,
+      "median": 10.809509840423033,
+      "min": 9.049552029796834,
+      "max": 15.935460651013512,
+      "p05": 9.331770185427896,
+      "p95": 14.37101746132223
+    },
+    "RMSD_from_rigid_A": {
+      "n": 18,
+      "mean": 7.803012913493815,
+      "median": 7.777446927950294,
+      "min": 6.554343857600595,
+      "max": 8.809556308085744,
+      "p05": 6.6028923008376,
+      "p95": 8.794314760138402
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "centroid_from_native_final_A": {
+      "n": 18,
+      "mean": 2.4954999483171703,
+      "median": 2.3432287108887997,
+      "min": 0.8946412355550999,
+      "max": 4.6393936071346875,
+      "p05": 1.0880009737262513,
+      "p95": 4.0695503631589265
+    },
+    "diversity": {
+      "denominator": 18,
+      "valid": 18,
+      "unique_constitutions": 1,
+      "unique_isomeric": 1,
+      "unique_constitution_fraction_all": 0.05555555555555555,
+      "internal_diversity": 0.0,
+      "pair_tanimoto": {
+        "n": 153,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "p05": 1.0,
+        "p95": 1.0
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "12AV",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.4626489338049264,
+            "median": 3.124609642208703,
+            "min": 2.951511646961032,
+            "max": 4.3118255122450435,
+            "p05": 2.968821446485799,
+            "p95": 4.1931039252414095
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013267233260707,
+            "median": 7.071332793540409,
+            "min": 6.497386421041413,
+            "max": 7.471082485200298,
+            "p05": 6.554781058291312,
+            "p95": 7.4311075160343085
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.4626531996485945,
+            "median": 3.1246194021635736,
+            "min": 2.9515145425741003,
+            "max": 4.311825654208109,
+            "p05": 2.9688250285330477,
+            "p95": 4.193105029003656
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013274260749312,
+            "median": 7.071333017284177,
+            "min": 6.497397622869227,
+            "max": 7.471092142094531,
+            "p05": 6.554791162310722,
+            "p95": 7.431116229613496
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.4626518977324974,
+            "median": 3.1246182700357976,
+            "min": 2.95151009256916,
+            "max": 4.311827330592535,
+            "p05": 2.968820910315824,
+            "p95": 4.193106424536861
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013268528408349,
+            "median": 7.071337615307777,
+            "min": 6.497383064742296,
+            "max": 7.4710849051749735,
+            "p05": 6.554778519798845,
+            "p95": 7.431110176188254
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.462651454881542,
+            "median": 3.1246138128331107,
+            "min": 2.951509102965486,
+            "max": 4.3118314488460285,
+            "p05": 2.9688195739522487,
+            "p95": 4.193109685244736
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013263043333812,
+            "median": 7.0713337035055375,
+            "min": 6.4973751263875785,
+            "max": 7.471080300108323,
+            "p05": 6.554770984099374,
+            "p95": 7.4311056404480444
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.4626594365844245,
+            "median": 3.1246235042225137,
+            "min": 2.9515202954921387,
+            "max": 4.311834510038621,
+            "p05": 2.9688306163651763,
+            "p95": 4.193113409457011
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013278016375505,
+            "median": 7.07134459206074,
+            "min": 6.497394297229211,
+            "max": 7.4710951598365645,
+            "p05": 6.554789326712363,
+            "p95": 7.431120103058982
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 3.462655316876216,
+            "median": 3.124616854588896,
+            "min": 2.9515162545764246,
+            "max": 4.311832841463328,
+            "p05": 2.968826314577672,
+            "p95": 4.193111242775885
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 7.013280688936789,
+            "median": 7.071353752523864,
+            "min": 6.4973791583222225,
+            "max": 7.471109155964282,
+            "p05": 6.5547766177423865,
+            "p95": 7.43113361562024
+          },
+          "distinct_aligned_1A_fraction": 1.0
+        }
+      ]
+    }
+  },
+  "native_final": {
+    "denominator": 18,
+    "records": 18,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 11,
+        "fail_count": 7,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "HQ_no_water": {
+        "pass_count": 4,
+        "fail_count": 14,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 16,
+        "fail_count": 2,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 15,
+        "fail_count": 3,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 16,
+        "fail_count": 2,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 11,
+        "fail_count": 7,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 16,
+        "fail_count": 2,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 4,
+        "fail_count": 14,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      }
+    },
+    "abnormal_bonds": 3,
+    "abnormal_angles": 3,
+    "protein_clash_pairs": 12,
+    "internal_severe_pairs": 3,
+    "stereo_reliable": 0,
+    "stereo_unavailable": 0,
+    "optimizer_converged": 0,
+    "PB_failures": {
+      "bond_angles": 2,
+      "internal_steric_clash": 2,
+      "minimum_distance_to_protein": 7,
+      "minimum_distance_to_organic_cofactors": 4,
+      "bond_lengths": 3,
+      "volume_overlap_with_organic_cofactors": 1
+    },
+    "RMSD_from_native_final_A": {
+      "n": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "max_atom_from_native_final_A": {
+      "n": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "RMSD_from_rigid_A": {
+      "n": 18,
+      "mean": 0.3638920385139044,
+      "median": 0.37230186403550714,
+      "min": 0.16480737240791135,
+      "max": 0.8615626409805229,
+      "p05": 0.18834770797455538,
+      "p95": 0.5468855521892146
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 18,
+      "mean": 7.692793225285651,
+      "median": 7.686208710438347,
+      "min": 6.420245660408955,
+      "max": 8.745963788152034,
+      "p05": 6.471567162121186,
+      "p95": 8.710232992071377
+    },
+    "centroid_from_native_final_A": {
+      "n": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "diversity": {
+      "denominator": 18,
+      "valid": 18,
+      "unique_constitutions": 1,
+      "unique_isomeric": 1,
+      "unique_constitution_fraction_all": 0.05555555555555555,
+      "internal_diversity": 0.0,
+      "pair_tanimoto": {
+        "n": 153,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "p05": 1.0,
+        "p95": 1.0
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "12AV",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7757266961433551,
+            "median": 0.8453717104352508,
+            "min": 0.6170153891814982,
+            "max": 0.8647929888133165,
+            "p05": 0.6398510213068735,
+            "p95": 0.8628508609755099
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.399638673731465,
+            "median": 1.4061165163906824,
+            "min": 0.8850459939084147,
+            "max": 1.9077535108952979,
+            "p05": 0.9371530461566414,
+            "p95": 1.8575898114448364
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.670242186848896,
+            "median": 0.6877849406683451,
+            "min": 0.6085417416121779,
+            "max": 0.7143998782661651,
+            "p05": 0.6164660615177946,
+            "p95": 0.7117383845063832
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.474056211578052,
+            "median": 5.910249385347458,
+            "min": 0.9935059093935978,
+            "max": 6.518413339993099,
+            "p05": 1.485180256988984,
+            "p95": 6.457596944528535
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.8215344696582454,
+            "median": 0.7747504657748571,
+            "min": 0.7736780341895062,
+            "max": 0.9161749090103728,
+            "p05": 0.7737852773480413,
+            "p95": 0.9020324646868212
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.354304424106434,
+            "median": 4.473481251814222,
+            "min": 1.094484654072409,
+            "max": 4.494947366432671,
+            "p05": 1.4323843138465904,
+            "p95": 4.492800754970826
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.4881622743781102,
+            "median": 0.6298331086534565,
+            "min": 0.1584750130416659,
+            "max": 0.6761787014392083,
+            "p05": 0.20561082260284497,
+            "p95": 0.6715441421606332
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.6041933337466278,
+            "median": 0.7244876635710693,
+            "min": 0.2680736584100224,
+            "max": 0.8200186792587918,
+            "p05": 0.3137150589261271,
+            "p95": 0.8104655776900196
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.2215196480495982,
+            "median": 2.9042281239263863,
+            "min": 0.7541737928676024,
+            "max": 3.0061570273548055,
+            "p05": 0.9691792259734808,
+            "p95": 2.9959641370119634
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.9478682147282638,
+            "median": 4.737577039303248,
+            "min": 1.478751289883912,
+            "max": 5.627276314997632,
+            "p05": 1.8046338648258455,
+            "p95": 5.538306387428193
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6494711413641007,
+            "median": 0.7112694111046217,
+            "min": 0.4553923980821637,
+            "max": 0.7817516149055164,
+            "p05": 0.4809800993844095,
+            "p95": 0.7747033945254269
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.7442400974421256,
+            "median": 0.7423486375461777,
+            "min": 0.6167364839756657,
+            "max": 0.8736351708045337,
+            "p05": 0.629297699332717,
+            "p95": 0.8605065174786981
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  },
+  "rigid": {
+    "denominator": 18,
+    "records": 18,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "HQ_no_water": {
+        "pass_count": 15,
+        "fail_count": 3,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 16,
+        "fail_count": 2,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      }
+    },
+    "abnormal_bonds": 0,
+    "abnormal_angles": 0,
+    "protein_clash_pairs": 1,
+    "internal_severe_pairs": 0,
+    "stereo_reliable": 0,
+    "stereo_unavailable": 0,
+    "optimizer_converged": 18,
+    "PB_failures": {
+      "minimum_distance_to_protein": 1,
+      "minimum_distance_to_organic_cofactors": 1
+    },
+    "RMSD_from_native_final_A": {
+      "n": 18,
+      "mean": 0.3638920385139044,
+      "median": 0.37230186403550714,
+      "min": 0.16480737240791135,
+      "max": 0.8615626409805229,
+      "p05": 0.18834770797455538,
+      "p95": 0.5468855521892146
+    },
+    "max_atom_from_native_final_A": {
+      "n": 18,
+      "mean": 0.8047533410761688,
+      "median": 0.6789836854016489,
+      "min": 0.34479473603870425,
+      "max": 2.390275051118596,
+      "p05": 0.3841102513500522,
+      "p95": 1.7529945812143315
+    },
+    "RMSD_from_rigid_A": {
+      "n": 18,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p05": 0.0,
+      "p95": 0.0
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 18,
+      "mean": 7.803012913493815,
+      "median": 7.777446927950294,
+      "min": 6.554343857600595,
+      "max": 8.809556308085744,
+      "p05": 6.6028923008376,
+      "p95": 8.794314760138402
+    },
+    "centroid_from_native_final_A": {
+      "n": 18,
+      "mean": 0.09746484197901006,
+      "median": 0.07077149253005444,
+      "min": 1.2018504251124482e-05,
+      "max": 0.397251027842877,
+      "p05": 1.2018504251522315e-05,
+      "p95": 0.21362280134060602
+    },
+    "diversity": {
+      "denominator": 18,
+      "valid": 18,
+      "unique_constitutions": 1,
+      "unique_isomeric": 1,
+      "unique_constitution_fraction_all": 0.05555555555555555,
+      "internal_diversity": 0.0,
+      "pair_tanimoto": {
+        "n": 153,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "p05": 1.0,
+        "p95": 1.0
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "12AV",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6067753141739812,
+            "median": 0.5865547389735647,
+            "min": 0.41134358291207346,
+            "max": 0.8224276206363055,
+            "p05": 0.42886469851822256,
+            "p95": 0.7988403324700314
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.3275705587688853,
+            "median": 1.3134832202963231,
+            "min": 0.7434994920419697,
+            "max": 1.9257289639683635,
+            "p05": 0.800497864867405,
+            "p95": 1.8645043896011593
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7538722804934612,
+            "median": 0.8057665762892168,
+            "min": 0.63220301730585,
+            "max": 0.823647247885317,
+            "p05": 0.6495593732041867,
+            "p95": 0.821859180725707
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.457402334570092,
+            "median": 5.930194527500762,
+            "min": 0.9220294910323278,
+            "max": 6.519982985177186,
+            "p05": 1.4228459946791712,
+            "p95": 6.461004139409543
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.8475149852454268,
+            "median": 0.8710653387288209,
+            "min": 0.6849681138725431,
+            "max": 0.9865115031349164,
+            "p05": 0.7035778363581708,
+            "p95": 0.9749668866943069
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.479780118851194,
+            "median": 4.723751739630975,
+            "min": 0.9653626549989737,
+            "max": 4.750225961923635,
+            "p05": 1.341201563462174,
+            "p95": 4.747578539694369
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.4276150118674574,
+            "median": 0.5775935009445895,
+            "min": 0.12132293818588306,
+            "max": 0.5839285964718995,
+            "p05": 0.1669499944617537,
+            "p95": 0.5832950869191685
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.5719598016682069,
+            "median": 0.6723026233277191,
+            "min": 0.2858716897490902,
+            "max": 0.7577050919278117,
+            "p05": 0.3245147831069531,
+            "p95": 0.7491648450678023
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.184853223636723,
+            "median": 2.88036430374816,
+            "min": 0.6989548531699463,
+            "max": 2.975240513992062,
+            "p05": 0.9170957982277677,
+            "p95": 2.965752892967672
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.066698821765234,
+            "median": 4.926343701231844,
+            "min": 1.4639679691395804,
+            "max": 5.809784794924278,
+            "p05": 1.8102055423488068,
+            "p95": 5.721440685555034
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.5700448669276209,
+            "median": 0.5754935453295924,
+            "min": 0.39551233379897377,
+            "max": 0.7391287216542965,
+            "p05": 0.41351045495203564,
+            "p95": 0.7227652040218261
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.6390905962010297,
+            "median": 0.5966023005319372,
+            "min": 0.5332018726523756,
+            "max": 0.787467615418776,
+            "p05": 0.5395419154403318,
+            "p95": 0.7683810839300921
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  },
+  "local_flex": {
+    "denominator": 18,
+    "records": 18,
+    "missing": 0,
+    "rates": {
+      "protein_pass": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "HQ_no_water": {
+        "pass_count": 15,
+        "fail_count": 3,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_chemical_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_fully_connected": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_internal_clash": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_bond_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_angle_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_ring_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_torsion_geometry_valid": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_no_severe_protein_clash": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_in_target_pocket": {
+        "pass_count": 16,
+        "fail_count": 2,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_posebusters_all_pass": {
+        "pass_count": 17,
+        "fail_count": 1,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_definition_complete": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      },
+      "QC_stereo_geometry_consistent": {
+        "pass_count": 18,
+        "fail_count": 0,
+        "unavailable_count": 0,
+        "denominator": 18
+      }
+    },
+    "abnormal_bonds": 0,
+    "abnormal_angles": 0,
+    "protein_clash_pairs": 1,
+    "internal_severe_pairs": 0,
+    "stereo_reliable": 0,
+    "stereo_unavailable": 0,
+    "optimizer_converged": 18,
+    "PB_failures": {
+      "minimum_distance_to_protein": 1,
+      "minimum_distance_to_organic_cofactors": 1
+    },
+    "RMSD_from_native_final_A": {
+      "n": 18,
+      "mean": 0.34338068839730307,
+      "median": 0.34898901791178755,
+      "min": 0.15390324341394931,
+      "max": 0.8457184888207971,
+      "p05": 0.1789199609018542,
+      "p95": 0.5377662824738787
+    },
+    "max_atom_from_native_final_A": {
+      "n": 18,
+      "mean": 0.7962399806180228,
+      "median": 0.703598647405606,
+      "min": 0.3422135590534074,
+      "max": 2.4015258857651323,
+      "p05": 0.3479912400188854,
+      "p95": 1.765126229381588
+    },
+    "RMSD_from_rigid_A": {
+      "n": 18,
+      "mean": 0.04555507000209911,
+      "median": 0.04116172916337817,
+      "min": 0.019019735364440078,
+      "max": 0.10520286117782152,
+      "p05": 0.019460178138086,
+      "p95": 0.08651835318730076
+    },
+    "RMSD_from_decoded_initial_A": {
+      "n": 18,
+      "mean": 7.795567052246818,
+      "median": 7.7973637582202056,
+      "min": 6.543446803634915,
+      "max": 8.795407820486021,
+      "p05": 6.604459261045757,
+      "p95": 8.791269416180986
+    },
+    "centroid_from_native_final_A": {
+      "n": 18,
+      "mean": 0.09121799847622213,
+      "median": 0.06359442264184084,
+      "min": 7.453559925048129e-06,
+      "max": 0.38709906126640653,
+      "p05": 1.6636839785729923e-05,
+      "p95": 0.20657322726151983
+    },
+    "diversity": {
+      "denominator": 18,
+      "valid": 18,
+      "unique_constitutions": 1,
+      "unique_isomeric": 1,
+      "unique_constitution_fraction_all": 0.05555555555555555,
+      "internal_diversity": 0.0,
+      "pair_tanimoto": {
+        "n": 153,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "max": 1.0,
+        "p05": 1.0,
+        "p95": 1.0
+      },
+      "conformer_groups": [
+        {
+          "receptor_id": "12AV",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.6262300615743638,
+            "median": 0.6180273198640295,
+            "min": 0.4355333086359757,
+            "max": 0.825129556223086,
+            "p05": 0.4537827097587811,
+            "p95": 0.8044193325871803
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 1.3373048237942227,
+            "median": 1.3302012390361588,
+            "min": 0.7554786376860699,
+            "max": 1.9262345946604393,
+            "p05": 0.8129508978210789,
+            "p95": 1.8666312590980112
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "7ILZ",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.7493075142385743,
+            "median": 0.8039573414204078,
+            "min": 0.6283115450575011,
+            "max": 0.815653656237814,
+            "p05": 0.6458761246937917,
+            "p95": 0.8144840247560734
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.457878092583533,
+            "median": 5.932214027381907,
+            "min": 0.9188695995624188,
+            "max": 6.522550650806274,
+            "p05": 1.4202040423443676,
+            "p95": 6.463516988463837
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9RT3",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.8391868786774531,
+            "median": 0.8583419950535014,
+            "min": 0.690963899768691,
+            "max": 0.9682547412101666,
+            "p05": 0.707701709297172,
+            "p95": 0.9572634665945001
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 3.47265289683988,
+            "median": 4.713368692948459,
+            "min": 0.96906745241667,
+            "max": 4.735522545154512,
+            "p05": 1.343497576469849,
+            "p95": 4.733307159933907
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9SYL",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.44015917885865746,
+            "median": 0.5989354490847952,
+            "min": 0.12099234215002017,
+            "max": 0.6005497453411572,
+            "p05": 0.16878665284349767,
+            "p95": 0.600388315715521
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.582017819164215,
+            "median": 0.6924004864720028,
+            "min": 0.2828113493715082,
+            "max": 0.770841621649134,
+            "p05": 0.32377026308155765,
+            "p95": 0.7629975081314209
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        },
+        {
+          "receptor_id": "9T4A",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 2.216075506427099,
+            "median": 2.9206590616828625,
+            "min": 0.7113526555380167,
+            "max": 3.016214802060417,
+            "p05": 0.9322832961525013,
+            "p95": 3.0066592280226616
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 4.086965841065624,
+            "median": 4.95252767618045,
+            "min": 1.4700472289465167,
+            "max": 5.838322618069908,
+            "p05": 1.81829527366991,
+            "p95": 5.749743123880962
+          },
+          "distinct_aligned_1A_fraction": 0.6666666666666666
+        },
+        {
+          "receptor_id": "9T51",
+          "smiles": "c1ccc(-c2ccc(-c3ccc(-c4ccc(-c5ccccc5)cc4)cc3)cc2)cc1",
+          "n": 3,
+          "aligned_RMSD_A": {
+            "n": 3,
+            "mean": 0.5683061543048488,
+            "median": 0.5709461399697244,
+            "min": 0.4003841850082043,
+            "max": 0.7335881379366176,
+            "p05": 0.4174403805043563,
+            "p95": 0.7173239381399282
+          },
+          "receptor_frame_RMSD_A": {
+            "n": 3,
+            "mean": 0.6363147459830908,
+            "median": 0.5912742195180395,
+            "min": 0.5363807838964155,
+            "max": 0.781289234534817,
+            "p05": 0.5418701274585779,
+            "p95": 0.7622877330331392
+          },
+          "distinct_aligned_1A_fraction": 0.0
+        }
+      ]
+    }
+  }
+}
