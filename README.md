@@ -1,5 +1,11 @@
 # SigmaDock 研究任务日志
 
+## 四组位姿生成对照：预检问题待讨论
+
+[当前问题与诊断证据](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/CURRENT_ISSUE.md) · [原始任务](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/prompt.md) · [状态](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/status.json)
+
+批量一致性检查未通过；发现官方eval前向仍有随机边坐标基，随机流方案及A组附加立体检查待确认。正式实验完成0次。本次仅归档8个问题相关文件。
+
 ## GEOM连接与局部几何训练（小规模三种子已完成）
 
 [结果与文件导航](2611/1106/1111_connection_length/README.md) · [连接](2611/1106/1111_connection_length/CONNECTION_TRAINING_RESULTS.md) · [几何](2611/1106/1111_connection_length/GEOMETRY_RECOVERY_RESULTS.md) · [核验](2611/1106/1111_connection_length/COMPLETION_VERIFICATION.json)

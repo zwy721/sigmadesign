@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "training": false,
+  "physical_gpu": 0,
+  "steps": 24,
+  "noise_scale": 0.0,
+  "cohort": [
+    "12AV",
+    "7ILZ",
+    "9RT3",
+    "9SYL",
+    "9T4A",
+    "9T51"
+  ],
+  "seeds": [
+    41001,
+    41002,
+    41003,
+    41004,
+    41005,
+    41006,
+    41007,
+    41008,
+    41009,
+    41010,
+    41011,
+    41012
+  ],
+  "arms": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E_connection_only"
+  ],
+  "per_arm_attempts": 72,
+  "primary_attempts": 360,
+  "dev_pockets": [
+    "2zwz",
+    "4i5p",
+    "2wos"
+  ],
+  "dev_seeds": [
+    42001,
+    42002
+  ],
+  "preflight_seeds": [
+    43001
+  ],
+  "strategy": "alternating_categorical",
+  "revision_steps": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "history_plan_sha256": "4e9383b5e3d46a4863faef869d821e21ea10a3ec8e5fd87b309492689386d6e7",
+  "weights": {
+    "identity": {
+      "path": "/home/zhouwanyao/drive_download/releases/core497_joint_experiments_20261019/training3684/runs/geom_ipa3684_100ep_20261029_cuda01234_bs372_fast/best_loss.pt",
+      "sha256": "eaf3ffd796180b6a43fe02e681e1817a37d00c6a11bd5133557ebbcf99a24926"
+    },
+    "connection": {
+      "path": "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt",
+      "sha256": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93"
+    },
+    "pose": {
+      "path": "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt",
+      "sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382"
+    }
+  },
+  "N_prior": {
+    "values": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "probabilities": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "source": "Predefined uniform diagnostic prior; not fit to target or training size",
+    "seed_rule": "numpy.default_rng(seed+912711).choice(values)"
+  },
+  "search_config": {
+    "skeleton_width": 128,
+    "skeleton_count": 24,
+    "port_width": 64,
+    "pair_options": 64,
+    "per_skeleton": 16,
+    "equivalent_representatives": 2,
+    "skeleton_bonus": 1.0
+  },
+  "batch_sizes": [
+    1,
+    4,
+    8,
+    16,
+    32
+  ],
+  "precision": "FP32; BF16 exploratory only, never selected without full quality validation",
+  "consistency": {
+    "max_atom_delta_A": 0.025,
+    "coordinate_RMSD_A": 0.005,
+    "internal_distance_delta_A": 0.0002
+  },
+  "guidance_candidates": [
+    {
+      "name": "gentle",
+      "weights": [
+        1.0,
+        0.5,
+        10.0,
+        10.0
+      ],
+      "step": 0.02,
+      "max_translation_A": 0.05,
+      "max_rotation_rad": 0.02,
+      "start_t": 0.3
+    },
+    {
+      "name": "balanced",
+      "weights": [
+        1.0,
+        1.0,
+        20.0,
+        20.0
+      ],
+      "step": 0.04,
+      "max_translation_A": 0.08,
+      "max_rotation_rad": 0.03,
+      "start_t": 0.3
+    },
+    {
+      "name": "repulsion",
+      "weights": [
+        1.0,
+        1.0,
+        40.0,
+        40.0
+      ],
+      "step": 0.04,
+      "max_translation_A": 0.08,
+      "max_rotation_rad": 0.03,
+      "start_t": 0.3
+    }
+  ],
+  "guidance_selection": "Minimum mean dev native score: (bondMAE/.15)^2+(angleMAE/15)^2+10*any_internal_clash+10*any_protein_clash; ties keep earlier candidate; no formal metrics read",
+  "guidance_references": "Full predicted graph MMFF94s equilibrium bonds and angles; unavailable retained; no bound ligand geometry",
+  "known_docking_reference_ids": [
+    "1a30",
+    "1r5y",
+    "2j7h",
+    "2wvt",
+    "3b1m",
+    "3f3e",
+    "3mss",
+    "3ryj",
+    "4agn",
+    "4f9w",
+    "4m0y",
+    "5tmn"
+  ],
+  "known_docking_reference_seeds": [
+    41001
+  ],
+  "independent_validation": "No additional untouched pocket cohort established locally; six primary pockets are previously viewed diagnostics",
+  "frozen_QC_config_sha256": "26311524167940621690c83e3c5521dadaf71fab4276989b61689dbab7d6b4ad",
+  "frozen_PB_config_sha256": "441f4b52ca74ad7363927014503bd259da558043c4d95f25d059596fc69305f6",
+  "repairs": "Frozen rigid and B1 local-flex from native_final independently",
+  "approved_changes": [
+    "alternating_categorical dynamic protocol",
+    "72-attempt fixed-identity connection-only E arm",
+    "three dev pockets for D selection"
+  ]
+}

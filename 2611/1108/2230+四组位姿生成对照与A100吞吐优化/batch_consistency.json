@@ -1,0 +1,35 @@
+{
+  "passed": false,
+  "full_24_step_comparisons": [
+    {
+      "pid": "2zwz",
+      "seed": 42001,
+      "max_A": 0.2668323218822479,
+      "RMSD_A": 0.024465998634696007
+    },
+    {
+      "pid": "2zwz",
+      "seed": 42002,
+      "max_A": 0.01116238534450531,
+      "RMSD_A": 0.001549935550428927
+    },
+    {
+      "pid": "4i5p",
+      "seed": 42001,
+      "max_A": 0.09969713538885117,
+      "RMSD_A": 0.015967892482876778
+    },
+    {
+      "pid": "4i5p",
+      "seed": 42002,
+      "max_A": 0.2557365596294403,
+      "RMSD_A": 0.03556269407272339
+    }
+  ],
+  "max_internal_distance_delta_A": 0.1128500407540649,
+  "tolerances": {
+    "max_atom_delta_A": 0.025,
+    "coordinate_RMSD_A": 0.005,
+    "internal_distance_delta_A": 0.0002
+  }
+}

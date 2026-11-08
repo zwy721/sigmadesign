@@ -366,6 +366,32 @@
         "bytes": 12960,
         "sha256": "9fcdbff59626cbc46948e174a7d48ab97afe64876cca3edaaa2c6cade28bffb4"
       }
+    },
+    {
+      "key": "pose_generation_four_arm_comparison_20261108",
+      "title": "四组位姿生成对照与A100吞吐优化",
+      "repository_directory": "2611/1108/2230+四组位姿生成对照与A100吞吐优化",
+      "status": "awaiting_protocol_clarifications",
+      "execution_complete": false,
+      "formal_attempts_completed": 0,
+      "task_created_Asia_Shanghai": "2026-11-08T22:30:16.382926+08:00",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-08T22:57:28.005871+08:00",
+      "time_basis": "Issue snapshot upload; experiment incomplete, directory retains original prompt time",
+      "inferred_time": false,
+      "files": 8,
+      "logs": 0,
+      "bytes": 41336,
+      "archive_scope": "current_issue_and_minimal_diagnostic_evidence",
+      "prompt": {
+        "task_key": "pose_generation_four_arm_comparison_20261108",
+        "task_title": "四组位姿生成对照与A100吞吐优化",
+        "repository_directory": "2611/1108/2230+四组位姿生成对照与A100吞吐优化",
+        "status": "preserved_original",
+        "source": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
+        "prompt_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
+        "bytes": 15803,
+        "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406"
+      }
     }
   ],
   "files": [
@@ -2700,18 +2726,72 @@
       "bytes": 5293,
       "sha256": "22e751805f2fe421321b43e2e80435b8a89a1336936ace0669e3056f6a011e88",
       "generated_archive_metadata": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/CURRENT_ISSUE.md",
+      "bytes": 4581,
+      "sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
+      "local_source": "pose_generation_four_arm_comparison/CURRENT_ISSUE.md",
+      "source_sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/README.md",
+      "bytes": 1009,
+      "sha256": "a1284507bece94735b1015fa73dcfcf27080559e8417afa5a7aac7491034321c",
+      "generated_navigation": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_consistency.json",
+      "bytes": 748,
+      "sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
+      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_consistency.json",
+      "source_sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_debug.json",
+      "bytes": 7582,
+      "sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
+      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_debug.json",
+      "source_sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
+      "bytes": 15803,
+      "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
+      "local_source": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
+      "source_sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/protocol.json",
+      "bytes": 4225,
+      "sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
+      "local_source": "pose_generation_four_arm_comparison/protocol.json",
+      "source_sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
+      "byte_exact_to_local": true
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/status.json",
+      "bytes": 2431,
+      "sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
+      "local_source": "pose_generation_four_arm_comparison/status.json",
+      "source_sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
+      "byte_exact_to_local": true
     }
   ],
   "include_agent": false,
   "reports_only": false,
   "prompt_supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "prompt_coverage": {
-    "task_groups": 15,
-    "task_groups_with_preserved_prompt": 13,
+    "task_groups": 16,
+    "task_groups_with_preserved_prompt": 14,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 14,
-    "distinct_prompt_contents": 12
+    "prompt_files_including_legacy_copy": 15,
+    "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-08T21:11:03.288780+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-08T22:57:28.005871+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }
