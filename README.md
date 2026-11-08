@@ -1,5 +1,11 @@
 # SigmaDock 研究任务日志
 
+## GEOM连接与局部几何训练（小规模三种子已完成）
+
+[结果与文件导航](2611/1106/1111_connection_length/README.md) · [连接](2611/1106/1111_connection_length/CONNECTION_TRAINING_RESULTS.md) · [几何](2611/1106/1111_connection_length/GEOMETRY_RECOVERY_RESULTS.md) · [核验](2611/1106/1111_connection_length/COMPLETION_VERIFICATION.json)
+
+原始连接F1有改善，新增局部3D特征未显示显著增益；几何键长/角度改善仍伴随高碰撞与低联合成功率。给定身份/N，未验证自由生成或docking，未扩大全量训练。
+
 ## 最新评估：自主生成多样性（全部完成）
 
 [完整报告](2611/1105/1345_diversity/DIVERSITY_EVALUATION_RESULTS.md) · [身份采样](2611/1105/1345_diversity/IDENTITY_SAMPLING_COMPARISON.md) · [联合接口审计](2611/1105/1345_diversity/JOINT_GENERATION_AUDIT.md) · [决策](2611/1105/1345_diversity/NEXT_STEP_DECISION.md) · [文件导航](2611/1105/1345_diversity/README.md)

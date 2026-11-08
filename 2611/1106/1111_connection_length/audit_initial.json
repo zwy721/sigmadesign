@@ -1,0 +1,171 @@
+{
+  "training_started": false,
+  "rdkit_version": "2026.03.3",
+  "torch_version": "2.14.0+cu130",
+  "source_database": "/data/zhouwanyao/cutoff_geom3684_pdbbind_20261024/geom/geom_database",
+  "source_counts": [
+    {
+      "split": "dev",
+      "records": 2696,
+      "canonical_graphs": 2694,
+      "eligible": 2441
+    },
+    {
+      "split": "test",
+      "records": 2643,
+      "canonical_graphs": 2640,
+      "eligible": 2433
+    },
+    {
+      "split": "train",
+      "records": 235347,
+      "canonical_graphs": 235161,
+      "eligible": 235347
+    }
+  ],
+  "canonical_graph_cross_split_count": 0,
+  "baseline_checkpoint": "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt",
+  "baseline_epoch": 96,
+  "baseline_architecture": "TimeConnectionPredictor-v1",
+  "source_fingerprints": {
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/results/connection_robust_20261101/training_v2/best.pt": {
+      "bytes": 3544645,
+      "sha256": "b79dd58d80174d1b90105c1d7c4e4f9d30f71962033c8787fd4c9be908cedf93"
+    },
+    "/home/zhouwanyao/drive_download/releases/pretrained/sigmadock_official/official_sample_checkpoint_0.ckpt": {
+      "bytes": 242097065,
+      "sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382"
+    },
+    "/home/zhouwanyao/drive_download/releases/geom_m12/assets/mapping.json": {
+      "bytes": 435459,
+      "sha256": "eec98af09c435eb3388a87b8053452147284de68502112d3cd42f5b64fd4a2d6"
+    },
+    "/home/zhouwanyao/drive_download/releases/geom_m12/assets/templates.json": {
+      "bytes": 8297208,
+      "sha256": "d2133cfdba020ddb60566faf876524007f16e6092638f0a5c2f86c04ecf3781a"
+    },
+    "/home/zhouwanyao/drive_download/releases/geom_m12/assets/properties.json": {
+      "bytes": 11095936,
+      "sha256": "2346e25f353777a26397835dc3a7c9c3641a4ea4fffe4fc2a27f12b6afeac015"
+    },
+    "/data/zhouwanyao/cutoff_geom3684_pdbbind_20261024/geom/geom_database/database_manifest.json": {
+      "bytes": 8229,
+      "sha256": "17207fb29335343b4baa095ed876157c8876127f59eac9073d484aa03d28c8b2"
+    },
+    "/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/src/cutoff_data/codec.py": {
+      "bytes": 1724,
+      "sha256": "e800086cb869ab74b57ea39782c54969a5a21a4b77b0760fb4c715db8cdd8752"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/trajectory_connections.py": {
+      "bytes": 14438,
+      "sha256": "67a6ee1298f9a096ef2ff4698e3db9fd0ca9b2e5770de2a5346af62971f89e76"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/robust_connection_model.py": {
+      "bytes": 5513,
+      "sha256": "5a31636b0d144423fee353d12b03da2fce28cd87ff500185f2f0e1c9e1a0d84d"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/robust_connection_data.py": {
+      "bytes": 11989,
+      "sha256": "8237452a86670df96d82b15a560003f442a7261393b51d95dbdc203341dc88fb"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/train_robust_connections.py": {
+      "bytes": 9416,
+      "sha256": "79a22084fb0c72818c9e1d93c00338fcbb482cb51d8b89dd8c36e803bb051be1"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/hierarchical_topology.py": {
+      "bytes": 12177,
+      "sha256": "e86500b0c8e575773b6211d5ff3fc81fbc731b71aa5a917e084ce4f2d64c2186"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/vocab_chemistry.py": {
+      "bytes": 13410,
+      "sha256": "6840aa36f34bf96e621a9f0080632b3c913329d69a8cad4eaf70c2c8659de21b"
+    },
+    "/home/zhouwanyao/drive_download/releases/oracle_rebuild_20261031/joint_sampler.py": {
+      "bytes": 15199,
+      "sha256": "206104686274cd3634e4cb76a955651eee3d8e102fe22b4e577d524650853df4"
+    },
+    "/home/zhouwanyao/drive_download/releases/cutoff_geom3684_pdbbind_20261024/src/cutoff_data/vendor/geom_crossdocked_20261022/scripts/new_fragment_codec.py": {
+      "bytes": 25806,
+      "sha256": "9af9bfeee36c42762b76c2d6b4257252568448232629daa9c625cfc6d05077e6"
+    },
+    "/home/zhouwanyao/drive_download/releases/core497_joint_experiments_20261019/training3684/runs/geom_ipa3684_100ep_20261029_cuda01234_bs372_fast/best_loss.pt": {
+      "bytes": 262136331,
+      "sha256": "eaf3ffd796180b6a43fe02e681e1817a37d00c6a11bd5133557ebbcf99a24926"
+    }
+  },
+  "raw_multiconformer_probe": {
+    "sample_id": "geom_drugs:00000fe12796586abbfe940c",
+    "source_sha256": "ac7599990113926e6a8d04b9f7fa8f3bc1f20101d70ecd67c02516699c64b316",
+    "conformers_available": 107,
+    "first_conformer_identity_exact": true,
+    "canonical_to_source_atom": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      49,
+      48,
+      47,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      38,
+      40,
+      14,
+      13,
+      12,
+      11,
+      5,
+      6
+    ],
+    "stereo": {
+      "status": "specified_stereo_consistent",
+      "specified_atom_mismatches": [],
+      "specified_bond_mismatches": [],
+      "mismatch_index_space": "hydrogen_removed_source_atom_order",
+      "source_stereo_normalization": {
+        "status": "unchanged"
+      }
+    }
+  },
+  "MMFF94s_probe": {
+    "parameterized": true,
+    "bond_stretch_parameters": [
+      0,
+      4.957,
+      1.486
+    ],
+    "parameter_order": "bondType, forceConstant, equilibriumLength_A"
+  },
+  "baseline_audit": {
+    "full_atom_dynamic_geometry": false,
+    "features": "Port endpoint chemistry, candidate port distance/RBF, port direction cosines, endpoint local coordinates, identities, global chemistry bag and time. No whole-fragment neighborhood/collision encoder.",
+    "geometry_correction_output": false,
+    "classification_outputs": [
+      "no_bond",
+      "single",
+      "double"
+    ],
+    "stereo_outputs": [
+      "unspecified",
+      "E",
+      "Z"
+    ],
+    "previous_training_source": "PDBBind record cache, not GEOM",
+    "search_is_differentiable_training_target": false
+  },
+  "native_interface": "NativeState.slot_frames -> correction(T,R) -> rigid coordinate reconstruction/transfer -> NativeState.step; official denoiser frozen"
+}

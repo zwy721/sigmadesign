@@ -1,0 +1,26 @@
+{
+  "raw_selected_molecules": 2000,
+  "usable_molecules": 2000,
+  "usable_conformers": 7845,
+  "failures": 36,
+  "N_distribution": {
+    "4": 1801,
+    "6": 1588,
+    "7": 951,
+    "5": 2085,
+    "3": 811,
+    "9": 68,
+    "8": 372,
+    "2": 145,
+    "10": 16,
+    "12": 4,
+    "11": 4
+  },
+  "true_bond_orders": {
+    "1": 32166,
+    "2": 366
+  },
+  "mmff_bonds_available": 32532,
+  "mmff_bonds_total": 32532,
+  "pt_sha256": "50659aca31a101f9bae58e297069840815957cc11437011e5739bd4d6b00c4ec"
+}

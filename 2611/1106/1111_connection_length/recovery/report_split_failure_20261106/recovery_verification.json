@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "preserved_first_seed_files": 103,
+  "first_seed_bytes_unchanged": true,
+  "original_start_unchanged": true,
+  "search_rows": 1344,
+  "report_failure_regression_cases": [
+    "connection_training",
+    "failed",
+    "complete"
+  ],
+  "resume": {
+    "completed_seeds": [
+      20261106
+    ],
+    "elapsed_seconds": 7856.492543,
+    "remaining_seconds": 78543.507457,
+    "deadline_UTC": "2026-11-07T04:07:17.162021+00:00",
+    "changed_supervisor_sources": [
+      "launch.py",
+      "run_experiment.py",
+      "reports.py"
+    ]
+  }
+}

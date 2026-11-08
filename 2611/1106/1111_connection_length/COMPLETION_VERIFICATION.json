@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "verified_at_Asia_Shanghai": "2026-11-08T21:11:01.729829+08:00",
+  "manifest_files_verified": 450,
+  "frozen_inputs_verified": 16,
+  "delivery_manifest_sha256": "ca8eaa78d86582e2c9bfa5c1c96e9286fe5b341771fd247c7e6679e752e1173e",
+  "counts": {
+    "MMFF_views": 288,
+    "connection_strata": 294,
+    "port_views": 295323,
+    "search_views": 4032,
+    "geometry_views": 85530
+  },
+  "stages": [
+    {
+      "seed": 20261106,
+      "group": "A3",
+      "C_skipped": false,
+      "C_improved": true,
+      "D_skipped": false,
+      "D_improved": true
+    },
+    {
+      "seed": 20261106,
+      "group": "A4",
+      "C_skipped": false,
+      "C_improved": true,
+      "D_skipped": false,
+      "D_improved": false
+    },
+    {
+      "seed": 20261107,
+      "group": "A3",
+      "C_skipped": false,
+      "C_improved": false,
+      "D_skipped": true,
+      "D_improved": null
+    },
+    {
+      "seed": 20261107,
+      "group": "A4",
+      "C_skipped": false,
+      "C_improved": false,
+      "D_skipped": true,
+      "D_improved": null
+    },
+    {
+      "seed": 20261108,
+      "group": "A3",
+      "C_skipped": false,
+      "C_improved": true,
+      "D_skipped": false,
+      "D_improved": true
+    },
+    {
+      "seed": 20261108,
+      "group": "A4",
+      "C_skipped": false,
+      "C_improved": false,
+      "D_skipped": true,
+      "D_improved": null
+    }
+  ],
+  "scope": "Existing artifact hashes and denominators; no retraining or GPU rerun"
+}

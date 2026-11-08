@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "canonical_roundtrips": 2768,
+  "atom_partitions_checked": 2768,
+  "source_bond_order_and_stereo_checked": true,
+  "same_molecule_cross_split": 0,
+  "scaffold_test_train_val_overlap": 0,
+  "selected_source_index_sha256": "be3b5f913f24c419b411f28cd00a53ddd229d8559043a967e54b96d0f77b037d",
+  "datasets": {
+    "scaffold_test": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1004,
+      "failures": 4,
+      "N_distribution": {
+        "3": 120,
+        "4": 237,
+        "5": 233,
+        "6": 209,
+        "7": 128,
+        "8": 52,
+        "2": 17,
+        "9": 8
+      },
+      "true_bond_orders": {
+        "2": 36,
+        "1": 4105
+      },
+      "mmff_bonds_available": 4141,
+      "mmff_bonds_total": 4141,
+      "pt_sha256": "e6e21fff5b5b946cb81476aa40aab98efbe0cb1b83aa12dcede9047770b40122"
+    },
+    "train": {
+      "raw_selected_molecules": 2000,
+      "usable_molecules": 2000,
+      "usable_conformers": 7845,
+      "failures": 36,
+      "N_distribution": {
+        "4": 1801,
+        "6": 1588,
+        "7": 951,
+        "5": 2085,
+        "3": 811,
+        "9": 68,
+        "8": 372,
+        "2": 145,
+        "10": 16,
+        "12": 4,
+        "11": 4
+      },
+      "true_bond_orders": {
+        "1": 32166,
+        "2": 366
+      },
+      "mmff_bonds_available": 32532,
+      "mmff_bonds_total": 32532,
+      "pt_sha256": "50659aca31a101f9bae58e297069840815957cc11437011e5739bd4d6b00c4ec"
+    },
+    "val": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1000,
+      "failures": 6,
+      "N_distribution": {
+        "5": 249,
+        "6": 212,
+        "7": 152,
+        "8": 44,
+        "4": 178,
+        "3": 124,
+        "2": 25,
+        "9": 16
+      },
+      "true_bond_orders": {
+        "1": 4189,
+        "2": 22
+      },
+      "mmff_bonds_available": 4211,
+      "mmff_bonds_total": 4211,
+      "pt_sha256": "11ae7bc9f596239c8771dacb89d58a854fd8b8819d0ebf8df20b70838455a3e2"
+    },
+    "test": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1005,
+      "failures": 6,
+      "N_distribution": {
+        "5": 279,
+        "7": 122,
+        "6": 224,
+        "4": 193,
+        "3": 79,
+        "9": 36,
+        "10": 4,
+        "8": 52,
+        "2": 16
+      },
+      "true_bond_orders": {
+        "1": 4362,
+        "2": 47
+      },
+      "mmff_bonds_available": 4409,
+      "mmff_bonds_total": 4409,
+      "pt_sha256": "c277fd3b6d204ac0179d2c225d3cbaaba3cfe63c9028b5291f643164ff2f85ac"
+    }
+  }
+}

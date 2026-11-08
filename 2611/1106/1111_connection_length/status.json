@@ -1,0 +1,12 @@
+{
+  "stage": "complete",
+  "training_complete": true,
+  "completed_seeds": [
+    20261106,
+    20261107,
+    20261108
+  ],
+  "elapsed_hours": 4.9051578920458105,
+  "official_weights_unchanged": true,
+  "full_GEOM_training_started": false
+}

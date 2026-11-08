@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "checks": {
+    "all_original_positive_ports_retained": {
+      "passed": true,
+      "positive_count": 71,
+      "all_pairs": 2545
+    },
+    "classifier_features_independent_of_targets": {
+      "passed": true
+    },
+    "tiny_connection_overfit": {
+      "passed": true,
+      "initial_f1": 0.2833333333333333,
+      "final_f1": 1.0,
+      "steps": 200,
+      "molecules": 16,
+      "noise_times": [
+        0.019999999552965164,
+        0.058666668832302094,
+        0.09733334183692932,
+        0.13600000739097595,
+        0.17466667294502258,
+        0.2133333384990692,
+        0.25200000405311584,
+        0.29066669940948486,
+        0.3293333351612091,
+        0.36800000071525574,
+        0.40666666626930237,
+        0.4453333616256714,
+        0.484000027179718,
+        0.5226666927337646,
+        0.5613333582878113,
+        0.6000000238418579
+      ]
+    },
+    "bond_loss_to_geometry_parameters_nonzero": {
+      "passed": true,
+      "gradient_norm": 80.2553939819336
+    },
+    "tiny_geometry_overfit": {
+      "passed": true,
+      "initial_bond_mse": 2.547362804412842,
+      "final_bond_mse": 0.0018601793562993407,
+      "initial_full_loss": 3.638676643371582,
+      "final_full_loss": 0.011338843032717705,
+      "steps": 300
+    },
+    "rigid_internal_geometry_preserved": {
+      "passed": true,
+      "max_distance_change_A": 1.523022822524922e-06,
+      "distance_evaluation": "FP64 direct pair differences; no diagonal cancellation from Gram matrix"
+    },
+    "network_actually_changes_bond_lengths": {
+      "passed": true,
+      "max_change_A": 4.595751762390137
+    },
+    "global_SE3_equivariance": {
+      "passed": true,
+      "max_T_error_A": 3.337860107421875e-06,
+      "max_R_error": 2.980232238769531e-07
+    },
+    "upstream_sources_and_weights_unchanged": {
+      "passed": true,
+      "files": 15
+    }
+  },
+  "elapsed_seconds": 22.63388156890869,
+  "training_scope": "Fixed tiny train-only batches; no validation/test use; not formal performance"
+}

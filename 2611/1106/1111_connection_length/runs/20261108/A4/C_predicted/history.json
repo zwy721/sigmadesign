@@ -1,0 +1,86 @@
+[
+  {
+    "epoch": 0,
+    "validation_selection_loss": 0.6586340123956854
+  },
+  {
+    "epoch": 1,
+    "train_loss": 0.6769053807312791,
+    "validation_selection_loss": 0.6541374054822054,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.582589562643658,
+    "validation_selection_loss": 0.6541991477662866,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.55529051003131,
+    "validation_selection_loss": 0.6608780676668341,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.5441643880172209,
+    "validation_selection_loss": 0.6602412543513558,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.5439116284251213,
+    "validation_selection_loss": 0.6660486676476218,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.5545756437561729,
+    "validation_selection_loss": 0.670017656954852,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.5421057086099278,
+    "validation_selection_loss": 0.6629517403515902,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.528450630266558,
+    "validation_selection_loss": 0.6707438176328485,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.5156615782867778,
+    "validation_selection_loss": 0.6631344583901492,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.49532478234984656,
+    "validation_selection_loss": 0.6632959165356376,
+    "train_legal_views": 345,
+    "validation_legal_views": 86,
+    "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+  }
+]

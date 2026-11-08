@@ -1,0 +1,149 @@
+{
+  "A_validation_pass": true,
+  "B_validation_pass": true,
+  "C": {
+    "skipped": false,
+    "history": [
+      {
+        "epoch": 0,
+        "validation_selection_loss": 0.0802055499093099
+      },
+      {
+        "epoch": 1,
+        "train_loss": 0.0936441848647188,
+        "validation_selection_loss": 0.07691209983419288,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.06479411356320436,
+        "validation_selection_loss": 0.07771175896579569,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.05876632930118252,
+        "validation_selection_loss": 0.08058605495501649,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.055283838607878846,
+        "validation_selection_loss": 0.0818085919388316,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.05004691408777779,
+        "validation_selection_loss": 0.08306130665269765,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.05243915338492529,
+        "validation_selection_loss": 0.0838122581216422,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.04635227623988281,
+        "validation_selection_loss": 0.08585411750457504,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.042128389087420975,
+        "validation_selection_loss": 0.08495074866170232,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.039983765285631474,
+        "validation_selection_loss": 0.0839297158474272,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.037587440318681976,
+        "validation_selection_loss": 0.08691635202955116,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      }
+    ],
+    "initial_validation_loss": 0.0802055499093099,
+    "best_validation_loss": 0.07691209983419288,
+    "improved": true
+  },
+  "D": {
+    "skipped": false,
+    "history": [
+      {
+        "epoch": 0,
+        "validation_selection_loss": 0.331370318477804
+      },
+      {
+        "epoch": 1,
+        "train_loss": 0.2859857471829111,
+        "validation_selection_loss": 0.3257874074307355,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "CE -> classifier and differentiable corrected coordinates -> geometry; geometry targets -> geometry only; discrete search fixed"
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.2529115944423459,
+        "validation_selection_loss": 0.32330008392984216,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "CE -> classifier and differentiable corrected coordinates -> geometry; geometry targets -> geometry only; discrete search fixed"
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.2357126112011346,
+        "validation_selection_loss": 0.3243651024319909,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "CE -> classifier and differentiable corrected coordinates -> geometry; geometry targets -> geometry only; discrete search fixed"
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.22669288245114413,
+        "validation_selection_loss": 0.32504771785302594,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "CE -> classifier and differentiable corrected coordinates -> geometry; geometry targets -> geometry only; discrete search fixed"
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.21633556214245883,
+        "validation_selection_loss": 0.32530734078450635,
+        "train_legal_views": 345,
+        "validation_legal_views": 86,
+        "joint_gradients": "CE -> classifier and differentiable corrected coordinates -> geometry; geometry targets -> geometry only; discrete search fixed"
+      }
+    ],
+    "initial_validation_loss": 0.331370318477804,
+    "best_validation_loss": 0.32330008392984216,
+    "improved": true
+  },
+  "bundle_sha256": "e8696a675c5a7e0bb3c096f145b267461d94cf5e36ff3b901517f657ea43e922"
+}

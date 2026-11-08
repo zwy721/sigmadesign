@@ -1,0 +1,181 @@
+{
+  "passed": true,
+  "checks": {
+    "2D_ablation_removes_dynamic_and_template_coordinate_channels": true,
+    "joint_CE_gradient_can_reach_geometry_without_search_gradient": 8.297114806482568,
+    "geometry_runtime_does_not_read_clean_reference_states": {
+      "passed": true,
+      "max_GPU_roundoff": 2.384185791015625e-07,
+      "tolerance": 1e-05
+    },
+    "specified_double_bond_stereo_and_nonrotatable_torsion_gradient": {
+      "passed": true,
+      "torsion_constraints": 1,
+      "loss": 8.840608596801758
+    },
+    "independent_validation_metrics_computed": [
+      {
+        "precision": 0.85,
+        "recall": 0.8095238095238095,
+        "f1": 0.8292682926829268,
+        "binary_precision": 0.85,
+        "binary_recall": 0.8095238095238095,
+        "AP": 0.8770780927864816,
+        "typed_true_positive": 17,
+        "predicted": 20,
+        "true_bonds": 21,
+        "port_pairs": 647,
+        "bond_order_accuracy_on_true_ports": 0.8095238095238095,
+        "t": 0.02,
+        "conformers": 4,
+        "molecules": 4,
+        "raw_exact_graph_count": 0,
+        "raw_legal_complete_graph_count": 0,
+        "raw_exact_graph_rate": 0.0,
+        "raw_legal_complete_graph_rate": 0.0,
+        "topk": {
+          "1": 1.0,
+          "3": 1.0,
+          "5": 1.0
+        },
+        "stereo_accuracy_specified_true_ports": null,
+        "stereo_denominator": 0,
+        "classifier_forward_batches": 1,
+        "classifier_molecule_forwards": 4,
+        "seconds": 0.047141548013314605
+      },
+      {
+        "precision": 0.2,
+        "recall": 0.14285714285714285,
+        "f1": 0.16666666666666666,
+        "binary_precision": 0.2,
+        "binary_recall": 0.14285714285714285,
+        "AP": 0.18004656284134402,
+        "typed_true_positive": 3,
+        "predicted": 15,
+        "true_bonds": 21,
+        "port_pairs": 647,
+        "bond_order_accuracy_on_true_ports": 0.14285714285714285,
+        "t": 0.3,
+        "conformers": 4,
+        "molecules": 4,
+        "raw_exact_graph_count": 0,
+        "raw_legal_complete_graph_count": 0,
+        "raw_exact_graph_rate": 0.0,
+        "raw_legal_complete_graph_rate": 0.0,
+        "topk": {
+          "1": 0.2857142857142857,
+          "3": 0.7142857142857143,
+          "5": 0.8571428571428571
+        },
+        "stereo_accuracy_specified_true_ports": null,
+        "stereo_denominator": 0,
+        "classifier_forward_batches": 1,
+        "classifier_molecule_forwards": 4,
+        "seconds": 0.03803834295831621
+      },
+      {
+        "precision": 0.13333333333333333,
+        "recall": 0.09523809523809523,
+        "f1": 0.1111111111111111,
+        "binary_precision": 0.13333333333333333,
+        "binary_recall": 0.09523809523809523,
+        "AP": 0.0980297372169771,
+        "typed_true_positive": 2,
+        "predicted": 15,
+        "true_bonds": 21,
+        "port_pairs": 647,
+        "bond_order_accuracy_on_true_ports": 0.09523809523809523,
+        "t": 0.9,
+        "conformers": 4,
+        "molecules": 4,
+        "raw_exact_graph_count": 0,
+        "raw_legal_complete_graph_count": 0,
+        "raw_exact_graph_rate": 0.0,
+        "raw_legal_complete_graph_rate": 0.0,
+        "topk": {
+          "1": 0.23809523809523808,
+          "3": 0.6190476190476191,
+          "5": 0.7619047619047619
+        },
+        "stereo_accuracy_specified_true_ports": null,
+        "stereo_denominator": 0,
+        "classifier_forward_batches": 1,
+        "classifier_molecule_forwards": 4,
+        "seconds": 0.03735001804307103
+      }
+    ],
+    "bounded_search_does_not_consult_truth": {
+      "seconds": 1.9730417819228023,
+      "classification_and_features_seconds": 0.006141962017863989,
+      "classifier_forwards": 1,
+      "legal_complete": true,
+      "exact_graph": false,
+      "search_pool": 384,
+      "truth_used": false
+    },
+    "native_interface": {
+      "passed": true,
+      "scope": "API compatibility smoke with fixed supplied predicted-vocabulary types, generated legal graph and random pocket poses; not docking efficacy",
+      "types": [
+        3577,
+        3577,
+        1214
+      ],
+      "ground_truth_ligand_or_GEOM_used_at_runtime": false,
+      "geometry_transfer_errors_A": [
+        1.7794930650866589e-06,
+        2.4642153035857777e-06,
+        2.13726210665241e-06
+      ],
+      "sampling_audit": {
+        "updates": [
+          {
+            "step": 0,
+            "dynamic_edges": 330,
+            "pos_hash": "3b5416d24430678002fe9810952bfac781dd367c2e2c1f0a7515caf860d86206",
+            "edges_hash": "ffc08adb5ab33bd5c14ef9e797bb26a0ae0253aa01bd9ad9dcc93785d4db3e55"
+          },
+          {
+            "step": 1,
+            "dynamic_edges": 360,
+            "pos_hash": "0481554dcbfe757eb9cd69a68629e2804ff47f57a38cd7b6ca2bae3e8e0b830d",
+            "edges_hash": "d41e7ad942bad8d61342a5c431e012763178ce1762b4622bd6304968956bc034"
+          }
+        ],
+        "forwards": [
+          {
+            "step": 0,
+            "input_hash": "7c15bd320e0c99d38222e2b4e9992243803b7e53154194f55048c58c0a6e9b3c",
+            "forces_hash": "e9d817f61b944ada773d5ea581533f225a3f736bd73ca20d80f5e812189ffb09"
+          },
+          {
+            "step": 1,
+            "input_hash": "6f2227cdc4f12acf108d821c89380b74bd75c625abc02b2b6e5b386acf5d0e5b",
+            "forces_hash": "1c1c41ae380f64f9f185c7247d5e29e44c6112e9cf65359383c77dc41c3b26cd"
+          }
+        ],
+        "geometry": [
+          {
+            "step": 0,
+            "edges": 1190,
+            "distances_hash": "cd613eb2be7c75cb5f4d96184828fb4ea7ef18e50984d52c8407e245f30e6806",
+            "vectors_hash": "bdada650165f8a8c96a03a4ec91b33d95a91a3369b79d6ef6f8f133fcd6c95d1",
+            "boundary_relative_distances_hash": "d8b79d89a83ebb8aa57c2eac27c221b7ac2b5b0a97c6580356ff04d7cd660ee9"
+          },
+          {
+            "step": 1,
+            "edges": 1220,
+            "distances_hash": "309ab06f53742012c2b3d4cf1f59982ba11ca65100dee376d74fe24bf3da7d59",
+            "vectors_hash": "15f760cd189eae5d4101bf5e9050bd976942b8f79726928258130b7a2ee1dd67",
+            "boundary_relative_distances_hash": "898b07f7ea17416f8a77ea2924b2ff5a8aa03f8e65f0355fbc791c84e1701ea6"
+          }
+        ],
+        "all_dynamic_recomputations_equal": true,
+        "static_graph_unchanged": true
+      },
+      "official_checkpoint_sha256": "db15427ca349e6f1e5f894bff841112c7360384886aa472667d8011307cad382",
+      "upstream_weights_unchanged": true
+    }
+  }
+}

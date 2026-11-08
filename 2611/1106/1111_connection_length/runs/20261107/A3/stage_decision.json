@@ -1,0 +1,106 @@
+{
+  "A_validation_pass": true,
+  "B_validation_pass": true,
+  "C": {
+    "skipped": false,
+    "history": [
+      {
+        "epoch": 0,
+        "validation_selection_loss": 0.095749055120078
+      },
+      {
+        "epoch": 1,
+        "train_loss": 0.09346604846756566,
+        "validation_selection_loss": 0.09805072674697096,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.08072402400218627,
+        "validation_selection_loss": 0.1021525998684493,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.0739808097397062,
+        "validation_selection_loss": 0.1023949570953846,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.06652006549252705,
+        "validation_selection_loss": 0.10448443313891237,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.06210826900364323,
+        "validation_selection_loss": 0.10651408203623512,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.05931667086075653,
+        "validation_selection_loss": 0.10658432373946364,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.05646576279435645,
+        "validation_selection_loss": 0.10517663085325198,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.05372894817793911,
+        "validation_selection_loss": 0.10745867782018402,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.05038180934603919,
+        "validation_selection_loss": 0.10923483916981654,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.048704599580642854,
+        "validation_selection_loss": 0.10762625898827206,
+        "train_legal_views": 350,
+        "validation_legal_views": 85,
+        "joint_gradients": "Geometry -> geometry head only; classifier frozen"
+      }
+    ],
+    "initial_validation_loss": 0.095749055120078,
+    "best_validation_loss": 0.095749055120078,
+    "improved": false
+  },
+  "D": {
+    "skipped": true,
+    "reason": "A/B/C independent validation gates not all passed",
+    "gates": {
+      "A": true,
+      "B": true,
+      "C": false
+    }
+  },
+  "bundle_sha256": "611cdef6e6672a1d80f2f4842fdb2e3fb1bfefb3882bb44198b5b74303dd5d40"
+}

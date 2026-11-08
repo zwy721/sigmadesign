@@ -1,0 +1,4616 @@
+[
+  {
+    "selection": {
+      "id": "geom_drugs:3b48d09f4262999dead15a37",
+      "graph_id": "GC_MOL_3b48d09f4262999dead15a37",
+      "canonical": "Cc1ccc(/C=C/C(=O)NC2CCCCCCC2)o1",
+      "scaffold": "O=C(C=Cc1ccco1)NC1CCCCCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "d7069ed904fec57be86d46658eaaa8072e7a1673ae2cf0f66835080bb2f4fd93",
+    "failures": [],
+    "available_conformers": 79,
+    "selected_indices": [
+      0,
+      52,
+      60,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6a2680a0a9634d2315ebebcc",
+      "graph_id": "GC_MOL_6a2680a0a9634d2315ebebcc",
+      "canonical": "O=S(=O)(Cc1ccc(Cl)cc1)N1CCN(Cc2ccc3c(c2)OCO3)CC1",
+      "scaffold": "O=S(=O)(Cc1ccccc1)N1CCN(Cc2ccc3c(c2)OCO3)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "79588b16d69d51b084d67a0ebc334d9c5972f00c1ea29eff0779c5a747226fce",
+    "failures": [],
+    "available_conformers": 155,
+    "selected_indices": [
+      0,
+      33,
+      119,
+      109
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:713cdedb8a8279e50967c9f2",
+      "graph_id": "GC_MOL_30a2c3e4c1dbdea0b866b67d",
+      "canonical": "Cc1ccc([C@H]2CC(=O)N3CN(c4ccc(Br)cc4)CSC3=C2C#N)o1",
+      "scaffold": "O=C1CC(c2ccco2)C=C2SCN(c3ccccc3)CN12",
+      "source_split": "test"
+    },
+    "source_sha256": "6f9b12b9cf28fa6d57bdcce665b8abb3941a9354ad04655f69a8d42861c9d792",
+    "failures": [],
+    "available_conformers": 41,
+    "selected_indices": [
+      0,
+      27,
+      40,
+      34
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:78d5396bed7fd10c059323af",
+      "graph_id": "GC_MOL_78d5396bed7fd10c059323af",
+      "canonical": "Brc1ccccc1-c1nnc(CSc2nnnn2-c2ccccc2)o1",
+      "scaffold": "c1ccc(-c2nnc(CSc3nnnn3-c3ccccc3)o2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "24cafafac17a51c8c7d1c7ce724ff1c16f7b224c024de6796b827da7ccbf04ca",
+    "failures": [],
+    "available_conformers": 45,
+    "selected_indices": [
+      0,
+      5,
+      8,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:eb879cf489d9cd78e2751268",
+      "graph_id": "GC_MOL_2bca6b1de73d9daa31f96cc6",
+      "canonical": "COc1ccc(OC[C@H](O)Cn2c(Br)nc3c2c(=O)[nH]c(=O)n3C)cc1",
+      "scaffold": "O=c1[nH]c(=O)c2c(ncn2CCCOc2ccccc2)[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "064625e1549f381779384239d180348af4f790a8c013ddedef5a1e7f5ba46453",
+    "failures": [],
+    "available_conformers": 88,
+    "selected_indices": [
+      0,
+      37,
+      64,
+      51
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:bf2f25276714174e1426ab56",
+      "graph_id": "GC_MOL_bf2f25276714174e1426ab56",
+      "canonical": "CN(CC(=O)N1CCN(Cc2ccccc2)CC1)S(=O)(=O)c1ccc(F)cc1",
+      "scaffold": "O=C(CNS(=O)(=O)c1ccccc1)N1CCN(Cc2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "5cba818b2511fd50ac83c44197bfe5aa03c2f93669e9e9a005e4b3fa93ce64c6",
+    "failures": [],
+    "available_conformers": 57,
+    "selected_indices": [
+      0,
+      42,
+      51,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:358530678b154d80ed62bde3",
+      "graph_id": "GC_MOL_358530678b154d80ed62bde3",
+      "canonical": "Cc1nc(SCCCSc2n[nH]c(C)n2)n[nH]1",
+      "scaffold": "c1nc(SCCCSc2nc[nH]n2)n[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "2daefb2cee66c964e3c7281bc1b02255c3137bc8cb2cb5540982d956b6214d97",
+    "failures": [],
+    "available_conformers": 134,
+    "selected_indices": [
+      0,
+      103,
+      51,
+      127
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0f5bc06f9e9852056b05e714",
+      "graph_id": "GC_MOL_ff83ba08805427f0438f053e",
+      "canonical": "CC[C@@H](Sc1nnnn1C)C(=O)Nc1ccc(C(C)=O)cc1",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2b5f15fd22e2c8be9748b1b4be9a74188de5f36844d40946cb094278cc7ef8b1",
+    "failures": [],
+    "available_conformers": 32,
+    "selected_indices": [
+      0,
+      10,
+      25,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:142c410bfb4287a15d47a4b7",
+      "graph_id": "GC_MOL_142c410bfb4287a15d47a4b7",
+      "canonical": "O=[N+]([O-])c1ccc(N2CCN(c3ccccc3F)CC2)nc1",
+      "scaffold": "c1ccc(N2CCN(c3ccccn3)CC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "02b17fa6a2d9a9f4596811f98dfefde7f2b7842af2a26e7130d05c7bf200a45d",
+    "failures": [],
+    "available_conformers": 77,
+    "selected_indices": [
+      0,
+      32,
+      22,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a8b6545fb6504f80db7d9612",
+      "graph_id": "GC_MOL_a8b6545fb6504f80db7d9612",
+      "canonical": "COc1ccc(-c2cn3c(C)c(C(=O)Nc4cc(NC(C)=O)ccc4OC)sc3n2)cc1",
+      "scaffold": "O=C(Nc1ccccc1)c1cn2cc(-c3ccccc3)nc2s1",
+      "source_split": "test"
+    },
+    "source_sha256": "1ba09720d42b4a96d6e52d3ec1cbc7525459aaf2a1d651e53dc62434af23830f",
+    "failures": [],
+    "available_conformers": 17,
+    "selected_indices": [
+      0,
+      10,
+      6,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c79520fc86641e66b4298323",
+      "graph_id": "GC_MOL_c79520fc86641e66b4298323",
+      "canonical": "COc1cccc2sc(N(CCC[NH+](C)C)C(=O)COc3ccc(Cl)cc3)nc12",
+      "scaffold": "O=C(COc1ccccc1)Nc1nc2ccccc2s1",
+      "source_split": "test"
+    },
+    "source_sha256": "38eefa28b33a363331da0be6f7c4515c88f9685b89fa99e244db12054517a378",
+    "failures": [],
+    "available_conformers": 40,
+    "selected_indices": [
+      0,
+      24,
+      11,
+      23
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:70c5bef444d3ea8f8b684774",
+      "graph_id": "GC_MOL_70c5bef444d3ea8f8b684774",
+      "canonical": "CCCOc1cccc(NC(=O)c2c(-c3ccccc3)noc2C)c1",
+      "scaffold": "O=C(Nc1ccccc1)c1conc1-c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "7735a39f0d3f9f304eab3a664bb9ee193022fd46f9b459513d93ef5f449198bd",
+    "failures": [],
+    "available_conformers": 149,
+    "selected_indices": [
+      0,
+      56,
+      115,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:cafe5f4c18bb7fe440bcba3a",
+      "graph_id": "GC_MOL_cafe5f4c18bb7fe440bcba3a",
+      "canonical": "COc1ccc([C@@H]2[C@@H]3C(=O)N(C(C)(C)C)C(=O)[C@@H]3[C@]3(Cc4ccccc4)C(=O)N(c4ccc(C(F)(F)F)cc4)C(=O)N23)cc1",
+      "scaffold": "O=C1NC(=O)C2C1C(c1ccccc1)N1C(=O)N(c3ccccc3)C(=O)C21Cc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f4c27dc51f84af272f002fc540fbb745d3d921e294c14e2199aa789f04e082b4",
+    "failures": [],
+    "available_conformers": 26,
+    "selected_indices": [
+      0,
+      23,
+      12,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:53a3ae657d2fb0a22e70e0ea",
+      "graph_id": "GC_MOL_53a3ae657d2fb0a22e70e0ea",
+      "canonical": "COc1ccc(C)cc1NC(=O)CN1C(=O)COc2ccc(S(=O)(=O)N3CCCCC3)cc21",
+      "scaffold": "O=C(CN1C(=O)COc2ccc(S(=O)(=O)N3CCCCC3)cc21)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "59562244a739208811d305e7f78be06d6a7871f8f62e7bf49db5affe4d7daab6",
+    "failures": [],
+    "available_conformers": 172,
+    "selected_indices": [
+      0,
+      32,
+      99,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:68ef71fc113afbf1828be6af",
+      "graph_id": "GC_MOL_68ef71fc113afbf1828be6af",
+      "canonical": "O=C(/C=C/Sc1ccccc1)c1ccccc1",
+      "scaffold": "O=C(C=CSc1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "c37f7531174a6d4c432b6b4e9433f8ffa4e3fbbae6c447638c67f9e27e2a4cd5",
+    "failures": [],
+    "available_conformers": 9,
+    "selected_indices": [
+      0,
+      2,
+      7,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4bd1b6549641510b88357596",
+      "graph_id": "GC_MOL_4bd1b6549641510b88357596",
+      "canonical": "c1cncc(-c2nnc(C3CCCCC3)o2)c1",
+      "scaffold": "c1cncc(-c2nnc(C3CCCCC3)o2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "0ad588b63ed369cb562bdf761e9d9428c950793f9f535ed0a3d88170e0f77f32",
+    "failures": [],
+    "available_conformers": 44,
+    "selected_indices": [
+      0,
+      11,
+      18,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9cc82c39996e67574a27e4dd",
+      "graph_id": "GC_MOL_9cc82c39996e67574a27e4dd",
+      "canonical": "CCn1c(COc2ccc(C)cc2)nc2ccccc21",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "d5fbddadfe5f633293f458752dd365726966f703055967dd3584419b2c7603b9",
+    "failures": [],
+    "available_conformers": 14,
+    "selected_indices": [
+      0,
+      8,
+      5,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c8eaa9d864855aa6efe167fc",
+      "graph_id": "GC_MOL_6c399d9f1b8c3c2c2b505d73",
+      "canonical": "COc1ccc(CC[N@@H+](C)CCCN2C[C@H](c3ccccc3)CC2=O)cc1OC",
+      "scaffold": "O=C1CC(c2ccccc2)CN1CCC[NH2+]CCc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "beff19715ed5eb6dbe66f3e0ce6e16b58993f693ca2c13d6c87d736b23a934c5",
+    "failures": [],
+    "available_conformers": 407,
+    "selected_indices": [
+      0,
+      46,
+      119,
+      316
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:3d48ca33ba012c5e0354e998",
+      "graph_id": "GC_MOL_3d48ca33ba012c5e0354e998",
+      "canonical": "Cn1nnnc1SCC(=O)Nc1cccc([N+](=O)[O-])c1",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "be957b2df4fbc1a0ac44827467827d12479b467919e332453a7d5adcf741564d",
+    "failures": [],
+    "available_conformers": 7,
+    "selected_indices": [
+      0,
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a47ed4ae641c7cd5984e90f3",
+      "graph_id": "GC_MOL_da6a8a9264a39a4fab1a44a5",
+      "canonical": "CCCc1c(O)nc(S[C@H]2CC(=O)N(c3ccc(OC)cc3)C2=O)[nH]c1=O",
+      "scaffold": "O=C1CC(Sc2nccc(=O)[nH]2)C(=O)N1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "4a2a0ceba5e54aa1a129c42efc5a50efc71fe686f361e57bd87f71d52d517afe",
+    "failures": [],
+    "available_conformers": 62,
+    "selected_indices": [
+      0,
+      57,
+      5,
+      38
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9808442cc5cdebae063b3f18",
+      "graph_id": "GC_MOL_257ff246d60367b301e7c0f2",
+      "canonical": "Clc1ccc([C@@H]2[C@H]3CN(Cc4cccnc4)[C@H](c4ccccc4)[C@]34C[C@@]2(c2cccnc2)C4)cn1",
+      "scaffold": "c1ccc(C2N(Cc3cccnc3)CC3C(c4cccnc4)C4(c5cccnc5)CC32C4)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2a36bea82cf964c87a1b791bd94f6ed7768c9047838eec4549ccd565d87774fa",
+    "failures": [],
+    "available_conformers": 56,
+    "selected_indices": [
+      0,
+      32,
+      52,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:583a2a657e41062c0ce42a52",
+      "graph_id": "GC_MOL_583a2a657e41062c0ce42a52",
+      "canonical": "Cc1cccc(NC(=S)N(CCN(C)C)Cc2cccs2)c1",
+      "scaffold": "S=C(NCc1cccs1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "99e55ab776eb7e5c06dea902a83907e9164002cd327a0d0cabe8ca98f8923a70",
+    "failures": [],
+    "available_conformers": 117,
+    "selected_indices": [
+      0,
+      87,
+      47,
+      43
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ae676e688538daf635b2948b",
+      "graph_id": "GC_MOL_ae676e688538daf635b2948b",
+      "canonical": "COc1ccc(/C=N/OCC(=O)Nc2cc(C)on2)cc1OC",
+      "scaffold": "O=C(CON=Cc1ccccc1)Nc1ccon1",
+      "source_split": "test"
+    },
+    "source_sha256": "dcddf9e41e5546c28ea263a00424327c68f2fb8d32e0ac1a7a23fbd502f28b1d",
+    "failures": [],
+    "available_conformers": 116,
+    "selected_indices": [
+      0,
+      94,
+      12,
+      81
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c03827569548bee7c5b7e1cc",
+      "graph_id": "GC_MOL_c03827569548bee7c5b7e1cc",
+      "canonical": "CCOc1cc(N2CCOCC2)c(OCC)cc1NC(=O)CN1CC[NH+](Cc2ccc3c(c2)OCO3)CC1",
+      "scaffold": "O=C(CN1CC[NH+](Cc2ccc3c(c2)OCO3)CC1)Nc1ccc(N2CCOCC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "1e095993fdb2e0c8ffd27445ff45055dd2b77f4eb28acb5a279d18266d571e2e",
+    "failures": [],
+    "available_conformers": 411,
+    "selected_indices": [
+      0,
+      344,
+      325,
+      57
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:dda63ecd3d73934d1dbc5eaf",
+      "graph_id": "GC_MOL_dda63ecd3d73934d1dbc5eaf",
+      "canonical": "c1ccc(-c2noc(CSc3nnnn3C3CCCCC3)n2)cc1",
+      "scaffold": "c1ccc(-c2noc(CSc3nnnn3C3CCCCC3)n2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "9a26f761fbe22e9197e9061a20ec42c05cf876ba788be7296975a18596f24259",
+    "failures": [],
+    "available_conformers": 100,
+    "selected_indices": [
+      0,
+      26,
+      11,
+      56
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1455b0dcadcbe532e6a7d266",
+      "graph_id": "GC_MOL_1455b0dcadcbe532e6a7d266",
+      "canonical": "COC(=O)c1ccc(N2CCN(S(=O)(=O)c3c(C)cc(C)cc3C)CC2)c([N+](=O)[O-])c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "9ec35df12c64609c908aafc9c07efb5e4498692a65fb359147e103ad9b68e69c",
+    "failures": [],
+    "available_conformers": 63,
+    "selected_indices": [
+      0,
+      41,
+      50,
+      36
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:be64d7f43b41630e5d6fabfb",
+      "graph_id": "GC_MOL_be64d7f43b41630e5d6fabfb",
+      "canonical": "CCn1c(COc2ccccc2)nc2ccccc21",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "a497c7f8e7579bb67f184bb5f3e0fb5291c638891039a41f2e3b6d89a85e9a6a",
+    "failures": [],
+    "available_conformers": 13,
+    "selected_indices": [
+      0,
+      8,
+      7,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:099c296fe183fc0f8fe21758",
+      "graph_id": "GC_MOL_099c296fe183fc0f8fe21758",
+      "canonical": "Cc1cccc(C)c1NC(=O)CN1CCc2ccccc2C1",
+      "scaffold": "O=C(CN1CCc2ccccc2C1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f3a42c775979ae241144f6c013d05127c46425130de618a82766b66dc2c69db8",
+    "failures": [],
+    "available_conformers": 89,
+    "selected_indices": [
+      0,
+      21,
+      79,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:58defe773b701aaa1fd8306d",
+      "graph_id": "GC_MOL_58defe773b701aaa1fd8306d",
+      "canonical": "Cc1ccc(C)n1-c1cc(S(=O)(=O)N2CCOCC2)ccc1N1CCCC1",
+      "scaffold": "O=S(=O)(c1ccc(N2CCCC2)c(-n2cccc2)c1)N1CCOCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "8d74b26a3226b626099cf85242df9032c7e19b11fb183f280fcfe3e83513e41a",
+    "failures": [],
+    "available_conformers": 12,
+    "selected_indices": [
+      0,
+      6,
+      9,
+      8
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4902bf8d00c77b2cb75e1c78",
+      "graph_id": "GC_MOL_6fe9e62c3cd68c49cb779e2c",
+      "canonical": "COc1ccc(S(=O)(=O)N2c3ccccc3OC[C@H]2c2ccccc2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1c2ccccc2OCC1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "8367f25e6f64a11ac09686019fc91b89149c7330e15dc1f1939dbe0f33248683",
+    "failures": [],
+    "available_conformers": 38,
+    "selected_indices": [
+      0,
+      23,
+      27,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f2d7a40d58ddd052552f4b78",
+      "graph_id": "GC_MOL_f2d7a40d58ddd052552f4b78",
+      "canonical": "Cc1cnn(-c2ccc3nnc(-c4ccc(Cl)cc4)n3n2)c1",
+      "scaffold": "c1ccc(-c2nnc3ccc(-n4cccn4)nn23)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "81dfb88207f58c0158096f9bdbc0ea353befcb76e8e01882e1a8b69196129e44",
+    "failures": [],
+    "available_conformers": 2,
+    "selected_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2c92edfd1a343767c1e68de8",
+      "graph_id": "GC_MOL_de5e6afa61df2acdf388ae24",
+      "canonical": "COc1cccc(CN2CCNC(=O)[C@H]2CC(=O)NCCCC2CCCC2)c1OC",
+      "scaffold": "O=C(CC1C(=O)NCCN1Cc1ccccc1)NCCCC1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "103aa2ba9a66d63fc01b605a93050cc39f843c6bb6aa2b75047e5d83b3e57ed9",
+    "failures": [],
+    "available_conformers": 928,
+    "selected_indices": [
+      0,
+      58,
+      385,
+      166
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9bb6f21527a44305e7fdefff",
+      "graph_id": "GC_MOL_9bb6f21527a44305e7fdefff",
+      "canonical": "Cc1ccc(NC(=S)NCc2cccs2)c(C)c1",
+      "scaffold": "S=C(NCc1cccs1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "4392a78bb3811af8afed753f604aa44a0566155c6e3326287022874a5be37e19",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      12,
+      1,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7f57c0d25da3471a1c008d0e",
+      "graph_id": "GC_MOL_dd6fb0686232ed1dbdc90c9e",
+      "canonical": "O=C(Nc1nccs1)[C@@H]1CC=CCC1",
+      "scaffold": "O=C(Nc1nccs1)C1CC=CCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "28874c24bec945fd1088956e3b52efdd6f25075e439a6e603fbe7142fb76bf07",
+    "failures": [],
+    "available_conformers": 23,
+    "selected_indices": [
+      0,
+      9,
+      19,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:94883e6063f2431c0aa3d58a",
+      "graph_id": "GC_MOL_aca6d840557349d28c6edee1",
+      "canonical": "CC(=O)c1ccc(OCc2cc(C(=O)NCCN3CCC[C@H](O)C3)no2)cc1",
+      "scaffold": "O=C(NCCN1CCCCC1)c1cc(COc2ccccc2)on1",
+      "source_split": "test"
+    },
+    "source_sha256": "6bc8ea66237d73fe926671c5aec454af704f2d8f97a31b0f686cbe2bfbdc3c60",
+    "failures": [],
+    "available_conformers": 348,
+    "selected_indices": [
+      0,
+      32,
+      315,
+      208
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:47c8626a759b478832f69efd",
+      "graph_id": "GC_MOL_47c8626a759b478832f69efd",
+      "canonical": "CN1CCN(c2nc(-c3ccc(Cl)cc3)nc3ccccc23)CC1",
+      "scaffold": "c1ccc(-c2nc(N3CCNCC3)c3ccccc3n2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b50ce65c4effdfa4448f3c40dc0d2a5898b2ecc157ebdbee9ebc5a33ed725bae",
+    "failures": [],
+    "available_conformers": 11,
+    "selected_indices": [
+      0,
+      8,
+      7,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1eb0d514eb968512ffa41145",
+      "graph_id": "GC_MOL_1eb0d514eb968512ffa41145",
+      "canonical": "CCOC(=O)CSc1nnc([C@@H](NC(=O)OC(C)(C)C)C(C)C)o1",
+      "scaffold": "c1nnco1",
+      "source_split": "test"
+    },
+    "source_sha256": "0fd7fe022d0c7023c4d92316ba5561c052c846596b8ffb1d848c06477e1d94a0",
+    "failures": [],
+    "available_conformers": 422,
+    "selected_indices": [
+      0,
+      42,
+      214,
+      108
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:aefb21efe532f6dfddee8160",
+      "graph_id": "GC_MOL_1656004d51bf0c998d2aa64c",
+      "canonical": "O=C(NCc1cccs1)[C@H](NS(=O)(=O)c1cccc2nsnc12)c1ccccc1",
+      "scaffold": "O=C(NCc1cccs1)C(NS(=O)(=O)c1cccc2nsnc12)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "c0f62b4b8c3ce58a4e28ff3d9abcd19e5176c096edec4c85820529173f85a954",
+    "failures": [],
+    "available_conformers": 161,
+    "selected_indices": [
+      0,
+      7,
+      45,
+      112
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0880489af1a751f5748cd25b",
+      "graph_id": "GC_MOL_0880489af1a751f5748cd25b",
+      "canonical": "CSc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "9ecdfc0ead5ca056c399284df5323c4b9aeab27734fb1ee075bd7ceb52beb803",
+    "failures": [],
+    "available_conformers": 13,
+    "selected_indices": [
+      0,
+      2,
+      4,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a9aa4f629680e98c4736cacc",
+      "graph_id": "GC_MOL_3d9de13d56eb6aa889b0f778",
+      "canonical": "Cc1ccc(C)c(N(C(=O)Cn2nnc3ccccc32)[C@@H](C(=O)NCc2ccco2)c2ccncc2)c1",
+      "scaffold": "O=C(NCc1ccco1)C(c1ccncc1)N(C(=O)Cn1nnc2ccccc21)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "0dab6275d452e3b708b644c233f5a93c9a10dd1b2a69f0fc3f7cd1b28b704eae",
+    "failures": [],
+    "available_conformers": 172,
+    "selected_indices": [
+      0,
+      55,
+      117,
+      157
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:04a0be93fef07304f0b53996",
+      "graph_id": "GC_MOL_04a0be93fef07304f0b53996",
+      "canonical": "O=C1c2cccc3cccc(c23)C(=O)N1c1ccccn1",
+      "scaffold": "O=C1c2cccc3cccc(c23)C(=O)N1c1ccccn1",
+      "source_split": "test"
+    },
+    "source_sha256": "340b13874f3eebf6c97473dcd102151a61124b3c9f81b2509a6b4c4780bdd6a0",
+    "failures": [],
+    "available_conformers": 1,
+    "selected_indices": [
+      0
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:aedd82bd0d067afd84d281a3",
+      "graph_id": "GC_MOL_aedd82bd0d067afd84d281a3",
+      "canonical": "CCNC(=O)N1c2ccccc2Sc2ccccc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "eb6e67e62bec101a4f49f5d58967d839272e299b26b30639847df77db3c73a36",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a201ef72348c555c3bd03531",
+      "graph_id": "GC_MOL_a201ef72348c555c3bd03531",
+      "canonical": "Cc1cccc(N2C(=O)N3[C@H](c4ccc(Br)cc4)[C@@H]4C(=O)N(C(C)(C)C)C(=O)[C@@H]4[C@]3(Cc3ccc(Cl)cc3)C2=O)c1",
+      "scaffold": "O=C1NC(=O)C2C1C(c1ccccc1)N1C(=O)N(c3ccccc3)C(=O)C21Cc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "c698c79be4057af649d3b7feb64ef774ecfbf7792680dcf0bdbefa7cfdbe2980",
+    "failures": [],
+    "available_conformers": 39,
+    "selected_indices": [
+      0,
+      22,
+      8,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:85a2ba88e7b99c1472146233",
+      "graph_id": "GC_MOL_85a2ba88e7b99c1472146233",
+      "canonical": "CCCCC(=O)NNC(=O)N1c2ccccc2Sc2ccccc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "3fab948713ff279f0b7adfd18cbf26fb31892583ed11badd56160836ae897039",
+    "failures": [],
+    "available_conformers": 110,
+    "selected_indices": [
+      0,
+      28,
+      49,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:827db09f522ab9eddcad1bb3",
+      "graph_id": "GC_MOL_827db09f522ab9eddcad1bb3",
+      "canonical": "O=c1c2ccc(Cl)cc2[nH]c(=S)n1-c1cccnc1",
+      "scaffold": "O=c1c2ccccc2[nH]c(=S)n1-c1cccnc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f8956c3dad021e8791b5192e5e0e1ee0f01f0582326137e09da4693a01bb9da6",
+    "failures": [],
+    "available_conformers": 1,
+    "selected_indices": [
+      0
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:bb6f82d5bda446f318f8d71c",
+      "graph_id": "GC_MOL_1f4fc7880ffd8ff86c40b18a",
+      "canonical": "Cc1cc(C)c2[nH]c(=O)c(CN(C[C@H]3CCCO3)C(=O)c3cnccn3)cc2c1",
+      "scaffold": "O=C(c1cnccn1)N(Cc1cc2ccccc2[nH]c1=O)CC1CCCO1",
+      "source_split": "test"
+    },
+    "source_sha256": "97e2ba82cb6fbd372ed74c45d1095333b998c50d01b76f3c1a9e4877dc83bb49",
+    "failures": [],
+    "available_conformers": 129,
+    "selected_indices": [
+      0,
+      101,
+      81,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:40845c3169b2ae3eac260282",
+      "graph_id": "GC_MOL_40845c3169b2ae3eac260282",
+      "canonical": "CCOC(=O)Nc1ccc2c(c1)N(C(=O)CCN(CC)CC)c1ccccc1S2",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "de055756ef57e82424dc09d1ac58b0ae72282c405d4cb7f7017771533372e1cd",
+    "failures": [],
+    "available_conformers": 741,
+    "selected_indices": [
+      0,
+      230,
+      477,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f23547769d20608cb164db05",
+      "graph_id": "GC_MOL_f23547769d20608cb164db05",
+      "canonical": "CCOC(=O)C(=CNCC(=O)OC)C(=O)OCC",
+      "scaffold": "",
+      "source_split": "test"
+    },
+    "source_sha256": "1f4eb13129e01b9f1f96d645e0c86f04544be8b77e25816e7a2479dda193a8c0",
+    "failures": [],
+    "available_conformers": 53,
+    "selected_indices": [
+      0,
+      4,
+      30,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7c827292382d9b7caf3867c2",
+      "graph_id": "GC_MOL_7c827292382d9b7caf3867c2",
+      "canonical": "C/C(=N\\OCc1ccc(C#N)cc1)c1ccccc1",
+      "scaffold": "C(=NOCc1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "433415623e5d642bf436d72a50a3730b92fad2742eb6f17e0f2891e1423e9432",
+    "failures": [],
+    "available_conformers": 29,
+    "selected_indices": [
+      0,
+      14,
+      18,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:037b40021fa42246b2d24c52",
+      "graph_id": "GC_MOL_037b40021fa42246b2d24c52",
+      "canonical": "CC(C)CCNC(=O)CCCCn1c(=O)[nH]c2ccsc2c1=O",
+      "scaffold": "O=c1[nH]c(=O)c2sccc2[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "0b0598df4a849acb851e453920e186e84298576683b8be5be1c320d44ec16595",
+    "failures": [],
+    "available_conformers": 385,
+    "selected_indices": [
+      0,
+      97,
+      99,
+      187
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:cf083eccb3139bb95b796d2c",
+      "graph_id": "GC_MOL_cf083eccb3139bb95b796d2c",
+      "canonical": "CSCC[C@H](NC(=O)OC(C)(C)C)c1nnc(SCC(=O)N(C)C)o1",
+      "scaffold": "c1nnco1",
+      "source_split": "test"
+    },
+    "source_sha256": "3a784dd1567595f59c2c8b81c926c09b9ed33ede0b905878d0d7f05755242537",
+    "failures": [],
+    "available_conformers": 940,
+    "selected_indices": [
+      0,
+      477,
+      130,
+      78
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4ef17bb37ae98ebb5e369f92",
+      "graph_id": "GC_MOL_4ef17bb37ae98ebb5e369f92",
+      "canonical": "O=C(N/N=C/c1ccoc1)c1ccccc1O",
+      "scaffold": "O=C(NN=Cc1ccoc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "39bc43fbc43a7a6ea69f42609f058ab67fcd0ec5cfdc718ca955493a86da65b1",
+    "failures": [],
+    "available_conformers": 11,
+    "selected_indices": [
+      0,
+      6,
+      1,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c801b2fcd0cde31cd515f952",
+      "graph_id": "GC_MOL_c801b2fcd0cde31cd515f952",
+      "canonical": "Cc1ccnc(N2CCC(C(=O)Nc3ccc4c(c3)CCC4)CC2)n1",
+      "scaffold": "O=C(Nc1ccc2c(c1)CCC2)C1CCN(c2ncccn2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2c1996886abc8c99b5f4179a4fc6bb76a4b547bf9d3e1cd500d54935edd9c5b7",
+    "failures": [],
+    "available_conformers": 132,
+    "selected_indices": [
+      0,
+      10,
+      94,
+      90
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:da5fac28a32949c16682ef5b",
+      "graph_id": "GC_MOL_a25acef30a309d8c50ddb391",
+      "canonical": "CC(C)(C)N1C(=O)[C@H]2[C@@H](c3ccc(Br)cc3)N3C(=O)N(c4cccc(Cl)c4)C(=O)[C@@]3(Cc3ccccc3)[C@H]2C1=O",
+      "scaffold": "O=C1NC(=O)C2C1C(c1ccccc1)N1C(=O)N(c3ccccc3)C(=O)C21Cc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "3761fedcbe66e3e9a0c3af1407fce66885888d033b948f8100d46d22c2c45e37",
+    "failures": [],
+    "available_conformers": 49,
+    "selected_indices": [
+      0,
+      16,
+      31,
+      11
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:34457629ae643d76199c7eb5",
+      "graph_id": "GC_MOL_34457629ae643d76199c7eb5",
+      "canonical": "C=CC(=O)N1c2ccccc2Sc2ccc(NC(=O)OCC)cc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "a010d87517e6c745a643417ecc5951f83bacab5d7b83a005a630d92c0216339b",
+    "failures": [],
+    "available_conformers": 46,
+    "selected_indices": [
+      0,
+      12,
+      13,
+      40
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c5275e1d2201347a72f4cc3d",
+      "graph_id": "GC_MOL_c5275e1d2201347a72f4cc3d",
+      "canonical": "O=C1c2ccccc2C(=O)N1c1ncc(Cc2ccc(Cl)cc2)s1",
+      "scaffold": "O=C1c2ccccc2C(=O)N1c1ncc(Cc2ccccc2)s1",
+      "source_split": "test"
+    },
+    "source_sha256": "a33b8fcc0be05718a289452512ee97a459a1dffa68243e21e2da0b9724c900ad",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      5,
+      2,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:485085f043bd83b700a53a9f",
+      "graph_id": "GC_MOL_485085f043bd83b700a53a9f",
+      "canonical": "COc1ccc2[nH]c(=O)c(CN(C(=O)NC3CCCCC3)C3CCCCC3)cc2c1",
+      "scaffold": "O=C(NC1CCCCC1)N(Cc1cc2ccccc2[nH]c1=O)C1CCCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "b0caa7143d474483aae4a7f405d7e253b9108eb9319b029af0f418157c4878e6",
+    "failures": [],
+    "available_conformers": 106,
+    "selected_indices": [
+      0,
+      87,
+      78,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f3a1df6b1f9cb2dbf8d6b2de",
+      "graph_id": "GC_MOL_f3a1df6b1f9cb2dbf8d6b2de",
+      "canonical": "COc1ccccc1NC(=O)c1nn(-c2cccc(C(F)(F)F)c2)ccc1=O",
+      "scaffold": "O=C(Nc1ccccc1)c1nn(-c2ccccc2)ccc1=O",
+      "source_split": "test"
+    },
+    "source_sha256": "b1f9d2ea9ec118ced4e25af746e1acea21ba19bd2bf6c085eb7a050725f2a177",
+    "failures": [],
+    "available_conformers": 31,
+    "selected_indices": [
+      0,
+      14,
+      21,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1ed099dc6820ba409260ffad",
+      "graph_id": "GC_MOL_b165a14c4b9e262313d03f3e",
+      "canonical": "COc1ccccc1CNC(=O)C[N@H+]1CC[C@@H](NC(=O)c2ccccc2F)CC1",
+      "scaffold": "O=C(C[NH+]1CCC(NC(=O)c2ccccc2)CC1)NCc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "d8e7601a92405541bb607f08001cd470b46dfc7f7012972051a4da30faabef3d",
+    "failures": [],
+    "available_conformers": 130,
+    "selected_indices": [
+      0,
+      66,
+      78,
+      88
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ea5ef3abb975d3bfba1ca433",
+      "graph_id": "GC_MOL_2a71b24dadd654abc149bfe0",
+      "canonical": "CCc1nnc(NC(=O)[C@H]2CC(=O)N(c3ccc4c(c3)OCCO4)C2)s1",
+      "scaffold": "O=C(Nc1nncs1)C1CC(=O)N(c2ccc3c(c2)OCCO3)C1",
+      "source_split": "test"
+    },
+    "source_sha256": "618ff57fc8edf24ad43be8aa14441608461181e7f2363649ca061c5b526974d4",
+    "failures": [],
+    "available_conformers": 137,
+    "selected_indices": [
+      0,
+      3,
+      1,
+      29
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ad4ca6c54f6a713ff4636c42",
+      "graph_id": "GC_MOL_ad4ca6c54f6a713ff4636c42",
+      "canonical": "COCCNC(=O)Cn1cc(S(=O)(=O)N2CCN(c3ccccc3F)CC2)c2ccccc2c1=O",
+      "scaffold": "O=c1[nH]cc(S(=O)(=O)N2CCN(c3ccccc3)CC2)c2ccccc12",
+      "source_split": "test"
+    },
+    "source_sha256": "03ee0a5503a9fe02dca01cd53e7d1127f542421375da5d327d0eb39f7db78b53",
+    "failures": [],
+    "available_conformers": 203,
+    "selected_indices": [
+      0,
+      196,
+      57,
+      110
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:221cf197418b15707c2c2177",
+      "graph_id": "GC_MOL_221cf197418b15707c2c2177",
+      "canonical": "CCOC(=O)c1cc(CC)sc1NC(=O)c1ccc(N2C(=O)CCC2=O)cc1",
+      "scaffold": "O=C(Nc1cccs1)c1ccc(N2C(=O)CCC2=O)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "72c790d2e49832629873e8968bcd5819199bc2717a621dcbbd79f959bcac39c1",
+    "failures": [],
+    "available_conformers": 14,
+    "selected_indices": [
+      0,
+      9,
+      12,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:bdf4e970659b9484fa72f8e9",
+      "graph_id": "GC_MOL_a2995a9d33903a0ff28dc069",
+      "canonical": "COc1ccc(-c2noc(N3CCC(C(=O)NCCCN4C[C@H](C)C[C@H](C)C4)CC3)n2)cc1",
+      "scaffold": "O=C(NCCCN1CCCCC1)C1CCN(c2nc(-c3ccccc3)no2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "58b7f895580fa4e1989fa6153c619c342402751f3262c7dd7d678d34097b2767",
+    "failures": [],
+    "available_conformers": 25,
+    "selected_indices": [
+      0,
+      21,
+      12,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:56f3bb53d4904b4d55ae7055",
+      "graph_id": "GC_MOL_56f3bb53d4904b4d55ae7055",
+      "canonical": "CC(=O)c1ccc(N2CCN(S(=O)(=O)c3ccccc3)CC2)c(F)c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2641e85a85cd2095ab50aaf2a507f3fbdf98e329092da763eddb0be33b87d9d5",
+    "failures": [],
+    "available_conformers": 64,
+    "selected_indices": [
+      0,
+      11,
+      45,
+      36
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0e049241ef1fcace4f96b528",
+      "graph_id": "GC_MOL_0e049241ef1fcace4f96b528",
+      "canonical": "O=C(O)CCN1c2ccccc2Sc2ccccc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "d18bcac36de5036f63ecf42d47134d5bcd3ba42e27e40f242119e51243ef93f9",
+    "failures": [],
+    "available_conformers": 23,
+    "selected_indices": [
+      0,
+      11,
+      10,
+      22
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5c231d0ee67ea8b2def03370",
+      "graph_id": "GC_MOL_5c231d0ee67ea8b2def03370",
+      "canonical": "[NH3+]CCC(=O)N1c2ccccc2Sc2ccc(Cl)cc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "e4da2cfecd85a0cfb4f48d1773b7b200810a3416018f52bfbc67906c854db51a",
+    "failures": [],
+    "available_conformers": 4,
+    "selected_indices": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0ca57263e3e2728daf0787d2",
+      "graph_id": "GC_MOL_0ca57263e3e2728daf0787d2",
+      "canonical": "CC(=O)Cc1nsc(Nc2cccc(C)c2)n1",
+      "scaffold": "c1ccc(Nc2ncns2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2f12b1d7a4b274748d0c46507bfcb56c21f16bf7e53b551cb67dde520de51d09",
+    "failures": [],
+    "available_conformers": 34,
+    "selected_indices": [
+      0,
+      20,
+      11,
+      28
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7b8f70910160297f0ba23d49",
+      "graph_id": "GC_MOL_7b8f70910160297f0ba23d49",
+      "canonical": "O=C(O)c1cccc2c1-c1ccccc1/C2=N\\Nc1ccccc1",
+      "scaffold": "c1ccc(NN=C2c3ccccc3-c3ccccc32)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2bbef4ed2b6b6c3b8cc2869b530791c3c6d8c012483d9d8a5c10c178c5f9be9a",
+    "failures": [],
+    "available_conformers": 4,
+    "selected_indices": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4d4193cc584b6b7ca0fe076e",
+      "graph_id": "GC_MOL_297e2c84f6bcaf9d8790fe46",
+      "canonical": "O=C1CCCC2=C1[C@H](c1cccs1)n1ncnc1N2",
+      "scaffold": "O=C1CCCC2=C1C(c1cccs1)n1ncnc1N2",
+      "source_split": "test"
+    },
+    "source_sha256": "6c424a82a6a1d2dcfd480f00604ad70adc7cfea6d82ce79922fc8e5169a7330e",
+    "failures": [],
+    "available_conformers": 5,
+    "selected_indices": [
+      0,
+      1,
+      4,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:62be20a8afec91afa8affcb0",
+      "graph_id": "GC_MOL_a4d73c0698d5677fc344cf81",
+      "canonical": "O=C(O)c1ccccc1NCN1C(=O)[C@H]2CC=C(Cl)C[C@H]2C1=O",
+      "scaffold": "O=C1C2CC=CCC2C(=O)N1CNc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "14604f46b8995ba30687d053e9e0cfecb2bcfa9ae2b55a7cae20c6e6c6f0c623",
+    "failures": [],
+    "available_conformers": 28,
+    "selected_indices": [
+      0,
+      3,
+      11,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4cb500b08b8962015cb578dd",
+      "graph_id": "GC_MOL_dc0cd402fec9eb94178aba1b",
+      "canonical": "O=C(O)COc1ccc(/C=N/NC(=O)[C@H]2CCCN2S(=O)(=O)c2ccc(Cl)cc2)cc1",
+      "scaffold": "O=C(NN=Cc1ccccc1)C1CCCN1S(=O)(=O)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b931e5eec71e322bf6e9b2ba9208be903129cb6c76d06398766383a27dbc317d",
+    "failures": [],
+    "available_conformers": 149,
+    "selected_indices": [
+      0,
+      25,
+      24,
+      35
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b080b47877ae2892372d1a2e",
+      "graph_id": "GC_MOL_b080b47877ae2892372d1a2e",
+      "canonical": "COc1cccc2cc(C(=O)N3CCCc4ccccc43)oc12",
+      "scaffold": "O=C(c1cc2ccccc2o1)N1CCCc2ccccc21",
+      "source_split": "test"
+    },
+    "source_sha256": "b47cd256bb9a12daef08fdd07512017a010ee0ad93211715cd1a829f10a6f186",
+    "failures": [],
+    "available_conformers": 17,
+    "selected_indices": [
+      0,
+      10,
+      12,
+      13
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f0b223954e2d7823a4577b82",
+      "graph_id": "GC_MOL_f0b223954e2d7823a4577b82",
+      "canonical": "CC(C)C(=O)Nc1ccc2c(c1)nc1n2CCSC1",
+      "scaffold": "c1ccc2c(c1)nc1n2CCSC1",
+      "source_split": "test"
+    },
+    "source_sha256": "87828e9dc15d26f29d1d03e4fa7bd1201cdb5a6178afc00126c66c160a4173de",
+    "failures": [],
+    "available_conformers": 32,
+    "selected_indices": [
+      0,
+      10,
+      14,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ab789d821298486f1e7b3ac3",
+      "graph_id": "GC_MOL_ab789d821298486f1e7b3ac3",
+      "canonical": "COC(=O)c1ccc(N2CCN(S(=O)(=O)c3ccccc3)CC2)c([N+](=O)[O-])c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "5fcc4d216f69a5aef0c0f61e1523ba397cba63ae70c71d214e7aaa991a762787",
+    "failures": [],
+    "available_conformers": 64,
+    "selected_indices": [
+      0,
+      27,
+      10,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2b58b9a12bb9b9b200dc91ee",
+      "graph_id": "GC_MOL_2b58b9a12bb9b9b200dc91ee",
+      "canonical": "O=C(CN(c1ccc2c(c1)OCCO2)S(=O)(=O)c1ccccc1)NCc1ccco1",
+      "scaffold": "O=C(CN(c1ccc2c(c1)OCCO2)S(=O)(=O)c1ccccc1)NCc1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "c47f8363aed3c058de9eaf78479953934d56a5598f8b5ba7b542767a4c91e5f1",
+    "failures": [],
+    "available_conformers": 266,
+    "selected_indices": [
+      0,
+      146,
+      220,
+      36
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:21592f5bdfbcf28182042187",
+      "graph_id": "GC_MOL_3ba42ce0e20181bfe6069408",
+      "canonical": "COC(=O)[C@@H](C)NC(=O)[C@@H]1CCCN1S(=O)(=O)c1cc(C)c(Cl)cc1C",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "d6757657e7786a910f0c2fd2482a95f8a10a3f0fb16e2066c6afda0062b66786",
+    "failures": [],
+    "available_conformers": 154,
+    "selected_indices": [
+      0,
+      142,
+      75,
+      47
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6b6ef0883073d3a62edbc420",
+      "graph_id": "GC_MOL_6b6ef0883073d3a62edbc420",
+      "canonical": "Cc1onc(-c2ccccc2Cl)c1C(=O)N1CCN(Cc2ccc3c(c2)OCO3)CC1",
+      "scaffold": "O=C(c1conc1-c1ccccc1)N1CCN(Cc2ccc3c(c2)OCO3)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "17d3aed2617069b943547662c906ea1b04e2dbd1c77e348abe3f3a0cc2b05c5a",
+    "failures": [],
+    "available_conformers": 72,
+    "selected_indices": [
+      0,
+      68,
+      36,
+      34
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:296c03ee0cb886aa33b82620",
+      "graph_id": "GC_MOL_296c03ee0cb886aa33b82620",
+      "canonical": "CCOC(=O)c1sc(NC(=O)CSc2ncccn2)c(C#N)c1C",
+      "scaffold": "O=C(CSc1ncccn1)Nc1cccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "b73df0914d8a71cc9f4f00d27099c054f9c308b0e37486f8b926405139e2810a",
+    "failures": [],
+    "available_conformers": 16,
+    "selected_indices": [
+      0,
+      14,
+      15,
+      11
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f7304fa5af45d71121e9991f",
+      "graph_id": "GC_MOL_f7304fa5af45d71121e9991f",
+      "canonical": "FC(F)(F)c1ccncc1-c1nnc(C2CCCCC2)o1",
+      "scaffold": "c1cncc(-c2nnc(C3CCCCC3)o2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "79bdfba721956d8c5afb609fcede05601dcc5fd071f0ac794bb97e720f9749b3",
+    "failures": [],
+    "available_conformers": 36,
+    "selected_indices": [
+      0,
+      6,
+      18,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b8a7b3e2ca7ea5830879f939",
+      "graph_id": "GC_MOL_b68665b1f906d1a5b5020cb9",
+      "canonical": "NNC(=O)[C@@H]1CCCN1S(=O)(=O)c1ccc(Cl)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "aabbe042864bdc04a82247acd020336df3df08d435413ff467b43c50c9270bbe",
+    "failures": [],
+    "available_conformers": 49,
+    "selected_indices": [
+      0,
+      28,
+      25,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d902b355d78f7fc91c48ce27",
+      "graph_id": "GC_MOL_d902b355d78f7fc91c48ce27",
+      "canonical": "Cc1cnc(NC(=O)CCCc2nc3ccccc3s2)s1",
+      "scaffold": "O=C(CCCc1nc2ccccc2s1)Nc1nccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "186a7e827b8d46b9c0f87f17355ea220559522e8e489505dc76a6e4cbdcf56f1",
+    "failures": [],
+    "available_conformers": 55,
+    "selected_indices": [
+      0,
+      11,
+      49,
+      39
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c4fe5b777c32d83a0a737805",
+      "graph_id": "GC_MOL_c4fe5b777c32d83a0a737805",
+      "canonical": "COc1cccc(N2CCN(c3nc(C)cc(C)c3C#N)CC2)c1",
+      "scaffold": "c1ccc(N2CCN(c3ccccn3)CC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "ef8831514019f9a525a47373ce8a2e7f517ff740c8e01d21daf9a81274a957aa",
+    "failures": [],
+    "available_conformers": 61,
+    "selected_indices": [
+      0,
+      26,
+      50,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:8a3232f9cfbb35c6ceb28492",
+      "graph_id": "GC_MOL_5bafa4849c7812dd62cb5628",
+      "canonical": "COC(=O)c1c(NC(=O)c2ccco2)sc2c1CC[N@@H+](C(C)C)C2",
+      "scaffold": "O=C(Nc1cc2c(s1)C[NH2+]CC2)c1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "a8748a97735920d52a7fd8b124be27db97e308e930cf2feb90b9f59b4fb11fa2",
+    "failures": [],
+    "available_conformers": 27,
+    "selected_indices": [
+      0,
+      1,
+      14,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:650bcfd462947e562020ebb4",
+      "graph_id": "GC_MOL_650bcfd462947e562020ebb4",
+      "canonical": "O=c1ccc(S(=O)(=O)N2CCC(Cc3ccccc3)CC2)c[nH]1",
+      "scaffold": "O=c1ccc(S(=O)(=O)N2CCC(Cc3ccccc3)CC2)c[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "5d4e549327f8949430449892fb42e5d5a605c8ed9b394149c6e63f1feb6c31dc",
+    "failures": [],
+    "available_conformers": 28,
+    "selected_indices": [
+      0,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d5ad7099bd3e5e3cca8a2439",
+      "graph_id": "GC_MOL_d5ad7099bd3e5e3cca8a2439",
+      "canonical": "O=[N+]([O-])c1ccc(N2CCN(S(=O)(=O)c3ccccc3)CC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "4cf47330cd96acfb6ad064ebdf1f2f21c548bbdc169d9604d167123b1f36dd9d",
+    "failures": [],
+    "available_conformers": 24,
+    "selected_indices": [
+      0,
+      7,
+      9,
+      13
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:225f730afc5a5bbc4e444314",
+      "graph_id": "GC_MOL_225f730afc5a5bbc4e444314",
+      "canonical": "O=C1C(Cl)=C(Nc2ccc3cn[nH]c3c2)C(=O)c2ccccc21",
+      "scaffold": "O=C1C=C(Nc2ccc3cn[nH]c3c2)C(=O)c2ccccc21",
+      "source_split": "test"
+    },
+    "source_sha256": "443a57c5d812c84becaa1c816dab7274fcaa0d37b0bc57ab91b5df14f6748a8f",
+    "failures": [],
+    "available_conformers": 5,
+    "selected_indices": [
+      0,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9983e0ebe4bbdc0f9561971c",
+      "graph_id": "GC_MOL_9bb4153c3231c42011b37666",
+      "canonical": "CCOC(=O)[C@@H](C)Sc1ncnc2c1c(-c1ccccc1)cn2-c1ccc(OC)cc1",
+      "scaffold": "c1ccc(-c2cn(-c3ccccc3)c3ncncc23)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "1a95542ec30f179004095bb32e35f5384f352bc923067c6c9558edee35e71deb",
+    "failures": [],
+    "available_conformers": 146,
+    "selected_indices": [
+      0,
+      6,
+      58,
+      107
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9fc225211669b71e5d02349f",
+      "graph_id": "GC_MOL_9fc225211669b71e5d02349f",
+      "canonical": "COc1ccc(Cl)cc1S(=O)(=O)N1CCCC1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "03527232b4c37ec6df12ecdfcf809758060c549bb3555e35d8335e14b819cc78",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      1,
+      18,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:e5f2b316977108eec23ddfb0",
+      "graph_id": "GC_MOL_e5f2b316977108eec23ddfb0",
+      "canonical": "O=C1c2cc([N+](=O)[O-])cc3cc([N+](=O)[O-])cc(c23)C(=O)N1c1ccccn1",
+      "scaffold": "O=C1c2cccc3cccc(c23)C(=O)N1c1ccccn1",
+      "source_split": "test"
+    },
+    "source_sha256": "0db2d82d2f3e6ffe8142bea777c82e24e03c5ecdc9bac506937541a31108c860",
+    "failures": [],
+    "available_conformers": 1,
+    "selected_indices": [
+      0
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b7041a14d4e6a97f35a76cb4",
+      "graph_id": "GC_MOL_b7041a14d4e6a97f35a76cb4",
+      "canonical": "CCN(C(=O)CSc1nc2nc(C)cc(C)n2n1)c1ccccc1",
+      "scaffold": "O=C(CSc1nc2ncccn2n1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "172a73aef5ea89fa3c4bb4ecb21ff56bbba0901065cb22c3f7d6104d56abf9bc",
+    "failures": [],
+    "available_conformers": 29,
+    "selected_indices": [
+      0,
+      27,
+      3,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b13226518fc1e5f509f5b837",
+      "graph_id": "GC_MOL_b13226518fc1e5f509f5b837",
+      "canonical": "C=CCNC(=O)COc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "435ad893434138091dae4c1448628c24cd47d77426e3c2951979af5e99e5226d",
+    "failures": [],
+    "available_conformers": 178,
+    "selected_indices": [
+      0,
+      21,
+      146,
+      53
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:85c39f04da9a218e50ae61c5",
+      "graph_id": "GC_MOL_992cf961f945b2a9982c36cc",
+      "canonical": "O=C(O)[C@H]1CCCN1S(=O)(=O)c1ccc(F)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "bfae03ed3ab3e69e55ae946faaf4b9dc9bd26b6e6cb38eea711ff08989fbfbff",
+    "failures": [],
+    "available_conformers": 16,
+    "selected_indices": [
+      0,
+      9,
+      13,
+      8
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:846d08a1ba0ca5b8273fcdd3",
+      "graph_id": "GC_MOL_846d08a1ba0ca5b8273fcdd3",
+      "canonical": "CCn1c(COc2ccccc2C)nc2ccccc21",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "9d06300fec284d54c4327e58b9695c80bf10363d6e585d1b601732848c31bf32",
+    "failures": [],
+    "available_conformers": 50,
+    "selected_indices": [
+      0,
+      30,
+      34,
+      20
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c7b5ecf9faf7e13460c8091f",
+      "graph_id": "GC_MOL_c7b5ecf9faf7e13460c8091f",
+      "canonical": "O=C(O)c1nccnc1C(=O)NCCc1c[nH]c2ccccc12",
+      "scaffold": "O=C(NCCc1c[nH]c2ccccc12)c1cnccn1",
+      "source_split": "test"
+    },
+    "source_sha256": "5b033e82c8e4f1a293c349414f1463679601883e35b76e2ec4434a3dae972181",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      3,
+      7,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c2a20e5b6aba2be570f4a362",
+      "graph_id": "GC_MOL_c2a20e5b6aba2be570f4a362",
+      "canonical": "Cc1cc(C)c(C#N)c(N2CCN(c3ccccc3)CC2)n1",
+      "scaffold": "c1ccc(N2CCN(c3ccccn3)CC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "a22a39bcbfdb5742eb6ecba3576e11acf7f821df0a54d3edab72c792d4e07f39",
+    "failures": [],
+    "available_conformers": 18,
+    "selected_indices": [
+      0,
+      2,
+      9,
+      15
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5914de72473027800ad9c476",
+      "graph_id": "GC_MOL_5914de72473027800ad9c476",
+      "canonical": "Cn1nnnc1SCC(=O)Nc1c(Cl)cccc1Cl",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "630454d84ce152e0e822296a26f6585b00d6bf9b76c7a5ce3880045a09d499f9",
+    "failures": [],
+    "available_conformers": 25,
+    "selected_indices": [
+      0,
+      2,
+      6,
+      23
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:795289ffa4296b02de2a6efc",
+      "graph_id": "GC_MOL_795289ffa4296b02de2a6efc",
+      "canonical": "Cc1ccc(S(=O)(=O)N(C)CCCC(=O)n2nc(C)cc2C)cc1",
+      "scaffold": "O=C(CCCNS(=O)(=O)c1ccccc1)n1cccn1",
+      "source_split": "test"
+    },
+    "source_sha256": "9deadbb0de9760a97707f9d1a36e9f890dce2db6dcf707eaed1f9b2a1d755486",
+    "failures": [],
+    "available_conformers": 78,
+    "selected_indices": [
+      0,
+      10,
+      32,
+      36
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2407669cd7e744bef21e80f3",
+      "graph_id": "GC_MOL_2407669cd7e744bef21e80f3",
+      "canonical": "O=C(Nc1nc2c(s1)CN(Cc1ccccc1)CC2)c1c(F)cccc1F",
+      "scaffold": "O=C(Nc1nc2c(s1)CN(Cc1ccccc1)CC2)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "59dedb23404ed546ea6b4bca37a65bafe99309ab81a9d49c6556a75efe967f36",
+    "failures": [],
+    "available_conformers": 27,
+    "selected_indices": [
+      0,
+      9,
+      26,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:3b83d7c5c0378a03f9395319",
+      "graph_id": "GC_MOL_3b83d7c5c0378a03f9395319",
+      "canonical": "COc1ccc(/C=C(\\NC(=O)c2cccs2)C(=O)NN)cc1OC",
+      "scaffold": "O=C(NC=Cc1ccccc1)c1cccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "f1577e351d8d10f303be14c9fa73599cc4304c0b87e4adecd5cdc34374a50998",
+    "failures": [],
+    "available_conformers": 48,
+    "selected_indices": [
+      0,
+      42,
+      17,
+      25
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d6ee3c02e4e7e57dbe5065bc",
+      "graph_id": "GC_MOL_d6ee3c02e4e7e57dbe5065bc",
+      "canonical": "Cc1cc(C)n2nc(SCC(=O)Nc3ccc(F)cc3)nc2n1",
+      "scaffold": "O=C(CSc1nc2ncccn2n1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2131933d3d722346e3d2ad94f9b8b5ebf58b1d684fdfcc7002781446c6bbc4fb",
+    "failures": [],
+    "available_conformers": 41,
+    "selected_indices": [
+      0,
+      21,
+      7,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d19a68396b413643740e4512",
+      "graph_id": "GC_MOL_d19a68396b413643740e4512",
+      "canonical": "COc1ccc(Cl)cc1NC(=O)CCCC(=O)c1ccccc1",
+      "scaffold": "O=C(CCCC(=O)c1ccccc1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "ff6c4fa76091172777b219fd09cb2bf35cd45a2d2ca26fced2ee7e0fc547c44f",
+    "failures": [],
+    "available_conformers": 71,
+    "selected_indices": [
+      0,
+      5,
+      70,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:76e77576e2566ae1461c2109",
+      "graph_id": "GC_MOL_76e77576e2566ae1461c2109",
+      "canonical": "CC(C)NC(=O)COC(=O)c1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "503066a7b28e3bfd42139ea8303fb4f281f1cacae40521fb35231cff374aa689",
+    "failures": [],
+    "available_conformers": 107,
+    "selected_indices": [
+      0,
+      96,
+      87,
+      33
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0aed8d7a4234a7500ca4ab45",
+      "graph_id": "GC_MOL_3699db904a2db3f18260f477",
+      "canonical": "COC(=O)C1=NN[C@]2(c3ccc(C)cc3)C(=O)N(c3cccc(C)c3C)C(=O)[C@H]12",
+      "scaffold": "O=C1C2C=NNC2(c2ccccc2)C(=O)N1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "bd394f30b698da3ecaef5e4f9521794ebc087a99344772f1d7307f4ecd7caebf",
+    "failures": [],
+    "available_conformers": 19,
+    "selected_indices": [
+      0,
+      6,
+      3,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f2dc087a86f81fcdd32b8b22",
+      "graph_id": "GC_MOL_f2dc087a86f81fcdd32b8b22",
+      "canonical": "Cc1cc(C)nc(NS(=O)(=O)c2ccc(NC(=O)CN3C(=O)S/C(=C\\c4ccccc4)C3=O)cc2)n1",
+      "scaffold": "O=C(CN1C(=O)SC(=Cc2ccccc2)C1=O)Nc1ccc(S(=O)(=O)Nc2ncccn2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "219f7ce07a5d04fc81ce14e25eb8210a1cad6d11d0b7d4b801f2f6ab42307df8",
+    "failures": [],
+    "available_conformers": 128,
+    "selected_indices": [
+      0,
+      69,
+      70,
+      37
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9623c88830f362d19a50fad5",
+      "graph_id": "GC_MOL_9623c88830f362d19a50fad5",
+      "canonical": "O=C(O)c1cccc2c1/C(=N/Nc1ccc([N+](=O)[O-])cc1[N+](=O)[O-])c1ccccc1-2",
+      "scaffold": "c1ccc(NN=C2c3ccccc3-c3ccccc32)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "3aad1f3d11f3c45a824af03aaa5253c38db33addd1186df416fa9162b46f2d7c",
+    "failures": [
+      {
+        "conformer_index": 1,
+        "error": "AssertionError('conformer canonical graph/identity mismatch')",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/geom_connection_geometry_training/source/prepare.py\", line 77, in process\n    assert canonical==item['canonical'],'conformer canonical graph/identity mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: conformer canonical graph/identity mismatch\n"
+      }
+    ],
+    "available_conformers": 5,
+    "selected_indices": [
+      0,
+      4,
+      3,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:de05a059370fdea8bc12a5f2",
+      "graph_id": "GC_MOL_de05a059370fdea8bc12a5f2",
+      "canonical": "O=C(CSc1ccc(Cl)cc1)NCc1ccco1",
+      "scaffold": "O=C(CSc1ccccc1)NCc1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "eec5b5db03dbda371dbb69829f0904e9a3ad4007dff871e8ebc0ea7548147fbf",
+    "failures": [],
+    "available_conformers": 21,
+    "selected_indices": [
+      0,
+      13,
+      10,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1e563e13ed5b22810d9e8214",
+      "graph_id": "GC_MOL_1e563e13ed5b22810d9e8214",
+      "canonical": "S=C(NCc1cccs1)Nc1cc(Cl)cc(Cl)c1",
+      "scaffold": "S=C(NCc1cccs1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "803b150a15f036daf76e92b72dc6ad58d7735aa1148e29b5269f1ea4cad7dc09",
+    "failures": [],
+    "available_conformers": 15,
+    "selected_indices": [
+      0,
+      1,
+      7,
+      13
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b6fc9e242e5fcae58130d220",
+      "graph_id": "GC_MOL_9aa9090e5824b8cb2dc9d9d0",
+      "canonical": "CN(C)CCNc1nc2c(c(=O)[nH]c(=O)n2C)n1C[C@@H](O)COc1ccc(Cl)cc1",
+      "scaffold": "O=c1[nH]c(=O)c2c(ncn2CCCOc2ccccc2)[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "feee2f5e2867812af560e71188ff76e717ee410c83a254ddd9c8709ca7fe1367",
+    "failures": [],
+    "available_conformers": 109,
+    "selected_indices": [
+      0,
+      77,
+      3,
+      91
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5e7463bda487922aa13e3901",
+      "graph_id": "GC_MOL_5e7463bda487922aa13e3901",
+      "canonical": "O=C(Cn1c(COc2ccc(Cl)cc2)nc2ccccc21)NCC(F)(F)F",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "007f8d3a9407ceb73b60fe094a9c65aec0f91ee707dc137ae2ed00a238dd07b7",
+    "failures": [],
+    "available_conformers": 40,
+    "selected_indices": [
+      0,
+      4,
+      25,
+      17
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:267965db6f569c065b130ef3",
+      "graph_id": "GC_MOL_267965db6f569c065b130ef3",
+      "canonical": "CCOc1ccccc1N1CCN(S(=O)(=O)c2cc(C)ccc2OC)CC1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "e7067462bec0b2994c9ec4b59581094c0ded08b1aeb028c402ce77ae1b472bf1",
+    "failures": [],
+    "available_conformers": 393,
+    "selected_indices": [
+      0,
+      266,
+      81,
+      67
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5c0f1d55c8de537f1349245f",
+      "graph_id": "GC_MOL_5c0f1d55c8de537f1349245f",
+      "canonical": "COc1ccc2cc3cc(C(=O)NCCN4CCN(c5ccccc5F)CC4)oc3nc2c1",
+      "scaffold": "O=C(NCCN1CCN(c2ccccc2)CC1)c1cc2cc3ccccc3nc2o1",
+      "source_split": "test"
+    },
+    "source_sha256": "27c1a08dc6dddd980a415a49cccfc0fa5b402c82be512e68dc0a0a72e993f739",
+    "failures": [],
+    "available_conformers": 202,
+    "selected_indices": [
+      0,
+      18,
+      6,
+      187
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ca7934686af59565a97bfd41",
+      "graph_id": "GC_MOL_ca7934686af59565a97bfd41",
+      "canonical": "CNC(=O)c1ccsc1NC(=O)c1ccc(Cl)s1",
+      "scaffold": "O=C(Nc1cccs1)c1cccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "8c12b8e2a38aee969076c45bcb80f8075a756365d7df54a71958956d29a011da",
+    "failures": [],
+    "available_conformers": 2,
+    "selected_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5f66863c526f4a9a56e4bd83",
+      "graph_id": "GC_MOL_5f66863c526f4a9a56e4bd83",
+      "canonical": "C=CCn1nnnc1SCC(=O)Nc1ccccc1C(=O)OC",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b11f890967315aaf67516a32e12a6753f5d9cc25bc1776da0d699159b7ee0f14",
+    "failures": [],
+    "available_conformers": 116,
+    "selected_indices": [
+      0,
+      87,
+      34,
+      17
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:cf2cd8cfb5feb81266c2ab6a",
+      "graph_id": "GC_MOL_cf2cd8cfb5feb81266c2ab6a",
+      "canonical": "C=CCn1c(SCC(=O)Nc2ccccc2)nnc1-c1cccc(S(=O)(=O)N2CCOCC2)c1",
+      "scaffold": "O=C(CSc1nnc(-c2cccc(S(=O)(=O)N3CCOCC3)c2)[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "3918f30c0a068b08eef2d9fab7f5ae1ea1724d185548a0632417a3c69e2feb30",
+    "failures": [],
+    "available_conformers": 379,
+    "selected_indices": [
+      0,
+      174,
+      131,
+      38
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:be092e0eefa3233a501ad0f4",
+      "graph_id": "GC_MOL_be092e0eefa3233a501ad0f4",
+      "canonical": "CNC(=S)N(Cc1ccco1)Cc1cc2cc(OC)ccc2[nH]c1=O",
+      "scaffold": "O=c1[nH]c2ccccc2cc1CNCc1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "5e2638260d9100915c2d67602c93b5300ea4adf84f3e8c490a6ec1386f59a801",
+    "failures": [],
+    "available_conformers": 24,
+    "selected_indices": [
+      0,
+      4,
+      13,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:bbdf7e184aee8c57d44a7363",
+      "graph_id": "GC_MOL_bbdf7e184aee8c57d44a7363",
+      "canonical": "O=C(N/N=C/c1ccoc1)c1ccc([N+](=O)[O-])cc1",
+      "scaffold": "O=C(NN=Cc1ccoc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "1c5066bbb19f096092611af2cdc6b94006cce278b63d85d489fb2c49ccc2c5d4",
+    "failures": [],
+    "available_conformers": 10,
+    "selected_indices": [
+      0,
+      8,
+      2,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9291d7f8839d80d413a0b5a5",
+      "graph_id": "GC_MOL_9291d7f8839d80d413a0b5a5",
+      "canonical": "O=C(CSc1ccc2ccccc2c1)NCCCN1CCCC1=O",
+      "scaffold": "O=C(CSc1ccc2ccccc2c1)NCCCN1CCCC1=O",
+      "source_split": "test"
+    },
+    "source_sha256": "bfa0eb1ed1de4bc91b5a043564a1fa4f2e7b7407be5c7c411833c6b6ca8961ba",
+    "failures": [],
+    "available_conformers": 330,
+    "selected_indices": [
+      0,
+      25,
+      229,
+      285
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7b9c4f8eb26bf0da1c067af5",
+      "graph_id": "GC_MOL_7b9c4f8eb26bf0da1c067af5",
+      "canonical": "COc1ccc(Cl)cc1S(=O)(=O)N1CCN(c2ccc(F)cc2)CC1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "b8f057f7c29623c12b5d5cb2d11e01420e6c75527615a64c9548cdaa69fb7698",
+    "failures": [],
+    "available_conformers": 55,
+    "selected_indices": [
+      0,
+      17,
+      2,
+      45
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4491a056f6be283727a54a88",
+      "graph_id": "GC_MOL_4491a056f6be283727a54a88",
+      "canonical": "CCOC(=O)c1c(C)[nH]c(C(=O)COC(=O)/C=C/c2ccc(OCC#N)c(OC)c2)c1C",
+      "scaffold": "O=C(C=Cc1ccccc1)OCC(=O)c1ccc[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "ac1120323b4ebb8c06ae18abdfd15453ece11fd4982cb73878464ab0bcbb43f9",
+    "failures": [],
+    "available_conformers": 557,
+    "selected_indices": [
+      0,
+      538,
+      317,
+      517
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2f8311a8851a556b40b09e1b",
+      "graph_id": "GC_MOL_2f8311a8851a556b40b09e1b",
+      "canonical": "COc1cccc(Nc2nc(CC(C)=O)ns2)c1",
+      "scaffold": "c1ccc(Nc2ncns2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "c6099db816a436eb9d0a29b68aca0588026c0a57e56372830ef8af344cfbbbc9",
+    "failures": [],
+    "available_conformers": 51,
+    "selected_indices": [
+      0,
+      3,
+      26,
+      39
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d36590b35822148fc25eb2a5",
+      "graph_id": "GC_MOL_d36590b35822148fc25eb2a5",
+      "canonical": "C=CCn1c(SCc2ccc3nonc3c2)nnc1-c1cccs1",
+      "scaffold": "c1csc(-c2nnc(SCc3ccc4nonc4c3)[nH]2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "5bb7f0378de7607bc5c36652433bf13558773e3087b12e601a920889c4f812ee",
+    "failures": [],
+    "available_conformers": 116,
+    "selected_indices": [
+      0,
+      94,
+      65,
+      90
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f66d5e2ae420d61ab70ea034",
+      "graph_id": "GC_MOL_f66d5e2ae420d61ab70ea034",
+      "canonical": "COc1ccc(OC)c(S(=O)(=O)N2CCN(c3ccc(F)cc3)CC2)c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "34a0fbb0b93c3befbe4e1b7ac271ffe0e34a9073d7edc6b593d37431bef474d8",
+    "failures": [],
+    "available_conformers": 111,
+    "selected_indices": [
+      0,
+      75,
+      97,
+      83
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0d97a6f464f92a2b60f281dd",
+      "graph_id": "GC_MOL_a517b2bfe0376f3880ffe6fc",
+      "canonical": "O=C(NCCc1c[nH]c2ccccc12)C(=O)NC[C@@H]1CCCO1",
+      "scaffold": "O=C(NCCc1c[nH]c2ccccc12)C(=O)NCC1CCCO1",
+      "source_split": "test"
+    },
+    "source_sha256": "f896efc92483b941d74044248db991fd67da178e8ddaa53aefd726887df4f4f2",
+    "failures": [],
+    "available_conformers": 246,
+    "selected_indices": [
+      0,
+      74,
+      177,
+      189
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:361ff8198608f3f01cc74e12",
+      "graph_id": "GC_MOL_361ff8198608f3f01cc74e12",
+      "canonical": "Cc1ccc(/C=C/C(=O)N2CCN(c3ncccn3)CC2)o1",
+      "scaffold": "O=C(C=Cc1ccco1)N1CCN(c2ncccn2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "ad0623aa5d181364440d82756690b4da15305a4d6bb7ec7317897ffe89836606",
+    "failures": [],
+    "available_conformers": 52,
+    "selected_indices": [
+      0,
+      49,
+      51,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0836cd93e3eb8d08e467d79b",
+      "graph_id": "GC_MOL_0836cd93e3eb8d08e467d79b",
+      "canonical": "COCCCn1nnnc1SCC(=O)N1CCN(C(=O)c2ccco2)CC1",
+      "scaffold": "O=C(CSc1nnn[nH]1)N1CCN(C(=O)c2ccco2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "31ccf91b649632e4d7aa1e9f492ba3f2cd8dbd9be60c6dfd71374c541d9d1928",
+    "failures": [],
+    "available_conformers": 483,
+    "selected_indices": [
+      0,
+      450,
+      348,
+      466
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:00ecac7631dc5d6c008ef629",
+      "graph_id": "GC_MOL_00ecac7631dc5d6c008ef629",
+      "canonical": "CC(C)Cc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "36b947f79671ca558bb29311be8f81c5751adde08489789d8f7de8ed9afd8bae",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      12,
+      2,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ec4095ca10d73c6a9645ef15",
+      "graph_id": "GC_MOL_ec4095ca10d73c6a9645ef15",
+      "canonical": "Cc1c(-c2cccc(Cl)c2)nc2ccccc2c1C(=O)OC/C(O)=C(\\C#N)c1nc2ccccc2[nH]1",
+      "scaffold": "O=C(OCC=Cc1nc2ccccc2[nH]1)c1cc(-c2ccccc2)nc2ccccc12",
+      "source_split": "test"
+    },
+    "source_sha256": "78a21a3cadc5846613af5dce62eb8d7be88e3cf303bf9322c6f76098a113dec9",
+    "failures": [],
+    "available_conformers": 92,
+    "selected_indices": [
+      0,
+      40,
+      86,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a59a4176d719758aac7f1907",
+      "graph_id": "GC_MOL_a59a4176d719758aac7f1907",
+      "canonical": "Cc1nn(-c2cc(N3CCOCC3)ccc2N)c(=O)c2ccccc12",
+      "scaffold": "O=c1c2ccccc2cnn1-c1cccc(N2CCOCC2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "53dca402b887dfa5d5503bbfe10bae21edb91f6fe2dcc31150c920fa38507b64",
+    "failures": [],
+    "available_conformers": 42,
+    "selected_indices": [
+      0,
+      21,
+      39,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6d2a38d7847537f45cdafcfd",
+      "graph_id": "GC_MOL_9e68a3f945e8c098a9fbc38c",
+      "canonical": "CCCCCCCC1=CC2=CC(=O)[C@](C)(OC(C)=O)C(=O)C2=CN1CCc1ccccc1",
+      "scaffold": "O=C1C=C2C=CN(CCc3ccccc3)C=C2C(=O)C1",
+      "source_split": "test"
+    },
+    "source_sha256": "6a425f63c7303be1807a136a96f5db68774a35b8c2e89c89bd58656ba6f7caff",
+    "failures": [],
+    "available_conformers": 1378,
+    "selected_indices": [
+      0,
+      424,
+      370,
+      1339
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:448a3eacea1a426709dc51be",
+      "graph_id": "GC_MOL_448a3eacea1a426709dc51be",
+      "canonical": "Cc1nnc(SCC(=O)N2CCN(S(=O)(=O)c3ccc(Cl)cc3)CC2)n(N)c1=O",
+      "scaffold": "O=C(CSc1nncc(=O)[nH]1)N1CCN(S(=O)(=O)c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "6c2984fc20b05e039f86d6dedbcdd6df61874a0dee1b96242c523ce2cf4ccf74",
+    "failures": [],
+    "available_conformers": 57,
+    "selected_indices": [
+      0,
+      11,
+      54,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:636a8a23697bfb3f1f7c128c",
+      "graph_id": "GC_MOL_636a8a23697bfb3f1f7c128c",
+      "canonical": "O=C(Nc1cccc(Cl)c1)O/N=C\\c1ccncc1",
+      "scaffold": "O=C(Nc1ccccc1)ON=Cc1ccncc1",
+      "source_split": "test"
+    },
+    "source_sha256": "7769393356375e7b386d5da8122415b64587037ac6b6216c5d1dc0f82242aff8",
+    "failures": [],
+    "available_conformers": 12,
+    "selected_indices": [
+      0,
+      10,
+      6,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:621cfc536eeb39193c3696eb",
+      "graph_id": "GC_MOL_621cfc536eeb39193c3696eb",
+      "canonical": "O=C(O)c1ccc(C[NH+]2CCCCC2)o1",
+      "scaffold": "c1coc(C[NH+]2CCCCC2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "c748db2d459c5c8cb24096623e871ff6fdd6767ffbb3aebe77b2cee895dce758",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      4,
+      7,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:e6cbc00877fdd41b225245a1",
+      "graph_id": "GC_MOL_e6cbc00877fdd41b225245a1",
+      "canonical": "CCOc1cccc(C(=O)NC(=S)Nc2ccc(N3CCCC3)cc2)c1",
+      "scaffold": "O=C(NC(=S)Nc1ccc(N2CCCC2)cc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "3f1e2b826d1e7dda5f33e1f8bd7f4fe2f10bc2a3ecab0d2136c794b61eea732d",
+    "failures": [],
+    "available_conformers": 12,
+    "selected_indices": [
+      0,
+      2,
+      9,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:56a9743ba0cc1db6874cdf36",
+      "graph_id": "GC_MOL_56a9743ba0cc1db6874cdf36",
+      "canonical": "COc1ccccc1-n1cnc2cc(C(=O)NCCCN3CCOCC3)ccc21",
+      "scaffold": "O=C(NCCCN1CCOCC1)c1ccc2c(c1)ncn2-c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "8965157f6082c6b7703315120ed1f6f5ca261ef1ddae549e47ffb293523718b5",
+    "failures": [],
+    "available_conformers": 175,
+    "selected_indices": [
+      0,
+      57,
+      127,
+      161
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2368c589a391c2c703157d59",
+      "graph_id": "GC_MOL_2368c589a391c2c703157d59",
+      "canonical": "COc1ccc(-c2noc(N3CCC(C(=O)NCCCN4CCCCC4)CC3)n2)cc1",
+      "scaffold": "O=C(NCCCN1CCCCC1)C1CCN(c2nc(-c3ccccc3)no2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "0828fcb36f5fd2136cb570a754e6e7b54894b57f3c95cf14ae3bbf0e0fd02376",
+    "failures": [],
+    "available_conformers": 111,
+    "selected_indices": [
+      0,
+      45,
+      95,
+      75
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c660177b96d7673c3c9a2d5f",
+      "graph_id": "GC_MOL_c660177b96d7673c3c9a2d5f",
+      "canonical": "O=[N+]([O-])c1ccccc1/C=N/OCc1ccccc1",
+      "scaffold": "C(=NOCc1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "e55c22bdd0aaa99b330f7c50e71afbe508846c5e96a4d24c3182f1aa97857477",
+    "failures": [],
+    "available_conformers": 34,
+    "selected_indices": [
+      0,
+      1,
+      9,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:92df0a1857987e2d24a5a2aa",
+      "graph_id": "GC_MOL_92df0a1857987e2d24a5a2aa",
+      "canonical": "C[NH+](C)CCCN(C(=O)COc1ccc(Cl)cc1)c1nc2ccc(F)cc2s1",
+      "scaffold": "O=C(COc1ccccc1)Nc1nc2ccccc2s1",
+      "source_split": "test"
+    },
+    "source_sha256": "3e6e7eca042fa2bf9cb26b0fe7a34593a43ceb0f3039379624a8cbc7e2107882",
+    "failures": [],
+    "available_conformers": 59,
+    "selected_indices": [
+      0,
+      22,
+      55,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:2bf1e135c24f1bfd168624f8",
+      "graph_id": "GC_MOL_2bf1e135c24f1bfd168624f8",
+      "canonical": "COCC(=O)Nc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "759642dfea72cf43852bd7d5aa39651228d96d2cd8318ca0b400b662d6dd5f85",
+    "failures": [],
+    "available_conformers": 21,
+    "selected_indices": [
+      0,
+      3,
+      9,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:52749b220765c732c45d61de",
+      "graph_id": "GC_MOL_52749b220765c732c45d61de",
+      "canonical": "Cn1c(CCN2CCCCC2)nc2cc([N+](=O)[O-])ccc21",
+      "scaffold": "c1ccc2[nH]c(CCN3CCCCC3)nc2c1",
+      "source_split": "test"
+    },
+    "source_sha256": "5ee03fd0cabc72df03b97bba023dffe052c0b6882a1f994a8132f935ed2b6194",
+    "failures": [],
+    "available_conformers": 48,
+    "selected_indices": [
+      0,
+      46,
+      43,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6c3df41584c8d4bb401bcc4e",
+      "graph_id": "GC_MOL_6c3df41584c8d4bb401bcc4e",
+      "canonical": "Cc1cc(NC(=O)CSc2nc(-c3ccco3)cc(C(F)(F)F)n2)n(-c2ccccc2)n1",
+      "scaffold": "O=C(CSc1nccc(-c2ccco2)n1)Nc1ccnn1-c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "9087171f0d980402f8b35e9398810e1b0a394454a9bfc0362a7223739dc673c6",
+    "failures": [],
+    "available_conformers": 30,
+    "selected_indices": [
+      0,
+      12,
+      2,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a51d7a9bc172da673cfea8e6",
+      "graph_id": "GC_MOL_a51d7a9bc172da673cfea8e6",
+      "canonical": "O=C(CN1C(=O)NC2(CCCCCCC2)C1=O)NCc1cccs1",
+      "scaffold": "O=C(CN1C(=O)NC2(CCCCCCC2)C1=O)NCc1cccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "43f0091930cd78acc859711d03fa6c410a4e3f4aa65322c1571226c41ae83304",
+    "failures": [],
+    "available_conformers": 212,
+    "selected_indices": [
+      0,
+      109,
+      73,
+      115
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:fafee6b24173395bd50279f9",
+      "graph_id": "GC_MOL_fafee6b24173395bd50279f9",
+      "canonical": "COc1cc(S(=O)(=O)N2CCN(c3ccccc3F)CC2)ccc1Cl",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "5588e1dd91cfe9354b64579fa347b41a57b600f294970eb6ebdfd228d8b13218",
+    "failures": [],
+    "available_conformers": 70,
+    "selected_indices": [
+      0,
+      29,
+      33,
+      43
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:21ff3ef5bff757c521ca6673",
+      "graph_id": "GC_MOL_21ff3ef5bff757c521ca6673",
+      "canonical": "COc1cc(-c2ccc(NC(=O)CN3CCC(C)CC3)c(OC)c2)ccc1NC(=O)CN1CCC(C)CC1",
+      "scaffold": "O=C(CN1CCCCC1)Nc1ccc(-c2ccc(NC(=O)CN3CCCCC3)cc2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "ce2efda257af87103247db0ad123c97b69885d279bb4e53eac208c1fa11d5909",
+    "failures": [],
+    "available_conformers": 137,
+    "selected_indices": [
+      0,
+      68,
+      62,
+      44
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1c314ec50b0e58e45519ff47",
+      "graph_id": "GC_MOL_1c314ec50b0e58e45519ff47",
+      "canonical": "CCn1c(SCC(=O)OC)nnc1C1CCCCC1",
+      "scaffold": "c1nnc(C2CCCCC2)[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "0f094d4f62b3da6a8a66f8ed6f8c505e5e6d5b6801a4353529cb614ff4a6c2fe",
+    "failures": [],
+    "available_conformers": 47,
+    "selected_indices": [
+      0,
+      39,
+      6,
+      31
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:edb07cf96cf21b8b0337d252",
+      "graph_id": "GC_MOL_edb07cf96cf21b8b0337d252",
+      "canonical": "COC(=O)c1ccc(CSc2nc(C(F)(F)F)c3c(c2C#N)CCC3)o1",
+      "scaffold": "c1coc(CSc2cc3c(cn2)CCC3)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "10ecd348cbf265307c68a7289fff5da2d76116b59ef32deb2191bc2e2d3eb164",
+    "failures": [],
+    "available_conformers": 57,
+    "selected_indices": [
+      0,
+      14,
+      40,
+      22
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a929614c948d97f9392175ea",
+      "graph_id": "GC_MOL_a929614c948d97f9392175ea",
+      "canonical": "COC(=O)Nc1ccc(S(=O)(=O)N2CCN(c3ccc(F)cc3)CC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "f08ab9bbc7e105da15b05a244f40690db495e6d51ad7d1d731fec8ee11dc7965",
+    "failures": [],
+    "available_conformers": 27,
+    "selected_indices": [
+      0,
+      25,
+      4,
+      13
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7648faee887d1bafc922851c",
+      "graph_id": "GC_MOL_7648faee887d1bafc922851c",
+      "canonical": "Cc1c(NC(=O)CN2C(=O)c3ccccc3S2(=O)=O)c(=O)n(-c2ccccc2)n1C",
+      "scaffold": "O=C(CN1C(=O)c2ccccc2S1(=O)=O)Nc1c[nH]n(-c2ccccc2)c1=O",
+      "source_split": "test"
+    },
+    "source_sha256": "bc8cadf63a4b60cb53a5c51f5e5106dbaf1d97e67396e5493af7bea54cd0facc",
+    "failures": [],
+    "available_conformers": 35,
+    "selected_indices": [
+      0,
+      10,
+      23,
+      28
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:478c4362b830196345e6ec6c",
+      "graph_id": "GC_MOL_478c4362b830196345e6ec6c",
+      "canonical": "CN(C)S(=O)(=O)c1ccc(NC(=O)CSc2nnnn2C)cc1",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "70c50f9268abff20b9d9a71a752c849dc22172c7517cfa3366d73e4f9056f140",
+    "failures": [],
+    "available_conformers": 21,
+    "selected_indices": [
+      0,
+      15,
+      20,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6632b92961d2b1b1869066f8",
+      "graph_id": "GC_MOL_6632b92961d2b1b1869066f8",
+      "canonical": "COc1ccc(NC(=O)C(=O)NNC(=O)c2cccs2)cc1",
+      "scaffold": "O=C(NNC(=O)c1cccs1)C(=O)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "57cc632db38488e37d657bc910dc13305a8cf611723b1e8f00df1cd5fbb95ff3",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      4,
+      5,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:be92a1c7bc04253f21495047",
+      "graph_id": "GC_MOL_be92a1c7bc04253f21495047",
+      "canonical": "COc1ccc(NC(=O)CN2C(=O)COc3ccc(S(=O)(=O)N4CCCCC4)cc32)c(OC)c1",
+      "scaffold": "O=C(CN1C(=O)COc2ccc(S(=O)(=O)N3CCCCC3)cc21)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "86c599843e563cd055e089979e17558b59203853493800426992e49f1facd311",
+    "failures": [],
+    "available_conformers": 249,
+    "selected_indices": [
+      0,
+      247,
+      122,
+      123
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d4538b13542b74e352457c0d",
+      "graph_id": "GC_MOL_d4538b13542b74e352457c0d",
+      "canonical": "C/C(=N\\OCc1cccc(C(=O)O)c1)c1ccc(Cl)cc1",
+      "scaffold": "C(=NOCc1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "01eff5fdbfc6886c4c9fbd83c05c9db375add71516844a98662b784ffbbb5a7e",
+    "failures": [],
+    "available_conformers": 72,
+    "selected_indices": [
+      0,
+      56,
+      38,
+      46
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:be57aff3c5dc33b193a6c41f",
+      "graph_id": "GC_MOL_be57aff3c5dc33b193a6c41f",
+      "canonical": "CC(=O)Nc1cccc(NC(=O)CSc2nnnn2C)c1",
+      "scaffold": "O=C(CSc1nnn[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b462689d2b8306ae4adec1c2f3fca6db76098050e6f60fb192adc6bd9860c557",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      18,
+      3,
+      9
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c7a3fe6f3a1579a19fbc4179",
+      "graph_id": "GC_MOL_2e835040303580b6838e8633",
+      "canonical": "C=C(C)C(=O)Nc1cccc(C2=NO[C@]3(C2)C[C@@H](C(N)=O)N(C(=O)C2(C)CC2)C3)c1",
+      "scaffold": "O=C(C1CC1)N1CCC2(CC(c3ccccc3)=NO2)C1",
+      "source_split": "test"
+    },
+    "source_sha256": "8224491ee5be8246045319e99ed8b398be388a387762b27b02d39689e328f4fc",
+    "failures": [],
+    "available_conformers": 41,
+    "selected_indices": [
+      0,
+      15,
+      33,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:8a3080ff362670ef5d2f1227",
+      "graph_id": "GC_MOL_77f741bfcc6d0dd3e4ff0ee3",
+      "canonical": "COc1cccc(NC(=O)[C@H]2CC[C@H](CNS(=O)(=O)c3cccs3)CC2)c1",
+      "scaffold": "O=C(Nc1ccccc1)C1CCC(CNS(=O)(=O)c2cccs2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "96f63a668bbd010e56cbdf846fd45e84b5eceadf9831f3b123b2ae8e87b2dfe6",
+    "failures": [],
+    "available_conformers": 452,
+    "selected_indices": [
+      0,
+      356,
+      109,
+      169
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:94647983b4480204c933c921",
+      "graph_id": "GC_MOL_58e84732c665de508db3462b",
+      "canonical": "NC(=O)[C@H]1CCCN(C(=O)Nc2cccc3ccccc23)C1",
+      "scaffold": "O=C(Nc1cccc2ccccc12)N1CCCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "eea0e00635c4c5e6c511cf3b484a9966f720d14f9c60ffde05a21ea740f33f8a",
+    "failures": [],
+    "available_conformers": 67,
+    "selected_indices": [
+      0,
+      18,
+      10,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5451db5c9535c23668ca0685",
+      "graph_id": "GC_MOL_5451db5c9535c23668ca0685",
+      "canonical": "COc1cccc(-c2cc(C(=O)NCc3ccco3)c3ccccc3n2)c1",
+      "scaffold": "O=C(NCc1ccco1)c1cc(-c2ccccc2)nc2ccccc12",
+      "source_split": "test"
+    },
+    "source_sha256": "6a42f53f57366cf4479d064147cf6ea3e81bc54285137a6449504f70f6d576f1",
+    "failures": [],
+    "available_conformers": 78,
+    "selected_indices": [
+      0,
+      68,
+      44,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:122a6ec2e536c19acd8fa44b",
+      "graph_id": "GC_MOL_122a6ec2e536c19acd8fa44b",
+      "canonical": "Clc1cnc(N/N=C/c2ccco2)c(Cl)c1",
+      "scaffold": "C(=NNc1ccccn1)c1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "4b83924069415aad03a2d01a7a1cf95c2c87c0b6e17aa574d8844c28c4482d8e",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      1,
+      7,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7a515af34d4fd81f7c88cbf1",
+      "graph_id": "GC_MOL_7a515af34d4fd81f7c88cbf1",
+      "canonical": "CN(CC(=O)Nc1ccccc1C(F)(F)F)C(=O)c1cc([N+](=O)[O-])ccc1N1CCOCC1",
+      "scaffold": "O=C(CNC(=O)c1ccccc1N1CCOCC1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "eae75f7cbf7fbd5daeb0c7ed67e1eba8d88d373ef4d831ad1b095186705e3cbb",
+    "failures": [],
+    "available_conformers": 108,
+    "selected_indices": [
+      0,
+      41,
+      29,
+      59
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1fc23e45f48afa8eefaf4912",
+      "graph_id": "GC_MOL_1fc23e45f48afa8eefaf4912",
+      "canonical": "COc1ccc(/C=C(\\NC(=O)c2cccs2)C(=O)NC(C)(C)C)cc1OC",
+      "scaffold": "O=C(NC=Cc1ccccc1)c1cccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "dd6183225fd5130fc2241d96b2421d158bf2947e6c20f9f2de79a50bb490c580",
+    "failures": [],
+    "available_conformers": 52,
+    "selected_indices": [
+      0,
+      6,
+      1,
+      43
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a83834eb8b9d192c8dc7e1a8",
+      "graph_id": "GC_MOL_a83834eb8b9d192c8dc7e1a8",
+      "canonical": "Nc1ccc(S(=O)(=O)N2CCCC2)cc1Cl",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "7a8fa7567daaec05f9c11d6b47e94b15c047dd463b2a086c87a56c01c43ce2d7",
+    "failures": [],
+    "available_conformers": 12,
+    "selected_indices": [
+      0,
+      3,
+      10,
+      6
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ad936adf11f72cb7405247f3",
+      "graph_id": "GC_MOL_e01d5ac6531709be46e6716f",
+      "canonical": "CC(=O)N(CN1C(=O)[C@H]2CC=CC[C@H]2C1=O)c1cccc(Cl)c1",
+      "scaffold": "O=C1C2CC=CCC2C(=O)N1CNc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "3491ec70eaaafa4ba3248885a445af74e65f240b18c7fe87e8af6abb4160caa5",
+    "failures": [],
+    "available_conformers": 64,
+    "selected_indices": [
+      0,
+      6,
+      32,
+      33
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:deff2bef0575d8d373ac6f27",
+      "graph_id": "GC_MOL_deff2bef0575d8d373ac6f27",
+      "canonical": "O=C(NNC1=Nc2cccc3cccc1c23)c1ccccc1Br",
+      "scaffold": "O=C(NNC1=Nc2cccc3cccc1c23)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "e0ca99cff7b8806c358f835c0dc116700c4759bec9d9e9fc8848c023c0bcac19",
+    "failures": [],
+    "available_conformers": 20,
+    "selected_indices": [
+      0,
+      9,
+      13,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b7cfa2d8d28550d2bde1b73c",
+      "graph_id": "GC_MOL_cfd52870e768a6bdd8046c39",
+      "canonical": "CC(=O)/C(=N/Nc1ccccc1)Sc1nnc([C@@H](O)c2ccccc2)n1-c1ccccc1",
+      "scaffold": "C(=NNc1ccccc1)Sc1nnc(Cc2ccccc2)n1-c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "1a9049e17a1075767634fdca0746a5293522cb8350adb4b2d4ef5418532ed477",
+    "failures": [],
+    "available_conformers": 130,
+    "selected_indices": [
+      0,
+      12,
+      30,
+      27
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:523ae4f211087114a8047306",
+      "graph_id": "GC_MOL_523ae4f211087114a8047306",
+      "canonical": "CCn1c(CC(=O)Nc2ccccc2)nnc1SCc1nc2ccccc2c(=O)[nH]1",
+      "scaffold": "O=C(Cc1nnc(SCc2nc3ccccc3c(=O)[nH]2)[nH]1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "55e5129d0afdb80dee9a2d270854d73bf65c73e08008c7bf98aed781bf5432ca",
+    "failures": [],
+    "available_conformers": 41,
+    "selected_indices": [
+      0,
+      19,
+      14,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c67350d15c119a6ccb5c9022",
+      "graph_id": "GC_MOL_c67350d15c119a6ccb5c9022",
+      "canonical": "COC(=O)c1cn(-c2nc(C)c3c(n2)CCC3)nn1",
+      "scaffold": "c1cn(-c2ncc3c(n2)CCC3)nn1",
+      "source_split": "test"
+    },
+    "source_sha256": "e0a668a45966e7dfb9700b057465dff029634479f77d04a896f65e7874eae741",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      5,
+      2,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:c9f78cdb83ae7e7d94ea1c3b",
+      "graph_id": "GC_MOL_f96549e9ba009b374f29d23b",
+      "canonical": "O=C1[C@@H]2[C@H](C(=O)N1c1ccc(Cc3ccncc3)cc1)[C@H]1C=C[C@@H]2C1",
+      "scaffold": "O=C1C2C3C=CC(C3)C2C(=O)N1c1ccc(Cc2ccncc2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f3c3c7bcdf64f11f46f34dc12d15a6e43b24bc95f8db7874aafab083012a4f54",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      2,
+      7,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6665f56eeb34d8321fb9c057",
+      "graph_id": "GC_MOL_6665f56eeb34d8321fb9c057",
+      "canonical": "Nc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "c1e7b689c5ebb6188babd738a5b7393db220c1b7a73bef95d7249f38a9e7d11d",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      6,
+      5,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b2a54fb24f28c6598eebd497",
+      "graph_id": "GC_MOL_b2a54fb24f28c6598eebd497",
+      "canonical": "O=C(CN(Cc1cccs1)C(=O)c1csnn1)NC1CCCC1",
+      "scaffold": "O=C(CN(Cc1cccs1)C(=O)c1csnn1)NC1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "6345b69586fca6276d2200d23c1a653155cf96a2296a4125676fcb0809234570",
+    "failures": [],
+    "available_conformers": 68,
+    "selected_indices": [
+      0,
+      4,
+      61,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:e5f2aaf6cc6d192dbb742067",
+      "graph_id": "GC_MOL_e5f2aaf6cc6d192dbb742067",
+      "canonical": "COC(=O)COc1ccc(S(=O)(=O)N2CCN(c3ccccc3F)CC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "e27f838fd45df17a63b9c4c0e42d60e6105b82c79b9141d09791a87efc6c870a",
+    "failures": [],
+    "available_conformers": 230,
+    "selected_indices": [
+      0,
+      102,
+      219,
+      126
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:8a6f74755cdb097272b1de18",
+      "graph_id": "GC_MOL_8a6f74755cdb097272b1de18",
+      "canonical": "CSc1nc2nc(-c3ccc(F)cc3)c(CCN3CCN(C)CC3)cn2n1",
+      "scaffold": "c1ccc(-c2nc3ncnn3cc2CCN2CCNCC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "8f7c7cb94450f2448cebcef32b9e0a5ad5ce6e56fe6861d6d5d4e7083ad2500f",
+    "failures": [],
+    "available_conformers": 154,
+    "selected_indices": [
+      0,
+      149,
+      33,
+      114
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:cd2650f8b9e3b858379da9c4",
+      "graph_id": "GC_MOL_cd2650f8b9e3b858379da9c4",
+      "canonical": "O=C(O)c1ccc(Br)c(S(=O)(=O)N2CCCC2)c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "4f9e4f7367af0ee4b302b9d9c5f7c0ffe586a00e5a370065eadde6fa1241df85",
+    "failures": [],
+    "available_conformers": 19,
+    "selected_indices": [
+      0,
+      6,
+      8,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:fcd6f58ec1315e53b5790a0b",
+      "graph_id": "GC_MOL_fcd6f58ec1315e53b5790a0b",
+      "canonical": "CCOC(=O)c1cnc(Nc2nc3ccccc3o2)nc1CSc1nnc(C)s1",
+      "scaffold": "c1ccc2oc(Nc3nccc(CSc4nncs4)n3)nc2c1",
+      "source_split": "test"
+    },
+    "source_sha256": "e985e41c577b2922468a4324e0debcd6872d5e3104a16b77b2584a989e3f0582",
+    "failures": [],
+    "available_conformers": 160,
+    "selected_indices": [
+      0,
+      125,
+      37,
+      14
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9031bf738d211ed8b4137868",
+      "graph_id": "GC_MOL_9031bf738d211ed8b4137868",
+      "canonical": "CC[NH+](CC)CC(=O)N1c2ccccc2Sc2ccc(Cl)cc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "87d42e192742779320433516c0881653072437576094126131af758425a51584",
+    "failures": [],
+    "available_conformers": 17,
+    "selected_indices": [
+      0,
+      5,
+      8,
+      16
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:fd2012dda99f10c926615864",
+      "graph_id": "GC_MOL_32a6f5e753b662f6ba0390ee",
+      "canonical": "O=C(O)C[C@@H](SCC(=O)Nc1ccc(S(=O)(=O)N2CCCC2)cc1)C(=O)O",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "e1137514e19f01807e2921a87e446cf347a4b0a92bdc0076a3eeca3eb6e786a9",
+    "failures": [],
+    "available_conformers": 201,
+    "selected_indices": [
+      0,
+      148,
+      63,
+      147
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f9ac5c54474abf05bd87653e",
+      "graph_id": "GC_MOL_f9ac5c54474abf05bd87653e",
+      "canonical": "Cc1cc(C)c(C#N)c(SCC(=O)c2ccc(Cl)cc2Cl)n1",
+      "scaffold": "O=C(CSc1ccccn1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "e2ed0564bde6f7355a0bc0b8aa2b089aba9bc9a411b1311a0fd62f3c90203406",
+    "failures": [],
+    "available_conformers": 37,
+    "selected_indices": [
+      0,
+      32,
+      25,
+      35
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a497e8871d2a7ac8ca76c02e",
+      "graph_id": "GC_MOL_f06010a9bfa30cd373bd3523",
+      "canonical": "CCOC(=O)C1(C[C@@H]2CCCCO2)CCN(Cc2nc(-c3cccs3)oc2C)CC1",
+      "scaffold": "c1csc(-c2nc(CN3CCC(CC4CCCCO4)CC3)co2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "2d226f0dfed442dd84198dbb1012ff29ee6785ee8e23e23ba6929a51ccee11e6",
+    "failures": [],
+    "available_conformers": 371,
+    "selected_indices": [
+      0,
+      165,
+      55,
+      65
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9a2d7e13ab4ee7b3472a6c8c",
+      "graph_id": "GC_MOL_b017ab29994978abb5a604db",
+      "canonical": "CCOC(=O)C1=NN[C@]2(c3ccccc3)C(=O)N(c3cccc(Br)c3)C(=O)[C@H]12",
+      "scaffold": "O=C1C2C=NNC2(c2ccccc2)C(=O)N1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "59358245770f4d822ce87469e5646a1e7cda1d322d1102f84176efdd1bb04bef",
+    "failures": [],
+    "available_conformers": 35,
+    "selected_indices": [
+      0,
+      34,
+      16,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:fca7575f68538edd2624ccba",
+      "graph_id": "GC_MOL_fca7575f68538edd2624ccba",
+      "canonical": "CCC(/C=N/Nc1ccc(S(=O)(=O)N2CCCC2)cc1[N+](=O)[O-])CC",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "4768795ed487c53fea549f8679f4de4bac9bf14102bb348ad801fb189d70054a",
+    "failures": [],
+    "available_conformers": 104,
+    "selected_indices": [
+      0,
+      93,
+      31,
+      29
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1e3cc2475b912cf2d28cf6c6",
+      "graph_id": "GC_MOL_1e3cc2475b912cf2d28cf6c6",
+      "canonical": "CCOC(=O)Cc1csc(NC(=O)CCSc2ccccc2)n1",
+      "scaffold": "O=C(CCSc1ccccc1)Nc1nccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "98f42dad0748522ad9b615f14e0efd5cc5ee1bf1f9b34e75f69742dc43e65622",
+    "failures": [],
+    "available_conformers": 354,
+    "selected_indices": [
+      0,
+      173,
+      203,
+      95
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b002e18d1d392185c7947047",
+      "graph_id": "GC_MOL_168cf7841a2a091898bce3f9",
+      "canonical": "COc1ccc(N2CCN(C(=O)c3cccc(N4C(=O)[C@H]5[C@H](C)C=CC[C@H]5C4=O)c3)CC2)cc1",
+      "scaffold": "O=C(c1cccc(N2C(=O)C3CC=CCC3C2=O)c1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "1ed9cb8b13e4c158c280ca100c616faece7216e8a4d2695407d3181fc09a4b1d",
+    "failures": [],
+    "available_conformers": 321,
+    "selected_indices": [
+      0,
+      25,
+      129,
+      298
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:09f5b37731deb897cd486dc9",
+      "graph_id": "GC_MOL_c319f8e23a563085d8d2711e",
+      "canonical": "COc1ccc(CNC(=O)CN2C(=O)[C@@H]3[C@H](C2=O)[C@H]2C=C[C@@H]3C2)cc1",
+      "scaffold": "O=C(CN1C(=O)C2C3C=CC(C3)C2C1=O)NCc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "1663e5cc8208bf8b669ecabe6967038ce85d03af2c7d40f146578c4b26f41fe8",
+    "failures": [],
+    "available_conformers": 25,
+    "selected_indices": [
+      0,
+      2,
+      19,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:00f48087aaaa96947f5e18a8",
+      "graph_id": "GC_MOL_00f48087aaaa96947f5e18a8",
+      "canonical": "CC(C)c1ccccc1NC(=O)c1ccccc1NC(=O)C1CCCCC1",
+      "scaffold": "O=C(Nc1ccccc1)c1ccccc1NC(=O)C1CCCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "a72fb989782fd75515f98a90f95ca63a523b1b3b4353601892d59ec367f5867b",
+    "failures": [],
+    "available_conformers": 153,
+    "selected_indices": [
+      0,
+      22,
+      44,
+      99
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5a30e4838f677a07785f174a",
+      "graph_id": "GC_MOL_f2cd997bc2b52a95e894faa5",
+      "canonical": "COC(=O)c1nc2n(n1)[C@@H](c1ccc(OC)c(OC)c1)C(C(=O)OC1CCCCC1)=C(C)N2",
+      "scaffold": "O=C(OC1CCCCC1)C1=CNc2ncnn2C1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b954fdcd633e8f5cb2252f7bc7a7f7f5db7029de40fc616a4e9a1ed4dd4f50a5",
+    "failures": [],
+    "available_conformers": 173,
+    "selected_indices": [
+      0,
+      113,
+      134,
+      97
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:023a4a97ebcc22e662615f6a",
+      "graph_id": "GC_MOL_023a4a97ebcc22e662615f6a",
+      "canonical": "O=C(NCCc1ccccc1)c1ccc2nccnc2c1",
+      "scaffold": "O=C(NCCc1ccccc1)c1ccc2nccnc2c1",
+      "source_split": "test"
+    },
+    "source_sha256": "e3b70b8cb28d07886026f68b4a14a0b330c19ac428722ea7e0e332e3c49b0fa3",
+    "failures": [],
+    "available_conformers": 23,
+    "selected_indices": [
+      0,
+      6,
+      8,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:eafdb70f77c87bae503abf47",
+      "graph_id": "GC_MOL_594ad3f30692d8d810fa56b7",
+      "canonical": "COCCN(C(=S)Nc1c(C)cccc1C)[C@H](C)c1cccs1",
+      "scaffold": "S=C(NCc1cccs1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "2a94f0b03070b87cbbb235a2ac08793ce1f31822157bbdd3c77558f514e6a77a",
+    "failures": [],
+    "available_conformers": 126,
+    "selected_indices": [
+      0,
+      78,
+      50,
+      68
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:14305f85266c4a4dba934d7a",
+      "graph_id": "GC_MOL_14305f85266c4a4dba934d7a",
+      "canonical": "O=C(Nc1cccc(C(F)(F)F)c1)c1ccccc1NC(=O)C1CCCCC1",
+      "scaffold": "O=C(Nc1ccccc1)c1ccccc1NC(=O)C1CCCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "da2dc93a99be56ee42b83fb3009d1034953f2d596a85e2fedd10751c7018506c",
+    "failures": [],
+    "available_conformers": 104,
+    "selected_indices": [
+      0,
+      77,
+      32,
+      75
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7452591b3a9f9d44b13bdb8b",
+      "graph_id": "GC_MOL_7452591b3a9f9d44b13bdb8b",
+      "canonical": "S=c1nc(-c2sccc2OCc2ccc(Cl)cc2Cl)[nH][nH]1",
+      "scaffold": "S=c1nc(-c2sccc2OCc2ccccc2)[nH][nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "b7116df6a32a9d8604b4d4a3d481c03fbfb7b5aea6f4e02100280666c4ca6439",
+    "failures": [],
+    "available_conformers": 28,
+    "selected_indices": [
+      0,
+      23,
+      26,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:322a2881e6850d3d0a7a8ca2",
+      "graph_id": "GC_MOL_322a2881e6850d3d0a7a8ca2",
+      "canonical": "Cc1cccc(NC(=O)CSc2ncnc3c2oc2ccccc23)c1",
+      "scaffold": "O=C(CSc1ncnc2c1oc1ccccc12)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "7d19b731ac3731091d34682947bd5ee0d6fc20f8fe5b10f2832eaa673e594f8d",
+    "failures": [],
+    "available_conformers": 61,
+    "selected_indices": [
+      0,
+      13,
+      54,
+      24
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0590e7b19c77e4f625709b17",
+      "graph_id": "GC_MOL_4e80c8feee9736a74c31c72d",
+      "canonical": "CC(C)Oc1ccc(/C=N/NC(=O)[C@H]2CCCN2S(=O)(=O)c2ccc(Cl)cc2)cc1",
+      "scaffold": "O=C(NN=Cc1ccccc1)C1CCCN1S(=O)(=O)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "eac7e7f72cd9a88c4ffc19eebf62b2953360f6297db8ebaf4dd780103ea8b345",
+    "failures": [],
+    "available_conformers": 186,
+    "selected_indices": [
+      0,
+      12,
+      95,
+      180
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6159393679ab91069c24330a",
+      "graph_id": "GC_MOL_56bf6cac66c05bcb4b827979",
+      "canonical": "CCOC(=O)[C@H](Cc1c[nH]c2ccccc12)NC(=O)c1ccco1",
+      "scaffold": "O=C(NCCc1c[nH]c2ccccc12)c1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "1524ddae51cc4c793cf79a42a04e363450318d539542da2c7779447bb72aa0fc",
+    "failures": [],
+    "available_conformers": 113,
+    "selected_indices": [
+      0,
+      32,
+      21,
+      61
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1c890d4ef24cf375f6c34f80",
+      "graph_id": "GC_MOL_1c890d4ef24cf375f6c34f80",
+      "canonical": "O=C(NCc1ccco1)c1cc(-c2ccccc2)nc2ccccc12",
+      "scaffold": "O=C(NCc1ccco1)c1cc(-c2ccccc2)nc2ccccc12",
+      "source_split": "test"
+    },
+    "source_sha256": "c6d2cad0dcf008c5bcd325430d7d45a170fa1e4e7cccc10aa60b2bfedd7a58c7",
+    "failures": [],
+    "available_conformers": 23,
+    "selected_indices": [
+      0,
+      11,
+      21,
+      14
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:06c2c43c7b9276ed067fc0ff",
+      "graph_id": "GC_MOL_c8f808555002c41068895ba3",
+      "canonical": "Cc1cccc(-c2noc(CN(C(=O)[C@]34C[C@H]5C[C@H](C[C@H](C5)C3)C4)C(C)C)n2)c1",
+      "scaffold": "O=C(NCc1nc(-c2ccccc2)no1)C12CC3CC(CC(C3)C1)C2",
+      "source_split": "test"
+    },
+    "source_sha256": "4f0be4932d90327e20cd0ddbc1844d8a4e1b6abe9b035bbed8ac3361ab3b3dc8",
+    "failures": [],
+    "available_conformers": 62,
+    "selected_indices": [
+      0,
+      19,
+      7,
+      11
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:75922c37d12bd4eaef41e935",
+      "graph_id": "GC_MOL_75922c37d12bd4eaef41e935",
+      "canonical": "CCn1c(COc2ccccc2C(N)=O)nc2ccccc21",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "7d420d303c50eadff8a47ab24f46addd80b7077b624e6f3e4a98fcb01058178e",
+    "failures": [],
+    "available_conformers": 67,
+    "selected_indices": [
+      0,
+      51,
+      25,
+      19
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:99a7fd429e1556309cd6c8cb",
+      "graph_id": "GC_MOL_5e81d86b172b6487923a79a2",
+      "canonical": "O=C(CC[C@H]1CCCN(c2ncccn2)C1)N1CCN(c2ccccn2)CC1",
+      "scaffold": "O=C(CCC1CCCN(c2ncccn2)C1)N1CCN(c2ccccn2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "7ae3884d03810a9eeebfe8d71799d74b9f35353a6b4389aeeb9b298202324b96",
+    "failures": [],
+    "available_conformers": 163,
+    "selected_indices": [
+      0,
+      160,
+      133,
+      113
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f2cab34796edf4095520694f",
+      "graph_id": "GC_MOL_f2cab34796edf4095520694f",
+      "canonical": "COc1cccc(NC(=O)C(=O)N2CCOCC2)c1",
+      "scaffold": "O=C(Nc1ccccc1)C(=O)N1CCOCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "1c2a8c78ca5871b0ad119f3238cd2fb91104574999539ccc2a1f402e15479cc5",
+    "failures": [],
+    "available_conformers": 17,
+    "selected_indices": [
+      0,
+      10,
+      3,
+      9
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d0cfe52bb0c0cfd3e9737eee",
+      "graph_id": "GC_MOL_d0cfe52bb0c0cfd3e9737eee",
+      "canonical": "CCOC(=O)N1CCN(C(=O)Cc2ccc(-n3c(=S)[nH]c4ccccc4c3=O)cc2)CC1",
+      "scaffold": "O=C(Cc1ccc(-n2c(=S)[nH]c3ccccc3c2=O)cc1)N1CCNCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "e2ad88e2b6dddd785503e90e1d4340f5bd9c8b5a469415b4f1106094630e7775",
+    "failures": [],
+    "available_conformers": 143,
+    "selected_indices": [
+      0,
+      95,
+      57,
+      126
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7097127617401fc1fcbb6354",
+      "graph_id": "GC_MOL_7097127617401fc1fcbb6354",
+      "canonical": "Cc1nnc(SCc2cccc(CSc3nnc(C)s3)c2)s1",
+      "scaffold": "c1cc(CSc2nncs2)cc(CSc2nncs2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "b454c60749d96b59218ae8e20310a42359a0b371f1ea0e758f063e0e95bf7b91",
+    "failures": [],
+    "available_conformers": 105,
+    "selected_indices": [
+      0,
+      82,
+      27,
+      40
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b3b043ab193be3749939293a",
+      "graph_id": "GC_MOL_b3b043ab193be3749939293a",
+      "canonical": "COc1ccc(C(=O)OCC(=O)c2ccc(C)c(S(=O)(=O)N3CCOCC3)c2)cc1OC",
+      "scaffold": "O=C(COC(=O)c1ccccc1)c1cccc(S(=O)(=O)N2CCOCC2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "92661b8650344b6d4cd95ad2a30fb422bfb34a58d4abd421248365952570a0c5",
+    "failures": [],
+    "available_conformers": 133,
+    "selected_indices": [
+      0,
+      40,
+      44,
+      91
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:eb96c5010307c663c46f2759",
+      "graph_id": "GC_MOL_eb96c5010307c663c46f2759",
+      "canonical": "CCc1ccccc1NC(=O)CN(C)C(=O)CSc1nnc(Nc2ccc(C)cc2)s1",
+      "scaffold": "O=C(CSc1nnc(Nc2ccccc2)s1)NCC(=O)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "ad10ef7a08bb55f61327a43f0db4f93841347f40998415ce64ee032a421c22b3",
+    "failures": [],
+    "available_conformers": 34,
+    "selected_indices": [
+      0,
+      21,
+      30,
+      32
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:85b2ebe0fbed2f751ea4523b",
+      "graph_id": "GC_MOL_85b2ebe0fbed2f751ea4523b",
+      "canonical": "CCOC(=O)N1CCN(Cc2nc(N)nc(Nc3ccc(OC)cc3)n2)CC1",
+      "scaffold": "c1ccc(Nc2ncnc(CN3CCNCC3)n2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "11cf44202b1f2dbb8c25657bd60de8fa47be035df445bc77081507b8361855d5",
+    "failures": [],
+    "available_conformers": 243,
+    "selected_indices": [
+      0,
+      77,
+      3,
+      27
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d4c6a6e5cc5e47c653bd6ce1",
+      "graph_id": "GC_MOL_d4c6a6e5cc5e47c653bd6ce1",
+      "canonical": "C=CCn1c(SCC(=O)NC(=O)NCCC)nnc1C1CCCCC1",
+      "scaffold": "c1nnc(C2CCCCC2)[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "0e9d6bc8108403cce18c897050c35b9284505217cee594c827bc408056887b61",
+    "failures": [],
+    "available_conformers": 590,
+    "selected_indices": [
+      0,
+      18,
+      322,
+      406
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:3589100dbae3a848a1322d83",
+      "graph_id": "GC_MOL_3589100dbae3a848a1322d83",
+      "canonical": "C=CCn1c(COc2ccccc2OC)nc2ccccc21",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "ea3472db86f76b229c26defbbf22805623e093a1aaa9f120856d271a9064f286",
+    "failures": [],
+    "available_conformers": 103,
+    "selected_indices": [
+      0,
+      82,
+      19,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:52ccadd543c6293bd79e0989",
+      "graph_id": "GC_MOL_52ccadd543c6293bd79e0989",
+      "canonical": "CC(C)(C)NC(=O)N1c2ccccc2Sc2ccccc21",
+      "scaffold": "c1ccc2c(c1)Nc1ccccc1S2",
+      "source_split": "test"
+    },
+    "source_sha256": "bfbd09b2c5379e6f08488f504d2a81a0461064f6d5ea3c0e552bf2a5c1f37bb2",
+    "failures": [],
+    "available_conformers": 2,
+    "selected_indices": [
+      0,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:db14a58c5716ae10108f6980",
+      "graph_id": "GC_MOL_db14a58c5716ae10108f6980",
+      "canonical": "N#CC(C#N)=NNc1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "599037e82c0ac226380346d440506833ee8acc58ae6719b7068bc7ef74368ee2",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7f1cfb15b6eade773dfe2a9c",
+      "graph_id": "GC_MOL_7f1cfb15b6eade773dfe2a9c",
+      "canonical": "COc1ccc(OC)c(S(=O)(=O)N2CCC(C(=O)NC3CCCC3)CC2)c1",
+      "scaffold": "O=C(NC1CCCC1)C1CCN(S(=O)(=O)c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "c6f18408bc28624a57c1a1e3ac461f6bdb60335a4c3abe0d5b2cb5951c584468",
+    "failures": [],
+    "available_conformers": 324,
+    "selected_indices": [
+      0,
+      289,
+      194,
+      271
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:f91d4fff4a43afb46f31af18",
+      "graph_id": "GC_MOL_f91d4fff4a43afb46f31af18",
+      "canonical": "Cc1ccc(/C=N/NC(=O)CSc2nc3ccccc3n2Cc2ccccc2)o1",
+      "scaffold": "O=C(CSc1nc2ccccc2n1Cc1ccccc1)NN=Cc1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "47ce76e413c01bc5917a59d841967aec1209fc265516cd31acd97cab714447bb",
+    "failures": [],
+    "available_conformers": 145,
+    "selected_indices": [
+      0,
+      124,
+      129,
+      13
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:549c81f9fc3024b7207f4d32",
+      "graph_id": "GC_MOL_549c81f9fc3024b7207f4d32",
+      "canonical": "Cc1nn(C)c(Oc2cccc(Cl)c2)c1C(=O)Nc1ccc(F)cc1F",
+      "scaffold": "O=C(Nc1ccccc1)c1cn[nH]c1Oc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f2a3e9de9bac7932f32ab791ca6dc40a7c71da05aa3d81e3df7e2c8f82326e90",
+    "failures": [],
+    "available_conformers": 28,
+    "selected_indices": [
+      0,
+      11,
+      6,
+      15
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:744700a779ce1fdb96608b41",
+      "graph_id": "GC_MOL_744700a779ce1fdb96608b41",
+      "canonical": "Clc1ccc2c(N3CCCC3)ccnc2c1",
+      "scaffold": "c1ccc2c(N3CCCC3)ccnc2c1",
+      "source_split": "test"
+    },
+    "source_sha256": "f8ac4555f1c318c6f7422f7f49b0f50495c5400024a3cfd7ed9645229e2cb133",
+    "failures": [],
+    "available_conformers": 3,
+    "selected_indices": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1622647c6b0a99527b898524",
+      "graph_id": "GC_MOL_c8450a256bba85ef8e164cf2",
+      "canonical": "Fc1ccc([C@@H]2CC(c3cccs3)=NN2C(=S)Nc2ccccc2)cc1",
+      "scaffold": "S=C(Nc1ccccc1)N1N=C(c2cccs2)CC1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "341d77f7708bac7c1e0410e1ffb0aebfdb9e26da3053095ea740d35bb646405d",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:3669c7cc79c93877ea43ead9",
+      "graph_id": "GC_MOL_3521c70d664e57a59db7f2aa",
+      "canonical": "CC1=C(C(=O)Nc2cccc(C)n2)[C@H](c2ccc3c(c2)OCO3)C2=C(C[C@@H](c3ccco3)CC2=O)N1",
+      "scaffold": "O=C1CC(c2ccco2)CC2=C1C(c1ccc3c(c1)OCO3)C(C(=O)Nc1ccccn1)=CN2",
+      "source_split": "test"
+    },
+    "source_sha256": "f730951469c5eafc35d887b41e704e5f6fb9bc2392f6022826c8dd3f526f8d37",
+    "failures": [],
+    "available_conformers": 47,
+    "selected_indices": [
+      0,
+      46,
+      3,
+      8
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:77fcd5233c32ad771c046976",
+      "graph_id": "GC_MOL_77fcd5233c32ad771c046976",
+      "canonical": "Cc1ccc(S(=O)(=O)N2CCCC2)cc1[N+](=O)[O-]",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "5337bc7b20701859b6a7227a62d4aef9c80b5efa783fdab5a3a948c1508ae526",
+    "failures": [],
+    "available_conformers": 16,
+    "selected_indices": [
+      0,
+      13,
+      5,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0e73f0761295be99dcd31bb0",
+      "graph_id": "GC_MOL_0e73f0761295be99dcd31bb0",
+      "canonical": "O=c1c2ccccc2nnn1CSc1nnc(-c2ccco2)o1",
+      "scaffold": "O=c1c2ccccc2nnn1CSc1nnc(-c2ccco2)o1",
+      "source_split": "test"
+    },
+    "source_sha256": "fe1a630fbdcf49f1316d0e11613612c67b792f4bbca58a2b8f383bd007125234",
+    "failures": [],
+    "available_conformers": 59,
+    "selected_indices": [
+      0,
+      30,
+      8,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:73c902a3593dd55b8728ff35",
+      "graph_id": "GC_MOL_73c902a3593dd55b8728ff35",
+      "canonical": "COc1ccc(N2CCN(S(=O)(=O)c3ccc(Cl)c(C(F)(F)F)c3)CC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "981c01a9374a96cfbeef297ca54717214d2b96950ec38c1bac8a89d543cf1acb",
+    "failures": [],
+    "available_conformers": 50,
+    "selected_indices": [
+      0,
+      42,
+      41,
+      23
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b87094ac4b5751b4be76f531",
+      "graph_id": "GC_MOL_d83d72968b3148bb739b0a64",
+      "canonical": "Cc1ccc(S(=O)(=O)N2CCC[C@H]2C(=O)O)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "c93f4a3182d7060343f4a0a725afcb3fe720537736443026f8afc861c2ca8f7d",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      11,
+      6,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0c962135daca6ed1f360deb1",
+      "graph_id": "GC_MOL_8d4934c1ac3755a088606c7c",
+      "canonical": "COCc1ccc(CN2CCC[C@H](CCC(=O)NCc3cccc(OC)c3)C2)o1",
+      "scaffold": "O=C(CCC1CCCN(Cc2ccco2)C1)NCc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "28bc4c4a61e4f7625022204ad53373ef2161acc4472c793e5d3e90e53f0295a6",
+    "failures": [],
+    "available_conformers": 349,
+    "selected_indices": [
+      0,
+      108,
+      152,
+      16
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:47be64b02dd1899cfed43036",
+      "graph_id": "GC_MOL_47be64b02dd1899cfed43036",
+      "canonical": "CNC(=S)N(Cc1ccco1)Cc1cc2cc(OC)c(OC)cc2[nH]c1=O",
+      "scaffold": "O=c1[nH]c2ccccc2cc1CNCc1ccco1",
+      "source_split": "test"
+    },
+    "source_sha256": "07f73312169ee1e462814b28a82d96089f8e49d9c7da441b63e25ffa5afb83c4",
+    "failures": [],
+    "available_conformers": 39,
+    "selected_indices": [
+      0,
+      20,
+      3,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:3cdc66f8d5531a09ffa0fd79",
+      "graph_id": "GC_MOL_f74ac62ecef73ca9aab3b6e4",
+      "canonical": "CC(=O)Nc1ccc(S(=O)(=O)[N@H+]2CC[C@@H](N3CCCCCC3)CC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)[NH+]1CCC(N2CCCCCC2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "287c7c98b7d7d967789c06903f63561609d71f1dc5a59867435655ddaa070fbf",
+    "failures": [],
+    "available_conformers": 98,
+    "selected_indices": [
+      0,
+      58,
+      50,
+      78
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7326b4545cbedf741b9c0898",
+      "graph_id": "GC_MOL_7326b4545cbedf741b9c0898",
+      "canonical": "CCOc1ccc(-n2cc(-c3ccccc3)c3c(N4CCOCC4)ncnc32)cc1",
+      "scaffold": "c1ccc(-c2cn(-c3ccccc3)c3ncnc(N4CCOCC4)c23)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "588652951a164e0076c034abb59034912bee063110512cefd3ee6b382e457956",
+    "failures": [],
+    "available_conformers": 24,
+    "selected_indices": [
+      0,
+      9,
+      4,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:6c3b53d67f3113d43e1c8c58",
+      "graph_id": "GC_MOL_6c3b53d67f3113d43e1c8c58",
+      "canonical": "Cc1c(C(=O)Nc2ccc3c(c2)OCO3)oc2ccccc12",
+      "scaffold": "O=C(Nc1ccc2c(c1)OCO2)c1cc2ccccc2o1",
+      "source_split": "test"
+    },
+    "source_sha256": "4fd291ef68e292dfe64ac184a7fad4ae0eff731541e91739de61c9046b3445aa",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a561364e6feb03b3e9eb8937",
+      "graph_id": "GC_MOL_a282474799d0aaf9c026b81d",
+      "canonical": "CSc1nnc2c(n1)O[C@H](c1cn(C)c3ccccc13)N(C(C)=O)c1ccccc1-2",
+      "scaffold": "c1ccc2c(c1)NC(c1c[nH]c3ccccc13)Oc1ncnnc1-2",
+      "source_split": "test"
+    },
+    "source_sha256": "f57307bbef9424749a16bcb8be8a9b8a8cf5f8d5414e2935b3d009d96d723cd3",
+    "failures": [],
+    "available_conformers": 7,
+    "selected_indices": [
+      0,
+      1,
+      6,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:26e827495c472b4fd683b9a2",
+      "graph_id": "GC_MOL_26e827495c472b4fd683b9a2",
+      "canonical": "Cc1cccc(NN=C2c3ccccc3-c3ccccc32)c1",
+      "scaffold": "c1ccc(NN=C2c3ccccc3-c3ccccc32)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "54d9ac007dcbcb68f2c41746effed01c946a77caadbc745fb34d9996d3fee6b5",
+    "failures": [],
+    "available_conformers": 4,
+    "selected_indices": [
+      0,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:64c1a456edd947be78a6e91b",
+      "graph_id": "GC_MOL_64c1a456edd947be78a6e91b",
+      "canonical": "Cc1ccc(C)c2c1cc(C)c1nnc(SCC(=O)Nc3cccc(C(=O)O)c3)n12",
+      "scaffold": "O=C(CSc1nnc2ccc3ccccc3n12)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "71e10dfc48665df489ec1231315259136f6363106f35516917cf2db347f74ea2",
+    "failures": [],
+    "available_conformers": 36,
+    "selected_indices": [
+      0,
+      7,
+      9,
+      10
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:bc2fb5eede8ec87084e6d0ac",
+      "graph_id": "GC_MOL_bc2fb5eede8ec87084e6d0ac",
+      "canonical": "NS(=O)(=O)c1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "8defa3225581cb72995f8423c13335a7e9bf8dc85b69d273d076fed7c9165705",
+    "failures": [],
+    "available_conformers": 13,
+    "selected_indices": [
+      0,
+      12,
+      5,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b4bc807ccff4961a01ce646a",
+      "graph_id": "GC_MOL_54ed836a54941db6ba0702f0",
+      "canonical": "C[C@@H](O)/C=C/[C@@H]1OC(=O)C[C@H]1Nc1ccc(C=O)cc1",
+      "scaffold": "O=C1CC(Nc2ccccc2)CO1",
+      "source_split": "test"
+    },
+    "source_sha256": "d0888b40a1cf31b08a75e5a60bfa09e40aef912bea1e34956f7231f10368299e",
+    "failures": [],
+    "available_conformers": 149,
+    "selected_indices": [
+      0,
+      145,
+      46,
+      42
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:43a1a3f0155419bdb3230df4",
+      "graph_id": "GC_MOL_43a1a3f0155419bdb3230df4",
+      "canonical": "Cc1cccc(C)c1N1CCN(S(=O)(=O)c2ccccc2)CC1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCN(c2ccccc2)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "d0a43f452b2f89486d534c92904d98326259c966df0f8abdca5620d4835f5bf6",
+    "failures": [],
+    "available_conformers": 25,
+    "selected_indices": [
+      0,
+      16,
+      11,
+      21
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0332c61347d69b878afed69c",
+      "graph_id": "GC_MOL_0332c61347d69b878afed69c",
+      "canonical": "COc1ccccc1N1CCN(c2ccc([N+](=O)[O-])cn2)CC1",
+      "scaffold": "c1ccc(N2CCN(c3ccccn3)CC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "c105969ac1d1942490f436a9b3ed38db9e722606c17d9832d3498783c61a4950",
+    "failures": [],
+    "available_conformers": 67,
+    "selected_indices": [
+      0,
+      13,
+      62,
+      31
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a9d2e2f5de005bdae1fba45f",
+      "graph_id": "GC_MOL_a9d2e2f5de005bdae1fba45f",
+      "canonical": "CCO[C@@H]1OC(C(=O)N2CCN(Cc3ccc4c(c3)OCO4)CC2)=C[C@H](c2cn(C(C)=O)c3ccccc23)[C@H]1CCCO",
+      "scaffold": "O=C(C1=CC(c2c[nH]c3ccccc23)CCO1)N1CCN(Cc2ccc3c(c2)OCO3)CC1",
+      "source_split": "test"
+    },
+    "source_sha256": "4b0250dd77559b3826f31f29358d085df0022cea71c22ac21babe152800eed5c",
+    "failures": [],
+    "available_conformers": 236,
+    "selected_indices": [
+      0,
+      232,
+      55,
+      139
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:27f92e9ba44f8e710e455cdc",
+      "graph_id": "GC_MOL_27f92e9ba44f8e710e455cdc",
+      "canonical": "O=S(=O)(Nc1ccc(Cl)c(C(F)(F)F)c1)c1cnc[nH]1",
+      "scaffold": "O=S(=O)(Nc1ccccc1)c1cnc[nH]1",
+      "source_split": "test"
+    },
+    "source_sha256": "03eea9709b164b74f4643c318a95cae2a6427f146386299905684b07b73f1a72",
+    "failures": [],
+    "available_conformers": 11,
+    "selected_indices": [
+      0,
+      7,
+      2,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:40b4c60edb4ba5e9de27be74",
+      "graph_id": "GC_MOL_40b4c60edb4ba5e9de27be74",
+      "canonical": "COc1ccc(Nc2oc(COc3ccccc3OC)nc2C#N)cc1",
+      "scaffold": "c1ccc(Nc2cnc(COc3ccccc3)o2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "28911ab0a061f1930adce0ea658170493543bd69e89b3d7394843497cce30235",
+    "failures": [],
+    "available_conformers": 208,
+    "selected_indices": [
+      0,
+      144,
+      73,
+      14
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:d8b8900a9c51b629cfa7e199",
+      "graph_id": "GC_MOL_0082e3587c380ae3f75e12de",
+      "canonical": "CN(C(=O)[C@H]1CCCO1)c1nnc(-c2ccccn2)s1",
+      "scaffold": "O=C(Nc1nnc(-c2ccccn2)s1)C1CCCO1",
+      "source_split": "test"
+    },
+    "source_sha256": "187f0fa78ee87ef5ad0e43551db81fdd2ba28f51e0f98a73612d7435082ac790",
+    "failures": [],
+    "available_conformers": 18,
+    "selected_indices": [
+      0,
+      2,
+      3,
+      15
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:33394c03101b9343011998bf",
+      "graph_id": "GC_MOL_33394c03101b9343011998bf",
+      "canonical": "Cc1ccc(C(=O)N2CCN(C)CC2)cc1S(=O)(=O)N1CCOCC1",
+      "scaffold": "O=C(c1cccc(S(=O)(=O)N2CCOCC2)c1)N1CCNCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2bfb9cf46f7903eb79c023100ade8af7ee074b79a9e341269e6fbb8a8d8b7a24",
+    "failures": [],
+    "available_conformers": 88,
+    "selected_indices": [
+      0,
+      48,
+      86,
+      73
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:1b14bfea5f220d92f879c8fb",
+      "graph_id": "GC_MOL_c7373f210f2879a624a91e7a",
+      "canonical": "O=C(C[C@@H]1C(=O)NCCN1Cc1cccc(F)c1F)NCCCC1CCCC1",
+      "scaffold": "O=C(CC1C(=O)NCCN1Cc1ccccc1)NCCCC1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2984bfb9ec4989b09f7205f1b7f9716bcf0c1f5ceefba04334590ba9bdac80e0",
+    "failures": [],
+    "available_conformers": 335,
+    "selected_indices": [
+      0,
+      15,
+      297,
+      253
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:459fa3302479b18f5d06b52c",
+      "graph_id": "GC_MOL_459fa3302479b18f5d06b52c",
+      "canonical": "N#C/C(=C\\c1ccc(O)c(O)c1)C(=O)NCCCCc1ccccc1",
+      "scaffold": "O=C(C=Cc1ccccc1)NCCCCc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "6cf5c4ad45150fc889265ec9a99c2a299d47b1e63a1a817ee12e71db0f4a39d3",
+    "failures": [],
+    "available_conformers": 101,
+    "selected_indices": [
+      0,
+      32,
+      4,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:0b330e4503816314fc318a82",
+      "graph_id": "GC_MOL_7f0e55cccaa7b98a638af593",
+      "canonical": "CCOC(=O)C1=NN[C@@]2(c3ccc(Cl)cc3)C(=O)N(c3cc(C)cc(C)c3)C(=O)[C@@H]12",
+      "scaffold": "O=C1C2C=NNC2(c2ccccc2)C(=O)N1c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "a23ccb4fa8bcc5dd491441387b9b5f28e35cc28a9a3164ca04f167ae4db95762",
+    "failures": [],
+    "available_conformers": 29,
+    "selected_indices": [
+      0,
+      4,
+      28,
+      2
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a614a23090afc0a2f0d380a5",
+      "graph_id": "GC_MOL_a614a23090afc0a2f0d380a5",
+      "canonical": "O=C(Cn1cc([N+](=O)[O-])cn1)N1CCc2ccccc21",
+      "scaffold": "O=C(Cn1cccn1)N1CCc2ccccc21",
+      "source_split": "test"
+    },
+    "source_sha256": "8b627f60b69abf1352774ebb36d695a2144ac3f29c1d1b4b8eb95649ff23d5d6",
+    "failures": [],
+    "available_conformers": 12,
+    "selected_indices": [
+      0,
+      3,
+      1,
+      11
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:64c0b5de60ff1e75e89f8058",
+      "graph_id": "GC_MOL_64c0b5de60ff1e75e89f8058",
+      "canonical": "O=C(CCSc1ccccc1)Nc1nccs1",
+      "scaffold": "O=C(CCSc1ccccc1)Nc1nccs1",
+      "source_split": "test"
+    },
+    "source_sha256": "bd19b70e1b8faded970c8f7face9a5bf227fb41e3faa514362d3d31a3a57945b",
+    "failures": [],
+    "available_conformers": 67,
+    "selected_indices": [
+      0,
+      41,
+      33,
+      4
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:8c015781b29fa86d1d011f99",
+      "graph_id": "GC_MOL_341d58bda9f72395d3bab1c0",
+      "canonical": "CCN1CCC[C@@H]1CNC(=O)c1cc2c(-c3cccc(OC)c3)nn(C)c2s1",
+      "scaffold": "O=C(NCC1CCCN1)c1cc2c(-c3ccccc3)n[nH]c2s1",
+      "source_split": "test"
+    },
+    "source_sha256": "f75f96c26fe3557c686354dad40174ee92cbda17e54f16e11be814c10a3a9ec2",
+    "failures": [],
+    "available_conformers": 282,
+    "selected_indices": [
+      0,
+      105,
+      56,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:7f40fb292be25f6a2182252e",
+      "graph_id": "GC_MOL_7f40fb292be25f6a2182252e",
+      "canonical": "Cc1onc(-c2ccccc2Cl)c1C(=O)Nc1ccc(F)c(F)c1",
+      "scaffold": "O=C(Nc1ccccc1)c1conc1-c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "61deff04ef9b03489380bfeebbe5792809ab3ab58316370aca34fefaa34c3a69",
+    "failures": [],
+    "available_conformers": 17,
+    "selected_indices": [
+      0,
+      10,
+      11,
+      15
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:8871674c6746dfda7c21f35b",
+      "graph_id": "GC_MOL_8871674c6746dfda7c21f35b",
+      "canonical": "COc1ccc([C@@H]2[C@@H]3C(=O)N(C(C)(C)C)C(=O)[C@@H]3[C@]3(Cc4ccc(Cl)cc4)C(=O)N(c4ccc(Br)cc4)C(=O)N23)cc1",
+      "scaffold": "O=C1NC(=O)C2C1C(c1ccccc1)N1C(=O)N(c3ccccc3)C(=O)C21Cc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "af355e258079260ebc6cb010542ffef5729633c29298ca471608fb2f7255cb09",
+    "failures": [],
+    "available_conformers": 35,
+    "selected_indices": [
+      0,
+      5,
+      26,
+      15
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a9fb592c42c2888c8eeab570",
+      "graph_id": "GC_MOL_a9fb592c42c2888c8eeab570",
+      "canonical": "CNC(=O)COC(=O)c1ccc(Cl)c(S(=O)(=O)N2CCCC2)c1",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "dfa48844f09bec38d4d8e9f03a1485b3e3db4e5542d7a66b4c37919ed0a2f06f",
+    "failures": [],
+    "available_conformers": 80,
+    "selected_indices": [
+      0,
+      51,
+      37,
+      71
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:e8e482e3589544c869a57521",
+      "graph_id": "GC_MOL_e8e482e3589544c869a57521",
+      "canonical": "Clc1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "scaffold": "c1ccc(OCc2nc3ccccc3[nH]2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "98cd2237616e43f9fe0ef972d656916925ff003a1dfd9b02729a08612b9a8ea2",
+    "failures": [],
+    "available_conformers": 6,
+    "selected_indices": [
+      0,
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5f7725627b7bf096635d7352",
+      "graph_id": "GC_MOL_d3c8119893eccdb4e12d8f22",
+      "canonical": "CC[C@@H](OC[C@@H](O)C[NH+]1CCCCC1)c1ccccc1",
+      "scaffold": "c1ccc(COCCC[NH+]2CCCCC2)cc1",
+      "source_split": "test"
+    },
+    "source_sha256": "6e338cf4dbb8835718b40eb77e624f284b47e181ef6fc5f3ba80d77a2bf0423a",
+    "failures": [],
+    "available_conformers": 112,
+    "selected_indices": [
+      0,
+      90,
+      65,
+      12
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a84dafa36d205358595f2fbe",
+      "graph_id": "GC_MOL_a84dafa36d205358595f2fbe",
+      "canonical": "O=C(CNC(=O)OCc1ccccc1)NCC(=O)Nc1ccc(Br)cc1C(=O)c1ccccc1",
+      "scaffold": "O=C(CNC(=O)OCc1ccccc1)NCC(=O)Nc1ccccc1C(=O)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "d522877689efefba66dbbb63206d0f89e91353b6b04c14548e7e4461187ea478",
+    "failures": [],
+    "available_conformers": 42,
+    "selected_indices": [
+      0,
+      1,
+      23,
+      32
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:ef31360baf6de452e858b957",
+      "graph_id": "GC_MOL_ede3356085cbf71a1532e7c8",
+      "canonical": "C[C@@H](NC1CCCCC1)C(=O)NN=C(c1ccccc1)c1ccccc1",
+      "scaffold": "O=C(CNC1CCCCC1)NN=C(c1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "63a9d6792a56d0b7a0a26b8b1d8d431cc448a3c422fb44c5f1925c9eee7990a5",
+    "failures": [],
+    "available_conformers": 130,
+    "selected_indices": [
+      0,
+      42,
+      33,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:9677534ecc8f06ffc823e090",
+      "graph_id": "GC_MOL_9677534ecc8f06ffc823e090",
+      "canonical": "CCn1c(SCc2nnc(-c3ccccc3)o2)nnc1-c1ccc(S(=O)(=O)N2CCCC2)cc1",
+      "scaffold": "O=S(=O)(c1ccc(-c2nnc(SCc3nnc(-c4ccccc4)o3)[nH]2)cc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2e6ed27448be8be714dbf20158406112accaba8b56e1de13c2d72f7a3b104bc4",
+    "failures": [],
+    "available_conformers": 175,
+    "selected_indices": [
+      0,
+      75,
+      5,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:dfea337d64eccf3c808c0238",
+      "graph_id": "GC_MOL_dfea337d64eccf3c808c0238",
+      "canonical": "COc1ccccc1NC(=O)COC(=O)c1ccc2c(c1)nc(C)n2-c1ccccc1",
+      "scaffold": "O=C(COC(=O)c1ccc2c(c1)ncn2-c1ccccc1)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "b9afa44ef3bf1e60535534236dcc20634af756b83aec636db8d36dcea35215b7",
+    "failures": [],
+    "available_conformers": 42,
+    "selected_indices": [
+      0,
+      19,
+      7,
+      39
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:5e03256f14d979da6afc35c7",
+      "graph_id": "GC_MOL_5e03256f14d979da6afc35c7",
+      "canonical": "COc1ccc2cc(C)c3nnc(SCC(=O)Nc4cc(OC)c(OC)cc4C(=O)O)n3c2c1",
+      "scaffold": "O=C(CSc1nnc2ccc3ccccc3n12)Nc1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "72e145b4237766dc8b3abe6fdf86eb330c766c99c1ed1650d377856afdd2c0d9",
+    "failures": [],
+    "available_conformers": 53,
+    "selected_indices": [
+      0,
+      26,
+      19,
+      46
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4029401e14e98911b34086eb",
+      "graph_id": "GC_MOL_4029401e14e98911b34086eb",
+      "canonical": "COC(=O)c1cc(-c2cccs2)[nH]n1",
+      "scaffold": "c1csc(-c2ccn[nH]2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "b36407585a9a4e45cc3b6b35e5e40805d530ec5f674c51efd598dd4c9a586d88",
+    "failures": [],
+    "available_conformers": 8,
+    "selected_indices": [
+      0,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:b10e92bb3f94612ae15c2a4b",
+      "graph_id": "GC_MOL_b10e92bb3f94612ae15c2a4b",
+      "canonical": "O=C(Cc1ccccc1)Nc1nc(-c2cccs2)cs1",
+      "scaffold": "O=C(Cc1ccccc1)Nc1nc(-c2cccs2)cs1",
+      "source_split": "test"
+    },
+    "source_sha256": "079277a7e3c39c80869a445adc659539d287b67173ce072ea8bd1e6e0b13a178",
+    "failures": [],
+    "available_conformers": 45,
+    "selected_indices": [
+      0,
+      26,
+      16,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4215d63857a65f66e4669198",
+      "graph_id": "GC_MOL_4215d63857a65f66e4669198",
+      "canonical": "COc1cc(S(=O)(=O)N2CCCC2)c(C)cc1C",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "9acef263cabe4514d01ec279abe40c8eadf63095813b0be57da17db461c878a2",
+    "failures": [],
+    "available_conformers": 18,
+    "selected_indices": [
+      0,
+      1,
+      9,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:10ff54e4ec3b715a90cd40f2",
+      "graph_id": "GC_MOL_10ff54e4ec3b715a90cd40f2",
+      "canonical": "COC(=O)c1ccc(CO/N=C/c2ccccc2OC)cc1",
+      "scaffold": "C(=NOCc1ccccc1)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "f7455dc5801f7060752c321e04216a0f463314ebdb10c480247a6d34b5cb9618",
+    "failures": [],
+    "available_conformers": 73,
+    "selected_indices": [
+      0,
+      70,
+      46,
+      26
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:4c7e8bd1753abb5281cf13aa",
+      "graph_id": "GC_MOL_4c7e8bd1753abb5281cf13aa",
+      "canonical": "COc1ccc(OCC(=O)Nc2nc3ccc(NC(C)=O)cc3s2)cc1",
+      "scaffold": "O=C(COc1ccccc1)Nc1nc2ccccc2s1",
+      "source_split": "test"
+    },
+    "source_sha256": "d4763d91a07bd65365dd91ec80eeefc47fa1ed31c16fe9232119d24c7ed67659",
+    "failures": [],
+    "available_conformers": 180,
+    "selected_indices": [
+      0,
+      161,
+      96,
+      41
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:703279ccf4515ce1b4cb116c",
+      "graph_id": "GC_MOL_703279ccf4515ce1b4cb116c",
+      "canonical": "CCOC(=O)C1(P(=O)(c2ccc(Cl)cc2)c2ccc(Cl)cc2)CCC1",
+      "scaffold": "O=P(c1ccccc1)(c1ccccc1)C1CCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "2e303c512be4e8a66a8f03e530ef9a39b708c4c0144860c34fc272b2d48071ab",
+    "failures": [
+      {
+        "conformer_index": 10,
+        "error": "AssertionError('conformer canonical graph/identity mismatch')",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/geom_connection_geometry_training/source/prepare.py\", line 77, in process\n    assert canonical==item['canonical'],'conformer canonical graph/identity mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: conformer canonical graph/identity mismatch\n"
+      },
+      {
+        "conformer_index": 14,
+        "error": "AssertionError('conformer canonical graph/identity mismatch')",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/geom_connection_geometry_training/source/prepare.py\", line 77, in process\n    assert canonical==item['canonical'],'conformer canonical graph/identity mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: conformer canonical graph/identity mismatch\n"
+      },
+      {
+        "conformer_index": 18,
+        "error": "AssertionError('conformer canonical graph/identity mismatch')",
+        "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/geom_connection_geometry_training/source/prepare.py\", line 77, in process\n    assert canonical==item['canonical'],'conformer canonical graph/identity mismatch'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: conformer canonical graph/identity mismatch\n"
+      }
+    ],
+    "available_conformers": 23,
+    "selected_indices": [
+      0,
+      10,
+      14,
+      18
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:209c1649e9be962b47c4846b",
+      "graph_id": "GC_MOL_209c1649e9be962b47c4846b",
+      "canonical": "O=C(OCC(=O)N1CCCC1=O)c1ccc(F)c(S(=O)(=O)N2CCOCC2)c1",
+      "scaffold": "O=C(OCC(=O)N1CCCC1=O)c1cccc(S(=O)(=O)N2CCOCC2)c1",
+      "source_split": "test"
+    },
+    "source_sha256": "69a475e280ace6e36986cc7c309a609e519000338f33a5f549f07a35071f6e0d",
+    "failures": [],
+    "available_conformers": 135,
+    "selected_indices": [
+      0,
+      29,
+      126,
+      124
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:a0494116fa6b3151ee8c1739",
+      "graph_id": "GC_MOL_405a4b70d0553d2d9f824399",
+      "canonical": "Cc1ccc(S(=O)(=O)N2CCc3ccccc3[C@@H]2CN2C(=O)c3ccccc3C2=O)cc1",
+      "scaffold": "O=C1c2ccccc2C(=O)N1CC1c2ccccc2CCN1S(=O)(=O)c1ccccc1",
+      "source_split": "test"
+    },
+    "source_sha256": "632891fd8f050474821268617bc97ef83102d6ee996b960d14ab6d33ab4f7d32",
+    "failures": [],
+    "available_conformers": 22,
+    "selected_indices": [
+      0,
+      11,
+      10,
+      7
+    ]
+  },
+  {
+    "selection": {
+      "id": "geom_drugs:00dd479d71471e669a3fa16c",
+      "graph_id": "GC_MOL_00dd479d71471e669a3fa16c",
+      "canonical": "COC(=O)c1cc(S(=O)(=O)N2CCCC2)c(Cl)cc1Cl",
+      "scaffold": "O=S(=O)(c1ccccc1)N1CCCC1",
+      "source_split": "test"
+    },
+    "source_sha256": "985db1c7ffd5adaaa0b00cfda637c90d1ea36882161c99bafaa7a4603756ba0e",
+    "failures": [],
+    "available_conformers": 29,
+    "selected_indices": [
+      0,
+      14,
+      8,
+      28
+    ]
+  }
+]

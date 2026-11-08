@@ -1,0 +1,162 @@
+{
+  "experiment": "geom_connection_geometry_training_small_20261106",
+  "user_confirmed": {
+    "train_molecules": 2000,
+    "val_molecules": 256,
+    "test_molecules": 256,
+    "scaffold_test_molecules": 256,
+    "max_conformers": 4,
+    "seeds": [
+      20261106,
+      20261107,
+      20261108
+    ],
+    "physical_GPU": 0,
+    "wall_budget_hours": 24,
+    "A3": "Connection classifier inherited from A2 plus SE3 head supervised only by MMFF94s cross-fragment bond length",
+    "A4": "Same head plus bond-angle and relative bond-axis/nonrotatable double-bond torsion supervision; no target torsion loss for single bonds"
+  },
+  "frozen_modules": [
+    "GEOM identity predictor",
+    "official SigmaDock",
+    "baseline checkpoint file and its frozen legacy expert"
+  ],
+  "data": {
+    "canonical_graph_split": "Preserve original source train/dev/test; canonical isomeric molecule grouping; reserve scaffold test families before selecting all other sets",
+    "conformer_selection": "Index0 plus deterministic hash-selected other 3, at most4; invalid conformers recorded without replacement; no energy/quality ranking",
+    "rigid_fragments": "Actual per-conformer internal geometry in vocabulary-aligned local frames; all atoms in a fragment move rigidly; exact graph/atom/stereo verification",
+    "reference_bond": "MMFF94s full original molecule equilibrium lengths; unavailable mask false and recorded, never fixed element-pair constants",
+    "reference_angle": "Per-conformer original GEOM angle, radians in loss, degrees in metrics",
+    "stereo_mapping": {
+      "unspecified": 0,
+      "E": 1,
+      "Z": 2
+    }
+  },
+  "noise": {
+    "provider": "Frozen official SE3Diffuser forward_marginal VP/IGSO3 parameters",
+    "frames": "T centroid in Angstrom; scaled C0=T0/2.7; Q0=R0; identity refR and zero offset for molecule-only frames",
+    "training_mixture": [
+      "25% U(0.0001,0.05)",
+      "35% U(0.05,0.4)",
+      "40% U(0.4,1.0)"
+    ],
+    "evaluation_t": [
+      0,
+      0.02,
+      0.1,
+      0.3,
+      0.6,
+      0.9,
+      0.98
+    ],
+    "selection_t": [
+      0.02,
+      0.3,
+      0.9
+    ],
+    "distance_pruning": false,
+    "all_true_ports_retained": true,
+    "paired_evaluation": "Fixed hash(seed, conformer ID, t) for official marginal; common per-conformer noise independent of batch/subset/order, shared raw/search/geometry/MMFF"
+  },
+  "groups": [
+    "A0",
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A1_2d",
+    "A2_2d"
+  ],
+  "classification": {
+    "epochs": 40,
+    "batch_molecules": 16,
+    "conformer_schedule": "All2000 mothers once per epoch; conformer epoch modulo available count; epoch40 rotates all retained conformers",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5,
+    "loss": "sqrt inverse-frequency weighted CE, max weight30, equal-molecule weighting plus .2 stereoCE on true double bonds",
+    "frozen_legacy_expert": true,
+    "precision": "FP32",
+    "selection": "Best mean raw typed-port F1 over all256 validation molecules, first available conformer, 3 noise levels; every5 epochs; no test selection",
+    "raw_decoding": "Argmax no-bond/single/double, no forced complete tree; binary AP also retained"
+  },
+  "geometry": {
+    "iterations": 4,
+    "local_frame_translation_component_bound_A": 12,
+    "local_frame_rotation_component_bound_rad": 0.6,
+    "architecture": "Local 6D twist MLP; atomZ/point-cloud, identities, composition, relative poses, bond order/stereo, t; shared directed messages; global-translation removal",
+    "oracle_epochs": 40,
+    "oracle_batch_molecules": 16,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "gradient_clip": 5,
+    "loss_A3": "mean squared bond distance residual in A^2",
+    "loss_A4": "bondMSE +2*angleCosMSE +.5*(relativeAxisMSE + nonrotatableDoubleBondCircularMSE)",
+    "single_bond_torsion_loss": false,
+    "reference_center_or_global_xyz_loss": false,
+    "geometry_from_differentiable_coordinates": true,
+    "selection": "Best same objective on all256 validation molecules and 3 fixed noise strata every5 epochs"
+  },
+  "predicted_adaptation": {
+    "train_molecules": 128,
+    "val_molecules": 32,
+    "conformers": 1,
+    "t": [
+      0.02,
+      0.3,
+      0.9
+    ],
+    "epochs": 10,
+    "lr": 5e-05,
+    "batch_views": 8,
+    "wrong_edges": "Remain in predicted graph input; no false edge gets true geometric target; only true matching typed/stereo edges and compatible angles supervised",
+    "retain_initial_checkpoint_if_no_validation_improvement": true
+  },
+  "joint": {
+    "epochs": 5,
+    "lr": 5e-05,
+    "batch_views": 8,
+    "gate_A": "A2 validation F1 > A0",
+    "gate_B": "Oracle bond MAE improves >=10%; A4 angle MAE also improves",
+    "gate_C": "Predicted-graph adaptation validation objective improves >=1%",
+    "selection": "Joint geometry+CE validation loss; CE gradient through corrected coordinates enabled; discrete search detached"
+  },
+  "search": {
+    "test_molecules_per_set": 32,
+    "conformers": 1,
+    "t": [
+      0.02,
+      0.3,
+      0.9
+    ],
+    "source": "Same hierarchical_search, all legal input-only port options, fixed SearchConfig",
+    "width": 128,
+    "skeleton_count": 24,
+    "port_width": 64,
+    "pair_options": 64,
+    "k": 1
+  },
+  "MMFF": {
+    "test_molecules_per_set": 16,
+    "conformers": 1,
+    "t": [
+      0.02,
+      0.3,
+      0.9
+    ],
+    "variant": "MMFF94s",
+    "max_iterations": 200,
+    "starting_point": "Original noisy coordinates, independent of neural correction",
+    "topology": "Oracle true full graph; explicitly diagnostic"
+  },
+  "metrics": {
+    "joint_bond_absolute_error_A": 0.15,
+    "joint_angle_absolute_error_deg": 15,
+    "severe_nonbond_clash": "inter-fragment nonbonded pair outside 1-2/1-3 neighbors, distance < .6*(vdw radii sum)",
+    "conformer_reference_coverage_RMSD_A": 1,
+    "symmetry_correction": false,
+    "baseline_pretraining_scope": "Scaffold disjoint relative to this GEOM fine-tune/smoke, not proven unseen across the PDBBind pretraining universe"
+  },
+  "large_scale_training_authorized": false
+}

@@ -1,0 +1,9 @@
+split,group,condition,total_views,available_views,before_bond_MAE_A,after_bond_MAE_A,before_angle_MAE_deg,after_angle_MAE_deg,clash_before,clash_after,joint_success_per_all_view
+scaffold_test,A3,Oracle_true_graph,21084,21084,2.8133,0.2600,32.0398,42.7285,0.5670,0.9968,0.0000
+scaffold_test,A3,predicted_legal_graph,288,288,2.6947,0.2553,33.4920,44.0427,0.5417,0.9931,0.0000
+scaffold_test,A4,Oracle_true_graph,21084,21084,2.8133,0.3779,32.0398,23.3396,0.5670,0.6893,0.0007
+scaffold_test,A4,predicted_legal_graph,288,288,2.7111,0.3444,33.0301,22.0211,0.5417,0.7500,0.0035
+test,A3,Oracle_true_graph,21105,21105,2.8473,0.2690,32.2712,42.9412,0.5889,0.9977,0.0000
+test,A3,predicted_legal_graph,288,288,2.5256,0.2471,32.5120,43.1121,0.5972,1.0000,0.0000
+test,A4,Oracle_true_graph,21105,21105,2.8473,0.3751,32.2712,23.6352,0.5889,0.7002,0.0003
+test,A4,predicted_legal_graph,288,288,2.5496,0.3578,32.7890,20.8092,0.5972,0.7604,0.0035

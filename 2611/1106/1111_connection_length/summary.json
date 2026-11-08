@@ -1,0 +1,433 @@
+{
+  "status": {
+    "stage": "complete",
+    "training_complete": true,
+    "completed_seeds": [
+      20261106,
+      20261107,
+      20261108
+    ],
+    "elapsed_hours": 4.9051578920458105,
+    "official_weights_unchanged": true,
+    "full_GEOM_training_started": false
+  },
+  "datasets": {
+    "train": {
+      "raw_selected_molecules": 2000,
+      "usable_molecules": 2000,
+      "usable_conformers": 7845,
+      "failures": 36,
+      "N_distribution": {
+        "4": 1801,
+        "6": 1588,
+        "7": 951,
+        "5": 2085,
+        "3": 811,
+        "9": 68,
+        "8": 372,
+        "2": 145,
+        "10": 16,
+        "12": 4,
+        "11": 4
+      },
+      "true_bond_orders": {
+        "1": 32166,
+        "2": 366
+      },
+      "mmff_bonds_available": 32532,
+      "mmff_bonds_total": 32532,
+      "pt_sha256": "50659aca31a101f9bae58e297069840815957cc11437011e5739bd4d6b00c4ec"
+    },
+    "val": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1000,
+      "failures": 6,
+      "N_distribution": {
+        "5": 249,
+        "6": 212,
+        "7": 152,
+        "8": 44,
+        "4": 178,
+        "3": 124,
+        "2": 25,
+        "9": 16
+      },
+      "true_bond_orders": {
+        "1": 4189,
+        "2": 22
+      },
+      "mmff_bonds_available": 4211,
+      "mmff_bonds_total": 4211,
+      "pt_sha256": "11ae7bc9f596239c8771dacb89d58a854fd8b8819d0ebf8df20b70838455a3e2"
+    },
+    "test": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1005,
+      "failures": 6,
+      "N_distribution": {
+        "5": 279,
+        "7": 122,
+        "6": 224,
+        "4": 193,
+        "3": 79,
+        "9": 36,
+        "10": 4,
+        "8": 52,
+        "2": 16
+      },
+      "true_bond_orders": {
+        "1": 4362,
+        "2": 47
+      },
+      "mmff_bonds_available": 4409,
+      "mmff_bonds_total": 4409,
+      "pt_sha256": "c277fd3b6d204ac0179d2c225d3cbaaba3cfe63c9028b5291f643164ff2f85ac"
+    },
+    "scaffold_test": {
+      "raw_selected_molecules": 256,
+      "usable_molecules": 256,
+      "usable_conformers": 1004,
+      "failures": 4,
+      "N_distribution": {
+        "3": 120,
+        "4": 237,
+        "5": 233,
+        "6": 209,
+        "7": 128,
+        "8": 52,
+        "2": 17,
+        "9": 8
+      },
+      "true_bond_orders": {
+        "2": 36,
+        "1": 4105
+      },
+      "mmff_bonds_available": 4141,
+      "mmff_bonds_total": 4141,
+      "pt_sha256": "e6e21fff5b5b946cb81476aa40aab98efbe0cb1b83aa12dcede9047770b40122"
+    }
+  },
+  "connection": [
+    {
+      "split": "scaffold_test",
+      "group": "A0",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.4575",
+      "mean_AP": "0.4368",
+      "mean_raw_exact_graph_rate": "0.1382",
+      "mean_raw_legal_graph_rate": "0.1483"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A1",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5321",
+      "mean_AP": "0.5271",
+      "mean_raw_exact_graph_rate": "0.2042",
+      "mean_raw_legal_graph_rate": "0.2194"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A1_2d",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.3199",
+      "mean_AP": "0.2833",
+      "mean_raw_exact_graph_rate": "0.0048",
+      "mean_raw_legal_graph_rate": "0.0296"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A2",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5323",
+      "mean_AP": "0.5271",
+      "mean_raw_exact_graph_rate": "0.2047",
+      "mean_raw_legal_graph_rate": "0.2206"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A2_2d",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.3202",
+      "mean_AP": "0.2834",
+      "mean_raw_exact_graph_rate": "0.0048",
+      "mean_raw_legal_graph_rate": "0.0294"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A3",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5260",
+      "mean_AP": "0.5187",
+      "mean_raw_exact_graph_rate": "0.1825",
+      "mean_raw_legal_graph_rate": "0.1989"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A4",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5323",
+      "mean_AP": "0.5271",
+      "mean_raw_exact_graph_rate": "0.2047",
+      "mean_raw_legal_graph_rate": "0.2206"
+    },
+    {
+      "split": "test",
+      "group": "A0",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.4455",
+      "mean_AP": "0.4335",
+      "mean_raw_exact_graph_rate": "0.1328",
+      "mean_raw_legal_graph_rate": "0.1427"
+    },
+    {
+      "split": "test",
+      "group": "A1",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5194",
+      "mean_AP": "0.5033",
+      "mean_raw_exact_graph_rate": "0.1951",
+      "mean_raw_legal_graph_rate": "0.2060"
+    },
+    {
+      "split": "test",
+      "group": "A1_2d",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.2968",
+      "mean_AP": "0.2529",
+      "mean_raw_exact_graph_rate": "0.0022",
+      "mean_raw_legal_graph_rate": "0.0127"
+    },
+    {
+      "split": "test",
+      "group": "A2",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5194",
+      "mean_AP": "0.5031",
+      "mean_raw_exact_graph_rate": "0.1956",
+      "mean_raw_legal_graph_rate": "0.2070"
+    },
+    {
+      "split": "test",
+      "group": "A2_2d",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.2967",
+      "mean_AP": "0.2530",
+      "mean_raw_exact_graph_rate": "0.0024",
+      "mean_raw_legal_graph_rate": "0.0131"
+    },
+    {
+      "split": "test",
+      "group": "A3",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5131",
+      "mean_AP": "0.4973",
+      "mean_raw_exact_graph_rate": "0.1760",
+      "mean_raw_legal_graph_rate": "0.1874"
+    },
+    {
+      "split": "test",
+      "group": "A4",
+      "seeds": 3,
+      "noise_strata": 7,
+      "mean_F1": "0.5194",
+      "mean_AP": "0.5031",
+      "mean_raw_exact_graph_rate": "0.1956",
+      "mean_raw_legal_graph_rate": "0.2070"
+    }
+  ],
+  "geometry": [
+    {
+      "split": "scaffold_test",
+      "group": "A3",
+      "condition": "Oracle_true_graph",
+      "total_views": 21084,
+      "available_views": 21084,
+      "before_bond_MAE_A": "2.8133",
+      "after_bond_MAE_A": "0.2600",
+      "before_angle_MAE_deg": "32.0398",
+      "after_angle_MAE_deg": "42.7285",
+      "clash_before": "0.5670",
+      "clash_after": "0.9968",
+      "joint_success_per_all_view": "0.0000"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A3",
+      "condition": "predicted_legal_graph",
+      "total_views": 288,
+      "available_views": 288,
+      "before_bond_MAE_A": "2.6947",
+      "after_bond_MAE_A": "0.2553",
+      "before_angle_MAE_deg": "33.4920",
+      "after_angle_MAE_deg": "44.0427",
+      "clash_before": "0.5417",
+      "clash_after": "0.9931",
+      "joint_success_per_all_view": "0.0000"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A4",
+      "condition": "Oracle_true_graph",
+      "total_views": 21084,
+      "available_views": 21084,
+      "before_bond_MAE_A": "2.8133",
+      "after_bond_MAE_A": "0.3779",
+      "before_angle_MAE_deg": "32.0398",
+      "after_angle_MAE_deg": "23.3396",
+      "clash_before": "0.5670",
+      "clash_after": "0.6893",
+      "joint_success_per_all_view": "0.0007"
+    },
+    {
+      "split": "scaffold_test",
+      "group": "A4",
+      "condition": "predicted_legal_graph",
+      "total_views": 288,
+      "available_views": 288,
+      "before_bond_MAE_A": "2.7111",
+      "after_bond_MAE_A": "0.3444",
+      "before_angle_MAE_deg": "33.0301",
+      "after_angle_MAE_deg": "22.0211",
+      "clash_before": "0.5417",
+      "clash_after": "0.7500",
+      "joint_success_per_all_view": "0.0035"
+    },
+    {
+      "split": "test",
+      "group": "A3",
+      "condition": "Oracle_true_graph",
+      "total_views": 21105,
+      "available_views": 21105,
+      "before_bond_MAE_A": "2.8473",
+      "after_bond_MAE_A": "0.2690",
+      "before_angle_MAE_deg": "32.2712",
+      "after_angle_MAE_deg": "42.9412",
+      "clash_before": "0.5889",
+      "clash_after": "0.9977",
+      "joint_success_per_all_view": "0.0000"
+    },
+    {
+      "split": "test",
+      "group": "A3",
+      "condition": "predicted_legal_graph",
+      "total_views": 288,
+      "available_views": 288,
+      "before_bond_MAE_A": "2.5256",
+      "after_bond_MAE_A": "0.2471",
+      "before_angle_MAE_deg": "32.5120",
+      "after_angle_MAE_deg": "43.1121",
+      "clash_before": "0.5972",
+      "clash_after": "1.0000",
+      "joint_success_per_all_view": "0.0000"
+    },
+    {
+      "split": "test",
+      "group": "A4",
+      "condition": "Oracle_true_graph",
+      "total_views": 21105,
+      "available_views": 21105,
+      "before_bond_MAE_A": "2.8473",
+      "after_bond_MAE_A": "0.3751",
+      "before_angle_MAE_deg": "32.2712",
+      "after_angle_MAE_deg": "23.6352",
+      "clash_before": "0.5889",
+      "clash_after": "0.7002",
+      "joint_success_per_all_view": "0.0003"
+    },
+    {
+      "split": "test",
+      "group": "A4",
+      "condition": "predicted_legal_graph",
+      "total_views": 288,
+      "available_views": 288,
+      "before_bond_MAE_A": "2.5496",
+      "after_bond_MAE_A": "0.3578",
+      "before_angle_MAE_deg": "32.7890",
+      "after_angle_MAE_deg": "20.8092",
+      "clash_before": "0.5972",
+      "clash_after": "0.7604",
+      "joint_success_per_all_view": "0.0035"
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "split": "test",
+      "comparison": "A2 minus A1",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.0005187254573421001,
+      "CI95_low": -0.0003150941236785767,
+      "CI95_high": 0.0013906856659432918,
+      "positive_interval": false,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    },
+    {
+      "split": "test",
+      "comparison": "A2 minus A2_2d",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.22686826259079967,
+      "CI95_low": 0.21333976538518815,
+      "CI95_high": 0.24171843902394038,
+      "positive_interval": true,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    },
+    {
+      "split": "test",
+      "comparison": "A1 minus A1_2d",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.22613438088963,
+      "CI95_low": 0.2126724958149206,
+      "CI95_high": 0.24072520484253038,
+      "positive_interval": true,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    },
+    {
+      "split": "scaffold_test",
+      "comparison": "A2 minus A1",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.0004828256836385315,
+      "CI95_low": -0.00039472723533987323,
+      "CI95_high": 0.0013382210247894347,
+      "positive_interval": false,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    },
+    {
+      "split": "scaffold_test",
+      "comparison": "A2 minus A2_2d",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.21592170575569566,
+      "CI95_low": 0.2034774576754824,
+      "CI95_high": 0.22759964768669994,
+      "positive_interval": true,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    },
+    {
+      "split": "scaffold_test",
+      "comparison": "A1 minus A1_2d",
+      "molecules": 256,
+      "mean_paired_case_F1_difference": 0.2156566879946579,
+      "CI95_low": 0.20307363209211737,
+      "CI95_high": 0.2275860916298286,
+      "positive_interval": true,
+      "scope": "Molecule bootstrap after averaging conformers, noise strata and available seeds; interim until all 3 seeds complete"
+    }
+  ],
+  "formal_connection_rows": 294,
+  "formal_geometry_rows": 85530,
+  "formal_search_views": 4032
+}

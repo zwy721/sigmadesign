@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "evaluation_noise_batch_subset_invariance": true,
+  "evaluation_noise_cache_clear_reproducible": true,
+  "scope": "Tiny train-only software smoke, not independent model performance",
+  "predicted_optimizer_steps": 10,
+  "joint_optimizer_steps": 5,
+  "geometry_views": 8,
+  "conformer_rows": 4,
+  "MMFF_views": [
+    {
+      "seed": 7883,
+      "split": "train_only",
+      "id": "geom_drugs:60105fd9d1911fcae68d9c98:0",
+      "t": 0.02,
+      "topology": "Oracle true chemical graph",
+      "method": "Independent full-atom MMFF94s from noisy input; maxIters=200; no neural attribution",
+      "seconds": 0.025610923767089844,
+      "status": "evaluated",
+      "optimizer_status": 0,
+      "converged": true,
+      "bond_MAE_A": 0.013627910986542702,
+      "angle_MAE_deg": 1.5741952657699585,
+      "severe_interfragment_clash": false
+    },
+    {
+      "seed": 7883,
+      "split": "train_only",
+      "id": "geom_drugs:60105fd9d1911fcae68d9c98:0",
+      "t": 0.3,
+      "topology": "Oracle true chemical graph",
+      "method": "Independent full-atom MMFF94s from noisy input; maxIters=200; no neural attribution",
+      "seconds": 0.02362799644470215,
+      "status": "evaluated",
+      "optimizer_status": 1,
+      "converged": false,
+      "bond_MAE_A": 0.01184535026550293,
+      "angle_MAE_deg": 2.7828381061553955,
+      "severe_interfragment_clash": false
+    },
+    {
+      "seed": 7883,
+      "split": "train_only",
+      "id": "geom_drugs:60105fd9d1911fcae68d9c98:0",
+      "t": 0.9,
+      "topology": "Oracle true chemical graph",
+      "method": "Independent full-atom MMFF94s from noisy input; maxIters=200; no neural attribution",
+      "seconds": 0.02364516258239746,
+      "status": "evaluated",
+      "optimizer_status": 1,
+      "converged": false,
+      "bond_MAE_A": 0.01348204631358385,
+      "angle_MAE_deg": 2.995659828186035,
+      "severe_interfragment_clash": false
+    }
+  ]
+}

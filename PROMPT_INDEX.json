@@ -2,11 +2,11 @@
   "supplemented_at_Asia_Shanghai": "2026-11-04T13:51:09.134679+08:00",
   "timezone": "Asia/Shanghai",
   "coverage": {
-    "task_groups": 14,
-    "task_groups_with_preserved_prompt": 12,
+    "task_groups": 15,
+    "task_groups_with_preserved_prompt": 13,
     "task_groups_without_original_prompt": 2,
-    "prompt_files_including_legacy_copy": 13,
-    "distinct_prompt_contents": 11
+    "prompt_files_including_legacy_copy": 14,
+    "distinct_prompt_contents": 12
   },
   "entries": [
     {
@@ -215,8 +215,18 @@
       "bytes": 5954,
       "sha256": "cbc03d679016ff22927a7ea256a298d32e3e3ed04a69559bd748380e4954bec0",
       "source_modified_Asia_Shanghai": "2026-11-05T13:49:35.050497+08:00"
+    },
+    {
+      "task_key": "geom_connection_geometry_training_20261106",
+      "task_title": "GEOM带噪片段连接与局部几何训练",
+      "repository_directory": "2611/1106/1111_connection_length",
+      "status": "preserved_original",
+      "source": "2611/1106/1111_connection_length/prompt.md",
+      "prompt_path": "2611/1106/1111_connection_length/prompt.md",
+      "bytes": 12960,
+      "sha256": "9fcdbff59626cbc46948e174a7d48ab97afe64876cca3edaaa2c6cade28bffb4"
     }
   ],
   "note": "Preserved prompts are byte-for-byte copies. Missing originals are not reconstructed.",
-  "last_appended_at_Asia_Shanghai": "2026-11-05T23:27:25.210995+08:00"
+  "last_appended_at_Asia_Shanghai": "2026-11-08T21:11:03.288780+08:00"
 }
