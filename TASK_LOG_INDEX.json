@@ -457,6 +457,28 @@
         "status": "preserved_original",
         "sha256": "9a4c51f3a14cdc9dff440aa975665e0348ce9ad7b4d4da861f26b94fdd22b08b"
       }
+    },
+    {
+      "key": "fixed_topology_guidance_vs_refinement_20261109",
+      "title": "固定化学图的持续引导与末端细化",
+      "repository_directory": "2611/1109/1905_fixed_topology_guidance_vs_refinement",
+      "status": "complete",
+      "execution_complete": true,
+      "primary_cases": 32,
+      "primary_logical_endpoints": 416,
+      "secondary_endpoints": 160,
+      "quality_records": 648,
+      "unique_primary_network_paths": 64,
+      "completion_or_final_update_Asia_Shanghai": "2026-11-09T20:17:22.919124+08:00",
+      "files": 5,
+      "logs": 0,
+      "bytes": 3589581,
+      "archive_scope": "Fixed-graph paired comparisons, budget diagnostics, matched-energy/solver bridge and separate historical endpoints",
+      "prompt": {
+        "prompt_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/prompt.md",
+        "status": "preserved_original",
+        "sha256": "e150571a688f8c75d078d03fcc2a46fbcdf2a56da76104fb391855777cdf6f89"
+      }
     }
   ],
   "files": [
@@ -2916,6 +2938,31 @@
       "repository_path": "2611/1109/1736_refresh/source_and_evidence.zip",
       "bytes": 3677388,
       "sha256": "2de182c7e3a132c3a8cd522a8254f53525a1c8ae49aaece510d8e03d7ff597a6"
+    },
+    {
+      "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/MANIFEST.json",
+      "bytes": 5885,
+      "sha256": "fc3109a010dddb1215d441b2edcf98a73636fab7f88687109c624d11925b3c2c"
+    },
+    {
+      "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/README.md",
+      "bytes": 651,
+      "sha256": "48bf409f7ed67ac201c906adf4c07807cf6cca37617a30275d9855aff5d72585"
+    },
+    {
+      "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/RESULTS.md",
+      "bytes": 5046,
+      "sha256": "4dcd56e01c97102cd9195b7d11eda7e69609865b8423d22fcba93aa0a5fbe8a7"
+    },
+    {
+      "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/prompt.md",
+      "bytes": 11328,
+      "sha256": "e150571a688f8c75d078d03fcc2a46fbcdf2a56da76104fb391855777cdf6f89"
+    },
+    {
+      "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/source_and_evidence.zip",
+      "bytes": 3566671,
+      "sha256": "396e67103dab75aa763df8d07c06f8f427145147908b8a42073345cf37b9c6c9"
     }
   ],
   "include_agent": false,
@@ -2928,6 +2975,6 @@
     "prompt_files_including_legacy_copy": 15,
     "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-09T18:46:24.395387+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-09T20:17:22.919124+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }

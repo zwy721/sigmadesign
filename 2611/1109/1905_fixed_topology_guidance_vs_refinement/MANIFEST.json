@@ -1,0 +1,200 @@
+{
+  "repository": "zwy721/sigmadesign",
+  "branch": "main",
+  "task_directory": "2611/1109/1905_fixed_topology_guidance_vs_refinement",
+  "base_commit": "ae14005348ad45c12e31dbbde9e28bb0f0b55cea",
+  "task_files": 5,
+  "archive_members": 193,
+  "snapshot": {
+    "execution_complete": true,
+    "primary_cases": 32,
+    "primary_logical_endpoints": 416,
+    "primary_unique_network_paths": 64,
+    "primary_methods": 13,
+    "secondary_separate_cohorts": 2,
+    "secondary_endpoints": 160,
+    "precheck_cases": 8,
+    "precheck_QC": 72,
+    "full_QC": 648,
+    "per_step_rows": 3072,
+    "unit_tests_passed": 7,
+    "development_cases": 6,
+    "primary_results": {
+      "A": {
+        "cases": 32,
+        "HQ_no_water": 11,
+        "PB": 15,
+        "bond_MAE_A": 0.058325320889707655,
+        "angle_MAE_deg": 5.7973556742072105
+      },
+      "B": {
+        "cases": 32,
+        "HQ_no_water": 12,
+        "PB": 17,
+        "bond_MAE_A": 0.014081696493339478,
+        "angle_MAE_deg": 3.9181278176622163
+      },
+      "E": {
+        "cases": 32,
+        "HQ_no_water": 24,
+        "PB": 26,
+        "bond_MAE_A": 0.051292849284944535,
+        "angle_MAE_deg": 5.8883627933811455
+      },
+      "budget_iterations": {
+        "cases": 32,
+        "HQ_no_water": 11,
+        "PB": 17,
+        "bond_MAE_A": 0.0066227924641605925,
+        "angle_MAE_deg": 1.8612257104669623
+      },
+      "budget_range": {
+        "cases": 32,
+        "HQ_no_water": 12,
+        "PB": 17,
+        "bond_MAE_A": 0.01639304677713674,
+        "angle_MAE_deg": 4.056389788537456
+      },
+      "budget_both": {
+        "cases": 32,
+        "HQ_no_water": 11,
+        "PB": 17,
+        "bond_MAE_A": 0.0044717228590668645,
+        "angle_MAE_deg": 1.5268624375231774
+      },
+      "local_scope": {
+        "cases": 32,
+        "HQ_no_water": 11,
+        "PB": 16,
+        "bond_MAE_A": 0.030388421822029166,
+        "angle_MAE_deg": 4.921801716813068
+      },
+      "F": {
+        "cases": 32,
+        "HQ_no_water": 16,
+        "PB": 27,
+        "bond_MAE_A": 0.0029362530296006455,
+        "angle_MAE_deg": 2.303377249980963
+      },
+      "G": {
+        "cases": 32,
+        "HQ_no_water": 23,
+        "PB": 27,
+        "bond_MAE_A": 0.04353988273888046,
+        "angle_MAE_deg": 5.885160158194492
+      },
+      "G_LBFGSB_Hrigid": {
+        "cases": 32,
+        "HQ_no_water": 23,
+        "PB": 26,
+        "bond_MAE_A": 0.0469284308292181,
+        "angle_MAE_deg": 5.9298447112564014
+      },
+      "C": {
+        "cases": 32,
+        "HQ_no_water": 10,
+        "PB": 14,
+        "bond_MAE_A": 0.02233580150641501,
+        "angle_MAE_deg": 3.646876685321331
+      },
+      "D": {
+        "cases": 32,
+        "HQ_no_water": 9,
+        "PB": 15,
+        "bond_MAE_A": 0.00745877210301894,
+        "angle_MAE_deg": 3.1073464926459735
+      },
+      "D_MMFF": {
+        "cases": 32,
+        "HQ_no_water": 29,
+        "PB": 30,
+        "bond_MAE_A": 0.044775770170379335,
+        "angle_MAE_deg": 5.763240693670826
+      }
+    },
+    "secondary_results": {
+      "historical_Baseline": {
+        "cases": 32,
+        "HQ_no_water": 2
+      },
+      "secondary_Baseline_MMFF": {
+        "cases": 32,
+        "HQ_no_water": 28
+      },
+      "secondary_Baseline_projection": {
+        "cases": 32,
+        "HQ_no_water": 5
+      },
+      "historical_Full_guidance": {
+        "cases": 32,
+        "HQ_no_water": 8
+      },
+      "secondary_Full_guidance_MMFF": {
+        "cases": 32,
+        "HQ_no_water": 30
+      }
+    },
+    "original_declared_stereo_complete": 12,
+    "completion_UTC": "2026-11-09T12:04:59.695103+00:00",
+    "archived_Asia_Shanghai": "2026-11-09T20:17:22.919124+08:00",
+    "no_training": true,
+    "no_formal_parameter_tuning": true,
+    "scope": "Fixed previously predicted graphs and saved random poses; previously viewed stress set and ligand-defined pockets; no independent generalization claim"
+  },
+  "excluded": [
+    "weights and datasets",
+    "generated SDF/PT/NPZ and receptor structures",
+    "full network/coordinate trajectories",
+    "QC caches and per-atom details",
+    "13MB duplicated failure_cases.json (compact errors/checks included in QUALITY_EVIDENCE.json)",
+    "superseded missing-PoseBusters reports and QC",
+    "superseded C-to-MMFF development debug endpoints"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 651,
+      "sha256": "48bf409f7ed67ac201c906adf4c07807cf6cca37617a30275d9855aff5d72585"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 5046,
+      "sha256": "4dcd56e01c97102cd9195b7d11eda7e69609865b8423d22fcba93aa0a5fbe8a7"
+    },
+    {
+      "path": "prompt.md",
+      "bytes": 11328,
+      "sha256": "e150571a688f8c75d078d03fcc2a46fbcdf2a56da76104fb391855777cdf6f89"
+    },
+    {
+      "path": "source_and_evidence.zip",
+      "bytes": 3566671,
+      "sha256": "396e67103dab75aa763df8d07c06f8f427145147908b8a42073345cf37b9c6c9"
+    }
+  ],
+  "local_verification": {
+    "passed": true,
+    "required_deliverables": 10,
+    "primary_endpoints": 416,
+    "secondary_endpoints": 160,
+    "precheck_QC_endpoints": 72,
+    "full_QC_endpoints": 648,
+    "per_step_rows": 3072,
+    "precheck_passed": true,
+    "independent_verification": true,
+    "bridge_consistency": true,
+    "stereo_complete_each_primary_group": 12,
+    "old_MMFF_raw_SDF_identical_cases": 32,
+    "historical_HQ_reproduced": {
+      "historical_Baseline": 2,
+      "historical_Full_guidance": 8,
+      "secondary_Baseline_MMFF": 28
+    },
+    "frozen_compute_and_test_sources_unchanged": true,
+    "historical_inputs_and_weights_unchanged": true,
+    "artifact_files": 13601,
+    "manifest_sha256": "84b213eff5ecfe27bbba2f5ba14adc6b22823afe736f2f75d7fc2ed17ee17caf",
+    "archived_to": "/home/zhouwanyao/drive_download/releases/casf_paired_eval/2611/1109/1905_fixed_topology_guidance_vs_refinement",
+    "GitHub_upload_performed": false
+  }
+}

@@ -1,5 +1,13 @@
 # SigmaDock 研究任务日志
 
+<!-- fixed-topology-current -->
+## 固定化学图：引导与末端细化实验完成
+
+[结果与完整证据](2611/1109/1905_fixed_topology_guidance_vs_refinement/README.md) · [原始prompt](2611/1109/1905_fixed_topology_guidance_vs_refinement/prompt.md)
+
+32例固定图配对HQ：A/B/C/D/E为11/12/10/9/24，F/G为16/23，D→MMFF为29（各32例）。持续引导降低键角误差，单独未提高HQ；完整MMFF内部势能带来更多联合质量收益。原预测立体定义仍12/32，漂移及残余梯度异常单列。7项测试、8例预检和648条完整QC完成；目录5个文件，结构与轨迹保留本地。
+<!-- /fixed-topology-current -->
+
 <!-- rigid-projection-current -->
 ## 动态更新刚体投影：实验完成
 
