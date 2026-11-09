@@ -395,6 +395,26 @@
       "primary_generation_and_QC_complete": true,
       "QC_records": 1080,
       "dynamic_causal_replay_passed": false
+    },
+    {
+      "key": "orientation_stability_causal_validation_20261109",
+      "title": "退化片段朝向修复与严格动态因果验证",
+      "repository_directory": "2611/1109/1031+oritationfixed",
+      "status": "dynamic_batch_gate",
+      "execution_complete": false,
+      "formal_attempts_completed": 0,
+      "formal_attempts_expected": 216,
+      "completion_or_final_update_Asia_Shanghai": "2026-11-09T11:53:55.536768+08:00",
+      "time_basis": "Current progress snapshot; directory retains original prompt marker10:31",
+      "files": 5,
+      "logs": 0,
+      "bytes": 1443702,
+      "archive_scope": "Compact ongoing-study snapshot; no final generation results",
+      "prompt": {
+        "prompt_path": "2611/1109/1031+oritationfixed/prompt.md",
+        "status": "preserved_original",
+        "sha256": "bb58ae3394b64bf043eb2b15ce17921527d8b64e7a43cf5cad3413aa3a462a46"
+      }
     }
   ],
   "files": [
@@ -2779,6 +2799,31 @@
       "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/status.json",
       "bytes": 3046,
       "sha256": "c10901bdb83be3b0a67446b413d172d5d266c0c5123309ee423c2d14d53b5ff8"
+    },
+    {
+      "repository_path": "2611/1109/1031+oritationfixed/MANIFEST.json",
+      "bytes": 2045,
+      "sha256": "0dbdf9535a12afc7e8e661a91b50058ad285f924b57ff0964bf7352d0ec59f0b"
+    },
+    {
+      "repository_path": "2611/1109/1031+oritationfixed/README.md",
+      "bytes": 610,
+      "sha256": "339eeb9559462f7fe2c8c54b760ff324d2502c79da94db2eb558bf32a41b2901"
+    },
+    {
+      "repository_path": "2611/1109/1031+oritationfixed/RESULTS.md",
+      "bytes": 3071,
+      "sha256": "1578e2d97aac2aa06fb1ed4fea5b6d821061e86a14043a13e1422c3ae6a29a30"
+    },
+    {
+      "repository_path": "2611/1109/1031+oritationfixed/prompt.md",
+      "bytes": 14075,
+      "sha256": "bb58ae3394b64bf043eb2b15ce17921527d8b64e7a43cf5cad3413aa3a462a46"
+    },
+    {
+      "repository_path": "2611/1109/1031+oritationfixed/source_and_evidence.zip",
+      "bytes": 1423901,
+      "sha256": "15df8e000711bab559de02cf454f331a0dd60331f977935cf31f5beeee535997"
     }
   ],
   "include_agent": false,
@@ -2791,6 +2836,6 @@
     "prompt_files_including_legacy_copy": 15,
     "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-09T09:44:00.818522+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-09T11:53:55.536768+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }

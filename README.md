@@ -1,5 +1,13 @@
 # SigmaDock 研究任务日志
 
+<!-- orientation-stability-current -->
+## 动态朝向修复：预检通过，扩大验证中
+
+[当前进展与失败边界](2611/1109/1031%2Boritationfixed/RESULTS.md) · [原prompt及精简归档](2611/1109/1031%2Boritationfixed/README.md)
+
+8样本动态预检、11项几何/精度测试通过；32样本完整动态门槛验证进行中。新216次正式B/C/E尚未开始，未发布最终质量结论。任务目录5个文件，代码及关键失败证据合并压缩包；旧结果与权重保持不变。
+<!-- /orientation-stability-current -->
+
 ## 四组位姿生成对照：结果已归档，动态回放待讨论
 
 [结果与完整分母](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/RESULTS.md) · [当前回放问题](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/DYNAMIC_ORIENTATION_ISSUE.md) · [文件导航](2611/1108/2230%2B%E5%9B%9B%E7%BB%84%E4%BD%8D%E5%A7%BF%E7%94%9F%E6%88%90%E5%AF%B9%E7%85%A7%E4%B8%8EA100%E5%90%9E%E5%90%90%E4%BC%98%E5%8C%96/README.md)

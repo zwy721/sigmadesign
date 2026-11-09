@@ -1,0 +1,67 @@
+{
+  "repository": "zwy721/sigmadesign",
+  "branch": "main",
+  "task_directory": "2611/1109/1031+oritationfixed",
+  "base_commit": "a8102943ec61b343534bd19df2e1f7076b3c632f",
+  "snapshot": {
+    "snapshot_Asia_Shanghai": "2026-11-09T11:53:55.536768+08:00",
+    "execution_complete": false,
+    "primary_attempts_expected": 216,
+    "primary_attempts_completed": 0,
+    "formal_protocol_frozen": false,
+    "stage": "dynamic_batch_gate",
+    "arm": "C",
+    "batch_size": 4,
+    "preliminary_stress_inputs": 8,
+    "preliminary_passed": true,
+    "required_full_dynamic_gate_passed": false,
+    "full_gate_completed_records": {
+      "full_C_b1": 32,
+      "full_C_b4": 16,
+      "full_C_b8": 0,
+      "full_C_b16": 0,
+      "full_C_b32": 0,
+      "full_E_connection_only_b1": 0,
+      "full_E_connection_only_b4": 0,
+      "full_E_connection_only_b8": 0,
+      "full_E_connection_only_b16": 0,
+      "full_E_connection_only_b32": 0
+    },
+    "active_process": 3424411,
+    "live_state_note": "Snapshot, not a live dashboard; experiment continues locally. A completed record is not a passed full gate.",
+    "historical_formal_results_preserved": true
+  },
+  "archive_members": 91,
+  "task_files": 5,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 610,
+      "sha256": "339eeb9559462f7fe2c8c54b760ff324d2502c79da94db2eb558bf32a41b2901"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 3071,
+      "sha256": "1578e2d97aac2aa06fb1ed4fea5b6d821061e86a14043a13e1422c3ae6a29a30"
+    },
+    {
+      "path": "prompt.md",
+      "bytes": 14075,
+      "sha256": "bb58ae3394b64bf043eb2b15ce17921527d8b64e7a43cf5cad3413aa3a462a46"
+    },
+    {
+      "path": "source_and_evidence.zip",
+      "bytes": 1423901,
+      "sha256": "15df8e000711bab559de02cf454f331a0dd60331f977935cf31f5beeee535997"
+    }
+  ],
+  "exclusions": [
+    "model weights",
+    "all complete graph inputs",
+    "all generated structures",
+    "full trajectories and large network tensors",
+    "caches",
+    "profiler trace"
+  ],
+  "historical_tasks_unchanged": true
+}
