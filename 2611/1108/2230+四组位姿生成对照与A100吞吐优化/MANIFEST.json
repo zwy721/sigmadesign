@@ -1,90 +1,106 @@
 {
-  "task_key": "pose_generation_four_arm_comparison_20261108",
+  "repository": "zwy721/sigmadesign",
+  "branch": "main",
+  "base_commit": "50e5a55e6f5d1fb6e5da95fb68eb7084aa72d0ba",
   "repository_directory": "2611/1108/2230+四组位姿生成对照与A100吞吐优化",
-  "archived_at_Asia_Shanghai": "2026-11-08T22:57:28.005871+08:00",
-  "status": "awaiting_protocol_clarifications",
+  "archived_at_Asia_Shanghai": "2026-11-09T09:44:00.818522+08:00",
+  "scope": "Compact result snapshot with unresolved dynamic orientation replay",
   "execution_complete": false,
-  "formal_attempts_completed": 0,
-  "base_commit": "ff150353e510fc13a3fc72f36030f49921a30d46",
-  "archive_scope": "current_issue_and_minimal_diagnostic_evidence",
-  "official_source_sha256": {
-    "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/edge_rot_mat.py": "093a5a3ee1f6381da6300d05e71362e1fddbbe94b4eb50bea5d7c40079393d52",
-    "/home/zhouwanyao/drive_download/releases/third_party/sigmadock_official_repo_20261030/src/sigmadock/net/model.py": "fd3cc78abe56f492fa26cb52c4a7bed1f4e51d69e8820b14d5d61784105159b8"
-  },
-  "diagnostic_source_sha256": {
-    "pose_generation_four_arm_comparison/source/debug_batch.py": "940054ad5cdc15d0c8ae1f558c93ca66210ea7492ed0095c03fbc93a930fb42a",
-    "pose_generation_four_arm_comparison/source/runtime.py": "0b72e1b8d96873ab905960d7fed91928a82a6627990058e64b01d3aeaf190660"
-  },
-  "current_partial_supervisor_sha256": "378759b587d477c26e773803df3d8e29e0693180a755583339e1409ff9eba623",
-  "supervisor_note": "Current supervisor includes corrected internal-distance comparison; initial failing supervisor source was not separately snapshotted. No corrected full acceptance rerun yet.",
-  "input_audit_sha256": "0fb56cc4eb9b980e0dd301a8be9dc6131131aef227509329269e84093ce5211a",
-  "frozen_files_verified": 117,
-  "debug_case_order": [
-    "2wos_42001",
-    "2wos_42002",
-    "2zwz_42001",
-    "2zwz_42002"
+  "primary_generation_and_QC_complete": true,
+  "formal_attempts_completed": 360,
+  "QC_records": 1080,
+  "dynamic_causal_replay_passed": false,
+  "pending_decisions": [
+    "Degenerate two-atom template rotation: preserve historical algorithm or validate prior-state orientation tie-break and rerun affected comparisons"
   ],
-  "debug_coordinate_unit": "Normalized coordinates; multiply by2.7 for Angstrom component differences",
-  "batch_consistency_coordinate_scope": "All graph nodes, not ligand docking RMSD",
-  "exclusions_kept_locally": [
-    "partial implementation and full logs",
-    "developer inputs, tensor data and cache",
-    "weights and historical scientific artifacts"
+  "effective_protocol_version": 3,
+  "verification": {
+    "primary_generation_and_QC_complete": true,
+    "whole_task_complete": false,
+    "primary_attempts": 360,
+    "QC_records": 1080,
+    "primary_source_and_protocol_unchanged": true,
+    "frozen_inputs_and_weights_verified": true,
+    "static_numerical_replay_all_sizes_passed": true,
+    "dynamic_causal_replay_passed": false,
+    "awaiting_user_decision": true,
+    "primary_records_deleted_or_replaced": false,
+    "created_UTC": "2026-11-08T17:11:32.748339+00:00"
+  },
+  "static_replay_passed": true,
+  "preserved_prior_commit": "50e5a55e6f5d1fb6e5da95fb68eb7084aa72d0ba",
+  "previous_top_level_evidence_consolidated_into": "source_and_evidence.zip:previous_issue/",
+  "task_file_count": 10,
+  "archive_members": 89,
+  "exclusions": [
+    "weights",
+    "full structures and graph inputs",
+    "caches",
+    "full profiler trace",
+    "large first-mismatch tensors"
   ],
   "files": [
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/CURRENT_ISSUE.md",
-      "bytes": 4581,
-      "sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
-      "local_source": "pose_generation_four_arm_comparison/CURRENT_ISSUE.md",
-      "source_sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
+      "path": "DYNAMIC_ORIENTATION_ISSUE.md",
+      "bytes": 1961,
+      "sha256": "918e392639347ec819111399d1ac5b9b58f9b5c6dac0a45a5aa3f50b09b4fb2f",
+      "local_source": "pose_generation_four_arm_comparison/paired_final/DYNAMIC_ORIENTATION_ISSUE.md",
       "byte_exact_to_local": true
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/README.md",
-      "bytes": 1009,
-      "sha256": "a1284507bece94735b1015fa73dcfcf27080559e8417afa5a7aac7491034321c",
-      "generated_navigation": true
-    },
-    {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_consistency.json",
-      "bytes": 748,
-      "sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
-      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_consistency.json",
-      "source_sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
+      "path": "PER_GENERATION_RESULTS.csv",
+      "bytes": 240468,
+      "sha256": "44423e704066bd55f084532826f2243075156a14be20f64fc073b951e6e99804",
+      "local_source": "pose_generation_four_arm_comparison/paired_final/PER_GENERATION_RESULTS.csv",
       "byte_exact_to_local": true
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_debug.json",
-      "bytes": 7582,
-      "sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
-      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_debug.json",
-      "source_sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
-      "byte_exact_to_local": true
+      "path": "README.md",
+      "bytes": 1528,
+      "sha256": "3b3a0c063818e939fd1cbbc755818effdaf49d9f2fab62fa1dfe84a7673bd882",
+      "local_source": "generated compact archive",
+      "byte_exact_to_local": false
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
+      "path": "RESULTS.md",
+      "bytes": 4942,
+      "sha256": "606a8f97bbd2a11cb4f64c7d639aef8e9c6e2e67da8d8855ba3fe067a96ba00e",
+      "local_source": "generated compact archive",
+      "byte_exact_to_local": false
+    },
+    {
+      "path": "prompt.md",
       "bytes": 15803,
       "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
       "local_source": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
-      "source_sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
       "byte_exact_to_local": true
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/protocol.json",
-      "bytes": 4225,
-      "sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
-      "local_source": "pose_generation_four_arm_comparison/protocol.json",
-      "source_sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
+      "path": "prompt_check.md",
+      "bytes": 2170,
+      "sha256": "80c645ee4c1c54e2f5402e6e5196881946841068b4707f0e7b05db995f2473a3",
+      "local_source": "pose_generation_four_arm_comparison/paired_final/prompt_check.md",
       "byte_exact_to_local": true
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/status.json",
-      "bytes": 2431,
-      "sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
-      "local_source": "pose_generation_four_arm_comparison/status.json",
-      "source_sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
+      "path": "protocol.json",
+      "bytes": 6437,
+      "sha256": "dfe06d7f2ac5577d3055474ba22965b4883fdec21a476178220a0005b44bfe55",
+      "local_source": "pose_generation_four_arm_comparison/paired_final/effective_protocol.json",
+      "byte_exact_to_local": true
+    },
+    {
+      "path": "source_and_evidence.zip",
+      "bytes": 1265153,
+      "sha256": "67b114c4e134cee592799d93b135caac610162acbb9df165bde6cb021ba9d8fd",
+      "local_source": "generated compact archive",
+      "byte_exact_to_local": false
+    },
+    {
+      "path": "status.json",
+      "bytes": 3046,
+      "sha256": "c10901bdb83be3b0a67446b413d172d5d266c0c5123309ee423c2d14d53b5ff8",
+      "local_source": "pose_generation_four_arm_comparison/paired_final/status.json",
       "byte_exact_to_local": true
     }
   ]

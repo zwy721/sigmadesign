@@ -371,17 +371,17 @@
       "key": "pose_generation_four_arm_comparison_20261108",
       "title": "四组位姿生成对照与A100吞吐优化",
       "repository_directory": "2611/1108/2230+四组位姿生成对照与A100吞吐优化",
-      "status": "awaiting_protocol_clarifications",
+      "status": "awaiting_dynamic_orientation_decision",
       "execution_complete": false,
-      "formal_attempts_completed": 0,
+      "formal_attempts_completed": 360,
       "task_created_Asia_Shanghai": "2026-11-08T22:30:16.382926+08:00",
-      "completion_or_final_update_Asia_Shanghai": "2026-11-08T22:57:28.005871+08:00",
-      "time_basis": "Issue snapshot upload; experiment incomplete, directory retains original prompt time",
+      "completion_or_final_update_Asia_Shanghai": "2026-11-09T09:44:00.818522+08:00",
+      "time_basis": "Current result snapshot; overall acceptance incomplete, original task time retained",
       "inferred_time": false,
-      "files": 8,
+      "files": 10,
       "logs": 0,
-      "bytes": 41336,
-      "archive_scope": "current_issue_and_minimal_diagnostic_evidence",
+      "bytes": 1545582,
+      "archive_scope": "Compact result snapshot with unresolved dynamic orientation replay",
       "prompt": {
         "task_key": "pose_generation_four_arm_comparison_20261108",
         "task_title": "四组位姿生成对照与A100吞吐优化",
@@ -391,7 +391,10 @@
         "prompt_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
         "bytes": 15803,
         "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406"
-      }
+      },
+      "primary_generation_and_QC_complete": true,
+      "QC_records": 1080,
+      "dynamic_causal_replay_passed": false
     }
   ],
   "files": [
@@ -2728,58 +2731,54 @@
       "generated_archive_metadata": true
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/CURRENT_ISSUE.md",
-      "bytes": 4581,
-      "sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
-      "local_source": "pose_generation_four_arm_comparison/CURRENT_ISSUE.md",
-      "source_sha256": "98df571d5ab84bdf185e5404cb14d007cbb581fa927d7461a1e17ffedf6acbc9",
-      "byte_exact_to_local": true
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/DYNAMIC_ORIENTATION_ISSUE.md",
+      "bytes": 1961,
+      "sha256": "918e392639347ec819111399d1ac5b9b58f9b5c6dac0a45a5aa3f50b09b4fb2f"
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/MANIFEST.json",
+      "bytes": 4074,
+      "sha256": "12bb96b1ea45e46c318eafea7bd71d6623d36818ece10ad76ea3e08fd60d0861"
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/PER_GENERATION_RESULTS.csv",
+      "bytes": 240468,
+      "sha256": "44423e704066bd55f084532826f2243075156a14be20f64fc073b951e6e99804"
     },
     {
       "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/README.md",
-      "bytes": 1009,
-      "sha256": "a1284507bece94735b1015fa73dcfcf27080559e8417afa5a7aac7491034321c",
-      "generated_navigation": true
+      "bytes": 1528,
+      "sha256": "3b3a0c063818e939fd1cbbc755818effdaf49d9f2fab62fa1dfe84a7673bd882"
     },
     {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_consistency.json",
-      "bytes": 748,
-      "sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
-      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_consistency.json",
-      "source_sha256": "8493701c669ab9441a2d3da00abeea05c6892d0ef6f54d04857c6c6bd7c8b65e",
-      "byte_exact_to_local": true
-    },
-    {
-      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/batch_debug.json",
-      "bytes": 7582,
-      "sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
-      "local_source": "pose_generation_four_arm_comparison/diagnostics/initial_batch_check/batch_debug.json",
-      "source_sha256": "1a6b8eb550bafbf20f521dc3aa8957878386e1212f43daa21c69fd0e8a88a03e",
-      "byte_exact_to_local": true
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/RESULTS.md",
+      "bytes": 4942,
+      "sha256": "606a8f97bbd2a11cb4f64c7d639aef8e9c6e2e67da8d8855ba3fe067a96ba00e"
     },
     {
       "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
       "bytes": 15803,
-      "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
-      "local_source": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt.md",
-      "source_sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
-      "byte_exact_to_local": true
+      "sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406"
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/prompt_check.md",
+      "bytes": 2170,
+      "sha256": "80c645ee4c1c54e2f5402e6e5196881946841068b4707f0e7b05db995f2473a3"
     },
     {
       "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/protocol.json",
-      "bytes": 4225,
-      "sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
-      "local_source": "pose_generation_four_arm_comparison/protocol.json",
-      "source_sha256": "8ed774b434f585ad8b8fe9477d2447d9923dd5c6f4940efe2a30664105aa83a5",
-      "byte_exact_to_local": true
+      "bytes": 6437,
+      "sha256": "dfe06d7f2ac5577d3055474ba22965b4883fdec21a476178220a0005b44bfe55"
+    },
+    {
+      "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/source_and_evidence.zip",
+      "bytes": 1265153,
+      "sha256": "67b114c4e134cee592799d93b135caac610162acbb9df165bde6cb021ba9d8fd"
     },
     {
       "repository_path": "2611/1108/2230+四组位姿生成对照与A100吞吐优化/status.json",
-      "bytes": 2431,
-      "sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
-      "local_source": "pose_generation_four_arm_comparison/status.json",
-      "source_sha256": "ca4e31320e0bdae551cf2fee5da62180e2477a9e32e5a0d2d8ad20c039238217",
-      "byte_exact_to_local": true
+      "bytes": 3046,
+      "sha256": "c10901bdb83be3b0a67446b413d172d5d266c0c5123309ee423c2d14d53b5ff8"
     }
   ],
   "include_agent": false,
@@ -2792,6 +2791,6 @@
     "prompt_files_including_legacy_copy": 15,
     "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-08T22:57:28.005871+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-09T09:44:00.818522+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }

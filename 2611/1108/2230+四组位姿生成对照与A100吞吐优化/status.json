@@ -1,10 +1,10 @@
 {
-  "stage": "awaiting_protocol_clarifications",
+  "stage": "awaiting_dynamic_orientation_decision",
   "execution_complete": false,
   "organized_at_Asia_Shanghai": "2026-11-08T22:34:13.161383+08:00",
   "task_directory": "2611/1108/2230+四组位姿生成对照与A100吞吐优化",
   "prompt_sha256": "c8df85fdf4e6fca76927ef6846873baf5ca926e16145af9498390546c54c9406",
-  "scope": "User-approved five-arm diagnostic; input audit and initial batch checks executed; formal evaluation not started",
+  "scope": "Complete prompt_check stochastic replay validation, then frozen five-arm experiment",
   "planned_stages": [
     "input_and_interface_audit",
     "batch_performance_benchmark",
@@ -26,12 +26,37 @@
     "GPU_UTILIZATION_REPORT.md",
     "NEXT_STEP_DECISION.md"
   ],
-  "completed_deliverables": [],
-  "error": "AssertionError('Batch/serial mismatch: see batch_consistency.json')",
-  "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/pose_generation_four_arm_comparison/source/run_experiment.py\", line 522, in <module>\n    main()\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/pose_generation_four_arm_comparison/source/run_experiment.py\", line 509, in main\n    size = load(OUT/'performance_benchmark.json')['selected_batch_size'] if (OUT/'performance_benchmark.json').exists() else benchmark(den, dev, settings)\n                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/pose_generation_four_arm_comparison/source/run_experiment.py\", line 433, in benchmark\n    assert consistency['passed'], 'Batch/serial mismatch: see batch_consistency.json'\n           ~~~~~~~~~~~^^^^^^^^^^\nAssertionError: Batch/serial mismatch: see batch_consistency.json\n",
-  "pending_decisions": [
-    "A-arm original-stereo consistency alongside historical HQ",
-    "Per-sample random-stream management for stochastic edge rotation frames"
+  "completed_deliverables": [
+    "FOUR_ARM_EXPERIMENT_PROTOCOL.md",
+    "PERFORMANCE_BENCHMARK.md",
+    "FOUR_ARM_COMPARISON.md",
+    "PER_GENERATION_RESULTS.csv",
+    "PAIRWISE_B_C_RESULTS.csv",
+    "PAIRWISE_B_D_RESULTS.csv",
+    "CONNECTION_UPDATE_TRAJECTORY.csv",
+    "GEOMETRY_GUIDANCE_TRAJECTORY.csv",
+    "DOCKING_BASELINE_RESULTS.md",
+    "QUALITY_FAILURE_BREAKDOWN.md",
+    "GPU_UTILIZATION_REPORT.md",
+    "NEXT_STEP_DECISION.md"
   ],
-  "formal_attempts_completed": 0
+  "pending_decisions": [
+    "Degenerate two-atom template rotation: preserve historical algorithm or validate prior-state orientation tie-break and rerun affected comparisons"
+  ],
+  "formal_attempts_completed": 360,
+  "prompt_check_sha256": "80c645ee4c1c54e2f5402e6e5196881946841068b4707f0e7b05db995f2473a3",
+  "continued_at_Asia_Shanghai": "2026-11-08T23:39:46.771398+08:00",
+  "candidates": 9,
+  "dev_attempts_per_candidate": 6,
+  "quality_completed": 12,
+  "quality_expected": 12,
+  "current_arm": "E_connection_only",
+  "formal_attempts_expected": 360,
+  "active_run": ".",
+  "prior_run_preserved": true,
+  "prior_run_exclusion_reason": "Whole-chemistry salt changed auxiliary directions on common edges after topology updates",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/pose_generation_four_arm_comparison/paired_final/source/causal_replay_observed.py\", line 207, in <module>\n    run()\n  File \"/home/zhouwanyao/drive_download/releases/casf_paired_eval/pose_generation_four_arm_comparison/paired_final/source/causal_replay_observed.py\", line 159, in run\n    assert rx.topology_key(original['labels'], original['connections']) == rx.topology_key(record['labels'], record['connections'])\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "formal_generation_and_QC_complete": true,
+  "causal_replay_complete": false
 }
