@@ -479,6 +479,26 @@
         "status": "preserved_original",
         "sha256": "e150571a688f8c75d078d03fcc2a46fbcdf2a56da76104fb391855777cdf6f89"
       }
+    },
+    {
+      "key": "two_stage_fixed_graph_redenoising_20261109",
+      "title": "两阶段固定化学图二次去噪",
+      "repository_directory": "2611/1109/2142_renoise",
+      "status": "complete",
+      "execution_complete": true,
+      "formal_methods": 7,
+      "formal_rows": 224,
+      "trajectory_rows": 4192,
+      "unit_tests_passed": 9,
+      "completion_or_final_update_Asia_Shanghai": "2026-11-09T22:44:45.483521+08:00",
+      "files": 5,
+      "logs": 0,
+      "bytes": 6154259,
+      "prompt": {
+        "prompt_path": "2611/1109/2142_renoise/prompt.md",
+        "status": "preserved_original",
+        "sha256": "db3415595d7b2a3dfa4f94c08121bc2616a9a40dd08ec91808f8895528b9d9e6"
+      }
     }
   ],
   "files": [
@@ -2963,6 +2983,31 @@
       "repository_path": "2611/1109/1905_fixed_topology_guidance_vs_refinement/source_and_evidence.zip",
       "bytes": 3566671,
       "sha256": "396e67103dab75aa763df8d07c06f8f427145147908b8a42073345cf37b9c6c9"
+    },
+    {
+      "repository_path": "2611/1109/2142_renoise/MANIFEST.json",
+      "bytes": 6714,
+      "sha256": "0ebf4df88ff44777a27e9bd14d5b36d971671de237626e2ab4788be50c6d64d9"
+    },
+    {
+      "repository_path": "2611/1109/2142_renoise/README.md",
+      "bytes": 547,
+      "sha256": "d349268fcb6a5d3f7798ba67b649b369f823a8d16fa0655565a5c50e263fc07a"
+    },
+    {
+      "repository_path": "2611/1109/2142_renoise/RESULTS.md",
+      "bytes": 6609,
+      "sha256": "b58b4ade47ff347b832a4e997dff3601115ebe308de360c5bebb05a198647746"
+    },
+    {
+      "repository_path": "2611/1109/2142_renoise/prompt.md",
+      "bytes": 15188,
+      "sha256": "db3415595d7b2a3dfa4f94c08121bc2616a9a40dd08ec91808f8895528b9d9e6"
+    },
+    {
+      "repository_path": "2611/1109/2142_renoise/source_and_evidence.zip",
+      "bytes": 6125201,
+      "sha256": "10fdf64247b3991436e149cef7f8a347f51d2bdf6cc7c3319aca35a508e473ae"
     }
   ],
   "include_agent": false,
@@ -2975,6 +3020,6 @@
     "prompt_files_including_legacy_copy": 15,
     "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-09T20:17:22.919124+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-09T22:44:45.483521+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }
