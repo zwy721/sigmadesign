@@ -1,5 +1,13 @@
 # SigmaDock 研究任务日志
 
+<!-- rigid-projection-current -->
+## 动态更新刚体投影：实验完成
+
+[结果与完整证据](2611/1109/1736_refresh/README.md) · [原始prompt](2611/1109/1736_refresh/prompt.md)
+
+121事件四组锁图续跑、五组8例预检及各32例完整生成完成。HQ为Baseline 2/32、锁定3/32、闭环3/32、候选重排2/32、全程显式引导8/32；独立末端MMFF参考28/32。优化收益与网络输出分开归因，全部数值及完整性核验通过。任务目录5个文件，大型科学数据留本地。
+<!-- /rigid-projection-current -->
+
 <!-- dummy-anchor-current -->
 ## 虚拟锚点消融：完成，未提高原生HQ
 

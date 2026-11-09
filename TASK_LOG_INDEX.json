@@ -435,6 +435,28 @@
         "status": "preserved_original",
         "sha256": "6ab2a347807f90e8139c060dcfdce446c869f0697bcc5952b074176fc9eaeb9e"
       }
+    },
+    {
+      "key": "dynamic_update_rigid_projection_20261109",
+      "title": "动态更新后的受限刚体投影与候选可行性实验",
+      "repository_directory": "2611/1109/1736_refresh",
+      "status": "complete",
+      "execution_complete": true,
+      "formal_attempts_completed": 160,
+      "formal_attempts_expected": 160,
+      "event_continuations": 484,
+      "precheck_generated": 80,
+      "posthoc_reference": 32,
+      "completion_or_final_update_Asia_Shanghai": "2026-11-09T18:46:24.395387+08:00",
+      "files": 5,
+      "logs": 0,
+      "bytes": 3698892,
+      "archive_scope": "Completed compact results; explicit projection separated from neural and end-only repair stages",
+      "prompt": {
+        "prompt_path": "2611/1109/1736_refresh/prompt.md",
+        "status": "preserved_original",
+        "sha256": "9a4c51f3a14cdc9dff440aa975665e0348ce9ad7b4d4da861f26b94fdd22b08b"
+      }
     }
   ],
   "files": [
@@ -2869,6 +2891,31 @@
       "repository_path": "2611/1109/1227+dummyanchor/source_and_evidence.zip",
       "bytes": 4079255,
       "sha256": "6ad63dba9bfd2e6251c9fd52f2bce2c2cff70d625d2780791230b85598074e70"
+    },
+    {
+      "repository_path": "2611/1109/1736_refresh/MANIFEST.json",
+      "bytes": 5247,
+      "sha256": "bda0295b203284b65d99865c26b6c47434ad55867047b392cca1ef58760890c7"
+    },
+    {
+      "repository_path": "2611/1109/1736_refresh/README.md",
+      "bytes": 604,
+      "sha256": "727cacc62d4d5591ae401c1be68d002ef06978b8597a31bd36580b47dac5bd77"
+    },
+    {
+      "repository_path": "2611/1109/1736_refresh/RESULTS.md",
+      "bytes": 4035,
+      "sha256": "5f2cfff321784e4b9f2312c850e393ae640157228b7757a6bfeec1df3d3ec023"
+    },
+    {
+      "repository_path": "2611/1109/1736_refresh/prompt.md",
+      "bytes": 11618,
+      "sha256": "9a4c51f3a14cdc9dff440aa975665e0348ce9ad7b4d4da861f26b94fdd22b08b"
+    },
+    {
+      "repository_path": "2611/1109/1736_refresh/source_and_evidence.zip",
+      "bytes": 3677388,
+      "sha256": "2de182c7e3a132c3a8cd522a8254f53525a1c8ae49aaece510d8e03d7ff597a6"
     }
   ],
   "include_agent": false,
@@ -2881,6 +2928,6 @@
     "prompt_files_including_legacy_copy": 15,
     "distinct_prompt_contents": 13
   },
-  "last_appended_at_Asia_Shanghai": "2026-11-09T15:48:31.508045+08:00",
+  "last_appended_at_Asia_Shanghai": "2026-11-09T18:46:24.395387+08:00",
   "last_compacted_at_UTC": "2026-11-08T13:13:02.020658+00:00"
 }

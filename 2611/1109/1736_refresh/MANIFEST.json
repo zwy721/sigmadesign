@@ -1,0 +1,166 @@
+{
+  "repository": "zwy721/sigmadesign",
+  "branch": "main",
+  "task_directory": "2611/1109/1736_refresh",
+  "base_commit": "15e66d58e93cceb6018ad6acb5ba7d7b6e064183",
+  "snapshot": {
+    "execution_complete": true,
+    "event_source_attempts": 32,
+    "accepted_events": 121,
+    "rejected_events": 7,
+    "event_continuations": 484,
+    "precheck_generated_attempts": 80,
+    "precheck_quality_records": 40,
+    "main_attempts": 160,
+    "attempts_per_regime": 32,
+    "posthoc_reference": 32,
+    "quality_records": 192,
+    "unit_tests_passed": 6,
+    "main_regimes": [
+      {
+        "mode": "Baseline",
+        "stage": "native_final",
+        "attempts": 32,
+        "HQ": 2,
+        "PB": 3,
+        "bond_MAE_A": 0.17364770482527092,
+        "angle_MAE_deg": 12.222109287977219,
+        "internal_pairs": 0.6875,
+        "protein_pairs": 1.9375,
+        "declared_stereo_defined": 12,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 32,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "native_after_remaining_denoising"
+      },
+      {
+        "mode": "Baseline",
+        "stage": "posthoc_MMFF_repair",
+        "attempts": 32,
+        "HQ": 28,
+        "PB": 28,
+        "bond_MAE_A": 0.036756583487912275,
+        "angle_MAE_deg": 5.309033674884157,
+        "internal_pairs": 0.03125,
+        "protein_pairs": 0.28125,
+        "declared_stereo_defined": 12,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 32,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "posthoc_MMFF_repair"
+      },
+      {
+        "mode": "Projection_locked",
+        "stage": "native_final",
+        "attempts": 32,
+        "HQ": 3,
+        "PB": 4,
+        "bond_MAE_A": 0.16029971046373248,
+        "angle_MAE_deg": 11.776724398136139,
+        "internal_pairs": 0.5625,
+        "protein_pairs": 1.84375,
+        "declared_stereo_defined": 12,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 32,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "native_after_remaining_denoising"
+      },
+      {
+        "mode": "Projection_closedloop",
+        "stage": "native_final",
+        "attempts": 32,
+        "HQ": 3,
+        "PB": 6,
+        "bond_MAE_A": 0.15695476124528795,
+        "angle_MAE_deg": 12.203674390912056,
+        "internal_pairs": 0.78125,
+        "protein_pairs": 1.8125,
+        "declared_stereo_defined": 13,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 1,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "native_after_remaining_denoising"
+      },
+      {
+        "mode": "Feasibility",
+        "stage": "native_final",
+        "attempts": 32,
+        "HQ": 2,
+        "PB": 4,
+        "bond_MAE_A": 0.16033974301535636,
+        "angle_MAE_deg": 11.880285009741783,
+        "internal_pairs": 0.65625,
+        "protein_pairs": 2.40625,
+        "declared_stereo_defined": 5,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 0,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "native_after_remaining_denoising"
+      },
+      {
+        "mode": "Full_guidance",
+        "stage": "native_final",
+        "attempts": 32,
+        "HQ": 8,
+        "PB": 11,
+        "bond_MAE_A": 0.05085675097689091,
+        "angle_MAE_deg": 6.296897575259209,
+        "internal_pairs": 0.375,
+        "protein_pairs": 1.15625,
+        "declared_stereo_defined": 12,
+        "declared_stereo_consistent": 32,
+        "same_final_chemistry": 0,
+        "unavailable_attempts": 0,
+        "terminal_state_stage": "local_projection"
+      }
+    ],
+    "completion_UTC": "2026-11-09T10:28:13.705257+00:00",
+    "archived_Asia_Shanghai": "2026-11-09T18:46:24.395387+08:00",
+    "no_training": true,
+    "no_new216": true,
+    "scope": "Previously viewed 32 stress cases, ligand-defined pockets; no untouched generalization claim"
+  },
+  "task_files": 5,
+  "archive_members": 173,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 604,
+      "sha256": "727cacc62d4d5591ae401c1be68d002ef06978b8597a31bd36580b47dac5bd77"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 4035,
+      "sha256": "5f2cfff321784e4b9f2312c850e393ae640157228b7757a6bfeec1df3d3ec023"
+    },
+    {
+      "path": "prompt.md",
+      "bytes": 11618,
+      "sha256": "9a4c51f3a14cdc9dff440aa975665e0348ce9ad7b4d4da861f26b94fdd22b08b"
+    },
+    {
+      "path": "source_and_evidence.zip",
+      "bytes": 3677388,
+      "sha256": "2de182c7e3a132c3a8cd522a8254f53525a1c8ae49aaece510d8e03d7ff597a6"
+    }
+  ],
+  "exclusions": [
+    "model weights",
+    "datasets and receptor structures",
+    "generated SDF/PT/NPZ structures",
+    "complete coordinate/network trajectories",
+    "large duplicated generation/event inventory JSON",
+    "caches",
+    "exhaustive per-atom QC"
+  ],
+  "local_verification": {
+    "passed": true,
+    "full_generation": 160,
+    "event_continuations": 484,
+    "quality_records_checked": 192,
+    "all_QC_inputs_unchanged": true,
+    "frozen_sources_tests_configs_weights_inputs_unchanged": true,
+    "scientific_manifest_sha256": "a54fc7f9069ddb8e636f46b3cb06b12de2454241243c2980f649a37339bcfbcf",
+    "required_deliverables": 9
+  }
+}
