@@ -1,0 +1,128 @@
+{
+  "repository": "zwy721/sigmadesign",
+  "branch": "main",
+  "task_directory": "2611/1109/1227+dummyanchor",
+  "base_commit": "b2a7dc653454c0d65b0b56dd5685fc19800c88b0",
+  "snapshot": {
+    "execution_complete": true,
+    "primary_attempts_completed": 128,
+    "stress_attempts_completed": 32,
+    "methods": [
+      {
+        "method": "A_Current",
+        "completed": 32,
+        "expected": 32,
+        "HQ_pass": 2,
+        "HQ_unavailable": 0,
+        "PB_pass": 3,
+        "PB_unavailable": 0,
+        "means": {
+          "cross_bond_MAE_A": 0.17364770482527092,
+          "cross_angle_MAE_deg": 12.222109287977219,
+          "severe_cross_internal_pairs": 0.6875,
+          "severe_protein_pairs": 1.9375
+        },
+        "accepted_updates": 121
+      },
+      {
+        "method": "B_VirtualAnchor",
+        "completed": 32,
+        "expected": 32,
+        "HQ_pass": 2,
+        "HQ_unavailable": 0,
+        "PB_pass": 3,
+        "PB_unavailable": 0,
+        "means": {
+          "cross_bond_MAE_A": 0.17364770482527092,
+          "cross_angle_MAE_deg": 12.222109287977219,
+          "severe_cross_internal_pairs": 0.6875,
+          "severe_protein_pairs": 1.9375
+        },
+        "accepted_updates": 121
+      },
+      {
+        "method": "C_PortAware",
+        "completed": 32,
+        "expected": 32,
+        "HQ_pass": 2,
+        "HQ_unavailable": 0,
+        "PB_pass": 4,
+        "PB_unavailable": 0,
+        "means": {
+          "cross_bond_MAE_A": 0.18258959311060607,
+          "cross_angle_MAE_deg": 13.420072063803673,
+          "severe_cross_internal_pairs": 1.96875,
+          "severe_protein_pairs": 2.84375
+        },
+        "accepted_updates": 114
+      },
+      {
+        "method": "D_Hybrid",
+        "completed": 32,
+        "expected": 32,
+        "HQ_pass": 1,
+        "HQ_unavailable": 0,
+        "PB_pass": 2,
+        "PB_unavailable": 0,
+        "means": {
+          "cross_bond_MAE_A": 0.19430251233279705,
+          "cross_angle_MAE_deg": 13.703796491026878,
+          "severe_cross_internal_pairs": 2.0625,
+          "severe_protein_pairs": 3.03125
+        },
+        "accepted_updates": 116
+      }
+    ],
+    "unit_tests_passed": 26,
+    "comparisons_passed": 30,
+    "completion_UTC": "2026-11-09T06:43:38.443627+00:00",
+    "archived_Asia_Shanghai": "2026-11-09T15:48:31.508045+08:00",
+    "interpretation": "No HQ benefit from virtual anchors on this fixed diagnostic cohort; no training or endpoint repair",
+    "no_new216": true
+  },
+  "task_files": 5,
+  "archive_members": 199,
+  "local_verification": {
+    "passed": true,
+    "primary_attempts": 128,
+    "stress_attempts": 32,
+    "QC_checked": 160,
+    "frozen_source_tests_baseline_protocol_unchanged": true,
+    "original_files_unchanged": 117,
+    "frozen_inputs_unchanged": 32,
+    "comparisons_passed": 30,
+    "AB_trajectory_steps_byte_equal": 768,
+    "AB_identity_queries_byte_equal": 128,
+    "AB_update_decision_samples_equal": 32
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 527,
+      "sha256": "14c33bb27507952a12f924f25dbd63b61f75154259b05bb557b613fd0fb0f14b"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 2008,
+      "sha256": "92fffa82611a02ae026b969a63e7ef854ab442c9468154e41b6f0145d33ab158"
+    },
+    {
+      "path": "prompt.md",
+      "bytes": 10866,
+      "sha256": "6ab2a347807f90e8139c060dcfdce446c869f0697bcc5952b074176fc9eaeb9e"
+    },
+    {
+      "path": "source_and_evidence.zip",
+      "bytes": 4079255,
+      "sha256": "6ad63dba9bfd2e6251c9fd52f2bce2c2cff70d625d2780791230b85598074e70"
+    }
+  ],
+  "exclusions": [
+    "weights",
+    "all generated structures",
+    "full trajectories",
+    "large network tensors",
+    "caches",
+    "exhaustive QC"
+  ]
+}

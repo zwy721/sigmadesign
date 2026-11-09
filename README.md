@@ -1,5 +1,13 @@
 # SigmaDock 研究任务日志
 
+<!-- dummy-anchor-current -->
+## 虚拟锚点消融：完成，未提高原生HQ
+
+[结果与完整证据](2611/1109/1227%2Bdummyanchor/README.md) · [原始prompt](2611/1109/1227%2Bdummyanchor/prompt.md)
+
+四方法各32次主消融及各8次预检完成。A/B轨迹和身份logits逐位一致，HQ均2/32；C为2/32，D为1/32。全部必要动态验收通过，保留当前方法。目录5个文件，完整源码/配置/表格合并压缩包。
+<!-- /dummy-anchor-current -->
+
 <!-- orientation-stability-current -->
 ## 动态朝向修复：预检通过，扩大验证中
 
