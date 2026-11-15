@@ -1,0 +1,176 @@
+{
+  "verified_utc": "2026-11-15T11:23:29.832360+00:00",
+  "status": "training_and_evaluation_complete; paper_metrics_not_reproduced",
+  "pipeline_completed_utc": "2026-11-14T10:11:04.868347+00:00",
+  "training": {
+    "seed": 0,
+    "epochs": 135,
+    "optimizer_steps": 416070,
+    "global_batch_size": 64,
+    "world_size": 3,
+    "cuda_devices": [
+      0,
+      1,
+      2
+    ],
+    "full_rank_batches": [
+      22,
+      21,
+      21
+    ],
+    "source_examples_per_epoch": 197220,
+    "total_source_examples": 26624700,
+    "sequential_step_log_verified": true,
+    "batch192_applied": false
+  },
+  "checkpoint": {
+    "local_path": "/data/zhouwanyao/motiflow/outputs/geom_ddp_seed0/checkpoints/step_416070_final.pth",
+    "bytes": 147951610,
+    "sha256": "660d507679b0e668a2201536b761003094111a3999c236c4032e76015b6ea596",
+    "library_sha256_matches": true,
+    "preprocessing_manifest_sha256_matches": true
+  },
+  "sampling": {
+    "model_count": 1,
+    "sampling_seed_count": 3,
+    "steps": 100,
+    "temperature": 1.0,
+    "remasking_rate": 1.5,
+    "total_attempts": 30000,
+    "runs": [
+      {
+        "seed": 0,
+        "attempts": 10000,
+        "nonfinite_rigid_samples": 0,
+        "bytes": 9816450,
+        "sha256": "13781726e6eb9358e528b4be527644b2ab7457346bc0333e9db46464d2590b16",
+        "local_path": "/data/zhouwanyao/motiflow/outputs/generated/seed0.pt"
+      },
+      {
+        "seed": 1,
+        "attempts": 10000,
+        "nonfinite_rigid_samples": 0,
+        "bytes": 9793538,
+        "sha256": "c245df4f013eeed0ca1234c0c29c870a54ec7275807f3afa30248bd05177e5b4",
+        "local_path": "/data/zhouwanyao/motiflow/outputs/generated/seed1.pt"
+      },
+      {
+        "seed": 2,
+        "attempts": 10000,
+        "nonfinite_rigid_samples": 0,
+        "bytes": 9816386,
+        "sha256": "2524320bd43a58a4c2213c2f6a144c31bde0f760e4b8ded19212c421bfc24d14",
+        "local_path": "/data/zhouwanyao/motiflow/outputs/generated/seed2.pt"
+      }
+    ],
+    "interpretation": "three sampling replicates from one trained model"
+  },
+  "evaluation": {
+    "summary_recomputed_from_three_csv_rows": true,
+    "validity_denominator": "all 10000 attempts per seed",
+    "valid_and_connected_denominator": "all 10000 attempts per seed",
+    "connectivity_given_valid_denominator": "valid attempts per seed",
+    "atom_stability_denominator": "all assessed atoms per seed",
+    "uniqueness_denominator": "valid connected molecules per seed",
+    "std": "sample standard deviation across three sampling seeds (ddof=1)",
+    "properties_and_strain": "upstream valid connected subsets; strain does not replace raw coordinates"
+  },
+  "data": {
+    "baseline": "official_geodiff",
+    "exact_author_frozen_bytes_match": false,
+    "semantic_equivalence_to_author_files_proven": false,
+    "raw_source_audit": {
+      "val": {
+        "file": "/data/zhouwanyao/motiflow/raw/geom_drugs/val_data_5k.pkl",
+        "bytes": 205705475,
+        "sha256": "bb362b6bacbb869400adb453a6450170880e84c53e0bbcd77420fd7832f219e0",
+        "reader_environment": {
+          "python": "3.10.22",
+          "torch": "2.1.0",
+          "rdkit": "2026.09.2"
+        },
+        "motiflow_frozen_sha256": "7b1181faa49fabb386762b7d9d5f9c3136709956e896b15f16f02edc4afc2182",
+        "conformers": 25000,
+        "unique_source_smiles": 5000,
+        "conformers_per_smiles_histogram": {
+          "5": 5000
+        },
+        "missing_topology": 0,
+        "malformed": [],
+        "ordered_smiles_topology_positions_sha256": "42877b5a1ffaea8122dfd1cb760f7c5016ffd3fbe2308834ef474bc18b6e54df"
+      },
+      "train": {
+        "file": "/data/zhouwanyao/motiflow/raw/geom_drugs/train_data_40k.pkl",
+        "bytes": 1652978766,
+        "sha256": "37911fc44fbf5e185aa2dbcf5ffd1c0e094ff0f9ca48e2e35f9fc6546958ea22",
+        "reader_environment": {
+          "python": "3.10.22",
+          "torch": "2.1.0",
+          "rdkit": "2026.09.2"
+        },
+        "motiflow_frozen_sha256": "e3897e7527e4dd8e299fd44540023da86c0bf1d6c908f45e8ad4286725f6f32e",
+        "conformers": 199950,
+        "unique_source_smiles": 39990,
+        "conformers_per_smiles_histogram": {
+          "5": 39990
+        },
+        "missing_topology": 0,
+        "malformed": [],
+        "ordered_smiles_topology_positions_sha256": "1ea355a9847c3970d46c528947fdcad35ef5dd1408bd73facf518c996c88ac27"
+      },
+      "source_smiles_overlap": 0,
+      "exact_frozen_bytes_match": false,
+      "semantic_equivalence_to_author_files_proven": false,
+      "source_url": "https://drive.google.com/file/d/1bL52Enn-MRxtVPgEhAf6LUYgkZpaSdht/view"
+    },
+    "alignment_counts": {
+      "train": {
+        "failed": 2730,
+        "requested": 199950,
+        "resumed": 0,
+        "succeeded": 197220
+      },
+      "val": {
+        "failed": 324,
+        "requested": 25000,
+        "resumed": 0,
+        "succeeded": 24676
+      }
+    },
+    "fragmentation_counts": {
+      "allowed_structural_motifs": 163,
+      "splits": {
+        "train": {
+          "excluded_linear": 0,
+          "excluded_small": 0,
+          "failed_decomposition": 0,
+          "failed_vocabulary": 0,
+          "fallback_events": 0,
+          "fallback_molecules": 0,
+          "input": 197220,
+          "processed": 197220,
+          "unknown_class": 0
+        },
+        "val": {
+          "excluded_linear": 0,
+          "excluded_small": 0,
+          "failed_decomposition": 5,
+          "failed_vocabulary": 0,
+          "fallback_events": 0,
+          "fallback_molecules": 0,
+          "input": 24676,
+          "processed": 24671,
+          "unknown_class": 5
+        }
+      },
+      "training_resumed": false,
+      "vocabulary_classes": 229
+    },
+    "local_geometric_motif_classes": 229,
+    "paper_geometric_motif_classes": 202,
+    "cause_of_metric_gap": "not established"
+  },
+  "upstream_commit": "5be946dd6d9489146d12580e9fe751ba2966f428",
+  "frozen_adapter_archive_sha256": "b1fa148c327972083a817e6490adf65f6cd99d0f0085d441791505a6baef1154",
+  "local_artifact_root": "/data/zhouwanyao/motiflow"
+}

@@ -1,0 +1,54 @@
+{
+  "repository": "zwy721/sigmadesign",
+  "target": "2611/1113",
+  "prepared_utc": "2026-11-15T11:23:29.840878+00:00",
+  "archive_file_count": 10,
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4350,
+      "sha256": "a0ad049ae9d013e79460212acef9fa2e1d61997f6ffa5ab54a6b241c2bbe6e70"
+    },
+    {
+      "path": "epoch_loss.csv",
+      "bytes": 12450,
+      "sha256": "ba69e4b2846444a6e56563c48baf20db55aa63402451189a2e11cba011d8c14b"
+    },
+    {
+      "path": "metrics_summary.json",
+      "bytes": 1170,
+      "sha256": "ce2222138b5e9ffb2dd397534ba2c53e3097531fa2a3b0601d587c154dadd0ff"
+    },
+    {
+      "path": "periodic_evaluation.csv",
+      "bytes": 10188,
+      "sha256": "54804216e30d8718420a2af716db052d0d06ea13cccdc2e53f71bf22e9980fbd"
+    },
+    {
+      "path": "reproduction_bundle.zip",
+      "bytes": 33771,
+      "sha256": "4a4e314319ab89e057a8abc3cd4a8ddf92314fb8f7c4dbbac525e874aa0220cb"
+    },
+    {
+      "path": "sampling_runs.csv",
+      "bytes": 930,
+      "sha256": "22a9cc827b4954b62be50f783d5965a366b0990b7de961effa785edebf3089dc"
+    },
+    {
+      "path": "training_config.yaml",
+      "bytes": 2228,
+      "sha256": "e673419468e82400503975046dd6b009a06196d5c8f2c95b2c05f0026d1cd3d5"
+    },
+    {
+      "path": "training_progress.png",
+      "bytes": 168020,
+      "sha256": "c99348f15817c278f76adfbaa5088b57e22bcfbd402056e9248196d1b031228d"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 6045,
+      "sha256": "2c9b2510cd27d1ba4fb6bf1522fabb7474e0f6a2752d62e7fc3d054c15bf90cd"
+    }
+  ]
+}

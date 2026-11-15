@@ -1,0 +1,100 @@
+data:
+  dataset_name: geom
+  method_version: motiflow-v1
+  processed_data_dir: /data/zhouwanyao/motiflow/data/fragmented/geom/alpha_0p1
+  library_path: /data/zhouwanyao/motiflow/data/fragmented/geom/alpha_0p1/fragment_library.pt
+  vocab_size: null
+  max_frag_size: 17
+  K_max: 9
+  S_max: null
+  use_frame_augmentation: true
+  conditioning_type: none
+  num_t: 100
+  coordinate_scaling: 0.457
+  ipa_rbf_stop: 10.0
+  rbf_stop: 30.0
+flow:
+  flow_trans: true
+  flow_rot: true
+  flow_cat: true
+  endpoint_epsilon: 0.01
+  nu_se3: null
+  nu_cat: null
+  r3:
+    coordinate_scaling: 0.457
+  so3:
+    endpoint_epsilon: 0.01
+  cat:
+    prior: masked
+    sampling_method: multinomial
+    min_temperature: 1.0
+    max_temperature: 1.0
+    stochasticity: 1.5
+    vocab_size: null
+model:
+  model_name: ipa
+  node_embed_size: 256
+  edge_embed_size: 128
+  dropout: 0.0
+  _do_fm_cat: true
+  conditioning:
+    type: none
+  with_triangl_upd: true
+  use_self_conditioning: true
+  sc_training_prob: 0.5
+  rbf_stop: 30.0
+  embed:
+    vocab_size: null
+    max_dim: 9
+    index_embed_size: 128
+    rbf_dim: 64
+    ipa_rbf_stop: 10.0
+  ipa:
+    do_last_edge_update: true
+    c_s: 256
+    c_z: 128
+    c_hidden_per_head: 64
+    c_skip: 64
+    no_heads: 8
+    no_qk_points: 8
+    no_v_points: 12
+    seq_tfmr_num_heads: 4
+    seq_tfmr_num_layers: 2
+    num_blocks: 4
+    coordinate_scaling: 0.457
+conditioning:
+  type: none
+training:
+  name: geom_unconditional
+  batch_size: 64
+  num_loader_workers: 8
+  prefetch_factor: 10
+  num_epochs: 135
+  learning_rate: 0.0001
+  gradient_clip_norm: 1.0
+  max_squared_res: 500000
+  log_every_steps: 100
+  checkpoint_every_steps: 5000
+  checkpoint_dir: /data/zhouwanyao/motiflow/outputs/geom_ddp_seed0/checkpoints
+  eval_every_steps: 5000
+  eval_batch_size: 128
+  max_eval_batches: 40
+  eval_dir: /data/zhouwanyao/motiflow/outputs/geom_ddp_seed0/evaluation
+  resume_from: null
+  max_steps: null
+loss:
+  trans_loss_weight: 1.0
+  rot_loss_weight: 1.0
+  rotation_loss_style: geodiff
+  cat_loss_weight: 1.0
+  separate_rot_loss: false
+tracking:
+  backend: wandb
+  enabled: false
+seed: 0
+runtime:
+  device: auto
+  torch_num_threads: 1
+  matmul_precision: medium
+  world_size: 3
+  distributed_adapter: local_repro/train_ddp.py
