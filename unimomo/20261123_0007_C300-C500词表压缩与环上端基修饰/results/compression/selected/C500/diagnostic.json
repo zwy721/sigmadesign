@@ -1,0 +1,53 @@
+{
+  "molecules": 20000,
+  "heavy_atoms": 557649,
+  "tokens": 114688,
+  "singletons": 5325,
+  "all_multi_molecules": 15986,
+  "reconstructed": 20000,
+  "vocabulary_size": 500,
+  "single_token_fraction": 0.04643031529017857,
+  "multi_token_fraction": 0.9535696847098214,
+  "multi_heavy_coverage": 0.990450982607339,
+  "mean_heavy_per_token": 4.862313406808036,
+  "reconstruction_rate": 1.0,
+  "partition_sha256": "babff2ea6de56908087eb5e1a2e36dee015188871d84cada3ebc5303420426ea",
+  "corpus": {
+    "molecules": 20000,
+    "source": "ChEMBL, train, is_duplicate=0",
+    "ids_npy_sha256": "5c810bb19f6877d91d40f9e5d5f72425d5afb953348107a4e7a98c48c5e280be",
+    "ordered_id_raw_smiles_sha256": "c901473f5683ebe2b97d8b0b8949ff639968f80f97b9a807613786666091726d"
+  },
+  "categories": {
+    "linker": {
+      "count": 2889,
+      "fraction_of_singletons": 0.5425352112676056,
+      "fraction_of_tokens": 0.025190080915178572
+    },
+    "ring_terminal": {
+      "count": 236,
+      "fraction_of_singletons": 0.04431924882629108,
+      "fraction_of_tokens": 0.0020577566964285715
+    },
+    "acyclic_terminal": {
+      "count": 1811,
+      "fraction_of_singletons": 0.340093896713615,
+      "fraction_of_tokens": 0.015790666852678572
+    },
+    "hub": {
+      "count": 389,
+      "fraction_of_singletons": 0.07305164319248826,
+      "fraction_of_tokens": 0.003391810825892857
+    },
+    "isolated": {
+      "count": 0,
+      "fraction_of_singletons": 0.0,
+      "fraction_of_tokens": 0.0
+    },
+    "all": {
+      "count": 5325,
+      "fraction_of_singletons": 1.0,
+      "fraction_of_tokens": 0.04643031529017857
+    }
+  }
+}

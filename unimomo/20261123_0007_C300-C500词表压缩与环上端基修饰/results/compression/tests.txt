@@ -1,0 +1,29 @@
+test_entire_parent_topology (test_bpe.MiningTests.test_entire_parent_topology) ... ok
+test_legacy_default (test_bpe.MiningTests.test_legacy_default) ... ok
+test_roundtrip_and_frozen_replay (test_bpe.MiningTests.test_roundtrip_and_frozen_replay) ... ok
+test_score_and_config (test_bpe.MiningTests.test_score_and_config) ... ok
+test_amide_and_conjugation_are_parent_properties (test_bpe.RigidityTests.test_amide_and_conjugation_are_parent_properties) ... ok
+test_flexible_chain_blocked_through_new_or_existing_edge (test_bpe.RigidityTests.test_flexible_chain_blocked_through_new_or_existing_edge) ... ok
+test_ring_integrity_and_macrocycle_closure (test_bpe.RigidityTests.test_ring_integrity_and_macrocycle_closure) ... ok
+test_short_unions_in_parent_context (test_bpe.RigidityTests.test_short_unions_in_parent_context) ... ok
+test_all_ring_atoms_reserved (test_bpe.SeedTests.test_all_ring_atoms_reserved) ... ok
+test_catalog_and_examples (test_bpe.SeedTests.test_catalog_and_examples) ... ok
+test_identity_budget_and_frozen_fallback (test_bpe.SeedTests.test_identity_budget_and_frozen_fallback) ... ok
+test_nonoverlap_and_largest_first (test_bpe.SeedTests.test_nonoverlap_and_largest_first) ... ok
+test_all_six_examples_through_tokenizer_and_decoder (test_compression.CompressionTests.test_all_six_examples_through_tokenizer_and_decoder) ... ok
+test_chooser_and_disconnected_graph_roundtrip (test_compression.CompressionTests.test_chooser_and_disconnected_graph_roundtrip) ... ok
+test_compact_singletons_reconstruct_from_ids (test_compression.CompressionTests.test_compact_singletons_reconstruct_from_ids) ... ok
+test_decorations_on_partial_rings_and_ordinary_terminals (test_compression.CompressionTests.test_decorations_on_partial_rings_and_ordinary_terminals) ... ok
+test_labeled_isotope_and_stereo_at_anchor (test_compression.CompressionTests.test_labeled_isotope_and_stereo_at_anchor) ... ok
+test_old_default_and_no_ring_seeds (test_compression.CompressionTests.test_old_default_and_no_ring_seeds) ... ok
+test_release_examples_and_main_vocab (test_compression.CompressionTests.test_release_examples_and_main_vocab) ... ok
+test_chiral_atom_rebuilt_from_leaf_labels_and_anchors (test_residual.ResidualTests.test_chiral_atom_rebuilt_from_leaf_labels_and_anchors) ... ok
+test_only_terminal_labels_with_valid_geometry (test_residual.ResidualTests.test_only_terminal_labels_with_valid_geometry) ... ok
+test_partial_ring_annotation_preserves_ring_assignment (test_residual.ResidualTests.test_partial_ring_annotation_preserves_ring_assignment) ... ok
+test_retile_flexible_four_atom_union (test_residual.ResidualTests.test_retile_flexible_four_atom_union) ... ok
+test_train_score_does_not_count_overlapping_occurrences_twice (test_residual.ResidualTests.test_train_score_does_not_count_overlapping_occurrences_twice) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.415s
+
+OK

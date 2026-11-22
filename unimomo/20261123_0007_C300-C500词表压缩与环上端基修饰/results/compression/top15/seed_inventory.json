@@ -1,0 +1,351 @@
+{
+  "atoms": {
+    "[As:70254593]": 4,
+    "[B:11534337]": 50,
+    "[Br:74448897]": 1070,
+    "[C:13631489]": 413580,
+    "[Cl:36700161]": 4738,
+    "[F:19922945]": 8011,
+    "[I:112197633]": 123,
+    "[N+:15761409]": 1534,
+    "[N:15728641]": 57529,
+    "[O:17825793]": 62945,
+    "[P:32505857]": 447,
+    "[S:34603009]": 7556,
+    "[Se:72351745]": 28,
+    "[Si:30408705]": 33,
+    "[Te:110100481]": 1
+  },
+  "all_ring_counts": {},
+  "admitted_rings": [],
+  "fg_key_counts": {
+    "[C:13631489]#[N:15728641]": 1042,
+    "[C:13631489]([F:19922945])([F:19922945])[F:19922945]": 1412,
+    "[C:13631489]([N:15728641])([N:15728641])=[N:15728641]": 188,
+    "[C:13631489]([N:15728641])([N:15728641])=[O:17825793]": 531,
+    "[C:13631489]([N:15728641])([N:15728641])=[S:34603009]": 162,
+    "[C:13631489]([N:15728641])([O:17825793])=[O:17825793]": 450,
+    "[C:13631489]([N:15728641])=[N:15728641]": 306,
+    "[C:13631489]([N:15728641])=[O:17825793]": 7987,
+    "[C:13631489]([O:17825793])=[O:17825793]": 4685,
+    "[N+:15761409]([O-:17793025])=[O:17825793]": 928,
+    "[N:15728641][S:34603009](=[O:17825793])=[O:17825793]": 1374,
+    "[O:17825793]=[S:34603009]=[O:17825793]": 1042,
+    "[O:17825793][P:32505857]([O:17825793])([O:17825793])=[O:17825793]": 90,
+    "[O:17825793][P:32505857]([O:17825793])=[O:17825793]": 157,
+    "[O:17825793][S:34603009](=[O:17825793])=[O:17825793]": 125
+  },
+  "fg_pattern_instances": {
+    "amidine": 306,
+    "azide": 39,
+    "carbamate": 450,
+    "carbonate": 17,
+    "carboxylate": 77,
+    "carboxylic_acid": 1939,
+    "carboxylic_anhydride": 4,
+    "ester": 2748,
+    "guanidine": 188,
+    "isothiocyanate": 6,
+    "nitrile": 1042,
+    "nitro": 928,
+    "phosphate": 109,
+    "phosphonate": 170,
+    "primary_amide": 437,
+    "secondary_amide": 6780,
+    "sulfamate": 28,
+    "sulfonamide": 1378,
+    "sulfonate": 169,
+    "sulfonyl": 1042,
+    "sulfoxide_charge_separated": 51,
+    "tertiary_amide": 770,
+    "thioamide": 59,
+    "thiourea": 162,
+    "trifluoromethyl": 1412,
+    "urea": 531
+  },
+  "initial_vocab_size": 30,
+  "ranked_rigid_fg": [
+    {
+      "key": "[C:13631489]([N:15728641])=[O:17825793]",
+      "display": "NC=O",
+      "frequency": 7987,
+      "selected": true,
+      "patterns": {
+        "primary_amide": 437,
+        "secondary_amide": 6780,
+        "tertiary_amide": 770
+      }
+    },
+    {
+      "key": "[C:13631489]([O:17825793])=[O:17825793]",
+      "display": "OC=O",
+      "frequency": 4685,
+      "selected": true,
+      "patterns": {
+        "carboxylic_acid": 1938,
+        "ester": 2747
+      }
+    },
+    {
+      "key": "[C:13631489]([F:19922945])([F:19922945])[F:19922945]",
+      "display": "FC(F)F",
+      "frequency": 1412,
+      "selected": true,
+      "patterns": {
+        "trifluoromethyl": 1412
+      }
+    },
+    {
+      "key": "[N:15728641][S:34603009](=[O:17825793])=[O:17825793]",
+      "display": "NS(=O)=O",
+      "frequency": 1374,
+      "selected": true,
+      "patterns": {
+        "sulfonamide": 1374
+      }
+    },
+    {
+      "key": "[C:13631489]#[N:15728641]",
+      "display": "C#N",
+      "frequency": 1042,
+      "selected": true,
+      "patterns": {
+        "nitrile": 1042
+      }
+    },
+    {
+      "key": "[O:17825793]=[S:34603009]=[O:17825793]",
+      "display": "O=S=O",
+      "frequency": 1042,
+      "selected": true,
+      "patterns": {
+        "sulfonyl": 1042
+      }
+    },
+    {
+      "key": "[N+:15761409]([O-:17793025])=[O:17825793]",
+      "display": "O=[N+][O-]",
+      "frequency": 928,
+      "selected": true,
+      "patterns": {
+        "nitro": 928
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])([N:15728641])=[O:17825793]",
+      "display": "NC(N)=O",
+      "frequency": 531,
+      "selected": true,
+      "patterns": {
+        "urea": 531
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])([O:17825793])=[O:17825793]",
+      "display": "NC(O)=O",
+      "frequency": 450,
+      "selected": true,
+      "patterns": {
+        "carbamate": 450
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])=[N:15728641]",
+      "display": "NC=N",
+      "frequency": 306,
+      "selected": true,
+      "patterns": {
+        "amidine": 306
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])([N:15728641])=[N:15728641]",
+      "display": "NC(N)=N",
+      "frequency": 188,
+      "selected": true,
+      "patterns": {
+        "guanidine": 188
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])([N:15728641])=[S:34603009]",
+      "display": "NC(N)=S",
+      "frequency": 162,
+      "selected": true,
+      "patterns": {
+        "thiourea": 162
+      }
+    },
+    {
+      "key": "[O:17825793][P:32505857]([O:17825793])=[O:17825793]",
+      "display": "OP(O)=O",
+      "frequency": 157,
+      "selected": true,
+      "patterns": {
+        "phosphonate": 157
+      }
+    },
+    {
+      "key": "[O:17825793][S:34603009](=[O:17825793])=[O:17825793]",
+      "display": "OS(=O)=O",
+      "frequency": 125,
+      "selected": true,
+      "patterns": {
+        "sulfonate": 125
+      }
+    },
+    {
+      "key": "[O:17825793][P:32505857]([O:17825793])([O:17825793])=[O:17825793]",
+      "display": "OP(O)(O)=O",
+      "frequency": 90,
+      "selected": true,
+      "patterns": {
+        "phosphate": 90
+      }
+    },
+    {
+      "key": "[C:13631489]([O-:17793025])=[O:17825793]",
+      "display": "O=C[O-]",
+      "frequency": 77,
+      "selected": false,
+      "patterns": {
+        "carboxylate": 77
+      }
+    },
+    {
+      "key": "[C:13631489]([N:15728641])=[S:34603009]",
+      "display": "NC=S",
+      "frequency": 59,
+      "selected": false,
+      "patterns": {
+        "thioamide": 59
+      }
+    },
+    {
+      "key": "[O-:17793025][S+:34635777]",
+      "display": "[O-][S+]",
+      "frequency": 51,
+      "selected": false,
+      "patterns": {
+        "sulfoxide_charge_separated": 51
+      }
+    },
+    {
+      "key": "[O-:17793025][S:34603009](=[O:17825793])=[O:17825793]",
+      "display": "O=S(=O)[O-]",
+      "frequency": 44,
+      "selected": false,
+      "patterns": {
+        "sulfonate": 44
+      }
+    },
+    {
+      "key": "[N-:15695873]=[N+:15761409]=[N:15728641]",
+      "display": "N=[N+]=[N-]",
+      "frequency": 39,
+      "selected": false,
+      "patterns": {
+        "azide": 39
+      }
+    },
+    {
+      "key": "[N:15728641][S:34603009]([O:17825793])(=[O:17825793])=[O:17825793]",
+      "display": "NS(O)(=O)=O",
+      "frequency": 28,
+      "selected": false,
+      "patterns": {
+        "sulfamate": 28
+      }
+    },
+    {
+      "key": "[C:13631489]([O:17825793])([O:17825793])=[O:17825793]",
+      "display": "OC(O)=O",
+      "frequency": 17,
+      "selected": false,
+      "patterns": {
+        "carbonate": 17
+      }
+    },
+    {
+      "key": "[O-:17793025][P:32505857]([O:17825793])([O:17825793])=[O:17825793]",
+      "display": "OP(O)(=O)[O-]",
+      "frequency": 14,
+      "selected": false,
+      "patterns": {
+        "phosphate": 14
+      }
+    },
+    {
+      "key": "[O-:17793025][P:32505857]([O-:17793025])=[O:17825793]",
+      "display": "O=P([O-])[O-]",
+      "frequency": 9,
+      "selected": false,
+      "patterns": {
+        "phosphonate": 9
+      }
+    },
+    {
+      "key": "[C:13631489](=[N:15728641])=[S:34603009]",
+      "display": "N=C=S",
+      "frequency": 6,
+      "selected": false,
+      "patterns": {
+        "isothiocyanate": 6
+      }
+    },
+    {
+      "key": "[O-:17793025][P:32505857]([O-:17793025])([O:17825793])=[O:17825793]",
+      "display": "OP(=O)([O-])[O-]",
+      "frequency": 5,
+      "selected": false,
+      "patterns": {
+        "phosphate": 5
+      }
+    },
+    {
+      "key": "[C:13631489](=[O:17825793])[O:17825793][C:13631489]=[O:17825793]",
+      "display": "O=COC=O",
+      "frequency": 4,
+      "selected": false,
+      "patterns": {
+        "carboxylic_anhydride": 4
+      }
+    },
+    {
+      "key": "[N-:15695873][S:34603009](=[O:17825793])=[O:17825793]",
+      "display": "[N-]S(=O)=O",
+      "frequency": 4,
+      "selected": false,
+      "patterns": {
+        "sulfonamide": 4
+      }
+    },
+    {
+      "key": "[O-:17793025][P:32505857]([O:17825793])=[O:17825793]",
+      "display": "OP(=O)[O-]",
+      "frequency": 4,
+      "selected": false,
+      "patterns": {
+        "phosphonate": 4
+      }
+    },
+    {
+      "key": "[13C:13631905]([O:17825793])=[O:17825793]",
+      "display": "O[13C]=O",
+      "frequency": 1,
+      "selected": false,
+      "patterns": {
+        "carboxylic_acid": 1
+      }
+    },
+    {
+      "key": "[14C:13631937]([O:17825793])=[O:17825793]",
+      "display": "O[14C]=O",
+      "frequency": 1,
+      "selected": false,
+      "patterns": {
+        "ester": 1
+      }
+    }
+  ]
+}

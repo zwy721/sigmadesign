@@ -1,0 +1,17 @@
+{
+  "size": 500,
+  "rounds": 480,
+  "exact_frequency_recount": true,
+  "corpus": {
+    "molecules": 20000,
+    "source": "ChEMBL, train, is_duplicate=0",
+    "ids_npy_sha256": "5c810bb19f6877d91d40f9e5d5f72425d5afb953348107a4e7a98c48c5e280be",
+    "ordered_id_raw_smiles_sha256": "c901473f5683ebe2b97d8b0b8949ff639968f80f97b9a807613786666091726d"
+  },
+  "partition_stage": "diffusion_units",
+  "vocab_sha256": "d93e3688a7ec5f51d9a8eb1dd311c2202e2da0a5bb4e104c030695e9e9faec45",
+  "base_snapshot": "results/compression/top15/C500",
+  "source_library_sha256": "9c1204186648964aa9cb7eae9004a829a701f2244c10c85ad4d9c7ca4f7da9a0",
+  "encoded_records": "results/compression/audit/decorated/C500/encoded",
+  "serialized_full_graphs_reconstructed": 20000
+}

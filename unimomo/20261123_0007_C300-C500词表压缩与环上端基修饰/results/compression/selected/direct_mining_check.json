@@ -1,0 +1,12 @@
+{
+  "300": {
+    "identical_library": true,
+    "identical_vocabulary_and_usage": true,
+    "identical_diffusion_partitions": 20000
+  },
+  "500": {
+    "identical_library": true,
+    "identical_vocabulary_and_usage": true,
+    "identical_diffusion_partitions": 20000
+  }
+}
