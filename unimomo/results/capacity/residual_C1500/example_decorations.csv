@@ -1,0 +1,6 @@
+example_record,example_smiles,core_id,leaf_type,anchor_core_index_0based,anchor_molecule_heavy_index_0based,leaf_molecule_heavy_index_0based
+1749961,O=c1oc(-c2ccc(F)cc2)ns1,MOTIF_3e040e8964b9c3bdb334b620,=O,3,1,0
+1313416,Oc1ccc(-c2ncc(Br)s2)cc1O,MOTIF_2057d7a93422d15db9704347,Br,1,8,9
+1822974,CCc1cc(C)nc2c(Br)cnn12,MOTIF_84803323fa9dacdf50d46994,Br,6,8,9
+873320,CC1=CC(=O)C(C)=CC1=O,MOTIF_6817c920acf1f4a7e0769730,CH3,1,1,0
+873320,CC1=CC(=O)C(C)=CC1=O,MOTIF_6817c920acf1f4a7e0769730,CH3,5,5,6

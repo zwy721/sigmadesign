@@ -1,0 +1,17 @@
+test_entire_parent_topology (test_bpe.MiningTests.test_entire_parent_topology) ... ok
+test_legacy_default (test_bpe.MiningTests.test_legacy_default) ... ok
+test_roundtrip_and_frozen_replay (test_bpe.MiningTests.test_roundtrip_and_frozen_replay) ... ok
+test_score_and_config (test_bpe.MiningTests.test_score_and_config) ... ok
+test_amide_and_conjugation_are_parent_properties (test_bpe.RigidityTests.test_amide_and_conjugation_are_parent_properties) ... ok
+test_flexible_chain_blocked_through_new_or_existing_edge (test_bpe.RigidityTests.test_flexible_chain_blocked_through_new_or_existing_edge) ... ok
+test_ring_integrity_and_macrocycle_closure (test_bpe.RigidityTests.test_ring_integrity_and_macrocycle_closure) ... ok
+test_short_unions_in_parent_context (test_bpe.RigidityTests.test_short_unions_in_parent_context) ... ok
+test_all_ring_atoms_reserved (test_bpe.SeedTests.test_all_ring_atoms_reserved) ... ok
+test_catalog_and_examples (test_bpe.SeedTests.test_catalog_and_examples) ... ok
+test_identity_budget_and_frozen_fallback (test_bpe.SeedTests.test_identity_budget_and_frozen_fallback) ... ok
+test_nonoverlap_and_largest_first (test_bpe.SeedTests.test_nonoverlap_and_largest_first) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.162s
+
+OK

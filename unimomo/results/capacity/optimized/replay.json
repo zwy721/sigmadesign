@@ -1,0 +1,34 @@
+{
+  "corpus": {
+    "molecules": 20000,
+    "source": "ChEMBL, train, is_duplicate=0",
+    "ids_npy_sha256": "5c810bb19f6877d91d40f9e5d5f72425d5afb953348107a4e7a98c48c5e280be",
+    "ordered_id_raw_smiles_sha256": "c901473f5683ebe2b97d8b0b8949ff639968f80f97b9a807613786666091726d"
+  },
+  "failures": {
+    "800": [],
+    "1000": [],
+    "1500": []
+  },
+  "model_dir": "optimized",
+  "frozen_replay": {
+    "800": {
+      "molecules": 20000,
+      "identical_partitions": 20000,
+      "checked_tokens": 130444,
+      "internal_rotor_violations": 0
+    },
+    "1000": {
+      "molecules": 20000,
+      "identical_partitions": 20000,
+      "checked_tokens": 126864,
+      "internal_rotor_violations": 0
+    },
+    "1500": {
+      "molecules": 20000,
+      "identical_partitions": 20000,
+      "checked_tokens": 121217,
+      "internal_rotor_violations": 0
+    }
+  }
+}

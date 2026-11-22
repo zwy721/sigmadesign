@@ -1,0 +1,21 @@
+{
+  "dataset": "ChEMBL validation",
+  "sample_size": 5000,
+  "ordered_id_raw_smiles_sha256": "11dc8abda3545f5b6ee7819925f66f45748ae1fa9f0eb2b932c5d3cda0d3e074",
+  "sampling": "First 5,000 distinct eligible mol_ids by SHA-256('42|' + mol_id), then record id",
+  "train_sample": {
+    "molecules": 20000,
+    "source": "ChEMBL, train, is_duplicate=0",
+    "ids_npy_sha256": "5c810bb19f6877d91d40f9e5d5f72425d5afb953348107a4e7a98c48c5e280be",
+    "ordered_id_raw_smiles_sha256": "c901473f5683ebe2b97d8b0b8949ff639968f80f97b9a807613786666091726d"
+  },
+  "train_validation_overlaps": {
+    "id": 0,
+    "mol_id": 0,
+    "strict_id": 0,
+    "loose_id": 0,
+    "family_id": 0,
+    "group_id": 0
+  },
+  "failures": []
+}

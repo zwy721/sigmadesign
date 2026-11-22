@@ -1,0 +1,109 @@
+{
+  "corpus": {
+    "molecules": 20000,
+    "source": "ChEMBL, train, is_duplicate=0",
+    "ids_npy_sha256": "5c810bb19f6877d91d40f9e5d5f72425d5afb953348107a4e7a98c48c5e280be",
+    "ordered_id_raw_smiles_sha256": "c901473f5683ebe2b97d8b0b8949ff639968f80f97b9a807613786666091726d"
+  },
+  "by_preset": {
+    "baseline": {
+      "matched_C500_history_rounds": 461,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "endo": {
+      "matched_C500_history_rounds": 459,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "size": {
+      "matched_C500_history_rounds": 457,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "smarts": {
+      "matched_C500_history_rounds": 299,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "endo_size": {
+      "matched_C500_history_rounds": 455,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "endo_smarts": {
+      "matched_C500_history_rounds": 296,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "size_smarts": {
+      "matched_C500_history_rounds": 296,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "optimized": {
+      "matched_C500_history_rounds": 296,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    },
+    "all_rings": {
+      "matched_C500_history_rounds": 218,
+      "exact_prefix_sizes": [
+        500,
+        800,
+        1000,
+        1500
+      ],
+      "identical_seed_inventory": true,
+      "nested_partitions_per_transition": 20000
+    }
+  }
+}

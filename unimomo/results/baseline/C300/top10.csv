@@ -1,0 +1,121 @@
+category,statistic,rank,atom_or_environment,instances,fraction_of_category
+linker,atom,1,CH2,30956,0.7383837420093503
+linker,atom,2,O,4911,0.1171405400248068
+linker,atom,3,NH,3139,0.07487358076519417
+linker,atom,4,S,1311,0.03127087110008587
+linker,atom,5,N,533,0.012713481538021182
+linker,atom,6,CH,495,0.011807079477149127
+linker,atom,7,n,174,0.0041503673313615114
+linker,atom,8,s,146,0.003482492128613682
+linker,atom,9,o,102,0.0024329739528670927
+linker,atom,10,N+1,49,0.0011687816048087014
+linker,environment,1,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain",7489,0.17863276404923195
+linker,environment,2,"O(chain) | SINGLE:CH2:d2:chain, SINGLE:c:d3:ring",2077,0.04954202843240149
+linker,environment,3,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:NH:d2:chain",1820,0.04341188817860891
+linker,environment,4,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:O:d2:chain",1662,0.03964316382024616
+linker,environment,5,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:c:d3:ring",1439,0.034324014884075944
+linker,environment,6,"CH2(chain) | SINGLE:C:d3:chain, SINGLE:CH2:d2:chain",1342,0.03201030436027097
+linker,environment,7,"CH2(chain) | SINGLE:NH:d2:chain, SINGLE:c:d3:ring",1229,0.029314950863467228
+linker,environment,8,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:N:d3:chain",1073,0.02559393187672932
+linker,environment,9,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:N:d3:ring",1069,0.02549852113347963
+linker,environment,10,"CH2(chain) | SINGLE:N:d3:ring, SINGLE:c:d3:ring",859,0.02048945711287091
+ring_terminal,atom,1,CH3,8402,0.3986714116251483
+ring_terminal,atom,2,O,5411,0.2567497034400949
+ring_terminal,atom,3,OH,3100,0.14709371293001186
+ring_terminal,atom,4,NH2,1070,0.050771055753262156
+ring_terminal,atom,5,Cl,1041,0.04939501779359431
+ring_terminal,atom,6,F,902,0.042799525504151836
+ring_terminal,atom,7,Br,523,0.024816132858837485
+ring_terminal,atom,8,S,162,0.0076868327402135235
+ring_terminal,atom,9,I,110,0.005219454329774615
+ring_terminal,atom,10,CH2,104,0.004934756820877817
+ring_terminal,environment,1,O(chain) | DOUBLE:C:d3:ring,3374,0.16009489916963227
+ring_terminal,environment,2,CH3(chain) | SINGLE:C:d4:ring,3048,0.14462633451957296
+ring_terminal,environment,3,CH3(chain) | SINGLE:c:d3:ring,2534,0.12023724792408066
+ring_terminal,environment,4,O(chain) | DOUBLE:c:d3:ring,1503,0.07131672597864769
+ring_terminal,environment,5,OH(chain) | SINGLE:c:d3:ring,1350,0.06405693950177936
+ring_terminal,environment,6,OH(chain) | SINGLE:CH:d3:ring,1181,0.0560379596678529
+ring_terminal,environment,7,CH3(chain) | SINGLE:CH:d3:ring,1130,0.05361803084223013
+ring_terminal,environment,8,Cl(chain) | SINGLE:c:d3:ring,988,0.046880189798339265
+ring_terminal,environment,9,CH3(chain) | SINGLE:n:d3:ring,747,0.03544483985765125
+ring_terminal,environment,10,NH2(chain) | SINGLE:c:d3:ring,724,0.03435349940688019
+acyclic_terminal,atom,1,O-1,198,0.2043343653250774
+acyclic_terminal,atom,2,CH3,158,0.16305469556243551
+acyclic_terminal,atom,3,OH,138,0.14241486068111456
+acyclic_terminal,atom,4,Cl,84,0.08668730650154799
+acyclic_terminal,atom,5,Br,65,0.06707946336429309
+acyclic_terminal,atom,6,NH2,62,0.06398348813209494
+acyclic_terminal,atom,7,S,57,0.058823529411764705
+acyclic_terminal,atom,8,N,51,0.05263157894736842
+acyclic_terminal,atom,9,N-1,40,0.0412796697626419
+acyclic_terminal,atom,10,F,36,0.03715170278637771
+acyclic_terminal,environment,1,O-1(chain) | SINGLE:S:d4:chain,59,0.0608875128998968
+acyclic_terminal,environment,2,CH3(chain) | SINGLE:Si:d4:chain,54,0.05572755417956656
+acyclic_terminal,environment,3,Cl(chain) | SINGLE:C:d4:chain,51,0.05263157894736842
+acyclic_terminal,environment,4,N(chain) | TRIPLE:C:d2:chain,51,0.05263157894736842
+acyclic_terminal,environment,5,O-1(chain) | SINGLE:P:d4:chain,51,0.05263157894736842
+acyclic_terminal,environment,6,O-1(chain) | SINGLE:S+1:d3:chain,51,0.05263157894736842
+acyclic_terminal,environment,7,OH(chain) | SINGLE:N:d2:chain,49,0.05056759545923633
+acyclic_terminal,environment,8,CH3(chain) | SINGLE:N+1:d4:chain,47,0.048503611971104234
+acyclic_terminal,environment,9,S(chain) | DOUBLE:C:d3:chain,44,0.04540763673890609
+acyclic_terminal,environment,10,N-1(chain) | DOUBLE:N+1:d2:chain,40,0.0412796697626419
+hub,atom,1,CH,2326,0.5921588594704684
+hub,atom,2,N,567,0.14434826883910387
+hub,atom,3,C,356,0.09063136456211812
+hub,atom,4,S,190,0.04837067209775967
+hub,atom,5,n+1,144,0.03665987780040733
+hub,atom,6,c,74,0.01883910386965377
+hub,atom,7,N+1,70,0.017820773930753563
+hub,atom,8,S+1,70,0.017820773930753563
+hub,atom,9,Si,33,0.00840122199592668
+hub,atom,10,P,24,0.006109979633401222
+hub,environment,1,"CH(chain) | SINGLE:C:d3:chain, SINGLE:CH2:d2:chain, SINGLE:NH:d2:chain",556,0.1415478615071283
+hub,environment,2,"N(chain) | SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain",215,0.05473523421588595
+hub,environment,3,"CH(chain) | SINGLE:C:d3:chain, SINGLE:CH:d3:chain, SINGLE:NH:d2:chain",127,0.032331975560081466
+hub,environment,4,"CH(chain) | SINGLE:CH2:d2:chain, SINGLE:NH:d2:chain, SINGLE:c:d3:ring",103,0.026221995926680244
+hub,environment,5,"N(chain) | SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain, SINGLE:c:d3:ring",102,0.025967413441955193
+hub,environment,6,"CH(chain) | SINGLE:CH2:d2:chain, SINGLE:CH:d3:chain, SINGLE:NH:d2:chain",96,0.024439918533604887
+hub,environment,7,"CH(chain) | SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain, SINGLE:NH:d2:chain",68,0.017311608961303463
+hub,environment,8,"CH(chain) | SINGLE:C:d3:chain, SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain",60,0.015274949083503055
+hub,environment,9,"CH(chain) | SINGLE:CH2:d2:chain, SINGLE:c:d3:ring, SINGLE:c:d3:ring",51,0.012983706720977596
+hub,environment,10,"CH(chain) | SINGLE:N:d3:ring, SINGLE:c:d3:ring, SINGLE:c:d3:ring",46,0.011710794297352342
+isolated,atom,1,ClH,574,0.5660749506903353
+isolated,atom,2,Na+1,135,0.13313609467455623
+isolated,atom,3,Br-1,86,0.08481262327416174
+isolated,atom,4,Cl-1,65,0.0641025641025641
+isolated,atom,5,I-1,61,0.0601577909270217
+isolated,atom,6,BrH,41,0.04043392504930966
+isolated,atom,7,K+1,17,0.016765285996055226
+isolated,atom,8,NH3,9,0.008875739644970414
+isolated,atom,9,OH2,9,0.008875739644970414
+isolated,atom,10,Li+1,8,0.007889546351084813
+isolated,environment,1,ClH(chain) | ,574,0.5660749506903353
+isolated,environment,2,Na+1(chain) | ,135,0.13313609467455623
+isolated,environment,3,Br-1(chain) | ,86,0.08481262327416174
+isolated,environment,4,Cl-1(chain) | ,65,0.0641025641025641
+isolated,environment,5,I-1(chain) | ,61,0.0601577909270217
+isolated,environment,6,BrH(chain) | ,41,0.04043392504930966
+isolated,environment,7,K+1(chain) | ,17,0.016765285996055226
+isolated,environment,8,NH3(chain) | ,9,0.008875739644970414
+isolated,environment,9,OH2(chain) | ,9,0.008875739644970414
+isolated,environment,10,Li+1(chain) | ,8,0.007889546351084813
+all,atom,1,CH2,31060,0.4507328399361486
+all,atom,2,O,10354,0.15025395443331882
+all,atom,3,CH3,8560,0.12421999709766363
+all,atom,4,OH,3238,0.046988826004933974
+all,atom,5,NH,3210,0.04658249891162386
+all,atom,6,CH,2828,0.04103903642432158
+all,atom,7,S,1720,0.024960092874764184
+all,atom,8,N,1151,0.016702945871426497
+all,atom,9,NH2,1132,0.01642722391525178
+all,atom,10,Cl,1125,0.016325642141924248
+all,environment,1,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:CH2:d2:chain",7489,0.10867798577855173
+all,environment,2,O(chain) | DOUBLE:C:d3:ring,3374,0.048962414743868816
+all,environment,3,CH3(chain) | SINGLE:C:d4:ring,3048,0.044231606443186765
+all,environment,4,CH3(chain) | SINGLE:c:d3:ring,2534,0.03677260194456537
+all,environment,5,"O(chain) | SINGLE:CH2:d2:chain, SINGLE:c:d3:ring",2077,0.030140763314468147
+all,environment,6,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:NH:d2:chain",1820,0.02641126106515745
+all,environment,7,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:O:d2:chain",1662,0.02411841532433609
+all,environment,8,O(chain) | DOUBLE:c:d3:ring,1503,0.021811057901610798
+all,environment,9,"CH2(chain) | SINGLE:CH2:d2:chain, SINGLE:c:d3:ring",1439,0.020882310259759108
+all,environment,10,OH(chain) | SINGLE:c:d3:ring,1350,0.0195907705703091
